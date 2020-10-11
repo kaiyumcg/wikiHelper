@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CD7AE608-CF24-7018-4F8B-DB93B18E3229}</ProjectGuid>
+    <ProjectGuid>{CA28924D-8D0D-2446-E478-2B4B8B37AD2D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,20 +58,21 @@
     <Compile Include="Assets\com.rvkm.unitygames.wiki\Utility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\Test\CrossBtnTester.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\WikiData.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\ErrorUI_Con.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.extensions\Tweens\ScaleTween.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.wiki\UiElemOnPage.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\DialogueBox.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.extensions\Tweens\ScaleTween.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.extensions\Tweens\RotateTween.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.wiki\UiElemOnPage.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames\GameDebug.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\BoxUI.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\UiCon.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Test\UrlFormattingTest.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.extensions\Tweens\FlickTween.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\NativeExtensions.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\TapHoldRepeaterCrossButton.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Async\AsyncUtility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\WikiCon.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\LoadingUI.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.extensions\Tweens\FlickTween.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.extensions\Tweens\RotateTween.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames\GameDebug.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\Test\LoaderUITester.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\FullScreenLoadingUI.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Packages\HtmlAgilityPack.1.11.24\lib\netstandard2.0\HtmlAgilityPack.xml" />

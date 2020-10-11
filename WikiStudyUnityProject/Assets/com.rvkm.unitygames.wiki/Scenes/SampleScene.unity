@@ -6491,13 +6491,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1748899222}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ada8d1f197644fe46a3a1de8df63dcc6, type: 3}
+  m_Script: {fileID: 11500000, guid: 14bf8495ed3112b4ba52a0f3864c6a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loaderFullScreen: {fileID: 0}
-  progressTxt: {fileID: 0}
-  headerTxt: {fileID: 0}
-  subHeaderTxt: {fileID: 0}
+  testValue: 0
+  willShowSubHeader: 0
+  willShowProgress: 0
 --- !u!4 &1748899224
 Transform:
   m_ObjectHideFlags: 0
