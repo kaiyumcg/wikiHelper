@@ -260,7 +260,7 @@ namespace com.rvkm.unitygames.wiki
         public static bool IsUrlValid(string url)
         {
             //todo
-            return false;
+            throw new Exception();
         }
 
         public static List<Url_UI_Data> Json_To_UI(Url_Json[] urls)

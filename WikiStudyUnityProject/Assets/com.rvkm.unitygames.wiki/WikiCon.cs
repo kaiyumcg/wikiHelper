@@ -33,7 +33,7 @@ namespace com.rvkm.unitygames.wiki
 
         public string GetCurrentUrlToProcess()
         {
-            
+            throw new Exception();
         }
 
         void DoIt()

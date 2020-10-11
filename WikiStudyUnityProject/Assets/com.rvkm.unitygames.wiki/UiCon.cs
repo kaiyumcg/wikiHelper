@@ -87,67 +87,68 @@ namespace com.rvkm.unitygames.wiki
                 //if the proc list is empty or if the data is completed then we save data to disk and display result page
                 //or always go to processing page with first proc list element
 
-                string url = currentPageType == PageType.MainPage ? mainNodeUrlInp.text : "";//todo
+                string url = currentPageType == PageType.MainPage ? mainNodeUrlInp.text : wikiCon.GetCurrentUrlToProcess();//todo
                 DialogueBox.ShowYesNo("Confirmation", "Will proceed with url: " + url,
 
                     //Yes, we will proceed
                     () =>
                     {
-                        if (Utility.IsUrlValid(url) == false)
-                        {
-                            DialogueBox.ShowOk("Error!", "Url is invalid, please set a valid wiki url or " +
-                                "check if url validator is implemented in utility class! " +
-                                "Or check the proc list for debugging since this third case should not be executed at all!");
-                        }
-                        else
-                        {
-                            bool dataFetchSuccess = true;
-                            string errorMsg = "";
-                            FullScreenLoadingUI.Show("Loading", "Reading device data", 0.2f);
-                            AsyncUtility.WaitXSeconds(0.3f, () => {
-
-                                var allDevData = currentPageType == PageType.MainPage ?
-                                Utility.MergeAllDeviceData(Utility.FormatWikiUrlIfReq(url), ref dataFetchSuccess, ref errorMsg) : wikiCon.JsonData;
-                                FullScreenLoadingUI.Show("Loading", "Reading data", 0.99f);
-                                AsyncUtility.WaitOneFrame(() =>
-                                {
-                                    if (dataFetchSuccess == false)
-                                    {
-                                        DialogueBox.ShowOk("Error!", "msg: " + errorMsg);
-                                    }
-                                    else
-                                    {
-                                        if (allDevData == null)
-                                        {
-                                            //no data in device, we will create a fresh
-                                            DialogueBox.ShowOk("Complete!", "No Data in the device! " +
-                                                "<color='green'>We will create for you!</color>", () =>
-                                                {
-                                                    wikiCon.JsonData = wikiCon.CreateFreshWikiJsonData();
-                                                    wikiCon.UI_Data = new WikiUIData(wikiCon.JsonData);
-                                                });
-                                        }
-                                        else
-                                        {
-                                            //there are data and we will use it.
-                                            wikiCon.JsonData = allDevData;
-                                            wikiCon.UI_Data = new WikiUIData(allDevData);
-                                        }
-                                    }
-                                });
-                            });
-
-                        }
+                        ProcessUrlNextBtn(url);
                     }, 
                     () =>
                     {
                         //Nope, do nothing.
                     });
-                
-
             });
+        }
 
+        void ProcessUrlNextBtn(string url, bool isMainPage)
+        {
+            if (Utility.IsUrlValid(url) == false)
+            {
+                DialogueBox.ShowOk("Error!", "Url is invalid, please set a valid wiki url or " +
+                    "check if url validator is implemented in utility class! " +
+                    "Or check the proc list for debugging since this third case should not be executed at all!");
+            }
+            else
+            {
+                bool dataFetchSuccess = true;
+                string errorMsg = "";
+                FullScreenLoadingUI.Show("Loading", "Reading Json data", 0.2f);
+                AsyncUtility.WaitXSeconds(0.3f, () => {
 
+                    var allDevData = isMainPage ?
+                    Utility.MergeAllDeviceData(Utility.FormatWikiUrlIfReq(url), ref dataFetchSuccess, ref errorMsg) : wikiCon.JsonData;
+                    FullScreenLoadingUI.Show("Loading", "Reading data", 0.99f);
+                    AsyncUtility.WaitOneFrame(() =>
+                    {
+                        if (dataFetchSuccess == false)
+                        {
+                            DialogueBox.ShowOk("Error!", "msg: " + errorMsg);
+                        }
+                        else
+                        {
+                            if (allDevData == null)
+                            {
+                                //no data in device, we will create a fresh
+                                DialogueBox.ShowOk("Complete!", "No Data in the device! " +
+                                    "<color='green'>We will create for you!</color>", () =>
+                                    {
+                                        wikiCon.JsonData = wikiCon.CreateFreshWikiJsonData();
+                                        wikiCon.UI_Data = new WikiUIData(wikiCon.JsonData);
+                                    });
+                            }
+                            else
+                            {
+                                //there are data and we will use it.
+                                wikiCon.JsonData = allDevData;
+                                wikiCon.UI_Data = new WikiUIData(allDevData);
+                            }
+                        }
+                    });
+                });
+
+            }
         }
 
         void BindButton(Button b, Action callback)
