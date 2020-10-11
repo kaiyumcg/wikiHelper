@@ -16,11 +16,24 @@ namespace com.rvkm.unitygames.wiki
     {
         [SerializeField] string wikiNodeMain = "";
         public Action OnStartUI;
+        public WikiDataJson JsonData { get; set; }
+        public WikiUIData UI_Data { get; set; }
+        public string CurrentUrl { get; set; }
         public List<LinkDesc> links = new List<LinkDesc>();
         // Start is called before the first frame update
         void Start()
         {
 
+        }
+
+        public WikiDataJson CreateFreshWikiJsonData()
+        {
+            throw new Exception();
+        }
+
+        public string GetCurrentUrlToProcess()
+        {
+            
         }
 
         void DoIt()

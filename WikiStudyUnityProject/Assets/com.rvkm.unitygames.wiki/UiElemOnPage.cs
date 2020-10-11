@@ -19,14 +19,12 @@ namespace com.rvkm.unitygames.wiki
         [SerializeField] MaskableGraphic[] allUI_Sel_Tween;
         Color[] allUI_initCol;
         Action OnMinus, OnPlus;
+        bool installed = false;
 
-        private void Start()
+        public void Install(string url, string url_name, Action OnPlus, Action OnMinus)
         {
-            SetupElem("https://en.wikipedia.org/wiki/.NET_Core", "dot net core", () => { Debug.Log("added!"); }, () => { Debug.Log("removed!"); });
-        }
-
-        public void SetupElem(string url, string url_name, Action OnPlus, Action OnMinus)
-        {
+            if (installed) { return; }
+            installed = true;
             this.full_url = Utility.GetFullWikiUrlIfReq(url);
             this.urlText.text = url_name;
             this.OnMinus = OnMinus;

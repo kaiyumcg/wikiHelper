@@ -1,10 +1,14 @@
-﻿using System.Collections;
+﻿using com.rvkm.unitygames.extensions.async;
+using com.rvkm.unitygames.extensions.UI;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace com.rvkm.unitygames.wiki
 {
+    public enum PageType { MainPage, AutoRemovedPage, ManualRemovedPage, pickedPage, ProcessingPage}
     /// <summary>
     /// todo. uielem on other page, button think. WikiCon public method for UiCon, incomplete save?
     /// </summary>
@@ -14,60 +18,25 @@ namespace com.rvkm.unitygames.wiki
         /// Reference to the app controller.
         /// </summary>
         [SerializeField] WikiCon wikiCon;
-
-        /// <summary>
-        /// Main page's input field to take input from the user for the wiki link to process.
-        /// </summary>
         [SerializeField] InputField mainNodeUrlInp;
         [SerializeField] Text mainNodeTxt;
-
+        [SerializeField] Text statusEntriesTxt; //only update when we add or remove entries
+        [SerializeField] Button nextBtn;
+        
         /// <summary>
-        /// display status of entries all the pages, these are page specific UI, rather global.
+        /// All buttons in option
         /// </summary>
-        [Header("Entries Count UI")]
-        [SerializeField] Text autoEntries;
-        [SerializeField] Text manualEntries;
-        [SerializeField] Text basketEntries;
-
-        /// <summary>
-        /// Main page buttons. AutoLoad to load the latest save file.
-        /// FullLoad to try to load all save files for the given link in inputfield.
-        /// Browse to open from system UI. 
-        /// Submit to submit from input field. Save to save the progress to a file. 
-        /// Exit to exit app and it will auto save the progress to file.
-        /// </summary>
-        [Header("Main Page Buttons")]
-        [SerializeField] Button autoLoadBtn;
-        [SerializeField] Button fullLoadBtn;
+        [Header("All option buttons")]
+        [SerializeField] Button backBtn;
+        [SerializeField] Button latestSaveFileLoadBtn;
+        [SerializeField] Button allSaveFileLoadBtn;
         [SerializeField] Button browseToOpenBtn;
-        [SerializeField] Button submitBtn;
         [SerializeField] Button saveBtn;
         [SerializeField] Button exitBtn;
-
-        /// <summary>
-        /// Processing page buttons. Next to process into the next iterations. Home to go back to home screen, progress will be saved.
-        /// ManualPage to go to visit manually selected ignore link list page. 
-        /// AutoPage to visit automatically selected ignore link list page.
-        /// PlusPage to visit picked or plus link list page.
-        /// </summary>
-        [Header("Processing Page Buttons")]
-        [SerializeField] Button nextBtn;
         [SerializeField] Button homeBtn;
         [SerializeField] Button manualPageBtn;
         [SerializeField] Button autoPageBtn;
         [SerializeField] Button plusPageBtn;
-
-
-        /// <summary>
-        /// Manual page button. Back to processing page.
-        /// Auto page button. Back to processing page.
-        /// Plus page button. Back to processing page.
-        /// </summary>
-        [Header("All 'Back' buttons")]
-        [SerializeField] Button backFromManualPageBtn;
-        [SerializeField] Button backFromAutoPageBtn;
-        [SerializeField] Button backFromPlusPageBtn;
-
 
         /// <summary>
         /// References to all the pages. 
@@ -79,6 +48,7 @@ namespace com.rvkm.unitygames.wiki
         [SerializeField] GameObject manualBinPage;
         [SerializeField] GameObject processingPage;
 
+        PageType currentPageType;
         void OnEnable()
         {
             wikiCon.OnStartUI += OnStartUI;
@@ -91,17 +61,7 @@ namespace com.rvkm.unitygames.wiki
 
         void OnStartUI()
         {
-            StartPage(true, false, false, false, false);
-            autoLoadBtn.onClick.RemoveAllListeners();
-            autoLoadBtn.onClick.AddListener(() =>
-            {
-                autoLoadBtn.interactable = false;
-
-                //show loading
-                //do load async
-                //and after that
-                StartPage(false, false, false, true, false);
-            });
+            InstallAllUI();
 
         }
 
@@ -112,6 +72,91 @@ namespace com.rvkm.unitygames.wiki
             autoBinPage.SetActive(isAuto);
             manualBinPage.SetActive(isManual);
             processingPage.SetActive(isProc);
+
+            if (isMain)
+            {
+                currentPageType = PageType.MainPage;
+                //todo
+            }
+        }
+
+        void InstallAllUI()
+        {
+            BindButton(nextBtn, () =>
+            {
+                //if the proc list is empty or if the data is completed then we save data to disk and display result page
+                //or always go to processing page with first proc list element
+
+                string url = currentPageType == PageType.MainPage ? mainNodeUrlInp.text : "";//todo
+                DialogueBox.ShowYesNo("Confirmation", "Will proceed with url: " + url,
+
+                    //Yes, we will proceed
+                    () =>
+                    {
+                        if (Utility.IsUrlValid(url) == false)
+                        {
+                            DialogueBox.ShowOk("Error!", "Url is invalid, please set a valid wiki url or " +
+                                "check if url validator is implemented in utility class! " +
+                                "Or check the proc list for debugging since this third case should not be executed at all!");
+                        }
+                        else
+                        {
+                            bool dataFetchSuccess = true;
+                            string errorMsg = "";
+                            FullScreenLoadingUI.Show("Loading", "Reading device data", 0.2f);
+                            AsyncUtility.WaitXSeconds(0.3f, () => {
+
+                                var allDevData = currentPageType == PageType.MainPage ?
+                                Utility.MergeAllDeviceData(Utility.FormatWikiUrlIfReq(url), ref dataFetchSuccess, ref errorMsg) : wikiCon.JsonData;
+                                FullScreenLoadingUI.Show("Loading", "Reading data", 0.99f);
+                                AsyncUtility.WaitOneFrame(() =>
+                                {
+                                    if (dataFetchSuccess == false)
+                                    {
+                                        DialogueBox.ShowOk("Error!", "msg: " + errorMsg);
+                                    }
+                                    else
+                                    {
+                                        if (allDevData == null)
+                                        {
+                                            //no data in device, we will create a fresh
+                                            DialogueBox.ShowOk("Complete!", "No Data in the device! " +
+                                                "<color='green'>We will create for you!</color>", () =>
+                                                {
+                                                    wikiCon.JsonData = wikiCon.CreateFreshWikiJsonData();
+                                                    wikiCon.UI_Data = new WikiUIData(wikiCon.JsonData);
+                                                });
+                                        }
+                                        else
+                                        {
+                                            //there are data and we will use it.
+                                            wikiCon.JsonData = allDevData;
+                                            wikiCon.UI_Data = new WikiUIData(allDevData);
+                                        }
+                                    }
+                                });
+                            });
+
+                        }
+                    }, 
+                    () =>
+                    {
+                        //Nope, do nothing.
+                    });
+                
+
+            });
+
+
+        }
+
+        void BindButton(Button b, Action callback)
+        {
+            b.onClick.RemoveAllListeners();
+            b.onClick.AddListener(() =>
+            {
+                callback?.Invoke();
+            });
         }
     }
 }

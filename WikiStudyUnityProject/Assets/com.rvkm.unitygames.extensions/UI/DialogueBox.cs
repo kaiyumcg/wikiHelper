@@ -35,7 +35,7 @@ namespace com.rvkm.unitygames.extensions.UI
             }
         }
 
-        public static void ShowOk(string header, string message, Action OnOk)
+        public static void ShowOk(string header, string message, Action OnOk = null)
         {
             var actions = new DialogueBoxActions
             {
