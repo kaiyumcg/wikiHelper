@@ -12,7 +12,7 @@ namespace com.rvkm.unitygames.extensions.UI
         static DialogueBox instance;
         const string dialogueBoxControllerPrefabFullPath = "rvkm/UI/dialogueCon";
         const string dialogueBoxPrefabFullPath = "rvkm/UI/dialogueBox";
-
+        const float spawnRange = 0.03f;
         private void Awake()
         {
             InitScriptIfReq();
@@ -45,7 +45,7 @@ namespace com.rvkm.unitygames.extensions.UI
                 OnOkCancel_Ok = null,
                 OnYes = null,
                 OnProgress_cancel = null,
-                OnProgress_Ok = null
+                OnProgress_Ok = null, OnProgress_Cycle = null, progressUI_Rate = 0f
             };
             DialogueBoxCore(BoxType.Ok, header, message, actions);
         }
@@ -60,7 +60,8 @@ namespace com.rvkm.unitygames.extensions.UI
                 OnOkCancel_Ok = OnOk,
                 OnYes = null,
                 OnProgress_cancel = null,
-                OnProgress_Ok = null
+                OnProgress_Ok = null, OnProgress_Cycle = null,
+                progressUI_Rate = 0f
             };
             DialogueBoxCore(BoxType.OkCancel, header, message, actions);
         }
@@ -75,12 +76,13 @@ namespace com.rvkm.unitygames.extensions.UI
                 OnOkCancel_Ok = null,
                 OnYes = OnYes,
                 OnProgress_cancel = null,
-                OnProgress_Ok = null
+                OnProgress_Ok = null, OnProgress_Cycle = null,
+                progressUI_Rate = 0f
             };
             DialogueBoxCore(BoxType.YesNo, header, message, actions);
         }
 
-        public static BoxUI ShowProgress(string header, string message, Action OnOk, Action OnCancel)
+        public static BoxUI ShowProgress(string header, string message, Action OnOk, Action OnCancel, Action OnProgressCycle = null, float updateRate = 0.4f)
         {
             var actions = new DialogueBoxActions
             {
@@ -90,7 +92,8 @@ namespace com.rvkm.unitygames.extensions.UI
                 OnOkCancel_Ok = null,
                 OnYes = null,
                 OnProgress_cancel = OnCancel,
-                OnProgress_Ok = OnOk
+                OnProgress_Ok = OnOk, OnProgress_Cycle = OnProgressCycle,
+                progressUI_Rate = updateRate
             };
             return DialogueBoxCore(BoxType.Progress, header, message, actions);
         }
@@ -101,9 +104,12 @@ namespace com.rvkm.unitygames.extensions.UI
             CloneMainControlIfReq();
             GameObject box = Instantiate(Resources.Load(dialogueBoxPrefabFullPath, typeof(GameObject))) as GameObject;
             box.gameObject.SetActive(true);
+
+
+
             var dialogueBox = box.GetComponent<BoxUI>();
             UpdateBoxCanvasSortingOrder(dialogueBox.canvasUI);
-            dialogueBox.Install(boxType, header, message, actions);
+            dialogueBox.Install(boxType, header, message, actions, spawnRange);
 
             return dialogueBox;
         }

@@ -9,7 +9,8 @@ namespace com.rvkm.unitygames.extensions.UI
     public class DialogueBoxActions
     {
         public Action OnOK, OnOkCancel_Ok, OnOkCancel_Cancel, OnYes, OnNo,
-           OnProgress_Ok, OnProgress_cancel;
+           OnProgress_Ok, OnProgress_cancel, OnProgress_Cycle;
+        public float progressUI_Rate;
     }
 
     public class BoxUI : MonoBehaviour
@@ -19,12 +20,26 @@ namespace com.rvkm.unitygames.extensions.UI
         [SerializeField] Image progressImg;
 
         [SerializeField] Canvas canvas;
+        [SerializeField] Transform mainPanel;
         public Canvas canvasUI { get { return canvas; } }
         DialogueBoxActions boxActions;
         BoxType bType;
+        bool installed = false;
+        bool completed = false;
 
-        public void Install(BoxType boxType, string header, string message, DialogueBoxActions actions)
+        public void Install(BoxType boxType, string header, string message, DialogueBoxActions actions, float spawnRange)
         {
+            if (installed) { return; }
+            installed = true;
+            completed = false;
+            timer = 0f;
+            //todo range
+            Vector3 center = new Vector3(Screen.width * 0.5f, Screen.height * 0.5f, 0f);
+            spawnRange = Screen.width * spawnRange;
+            center.x += UnityEngine.Random.Range(-spawnRange, spawnRange);
+            center.y += UnityEngine.Random.Range(-spawnRange, spawnRange);
+            mainPanel.position = center;
+
             //setup
             bType = boxType;
             headerTxt.text = header;
@@ -40,12 +55,30 @@ namespace com.rvkm.unitygames.extensions.UI
             PaintUI_Accordingly();
         }
 
+        float timer;
+        private void Update()
+        {
+            if (installed == false || bType != BoxType.Progress || completed) { return; }
+            timer += Time.deltaTime;
+            if (timer > boxActions.progressUI_Rate)
+            {
+                timer = 0f;
+                boxActions.OnProgress_Cycle?.Invoke();
+            }
+        }
+
         public void SignalComplete()
         {
             if (bType != BoxType.Progress) { return; }
             mainMessageTxt.text = "Completed!";
             TurnOffAllDialogueUI();
             progress_okBtn.gameObject.SetActive(true);
+            completed = true;
+        }
+
+        public void SetMessage(string msg)
+        {
+            mainMessageTxt.text = msg;
         }
 
         public void DestroyUI()
