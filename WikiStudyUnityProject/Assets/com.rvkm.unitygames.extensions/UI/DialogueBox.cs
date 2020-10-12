@@ -66,7 +66,7 @@ namespace com.rvkm.unitygames.extensions.UI
             DialogueBoxCore(BoxType.OkCancel, header, message, actions);
         }
 
-        public static void ShowYesNo(string header, string message, Action OnYes, Action OnNo)
+        public static void ShowYesNo(string header, string message, Action OnYes, Action OnNo = null)
         {
             var actions = new DialogueBoxActions
             {
