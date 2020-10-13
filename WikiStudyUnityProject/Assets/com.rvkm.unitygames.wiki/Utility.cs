@@ -8,6 +8,13 @@ using com.rvkm.unitygames.extensions;
 
 namespace com.rvkm.unitygames.wiki
 {
+    public class WikiStat
+    {
+        public string mainNodeUrl;
+        public bool Completed;
+        public int autoCount, manualCount, pickedCount;
+    }
+
     public class Utility
     {
         static bool logStateUtility = true;
@@ -81,7 +88,14 @@ namespace com.rvkm.unitygames.wiki
             r_url = Regex.Replace(r_url, "https://", "");
             r_url = Regex.Replace(r_url, "en.wikipedia.org", "");
             r_url = Regex.Replace(r_url, "en.m.wikipedia.org", "");
+            r_url = r_url.TrimUrlSlashesFromStart();
+            r_url = r_url.TrimUrlSlashesFromEnd();
             return r_url;
+        }
+
+        public static WikiStat GetCurrentStatJsonData(WikiCon wikiCon)
+        {
+            throw new NotImplementedException();
         }
 
         public static string GetFullWikiUrlIfReq(string url)

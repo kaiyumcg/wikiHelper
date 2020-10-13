@@ -9,8 +9,8 @@ using UnityEngine.UI;
 
 namespace com.rvkm.unitygames.wiki
 {
-    public enum PageType { MainPage, AutoRemovedPage, ManualRemovedPage, pickedPage, ProcessingPage}
-    public enum MainPageDataProcType { FromLatest, MergeAll, Browse}
+    public enum PageType { MainPage, AutoRemovedPage, ManualRemovedPage, PickedPage, ProcessingPage, ResultPage }
+    public enum DevDataReadType { FromLatest, MergeAll, Browse}
     /// <summary>
     /// todo. uielem on other page, button think. WikiCon public method for UiCon, incomplete save?
     /// </summary>
@@ -21,10 +21,9 @@ namespace com.rvkm.unitygames.wiki
         /// </summary>
         [SerializeField] WikiCon wikiCon;
         [SerializeField] InputField mainNodeUrlInp;
-        [SerializeField] Text mainNodeTxt;
+        [SerializeField] Text currentNodeTxt;
         [SerializeField] Text statusEntriesTxt; //only update when we add or remove entries
         [SerializeField] Button nextBtn;
-        
         /// <summary>
         /// All buttons in option
         /// </summary>
@@ -39,6 +38,7 @@ namespace com.rvkm.unitygames.wiki
         [SerializeField] Button manualPageBtn;
         [SerializeField] Button autoPageBtn;
         [SerializeField] Button pickedPageBtn;
+        [SerializeField] Button resultPageBtn;
 
         /// <summary>
         /// References to all the pages. 
@@ -49,6 +49,7 @@ namespace com.rvkm.unitygames.wiki
         [SerializeField] GameObject autoBinPage;
         [SerializeField] GameObject manualBinPage;
         [SerializeField] GameObject processingPage;
+        [SerializeField] GameObject resultPage;
 
         PageType currentPageType;
         void OnEnable()
@@ -68,13 +69,14 @@ namespace com.rvkm.unitygames.wiki
             InstallAllUI();
         }
 
-        void StartPage(bool isMain, bool isManual, bool isAuto, bool isProc, bool isPicked)
+        void StartPage(PageType pageType)
         {
-            mainPage.SetActive(isMain);
-            pickedPage.SetActive(isPicked);
-            autoBinPage.SetActive(isAuto);
-            manualBinPage.SetActive(isManual);
-            processingPage.SetActive(isProc);
+            mainPage.SetActive(pageType == PageType.MainPage);
+            pickedPage.SetActive(pageType == PageType.PickedPage);
+            autoBinPage.SetActive(pageType == PageType.AutoRemovedPage);
+            manualBinPage.SetActive(pageType == PageType.ManualRemovedPage);
+            processingPage.SetActive(pageType == PageType.ProcessingPage);
+            resultPage.SetActive(pageType == PageType.ResultPage);
         }
 
         void InstallAllUI()
@@ -83,36 +85,64 @@ namespace com.rvkm.unitygames.wiki
             {
                 if (currentPageType == PageType.MainPage)
                 {
-                    ProcessDataFromMainPage(MainPageDataProcType.MergeAll);
+                    DeviceWikiDataReader.OnNextButton_MainPage(DevDataReadType.MergeAll, wikiCon, mainNodeUrlInp.text, () =>
+                    {
+                        throw new System.NotImplementedException();
+                    });
+                }
+                else if (currentPageType == PageType.ResultPage)
+                {
+                    StackTrace st = new StackTrace(new StackFrame(true));
+                    StackFrame sf = st.GetFrame(0);
+                    DialogueBox.ShowOk("Error!", "This button should not be here in this page. Report bug to developer!" +
+                        "in line: "+sf.GetFileLineNumber()+" at file: "+sf.GetFileName());
+                }
+                else if (currentPageType == PageType.ProcessingPage)
+                {
+                    throw new System.NotImplementedException();
                 }
                 else
                 {
-                    OtherPageNextBtn();
+                    DeviceWikiDataReader.OnNextButton(wikiCon, () =>
+                    {
+                        throw new System.NotImplementedException();
+                    });
                 }
             });
 
             BindButton(backBtn, () =>
             {
                 if (currentPageType == PageType.AutoRemovedPage || currentPageType == PageType.ManualRemovedPage
-                || currentPageType == PageType.pickedPage)
+                || currentPageType == PageType.PickedPage)
                 {
                     PaintProcessingPage();
                 }
                 else
                 {
-                    DialogueBox.ShowOk("Error!!", "This button should not be here in this page!, File a bug report to the developer!");
+                    StackTrace st = new StackTrace(new StackFrame(true));
+                    StackFrame sf = st.GetFrame(0);
+                    DialogueBox.ShowOk("Error!!", "This button should not be here in this page!, " +
+                        "File a bug report to the developer! in line: "+sf.GetFileLineNumber()+" at: "+sf.GetFileName());
                 }
             });
 
 
             BindButton(latestSaveFileLoadBtn, () =>
             {
-                ProcessDataFromMainPage(MainPageDataProcType.FromLatest);
+                string url = mainNodeUrlInp.text;
+                DeviceWikiDataReader.OnNextButton_MainPage(DevDataReadType.FromLatest, wikiCon, url, () =>
+                {
+
+                });
             });
 
             BindButton(allSaveFileLoadBtn, () =>
             {
-                ProcessDataFromMainPage(MainPageDataProcType.MergeAll);
+                string url = mainNodeUrlInp.text;
+                DeviceWikiDataReader.OnNextButton_MainPage(DevDataReadType.MergeAll, wikiCon, url, () =>
+                {
+
+                });
             });
 
             BindButton(browseToOpenBtn, () =>
@@ -129,7 +159,7 @@ namespace com.rvkm.unitygames.wiki
                     }
                     else
                     {
-                        ProcessDataFromMainPage(MainPageDataProcType.Browse);
+                        DeviceWikiDataReader.OnNextButton_MainPage(DevDataReadType.Browse, wikiCon, );
                     }
                 });
 
@@ -187,7 +217,7 @@ namespace com.rvkm.unitygames.wiki
             BindButton(manualPageBtn, () =>
             {
                 currentPageType = PageType.ManualRemovedPage;
-                StartPage(false, true, false, false, false);
+                StartPage(PageType.ManualRemovedPage);
                 PaintPageCommonUI(PageType.ManualRemovedPage);
                 Paint_UI_Elements_ScrollRect(PageType.ManualRemovedPage);
             });
@@ -195,176 +225,24 @@ namespace com.rvkm.unitygames.wiki
             BindButton(autoPageBtn, () =>
             {
                 currentPageType = PageType.AutoRemovedPage;
-                StartPage(false, false, true, false, false);
+                StartPage(PageType.AutoRemovedPage);
                 PaintPageCommonUI(PageType.AutoRemovedPage);
                 Paint_UI_Elements_ScrollRect(PageType.AutoRemovedPage);
             });
 
             BindButton(pickedPageBtn, () =>
             {
-                currentPageType = PageType.pickedPage;
-                StartPage(false, false, false, false, true);
-                PaintPageCommonUI(PageType.pickedPage);
-                Paint_UI_Elements_ScrollRect(PageType.pickedPage);
-            });
-        }
-
-        void OtherPageNextBtn()
-        {
-            string url = wikiCon.GetCurrentUrlToProcess();
-            if (Utility.IsUrlValid(url) == false)
-            {
-                StackTrace st = new StackTrace(new StackFrame(true));
-                StackFrame sf = st.GetFrame(0);
-                DialogueBox.ShowOk("Error!", "Url is invalid, please set a valid wiki url or " +
-                    "check if url validator is implemented in utility class! " +
-                    "Or check the proc list for debugging since this third case should not be executed at all!" +
-                    " at line: "+sf.GetFileLineNumber()+" in file: "+sf.GetFileName());
-            }
-            else
-            {
-                FullScreenLoadingUI.Show("Loading", "Reading Json data", 0.2f);
-                AsyncUtility.WaitXSeconds(0.3f, () =>
-                {
-                    var allDevData = wikiCon.JsonData;
-                    FullScreenLoadingUI.Show("Loading", "Reading Json data", 0.99f);
-                    AsyncUtility.WaitOneFrame(() =>
-                    {
-                        FullScreenLoadingUI.HideIfAny();
-                        if (allDevData == null)
-                        {
-                            StackTrace st = new StackTrace(new StackFrame(true));
-                            StackFrame sf = st.GetFrame(0);
-                            //no data in device, we will create a fresh
-                            DialogueBox.ShowOk("Error!", "wiki data should not be null here! " +
-                                "at line: " + sf.GetFileLineNumber()+ " in file: " + sf.GetFileName() +
-                            "", () =>
-                            {
-                                PaintHome();
-                            });
-                        }
-                        else
-                        {
-                            //there are data and we will use it.
-                            wikiCon.JsonData = allDevData;
-                            wikiCon.UI_Data = new WikiUIData(allDevData);
-                            PaintProcessingPage();
-                        }
-                    });
-                });
-
-            }
-        }
-
-        void ProcessDataFromMainPage(MainPageDataProcType processType)
-        {
-            string url = mainNodeUrlInp.text;
-            if (processType == MainPageDataProcType.Browse)
-            {
-                MainPageInner("", MainPageDataProcType.Browse);
-            }
-            else
-            {
-                DialogueBox.ShowYesNo("Confirmation", "Will proceed with url: " + url + " ?",
-
-                //Yes, we will proceed
-                () =>
-                {
-                    if (Utility.IsUrlValid(url) == false)
-                    {
-                        StackTrace st = new StackTrace(new StackFrame(true));
-                        StackFrame sf = st.GetFrame(0);
-                        DialogueBox.ShowOk("Error!", "Url is invalid, please set a valid wiki url or " +
-                            "check if url validator is implemented in utility class! " +
-                            "Or check the proc list for debugging since this third case should not be executed at all! at line: "
-                            + sf.GetFileLineNumber()+" in file: "+sf.GetFileName());
-                    }
-                    else
-                    {
-                        MainPageInner(url, processType);
-                    }
-                },
-                () =>
-                {
-                    //Nope, do nothing.
-                });
-            }
-        }
-
-        void MainPageInner(string urlIfAny, MainPageDataProcType processType)
-        {
-            bool dataFetchSuccess = true;
-            string errorMsg = "";
-            FullScreenLoadingUI.Show("Loading", "Reading Json data", 0.2f);
-            AsyncUtility.WaitXSeconds(0.3f, () =>
-            {
-                WikiDataJson allDevData = null;
-                if (processType == MainPageDataProcType.FromLatest)
-                {
-                    allDevData = Utility.MergeAllDeviceData(Utility.FormatWikiUrlIfReq(urlIfAny), ref dataFetchSuccess, ref errorMsg);
-                }
-                else if (processType == MainPageDataProcType.MergeAll)
-                {
-                    allDevData = Utility.GetLatestSave(Utility.FormatWikiUrlIfReq(urlIfAny), ref dataFetchSuccess, ref errorMsg);
-                }
-                else if (processType == MainPageDataProcType.Browse)
-                {
-                    allDevData = wikiCon.JsonDataFromBrowse;
-                }
-                else
-                {
-                    StackTrace st = new StackTrace(new StackFrame(true));
-                    StackFrame sf = st.GetFrame(0);
-                    DialogueBox.ShowOk("Error!", "Unknown process type that wasn't implemented! at line: " 
-                        + sf.GetFileLineNumber() + " in file: " + sf.GetFileName());
-                    PaintHome();
-                    return;
-                }
-                
-                FullScreenLoadingUI.Show("Loading", "Reading Json data", 0.99f);
-                AsyncUtility.WaitOneFrame(() =>
-                {
-                    FullScreenLoadingUI.HideIfAny();
-                    if (dataFetchSuccess == false)
-                    {
-                        StackTrace st = new StackTrace(new StackFrame(true));
-                        StackFrame sf = st.GetFrame(0);
-                        DialogueBox.ShowOk("Error!", "msg: " + errorMsg
-                            + " at line: " + sf.GetFileLineNumber() + " in file: " + sf.GetFileName());
-                    }
-                    else
-                    {
-                        if (allDevData == null)
-                        {
-                            //no data in device, we will create a fresh
-                            DialogueBox.ShowOk("Complete!", "No Data in the device! " +
-                            "<color='green'>We will create for you!</color>", () =>
-                            {
-                                wikiCon.JsonData = wikiCon.CreateFreshWikiJsonData();
-                                wikiCon.UI_Data = new WikiUIData(wikiCon.JsonData);
-                                PaintProcessingPage();
-                            });
-                        }
-                        else
-                        {
-                            DialogueBox.ShowOk("Complete!", "Found save files! We merged them and made a fresh copy!! " +
-                            "", () =>
-                            {
-                                //there are data and we will use it.
-                                wikiCon.JsonData = allDevData;
-                                wikiCon.UI_Data = new WikiUIData(allDevData);
-                                PaintProcessingPage();
-                            });
-                        }
-                    }
-                });
+                currentPageType = PageType.PickedPage;
+                StartPage(PageType.PickedPage);
+                PaintPageCommonUI(PageType.PickedPage);
+                Paint_UI_Elements_ScrollRect(PageType.PickedPage);
             });
         }
 
         void PaintProcessingPage()
         {
             currentPageType = PageType.ProcessingPage;
-            StartPage(false, false, false, true, false);
+            StartPage(PageType.ProcessingPage);
             PaintPageCommonUI(PageType.ProcessingPage);
             Paint_UI_Elements_ScrollRect(PageType.ProcessingPage);
         }
@@ -372,25 +250,28 @@ namespace com.rvkm.unitygames.wiki
         void PaintHome()
         {
             currentPageType = PageType.MainPage;
-            StartPage(true, false, false, false, false);
+            StartPage(PageType.MainPage);
             PaintPageCommonUI(PageType.MainPage);
         }
 
         void PaintPageCommonUI(PageType pageType)
         {
-            throw new Exception();
+            currentNodeTxt.text = wikiCon.GetCurrentUrlToProcess();
+            var stat = Utility.GetCurrentStatJsonData(wikiCon);
+            string mainStr = stat.autoCount + " M: " + stat.manualCount + " P: " + stat.pickedCount;
+            statusEntriesTxt.text = stat.Completed ? "100% A: " + mainStr : mainStr;
             if (pageType == PageType.MainPage)
             {
-                
+                nextBtn
             }
         }
 
         void Paint_UI_Elements_ScrollRect(PageType pageType)
         {
             throw new Exception();
-            if (pageType == PageType.MainPage)
+            if (pageType == PageType.ResultPage)
             {
-
+                
             }
         }
 
