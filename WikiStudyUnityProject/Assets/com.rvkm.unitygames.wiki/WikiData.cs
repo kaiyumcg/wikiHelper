@@ -25,6 +25,6 @@ namespace com.rvkm.unitygames.wiki
     [System.Serializable]
     public enum Url_State
     {
-        Related, Manual_NotRelated, Auto_NotRelated, YetToBeProcessed
+        Picked, Manual_NotRelated, Auto_NotRelated, INIT
     };
 }

@@ -16,6 +16,7 @@ namespace com.rvkm.unitygames.wiki
     /// </summary>
     public class UiCon : MonoBehaviour
     {
+        static UiCon instance;
         /// <summary>
         /// Reference to the app controller.
         /// </summary>
@@ -24,6 +25,28 @@ namespace com.rvkm.unitygames.wiki
         [SerializeField] Text currentNodeTxt;
         [SerializeField] Text statusEntriesTxt; //only update when we add or remove entries
         [SerializeField] Button nextBtn;
+        public static string GetMainNodeStr(ref string errorMsgIfAny)
+        {
+            if (instance == null)
+            {
+                errorMsgIfAny = "UiCon instance is null";
+                return null;
+            }
+            else
+            {
+                if (instance.mainNodeUrlInp == null)
+                {
+                    errorMsgIfAny = "UiCon instance's mainNodeUrlInp is null";
+                    return null;
+                }
+                else
+                {
+                    errorMsgIfAny = "";
+                    return instance.mainNodeUrlInp.text;
+                }
+            }
+        }
+
         /// <summary>
         /// All buttons in option
         /// </summary>
@@ -52,6 +75,21 @@ namespace com.rvkm.unitygames.wiki
         [SerializeField] GameObject resultPage;
 
         PageType currentPageType;
+
+        private void Awake()
+        {
+            if (instance == null)
+            {
+                instance = this;
+                DontDestroyOnLoad(this.gameObject);
+            }
+            else
+            {
+                DestroyImmediate(this);
+                return;
+            }
+        }
+
         void OnEnable()
         {
             wikiCon.OnStartUI += OnStartUI;
@@ -85,7 +123,7 @@ namespace com.rvkm.unitygames.wiki
             {
                 if (currentPageType == PageType.MainPage)
                 {
-                    DeviceWikiDataReader.OnNextButton_MainPage(DevDataReadType.MergeAll, wikiCon, mainNodeUrlInp.text, () =>
+                    DeviceWikiDataIO_Manager.LoadDataOrCreate(DevDataReadType.MergeAll, wikiCon, (success) =>
                     {
                         throw new System.NotImplementedException();
                     });
@@ -103,7 +141,7 @@ namespace com.rvkm.unitygames.wiki
                 }
                 else
                 {
-                    DeviceWikiDataReader.OnNextButton(wikiCon, () =>
+                    DeviceWikiDataIO_Manager.CheckCurrentlyLoadedData(wikiCon, (success) =>
                     {
                         throw new System.NotImplementedException();
                     });
@@ -130,7 +168,7 @@ namespace com.rvkm.unitygames.wiki
             BindButton(latestSaveFileLoadBtn, () =>
             {
                 string url = mainNodeUrlInp.text;
-                DeviceWikiDataReader.OnNextButton_MainPage(DevDataReadType.FromLatest, wikiCon, url, () =>
+                DeviceWikiDataIO_Manager.LoadDataOrCreate(DevDataReadType.FromLatest, wikiCon, (success) =>
                 {
 
                 });
@@ -139,7 +177,7 @@ namespace com.rvkm.unitygames.wiki
             BindButton(allSaveFileLoadBtn, () =>
             {
                 string url = mainNodeUrlInp.text;
-                DeviceWikiDataReader.OnNextButton_MainPage(DevDataReadType.MergeAll, wikiCon, url, () =>
+                DeviceWikiDataIO_Manager.LoadDataOrCreate(DevDataReadType.MergeAll, wikiCon, (success) =>
                 {
 
                 });
@@ -150,7 +188,6 @@ namespace com.rvkm.unitygames.wiki
                 BrowseIO.OpenFileFrom(OpenFromDirType.AutoSelect,
                 (WikiDataJson data) =>
                 {
-                    wikiCon.JsonDataFromBrowse = data;
                     if (data == null)
                     {
                         StackTrace st = new StackTrace(new StackFrame(true));
@@ -159,7 +196,10 @@ namespace com.rvkm.unitygames.wiki
                     }
                     else
                     {
-                        DeviceWikiDataReader.OnNextButton_MainPage(DevDataReadType.Browse, wikiCon, );
+                        DeviceWikiDataIO_Manager.SetBrowsedWikiData(data);
+                        DeviceWikiDataIO_Manager.LoadDataOrCreate(DevDataReadType.Browse, wikiCon, (success)=> { 
+                        
+                        });
                     }
                 });
 
@@ -167,41 +207,11 @@ namespace com.rvkm.unitygames.wiki
 
             BindButton(saveBtn, () =>
             {
-                if (wikiCon.JsonData == null)
+                saveBtn.interactable = false;
+                DeviceWikiDataIO_Manager.SaveCurrentData(wikiCon, (success) =>
                 {
-                    StackTrace st = new StackTrace(new StackFrame(true));
-                    StackFrame sf = st.GetFrame(0);
-                    DialogueBox.ShowOk("Error!", "No valid data to write!"
-                        + " at line: " + sf.GetFileLineNumber() + " in file: " + sf.GetFileName());
-                }
-                else
-                {
-                    bool dataWriteSuccess = true;
-                    string errorMsg = "";
-                    Utility.WriteDataToDevice(wikiCon.JsonData, ref dataWriteSuccess, ref errorMsg);
-                    FullScreenLoadingUI.Show("Saving", "Writing Json data", 0.2f);
-                    AsyncUtility.WaitXSeconds(0.3f, () =>
-                    {
-                        WikiDataJson allDevData = wikiCon.JsonData;
-                        FullScreenLoadingUI.Show("Saving", "Writing Json data", 0.99f);
-                        AsyncUtility.WaitOneFrame(() =>
-                        {
-                            FullScreenLoadingUI.HideIfAny();
-                            if (dataWriteSuccess == false)
-                            {
-                                StackTrace st = new StackTrace(new StackFrame(true));
-                                StackFrame sf = st.GetFrame(0);
-                                DialogueBox.ShowOk("Error!", "Write failure! msg: " + errorMsg
-                                    + " at line: " + sf.GetFileLineNumber() + " in file: " + sf.GetFileName());
-                            }
-                            else
-                            {
-                                DialogueBox.ShowOk("Complete!", "Data written successfully into the device!" +
-                                    "");
-                            }
-                        });
-                    });
-                }
+                    saveBtn.interactable = true;
+                });
             });
 
             BindButton(exitBtn, () =>
@@ -262,7 +272,7 @@ namespace com.rvkm.unitygames.wiki
             statusEntriesTxt.text = stat.Completed ? "100% A: " + mainStr : mainStr;
             if (pageType == PageType.MainPage)
             {
-                nextBtn
+                throw new NotImplementedException();
             }
         }
 
@@ -271,7 +281,7 @@ namespace com.rvkm.unitygames.wiki
             throw new Exception();
             if (pageType == PageType.ResultPage)
             {
-                
+                throw new NotImplementedException();
             }
         }
 
