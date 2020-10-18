@@ -54,6 +54,7 @@ namespace com.rvkm.unitygames.wiki
         [SerializeField] GameObject resultPage;
 
         PageType currentPageType;
+        List<Url_UI_Data> currentPageTemp;
 
         private void Awake()
         {
@@ -120,13 +121,15 @@ namespace com.rvkm.unitygames.wiki
                     {
                         if (currentPageType == PageType.ProcessingPage)
                         {
-                            //remove first url from proc list since it is processed
-                            //add the current url json ui temp data list to the ui json data
-                            //update json data from json ui data
+                            wikiCon.RemoveCurrentUrlToProcessFromList();
+                            wikiCon.AddUrlJsonUIData(currentPageTemp);
+                            DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                            currentPageTemp = wikiCon.GetUrlDataForUI_From(wikiCon.GetCurrentUrlToProcess());
                             //draw the page with json ui data
                             //?? on add/remove or minus/plus hobar upon UI element's button, we need to update tick/datetime
                             //and update INIT flag to auto, manual or picked
                             //on many point we must do refresh to keep ui json data and json data in sync
+                            //if all complete then do not go to processing page, rather result page.
                         }
                         throw new System.NotImplementedException();
                     });

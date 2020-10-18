@@ -79,6 +79,16 @@ namespace com.rvkm.unitygames.wiki
             }
         }
 
+        public void RemoveCurrentUrlToProcessFromList()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddUrlJsonUIData(List<Url_UI_Data> data)
+        {
+            throw new NotImplementedException();
+        }
+
         //ENSURE
         //that it format wiki url prior to send
         public string GetMainNodeUrl()

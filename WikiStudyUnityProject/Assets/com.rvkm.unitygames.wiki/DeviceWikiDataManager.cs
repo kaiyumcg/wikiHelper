@@ -12,7 +12,28 @@ namespace com.rvkm.unitygames.wiki
     {
         public static void RefreshWikiJsonData(WikiCon wikiCon)
         {
-            wikiCon.JsonData = GetJsonData(wikiCon.UI_Data);
+            if (wikiCon == null)
+            {
+                StackTrace st = new StackTrace(new StackFrame(true));
+                StackFrame sf = st.GetFrame(0);
+                DialogueBox.ShowOk("!Error!", "wiki controller is null. Can not refresh! " +
+                    " at line: " + sf.GetFileLineNumber()
+                    + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name);
+            }
+            else if (wikiCon.UI_Data == null)
+            {
+                StackTrace st = new StackTrace(new StackFrame(true));
+                StackFrame sf = st.GetFrame(0);
+                DialogueBox.ShowOk("!Error!", "wiki controller's UI data is null. Can not refresh! " +
+                    " at line: " + sf.GetFileLineNumber()
+                    + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name);
+            }
+            else
+            {
+                bool isCompleted = wikiCon.UI_Data.procList == null || wikiCon.UI_Data.procList.Count == 0;
+                wikiCon.UI_Data.isDataProcessed = isCompleted;
+                wikiCon.JsonData = GetJsonData(wikiCon.UI_Data);
+            }
         }
 
         public static void CheckCurrentlyLoadedData(WikiCon wikiCon, Action<bool> OnCompleteLoad)
