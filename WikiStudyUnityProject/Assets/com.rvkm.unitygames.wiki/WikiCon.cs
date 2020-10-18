@@ -33,28 +33,54 @@ namespace com.rvkm.unitygames.wiki
             }
             else
             {
+                var firstElem = new Url_Json
+                {
+                    ticksForDateTime = DateTime.Now.Ticks,
+                    url = mainNodeStr,
+                    url_name = mainNodeStr,
+                    url_state = Url_State.Picked
+                };
+
                 var data = new WikiDataJson
                 {
                     isDataProcessed = false,
                     mainNode = mainNodeStr,
                     ticksAtSaveTime = -1,
-                    procList = new Url_Json[0],
-                    url_s = new Url_Json[0]
+                    procList = new Url_Json[] { firstElem },
+                    url_s = new Url_Json[] { firstElem }
                 };
                 return data;
             }
-            
         }
 
         public string GetCurrentUrlToProcess()
         {
             if (UI_Data == null)
             {
-                
+                StackTrace st = new StackTrace(new StackFrame(true));
+                StackFrame sf = st.GetFrame(0);
+                DialogueBox.ShowOk("!Error!", "Can not get current url to process since UI json data is invalid. at" +
+                    "at line: "
+                    + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name);
+                return null;
             }
-            else if(UI_Data.)
+            else if (UI_Data.procList == null || UI_Data.procList.Count < 1)
+            {
+                StackTrace st = new StackTrace(new StackFrame(true));
+                StackFrame sf = st.GetFrame(0);
+                DialogueBox.ShowOk("!Error!", "Can not get current url to process since processing list is empty. BUG. at" +
+                    "at line: "
+                    + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name);
+                return null;
+            }
+            else
+            {
+                return UI_Data.procList[0].url;
+            }
         }
 
+        //ENSURE
+        //that it format wiki url prior to send
         public string GetMainNodeUrl()
         {
             if (JsonData == null)
@@ -73,53 +99,40 @@ namespace com.rvkm.unitygames.wiki
             }
         }
 
-        public bool IsValidUrlToConsider(string url, string url_name)
+        bool IsValidUrlToConsider(string url, string url_name)
         {
             bool result = false;
-            if (url.Contains("/wiki")) 
+            if (Utility.IsUrlWiki(url)) 
             {
                 if (UI_Data.url_s != null && UI_Data.url_s.Count > 0)
                 {
-                    //possible scope of optimization but I dont care this now.
-
-                    bool isBlackListed = false;
                     foreach (var l in UI_Data.url_s)
                     {
                         if (l == null) { continue; }
-                        bool isFlagIgnore = l.url_state == Url_State.Auto_NotRelated || l.url_state == Url_State.Manual_NotRelated;
+                        bool isInit = l.url_state == Url_State.INIT;
+                        if (isInit)
+                        {
+                            StackTrace st = new StackTrace(new StackFrame(true));
+                            StackFrame sf = st.GetFrame(0);
+                            DialogueBox.ShowOk("!Error!", "url state can not be init. Possible bug. At iteration l: " + l.url +
+                                " at line: " + sf.GetFileLineNumber()
+                                + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name);
+                            break;
+                        }
+
                         bool canBeSameUrl = l.url == url || l.url_name == url_name;
-                        if (isFlagIgnore && canBeSameUrl)
+                        if (canBeSameUrl)
                         {
-                            isBlackListed = true;
+                            result = true;
                             break;
                         }
                     }
-                    
-                    bool isAlreadyProcessed = false;
-                    foreach (var l in UI_Data.url_s)
-                    {
-                        if (l == null) { continue; }
-                        bool isPickable = l.url_state == Url_State.Picked;
-                        bool isSameUrl = l.url == url && l.url_name == url_name;
-                        if (isPickable && isSameUrl)
-                        {
-                            isAlreadyProcessed = true;
-                            break;
-                        }
-                    }
-
-                    if (!(isAlreadyProcessed || isBlackListed))
-                    {
-                        result = true;
-                    }
-
                 }
                 else
                 {
                     result = true;
                 }
             }
-
             return result;
         }
 
@@ -150,9 +163,17 @@ namespace com.rvkm.unitygames.wiki
                     }
                 }
 
+                linkUrl = Utility.FormatWikiUrlCommon(linkUrl);
+
                 if (IsValidUrlToConsider(linkUrl, linkName))
                 {
-                    var l = new Url_UI_Data { ticksForDateTime = DateTime.Now, url = linkUrl, url_name = linkName, url_state = Url_State.INIT };
+                    var l = new Url_UI_Data
+                    {
+                        ticksForDateTime = DateTime.Now,
+                        url = linkUrl,
+                        url_name = linkName,
+                        url_state = Url_State.INIT
+                    };
                     result.Add(l);
                 }
             }

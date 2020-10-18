@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using UnityEngine;
 
@@ -38,25 +39,53 @@ namespace com.rvkm.unitygames.extensions.UI
         public static void OpenFileFrom(OpenFromDirType dirType, Action<byte[]> OnOpen, Action OnCancel = null,
             List<string> extensions = null, string customPathIfAny = "")
         {
-            throw new System.NotImplementedException("IO file folder open UI not implemented!");
+            StackTrace st = new StackTrace(new StackFrame(true));
+            StackFrame sf = st.GetFrame(0);
+
+            DialogueBox.ShowOk("Error!", "Function not implemented "
+                + "at line: " + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name, () =>
+                {
+                    OnOpen?.Invoke(null);
+                });
         }
 
         public static void OpenFileFrom(OpenFromDirType dirType, Action<FileInfo> OnOpen, Action OnCancel = null,
             List<string> extensions = null, string customPathIfAny = "")
         {
-            throw new System.NotImplementedException("IO file folder open UI not implemented!");
+            StackTrace st = new StackTrace(new StackFrame(true));
+            StackFrame sf = st.GetFrame(0);
+
+            DialogueBox.ShowOk("Error!", "Function not implemented "
+                + "at line: " + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name, () =>
+                {
+                    OnOpen?.Invoke(null);
+                });
         }
 
         public static void OpenFileFrom(OpenFromDirType dirType, Action<WikiDataJson> OnOpen, Action OnCancel = null, 
             string customPathIfAny = "")
         {
-            throw new System.NotImplementedException("IO file folder open UI not implemented!");
+            StackTrace st = new StackTrace(new StackFrame(true));
+            StackFrame sf = st.GetFrame(0);
+
+            DialogueBox.ShowOk("Error!", "Function not implemented "
+                + "at line: " + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name, () =>
+                {
+                    OnOpen?.Invoke(null);
+                });
         }
 
         public static void OpenDirectory(OpenFromDirType dirType, Action<DirectoryInfo> OnSetDirectory, Action OnCancel = null,
             string customPathIfAny = "")
         {
-            throw new System.NotImplementedException("IO file folder open UI not implemented!");
+            StackTrace st = new StackTrace(new StackFrame(true));
+            StackFrame sf = st.GetFrame(0);
+
+            DialogueBox.ShowOk("Error!", "Function not implemented "
+                + "at line: " + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name, () =>
+                {
+                    OnSetDirectory?.Invoke(null);
+                });
         }
 
     }

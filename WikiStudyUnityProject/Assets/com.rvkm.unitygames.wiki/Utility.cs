@@ -82,7 +82,7 @@ namespace com.rvkm.unitygames.wiki
             return result;
         }
 
-        public static string FormatWikiUrlIfReq(string url)
+        public static string FormatWikiUrlCommon(string url)
         {
             string r_url = Regex.Replace(url, "http://", "");
             r_url = Regex.Replace(r_url, "https://", "");
@@ -95,17 +95,40 @@ namespace com.rvkm.unitygames.wiki
 
         public static WikiStat GetCurrentStatJsonData(WikiCon wikiCon)
         {
-            throw new NotImplementedException();
+            string mainNodeUrl = "";
+            bool Completed = false;
+            int autoCount = -1, manualCount = -1, pickedCount = -1;
+            if (wikiCon.UI_Data != null && wikiCon.UI_Data.url_s != null)
+            {
+                autoCount = manualCount = pickedCount = 0;
+                mainNodeUrl = wikiCon.UI_Data.mainNode;
+                Completed = wikiCon.UI_Data.isDataProcessed;
+                foreach (var l in wikiCon.UI_Data.url_s)
+                {
+                    if (l.url_state == Url_State.Auto_NotRelated) { autoCount++; }
+                    if (l.url_state == Url_State.Manual_NotRelated) { manualCount++; }
+                    if (l.url_state == Url_State.Picked) { pickedCount++; }
+                }
+            }
+            var stat = new WikiStat
+            {
+                mainNodeUrl = mainNodeUrl,
+                Completed = Completed,
+                autoCount = autoCount,
+                manualCount = manualCount,
+                pickedCount = pickedCount
+            };
+            return stat;
         }
 
-        public static string GetFullWikiUrlIfReq(string url)
+        public static string GetFullWikiUrlForOpenWWW(string url)
         {
             bool isMobile = false;
 #if UNITY_IOS || UNITY_ANDROID
         isMobile = true;
 #endif
             string mainDomainFull = isMobile ? "https://en.m.wikipedia.org" : "https://en.wikipedia.org";
-            string formattedUrl = FormatWikiUrlIfReq(url);
+            string formattedUrl = url;
 
             mainDomainFull = mainDomainFull.TrimUrlSlashesFromEnd();
             formattedUrl = formattedUrl.TrimUrlSlashesFromStart();
@@ -118,6 +141,11 @@ namespace com.rvkm.unitygames.wiki
             return newUrl;
         }
 
+        public static bool IsUrlWiki(string url)
+        {
+            return url.Contains("wiki/");
+        }
+
         public static WikiDataJson MergeAllDeviceData(string url, ref bool error, ref string errorMsg)
         {
             var allData = Utility.GetDataFromDeviceFiles(ref error, ref errorMsg);
@@ -127,7 +155,7 @@ namespace com.rvkm.unitygames.wiki
 
         public static List<WikiDataJson> GetMatchedDeviceData(List<WikiDataJson> allData, string url)
         {
-            string r_url = Utility.FormatWikiUrlIfReq(url);
+            string r_url = url;
             List<WikiDataJson> matched = new List<WikiDataJson>();
             if (allData != null && allData.Count > 0)
             {
@@ -145,7 +173,7 @@ namespace com.rvkm.unitygames.wiki
 
         public static WikiDataJson GetLatestSave(string url, ref bool error, ref string errorMsg)
         {
-            string r_url = Utility.FormatWikiUrlIfReq(url);
+            string r_url = url;
             var allData = Utility.GetDataFromDeviceFiles(ref error, ref errorMsg);
             if (error)
             {
@@ -174,7 +202,7 @@ namespace com.rvkm.unitygames.wiki
         public static WikiDataJson MergeAllDeviceData(List<WikiDataJson> allData, string mainNodeUrl, ref bool error, ref string errorMsg)
         {
             WikiDataJson result = null;
-            string r_url = Utility.FormatWikiUrlIfReq(mainNodeUrl);
+            string r_url = mainNodeUrl;
             List<WikiDataJson> matched = GetMatchedDeviceData(allData, mainNodeUrl);
 
             if (matched.Count < 1)
@@ -269,55 +297,6 @@ namespace com.rvkm.unitygames.wiki
 #endif
 
             File.WriteAllText(fPath, json);
-        }
-
-        public static bool IsUrlValid(string url)
-        {
-            //todo
-            throw new Exception();
-        }
-
-        public static List<Url_UI_Data> Json_To_UI(Url_Json[] urls)
-        {
-            List<Url_UI_Data> result = new List<Url_UI_Data>();
-            if (urls != null)
-            {
-                foreach (var l in urls)
-                {
-                    if (l == null) { continue; }
-                    var l_new = new Url_UI_Data
-                    {
-                        ticksForDateTime = new DateTime(l.ticksForDateTime),
-                        url = l.url,
-                        url_name = l.url_name,
-                        url_state = l.url_state
-                    };
-                    result.Add(l_new);
-                }
-            }
-            return result;
-        }
-
-        public static Url_Json[] UI_To_Json(List<Url_UI_Data> urls)
-        {
-            Url_Json[] result = null;
-            if (urls != null && urls.Count > 0)
-            {
-                result = new Url_Json[urls.Count];
-                for (int i = 0; i < urls.Count; i++)
-                {
-                    if (urls[i] == null) { continue; }
-                    var l_new = new Url_Json
-                    {
-                        ticksForDateTime = urls[i].ticksForDateTime.Ticks,
-                        url = urls[i].url,
-                        url_name = urls[i].url_name,
-                        url_state = urls[i].url_state
-                    };
-                    result[i] = l_new;
-                }
-            }
-            return result;
         }
     }
 }

@@ -16,29 +16,11 @@ namespace com.rvkm.unitygames.wiki
 
         public WikiUIData(WikiDataJson jsonDataWiki)
         {
-            Copy_Data_From(jsonDataWiki);
-        }
-
-        public WikiDataJson GetJsonData()
-        {
-            WikiDataJson result = new WikiDataJson 
-            { 
-                isDataProcessed = this.isDataProcessed, 
-                mainNode = this.mainNode, 
-                ticksAtSaveTime = this.ticksAtSaveTime.Ticks,
-                url_s = Utility.UI_To_Json(url_s),
-                procList = Utility.UI_To_Json(procList),
-            };
-            return result;    
-        }
-
-        public void Copy_Data_From(WikiDataJson wikiData)
-        {
-            this.mainNode = wikiData.mainNode;
-            this.ticksAtSaveTime = new DateTime(wikiData.ticksAtSaveTime);
-            this.isDataProcessed = wikiData.isDataProcessed;
-            this.url_s = Utility.Json_To_UI(wikiData.url_s);
-            this.procList = Utility.Json_To_UI(wikiData.procList);           
+            this.mainNode = jsonDataWiki.mainNode;
+            this.ticksAtSaveTime = new DateTime(jsonDataWiki.ticksAtSaveTime);
+            this.isDataProcessed = jsonDataWiki.isDataProcessed;
+            this.url_s = DeviceWikiDataManager.Json_To_UI(jsonDataWiki.url_s);
+            this.procList = DeviceWikiDataManager.Json_To_UI(jsonDataWiki.procList);
         }
     }
 

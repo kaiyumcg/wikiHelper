@@ -25,27 +25,6 @@ namespace com.rvkm.unitygames.wiki
         [SerializeField] Text currentNodeTxt;
         [SerializeField] Text statusEntriesTxt; //only update when we add or remove entries
         [SerializeField] Button nextBtn;
-        public static string GetMainNodeStr(ref string errorMsgIfAny)
-        {
-            if (instance == null)
-            {
-                errorMsgIfAny = "UiCon instance is null";
-                return null;
-            }
-            else
-            {
-                if (instance.mainNodeUrlInp == null)
-                {
-                    errorMsgIfAny = "UiCon instance's mainNodeUrlInp is null";
-                    return null;
-                }
-                else
-                {
-                    errorMsgIfAny = "";
-                    return instance.mainNodeUrlInp.text;
-                }
-            }
-        }
 
         /// <summary>
         /// All buttons in option
@@ -123,7 +102,7 @@ namespace com.rvkm.unitygames.wiki
             {
                 if (currentPageType == PageType.MainPage)
                 {
-                    DeviceWikiDataIO_Manager.LoadDataOrCreate(DevDataReadType.MergeAll, wikiCon, (success) =>
+                    DeviceWikiDataManager.LoadDataOrCreate(DevDataReadType.MergeAll, wikiCon, (success) =>
                     {
                         throw new System.NotImplementedException();
                     });
@@ -135,14 +114,20 @@ namespace com.rvkm.unitygames.wiki
                     DialogueBox.ShowOk("Error!", "This button should not be here in this page. Report bug to developer!" +
                         "in line: "+sf.GetFileLineNumber()+" at file: "+sf.GetFileName());
                 }
-                else if (currentPageType == PageType.ProcessingPage)
-                {
-                    throw new System.NotImplementedException();
-                }
                 else
                 {
-                    DeviceWikiDataIO_Manager.CheckCurrentlyLoadedData(wikiCon, (success) =>
+                    DeviceWikiDataManager.CheckCurrentlyLoadedData(wikiCon, (success) =>
                     {
+                        if (currentPageType == PageType.ProcessingPage)
+                        {
+                            //remove first url from proc list since it is processed
+                            //add the current url json ui temp data list to the ui json data
+                            //update json data from json ui data
+                            //draw the page with json ui data
+                            //?? on add/remove or minus/plus hobar upon UI element's button, we need to update tick/datetime
+                            //and update INIT flag to auto, manual or picked
+                            //on many point we must do refresh to keep ui json data and json data in sync
+                        }
                         throw new System.NotImplementedException();
                     });
                 }
@@ -168,7 +153,7 @@ namespace com.rvkm.unitygames.wiki
             BindButton(latestSaveFileLoadBtn, () =>
             {
                 string url = mainNodeUrlInp.text;
-                DeviceWikiDataIO_Manager.LoadDataOrCreate(DevDataReadType.FromLatest, wikiCon, (success) =>
+                DeviceWikiDataManager.LoadDataOrCreate(DevDataReadType.FromLatest, wikiCon, (success) =>
                 {
 
                 });
@@ -177,7 +162,7 @@ namespace com.rvkm.unitygames.wiki
             BindButton(allSaveFileLoadBtn, () =>
             {
                 string url = mainNodeUrlInp.text;
-                DeviceWikiDataIO_Manager.LoadDataOrCreate(DevDataReadType.MergeAll, wikiCon, (success) =>
+                DeviceWikiDataManager.LoadDataOrCreate(DevDataReadType.MergeAll, wikiCon, (success) =>
                 {
 
                 });
@@ -196,8 +181,8 @@ namespace com.rvkm.unitygames.wiki
                     }
                     else
                     {
-                        DeviceWikiDataIO_Manager.SetBrowsedWikiData(data);
-                        DeviceWikiDataIO_Manager.LoadDataOrCreate(DevDataReadType.Browse, wikiCon, (success)=> { 
+                        DeviceWikiDataManager.SetBrowsedWikiData(data);
+                        DeviceWikiDataManager.LoadDataOrCreate(DevDataReadType.Browse, wikiCon, (success)=> { 
                         
                         });
                     }
@@ -208,7 +193,7 @@ namespace com.rvkm.unitygames.wiki
             BindButton(saveBtn, () =>
             {
                 saveBtn.interactable = false;
-                DeviceWikiDataIO_Manager.SaveCurrentData(wikiCon, (success) =>
+                DeviceWikiDataManager.SaveCurrentData(wikiCon, (success) =>
                 {
                     saveBtn.interactable = true;
                 });
@@ -278,7 +263,7 @@ namespace com.rvkm.unitygames.wiki
 
         void Paint_UI_Elements_ScrollRect(PageType pageType)
         {
-            throw new Exception();
+            throw new NotImplementedException();
             if (pageType == PageType.ResultPage)
             {
                 throw new NotImplementedException();
@@ -292,6 +277,41 @@ namespace com.rvkm.unitygames.wiki
             {
                 callback?.Invoke();
             });
+        }
+
+        public static string GetMainNodeStr(ref string errorMsgIfAny)
+        {
+            if (instance == null)
+            {
+                errorMsgIfAny = "UiCon instance is null";
+                return null;
+            }
+            else
+            {
+                if (instance.mainNodeUrlInp == null)
+                {
+                    errorMsgIfAny = "UiCon instance's mainNodeUrlInp is null";
+                    return null;
+                }
+                else
+                {
+                    errorMsgIfAny = "";
+                    string inputStr = instance.mainNodeUrlInp.text;
+                    inputStr = Utility.FormatWikiUrlCommon(inputStr);
+                    if (Utility.IsUrlWiki(inputStr) == false)
+                    {
+                        StackTrace st = new StackTrace(new StackFrame(true));
+                        StackFrame sf = st.GetFrame(0);
+                        errorMsgIfAny = "there is no valid wiki link in input field! at line: "
+                            + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name;
+                        return null;
+                    }
+                    else
+                    {
+                        return inputStr;
+                    }
+                }
+            }
         }
     }
 }

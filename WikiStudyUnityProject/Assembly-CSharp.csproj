@@ -60,7 +60,7 @@
     <Compile Include="Assets\com.rvkm.unitygames.wiki\WikiData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\WikiUIData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\FullScreenLoadingUI.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.wiki\DeviceWikiDataIO_Manager.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.wiki\DeviceWikiDataManager.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\Test\LoaderUITester.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\DialogueBox.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Tweens\ScaleTween.cs" />
