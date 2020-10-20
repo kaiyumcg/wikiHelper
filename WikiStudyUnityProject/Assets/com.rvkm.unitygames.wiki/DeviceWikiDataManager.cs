@@ -197,6 +197,7 @@ namespace com.rvkm.unitygames.wiki
                     {
                         StackTrace st = new StackTrace(new StackFrame(true));
                         StackFrame sf = st.GetFrame(0);
+                        
                         DialogueBox.ShowOk("Error!", "Url is invalid, at line: "
                             + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name, () =>
                             {

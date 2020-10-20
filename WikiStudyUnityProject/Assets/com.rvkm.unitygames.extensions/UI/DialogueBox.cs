@@ -35,6 +35,24 @@ namespace com.rvkm.unitygames.extensions.UI
             }
         }
 
+        public static void LogBug(string msg, int bugPrority = 0, Action OnHandleBug = null)
+        {
+            //this dialogue box should contain scrollrect to handle all stack frame information
+            //And an upload button to send it to somewhere in a spread sheet.
+            //user can use the callback 'OnHandleBug' where he or she should handle should we go back to app/game by pressing ok button.
+            //the more severe the bug, the more the number
+            throw new NotImplementedException();
+        }
+
+        public static void LogError(string msg, int errPrority = 0, Action OnHandleError = null)
+        {
+            //this dialogue box should contain scrollrect to handle all stack frame information
+            //And an upload button to send it to somewhere in a spread sheet.
+            //user can use the callback 'OnHandleError' where he or she should handle should we go back to app/game by pressing ok button.
+            //the more severe the error, the more the number
+            throw new NotImplementedException();
+        }
+
         public static void ShowOk(string header, string message, Action OnOk = null)
         {
             var actions = new DialogueBoxActions

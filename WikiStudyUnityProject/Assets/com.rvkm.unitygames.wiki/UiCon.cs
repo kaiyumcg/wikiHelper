@@ -56,28 +56,79 @@ namespace com.rvkm.unitygames.wiki
 
         void OnStartUI()
         {
-            currentPageType = PageType.MainPage;
-            PaintHome();
+            StartPage(PageType.MainPage);
             InstallAllUI();
         }
 
         void StartPage(PageType pageType)
         {
+            currentPageType = pageType;
             mainPage.Page.SetActive(pageType == PageType.MainPage);
             pickedPage.Page.SetActive(pageType == PageType.PickedPage);
             autoPage.Page.SetActive(pageType == PageType.AutoRemovedPage);
             manualPage.Page.SetActive(pageType == PageType.ManualRemovedPage);
             procPage.Page.SetActive(pageType == PageType.ProcessingPage);
             resultPage.Page.SetActive(pageType == PageType.ResultPage);
+            string urlCur = wikiCon.GetCurrentUrlToProcess();
+            var stat = Utility.GetCurrentStatJsonData(wikiCon);
+            string mainStr = stat.autoCount + " M: " + stat.manualCount + " P: " + stat.pickedCount;
+            string statString = stat.Completed ? "100% A: " + mainStr : mainStr;
+            mainPage.UpdateStat(urlCur, statString);
+            pickedPage.UpdateStat(urlCur, statString);
+            autoPage.UpdateStat(urlCur, statString);
+            manualPage.UpdateStat(urlCur, statString);
+            procPage.UpdateStat(urlCur, statString);
+            resultPage.UpdateStat(urlCur, statString);
+        }
+
+        UiElemOnPage CloneUI_Element(GameObject prefab, Transform holder)
+        {
+            GameObject g = Instantiate(prefab, holder) as GameObject;
+            return g.GetComponent<UiElemOnPage>();
+        }
+
+        bool IsDataPresentInTmpPage(Url_UI_Data comparer, ref int index)
+        {
+            bool match = false;
+            index = -1;
+            if (currentPageTemp != null && currentPageTemp.Count > 0)
+            {
+                for (int i = 0; i < currentPageTemp.Count; i++)
+                {
+                    if (currentPageTemp[i] != null)
+                    {
+                        if (currentPageTemp[i].url == comparer.url || currentPageTemp[i].url_name == comparer.url_name)
+                        {
+                            index = i;
+                            break;
+                        }
+                    }
+                }
+                if (index >= 0)
+                {
+                    match = true;
+                }
+            }
+            return match;
+        }
+
+        void RemoveEntryFromPageAndAddToUIData(Url_UI_Data comparer)
+        {
+            int idx = -1;
+            if (IsDataPresentInTmpPage(comparer, ref idx))
+            {
+                wikiCon.AddTempPageElementToUIData(comparer);
+                currentPageTemp.RemoveAt(idx);
+            }
         }
 
         void InstallAllUI()
         {
             BindButton(procPage.NextBTN, () =>
             {
-                if (currentPageType == PageType.MainPage)
+                DeviceWikiDataManager.CheckCurrentlyLoadedData(wikiCon, (success) =>
                 {
-                    DeviceWikiDataManager.LoadDataOrCreate(DevDataReadType.MergeAll, wikiCon, (success) =>
+                    if (success)
                     {
                         DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
                         if (wikiCon.UI_Data.isDataProcessed)
@@ -86,65 +137,61 @@ namespace com.rvkm.unitygames.wiki
                         }
                         else
                         {
-                            //do things
-                            //go to processing page
-                        }
-                        throw new System.NotImplementedException();
-                    });
-                }
-                else if (currentPageType == PageType.ResultPage)
-                {
-                    StackTrace st = new StackTrace(new StackFrame(true));
-                    StackFrame sf = st.GetFrame(0);
-                    DialogueBox.ShowOk("Error!", "This button should not be here in this page. Report bug to developer!" +
-                        "in line: "+sf.GetFileLineNumber()+" at file: "+sf.GetFileName());
-                }
-                else
-                {
-                    DeviceWikiDataManager.CheckCurrentlyLoadedData(wikiCon, (success) =>
-                    {
-                        DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
-                        if (wikiCon.UI_Data.isDataProcessed)
-                        {
-                            //go to result page
-                        }
-                        else
-                        {
-                            if (currentPageType == PageType.ProcessingPage)
+                            wikiCon.AddTempPageToUIData(currentPageTemp);
+                            wikiCon.RemoveCurrentUrlFromProcList();
+                            DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                            if (wikiCon.UI_Data.isDataProcessed)
                             {
-                                wikiCon.RemoveCurrentUrlFromProcList();
-                                wikiCon.AddTempPageToUIData(currentPageTemp);
-                                DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                                //go to result page
+                            }
+                            else
+                            {
+                                currentPageTemp = null;
                                 currentPageTemp = wikiCon.GetUrlDataForUI_From(wikiCon.GetCurrentUrlToProcess());
+                                if (currentPageTemp != null && currentPageTemp.Count > 0)
+                                {
+                                    foreach (var urlData in currentPageTemp)
+                                    {
+                                        if (urlData != null)
+                                        {
+                                            var elem = CloneUI_Element(procPage.UI_ElementPrefab, procPage.ElementsHolder);
+                                            elem.Install(urlData.url, urlData.url_name,
+
+                                            () =>
+                                            {
+                                                urlData.url_state = Url_State.Picked;
+                                                RemoveEntryFromPageAndAddToUIData(urlData);
+                                                DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                                                DestroyImmediate(elem.gameObject);
+                                            },
+                                            () =>
+                                            {
+                                                urlData.url_state = Url_State.Manual_NotRelated;
+                                                RemoveEntryFromPageAndAddToUIData(urlData);
+                                                DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                                                DestroyImmediate(elem.gameObject);
+                                            });
+
+                                        }
+                                    }
+                                }
+                                else
+                                {
+                                    wikiCon.UI_Data.isDataProcessed = true;
+                                    DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                                    //go to result page
+                                }
+
                                 //draw the page with json ui data
                                 //?? on add/remove or minus/plus hobar upon UI element's button, we need to update tick/datetime
                                 //and update INIT flag to auto, manual or picked
                                 //on many point we must do refresh to keep ui json data and json data in sync
-                                //if all complete then do not go to processing page, rather result page.
+                                //if all complete then do not go to processing page, rather result page.   
                             }
                         }
-                        
-                        throw new System.NotImplementedException();
-                    });
-                }
+                    }
+                });
             });
-
-            BindButton(autoPage.BackBTN, () =>
-            {
-                if (currentPageType == PageType.AutoRemovedPage || currentPageType == PageType.ManualRemovedPage
-                || currentPageType == PageType.PickedPage)
-                {
-                    PaintProcessingPage();
-                }
-                else
-                {
-                    StackTrace st = new StackTrace(new StackFrame(true));
-                    StackFrame sf = st.GetFrame(0);
-                    DialogueBox.ShowOk("Error!!", "This button should not be here in this page!, " +
-                        "File a bug report to the developer! in line: "+sf.GetFileLineNumber()+" at: "+sf.GetFileName());
-                }
-            });
-
 
             BindButton(mainPage.FetchAndLoadBTN, () =>
             {
@@ -199,71 +246,6 @@ namespace com.rvkm.unitygames.wiki
             {
                 DialogueBox.ShowYesNo("Confirmation!", "Any unsaved data will be lost! Are you sure!", () => { Application.Quit(); }, null);
             });
-
-            BindButton(resultPage.HomeBTN, () =>
-            {
-                PaintHome();
-            });
-
-            BindButton(procPage.ManualPageBTN, () =>
-            {
-                currentPageType = PageType.ManualRemovedPage;
-                StartPage(PageType.ManualRemovedPage);
-                PaintPageCommonUI(PageType.ManualRemovedPage);
-                Paint_UI_Elements_ScrollRect(PageType.ManualRemovedPage);
-            });
-
-            BindButton(procPage.AutoPageBTN, () =>
-            {
-                currentPageType = PageType.AutoRemovedPage;
-                StartPage(PageType.AutoRemovedPage);
-                PaintPageCommonUI(PageType.AutoRemovedPage);
-                Paint_UI_Elements_ScrollRect(PageType.AutoRemovedPage);
-            });
-
-            BindButton(procPage.PickedPageBTN, () =>
-            {
-                currentPageType = PageType.PickedPage;
-                StartPage(PageType.PickedPage);
-                PaintPageCommonUI(PageType.PickedPage);
-                Paint_UI_Elements_ScrollRect(PageType.PickedPage);
-            });
-        }
-
-        void PaintProcessingPage()
-        {
-            currentPageType = PageType.ProcessingPage;
-            StartPage(PageType.ProcessingPage);
-            PaintPageCommonUI(PageType.ProcessingPage);
-            Paint_UI_Elements_ScrollRect(PageType.ProcessingPage);
-        }
-
-        void PaintHome()
-        {
-            currentPageType = PageType.MainPage;
-            StartPage(PageType.MainPage);
-            PaintPageCommonUI(PageType.MainPage);
-        }
-
-        void PaintPageCommonUI(PageType pageType)
-        {
-            mainPage.MainNodeText.text = wikiCon.GetCurrentUrlToProcess();
-            var stat = Utility.GetCurrentStatJsonData(wikiCon);
-            string mainStr = stat.autoCount + " M: " + stat.manualCount + " P: " + stat.pickedCount;
-            mainPage.StatusEntriesText.text = stat.Completed ? "100% A: " + mainStr : mainStr;
-            if (pageType == PageType.MainPage)
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        void Paint_UI_Elements_ScrollRect(PageType pageType)
-        {
-            throw new NotImplementedException();
-            if (pageType == PageType.ResultPage)
-            {
-                throw new NotImplementedException();
-            }
         }
 
         void BindButton(Button b, Action callback)

@@ -59,7 +59,7 @@ namespace com.rvkm.unitygames.wiki
             {
                 StackTrace st = new StackTrace(new StackFrame(true));
                 StackFrame sf = st.GetFrame(0);
-                DialogueBox.ShowOk("!Error!", "Can not get current url to process since UI json data is invalid. at" +
+                DialogueBox.ShowOk("!Error!", "Can not get current url to process since UI json data is invalid. BUG at" +
                     "at line: "
                     + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name);
                 return null;
@@ -81,12 +81,110 @@ namespace com.rvkm.unitygames.wiki
 
         public void RemoveCurrentUrlFromProcList()
         {
-            throw new NotImplementedException();
+            if (UI_Data != null && UI_Data.procList != null && UI_Data.procList.Count > 0)
+            {
+                UI_Data.procList.RemoveAt(0);
+            }
         }
 
         public void AddTempPageToUIData(List<Url_UI_Data> data)
         {
-            throw new NotImplementedException();
+            if (UI_Data == null || UI_Data.url_s == null || data == null || data.Count < 0)
+            {
+                StackTrace st = new StackTrace(new StackFrame(true));
+                StackFrame sf = st.GetFrame(0);
+                DialogueBox.ShowOk("!Error!", "Error adding element to UI data since it " +
+                    "or url list or the data to be added is null/empty! " + "at line: "
+                    + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name);
+            }
+            else
+            {
+                foreach (var d in data)
+                {
+                    if (d == null) { continue; }
+                    var clone = new Url_UI_Data
+                    {
+                        ticksForDateTime = DateTime.Now,
+                        url = d.url,
+                        url_name = d.url_name,
+                        url_state = d.url_state
+                    };
+
+                    if (clone.url_state == Url_State.INIT) { clone.url_state = Url_State.Auto_NotRelated; }
+                    bool exist = UI_Data.url_s.Exists((pred) => { return pred.url == clone.url || pred.url_name == clone.url_name; });
+                    if (exist)
+                    {
+                        StackTrace st = new StackTrace(new StackFrame(true));
+                        StackFrame sf = st.GetFrame(0);
+                        DialogueBox.ShowOk("!Error!", "Possible element reduction bug! " + "at line: "
+                        + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name);
+                    }
+
+                    UI_Data.url_s.Add(clone);
+                    if (clone.url_state == Url_State.Picked)
+                    {
+                        if (UI_Data.procList == null) { UI_Data.procList = new List<Url_UI_Data>(); }
+                        UI_Data.procList.Add(clone);
+
+                        bool existPicked = UI_Data.procList.Exists((pred) => { return pred.url == clone.url || pred.url_name == clone.url_name; });
+                        if (existPicked)
+                        {
+                            StackTrace st = new StackTrace(new StackFrame(true));
+                            StackFrame sf = st.GetFrame(0);
+                            DialogueBox.ShowOk("!Error!", "Possible element reduction bug! " + "at line: "
+                            + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name);
+                        }
+                    }
+                }
+            }
+        }
+
+        
+
+        public void AddTempPageElementToUIData(Url_UI_Data data)
+        {
+            if (UI_Data == null || UI_Data.url_s == null)
+            {
+                StackTrace st = new StackTrace(new StackFrame(true));
+                StackFrame sf = st.GetFrame(0);
+                DialogueBox.ShowOk("!Error!", "Error adding element to UI data since it or url list is null! " + "at line: "
+                    + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name);
+            }
+            else
+            {
+                var clone = new Url_UI_Data
+                {
+                    ticksForDateTime = DateTime.Now,
+                    url = data.url,
+                    url_name = data.url_name,
+                    url_state = data.url_state
+                };
+
+                bool exist = UI_Data.url_s.Exists((pred) => { return pred.url == clone.url || pred.url_name == clone.url_name; });
+                if (exist)
+                {
+                    StackTrace st = new StackTrace(new StackFrame(true));
+                    StackFrame sf = st.GetFrame(0);
+                    DialogueBox.ShowOk("!Error!", "Possible element reduction bug! " + "at line: "
+                    + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name);
+                }
+
+                UI_Data.url_s.Add(clone);
+                if (clone.url_state == Url_State.Picked)
+                {
+                    if (UI_Data.procList == null) { UI_Data.procList = new List<Url_UI_Data>(); }
+                    UI_Data.procList.Add(clone);
+
+                    bool existPicked = UI_Data.procList.Exists((pred) => { return pred.url == clone.url || pred.url_name == clone.url_name; });
+                    if (existPicked)
+                    {
+                        StackTrace st = new StackTrace(new StackFrame(true));
+                        StackFrame sf = st.GetFrame(0);
+                        DialogueBox.ShowOk("!Error!", "Possible element reduction bug! " + "at line: "
+                        + sf.GetFileLineNumber() + " in file: " + sf.GetFileName() + " in method: " + sf.GetMethod().Name);
+                    }
+                }
+            }
         }
 
         //ENSURE

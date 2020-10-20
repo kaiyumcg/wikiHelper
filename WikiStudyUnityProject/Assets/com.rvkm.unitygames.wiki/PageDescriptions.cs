@@ -20,7 +20,19 @@ namespace com.rvkm.unitygames.wiki
         public Button ExitBTN { get { return exitButton; } }
         public Text MainNodeText { get { return mainNodeText; } }
         public Text StatusEntriesText { get { return statusEntriesText; } }
-        
+
+        public void UpdateStat(string currentUrl, string jsonStat)
+        {
+            if (mainNodeText != null)
+            {
+                mainNodeText.text = currentUrl;
+            }
+
+            if (statusEntriesText != null)
+            {
+                statusEntriesText.text = jsonStat;
+            }
+        }
     }
 
     [System.Serializable]
