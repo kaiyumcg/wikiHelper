@@ -21,38 +21,12 @@ namespace com.rvkm.unitygames.wiki
         /// Reference to the app controller.
         /// </summary>
         [SerializeField] WikiCon wikiCon;
-        [SerializeField] InputField mainNodeUrlInp;
-        [SerializeField] Text currentNodeTxt;
-        [SerializeField] Text statusEntriesTxt; //only update when we add or remove entries
-        [SerializeField] Button nextBtn;
-
-        /// <summary>
-        /// All buttons in option
-        /// </summary>
-        [Header("All option buttons")]
-        [SerializeField] Button backBtn;
-        [SerializeField] Button latestSaveFileLoadBtn;
-        [SerializeField] Button allSaveFileLoadBtn;
-        [SerializeField] Button browseToOpenBtn;
-        [SerializeField] Button saveBtn;
-        [SerializeField] Button exitBtn;
-        [SerializeField] Button homeBtn;
-        [SerializeField] Button manualPageBtn;
-        [SerializeField] Button autoPageBtn;
-        [SerializeField] Button pickedPageBtn;
-        [SerializeField] Button resultPageBtn;
-
-        /// <summary>
-        /// References to all the pages. 
-        /// </summary>
-        [Header("All 'Pages' references")]
-        [SerializeField] GameObject mainPage;
-        [SerializeField] GameObject pickedPage;
-        [SerializeField] GameObject autoBinPage;
-        [SerializeField] GameObject manualBinPage;
-        [SerializeField] GameObject processingPage;
-        [SerializeField] GameObject resultPage;
-
+        [SerializeField] MainPage mainPage;
+        [SerializeField] ProcessingPage procPage;
+        [SerializeField] AutomaticallyRemovedPage autoPage;
+        [SerializeField] ManuallyRemovedPage manualPage;
+        [SerializeField] PickedPage pickedPage;
+        [SerializeField] ResultPage resultPage;
         PageType currentPageType;
         List<Url_UI_Data> currentPageTemp;
 
@@ -89,22 +63,32 @@ namespace com.rvkm.unitygames.wiki
 
         void StartPage(PageType pageType)
         {
-            mainPage.SetActive(pageType == PageType.MainPage);
-            pickedPage.SetActive(pageType == PageType.PickedPage);
-            autoBinPage.SetActive(pageType == PageType.AutoRemovedPage);
-            manualBinPage.SetActive(pageType == PageType.ManualRemovedPage);
-            processingPage.SetActive(pageType == PageType.ProcessingPage);
-            resultPage.SetActive(pageType == PageType.ResultPage);
+            mainPage.Page.SetActive(pageType == PageType.MainPage);
+            pickedPage.Page.SetActive(pageType == PageType.PickedPage);
+            autoPage.Page.SetActive(pageType == PageType.AutoRemovedPage);
+            manualPage.Page.SetActive(pageType == PageType.ManualRemovedPage);
+            procPage.Page.SetActive(pageType == PageType.ProcessingPage);
+            resultPage.Page.SetActive(pageType == PageType.ResultPage);
         }
 
         void InstallAllUI()
         {
-            BindButton(nextBtn, () =>
+            BindButton(procPage.NextBTN, () =>
             {
                 if (currentPageType == PageType.MainPage)
                 {
                     DeviceWikiDataManager.LoadDataOrCreate(DevDataReadType.MergeAll, wikiCon, (success) =>
                     {
+                        DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                        if (wikiCon.UI_Data.isDataProcessed)
+                        {
+                            //go to result page
+                        }
+                        else
+                        {
+                            //do things
+                            //go to processing page
+                        }
                         throw new System.NotImplementedException();
                     });
                 }
@@ -119,24 +103,33 @@ namespace com.rvkm.unitygames.wiki
                 {
                     DeviceWikiDataManager.CheckCurrentlyLoadedData(wikiCon, (success) =>
                     {
-                        if (currentPageType == PageType.ProcessingPage)
+                        DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                        if (wikiCon.UI_Data.isDataProcessed)
                         {
-                            wikiCon.RemoveCurrentUrlToProcessFromList();
-                            wikiCon.AddUrlJsonUIData(currentPageTemp);
-                            DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
-                            currentPageTemp = wikiCon.GetUrlDataForUI_From(wikiCon.GetCurrentUrlToProcess());
-                            //draw the page with json ui data
-                            //?? on add/remove or minus/plus hobar upon UI element's button, we need to update tick/datetime
-                            //and update INIT flag to auto, manual or picked
-                            //on many point we must do refresh to keep ui json data and json data in sync
-                            //if all complete then do not go to processing page, rather result page.
+                            //go to result page
                         }
+                        else
+                        {
+                            if (currentPageType == PageType.ProcessingPage)
+                            {
+                                wikiCon.RemoveCurrentUrlFromProcList();
+                                wikiCon.AddTempPageToUIData(currentPageTemp);
+                                DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                                currentPageTemp = wikiCon.GetUrlDataForUI_From(wikiCon.GetCurrentUrlToProcess());
+                                //draw the page with json ui data
+                                //?? on add/remove or minus/plus hobar upon UI element's button, we need to update tick/datetime
+                                //and update INIT flag to auto, manual or picked
+                                //on many point we must do refresh to keep ui json data and json data in sync
+                                //if all complete then do not go to processing page, rather result page.
+                            }
+                        }
+                        
                         throw new System.NotImplementedException();
                     });
                 }
             });
 
-            BindButton(backBtn, () =>
+            BindButton(autoPage.BackBTN, () =>
             {
                 if (currentPageType == PageType.AutoRemovedPage || currentPageType == PageType.ManualRemovedPage
                 || currentPageType == PageType.PickedPage)
@@ -153,25 +146,25 @@ namespace com.rvkm.unitygames.wiki
             });
 
 
-            BindButton(latestSaveFileLoadBtn, () =>
+            BindButton(mainPage.FetchAndLoadBTN, () =>
             {
-                string url = mainNodeUrlInp.text;
+                string url = mainPage.MainNodeUrlInputfield.text;
                 DeviceWikiDataManager.LoadDataOrCreate(DevDataReadType.FromLatest, wikiCon, (success) =>
                 {
 
                 });
             });
 
-            BindButton(allSaveFileLoadBtn, () =>
+            BindButton(mainPage.FetchAndLoadBTN, () =>
             {
-                string url = mainNodeUrlInp.text;
+                string url = mainPage.MainNodeUrlInputfield.text;
                 DeviceWikiDataManager.LoadDataOrCreate(DevDataReadType.MergeAll, wikiCon, (success) =>
                 {
 
                 });
             });
 
-            BindButton(browseToOpenBtn, () =>
+            BindButton(mainPage.BrowseBTN, () =>
             {
                 BrowseIO.OpenFileFrom(OpenFromDirType.AutoSelect,
                 (WikiDataJson data) =>
@@ -193,26 +186,26 @@ namespace com.rvkm.unitygames.wiki
 
             });
 
-            BindButton(saveBtn, () =>
+            BindButton(mainPage.SaveBTN, () =>
             {
-                saveBtn.interactable = false;
+                mainPage.SaveBTN.interactable = false;
                 DeviceWikiDataManager.SaveCurrentData(wikiCon, (success) =>
                 {
-                    saveBtn.interactable = true;
+                    mainPage.SaveBTN.interactable = true;
                 });
             });
 
-            BindButton(exitBtn, () =>
+            BindButton(mainPage.ExitBTN, () =>
             {
                 DialogueBox.ShowYesNo("Confirmation!", "Any unsaved data will be lost! Are you sure!", () => { Application.Quit(); }, null);
             });
 
-            BindButton(homeBtn, () =>
+            BindButton(resultPage.HomeBTN, () =>
             {
                 PaintHome();
             });
 
-            BindButton(manualPageBtn, () =>
+            BindButton(procPage.ManualPageBTN, () =>
             {
                 currentPageType = PageType.ManualRemovedPage;
                 StartPage(PageType.ManualRemovedPage);
@@ -220,7 +213,7 @@ namespace com.rvkm.unitygames.wiki
                 Paint_UI_Elements_ScrollRect(PageType.ManualRemovedPage);
             });
 
-            BindButton(autoPageBtn, () =>
+            BindButton(procPage.AutoPageBTN, () =>
             {
                 currentPageType = PageType.AutoRemovedPage;
                 StartPage(PageType.AutoRemovedPage);
@@ -228,7 +221,7 @@ namespace com.rvkm.unitygames.wiki
                 Paint_UI_Elements_ScrollRect(PageType.AutoRemovedPage);
             });
 
-            BindButton(pickedPageBtn, () =>
+            BindButton(procPage.PickedPageBTN, () =>
             {
                 currentPageType = PageType.PickedPage;
                 StartPage(PageType.PickedPage);
@@ -254,10 +247,10 @@ namespace com.rvkm.unitygames.wiki
 
         void PaintPageCommonUI(PageType pageType)
         {
-            currentNodeTxt.text = wikiCon.GetCurrentUrlToProcess();
+            mainPage.MainNodeText.text = wikiCon.GetCurrentUrlToProcess();
             var stat = Utility.GetCurrentStatJsonData(wikiCon);
             string mainStr = stat.autoCount + " M: " + stat.manualCount + " P: " + stat.pickedCount;
-            statusEntriesTxt.text = stat.Completed ? "100% A: " + mainStr : mainStr;
+            mainPage.StatusEntriesText.text = stat.Completed ? "100% A: " + mainStr : mainStr;
             if (pageType == PageType.MainPage)
             {
                 throw new NotImplementedException();
@@ -282,6 +275,18 @@ namespace com.rvkm.unitygames.wiki
             });
         }
 
+        void BindButton(Button[] allBtns, Action callback)
+        {
+            foreach (var b in allBtns)
+            {
+                b.onClick.RemoveAllListeners();
+                b.onClick.AddListener(() =>
+                {
+                    callback?.Invoke();
+                });
+            }
+        }
+
         public static string GetMainNodeStr(ref string errorMsgIfAny)
         {
             if (instance == null)
@@ -291,15 +296,20 @@ namespace com.rvkm.unitygames.wiki
             }
             else
             {
-                if (instance.mainNodeUrlInp == null)
+                if (instance.mainPage == null)
                 {
-                    errorMsgIfAny = "UiCon instance's mainNodeUrlInp is null";
+                    errorMsgIfAny = "UiCon instance's main page is null";
+                    return null;
+                }
+                else if (instance.mainPage.MainNodeUrlInputfield == null)
+                {
+                    errorMsgIfAny = "UiCon instance's main page's mainNodeUrlInp is null";
                     return null;
                 }
                 else
                 {
                     errorMsgIfAny = "";
-                    string inputStr = instance.mainNodeUrlInp.text;
+                    string inputStr = instance.mainPage.MainNodeUrlInputfield.text;
                     inputStr = Utility.FormatWikiUrlCommon(inputStr);
                     if (Utility.IsUrlWiki(inputStr) == false)
                     {

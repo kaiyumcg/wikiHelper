@@ -21526,27 +21526,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wikiCon: {fileID: 0}
+  mainPage: {fileID: 0}
+  optionsBtn_mainPage: {fileID: 0}
+  fetchAndLoadBtn: {fileID: 0}
+  browseBtn: {fileID: 0}
+  saveBtn_mainPage: {fileID: 0}
+  deleteSaveFileBtn: {fileID: 0}
+  exitBtn_mainPage: {fileID: 0}
+  submitBtn: {fileID: 0}
   mainNodeUrlInp: {fileID: 0}
-  currentNodeTxt: {fileID: 0}
-  statusEntriesTxt: {fileID: 0}
-  nextBtn: {fileID: 0}
-  backBtn: {fileID: 0}
-  latestSaveFileLoadBtn: {fileID: 0}
-  allSaveFileLoadBtn: {fileID: 0}
-  browseToOpenBtn: {fileID: 0}
-  saveBtn: {fileID: 0}
-  exitBtn: {fileID: 0}
-  homeBtn: {fileID: 0}
+  fetchMode: {fileID: 0}
+  pickedPage: {fileID: 0}
+  optionsBtn_pickedPage: {fileID: 0}
+  backBtn_pickedPage: {fileID: 0}
+  saveBtn_pickedPage: {fileID: 0}
+  exitBtn_pickedPage: {fileID: 0}
+  homeBtn_pickedPage: {fileID: 0}
+  currentNodeTxt_pickedPage: {fileID: 0}
+  statusEntriesTxt_pickedPage: {fileID: 0}
+  autobinPage: {fileID: 0}
+  optionsBtn_autobinPage: {fileID: 0}
+  backBtn_autobinPage: {fileID: 0}
+  saveBtn_autobinPage: {fileID: 0}
+  exitBtn_autobinPage: {fileID: 0}
+  homeBtn_autobinPage: {fileID: 0}
+  currentNodeTxt_autobinPage: {fileID: 0}
+  statusEntriesTxt_autobinPage: {fileID: 0}
+  manualbinPage: {fileID: 0}
+  optionsBtn_manualbinPage: {fileID: 0}
+  backBtn_manualbinPage: {fileID: 0}
+  saveBtn_manualbinPage: {fileID: 0}
+  exitBtn_manualbinPage: {fileID: 0}
+  homeBtn_manualbinPage: {fileID: 0}
+  currentNodeTxt_manualbinPage: {fileID: 0}
+  statusEntriesTxt_manualbinPage: {fileID: 0}
+  processingPage: {fileID: 0}
   manualPageBtn: {fileID: 0}
   autoPageBtn: {fileID: 0}
   pickedPageBtn: {fileID: 0}
-  resultPageBtn: {fileID: 0}
-  mainPage: {fileID: 0}
-  pickedPage: {fileID: 0}
-  autoBinPage: {fileID: 0}
-  manualBinPage: {fileID: 0}
-  processingPage: {fileID: 0}
+  nextBtn_processingPage: {fileID: 0}
+  saveBtn_processingPage: {fileID: 0}
+  exitBtn_processingPage: {fileID: 0}
+  homeBtn_processingPage: {fileID: 0}
+  currentNodeTxt_ProcessingPage: {fileID: 0}
+  statusEntriesTxt_ProcessingPage: {fileID: 0}
   resultPage: {fileID: 0}
+  saveBtn_resultPage: {fileID: 0}
+  exitBtn_resultPage: {fileID: 0}
+  homeBtn_resultPage: {fileID: 0}
+  currentNodeTxt_ResultPage: {fileID: 0}
+  statusEntriesTxt_ResultPage: {fileID: 0}
 --- !u!4 &1902301177
 Transform:
   m_ObjectHideFlags: 0

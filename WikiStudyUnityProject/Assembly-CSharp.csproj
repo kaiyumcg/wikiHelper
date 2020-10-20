@@ -77,6 +77,7 @@
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\TapHoldRepeaterCrossButton.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Async\AsyncUtility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\WikiCon.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.wiki\PageDescriptions.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Packages\HtmlAgilityPack.1.11.24\lib\netstandard2.0\HtmlAgilityPack.xml" />

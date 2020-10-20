@@ -79,12 +79,12 @@ namespace com.rvkm.unitygames.wiki
             }
         }
 
-        public void RemoveCurrentUrlToProcessFromList()
+        public void RemoveCurrentUrlFromProcList()
         {
             throw new NotImplementedException();
         }
 
-        public void AddUrlJsonUIData(List<Url_UI_Data> data)
+        public void AddTempPageToUIData(List<Url_UI_Data> data)
         {
             throw new NotImplementedException();
         }

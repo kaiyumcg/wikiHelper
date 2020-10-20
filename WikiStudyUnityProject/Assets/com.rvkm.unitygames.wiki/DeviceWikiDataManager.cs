@@ -32,6 +32,10 @@ namespace com.rvkm.unitygames.wiki
             {
                 bool isCompleted = wikiCon.UI_Data.procList == null || wikiCon.UI_Data.procList.Count == 0;
                 wikiCon.UI_Data.isDataProcessed = isCompleted;
+                if (isCompleted)
+                {
+                    wikiCon.UI_Data.ticksAtSaveTime = DateTime.Now;
+                }
                 wikiCon.JsonData = GetJsonData(wikiCon.UI_Data);
             }
         }
