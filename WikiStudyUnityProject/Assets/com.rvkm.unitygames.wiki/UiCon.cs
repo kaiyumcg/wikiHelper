@@ -70,7 +70,7 @@ namespace com.rvkm.unitygames.wiki
             procPage.Page.SetActive(pageType == PageType.ProcessingPage);
             resultPage.Page.SetActive(pageType == PageType.ResultPage);
             string urlCur = wikiCon.GetCurrentUrlToProcess();
-            var stat = Utility.GetCurrentStatJsonData(wikiCon);
+            var stat = StatUtility.GetCurrentStatJsonData(wikiCon);
             string mainStr = stat.autoCount + " M: " + stat.manualCount + " P: " + stat.pickedCount;
             string statString = stat.Completed ? "100% A: " + mainStr : mainStr;
             mainPage.UpdateStat(urlCur, statString);
@@ -126,11 +126,11 @@ namespace com.rvkm.unitygames.wiki
         {
             BindButton(procPage.NextBTN, () =>
             {
-                DeviceWikiDataManager.CheckCurrentlyLoadedData(wikiCon, (success) =>
+                AppDataManager.CheckCurrentlyLoadedData(wikiCon, (success) =>
                 {
                     if (success)
                     {
-                        DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                        AppDataManager.RefreshWikiJsonData(wikiCon);
                         if (wikiCon.UI_Data.isDataProcessed)
                         {
                             //go to result page
@@ -139,7 +139,7 @@ namespace com.rvkm.unitygames.wiki
                         {
                             wikiCon.AddTempPageToUIData(currentPageTemp);
                             wikiCon.RemoveCurrentUrlFromProcList();
-                            DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                            AppDataManager.RefreshWikiJsonData(wikiCon);
                             if (wikiCon.UI_Data.isDataProcessed)
                             {
                                 //go to result page
@@ -161,14 +161,14 @@ namespace com.rvkm.unitygames.wiki
                                             {
                                                 urlData.url_state = Url_State.Picked;
                                                 RemoveEntryFromPageAndAddToUIData(urlData);
-                                                DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                                                AppDataManager.RefreshWikiJsonData(wikiCon);
                                                 DestroyImmediate(elem.gameObject);
                                             },
                                             () =>
                                             {
                                                 urlData.url_state = Url_State.Manual_NotRelated;
                                                 RemoveEntryFromPageAndAddToUIData(urlData);
-                                                DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                                                AppDataManager.RefreshWikiJsonData(wikiCon);
                                                 DestroyImmediate(elem.gameObject);
                                             });
 
@@ -178,7 +178,7 @@ namespace com.rvkm.unitygames.wiki
                                 else
                                 {
                                     wikiCon.UI_Data.isDataProcessed = true;
-                                    DeviceWikiDataManager.RefreshWikiJsonData(wikiCon);
+                                    AppDataManager.RefreshWikiJsonData(wikiCon);
                                     //go to result page
                                 }
 
@@ -196,7 +196,7 @@ namespace com.rvkm.unitygames.wiki
             BindButton(mainPage.FetchAndLoadBTN, () =>
             {
                 string url = mainPage.MainNodeUrlInputfield.text;
-                DeviceWikiDataManager.LoadDataOrCreate(DevDataReadType.FromLatest, wikiCon, (success) =>
+                AppDataManager.LoadDataOrCreate(DevDataReadType.FromLatest, wikiCon, (success) =>
                 {
 
                 });
@@ -205,7 +205,7 @@ namespace com.rvkm.unitygames.wiki
             BindButton(mainPage.FetchAndLoadBTN, () =>
             {
                 string url = mainPage.MainNodeUrlInputfield.text;
-                DeviceWikiDataManager.LoadDataOrCreate(DevDataReadType.MergeAll, wikiCon, (success) =>
+                AppDataManager.LoadDataOrCreate(DevDataReadType.MergeAll, wikiCon, (success) =>
                 {
 
                 });
@@ -224,8 +224,8 @@ namespace com.rvkm.unitygames.wiki
                     }
                     else
                     {
-                        DeviceWikiDataManager.SetBrowsedWikiData(data);
-                        DeviceWikiDataManager.LoadDataOrCreate(DevDataReadType.Browse, wikiCon, (success)=> { 
+                        AppDataManager.SetBrowsedWikiData(data);
+                        AppDataManager.LoadDataOrCreate(DevDataReadType.Browse, wikiCon, (success)=> { 
                         
                         });
                     }
@@ -236,7 +236,7 @@ namespace com.rvkm.unitygames.wiki
             BindButton(mainPage.SaveBTN, () =>
             {
                 mainPage.SaveBTN.interactable = false;
-                DeviceWikiDataManager.SaveCurrentData(wikiCon, (success) =>
+                AppDataManager.SaveCurrentData(wikiCon, (success) =>
                 {
                     mainPage.SaveBTN.interactable = true;
                 });
@@ -292,8 +292,8 @@ namespace com.rvkm.unitygames.wiki
                 {
                     errorMsgIfAny = "";
                     string inputStr = instance.mainPage.MainNodeUrlInputfield.text;
-                    inputStr = Utility.FormatWikiUrlCommon(inputStr);
-                    if (Utility.IsUrlWiki(inputStr) == false)
+                    inputStr = UrlUtility.FormatWikiUrlCommon(inputStr);
+                    if (UrlUtility.IsUrlWiki(inputStr) == false)
                     {
                         StackTrace st = new StackTrace(new StackFrame(true));
                         StackFrame sf = st.GetFrame(0);

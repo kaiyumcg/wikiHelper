@@ -1,4 +1,9 @@
 WikiStudyUnityProject/Library/
 *.sln
+WikiStudyUnityProject/.vs
 WikiStudyUnityProject/obj/
 WikiStudyUnityProject/Temp/
+WikiStudyUnityProject/UIElementsSchema/
+WikiStudyUnityProject/.vs/WikiStudyUnityProject/v16/.suo
+WikiStudyUnityProject/Assembly-CSharp-Editor.csproj
+WikiStudyUnityProject/Assembly-CSharp.csproj

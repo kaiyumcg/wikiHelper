@@ -19,8 +19,8 @@ namespace com.rvkm.unitygames.wiki
             this.mainNode = jsonDataWiki.mainNode;
             this.ticksAtSaveTime = new DateTime(jsonDataWiki.ticksAtSaveTime);
             this.isDataProcessed = jsonDataWiki.isDataProcessed;
-            this.url_s = DeviceWikiDataManager.Json_To_UI(jsonDataWiki.url_s);
-            this.procList = DeviceWikiDataManager.Json_To_UI(jsonDataWiki.procList);
+            this.url_s = DataConversionUtility.Json_To_UI(jsonDataWiki.url_s);
+            this.procList = DataConversionUtility.Json_To_UI(jsonDataWiki.procList);
         }
     }
 

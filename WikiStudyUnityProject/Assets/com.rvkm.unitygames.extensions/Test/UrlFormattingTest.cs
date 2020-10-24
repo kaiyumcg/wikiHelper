@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using com.rvkm.unitygames.debug;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,7 +29,7 @@ namespace com.rvkm.unitygames.extensions
                 {
                     url = url.TrimUrlSlashesFromEnd();
                 }
-                GameDebug.LogMagenta(" formatted url: " + url);
+                DebugRVKM.LogMagenta(" formatted url: " + url);
             }
         }
     }

@@ -1,4 +1,5 @@
 ﻿using com.rvkm.unitygames.extensions.async;
+using com.rvkm.unitygames.extensions.saveData;
 using com.rvkm.unitygames.extensions.UI;
 using System;
 using System.Collections;
@@ -8,7 +9,7 @@ using UnityEngine;
 
 namespace com.rvkm.unitygames.wiki
 {
-    public static class DeviceWikiDataManager
+    public static class AppDataManager
     {
         public static void RefreshWikiJsonData(WikiCon wikiCon)
         {
@@ -36,14 +37,14 @@ namespace com.rvkm.unitygames.wiki
                 {
                     wikiCon.UI_Data.ticksAtSaveTime = DateTime.Now;
                 }
-                wikiCon.JsonData = GetJsonData(wikiCon.UI_Data);
+                wikiCon.JsonData = DataConversionUtility.GetJsonData(wikiCon.UI_Data);
             }
         }
 
         public static void CheckCurrentlyLoadedData(WikiCon wikiCon, Action<bool> OnCompleteLoad)
         {
             string url = wikiCon.GetCurrentUrlToProcess();
-            if (Utility.IsUrlWiki(url) == false)
+            if (UrlUtility.IsUrlWiki(url) == false)
             {
                 StackTrace st = new StackTrace(new StackFrame(true));
                 StackFrame sf = st.GetFrame(0);
@@ -73,62 +74,6 @@ namespace com.rvkm.unitygames.wiki
             }
         }
 
-        public static List<Url_UI_Data> Json_To_UI(Url_Json[] urls)
-        {
-            List<Url_UI_Data> result = new List<Url_UI_Data>();
-            if (urls != null)
-            {
-                foreach (var l in urls)
-                {
-                    if (l == null) { continue; }
-                    var l_new = new Url_UI_Data
-                    {
-                        ticksForDateTime = new DateTime(l.ticksForDateTime),
-                        url = l.url,
-                        url_name = l.url_name,
-                        url_state = l.url_state
-                    };
-                    result.Add(l_new);
-                }
-            }
-            return result;
-        }
-
-        static Url_Json[] UI_To_Json(List<Url_UI_Data> urls)
-        {
-            Url_Json[] result = null;
-            if (urls != null && urls.Count > 0)
-            {
-                result = new Url_Json[urls.Count];
-                for (int i = 0; i < urls.Count; i++)
-                {
-                    if (urls[i] == null) { continue; }
-                    var l_new = new Url_Json
-                    {
-                        ticksForDateTime = urls[i].ticksForDateTime.Ticks,
-                        url = urls[i].url,
-                        url_name = urls[i].url_name,
-                        url_state = urls[i].url_state
-                    };
-                    result[i] = l_new;
-                }
-            }
-            return result;
-        }
-
-        static WikiDataJson GetJsonData(WikiUIData uiJsonData)
-        {
-            WikiDataJson result = new WikiDataJson
-            {
-                isDataProcessed = uiJsonData.isDataProcessed,
-                mainNode = uiJsonData.mainNode,
-                ticksAtSaveTime = uiJsonData.ticksAtSaveTime.Ticks,
-                url_s = UI_To_Json(uiJsonData.url_s),
-                procList = UI_To_Json(uiJsonData.procList),
-            };
-            return result;
-        }
-
         public static void SaveCurrentData(WikiCon wikiCon, Action<bool> OnCompleteSave)
         {
             if (wikiCon.UI_Data == null)
@@ -143,10 +88,12 @@ namespace com.rvkm.unitygames.wiki
             }
             else
             {
-                wikiCon.JsonData = GetJsonData(wikiCon.UI_Data);
+                wikiCon.JsonData = DataConversionUtility.GetJsonData(wikiCon.UI_Data);
                 bool dataWriteSuccess = true;
                 string errorMsg = "";
-                Utility.WriteDataToDevice(wikiCon.JsonData, ref dataWriteSuccess, ref errorMsg);
+                wikiCon.JsonData.ticksAtSaveTime = DateTime.Now.Ticks;
+                MinSaveDataManager.WriteDataToDevice(wikiCon.JsonData, ConstantManager.wikiSaveFileExtension
+                    , ref dataWriteSuccess, ref errorMsg);
                 FullScreenLoadingUI.Show("Saving", "Writing Json data", 0.2f);
                 AsyncUtility.WaitXSeconds(0.3f, () =>
                 {
@@ -193,7 +140,7 @@ namespace com.rvkm.unitygames.wiki
                 //Yes, we will proceed
                 () =>
                 {
-                    if (Utility.IsUrlWiki(mainNodeUrl) == false && processType != DevDataReadType.Browse)
+                    if (UrlUtility.IsUrlWiki(mainNodeUrl) == false && processType != DevDataReadType.Browse)
                     {
                         StackTrace st = new StackTrace(new StackFrame(true));
                         StackFrame sf = st.GetFrame(0);
@@ -211,11 +158,11 @@ namespace com.rvkm.unitygames.wiki
                         WikiDataJson allDevData = null;
                         if (processType == DevDataReadType.FromLatest)
                         {
-                            allDevData = Utility.MergeAllDeviceData(mainNodeUrl, ref dataFetchSuccess, ref errorMsg);
+                            allDevData = WikiSaveDataUtility.MergeAllDeviceData(mainNodeUrl, ref dataFetchSuccess, ref errorMsg);
                         }
                         else if (processType == DevDataReadType.MergeAll)
                         {
-                            allDevData = Utility.GetLatestSave(mainNodeUrl, ref dataFetchSuccess, ref errorMsg);
+                            allDevData = WikiSaveDataUtility.GetLatestSave(mainNodeUrl, ref dataFetchSuccess, ref errorMsg);
                         }
                         else if (processType == DevDataReadType.Browse)
                         {

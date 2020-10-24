@@ -210,7 +210,7 @@ namespace com.rvkm.unitygames.wiki
         bool IsValidUrlToConsider(string url, string url_name)
         {
             bool result = false;
-            if (Utility.IsUrlWiki(url)) 
+            if (UrlUtility.IsUrlWiki(url)) 
             {
                 if (UI_Data.url_s != null && UI_Data.url_s.Count > 0)
                 {
@@ -271,7 +271,7 @@ namespace com.rvkm.unitygames.wiki
                     }
                 }
 
-                linkUrl = Utility.FormatWikiUrlCommon(linkUrl);
+                linkUrl = UrlUtility.FormatWikiUrlCommon(linkUrl);
 
                 if (IsValidUrlToConsider(linkUrl, linkName))
                 {

@@ -25,7 +25,7 @@ namespace com.rvkm.unitygames.wiki
         {
             if (installed) { return; }
             installed = true;
-            this.full_url = Utility.GetFullWikiUrlForOpenWWW(url);
+            this.full_url = UrlUtility.GetFullWikiUrlForOpenWWW(url);
             this.urlText.text = url_name;
             this.OnMinus = OnMinus;
             this.OnPlus = OnPlus;
