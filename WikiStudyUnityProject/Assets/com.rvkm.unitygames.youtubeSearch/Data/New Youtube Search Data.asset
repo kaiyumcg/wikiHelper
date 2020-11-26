@@ -12,25 +12,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bda49d3499343374eacafca3de8a4557, type: 3}
   m_Name: New Youtube Search Data
   m_EditorClassIdentifier: 
+  youtubeAPIKey: AIzaSyCflVx4h5RzeWP4YITXCpzZAWo4hPoQZJU
   searchName: Unity
   inputHtmlFiles:
   - {fileID: 4900000, guid: ad433373dba068a47bfea1051a75d6a0, type: 3}
   inputUrls: []
   allTags: []
+  testID: 0
   allVideos:
-  - title: 
+  - title: Your First Game Jam with LEGO | Livestream
     url: https://www.youtube.com/watch?v=pq_hjSUbrXs
-    channelName: 
-    description: 
-    thumbUrls: []
+    channelName: Unity
+    description: "Want to use the Danger Zone LEGO\xAE Microgame Add-On asset we
+      used during the Jam? Get it for free here: https://on.unity.com/3kegXEa\n\nIn
+      this live event, we will be taking you through the all new LEGO Microgame available
+      on Unity and showing you some of the fun things you can do with it.\n\nWe will
+      have special guests joining us from the Unity community and from LEGO to help
+      guide you through this fun adventure.\n\nTo get the most out of this Game Jam,
+      make sure to download all the assets required to participate alongside the
+      live event.\n\nContinue the Learning Fun with our LEGO Live Learning Series
+      here:\nhttps://on.unity.com/3m4fcLp\n\nHosts:\n\u2B50 Ashley Alicea, Unity
+      - https://twitter.com/avashly\n\u2B50 Carol Trang, Unity - https://twitter.com/AskAlicePlease\n\u2B50
+      Joyce Plokker, MinionsArt - https://twitter.com/minionsart\n\u2B50 Anders Tankred
+      Holm, LEGO - https://twitter.com/atholm\n\n================================\n\u2714\uFE0F
+      Core Set Up\nSet up Unity and the LEGO Microgame on your computer\nhttps://on.unity.com/36qwHPp\n\nIf
+      you have questions, reach out to us in the GameJam chat on Discord https://discord.com/invite/unity\n================================\n\nFAQs:\nQ:
+      Do I need any Unity or programming experience to attend?\nA: Nope! This jam
+      is for people who are new to Unity. We just ask that you arrive ready to jam
+      (see above).\n\nQ: What are the system requirements to install Unity?\nA: https://on.unity.com/3fzPkUs\n\nQ:
+      How long is the jam?\nA: We\u2019ll be jamming for about 2-2.5 hours. Of course,
+      you\u2019re free to pop in and out. We\u2019ll do our best to make sure it\u2019s
+      easy for people to just jump right back in with us!\n\nQ: Will it be recorded/published?\nA:
+      Yes! The stream will be converted to a video once it ends, so you can review
+      it at any time. If you missed it live, you can watch it at your convenience.\n\nQ:
+      What is a game jam?\nA: This game jam is unique because it\u2019s hosted online,
+      it\u2019s for beginners, we\u2019re using a game template, it\u2019s short,
+      and we (pretty much) know what we\u2019re going to show you. A \u201Ctraditional\u201D
+      game jam is an in-person event where you would typically gather with more experienced
+      programmers, game designers, artists, etc. to create a game or project from
+      scratch within a time span averaging 24\u201372 hours."
+    thumbUrls:
+    - https://i.ytimg.com/vi/pq_hjSUbrXs/sddefault.jpg
+    - https://i.ytimg.com/vi/pq_hjSUbrXs/mqdefault.jpg
+    - https://i.ytimg.com/vi/pq_hjSUbrXs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pq_hjSUbrXs/hqdefault.jpg
     tags: []
-    viewCount: 0
-    likeCount: 0
-    dislikeCount: 0
-    commentCount: 0
-    durationInMinutes: 0
-    publishedAtDate: 0
-    YouTubeDataAPI_Cooked: 0
+    viewCount: 10954
+    likeCount: 510
+    dislikeCount: 16
+    commentCount: 26
+    durationInMinutes: 148
+    publishedAtDate: 637414368470000000
+    YouTubeDataAPI_Cooked: 1
   - title: 
     url: https://www.youtube.com/watch?v=lWS1S9HuFk8
     channelName: 

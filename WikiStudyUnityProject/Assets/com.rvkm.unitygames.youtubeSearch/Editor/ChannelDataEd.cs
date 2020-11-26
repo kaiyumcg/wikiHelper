@@ -18,19 +18,21 @@ namespace com.rvkm.unitygames.YouTubeSearch
             //}
         }
 
+        
+
         public override void OnInspectorGUI()
         {
             DrawDefaultInspector();
 
             if (GUILayout.Button("Fetch Local"))
             {
-                Debug.Log("yap!");
+               
                 List<YoutubeVideo> vList = new List<YoutubeVideo>();
                 if (data.InputHtmlFiles != null)
                 {
                     foreach (var txtAsset in data.InputHtmlFiles)
                     {
-                        vList.CopyUniqueFrom(Utility.GetAllVideoInfo(txtAsset.text));
+                        vList.CopyUniqueFrom(EdUtility.GetAllVideoInfo(txtAsset.text));
                     }
                 }
 
@@ -38,12 +40,16 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 {
                     foreach (var url in data.InputUrls)
                     {
-                        if (!Utility.IsUrl(url)) { continue; }
-                        vList.CopyUniqueFrom(Utility.GetAllVideoInfo(Utility.GetWWWResponseSync(url)));
+                        if (!EdUtility.IsUrl(url)) { continue; }
+                        vList.CopyUniqueFrom(EdUtility.GetAllVideoInfo(Utility.GetWWWResponse(url)));
                     }
                 }
                 data.allVideos = vList.ToArray();
                 data.fetchedFromLocal = true;
+
+                data.allVideos[data.testID] = Utility.UpdateFromYoutubeDataAPI(data.allVideos[data.testID], data.APIKEY);
+                Debug.Log("yap!");
+                EditorUtility.SetDirty(data);
             }
 
             /*

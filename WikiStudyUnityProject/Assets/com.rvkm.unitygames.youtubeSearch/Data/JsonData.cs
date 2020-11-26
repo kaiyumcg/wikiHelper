@@ -7,7 +7,7 @@ using System;
 /// GET https://youtube.googleapis.com/youtube/v3/videos?part=snippet&part=statistics&part=contentDetails&id=[VIDEO_ID_INPUT]&key=[YOUR_API_KEY]
 /// Json generated with the help of: https://jsonutils.com/
 /// </summary>
-namespace com.rvkm.unitygames.YouTube.YouTubeSearchInternal
+namespace com.rvkm.unitygames.YouTubeSearchInternal
 {
     [System.Serializable]
     public class Default
@@ -137,7 +137,7 @@ namespace com.rvkm.unitygames.YouTube.YouTubeSearchInternal
     }
 
     [System.Serializable]
-    public class VideoJsonData
+    public class VideoInfoJson
     {
         public string kind;
         public string etag;
