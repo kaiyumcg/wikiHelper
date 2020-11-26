@@ -1,0 +1,96 @@
+<ytd-video-renderer class="style-scope ytd-item-section-renderer" lockup="" prominent-thumb-style="DEFAULT" use-prominent-thumbs="" inline-title-icon=""><!--css-build:shady--><div id="dismissable" class="style-scope ytd-video-renderer">
+  <ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer"><!--css-build:shady--><a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=aY3AePjnC_w">
+  <yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition" style="background-color: transparent;" loaded=""><!--css-build:shady--><img id="img" class="style-scope yt-img-shadow" alt="" width="360" src="https://i.ytimg.com/vi/aY3AePjnC_w/hq720.jpg?sqp=-oaymwEZCOgCEMoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLCzA4iv_-Vj3_CM8r0iW3kJ_QIPHg"></yt-img-shadow>
+  
+  <div id="overlays" class="style-scope ytd-thumbnail"><ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT"><!--css-build:shady--><yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon><span class="style-scope ytd-thumbnail-overlay-time-status-renderer" aria-label="9 minutes, 48 seconds">
+  9:48
+</span></ytd-thumbnail-overlay-time-status-renderer><ytd-thumbnail-overlay-now-playing-renderer class="style-scope ytd-thumbnail"><!--css-build:shady--><span class="style-scope ytd-thumbnail-overlay-now-playing-renderer">Now playing</span>
+</ytd-thumbnail-overlay-now-playing-renderer></div>
+  <div id="mouseover-overlay" class="style-scope ytd-thumbnail"></div>
+  <div id="hover-overlays" class="style-scope ytd-thumbnail"></div>
+</a>
+</ytd-thumbnail>
+  <div class="text-wrapper style-scope ytd-video-renderer">
+    <div id="meta" class="style-scope ytd-video-renderer">
+      <div id="title-wrapper" class="style-scope ytd-video-renderer">
+        <h3 class="title-and-badge style-scope ytd-video-renderer">
+          <ytd-badge-supported-renderer class="style-scope ytd-video-renderer" disable-upgrade="" hidden="">
+          </ytd-badge-supported-renderer>
+          <a id="video-title" class="yt-simple-endpoint style-scope ytd-video-renderer" title="Video Expert Reacts To And Analyzes Liziqi's Channel" href="/watch?v=aY3AePjnC_w" aria-label="Video Expert Reacts To And Analyzes Liziqi's Channel by Enu Create – Video Marketing &amp; Strategy 10 months ago 9 minutes, 48 seconds 165,987 views">
+            <yt-icon id="inline-title-icon" class="style-scope ytd-video-renderer" hidden=""><!--css-build:shady--></yt-icon>
+            <yt-formatted-string class="style-scope ytd-video-renderer" aria-label="Video Expert Reacts To And Analyzes Liziqi's Channel by Enu Create – Video Marketing &amp; Strategy 10 months ago 9 minutes, 48 seconds 165,987 views">Video Expert Reacts To And Analyzes Liziqi's Channel</yt-formatted-string>
+          </a>
+        </h3>
+        <div id="menu" class="style-scope ytd-video-renderer"><ytd-menu-renderer class="style-scope ytd-video-renderer"><!--css-build:shady--><div id="top-level-buttons" class="style-scope ytd-menu-renderer"></div>
+<yt-icon-button id="button" class="dropdown-trigger style-scope ytd-menu-renderer"><!--css-build:shady--><button id="button" class="style-scope yt-icon-button" aria-label="Action menu">
+  <yt-icon class="style-scope ytd-menu-renderer"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" class="style-scope yt-icon"></path></g></svg><!--css-build:shady--></yt-icon>
+</button></yt-icon-button>
+</ytd-menu-renderer></div>
+      </div>
+      <ytd-video-meta-block class="style-scope ytd-video-renderer byline-separated"><!--css-build:shady-->
+<div id="metadata" class="style-scope ytd-video-meta-block">
+  <div id="byline-container" class="style-scope ytd-video-meta-block" hidden="">
+    <ytd-channel-name id="channel-name" class="style-scope ytd-video-meta-block"><!--css-build:shady--><div id="container" class="style-scope ytd-channel-name">
+  <div id="text-container" class="style-scope ytd-channel-name">
+    <yt-formatted-string id="text" title="" class="style-scope ytd-channel-name complex-string" ellipsis-truncate="" has-link-only_=""><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/channel/UCfY9D32vLOJdmXHxVVO0hvw" dir="auto">Enu Create – Video Marketing &amp; Strategy</a></yt-formatted-string>
+  </div>
+  <paper-tooltip fit-to-visible-bounds="" offset="10" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1"><!--css-build:shady-->
+    
+
+    <div id="tooltip" class="hidden style-scope paper-tooltip">
+      
+    Enu Create – Video Marketing &amp; Strategy
+  
+    </div>
+</paper-tooltip>
+</div>
+<ytd-badge-supported-renderer class="style-scope ytd-channel-name" disable-upgrade="" hidden="">
+</ytd-badge-supported-renderer>
+</ytd-channel-name>
+    <div id="separator" class="style-scope ytd-video-meta-block">•</div>
+  </div>
+  <div id="metadata-line" class="style-scope ytd-video-meta-block">
+    
+      <span class="style-scope ytd-video-meta-block">165K views</span>
+    
+      <span class="style-scope ytd-video-meta-block">10 months ago</span>
+    <dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block"><template is="dom-repeat"></template></dom-repeat>
+  </div>
+</div>
+<div id="additional-metadata-line" class="style-scope ytd-video-meta-block">
+  <dom-repeat class="style-scope ytd-video-meta-block"><template is="dom-repeat"></template></dom-repeat>
+</div>
+
+</ytd-video-meta-block>
+    </div>
+    <div id="channel-info" class="style-scope ytd-video-renderer">
+      <a class="style-scope ytd-video-renderer" href="/channel/UCfY9D32vLOJdmXHxVVO0hvw" aria-label="Go to channel">
+        <yt-img-shadow width="24" class="style-scope ytd-video-renderer no-transition" style="background-color: transparent;" loaded=""><!--css-build:shady--><img id="img" class="style-scope yt-img-shadow" alt="" width="24" src="https://yt3.ggpht.com/a-/AOh14GgTHjV_2Rr3FTG7fBnClnFZBhaNBMpAKKuMuw=s68-c-k-c0x00ffffff-no-rj-mo"></yt-img-shadow>
+      </a>
+      <ytd-channel-name id="channel-name" class="long-byline style-scope ytd-video-renderer" wrap-text="true"><!--css-build:shady--><div id="container" class="style-scope ytd-channel-name">
+  <div id="text-container" class="style-scope ytd-channel-name">
+    <yt-formatted-string id="text" title="" class="style-scope ytd-channel-name" has-link-only_=""><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/channel/UCfY9D32vLOJdmXHxVVO0hvw" dir="auto">Enu Create – Video Marketing &amp; Strategy</a></yt-formatted-string>
+  </div>
+  <paper-tooltip fit-to-visible-bounds="" offset="10" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1"><!--css-build:shady-->
+    
+
+    <div id="tooltip" class="hidden style-scope paper-tooltip">
+      
+    Enu Create – Video Marketing &amp; Strategy
+  
+    </div>
+</paper-tooltip>
+</div>
+<ytd-badge-supported-renderer class="style-scope ytd-channel-name" disable-upgrade="" hidden="">
+</ytd-badge-supported-renderer>
+</ytd-channel-name>
+    </div>
+    <yt-formatted-string id="description-text" class="style-scope ytd-video-renderer">Brenda briefly audits the Liziqi's popular channel in search of keys and clues to its success. Get ready to learn and apply Liziqi's </yt-formatted-string>
+    <dom-repeat class="style-scope ytd-video-renderer" hidden=""><template is="dom-repeat"></template></dom-repeat>
+    <ytd-badge-supported-renderer id="badges" class="style-scope ytd-video-renderer" disable-upgrade="" hidden="">
+    </ytd-badge-supported-renderer>
+    <div id="buttons" class="style-scope ytd-video-renderer"></div>
+  </div>
+</div>
+<div id="dismissed" class="style-scope ytd-video-renderer"></div>
+</ytd-video-renderer>
