@@ -9,16 +9,33 @@ namespace com.rvkm.unitygames.YouTubeSearch
     [CreateAssetMenu(fileName = "New Youtube Search Data", menuName = "Kaiyum/Youtube Search Data(V3 API powered)", order = 1)]
     public class SearchDataYoutube : ScriptableObject
     {
-        [SerializeField] [Multiline] string youtubeAPIKey;
-        public string APIKEY { get { return youtubeAPIKey; } }
-        [SerializeField] string searchName;
-        [SerializeField] TextAsset[] inputHtmlFiles;
-        [SerializeField] string[] inputUrls;
-        public TextAsset[] InputHtmlFiles { get { return inputHtmlFiles; } }
-        public string[] InputUrls { get { return inputUrls; } }
+        public string APIKEY;
+        public string SearchName;
+        public TextAsset[] InputHtmlFiles;
+        public string[] InputUrls;
         public string[] allTags;
-        public int testID;
         public YoutubeVideo[] allVideos;
-        public bool fetchedFromLocal = false;
+        public string[] ignoreTags;
+
+        public bool IsDataOk()
+        {
+            bool isOk = true;
+            if (allVideos != null && allVideos.Length > 0)
+            {
+                foreach (var v in allVideos)
+                {
+                    if (v == null || v.YouTubeDataAPI_Cooked == false)
+                    {
+                        isOk = false;
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                isOk = false;
+            }
+            return isOk;
+        }
     }
 }

@@ -62,6 +62,7 @@
     <Compile Include="Assets\com.rvkm.unitygames.youtube\V2\YoutubeV2.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtube\YoutubeAPI\Comment\CommentCon.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.gameplayFramework\Tag\GameTagManager.cs" />
+    <Compile Include="Assets\Balsal.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.gameplayFramework\IController.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\Test\CrossBtnTester.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtube\Data\ChannelVideoDescription.cs" />
@@ -73,12 +74,10 @@
     <Compile Include="Assets\com.rvkm.unitygames.youtube\V2\Data\VideoInfo.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtube\V2\Data\TestScr.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\SearchDataYoutube.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\ScrapUtility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\FullScreenLoadingUI.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\Utilities\WikiSaveDataUtility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Extension.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\AppDataManager.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\JsonData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtube\V2\Data\SearchKeywordList.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\Test\LoaderUITester.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Utility.cs" />
@@ -117,7 +116,6 @@
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Async\AsyncUtility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\WikiCon.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtube\V2\Data\V2Data.cs" />
-    <Compile Include="Assets\Balsal.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\com.rvkm.unitygames.youtube\V2\Data\channel.xml" />
@@ -704,6 +702,9 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

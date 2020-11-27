@@ -57,5 +57,53 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 }
             }
         }
+
+        public static void CopyUniqueFrom(this List<YoutubeVideo> vList, YoutubeVideo[] vListToCopy)
+        {
+            if (vListToCopy != null && vListToCopy.Length > 0)
+            {
+                foreach (var v in vListToCopy)
+                {
+                    if (v == null) { continue; }
+                    bool exists = vList.Exists((pred) => { return string.Equals(pred.url, v.url); });
+                    if (!exists)
+                    {
+                        vList.Add(v);
+                    }
+                }
+            }
+        }
+
+        public static void CopyUniqueFrom<T>(this List<T> vList, List<T> vListToCopy)
+        {
+            if (vListToCopy != null && vListToCopy.Count > 0)
+            {
+                foreach (var v in vListToCopy)
+                {
+                    if (v == null) { continue; }
+                    bool exists = vList.Exists((pred) => { return pred.Equals(v); });
+                    if (!exists)
+                    {
+                        vList.Add(v);
+                    }
+                }
+            }
+        }
+
+        public static void CopyUniqueFrom<T>(this List<T> vList, T[] vListToCopy)
+        {
+            if (vListToCopy != null && vListToCopy.Length > 0)
+            {
+                foreach (var v in vListToCopy)
+                {
+                    if (v == null) { continue; }
+                    bool exists = vList.Exists((pred) => { return pred.Equals(v); });
+                    if (!exists)
+                    {
+                        vList.Add(v);
+                    }
+                }
+            }
+        }
     }
 }
