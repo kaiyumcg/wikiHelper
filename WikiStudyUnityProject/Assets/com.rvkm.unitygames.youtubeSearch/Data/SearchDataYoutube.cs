@@ -13,10 +13,9 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public string SearchName;
         public TextAsset[] InputHtmlFiles;
         public string[] InputUrls;
-        public string[] allTags;
         public YoutubeVideo[] allVideos;
-        public string[] ignoreTags;
-
+        public TagDesc[] allTags;
+        public TagDesc[] ignoreTags;
         public bool IsDataOk()
         {
             bool isOk = true;

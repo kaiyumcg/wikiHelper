@@ -68,4 +68,11 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public DateSearchOp pubDateOp = null;
         public List<YoutubeVideo> videos = null;
     }
+
+    [System.Serializable]
+    public class TagDesc
+    {
+        public string mainTag;
+        public string[] relatedWords;
+    }
 }

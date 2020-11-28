@@ -7,36 +7,78 @@ namespace com.rvkm.unitygames.YouTubeSearch
 {
     public static class Extension
     {
-        public static bool ContainsCaseInsensitive(this List<string> st, string str)
+        public static bool HasAny(this List<string> strList, string str)
         {
-            return st.Exists((s) => { return string.Equals(s, str, StringComparison.CurrentCultureIgnoreCase); });
+            return strList.Exists((s) => { return string.Equals(s, str, StringComparison.CurrentCultureIgnoreCase); });
         }
 
-        public static bool ContainsCaseInsensitive(this string st, string str)
+        public static bool HasAny(this string[] strList, string str)
         {
+            bool hasAny = false;
+            foreach (var s in strList)
+            {
+                if (string.IsNullOrEmpty(s)) { continue; }
+                if (string.Equals(s, str, StringComparison.CurrentCultureIgnoreCase))
+                {
+                    hasAny = true;
+                    break;
+                }
+            }
+            return hasAny;
+        }
 
+        public static bool Contains_IgnoreCase(this string st, string str)
+        {
             return st?.IndexOf(str, StringComparison.OrdinalIgnoreCase) >= 0;
         }
 
-        public static bool ContainsAnyOf(this string st, List<string> strList)
+        public static bool Contains_OnAnyElement_IgnoreCase(this List<string> strList, string str)
         {
             bool contains = false;
-            if (strList != null && strList.Count > 0)
+            foreach (var s in strList)
             {
-                for (int i = 0; i < strList.Count; i++)
+                if (string.IsNullOrEmpty(s)) { continue; }
+                if (s.Contains_IgnoreCase(str))
                 {
-                    if (string.IsNullOrEmpty(strList[i])) { continue; }
-                    if (st.ContainsCaseInsensitive(strList[i])) { contains = true; break; }
+                    contains = true;
+                    break;
                 }
             }
             return contains;
         }
 
-        public static bool IsItNeumeric(this string st)
+        public static bool Contains_IgnoreCase(this string[] strList, string str)
+        {
+            bool contains = false;
+            foreach (var s in strList)
+            {
+                if (string.IsNullOrEmpty(s)) { continue; }
+                if (s.Contains_IgnoreCase(str))
+                {
+                    contains = true;
+                    break;
+                }
+            }
+            return contains;
+        }
+
+        public static bool IsItNeumeric_YT(this string st)
         {
             if (st.Contains(":"))
             {
                 st = st.Replace(":", "");
+            }
+            if (st.Contains("_"))
+            {
+                st = st.Replace("_", "");
+            }
+            if (st.Contains("-"))
+            {
+                st = st.Replace("-", "");
+            }
+            if (st.Contains("."))
+            {
+                st = st.Replace(".", "");
             }
             var isIt = int.TryParse(st, out _);
             return isIt;
@@ -90,17 +132,61 @@ namespace com.rvkm.unitygames.YouTubeSearch
             }
         }
 
-        public static void CopyUniqueFrom<T>(this List<T> vList, T[] vListToCopy)
+        public static void RemoveIfContains(this List<string> thisList, List<string> toRemove)
+        {
+            if (toRemove != null && toRemove.Count > 0)
+            {
+                foreach (var d in toRemove)
+                {
+                    if (d == null) { continue; }
+                    if (thisList.Contains_OnAnyElement_IgnoreCase(d))
+                    {
+                        thisList.Remove(d);
+                    }
+                }
+            }
+        }
+
+        public static void GetAllTags(this List<string> vList, TagDesc[] vListToCopy)
         {
             if (vListToCopy != null && vListToCopy.Length > 0)
             {
                 foreach (var v in vListToCopy)
                 {
                     if (v == null) { continue; }
-                    bool exists = vList.Exists((pred) => { return pred.Equals(v); });
-                    if (!exists)
+                    if (!vList.Contains_OnAnyElement_IgnoreCase(v.mainTag))
                     {
-                        vList.Add(v);
+                        vList.Add(v.mainTag);
+                    }
+                    if (v.relatedWords != null && v.relatedWords.Length > 0)
+                    {
+                        foreach (var r in v.relatedWords)
+                        {
+                            if (string.IsNullOrEmpty(r)) { continue; }
+                            if (!vList.Contains_OnAnyElement_IgnoreCase(r))
+                            {
+                                vList.Add(r);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        public static void GetAllTags(this List<string> vList, YoutubeVideo[] vListToCopy)
+        {
+            if (vListToCopy != null && vListToCopy.Length > 0)
+            {
+                foreach (var v in vListToCopy)
+                {
+                    if (v == null || v.tags == null || v.tags.Length == 0) { continue; }
+                    foreach (var tag in v.tags)
+                    {
+                        if (string.IsNullOrEmpty(tag)) { continue; }
+                        if (!vList.Contains_OnAnyElement_IgnoreCase(tag))
+                        {
+                            vList.Add(tag);
+                        }
                     }
                 }
             }
