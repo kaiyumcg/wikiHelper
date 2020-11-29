@@ -96927,8 +96927,6 @@ MonoBehaviour:
     relatedWords: []
   - mainTag: 
     relatedWords: []
-  ignoreTags:
-  - mainTag: sdsdfsdfsdfsdfsdfsdf
-    relatedWords: []
-  - mainTag: asdasdasdasdasd
-    relatedWords: []
+  ignoreTags: []
+  videoData: {fileID: 11400000, guid: a26ab8c0b1890b449910723e48b1a173, type: 2}
+  tagData: {fileID: 11400000, guid: 8a50b1d13e7b9084984ae16b2ca5697b, type: 2}

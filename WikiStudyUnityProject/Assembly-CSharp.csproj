@@ -66,6 +66,7 @@
     <Compile Include="Assets\com.rvkm.unitygames.gameplayFramework\IController.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\Test\CrossBtnTester.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtube\Data\ChannelVideoDescription.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\YoutubeVideoTags.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.gameplayFramework\Tag\Data\TagData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtube\V2\Data\TopicList.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\DataClasses\WikiData.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Extension.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\AppDataManager.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtube\V2\Data\SearchKeywordList.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\YoutubeVideoData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\Test\LoaderUITester.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Utility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\DialogueBox.cs" />
@@ -120,16 +122,20 @@
   <ItemGroup>
      <None Include="Assets\com.rvkm.unitygames.youtube\V2\Data\channel.xml" />
      <None Include="Assets\com.rvkm.unitygames.youtube\Data\n1.xml" />
+     <None Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\UnityChannel_data_generated_\ytVideoData_json.txt" />
      <None Include="Assets\Packages\HtmlAgilityPack.1.11.24\lib\netstandard2.0\HtmlAgilityPack.xml" />
      <None Include="Assets\Packages\HtmlAgilityPack.1.11.24\lib\netstandard2.0\HtmlAgilityPack.dll" />
      <None Include="Assets\com.rvkm.unitygames.youtube\V2\Data\tagFind.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtube\Data\node.xml" />
      <None Include="Assets\com.rvkm.unitygames.youtube\V2\Data\channelTest.txt" />
+     <None Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\asd_data_generated_\ytTagData_json.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtube\Data\node - Copy.xml" />
      <None Include="Assets\com.rvkm.unitygames.youtube\V2\Data\srList.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtube\Data\n2.xml" />
+     <None Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\asd_data_generated_\ytVideoData_json.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtube\V2\Data\prepositionList.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\channel.xml" />
+     <None Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\UnityChannel_data_generated_\ytTagData_json.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -685,6 +691,9 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -702,9 +711,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

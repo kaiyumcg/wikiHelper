@@ -20,6 +20,151 @@ namespace com.rvkm.unitygames.YouTubeSearch
             return (!string.IsNullOrEmpty(str)) && (str.Contains("http://") || str.Contains("https://"));
         }
 
+        public static string GetRelativePath(string absolutePath)
+        {
+            absolutePath = absolutePath.Replace('\\', '/');
+            if (absolutePath.StartsWith(Application.dataPath))
+            {
+                return "Assets" + absolutePath.Substring(Application.dataPath.Length);
+            }
+            else
+            {
+                return absolutePath;
+            }
+        }
+
+        public static string GetAbsolutePath(string relativePath)
+        {
+            relativePath = GetRelativePath(relativePath);
+            relativePath = relativePath.Replace('/', '\\');
+            FileAttributes attr = File.GetAttributes(relativePath);
+            if ((attr & FileAttributes.Directory) == FileAttributes.Directory)
+            {
+                DirectoryInfo nfo = new DirectoryInfo(relativePath);
+                return nfo.FullName;
+            }
+            else
+            {
+                FileInfo nfo = new FileInfo(relativePath);
+                return nfo.FullName;
+            }
+        }
+
+        public static string GetDataDirRelative(ScriptableObject obj)
+        {
+            string mainAssetPath = AssetDatabase.GetAssetPath(obj);
+            FileInfo nfo = new FileInfo(mainAssetPath);
+            return GetRelativePath(nfo.Directory.FullName);
+        }
+
+        public static bool GetDependencyDataIfAny(SearchDataYoutube data, ref YoutubeVideoData ytVideoData, ref YoutubeVideoTags ytTagData)
+        {
+            if (data.videoData != null && data.tagData != null)
+            {
+                ytVideoData = data.videoData;
+                ytTagData = data.tagData;
+                return true;
+            }
+            else
+            {
+                string dataDirRelative = GetDataDirRelative(data);
+                var d_info = new DirectoryInfo(GetAbsolutePath(dataDirRelative));
+                DirectoryInfo depDataDir = null;
+                SearchAndFindDependencyData(d_info, data.name, ref ytVideoData, ref ytTagData, ref depDataDir);
+                if (ytVideoData != null && ytTagData != null)
+                {
+                    return true;
+                }
+                else
+                {
+                    Debug.Log("load failure!");
+                    return false;
+                }
+            }
+        }
+
+        static void SearchAndFindDependencyData(DirectoryInfo searchDir, string mainAssetfileName,
+            ref YoutubeVideoData ytVideoData, ref YoutubeVideoTags ytTagData, ref DirectoryInfo dataContainingDir)
+        {
+            if (searchDir == null) { return; }
+            var allDirs = searchDir.GetDirectories();
+            if (allDirs != null && allDirs.Length > 0)
+            {
+                foreach (var d in allDirs)
+                {
+                    if (d == null) { continue; }
+                    if (d.Name == mainAssetfileName + "_data_generated_")
+                    {
+                        Debug.Log("found named dir, let us try to load");
+                        var files = d.GetFiles();
+                        if (files != null && files.Length > 0)
+                        {
+                            foreach (var f in files)
+                            {
+                                if (f == null || f.Extension != ".asset") { continue; }
+                                string relPath = GetRelativePath(f.FullName);
+                                var vd = AssetDatabase.LoadAssetAtPath<YoutubeVideoData>(relPath);
+                                if (vd != null) { ytVideoData = vd; }
+                                var td = AssetDatabase.LoadAssetAtPath<YoutubeVideoTags>(relPath);
+                                if (td != null) { ytTagData = td; }
+                            }
+                        }
+
+                        dataContainingDir = d;
+                        break;
+                    }
+                    SearchAndFindDependencyData(d, mainAssetfileName, ref ytVideoData, ref ytTagData, ref dataContainingDir);
+                }
+            }
+        }
+
+        public static void SaveObjectToDiskJson(UnityEngine.Object obj)
+        {
+            var data = EditorJsonUtility.ToJson(obj, true);
+            string assetPath = AssetDatabase.GetAssetPath(obj);
+            FileInfo nfo = new FileInfo(assetPath);
+
+            string savePath = Path.Combine(nfo.Directory.FullName, obj.name + "_json.txt");
+            File.WriteAllText(savePath, data);
+        }
+
+        public static bool CreateFreshDependencyData(SearchDataYoutube data, ref YoutubeVideoData ytVideoData, ref YoutubeVideoTags ytTagData)
+        {
+            string dataDir = GetDataDirRelative(data);
+            var searchFolder = new DirectoryInfo(GetAbsolutePath(dataDir));
+            DirectoryInfo depDataDirNfo = null;
+            SearchAndFindDependencyData(searchFolder, data.name, ref ytVideoData, ref ytTagData, ref depDataDirNfo);
+
+            if (ytVideoData != null && ytTagData != null)
+            {
+                Debug.Log("no need for creation, we have found them!");
+                return false;
+            }
+            else
+            {
+                string depDataPath = Path.Combine(dataDir, data.name + "_data_generated_");
+                if (depDataDirNfo == null || depDataDirNfo.Exists == false)
+                {
+                    AssetDatabase.CreateFolder(dataDir, data.name + "_data_generated_");
+                    Debug.Log("folder created at: " + depDataPath);
+                }
+
+                string ytVideoDataPath = Path.Combine(depDataPath, "ytVideoData.asset");
+                ytVideoDataPath = ytVideoDataPath.Replace('\\', '/');
+                ytVideoData = ScriptableObject.CreateInstance<YoutubeVideoData>();
+                AssetDatabase.CreateAsset(ytVideoData, ytVideoDataPath);
+
+                string ytTagDataPath = Path.Combine(depDataPath, "ytTagData.asset");
+                ytTagDataPath = ytTagDataPath.Replace('\\', '/');
+                ytTagData = ScriptableObject.CreateInstance<YoutubeVideoTags>();
+                AssetDatabase.CreateAsset(ytTagData, ytTagDataPath);
+                AssetDatabase.SaveAssets();
+                AssetDatabase.Refresh();
+                return true;
+            }
+
+        }
+
         static bool IsNodeVideo(HtmlNode n)
         {
             return n.Id == "video-title"

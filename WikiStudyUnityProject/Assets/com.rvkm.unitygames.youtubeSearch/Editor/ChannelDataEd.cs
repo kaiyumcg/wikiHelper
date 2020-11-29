@@ -20,15 +20,10 @@ namespace com.rvkm.unitygames.YouTubeSearch
         static List<string> procList = new List<string>();
         static List<TagDesc> tagDescList = new List<TagDesc>();
         string nl;
-        string genBtnStr, jsonBtnStr, tagBtnStr, cancelTagStr, cancelYTStr;
-        public TextAsset htmlFileAssetTest;
-        public string strTest;
-
-        SerializedObject editorObj;
+        string genBtnStr, jsonBtnStr, tagBtnStr, cancelTagStr, cancelYTStr, genTestStr;
         public void OnEnable()
         {
             data = (SearchDataYoutube)target;
-            data.SearchName = data.name;
             isProcessing = isProcessingTag = false;
             procList = new List<string>();
             tagDescList = new List<TagDesc>();
@@ -38,27 +33,25 @@ namespace com.rvkm.unitygames.YouTubeSearch
             tagBtnStr = nl + "Update tags" + nl;
             cancelTagStr = nl + "Cancel Tag Update" + nl;
             cancelYTStr = nl + "Cancel" + nl;
+            genTestStr = nl + "Test Scr" + nl;
             allCORs = new List<EditorCoroutine>();
             StopAllEditorCoroutines();
-            editorObj = new SerializedObject(this);
         }
 
         public override void OnInspectorGUI()
         {
             //GUILayout.Label("Search Name: " + data.SearchName);
             //GUILayout.Space(10);
-            //serializedObject.Update();
+            serializedObject.Update();
+            EditorGUILayout.PropertyField(serializedObject.FindProperty("SearchName"), true);
             EditorGUILayout.PropertyField(serializedObject.FindProperty("APIKEY"), true);
             EditorGUILayout.PropertyField(serializedObject.FindProperty("InputHtmlFiles"), true);
             EditorGUILayout.PropertyField(serializedObject.FindProperty("InputUrls"), true);
             //EditorGUILayout.PropertyField(serializedObject.FindProperty("allTags"), true);
             EditorGUILayout.PropertyField(serializedObject.FindProperty("ignoreTags"), true);
             //EditorGUILayout.PropertyField(serializedObject.FindProperty("allVideos"), true);
-
-            //editorObj.Update();
-            //EditorGUILayout.PropertyField(editorObj.FindProperty("htmlFileAssetTest"));
-            //EditorGUILayout.PropertyField(editorObj.FindProperty("strTest"), true);
-            //editorObj.ApplyModifiedProperties();
+            EditorGUILayout.PropertyField(serializedObject.FindProperty("videoData"), true);
+            EditorGUILayout.PropertyField(serializedObject.FindProperty("tagData"), true);
 
             if (isProcessingTag)
             {
@@ -100,6 +93,97 @@ namespace com.rvkm.unitygames.YouTubeSearch
             }
             else
             {
+                if (GUILayout.Button(genTestStr))
+                {
+                    if (false)
+                    {
+                        EditorUtility.DisplayDialog("Error!", "You are trying to update tags but youtube data is invalid! "
+                            + Environment.NewLine + "Please generate the data first!", "Ok");
+                    }
+                    else
+                    {
+                        YoutubeVideoData vData = null;
+                        YoutubeVideoTags tData = null;
+                        var dataObtained = EdUtility.GetDependencyDataIfAny(data, ref vData, ref tData);
+                        if (dataObtained)
+                        {
+                            bool willDownload = vData.IsDataOk();
+
+                        }
+                        else
+                        {
+                           bool createNew =  EditorUtility.DisplayDialog("----Choice----", "There is no dependency data for this '" + data.SearchName + "' search. "
+                                + nl + " You can manually assign them or you can create one!", "Create them and start fresh", "Abort now to assign them");
+                            if (createNew)
+                            {
+                                var creationSuccess = EdUtility.CreateFreshDependencyData(data, ref vData, ref tData);
+                                if (!creationSuccess)
+                                {
+                                    EditorUtility.DisplayDialog("Error", "Could not create dependency data. Check the log!", "Ok");
+                                    return;
+                                }
+                                else
+                                {
+
+                                    Debug.Log("successfully created! vData null? " + (vData == null) + " and tData null? " + (tData == null));
+                                }
+                            }
+                        }
+                        if (vData == null || tData == null) { return; }
+                        data.videoData = vData;
+                        data.tagData = tData;
+                        var vSer = new SerializedObject(vData);
+                        vSer.Update();
+                        var tSer = new SerializedObject(tData);
+                        tSer.Update();
+
+                        List<YoutubeVideo> vList = new List<YoutubeVideo>();
+                        if (data.allVideos != null && data.allVideos.Length > 0)
+                        {
+                            foreach (var v in data.allVideos)
+                            {
+                                if (v == null) { continue; }
+                                vList.Add(v);
+                            }
+                        }
+
+                        List<TagDesc> allTagList = new List<TagDesc>();
+                        if (data.allTags != null && data.allTags.Length > 0)
+                        {
+                            foreach (var t in data.allTags)
+                            {
+                                if (t == null) { continue; }
+                                allTagList.Add(t);
+                            }
+                        }
+
+                        List<TagDesc> allIgnoreTagList = new List<TagDesc>();
+                        if (data.ignoreTags != null && data.ignoreTags.Length > 0)
+                        {
+                            foreach (var t in data.ignoreTags)
+                            {
+                                if (t == null) { continue; }
+                                allIgnoreTagList.Add(t);
+                            }
+                        }
+
+                        vData.searchName = data.SearchName;
+                        vData.allVideos = vList.ToArray();
+                        tData.searchName = data.SearchName;
+                        tData.allTags = allTagList.ToArray();
+                        tData.ignoreTags = allIgnoreTagList.ToArray();
+
+                        EditorUtility.SetDirty(vData);
+                        EditorUtility.SetDirty(tData);
+                        vSer.ApplyModifiedProperties();
+                        tSer.ApplyModifiedProperties();
+                        EdUtility.SaveObjectToDiskJson(vData);
+                        EdUtility.SaveObjectToDiskJson(tData);
+                        AssetDatabase.SaveAssets();
+                        AssetDatabase.Refresh();
+                    }
+                }
+
                 if (GUILayout.Button(genBtnStr))
                 {
                     isProcessing = true;
@@ -185,7 +269,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 }
             }
 
-
+            EditorUtility.SetDirty(data);
             serializedObject.ApplyModifiedProperties();
         }
 

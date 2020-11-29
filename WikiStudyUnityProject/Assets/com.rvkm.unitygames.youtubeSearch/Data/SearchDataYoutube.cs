@@ -16,6 +16,9 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public YoutubeVideo[] allVideos;
         public TagDesc[] allTags;
         public TagDesc[] ignoreTags;
+        public YoutubeVideoData videoData;
+        public YoutubeVideoTags tagData;
+
         public bool IsDataOk()
         {
             bool isOk = true;

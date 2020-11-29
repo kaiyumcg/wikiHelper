@@ -67,6 +67,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public IntSearchOp viewCountOp = null, likeCountOp = null, dislikeCountOp = null, commentCountOp = null, durationOp = null;
         public DateSearchOp pubDateOp = null;
         public List<YoutubeVideo> videos = null;
+        public float totalMinutes;
     }
 
     [System.Serializable]
