@@ -9,6 +9,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
     [CreateAssetMenu(fileName = "New Youtube Search Data", menuName = "Kaiyum/Youtube Search Data(V3 API powered)", order = 1)]
     public class SearchDataYoutube : ScriptableObject
     {
+        [Multiline]
         public string APIKEY;
         public string SearchName;
         public TextAsset[] InputHtmlFiles;
@@ -16,6 +17,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public YoutubeVideo[] allVideos;
         public TagDesc[] allTags;
         public TagDesc[] ignoreTags;
+        public bool printTagsInHtml, printCategoriesInHtml;
         public YoutubeVideoData videoData;
         public YoutubeVideoTags tagData;
 

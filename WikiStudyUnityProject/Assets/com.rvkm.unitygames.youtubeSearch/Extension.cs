@@ -173,6 +173,41 @@ namespace com.rvkm.unitygames.YouTubeSearch
             }
         }
 
+        /// <summary>
+        /// If 'str' is not null or empty, this string will be updated with 'str' and 'valueUpdated' will be true
+        /// </summary>
+        /// <param name="host"></param>
+        /// <param name="str"></param>
+        /// <param name="valueUpdated"></param>
+        public static void IsIfNullOrEmpty(this string host, string str, ref bool valueUpdated)
+        {
+            if (string.IsNullOrEmpty(str) == false)
+            {
+                host = str;
+                valueUpdated = true;
+            }
+        }
+
+        /// <summary>
+        /// Will get value from the string if conversion is successful and 'valueUpdated' will be true in such case.
+        /// </summary>
+        /// <param name="host"></param>
+        /// <param name="str"></param>
+        /// <param name="valueUpdated"></param>
+        public static void TryGetFromString(this int host, string str, ref bool valueUpdated)
+        {
+            if (string.IsNullOrEmpty(str) == false)
+            {;
+                int count = 0;
+                var success = int.TryParse(str, out count);
+                if (success)
+                {
+                    host = count;
+                    valueUpdated = true;
+                }
+            }
+        }
+
         public static void GetAllTags(this List<string> vList, YoutubeVideo[] vListToCopy)
         {
             if (vListToCopy != null && vListToCopy.Length > 0)
