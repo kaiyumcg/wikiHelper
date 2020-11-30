@@ -42,32 +42,32 @@ namespace com.rvkm.unitygames.YouTubeSearch.Extensions
             }
         }
 
-        public static void RemoveSimilar(this List<string> thisList, List<string> similarStr)
+        public static List<string> RemoveBlacklistedTags(this List<string> thisList, List<string> blackList)
         {
-            if (similarStr != null && similarStr.Count > 0)
+            List<string> tags = new List<string>();
+            if (thisList != null && thisList.Count > 0)
             {
-                foreach (var sm in similarStr)
+                foreach (var tag in thisList)
                 {
-                    if (string.IsNullOrEmpty(sm)) { continue; }
-                    bool matchFound = false;
-                    string toRemove = "";
-                    foreach (var t in thisList)
+                    if (string.IsNullOrEmpty(tag)) { continue; }
+                    bool hasBlacklistedWord = false;
+                    foreach (var bl in blackList)
                     {
-                        if (string.IsNullOrEmpty(t)) { continue; }
-                        if ((t.ToLower()).Contains(sm.ToLower()))
+                        if (string.IsNullOrEmpty(bl)) { continue; }
+                        if (tag.Contains_IgnoreCase(bl))
                         {
-                            matchFound = true;
-                            toRemove = t;
+                            hasBlacklistedWord = true;
                             break;
                         }
                     }
 
-                    if (matchFound && string.IsNullOrEmpty(toRemove) == false)
+                    if (hasBlacklistedWord == false)
                     {
-                        thisList.Remove(sm);
+                        tags.Add(tag);
                     }
                 }
             }
+            return tags;
         }
     }
 }

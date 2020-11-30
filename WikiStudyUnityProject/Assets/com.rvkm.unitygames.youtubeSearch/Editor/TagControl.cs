@@ -6,6 +6,7 @@ using UnityEditor;
 using System.Linq;
 using com.rvkm.unitygames.YouTubeSearch.Extensions;
 using UnityEngine;
+using System.Text.RegularExpressions;
 
 namespace com.rvkm.unitygames.YouTubeSearch
 {
@@ -87,20 +88,39 @@ namespace com.rvkm.unitygames.YouTubeSearch
             tagDescList = new List<TagDesc>();
             List<string> blacklistedTags = new List<string>();
             blacklistedTags = GetAllTags(searchData.tagData.ignoreTags);
+            if (searchData.useBlacklistedTagsFromHere)
+            {
+                var bListMainData = searchData.blackListedTags;
+                bListMainData = bListMainData.Replace("[S]", "");
+                var outputs = Regex.Split(Regex.Replace(bListMainData, "^[,\r\n]+|[,\r\n]+$", ""), "[,\r\n]+");
+                if (outputs != null && outputs.Length > 0)
+                {
+                    foreach (var b in outputs)
+                    {
+                        if (string.IsNullOrEmpty(b)) { continue; }
+                        if (blacklistedTags.HasAny_IgnoreCase(b) == false)
+                        {
+                            blacklistedTags.Add(b);
+                        }
+                    }
+                }
+            }
+
+            
             Debug.Log("blacklisted tag operation took: " + ((DateTime.Now - t1).TotalSeconds) + " seconds.");
             List<string> allTags = new List<string>();
             allTags = GetAllTags(searchData.videoData.allVideos);
             Debug.Log("get all tag operation took: " + ((DateTime.Now - t1).TotalSeconds) + " seconds.");
             if (allTags.Count > 0)
             {
-                allTags.RemoveSimilar(blacklistedTags);
+                allTags = allTags.RemoveBlacklistedTags(blacklistedTags);
+
                 Debug.Log("remove duplicate operation took: " + ((DateTime.Now - t1).TotalSeconds) + " seconds.");
             }
             allTags = allTags.OrderBy(x => x).ToList();
+            
             Debug.Log("order by operation took: "+((DateTime.Now - t1).TotalSeconds)+" seconds.");
-            //TagFetchOperationHasCompleted = true;
-            //return; 
-
+            //editor.debugList = allTags;
             var cor = EditorCoroutineUtility.StartCoroutine(UpdateTag(editor, allTags, (tagDescList) =>
             {
                 TagControl.TagFetchOperationHasCompleted = true;
@@ -152,20 +172,6 @@ namespace com.rvkm.unitygames.YouTubeSearch
                             singleOpTimeMax = (DateTime.Now - t1).TotalSeconds;
                         }
                     }
-
-                    //   var t1 = DateTime.Now;
-                    //   var cor = EditorCoroutineUtility.StartCoroutine(SingleTagProcCOR(allTags, allTags[i],
-                    //(thisDesc) =>
-                    //{
-                    //    tagDescList.Add(thisDesc);
-                    //}), editor);
-                    //   editor.AllCoroutines.Add(cor);
-                    //   yield return cor;
-                    //   opCount++;
-                    //   if (singleOpTimeMax < (DateTime.Now - t1).TotalSeconds)
-                    //   {
-                    //       singleOpTimeMax = (DateTime.Now - t1).TotalSeconds;
-                    //   }
 
                     //var t1 = DateTime.Now;
                     //SingleTagProc(allTags, allTags[i], (thisDesc) =>

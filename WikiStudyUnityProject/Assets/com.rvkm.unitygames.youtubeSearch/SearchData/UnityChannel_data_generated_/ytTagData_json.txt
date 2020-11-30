@@ -7,305 +7,6 @@
         "searchName": "UnityChannel",
         "allTags": [
             {
-                "mainTag": "#hangoutsonair",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "#hoa",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "#madewithunity",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "#unitytips",
-                "relatedWords": []
-            },
-            {
-                "mainTag": ".NET Framework (Software)",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "1979 Revolution: Black Friday",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2.5D",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d camera",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d collider",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2D Computer Graphics",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d development",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d enemy",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d essentials",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d extra",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d game",
-                "relatedWords": [
-                    "2d game dev",
-                    "2D Game Development",
-                    "2d game kit",
-                    "2d game unity",
-                    "2d gamekit",
-                    "2d games",
-                    "2d games how to make",
-                    "how 2d game",
-                    "how to 2d game",
-                    "how to make 2d game",
-                    "how to make a 2d game",
-                    "lighting in 2d game unity",
-                    "make a 2d game",
-                    "make a 2d game in unity",
-                    "making 2d games",
-                    "prototying 2d game",
-                    "unity 2d game",
-                    "unity 2d game course",
-                    "unity 2d game develop",
-                    "unity 2d game tutorial",
-                    "unity 2d games",
-                    "unity make a 2d game",
-                    "unity making 2d game"
-                ]
-            },
-            {
-                "mainTag": "2d graphics",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d indie",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d level",
-                "relatedWords": [
-                    "2d level design",
-                    "2d level design unity",
-                    "procedural 2d level"
-                ]
-            },
-            {
-                "mainTag": "2d light",
-                "relatedWords": [
-                    "2D lighting",
-                    "2d lighting 2ddl",
-                    "2d lights",
-                    "2d lights in unity",
-                    "unity 2d light",
-                    "unity 2d lightning",
-                    "unity 2d lights"
-                ]
-            },
-            {
-                "mainTag": "2D Mode",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d physics",
-                "relatedWords": [
-                    "2d physics effector",
-                    "2d physics effectors",
-                    "2D physics Unity",
-                    "unity 2d physics",
-                    "unity 2d physics tutorial"
-                ]
-            },
-            {
-                "mainTag": "2d pixel perfect",
-                "relatedWords": [
-                    "unity 2d pixel perfect"
-                ]
-            },
-            {
-                "mainTag": "2d platformer",
-                "relatedWords": [
-                    "unity 2d platformer"
-                ]
-            },
-            {
-                "mainTag": "2d preview",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d renderer",
-                "relatedWords": [
-                    "2d renderer in unity"
-                ]
-            },
-            {
-                "mainTag": "2d roguelike",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d tile",
-                "relatedWords": [
-                    "unity 2d tilemap"
-                ]
-            },
-            {
-                "mainTag": "2d tools",
-                "relatedWords": [
-                    "unity 2d tools"
-                ]
-            },
-            {
-                "mainTag": "2d ufo game",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d unity character",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d unity tutorial",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "2d water",
-                "relatedWords": [
-                    "2d water shader"
-                ]
-            },
-            {
-                "mainTag": "2ddl",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "360 video",
-                "relatedWords": [
-                    "360 video daydream",
-                    "360 video mobile",
-                    "360 video playback",
-                    "360 video tutorial",
-                    "360 video unity",
-                    "360 video vive",
-                    "360 video vr",
-                    "get started with 360 video",
-                    "how to make 360 videos",
-                    "how to use 360 video",
-                    "tutorial 360 video"
-                ]
-            },
-            {
-                "mainTag": "3D",
-                "relatedWords": [
-                    "3D Art",
-                    "3D artist",
-                    "3D artistry",
-                    "3d asset model",
-                    "3d asset workflow",
-                    "3d assets for unity",
-                    "3d computer graphics",
-                    "3d game",
-                    "3d game art",
-                    "3d game character",
-                    "3d game kit",
-                    "3d modeling",
-                    "3D Modeling (Profession)",
-                    "3d models",
-                    "3d scan",
-                    "3D Texturing",
-                    "3Dart",
-                    "3DO Interactive Multiplayer (Video Game Platform)",
-                    "3ds max",
-                    "Autodesk 3ds Max (Software)",
-                    "D3D12",
-                    "find 3d models",
-                    "free 3d project unity",
-                    "houdini 3d",
-                    "learn unity 3d",
-                    "learn unity3d",
-                    "making a 3d game in unity",
-                    "mars 3d",
-                    "Morph 3D",
-                    "New Nintendo 3DS",
-                    "Nintendo 3DS (Video Game Platform)",
-                    "octave 3d",
-                    "octave3d",
-                    "prefab unity 3d",
-                    "real-time 3d",
-                    "Scripting in Unity3d",
-                    "Trimble 3D Warehouse (Website)",
-                    "U3D",
-                    "unity 3d",
-                    "unity 3d animation rigging",
-                    "unity 3d assets",
-                    "unity 3d game",
-                    "unity 3d hyper casual",
-                    "unity 3d hyper casual games",
-                    "unity 3d mobile",
-                    "unity 3d models.mp4",
-                    "unity 3d space shooter",
-                    "unity 3d tutorial",
-                    "unity 3d vfx",
-                    "unity 3d water",
-                    "unity animation rigging 3d",
-                    "unity beginner tutorial 3d game",
-                    "unity make a 3d game",
-                    "unity making 3d game",
-                    "unity making a 3d game",
-                    "unity snap to grid 3d",
-                    "unity unity physics 3d",
-                    "Unity3d",
-                    "unity3d tutorial",
-                    "Unty 3D"
-                ]
-            },
-            {
-                "mainTag": "3rd person",
-                "relatedWords": [
-                    "3rd person camera",
-                    "3rd person game"
-                ]
-            },
-            {
-                "mainTag": "5 great assets",
-                "relatedWords": [
-                    "5 great assets for beginners in unity",
-                    "5 great assets for improving graphics",
-                    "5 great assets for level designers in unity",
-                    "unity 5 great assets"
-                ]
-            },
-            {
-                "mainTag": "5 Lives Studios",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "7dfps",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "90 fps",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "9-slice sprite",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "A*",
                 "relatedWords": []
             },
@@ -523,8 +224,6 @@
                     "unity 2019.3 terrain",
                     "unity 2020 trailer",
                     "unity 2020.1 available",
-                    "unity 2d organic terrain",
-                    "unity 2d terrain",
                     "unity constraints",
                     "unity jet brains",
                     "unity jet brains rider",
@@ -699,11 +398,7 @@
                     "realtime animation in unity",
                     "realtime animations",
                     "top down animation",
-                    "unity 2019 2d animation",
                     "unity 2019 animation",
-                    "unity 2d animation",
-                    "unity 2d animation in 2019",
-                    "unity 2d animation rigging",
                     "unity animation",
                     "unity animation cartoon",
                     "unity animation film",
@@ -817,7 +512,6 @@
                     "archviz demo",
                     "arcore",
                     "area effector",
-                    "area effector 2d",
                     "arena",
                     "arizone sunshine",
                     "arkit",
@@ -992,7 +686,6 @@
                     "Particle System Unity",
                     "particle texture",
                     "Particles",
-                    "particles 2d",
                     "particles unity",
                     "pixel art",
                     "pixel art unity",
@@ -1389,7 +1082,6 @@
                     "beginner prototype",
                     "beginner tutorial",
                     "beginner unity",
-                    "beginner unity 2d tutorial",
                     "beginner unity tutorial",
                     "beginners",
                     "ecs for beginners",
@@ -1403,7 +1095,6 @@
                     "unity 2018 for beginners",
                     "unity 2018 tutorial for beginners",
                     "unity 2019 beginner",
-                    "unity 2d beginner",
                     "unity beginner",
                     "unity beginner code tutorial",
                     "unity beginner course",
@@ -1633,12 +1324,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "box2d",
-                "relatedWords": [
-                    "Box2D (Video Game Engine)"
-                ]
-            },
-            {
                 "mainTag": "Brand",
                 "relatedWords": []
             },
@@ -1801,7 +1486,6 @@
                 "mainTag": "camera",
                 "relatedWords": [
                     "camera controller unity",
-                    "camera follow 2d",
                     "Camera Shake Unity",
                     "camera stacking unity",
                     "Camera Tools",
@@ -1838,7 +1522,6 @@
                 "mainTag": "Casual Game",
                 "relatedWords": [
                     "making hyper casual games",
-                    "unity 2d hyper casual game",
                     "unity hyper casual game"
                 ]
             },
@@ -2005,8 +1688,6 @@
             {
                 "mainTag": "collider",
                 "relatedWords": [
-                    "Collider 2d",
-                    "Collider2D",
                     "Colliders",
                     "SuperCollider (Programming Language)",
                     "WheelCollider Unity"
@@ -2245,7 +1926,6 @@
             {
                 "mainTag": "creator",
                 "relatedWords": [
-                    "unity 2d creator kit",
                     "unity creator kit",
                     "unity creator kit fps"
                 ]
@@ -2548,7 +2228,6 @@
                     "Game Development Tools",
                     "game develpoment",
                     "gamedev",
-                    "gamedev 2d",
                     "gamedev interview",
                     "gamedev open",
                     "gamedev open source",
@@ -2649,8 +2328,7 @@
             {
                 "mainTag": "Distance",
                 "relatedWords": [
-                    "Distance Joint",
-                    "Distance Joint 2d"
+                    "Distance Joint"
                 ]
             },
             {
@@ -2810,7 +2488,6 @@
                     "level editing",
                     "Multi-scene editing",
                     "spline editor",
-                    "Sprite Editor",
                     "unity 2019.3 new editor",
                     "unity 2020 editor",
                     "unity editor",
@@ -2826,13 +2503,10 @@
                 "relatedWords": [
                     "fighter effect unity",
                     "platform effector",
-                    "platform effector 2d",
-                    "point effector 2d",
                     "receive effect",
                     "send effect",
                     "Sound Effect (Industry)",
                     "surface effector",
-                    "surface effector 2d",
                     "unity effect",
                     "unity fire effect",
                     "unity portal effect",
@@ -2902,7 +2576,6 @@
                     "Technology and Engineering",
                     "unity (game engine)",
                     "unity engine",
-                    "unity engine 2d",
                     "unity engine vfx",
                     "unity game engine",
                     "unity houdini engine",
@@ -3043,7 +2716,6 @@
                     "unity 2018.3: new features and improvements",
                     "unity 2019 features",
                     "unity 2019.3 features",
-                    "unity 2d features",
                     "unity feature",
                     "unity features",
                     "unity new features",
@@ -3295,7 +2967,6 @@
                     "Free-to-play (Video Game Genre)",
                     "shader graph unity free",
                     "unity free",
-                    "unity free 2d project",
                     "unity free course",
                     "unity free courses",
                     "unity free game",
@@ -3542,7 +3213,6 @@
                     "unity 2019.1 game",
                     "unity 2020 game",
                     "unity game",
-                    "unity game 2d",
                     "unity game interview",
                     "unity game jam",
                     "unity game jam 2018",
@@ -3698,10 +3368,7 @@
                     "Qualcomm Technologies",
                     "realtime GI",
                     "rigging",
-                    "Rigibody2d",
                     "Rigidbody",
-                    "Rigidbody2d",
-                    "Sprite rigging",
                     "unity beginnners",
                     "unity gi",
                     "unity rigidbody",
@@ -3778,7 +3445,6 @@
                     "unity 2019.3 graphics",
                     "unity 2019.3 shader graph",
                     "unity 2020 shader graph",
-                    "unity 2d shader graph",
                     "unity graph",
                     "unity graphic",
                     "unity graphics",
@@ -3825,7 +3491,6 @@
                 "mainTag": "grid",
                 "relatedWords": [
                     "hex grid unity",
-                    "unity 2d hex grid",
                     "unity hex grid",
                     "unity hex grid movement",
                     "unity hex grid tutorial",
@@ -3959,9 +3624,7 @@
             },
             {
                 "mainTag": "hex",
-                "relatedWords": [
-                    "hex sprite"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "hide",
@@ -3990,8 +3653,7 @@
                 "mainTag": "Hinge",
                 "relatedWords": [
                     "Hinge Joint",
-                    "Hingejoint",
-                    "Hingejoint2d"
+                    "Hingejoint"
                 ]
             },
             {
@@ -4154,7 +3816,6 @@
                 "relatedWords": [
                     "mike geig",
                     "roguelike",
-                    "unity 2d IK",
                     "unity ik",
                     "unity viking village"
                 ]
@@ -4438,10 +4099,7 @@
             },
             {
                 "mainTag": "Joint",
-                "relatedWords": [
-                    "Joint 2d",
-                    "Joint2d"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "json",
@@ -4655,7 +4313,6 @@
             {
                 "mainTag": "lines",
                 "relatedWords": [
-                    "unity 2d splines",
                     "unity splines"
                 ]
             },
@@ -4809,7 +4466,6 @@
                     "tilemap",
                     "tilemap unity",
                     "unity 2020 roadmap",
-                    "unity 2d normal map",
                     "unity roadmap",
                     "unity tilemap",
                     "unity tilemaps"
@@ -4838,7 +4494,6 @@
                     "materials",
                     "Physic Material",
                     "Physics Material",
-                    "Physics Material 2D",
                     "unity material tutorial"
                 ]
             },
@@ -4985,7 +4640,6 @@
                     "Mobile shooter",
                     "mobile VR",
                     "unity 2018 mobile",
-                    "unity 2d mobile",
                     "unity mobile",
                     "unity mobile course",
                     "unity mobile notification",
@@ -5068,7 +4722,6 @@
             {
                 "mainTag": "move",
                 "relatedWords": [
-                    "unity 2d movement",
                     "unity movement"
                 ]
             },
@@ -5179,7 +4832,6 @@
                     "nested prefabs",
                     "unity 2019 nested prefabs",
                     "unity 2019.2 nested prefabs",
-                    "unity 2d nested prefabs",
                     "unity nested prefabs",
                     "unity nested prefabs 2018",
                     "unity nested prefabs 2019",
@@ -5550,19 +5202,16 @@
             {
                 "mainTag": "physics",
                 "relatedWords": [
-                    "Physics 2d",
                     "Physics in unity",
                     "Physics Playground Unity",
                     "Physics unity",
                     "Physics unity tutorial",
-                    "Physics2D",
                     "unity 2018.3 physics",
                     "unity 2019 physics",
                     "unity 2020 physics",
                     "unity physics",
                     "unity physics 2019",
                     "unity physics 2020",
-                    "unity physics 2d",
                     "unity physics destruction",
                     "unity physics sandbox",
                     "unity physics simulation",
@@ -5713,12 +5362,10 @@
                 "mainTag": "prefab",
                 "relatedWords": [
                     "prefab placer",
-                    "prefab unity 2d",
                     "prefab unity tutorial",
                     "prefabs",
                     "prefabs in unity",
                     "prefabs in unity 2018",
-                    "unity 2d prefab",
                     "unity change prefab",
                     "unity prefab 2020",
                     "unity prefab workflow",
@@ -5811,7 +5458,6 @@
                     "project tiny",
                     "Project Wight",
                     "projectile",
-                    "unity 2d project",
                     "unity example project",
                     "unity lost crypt project",
                     "unity project"
@@ -5830,9 +5476,7 @@
             {
                 "mainTag": "prototype",
                 "relatedWords": [
-                    "prototype 2d",
                     "prototype series",
-                    "prototype series 2d",
                     "unity prototype",
                     "unity prototype series"
                 ]
@@ -6055,12 +5699,8 @@
                     "Rendering",
                     "rendering in unity",
                     "rendertexture",
-                    "Sprite Renderer",
-                    "unity 2d rendering",
-                    "unity 2d shader rendering",
                     "unity quad rendering",
                     "unity rendering",
-                    "unity rendering 2d quad",
                     "unity scriptable render pipe",
                     "unity universal render",
                     "universal render",
@@ -6132,7 +5772,6 @@
             {
                 "mainTag": "rpg",
                 "relatedWords": [
-                    "unity 2d rpg",
                     "unity rpg tutorial"
                 ]
             },
@@ -6336,7 +5975,6 @@
                     "unity 2019 tutorial shader",
                     "unity lit shader",
                     "unity shader",
-                    "unity shader 2d",
                     "unity shader tutorial",
                     "unity shaders",
                     "unity toon shader",
@@ -6365,7 +6003,6 @@
             {
                 "mainTag": "shadows",
                 "relatedWords": [
-                    "unity 2d shadows",
                     "Unity shadows",
                     "Unity shadows tutorial"
                 ]
@@ -6373,12 +6010,7 @@
             {
                 "mainTag": "shape",
                 "relatedWords": [
-                    "sprite shape",
-                    "unity 2018 shape",
-                    "unity 2018 sprite shape",
-                    "unity 2d shapes",
-                    "unity 2d sprite shape",
-                    "unity sprite shape"
+                    "unity 2018 shape"
                 ]
             },
             {
@@ -6409,7 +6041,6 @@
                     "space shooter",
                     "survival shooter",
                     "Top Down Shooter",
-                    "unity 2d shooting",
                     "unity space shooter"
                 ]
             },
@@ -6598,28 +6229,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "sprite pack",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Sprite Sheets",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Sprite Type",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "sprite ui",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "sprites",
-                "relatedWords": [
-                    "unity 2d sprites"
-                ]
-            },
-            {
                 "mainTag": "srp",
                 "relatedWords": [
                     "unity 2018 srp",
@@ -6737,7 +6346,6 @@
                     "svg unity",
                     "svg unity 2018",
                     "unity 2018 svg",
-                    "unity 2d svg",
                     "unity svg",
                     "unity svg files"
                 ]
@@ -6848,9 +6456,7 @@
                 "relatedWords": [
                     "text adventure",
                     "texture",
-                    "Texture 2D",
                     "texture sheet",
-                    "Texture2D",
                     "textures",
                     "Unity Textures"
                 ]
@@ -6963,7 +6569,6 @@
                     "unity 2020 tutorial",
                     "unity 2020 tutorials",
                     "unity 2020.1 tutorial",
-                    "unity 2d tutorial",
                     "unity 5 tutorial",
                     "Unity Certified Instructor",
                     "unity hwo to",
@@ -6980,7 +6585,6 @@
                     "unity tutorial 2019",
                     "unity tutorial 2019.1",
                     "unity tutorial 2020",
-                    "unity tutorial 2d",
                     "unity tutorial urp",
                     "unity tutorial water",
                     "unity tutorials",
@@ -7167,7 +6771,6 @@
                 "relatedWords": [
                     "unity 2017",
                     "unity 2018",
-                    "unity 2018 sprite",
                     "unity 2018 trash dash",
                     "unity 2018.1",
                     "unity 2018.2",
@@ -7183,16 +6786,12 @@
                     "unity 2019.3",
                     "unity 2019.4",
                     "unity 2020",
-                    "unity 2020 2d",
                     "unity 2020 changes",
                     "unity 2020 universal",
                     "unity 2020 update",
                     "unity 2020 visual",
                     "unity 2020.1",
                     "Unity 2020.2",
-                    "unity 2d",
-                    "unity 2d 2019.3",
-                    "unity 2d sprite",
                     "Unity 4.2",
                     "Unity 4.3",
                     "Unity 4.6",
@@ -7316,7 +6915,6 @@
                     "unity2019",
                     "unity2020",
                     "unity2020.1",
-                    "unity2d",
                     "unity4",
                     "UnityAction",
                     "vignette unity",

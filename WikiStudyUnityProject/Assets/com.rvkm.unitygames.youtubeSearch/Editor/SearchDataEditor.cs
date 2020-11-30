@@ -19,6 +19,8 @@ namespace com.rvkm.unitygames.YouTubeSearch
         static bool busy;
         string nl;
         string ProcessButtonString, UpdateTagButtonString, CancelButtonString;
+        //public List<string> debugList = new List<string>();
+        Vector2 scroll;
 
         public override void OnEnableScriptableObject()
         {
@@ -62,6 +64,12 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
         public override void OnUpdateScriptableObject()
         {
+            //var edObject = new SerializedObject(this);
+            //edObject.Update();
+            //EditorGUILayout.PropertyField(edObject.FindProperty("debugList"), true);
+            //EditorUtility.SetDirty(this);
+            //edObject.ApplyModifiedProperties();
+
             busy = false;
             if (TagControl.TagFetchOperationHasCompleted == false || YouTubeControl.YoutubeAPIOperationHasCompleted == false)
             {
@@ -101,6 +109,8 @@ namespace com.rvkm.unitygames.YouTubeSearch
             EditorGUILayout.PropertyField(serializedObject.FindProperty("InputUrls"), true);
             IMGUIUtility.ShowDataWithBrowseOption<YoutubeVideoData>(serializedObject.FindProperty("videoData"), data);
             IMGUIUtility.ShowDataWithBrowseOption<YoutubeVideoTags>(serializedObject.FindProperty("tagData"), data);
+            EditorGUILayout.PropertyField(serializedObject.FindProperty("useBlacklistedTagsFromHere"), true);
+            EditorGUILayout.PropertyField(serializedObject.FindProperty("showBlacklistedTags"), true);
 
             if (GUILayout.Button(ProcessButtonString))
             {
@@ -175,6 +185,13 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 {
                     UpdateTags();
                 }
+            }
+
+            if (data.showBlacklistedTags)
+            {
+                scroll = EditorGUILayout.BeginScrollView(scroll);
+                data.blackListedTags = EditorGUILayout.TextArea(data.blackListedTags, GUILayout.Height(Screen.height - Screen.height * 0.67f));
+                EditorGUILayout.EndScrollView();
             }
 
             EditorUtility.SetDirty(data);
