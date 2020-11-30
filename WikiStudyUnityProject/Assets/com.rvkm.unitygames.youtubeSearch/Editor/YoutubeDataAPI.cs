@@ -65,7 +65,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 {
                     EditorJsonUtility.FromJsonOverwrite(json, data);
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     string msg = "could not perse json for video info!";
                     status = msg;
@@ -83,8 +83,8 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
                     if (item.snippet != null)
                     {
-                        video.channelName.IsIfNullOrEmpty(item.snippet.channelTitle, ref channelNameOk);
-                        video.description.IsIfNullOrEmpty(item.snippet.description, ref descriptionOk);
+                        video.channelName = ChannelDataEditorUtility.GetStringIfNullOrEmpty(item.snippet.channelTitle, ref channelNameOk);
+                        video.description = ChannelDataEditorUtility.GetStringIfNullOrEmpty(item.snippet.description, ref descriptionOk);
                         if (string.IsNullOrEmpty(item.snippet.publishedAt) == false)
                         {
                             DateTime pubDate = DateTime.Now;
@@ -103,15 +103,15 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
                         List<string> thumbUrls = new List<string>();
                         GetThumbs(item.snippet.thumbnails, ref video, ref thumbUrlOk);
-                        video.title.IsIfNullOrEmpty(item.snippet.title, ref titleOk);
+                        video.title = ChannelDataEditorUtility.GetStringIfNullOrEmpty(item.snippet.title, ref titleOk);
                     }
 
                     if (item.statistics != null)
                     {
-                        video.commentCount.TryGetFromString(item.statistics.commentCount, ref commentCountOk);
-                        video.dislikeCount.TryGetFromString(item.statistics.dislikeCount, ref dislikeCountOk);
-                        video.likeCount.TryGetFromString(item.statistics.likeCount, ref likeCountOk);
-                        video.viewCount.TryGetFromString(item.statistics.viewCount, ref viewCountOk);
+                        video.commentCount = ChannelDataEditorUtility.GetIntFromString(item.statistics.commentCount, ref commentCountOk);
+                        video.dislikeCount = ChannelDataEditorUtility.GetIntFromString(item.statistics.dislikeCount, ref dislikeCountOk);
+                        video.likeCount = ChannelDataEditorUtility.GetIntFromString(item.statistics.likeCount, ref likeCountOk);
+                        video.viewCount = ChannelDataEditorUtility.GetIntFromString(item.statistics.viewCount, ref viewCountOk);
                     }
                 }
 

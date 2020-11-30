@@ -77,28 +77,13 @@ html += menuItem;
 </body>
 </html> ";
 
-        public static void UpdateTagHtmlfileAndOpenIt(TagDesc[] tags, ref string errorMsgIfAny, Action OnHandleError)
+        public static void UpdateTagHtmlfileAndOpenIt(SearchDataYoutube data, ref string errorMsgIfAny, Action OnHandleError)
         {
-            var htmlSavepath = EditorUtility.SaveFilePanel("Save html files", "", "tag.html", "html");
-            FileStream stream = null;
-            if (!File.Exists(htmlSavepath))
-            {
-                try
-                {
-                    stream = File.Create(htmlSavepath);
-                }
-                catch (Exception ex)
-                {
-                    errorMsgIfAny = "Can not create tag html file!";
-                    OnHandleError?.Invoke();
-                    return;
-                }
-
-            }
             var upperTxt = HtmlFilePrintUtility.upperHtml;
             var lowerTxt = HtmlFilePrintUtility.lowerHtml;
             string htmlCode = upperTxt;
             string nl = Environment.NewLine;
+            var tags = data.tagData.allTags;
             if (tags != null)
             {
                 for (int i = 0; i < tags.Length; i++)
@@ -158,6 +143,7 @@ html += menuItem;
 
             htmlCode += lowerTxt;
 
+            var htmlSavepath = EditorUtility.SaveFilePanel("Save html files", "", "web_"+data.tagData.name+".html", "html");
             try
             {
                 File.WriteAllText(htmlSavepath, htmlCode);
@@ -167,11 +153,6 @@ html += menuItem;
                 errorMsgIfAny = "can not write html code into html file!";
                 OnHandleError?.Invoke();
                 return;
-            }
-
-            if (stream != null)
-            {
-                stream.Dispose();
             }
             EditorUtility.OpenWithDefaultApp(htmlSavepath);
         }

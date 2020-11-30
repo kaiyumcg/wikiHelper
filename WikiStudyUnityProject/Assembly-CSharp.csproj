@@ -67,7 +67,6 @@
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\SearchDataYoutube.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\FullScreenLoadingUI.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\Utilities\WikiSaveDataUtility.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Extension.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\AppDataManager.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\YoutubeVideoData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\Test\LoaderUITester.cs" />
@@ -78,6 +77,7 @@
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Tweens\ScaleTween.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\Utilities\DataConversionUtility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Tweens\RotateTween.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Extensions\VideoExtension.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\Test\DialogueBoxTester.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\UiElemOnPage.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\BoxUI.cs" />
@@ -93,6 +93,7 @@
     <Compile Include="Assets\com.rvkm.unitygames.extensions\NativeExtensions.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\TapHoldRepeaterCrossButton.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\Utilities\StatUtility.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Extensions\StringExtension.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Async\AsyncUtility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\WikiCon.cs" />
   </ItemGroup>
@@ -100,8 +101,6 @@
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\UnityChannel_data_generated_\ytVideoData_json.txt" />
      <None Include="Assets\Packages\HtmlAgilityPack.1.11.24\lib\netstandard2.0\HtmlAgilityPack.xml" />
      <None Include="Assets\Packages\HtmlAgilityPack.1.11.24\lib\netstandard2.0\HtmlAgilityPack.dll" />
-     <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\asd_data_generated_\ytTagData_json.txt" />
-     <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\asd_data_generated_\ytVideoData_json.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\channel.xml" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\UnityChannel_data_generated_\ytTagData_json.txt" />
     <Reference Include="UnityEngine">

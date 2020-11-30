@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using com.rvkm.unitygames.YouTubeSearch.Extensions;
 
 namespace com.rvkm.unitygames.YouTubeSearch
 {
@@ -55,9 +56,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 bool success = GetLinkFromNode(node, ref link);
                 if (success)
                 {
-
-                    bool alreadyExist = vdList.Exists((pred) => { return pred.url == link; });
-                    if (!alreadyExist)
+                    if (!vdList.HasAnyHaveLink(link))
                     {
                         vdList.Add(new YoutubeVideo(link));
                     }

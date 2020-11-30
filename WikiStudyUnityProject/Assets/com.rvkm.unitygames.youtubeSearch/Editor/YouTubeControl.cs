@@ -9,28 +9,25 @@ namespace com.rvkm.unitygames.YouTubeSearch
 {
     public static class YouTubeControl
     {
-        public static bool YoutubeAPIOperationHasCompleted { get { return completed; } }
-        public static float YoutubeAPIOperationProgress { get { return progress; } }
-        static bool completed;
-        static float progress;
+        public static bool YoutubeAPIOperationHasCompleted { get; private set; }
+        public static float YoutubeAPIOperationProgress { get; private set; }
         static string APIKEY;
         public static void InitControl()
         {
-            completed = true;
-            progress = 0f;
+            YoutubeAPIOperationHasCompleted = true;
+            YoutubeAPIOperationProgress = 0f;
         }
 
         public static IEnumerator LoopAllYoutubeAPI(List<YoutubeVideo> videos, string APIKEY, SearchDataEditor editor, Action<List<YoutubeVideo>> OnFinish)
         {
             YouTubeControl.APIKEY = APIKEY;
-            completed = false;
+            YoutubeAPIOperationHasCompleted = false;
             if (videos != null)
             {
                 for (int i = 0; i < videos.Count; i++)
                 {
                     if (videos[i] == null) { continue; }
-                    // if (i > 50) { break; }//Test purpose
-                    progress = (float)(i + 1) / (float)videos.Count;
+                    YoutubeAPIOperationProgress = (float)(i + 1) / (float)videos.Count;
                     var cor = EditorCoroutineUtility.StartCoroutine(ProcessVideo(videos[i], i, (vd, idx) =>
                     {
                         videos[idx] = vd;
@@ -41,7 +38,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 }
             }
             OnFinish?.Invoke(videos);
-            completed = true;
+            YoutubeAPIOperationHasCompleted = true;
         }
 
         static IEnumerator ProcessVideo(YoutubeVideo video, int index, Action<YoutubeVideo, int> OnFinish)
@@ -55,7 +52,6 @@ namespace com.rvkm.unitygames.YouTubeSearch
             }
             OnFinish?.Invoke(video, index);
             yield return null;
-
         }
     }
 }

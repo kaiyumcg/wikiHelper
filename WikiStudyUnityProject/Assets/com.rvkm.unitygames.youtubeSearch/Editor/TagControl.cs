@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using Unity.EditorCoroutines.Editor;
 using UnityEditor;
 using System.Linq;
+using com.rvkm.unitygames.YouTubeSearch.Extensions;
+using UnityEngine;
 
 namespace com.rvkm.unitygames.YouTubeSearch
 {
@@ -11,80 +13,176 @@ namespace com.rvkm.unitygames.YouTubeSearch
     {
         static List<string> procList = new List<string>();
         static List<TagDesc> tagDescList = new List<TagDesc>();
-        public static bool TagFetchOperationHasCompleted { get { return completed; } }
-        public static float TagFetchOperationProgress { get { return progress; } }
-        static bool completed;
-        static float progress;
+        public static bool TagFetchOperationHasCompleted { get; private set; }
+        public static float TagFetchOperationProgress { get; private set; }
+        static int opCount;
+        static double singleOpTimeMax;
         public static void InitControl()
         {
-            completed = true;
-            progress = 0f;
+            TagFetchOperationHasCompleted = true;
+            TagFetchOperationProgress = 0f;
+            procList = new List<string>();
+            tagDescList = new List<TagDesc>();
+            opCount = 0;
+            singleOpTimeMax = 0D;
         }
 
-        public static void UpdateTags(SerializedObject editorSerializedObject, SearchDataYoutube searchData, SearchDataEditor editor)
+        static List<string> GetAllTags(YoutubeVideo[] videos)
         {
-            completed = false;
-            progress = 0f;
+            List<string> tags = new List<string>();
+            if (videos != null && videos.Length > 0)
+            {
+                foreach (var video in videos)
+                {
+                    if (video == null || video.tags == null || video.tags.Length == 0) { continue; }
+                    foreach (var tag in video.tags)
+                    {
+                        if (string.IsNullOrEmpty(tag)) { continue; }
+                        if (!tags.HasAny_IgnoreCase(tag))
+                        {
+                            tags.Add(tag);
+                        }
+                    }
+                }
+            }
+            return tags;
+        }
+
+        static List<string> GetAllTags(TagDesc[] tagData)
+        {
+            List<string> tags = new List<string>();
+            if (tagData != null && tagData.Length > 0)
+            {
+                foreach (var tag in tagData)
+                {
+                    if (tag == null) { continue; }
+                    if (!tags.HasAny_IgnoreCase(tag.mainTag))
+                    {
+                        tags.Add(tag.mainTag);
+                    }
+                    if (tag.relatedWords != null && tag.relatedWords.Length > 0)
+                    {
+                        foreach (var r in tag.relatedWords)
+                        {
+                            if (string.IsNullOrEmpty(r)) { continue; }
+                            if (!tags.HasAny_IgnoreCase(r))
+                            {
+                                tags.Add(r);
+                            }
+                        }
+                    }
+                }
+            }
+            return tags;
+        }
+
+        public static void UpdateTags(SearchDataYoutube searchData, SearchDataEditor editor, Action<List<TagDesc>> OnComplete)
+        {
+            opCount = 0;
+            singleOpTimeMax = 0D;
+            var t1 = DateTime.Now;
+            TagFetchOperationHasCompleted = false;
+            TagFetchOperationProgress = 0f;
             procList = new List<string>();
             tagDescList = new List<TagDesc>();
             List<string> blacklistedTags = new List<string>();
-            blacklistedTags.GetAllTags(searchData.ignoreTags);
+            blacklistedTags = GetAllTags(searchData.tagData.ignoreTags);
+            Debug.Log("blacklisted tag operation took: " + ((DateTime.Now - t1).TotalSeconds) + " seconds.");
             List<string> allTags = new List<string>();
-            allTags.GetAllTags(searchData.allVideos);
+            allTags = GetAllTags(searchData.videoData.allVideos);
+            Debug.Log("get all tag operation took: " + ((DateTime.Now - t1).TotalSeconds) + " seconds.");
             if (allTags.Count > 0)
             {
-                allTags.RemoveIfContains(blacklistedTags);
+                allTags.RemoveSimilar(blacklistedTags);
+                Debug.Log("remove duplicate operation took: " + ((DateTime.Now - t1).TotalSeconds) + " seconds.");
             }
             allTags = allTags.OrderBy(x => x).ToList();
-            var cor = EditorCoroutineUtility.StartCoroutine(UpdateTag(editorSerializedObject, editor, allTags, (ser, tagDescList) =>
+            Debug.Log("order by operation took: "+((DateTime.Now - t1).TotalSeconds)+" seconds.");
+            //TagFetchOperationHasCompleted = true;
+            //return; 
+
+            var cor = EditorCoroutineUtility.StartCoroutine(UpdateTag(editor, allTags, (tagDescList) =>
             {
-                if (tagDescList.Count > 0)
-                {
-                    searchData.allTags = tagDescList.ToArray();
-                }
-                else
-                {
-                    searchData.allTags = null;
-                }
-                ChannelDataEditorUtility.SaveYoutubeDataToDisk(editorSerializedObject, searchData);
-                EditorUtility.DisplayDialog("Success!", "Tags updated", "Ok");
-                if (searchData.printTagsInHtml)
-                {
-                    string errorMsgIfAny = "";
-                    HtmlFilePrintUtility.UpdateTagHtmlfileAndOpenIt(searchData.allTags, ref errorMsgIfAny, () =>
-                    {
-                        editor.StopAllEditorCoroutines();
-                        EditorUtility.ClearProgressBar();
-                        EditorUtility.DisplayDialog("Error!", "Tag Operation Error!", "Ok");
-                        completed = true;
-                    });
-                }
+                TagControl.TagFetchOperationHasCompleted = true;
+                Debug.Log("the full tag operation took: " + ((DateTime.Now - t1).TotalSeconds) + " seconds. count: " + opCount + " max iteration time: " + singleOpTimeMax);
+
+                OnComplete?.Invoke(tagDescList);
+                
             }), editor);
             editor.AllCoroutines.Add(cor);
         }
 
-        static IEnumerator UpdateTag(SerializedObject ser, SearchDataEditor editor, List<string> allTags, Action<SerializedObject, List<TagDesc>> OnFinish)
+        static IEnumerator UpdateTag(SearchDataEditor editor, List<string> allTags, Action<List<TagDesc>> OnFinish)
         {
             if (allTags.Count > 0)
             {
                 for (int i = 0; i < allTags.Count; i++)
                 {
-                    progress = (float)(i + 1) / (float)allTags.Count;
-                    if (string.IsNullOrEmpty(allTags[i]) || procList.HasAny(allTags[i])
+                    TagFetchOperationProgress = (float)(i + 1) / (float)allTags.Count;
+                    if (string.IsNullOrEmpty(allTags[i]) || procList.HasAny_IgnoreCase(allTags[i])
                         || allTags[i].IsItNeumeric_YT()) { continue; }
                     procList.Add(allTags[i]);
-                    var cor = EditorCoroutineUtility.StartCoroutine(SingleTagProcCOR(allTags, allTags[i],
+
+                    if (i % 50 == 0)
+                    {
+                        var t1 = DateTime.Now;
+                        var cor = EditorCoroutineUtility.StartCoroutine(SingleTagProcCOR(allTags, allTags[i],
                      (thisDesc) =>
                      {
                          tagDescList.Add(thisDesc);
                      }), editor);
-                    editor.AllCoroutines.Add(cor);
-                    yield return cor;
+                        editor.AllCoroutines.Add(cor);
+                        yield return cor;
+                        opCount++;
+                        if (singleOpTimeMax < (DateTime.Now - t1).TotalSeconds)
+                        {
+                            singleOpTimeMax = (DateTime.Now - t1).TotalSeconds;
+                        }
+                    }
+                    else
+                    {
+                        var t1 = DateTime.Now;
+                        SingleTagProc(allTags, allTags[i], (thisDesc) =>
+                        {
+                            tagDescList.Add(thisDesc);
+                        });
+                        opCount++;
+                        if (singleOpTimeMax < (DateTime.Now - t1).TotalSeconds)
+                        {
+                            singleOpTimeMax = (DateTime.Now - t1).TotalSeconds;
+                        }
+                    }
+
+                    //   var t1 = DateTime.Now;
+                    //   var cor = EditorCoroutineUtility.StartCoroutine(SingleTagProcCOR(allTags, allTags[i],
+                    //(thisDesc) =>
+                    //{
+                    //    tagDescList.Add(thisDesc);
+                    //}), editor);
+                    //   editor.AllCoroutines.Add(cor);
+                    //   yield return cor;
+                    //   opCount++;
+                    //   if (singleOpTimeMax < (DateTime.Now - t1).TotalSeconds)
+                    //   {
+                    //       singleOpTimeMax = (DateTime.Now - t1).TotalSeconds;
+                    //   }
+
+                    //var t1 = DateTime.Now;
+                    //SingleTagProc(allTags, allTags[i], (thisDesc) =>
+                    //{
+                    //    tagDescList.Add(thisDesc);
+                    //});
+                    //opCount++;
+                    //if (singleOpTimeMax < (DateTime.Now - t1).TotalSeconds)
+                    //{
+                    //    singleOpTimeMax = (DateTime.Now - t1).TotalSeconds;
+                    //}
                 }
             }
-            completed = true;
-            OnFinish?.Invoke(ser, tagDescList);
+            TagFetchOperationHasCompleted = true;
+            OnFinish?.Invoke(tagDescList);
             EditorUtility.ClearProgressBar();
+            yield return null;
         }
 
         static IEnumerator SingleTagProcCOR(List<string> allTags, string thisTag, Action<TagDesc> OnFinish)
@@ -92,25 +190,24 @@ namespace com.rvkm.unitygames.YouTubeSearch
             SingleTagProc(allTags, thisTag, OnFinish);
             yield return null;
         }
-
+        
         static void SingleTagProc(List<string> allTags, string thisTag, Action<TagDesc> OnFinish)
         {
             var tagDesc = new TagDesc();
             tagDesc.mainTag = thisTag;
+            procList.Add(thisTag);
             List<string> relList = new List<string>();
-            allTags.ForEach((pred) =>
+            foreach (var tag in allTags)
             {
-                if (string.IsNullOrEmpty(pred) == false
-                && string.Equals(pred, thisTag, StringComparison.OrdinalIgnoreCase) == false
-                && procList.HasAny(pred) == false)
+                if (string.IsNullOrEmpty(tag)
+                || procList.HasAny_IgnoreCase(tag)) { continue; }
+
+                if (tag.Contains_IgnoreCase(thisTag))
                 {
-                    if (pred.Contains_IgnoreCase(thisTag))
-                    {
-                        relList.Add(pred);
-                        procList.Add(pred);
-                    }
+                    relList.Add(tag);
+                    procList.Add(tag);
                 }
-            });
+            }
 
             if (relList.Count > 0)
             {
@@ -120,9 +217,6 @@ namespace com.rvkm.unitygames.YouTubeSearch
             {
                 tagDesc.relatedWords = null;
             }
-
-            var pList = new List<string>();
-            pList.CopyUniqueFrom(procList);
             OnFinish?.Invoke(tagDesc);
         }
     }

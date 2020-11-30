@@ -14,32 +14,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public string SearchName;
         public TextAsset[] InputHtmlFiles;
         public string[] InputUrls;
-        public YoutubeVideo[] allVideos;
-        public TagDesc[] allTags;
-        public TagDesc[] ignoreTags;
-        public bool printTagsInHtml, printCategoriesInHtml;
         public YoutubeVideoData videoData;
         public YoutubeVideoTags tagData;
-
-        public bool IsDataOk()
-        {
-            bool isOk = true;
-            if (allVideos != null && allVideos.Length > 0)
-            {
-                foreach (var v in allVideos)
-                {
-                    if (v == null || v.YouTubeDataAPI_Cooked == false)
-                    {
-                        isOk = false;
-                        break;
-                    }
-                }
-            }
-            else
-            {
-                isOk = false;
-            }
-            return isOk;
-        }
     }
 }

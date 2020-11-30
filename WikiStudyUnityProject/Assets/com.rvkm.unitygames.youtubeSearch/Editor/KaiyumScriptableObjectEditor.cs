@@ -10,7 +10,6 @@ using System.Linq;
 
 namespace com.rvkm.unitygames.YouTubeSearch
 {
-    
     public abstract class KaiyumScriptableObjectEditor : Editor
     {
         static List<EditorCoroutine> allCORs;

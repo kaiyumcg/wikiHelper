@@ -1,4 +1,5 @@
-﻿using com.rvkm.unitygames.YouTubeSearchInternal;
+﻿using com.rvkm.unitygames.YouTubeSearch.Extensions;
+using com.rvkm.unitygames.YouTubeSearchInternal;
 using HtmlAgilityPack;
 using System;
 using System.Collections;
@@ -15,6 +16,33 @@ namespace com.rvkm.unitygames.YouTubeSearch
 {
     public static class ChannelDataEditorUtility
     {
+        public static string GetStringIfNullOrEmpty(string str, ref bool success)
+        {
+            string result = "";
+            if (string.IsNullOrEmpty(str) == false)
+            {
+                result = str;
+                success = true;
+            }
+            return result;
+        }
+
+        public static int GetIntFromString(string str, ref bool success)
+        {
+            int result = 0;
+            if (string.IsNullOrEmpty(str) == false)
+            {
+                int count = 0;
+                var perseSuccess = int.TryParse(str, out count);
+                if (perseSuccess)
+                {
+                    result = count;
+                    success = true;
+                }
+            }
+            return result;
+        }
+
         public static void SaveObjectToDiskJson(UnityEngine.Object obj)
         {
             var data = EditorJsonUtility.ToJson(obj, true);

@@ -7,6 +7,7 @@ using UnityEditor;
 using UnityEngine;
 using System.Security.AccessControl;
 using System.Linq;
+using com.rvkm.unitygames.YouTubeSearch.Extensions;
 
 namespace com.rvkm.unitygames.YouTubeSearch
 {
@@ -17,18 +18,15 @@ namespace com.rvkm.unitygames.YouTubeSearch
         static float progress;
         static bool busy;
         string nl;
-        string genBtnStr, jsonBtnStr, tagBtnStr, cancelTagStr, cancelYTStr, genTestStr;
+        string ProcessButtonString, UpdateTagButtonString, CancelButtonString;
 
         public override void OnEnableScriptableObject()
         {
             data = (SearchDataYoutube)target;
             nl = Environment.NewLine;
-            genBtnStr = nl + "Generate youtube data" + nl;
-            jsonBtnStr = nl + "Write to device(JSON)" + nl;
-            tagBtnStr = nl + "Update tags" + nl;
-            cancelTagStr = nl + "Cancel Tag Update" + nl;
-            cancelYTStr = nl + "Cancel" + nl;
-            genTestStr = nl + "Test Scr" + nl;
+            ProcessButtonString = nl + "Generate youtube data" + nl;
+            UpdateTagButtonString = nl + "Update tags" + nl;
+            CancelButtonString = nl + "Cancel" + nl;
             TagControl.InitControl();
             YouTubeControl.InitControl();
         }
@@ -37,6 +35,29 @@ namespace com.rvkm.unitygames.YouTubeSearch
         {
             busy = false;
             EditorUtility.ClearProgressBar();
+        }
+
+        void UpdateTags()
+        {
+            busy = true;
+            TagControl.UpdateTags(data, this, (tagList) => {
+
+                if (tagList.Count > 0)
+                {
+                    data.tagData.allTags = tagList.ToArray();
+                }
+                else
+                {
+                    data.tagData.allTags = null;
+                }
+                ChannelDataEditorUtility.SaveYoutubeDataToDisk(serializedObject, data);
+                string errorMsgIfAny = "";
+                HtmlFilePrintUtility.UpdateTagHtmlfileAndOpenIt(data, ref errorMsgIfAny, () =>
+                {
+                    StopAllEditorCoroutines();
+                    EditorUtility.DisplayDialog("Error!", "Tag Operation Error! meg: " + errorMsgIfAny, "Ok");
+                });
+            });
         }
 
         public override void OnUpdateScriptableObject()
@@ -49,203 +70,122 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 else if (YouTubeControl.YoutubeAPIOperationHasCompleted== false) { progress = YouTubeControl.YoutubeAPIOperationProgress; }
             }
 
-            serializedObject.Update();
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("SearchName"), true);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("APIKEY"), true);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("InputHtmlFiles"), true);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("InputUrls"), true);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("videoData"), true);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("tagData"), true);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("printTagsInHtml"), true);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("printCategoriesInHtml"), true);
-            //dynamically see what are the fields search data has and show them. 
-
-            if (TagControl.TagFetchOperationHasCompleted == false)
-            {
-                GUILayout.BeginHorizontal("box");
-                progress = (float)Math.Round((double)progress, 4);
-                GUILayout.Label("Tag Progress: ");
-                GUILayout.Button("" + (100 * progress) + "% ");
-                GUILayout.EndHorizontal();
-
-                GUILayout.Space(10);
-                if (GUILayout.Button(cancelTagStr))
-                {
-                    StopAllEditorCoroutines();
-                    EditorUtility.ClearProgressBar();
-                    EditorUtility.DisplayDialog("Error!", "Tag Operation aborted by user!", "Ok");
-                    busy = false;
-                }
-                serializedObject.ApplyModifiedProperties();
-                return;
-            }
-
             if (busy)
             {
+                GUILayout.Label(TagControl.TagFetchOperationHasCompleted == false ? "Updating tags. Please wait..." : "Processing video information from youtube. Please wait...");
                 GUILayout.BeginHorizontal("box");
                 progress = (float)Math.Round((double)progress, 4);
+                
                 GUILayout.Label("Progress: ");
                 GUILayout.Button("" + (100 * progress) + "% ");
-                progress = EditorGUILayout.Slider(progress, 0f, 1f);
+                //progress = EditorGUILayout.Slider(progress, 0f, 1f);
                 GUILayout.EndHorizontal();
 
                 GUILayout.Space(10);
-                if (GUILayout.Button(cancelYTStr))
+                if (GUILayout.Button(CancelButtonString))
                 {
                     StopAllEditorCoroutines();
                     EditorUtility.ClearProgressBar();
                     EditorUtility.DisplayDialog("Error!", "Operation aborted by user!", "Ok");
+                    TagControl.InitControl();
+                    YouTubeControl.InitControl();
                     busy = false;
                 }
+                return;
             }
-            else
+
+            serializedObject.Update();
+            EditorGUILayout.PropertyField(serializedObject.FindProperty("SearchName"), true);
+            EditorGUILayout.PropertyField(serializedObject.FindProperty("APIKEY"), true);
+            IMGUIUtility.ShowArrayWithBrowseOption<TextAsset>(serializedObject.FindProperty("InputHtmlFiles"), data);
+            EditorGUILayout.PropertyField(serializedObject.FindProperty("InputUrls"), true);
+            IMGUIUtility.ShowDataWithBrowseOption<YoutubeVideoData>(serializedObject.FindProperty("videoData"), data);
+            IMGUIUtility.ShowDataWithBrowseOption<YoutubeVideoTags>(serializedObject.FindProperty("tagData"), data);
+
+            if (GUILayout.Button(ProcessButtonString))
             {
-                if (GUILayout.Button(genTestStr))
+                YoutubeVideoData vData = null;
+                YoutubeVideoTags tData = null;
+                var dataObtained = DependencyDataUtility.GetDependencyDataIfAny(data, ref vData, ref tData);
+                if (!dataObtained)
                 {
-                    if (false)
+                    bool createNew = EditorUtility.DisplayDialog("----Choice----", "There is no dependency data for this '" + data.SearchName + "' search. "
+                         + nl + " You can manually assign them or you can create one!", "Create them and start fresh", "Abort now to assign them");
+                    if (createNew)
                     {
-                        EditorUtility.DisplayDialog("Error!", "You are trying to update tags but youtube data is invalid! "
-                            + Environment.NewLine + "Please generate the data first!", "Ok");
+                        var creationSuccess = DependencyDataUtility.CreateFreshDependencyData(data, ref vData, ref tData);
+                        if (!creationSuccess)
+                        {
+                            EditorUtility.DisplayDialog("Error", "Could not create dependency data. Check the log!", "Ok");
+                            return;
+                        }
                     }
-                    else
+                }
+                if (vData == null || tData == null) { return; }
+                data.videoData = vData;
+                data.tagData = tData;
+                data.videoData.searchName = data.SearchName;
+                data.tagData.searchName = data.SearchName;
+                var vSer = new SerializedObject(data.videoData);
+                vSer.Update();
+                var tSer = new SerializedObject(data.tagData);
+                tSer.Update();
+
+                busy = true;
+                EditorUtility.DisplayProgressBar("Processing", "Reading html files and/or textasset containing html files", 0);
+                List<YoutubeVideo> vList = new List<YoutubeVideo>();
+                vList.CopyUniqueFrom(data.videoData.allVideos);
+                if (data.InputHtmlFiles != null)
+                {
+                    foreach (var txtAsset in data.InputHtmlFiles)
                     {
-                        YoutubeVideoData vData = null;
-                        YoutubeVideoTags tData = null;
-                        var dataObtained = DependencyDataUtility.GetDependencyDataIfAny(data, ref vData, ref tData);
-                        if (dataObtained)
-                        {
-                            bool willDownload = vData.IsDataOk();
-
-                        }
-                        else
-                        {
-                            bool createNew = EditorUtility.DisplayDialog("----Choice----", "There is no dependency data for this '" + data.SearchName + "' search. "
-                                 + nl + " You can manually assign them or you can create one!", "Create them and start fresh", "Abort now to assign them");
-                            if (createNew)
-                            {
-                                var creationSuccess = DependencyDataUtility.CreateFreshDependencyData(data, ref vData, ref tData);
-                                if (!creationSuccess)
-                                {
-                                    EditorUtility.DisplayDialog("Error", "Could not create dependency data. Check the log!", "Ok");
-                                    return;
-                                }
-                                else
-                                {
-
-                                    Debug.Log("successfully created! vData null? " + (vData == null) + " and tData null? " + (tData == null));
-                                }
-                            }
-                        }
-                        if (vData == null || tData == null) { return; }
-                        data.videoData = vData;
-                        data.tagData = tData;
-                        var vSer = new SerializedObject(vData);
-                        vSer.Update();
-                        var tSer = new SerializedObject(tData);
-                        tSer.Update();
-
-                        List<YoutubeVideo> vList = new List<YoutubeVideo>();
-                        if (data.allVideos != null && data.allVideos.Length > 0)
-                        {
-                            foreach (var v in data.allVideos)
-                            {
-                                if (v == null) { continue; }
-                                vList.Add(v);
-                            }
-                        }
-
-                        List<TagDesc> allTagList = new List<TagDesc>();
-                        if (data.allTags != null && data.allTags.Length > 0)
-                        {
-                            foreach (var t in data.allTags)
-                            {
-                                if (t == null) { continue; }
-                                allTagList.Add(t);
-                            }
-                        }
-
-                        List<TagDesc> allIgnoreTagList = new List<TagDesc>();
-                        if (data.ignoreTags != null && data.ignoreTags.Length > 0)
-                        {
-                            foreach (var t in data.ignoreTags)
-                            {
-                                if (t == null) { continue; }
-                                allIgnoreTagList.Add(t);
-                            }
-                        }
-
-                        vData.searchName = data.SearchName;
-                        vData.allVideos = vList.ToArray();
-                        tData.searchName = data.SearchName;
-                        tData.allTags = allTagList.ToArray();
-                        tData.ignoreTags = allIgnoreTagList.ToArray();
-
-                        data.videoData = vData;
-                        data.tagData = tData;
-                        vSer.ApplyModifiedProperties();
-                        tSer.ApplyModifiedProperties();
-                        ChannelDataEditorUtility.SaveYoutubeDataToDisk(serializedObject, data);
+                        vList.CopyUniqueFrom(HtmlNodeUtility.GetAllVideoInfo(txtAsset.text));
                     }
                 }
 
-                if (GUILayout.Button(genBtnStr))
+                if (data.InputUrls != null)
                 {
-                    busy = true;
-                    EditorUtility.DisplayProgressBar("Processing", "Reading html files and/or textasset containing html files", 0);
-                    List<YoutubeVideo> vList = new List<YoutubeVideo>();
-                    vList.CopyUniqueFrom(data.allVideos);
-                    if (data.InputHtmlFiles != null)
+                    foreach (var url in data.InputUrls)
                     {
-                        foreach (var txtAsset in data.InputHtmlFiles)
-                        {
-                            vList.CopyUniqueFrom(HtmlNodeUtility.GetAllVideoInfo(txtAsset.text));
-                        }
+                        if (!UrlUtility.IsUrl(url)) { continue; }
+                        vList.CopyUniqueFrom(HtmlNodeUtility.GetAllVideoInfo(ChannelDataEditorUtility.GetWWWResponse(url)));
                     }
-
-                    if (data.InputUrls != null)
-                    {
-                        foreach (var url in data.InputUrls)
-                        {
-                            if (!UrlUtility.IsUrl(url)) { continue; }
-                            vList.CopyUniqueFrom(HtmlNodeUtility.GetAllVideoInfo(ChannelDataEditorUtility.GetWWWResponse(url)));
-                        }
-                    }
-
-                    EditorUtility.ClearProgressBar();
-                    var cor = EditorCoroutineUtility.StartCoroutine(YouTubeControl.LoopAllYoutubeAPI(vList, data.APIKEY, this, (procList) =>
-                    {
-                        data.allVideos = procList.ToArray();
-                        TagControl.UpdateTags(serializedObject, data, this);
-                        EditorUtility.ClearProgressBar();
-                        serializedObject.Update();
-                        ChannelDataEditorUtility.SaveYoutubeDataToDisk(serializedObject, data);
-
-                    }), this);
-                    AllCoroutines.Add(cor);
                 }
 
-                if (GUILayout.Button(tagBtnStr))
+                EditorUtility.ClearProgressBar();
+                var cor = EditorCoroutineUtility.StartCoroutine(YouTubeControl.LoopAllYoutubeAPI(vList, data.APIKEY, this, (procList) =>
                 {
-                    if (data.IsDataOk() == false)
-                    {
-                        EditorUtility.DisplayDialog("Error!", "You are trying to update tags but youtube data is invalid! "
-                            + Environment.NewLine + "Please generate the data first!", "Ok");
-                    }
-                    else
-                    {
-                        busy = true;
-                        TagControl.UpdateTags(serializedObject, data, this);
-                    }
+                    data.videoData.allVideos = procList.ToArray();
+                    UpdateTags();
+                }), this);
+                AllCoroutines.Add(cor);
+                vSer.ApplyModifiedProperties();
+                tSer.ApplyModifiedProperties();
+                ChannelDataEditorUtility.SaveYoutubeDataToDisk(serializedObject, data);
+            }
+
+            if (GUILayout.Button(UpdateTagButtonString))
+            {
+                if (data.videoData.IsDataOk() == false)
+                {
+                    EditorUtility.DisplayDialog("Error!", "You are trying to update tags but youtube data is invalid! "
+                        + Environment.NewLine + "Please generate the data first!", "Ok");
                 }
-                if (GUILayout.Button(jsonBtnStr))
+                else
                 {
-                    ChannelDataEditorUtility.SaveYoutubeDataToDisk(serializedObject, data);
+                    UpdateTags();
                 }
             }
 
             EditorUtility.SetDirty(data);
-            EditorUtility.SetDirty(data.videoData);
-            EditorUtility.SetDirty(data.tagData);
+            if (data.videoData != null)
+            {
+                EditorUtility.SetDirty(data.videoData);
+            }
+            if (data.tagData != null)
+            {
+                EditorUtility.SetDirty(data.tagData);
+            }
             serializedObject.ApplyModifiedProperties();
         }
     }
