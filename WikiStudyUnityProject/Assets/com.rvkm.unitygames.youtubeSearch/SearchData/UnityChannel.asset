@@ -19,37 +19,18 @@ MonoBehaviour:
   InputUrls: []
   videoData: {fileID: 11400000, guid: a26ab8c0b1890b449910723e48b1a173, type: 2}
   tagData: {fileID: 11400000, guid: 8a50b1d13e7b9084984ae16b2ca5697b, type: 2}
-  useBlacklistedTagsFromHere: 1
-  showBlacklistedTags: 1
-  blackListedTags: '#hangoutsonair[S]
-
-    #hoa[S]
-
-    #madewithunity[S]
-
-    #unitytips[S]
-
-    .NET
-    Framework (Software)[S]
-
-    1979 Revolution: Black Friday[S]
-
-    2.5D[S]
-
-    360
-    video
-
-    3D
-
-    3rd person
-
-    5 great assets
-
-    5 Lives Studios[S]
-
-    7dfps[S]
-
-    90
-    fps[S]
-
-'
+  blacklist:
+    use: 1
+    useTextArea: 0
+    useFiles: 1
+    textAreaString: 
+    textFiles:
+    - {fileID: 4900000, guid: dfdb1a631d670d345b61ae06ec477891, type: 3}
+    - {fileID: 4900000, guid: 4d1aa864e8ed369498f982fd56163db0, type: 3}
+    - {fileID: 4900000, guid: 29c1109aef9622244b08c8332e822545, type: 3}
+  mustUseList:
+    use: 0
+    useTextArea: 1
+    useFiles: 0
+    textAreaString: (Business Operation)
+    textFiles: []

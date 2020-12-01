@@ -8,6 +8,5 @@ namespace com.rvkm.unitygames.YouTubeSearch
     {
         public string searchName;
         public TagDesc[] allTags;
-        public TagDesc[] ignoreTags;
     }
 }

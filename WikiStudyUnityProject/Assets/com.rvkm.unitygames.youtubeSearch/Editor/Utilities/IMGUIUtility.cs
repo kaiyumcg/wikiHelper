@@ -50,12 +50,18 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 loadCalled = true;
                 string fOpenDir = GetDirForFileOpenDialogue(unityObjectData, thisDataObject);
                 var path = EditorUtility.OpenFilePanel("Open " + typeof(T).Name + " files", fOpenDir, "");
+                AssetDatabase.SaveAssets();
+                AssetDatabase.Refresh();
                 Object data = null;
                 bool pathEmpty = false;
                 if (string.IsNullOrEmpty(path) == false)
                 {
                     path = UrlUtility.GetRelativePath(path);
+                    AssetDatabase.SaveAssets();
+                    AssetDatabase.Refresh();
                     data = AssetDatabase.LoadAssetAtPath<T>(path);
+                    AssetDatabase.SaveAssets();
+                    AssetDatabase.Refresh();
                 }
                 else
                 {
@@ -75,6 +81,25 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 }
             }
 
+            if (typeof(T) == typeof(TextAsset) && unityObjectData.objectReferenceValue != null)
+            {
+                if (GUILayout.Button("Open "+unityObjectData.objectReferenceValue.name+" 'Text'"))
+                {
+                    loadCalled = true;
+                    var oPath = AssetDatabase.GetAssetPath(unityObjectData.objectReferenceValue);
+                    oPath = UrlUtility.GetAbsolutePath(oPath);
+                    if (File.Exists(oPath) == false || string.IsNullOrEmpty(oPath))
+                    {
+                        EditorUtility.DisplayDialog("Error", "Could not get path or the file does not exist in the disk! " +
+                            System.Environment.NewLine + "Are you trying to open something from memory? This is not supported yet", "Ok");
+                    }
+                    else
+                    {
+                        EditorUtility.OpenWithDefaultApp(oPath);
+                    }
+                }
+            }
+
             if (!loadCalled)
             {
                 GUILayout.EndHorizontal();
@@ -83,21 +108,31 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
         static string GetDirForFileOpenDialogue(SerializedProperty unityObjectSer, ScriptableObject dataObject)
         {
-            string fOpenDir = Application.dataPath;
-            if (dataObject != null)
+            if (unityObjectSer.objectReferenceValue != null)
             {
-                fOpenDir = UrlUtility.GetDataDirRelative(dataObject);
-                if (unityObjectSer.objectReferenceValue != null)
+                var assetPath = AssetDatabase.GetAssetPath(unityObjectSer.objectReferenceValue);
+                assetPath = UrlUtility.GetAbsolutePath(assetPath);
+                FileInfo nfo = new FileInfo(assetPath);
+                return UrlUtility.GetRelativePath(nfo.Directory.FullName);
+            }
+            else
+            {
+                string fOpenDir = Application.dataPath;
+                if (dataObject != null)
                 {
-                    var validScriptableObject = unityObjectSer.objectReferenceValue.GetType() == typeof(ScriptableObject);
-                    if (validScriptableObject == true)
+                    fOpenDir = UrlUtility.GetDataDirRelative(dataObject);
+                    if (unityObjectSer.objectReferenceValue != null)
                     {
-                        fOpenDir = UrlUtility.GetDataDirRelative((ScriptableObject)unityObjectSer.objectReferenceValue);
+                        var validScriptableObject = unityObjectSer.objectReferenceValue.GetType() == typeof(ScriptableObject);
+                        if (validScriptableObject == true)
+                        {
+                            fOpenDir = UrlUtility.GetDataDirRelative((ScriptableObject)unityObjectSer.objectReferenceValue);
+                        }
                     }
                 }
+                fOpenDir = UrlUtility.GetRelativePath(fOpenDir);
+                return fOpenDir;
             }
-            fOpenDir = UrlUtility.GetRelativePath(fOpenDir);
-            return fOpenDir;
         }
     }
 }

@@ -86,41 +86,43 @@ namespace com.rvkm.unitygames.YouTubeSearch
             TagFetchOperationProgress = 0f;
             procList = new List<string>();
             tagDescList = new List<TagDesc>();
-            List<string> blacklistedTags = new List<string>();
-            blacklistedTags = GetAllTags(searchData.tagData.ignoreTags);
-            if (searchData.useBlacklistedTagsFromHere)
-            {
-                var bListMainData = searchData.blackListedTags;
-                bListMainData = bListMainData.Replace("[S]", "");
-                var outputs = Regex.Split(Regex.Replace(bListMainData, "^[,\r\n]+|[,\r\n]+$", ""), "[,\r\n]+");
-                if (outputs != null && outputs.Length > 0)
-                {
-                    foreach (var b in outputs)
-                    {
-                        if (string.IsNullOrEmpty(b)) { continue; }
-                        if (blacklistedTags.HasAny_IgnoreCase(b) == false)
-                        {
-                            blacklistedTags.Add(b);
-                        }
-                    }
-                }
-            }
-
-            
+            List<string> blacklistedTags = searchData.blacklist.GetAllTagWords();
             Debug.Log("blacklisted tag operation took: " + ((DateTime.Now - t1).TotalSeconds) + " seconds.");
             List<string> allTags = new List<string>();
             allTags = GetAllTags(searchData.videoData.allVideos);
             Debug.Log("get all tag operation took: " + ((DateTime.Now - t1).TotalSeconds) + " seconds.");
-            if (allTags.Count > 0)
+            if (allTags.Count > 0 && blacklistedTags.Count > 0)
             {
                 allTags = allTags.RemoveBlacklistedTags(blacklistedTags);
 
                 Debug.Log("remove duplicate operation took: " + ((DateTime.Now - t1).TotalSeconds) + " seconds.");
             }
+
+            if (searchData.mustUseList.IsValid())
+            {
+                List<string> chosenTags = new List<string>();
+                var mustHaveWords = searchData.mustUseList.GetAllTagWords();
+                foreach (var tag in allTags)
+                {
+                    if (string.IsNullOrEmpty(tag)) { continue; }
+                    if (mustHaveWords != null && mustHaveWords.Count > 0)
+                    {
+                        foreach (var thisMustBeContained in mustHaveWords)
+                        {
+                            if (string.IsNullOrEmpty(thisMustBeContained)) { continue; }
+                            if (tag.Contains_IgnoreCase(thisMustBeContained))
+                            {
+                                chosenTags.Add(tag);
+                                break;
+                            }
+                        }
+                    }
+                }
+                allTags = chosenTags;
+            }
             allTags = allTags.OrderBy(x => x).ToList();
             
             Debug.Log("order by operation took: "+((DateTime.Now - t1).TotalSeconds)+" seconds.");
-            //editor.debugList = allTags;
             var cor = EditorCoroutineUtility.StartCoroutine(UpdateTag(editor, allTags, (tagDescList) =>
             {
                 TagControl.TagFetchOperationHasCompleted = true;

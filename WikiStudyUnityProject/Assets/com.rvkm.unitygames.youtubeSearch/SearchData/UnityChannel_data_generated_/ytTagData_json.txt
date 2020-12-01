@@ -7,6 +7,37 @@
         "searchName": "UnityChannel",
         "allTags": [
             {
+                "mainTag": "1979 Revolution: Black Friday",
+                "relatedWords": []
+            },
+            {
+                "mainTag": "3D",
+                "relatedWords": [
+                    "3D Art",
+                    "3d asset model",
+                    "3d game",
+                    "3d game art",
+                    "3d game character",
+                    "3d game kit",
+                    "3d modeling",
+                    "3d models",
+                    "3d scan",
+                    "3Dart",
+                    "3ds max",
+                    "find 3d models",
+                    "houdini 3d",
+                    "mars 3d",
+                    "Morph 3D",
+                    "New Nintendo 3DS",
+                    "Nintendo 3DS (Video Game Platform)",
+                    "octave 3d",
+                    "octave3d",
+                    "real-time 3d",
+                    "U3D",
+                    "Unty 3D"
+                ]
+            },
+            {
                 "mainTag": "A*",
                 "relatedWords": []
             },
@@ -14,151 +45,16 @@
                 "mainTag": "AAA",
                 "relatedWords": [
                     "AAA games",
-                    "aaa graphics",
-                    "aaa rendering",
-                    "unity aaa",
-                    "unity aaa games",
-                    "unity aaa graphics"
-                ]
-            },
-            {
-                "mainTag": "ability",
-                "relatedWords": [
-                    "Usability (Industry)"
-                ]
-            },
-            {
-                "mainTag": "abstract class",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Across Realities",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "ad creative",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Ad Games",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "adam",
-                "relatedWords": [
-                    "Adam Demo",
-                    "Adam Myhill",
-                    "adam part 2",
-                    "unity adam",
-                    "Unity Adam Demo"
-                ]
-            },
-            {
-                "mainTag": "Adaptive performance",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "add component",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "add volume hdrp",
-                "relatedWords": [
-                    "how to add volume hdrp"
-                ]
-            },
-            {
-                "mainTag": "addforce",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "addressable",
-                "relatedWords": [
-                    "addressable assets",
-                    "addressable assets unity"
-                ]
-            },
-            {
-                "mainTag": "adobe",
-                "relatedWords": [
-                    "Adobe Flash (Software)"
-                ]
-            },
-            {
-                "mainTag": "Adressables",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "ads",
-                "relatedWords": [
-                    "downloads",
-                    "game ads",
-                    "games ads",
-                    "mobile ads",
-                    "Playable ads",
-                    "unity ads",
-                    "unity ads android",
-                    "unity ads integration",
-                    "unity ads ios",
-                    "unity games ads",
-                    "UnityAds"
-                ]
-            },
-            {
-                "mainTag": "Advanced Lighting",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Advanced Micro Devices (Venture Funded Company)",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "adventure game",
-                "relatedWords": [
-                    "unity adventure game"
-                ]
-            },
-            {
-                "mainTag": "Advertising",
-                "relatedWords": [
-                    "game advertising",
-                    "mobile advertising",
-                    "Mobile Advertising (Industry)"
+                    "aaa graphics"
                 ]
             },
             {
                 "mainTag": "AEC",
-                "relatedWords": [
-                    "Unity for AEC"
-                ]
-            },
-            {
-                "mainTag": "after effects",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "age of magic",
                 "relatedWords": []
             },
             {
                 "mainTag": "Agile Management (Software Genre)",
                 "relatedWords": []
-            },
-            {
-                "mainTag": "Agile Software Development (Industry)",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "agora unity",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "agora.io",
-                "relatedWords": [
-                    "agora.io tutorial",
-                    "agora.io unity",
-                    "agora.io video"
-                ]
             },
             {
                 "mainTag": "AI",
@@ -182,15 +78,10 @@
                     "hair",
                     "Hangouts On Air",
                     "harold halibut trailer",
-                    "houdini tutorail for beginners",
-                    "how to create terrain in unity",
-                    "how to make game ai",
-                    "How To Train Your Dragon (Film Series)",
                     "ik constraints;",
                     "jetbrains",
                     "jetbrains rider",
                     "jetbrains rider getting started",
-                    "jetbrains rider tutorial",
                     "jetbrains rider unitty",
                     "live training",
                     "main menu",
@@ -200,7 +91,6 @@
                     "oc3 entertainment",
                     "particle trail",
                     "rain",
-                    "rain shader",
                     "resonai",
                     "retained ui",
                     "rezonai",
@@ -216,142 +106,25 @@
                     "Trailblazers",
                     "trailer",
                     "Training",
-                    "Training (Industry)",
                     "training day",
-                    "unity 2018.3 terrain",
-                    "unity 2019 trailer",
-                    "unity 2019.2 trailer",
-                    "unity 2019.3 terrain",
-                    "unity 2020 trailer",
-                    "unity 2020.1 available",
-                    "unity constraints",
-                    "unity jet brains",
-                    "unity jet brains rider",
-                    "unity jetbrains",
-                    "unity jetbrains rider",
-                    "unity live training",
-                    "unity making a trailer",
-                    "unity physics explained",
-                    "unity polybrush terrain",
-                    "unity prefab variant tutorail",
-                    "unity terrain",
-                    "unity terrain 2019",
-                    "unity terrain system",
-                    "unity terrain tools",
-                    "unity terrain tools package",
-                    "unity terrain tutorial",
-                    "unity terrains",
-                    "unity terrains 2019",
-                    "unity terrains tutorial",
-                    "unity trailer",
                     "video game ai",
                     "Wayfair",
                     "xaitment"
                 ]
             },
             {
-                "mainTag": "albedo",
-                "relatedWords": [
-                    "albedo texture"
-                ]
-            },
-            {
-                "mainTag": "alien",
-                "relatedWords": [
-                    "aliens"
-                ]
-            },
-            {
-                "mainTag": "aligning objects",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Allegorithmic",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "ambience",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "amplify",
-                "relatedWords": [
-                    "amplify shader editor"
-                ]
-            },
-            {
-                "mainTag": "Amplitude Studios",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Amsterdam",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "analytics",
                 "relatedWords": [
-                    "Analytics (Industry)",
                     "analytics for games",
                     "game analytics",
-                    "in-game analytics",
-                    "unity analytics"
-                ]
-            },
-            {
-                "mainTag": "ancient treasures",
-                "relatedWords": [
-                    "ancient treasures sword pack"
+                    "in-game analytics"
                 ]
             },
             {
                 "mainTag": "android",
                 "relatedWords": [
                     "Android (Operating System)",
-                    "assault android cactus",
-                    "Unity android",
-                    "Unity android built",
-                    "unity android notifications",
-                    "Unity android stores",
-                    "Unity android tutorial"
-                ]
-            },
-            {
-                "mainTag": "andy touch",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "angel",
-                "relatedWords": [
-                    "Unite 2016 Los Angeles",
-                    "Unite Los Angeles",
-                    "Unite Los Angeles 2016",
-                    "Unity 2016 Los Angeles"
-                ]
-            },
-            {
-                "mainTag": "Angry Birds",
-                "relatedWords": [
-                    "Angry Birds (Video Game)"
-                ]
-            },
-            {
-                "mainTag": "angryant",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "animate anything",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "animated character",
-                "relatedWords": [
-                    "animated characters"
-                ]
-            },
-            {
-                "mainTag": "animated film",
-                "relatedWords": [
-                    "unity animated film"
+                    "assault android cactus"
                 ]
             },
             {
@@ -359,87 +132,8 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "animated tile",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "animating",
-                "relatedWords": [
-                    "unity animating",
-                    "unity animating in 2019"
-                ]
-            },
-            {
-                "mainTag": "animation",
-                "relatedWords": [
-                    "animation asset api",
-                    "animation clips",
-                    "animation in games",
-                    "Animation in Unity",
-                    "animation rigging",
-                    "Animation Rigging package",
-                    "animation rigging unity 2019",
-                    "animation rigging unity 2019.3",
-                    "animation rigging unity package",
-                    "animation rigging unity tutorial",
-                    "animation setup",
-                    "animation unity",
-                    "animation workflow",
-                    "Animations",
-                    "blend animation",
-                    "CG animation",
-                    "character animation",
-                    "Character Animation (Field Of Study)",
-                    "Computer Animation (Industry)",
-                    "film and animation",
-                    "game animation",
-                    "procedural animation",
-                    "procedural animation unity",
-                    "realtime animation in unity",
-                    "realtime animations",
-                    "top down animation",
-                    "unity 2019 animation",
-                    "unity animation",
-                    "unity animation cartoon",
-                    "unity animation film",
-                    "unity animation rigging",
-                    "unity animation rigging package",
-                    "unity animation tutorial",
-                    "unity animations",
-                    "unity animations tutorial",
-                    "unity ik procedural animation",
-                    "unity procedural animation",
-                    "unity procedural animation tutorial",
-                    "unity procedural animations",
-                    "unity real time animation",
-                    "unity real time animation tutorial",
-                    "unity timeline camera animation"
-                ]
-            },
-            {
-                "mainTag": "animator",
-                "relatedWords": [
-                    "animator controller"
-                ]
-            },
-            {
-                "mainTag": "anime",
                 "relatedWords": []
-            },
-            {
-                "mainTag": "animset pro longsword",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Anno: Create A New World (Video Game)",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "announcement",
-                "relatedWords": [
-                    "unity 2019 announcement",
-                    "unity announcement"
-                ]
             },
             {
                 "mainTag": "anti cheat",
@@ -450,68 +144,16 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "antigraviator",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "app",
-                "relatedWords": [
-                    "App Development",
-                    "App Store (iOS)",
-                    "Apple",
-                    "Apple Inc. (Organization)",
-                    "Application Programming Interface (Literature Subject)",
-                    "Application Software (Software Genre)",
-                    "apps",
-                    "flappy",
-                    "flappy bird",
-                    "fulcro applied technologies",
-                    "in app purchase",
-                    "In app purchases",
-                    "In-app purchase",
-                    "lightmapper",
-                    "lightmapping",
-                    "lightmapping unity",
-                    "Mobile Application Development (Industry)",
-                    "progressive light mapper",
-                    "Progressive Lightmapper",
-                    "snapping",
-                    "tilemapper",
-                    "unity apple",
-                    "unity apple devices",
-                    "unity physics apply force",
-                    "unity rider app",
-                    "unity snapping",
-                    "Web Application Security (Project Focus)"
-                ]
-            },
-            {
-                "mainTag": "aquas",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "aquiris",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "AR",
                 "relatedWords": [
                     "ar basics",
-                    "ar button",
                     "ar development",
-                    "ar development in unity",
                     "ar foundation",
                     "ar immersion",
-                    "ar/vr",
-                    "Arcade Shooter",
-                    "Architectural Visualization",
                     "architecture",
-                    "Architecture (Industry)",
-                    "Architecture (Professional Field)",
                     "archviz",
                     "archviz demo",
                     "arcore",
-                    "area effector",
                     "arena",
                     "arizone sunshine",
                     "arkit",
@@ -524,30 +166,19 @@
                     "art design essentials",
                     "artengine",
                     "Artifical Intelligence in Games",
-                    "Artificial Intelligence (Industry)",
                     "artificially intelligence",
                     "artist",
-                    "artist tools",
-                    "artist workflow",
                     "Artists",
-                    "Artomatix",
-                    "artwork",
                     "Audio Signal Processing (Software Genre)",
-                    "Autodesk Maya (Software)",
-                    "Autodesk Revit (Software)",
                     "avatar",
-                    "Avatar (Website Category)",
                     "award",
                     "Award Ceremony (Type Of Public Presentation)",
                     "award show",
                     "Awards",
                     "bard",
                     "battlestar galactica",
-                    "Betadwarf",
-                    "Build Automation (Software Genre)",
                     "c sharp",
                     "Car",
-                    "careers at Unity",
                     "carl",
                     "Carl Callewaert",
                     "Cars",
@@ -555,12 +186,10 @@
                     "character",
                     "character creation",
                     "character select",
-                    "character setup unity",
                     "characters",
                     "charity",
                     "clear shot",
                     "clearfloat",
-                    "Computer Hardware (Industry)",
                     "Continuous Integration (Software Genre)",
                     "Contract Wars",
                     "cooldown bar",
@@ -568,7 +197,6 @@
                     "dark",
                     "dictionary",
                     "Digital Art",
-                    "Digital Art (Visual Art Form)",
                     "digitalart",
                     "dr charles francis",
                     "Emmy award",
@@ -587,13 +215,10 @@
                     "Game marketing",
                     "gameart",
                     "Games marketing",
-                    "Gamesareunityversal",
-                    "Gear vr",
                     "get started",
                     "Getting Started",
                     "google arcore",
                     "gpu particles",
-                    "gpu particles unity",
                     "Graphics Software (Award Discipline)",
                     "Graphics Software (Software Genre)",
                     "Guns Of Icarus Online (Video Game)",
@@ -605,56 +230,29 @@
                     "hierarchy",
                     "hover car",
                     "hovercar",
-                    "how i learned unity",
-                    "how to learn unity",
-                    "how to machine learning",
-                    "how to setup machine learning unity",
                     "hyperbeard",
                     "image target",
-                    "Immersion (Visual Art Genre)",
                     "incremental garbage collection",
-                    "incremental garbage collector",
-                    "Installation Art (Visual Art Form)",
                     "Interactive Art",
                     "IOS (Software)",
-                    "Kart Prototype Unity",
                     "Kart Racer",
                     "kickstarter",
                     "learn",
                     "learn coding",
                     "learn game design",
-                    "learn how to make games with unity",
-                    "learn programming",
-                    "learn to code",
                     "learn uniity",
-                    "learn unity",
-                    "learn unity 2020",
-                    "learn unity easy",
-                    "learn unity free",
-                    "learn unity in 2019",
-                    "learn unity now",
-                    "learn unity shaders",
-                    "learn unity to make games",
-                    "learn unity today",
                     "learning",
                     "learning game development",
-                    "learning unity",
-                    "learning unity in 2019",
                     "Light (Art Subject)",
                     "lost in the garden",
-                    "Ludum Dare (Video Game Publisher)",
                     "machine learning",
                     "machine learning basics",
                     "machine learning for beginners",
-                    "machine learning in unity",
                     "machine learning introduction",
-                    "machine learning tutorial for beginners",
-                    "machine learning unity 2019",
                     "machinelearning",
                     "Manifold Garden",
                     "mario maker",
                     "marker",
-                    "Marketing (Industry)",
                     "mars",
                     "mars project",
                     "metal gear solid",
@@ -662,14 +260,10 @@
                     "moba character",
                     "mobile AR",
                     "model targets",
-                    "move towards",
                     "Narrative Games",
                     "Natalya Tatarchuk",
-                    "Networking Architecture",
-                    "New Media Art (Visual Art Genre)",
                     "nightmares",
                     "onparticlecollision",
-                    "Paradox Interactive (Video Game Developer)",
                     "parent",
                     "parenting",
                     "particle",
@@ -678,17 +272,10 @@
                     "Particle Effect",
                     "Particle Effects",
                     "particle noise",
-                    "particle scripting",
-                    "particle simulation",
-                    "particle simulation gpu",
                     "particle swarm",
                     "Particle System",
-                    "Particle System Unity",
-                    "particle texture",
                     "Particles",
-                    "particles unity",
                     "pixel art",
-                    "pixel art unity",
                     "pixel perfect particles",
                     "Plug-in (Software Genre)",
                     "point and click character",
@@ -696,10 +283,8 @@
                     "prefab variant",
                     "prefab variant example",
                     "prefab variants",
-                    "Programming Language (Software Genre)",
                     "race start",
                     "research",
-                    "Research And Development (Industry)",
                     "retargetable",
                     "retargeting",
                     "retargetting",
@@ -708,140 +293,36 @@
                     "Rob Pardo (Video Game Designer)",
                     "rpg character",
                     "rts character",
-                    "Samsung Gear VR",
                     "schwartz",
                     "scopear",
-                    "scriptable wizard",
-                    "Scripting Language (Software Genre)",
                     "scroll bar",
                     "scrollbar",
                     "search",
                     "sebastien lagarde",
-                    "Shadowgun War Games",
-                    "Simulation Software (Software Genre)",
                     "soaryn",
                     "software",
-                    "Software (Industry)",
-                    "Software Build (Software Genre)",
                     "software development",
-                    "Software Development (Industry)",
                     "Software Development Kit (Software Genre)",
-                    "Software Testing (Industry)",
                     "sorcerers arena",
                     "sparks",
-                    "SpeedTree (Software)",
                     "standard assets",
-                    "Standard Shader",
                     "Star Trek Timelines",
-                    "Star Trek VR",
                     "start menu",
                     "Starting",
-                    "Steampunk (Literary School Or Movement)",
                     "Super Mario Run",
                     "Swing Swing Submarine",
                     "Technical Artist",
                     "Technology and Engineering Emmy award",
-                    "Test Automation (Software Genre)",
-                    "Thomas Was Alone (Award-Winning Work)",
-                    "top down character",
-                    "total war",
                     "transparency sort axis",
                     "transparent",
-                    "uber standard shader",
-                    "uber standard shader ultra",
-                    "Unity (Software)",
-                    "unity 2018 harold halibut",
-                    "unity 2018 variants",
-                    "unity 2019 ar",
-                    "unity 2019 ar foundation",
-                    "unity 2019 arfoundation",
-                    "unity 2019 particles",
-                    "unity animate character",
-                    "unity ar",
-                    "unity ar 2019",
-                    "unity ar foundation",
-                    "unity ar foundation image tracking",
-                    "unity ar foundation tutorial",
-                    "unity ar game",
-                    "unity ar tutorial",
-                    "unity ar tutorial for beginners",
-                    "unity ar tutorial for beginners 2019",
-                    "Unity archviz",
-                    "unity arcore",
-                    "unity arfoundation",
-                    "unity arkit",
-                    "unity art",
-                    "unity art import",
-                    "unity artists",
-                    "unity awards",
-                    "unity C# starting",
-                    "unity car game",
-                    "unity cartoon",
-                    "unity cartoon shader",
-                    "unity cartoons",
-                    "unity character controller wall run",
-                    "unity character rigging",
-                    "unity dark",
-                    "unity dark theme",
-                    "unity fps sample getting started",
-                    "unity garbage collection",
-                    "unity garbage collector",
-                    "unity get started",
-                    "unity getting started",
-                    "unity getting started with fps sample",
-                    "unity guitar",
-                    "unity harold",
-                    "unity harold halibut",
-                    "unity how do i share my game",
-                    "unity how to get started",
-                    "unity how to learn",
-                    "unity how to share my game",
-                    "unity ik guitar",
-                    "unity incremental garbage collection",
-                    "unity incremental garbage collector",
-                    "unity kart microgame",
-                    "unity karting game",
-                    "unity karting microgame",
-                    "Unity Learn",
-                    "Unity learn hdrp",
-                    "unity learn premium",
-                    "unity learning",
-                    "unity machine learning",
-                    "unity machine learning agents",
-                    "unity machine learning tutorial",
-                    "unity micro games karting",
-                    "unity ninja guitar",
-                    "unity particle optimization",
-                    "unity particle system",
-                    "Unity Particles",
-                    "unity pixel art",
-                    "unity prefab variants tutorial",
-                    "unity shader triplanar",
-                    "unity share game",
-                    "unity sharing a game",
-                    "unity sharing games",
-                    "unity smart kart",
-                    "unity smart karts",
-                    "unity software",
-                    "Unity Testing Department",
-                    "unity timeline markers",
-                    "unity triplanar",
-                    "unity where to start",
                     "untiy ar",
                     "unwarp",
                     "variable",
                     "variant",
                     "variant prefab",
-                    "Visionary Realms",
-                    "visual search",
-                    "Voltron: the legendary defender",
                     "war",
                     "war child",
-                    "warren spector",
-                    "Webinar",
                     "what i learned after",
-                    "what i learned in unity",
-                    "Windows Store (Software)",
                     "youAR",
                     "zarvot"
                 ]
@@ -866,43 +347,11 @@
                     "asset creation",
                     "asset pack",
                     "asset pipeline",
-                    "Asset Store",
                     "assetbundles",
                     "assets",
                     "find assets",
-                    "fpda unity assets",
                     "free assets",
-                    "free unity assets",
-                    "houdini asset",
-                    "how to find assets",
-                    "svg asset",
-                    "unity 2018 assets",
-                    "unity 2019 asset bundle",
-                    "unity 2019 assets",
-                    "unity asset",
-                    "unity asset bundles",
-                    "unity asset pack",
-                    "unity asset review",
-                    "unity asset store",
-                    "unity assets",
-                    "unity assets 2018",
-                    "unity assets 2019",
-                    "unity assets for beginners",
-                    "unity best assets",
-                    "unity best assets 2019",
-                    "unity free asset",
-                    "unity graphics assets",
-                    "unity great assets",
-                    "unity hdrp assets",
-                    "unity level design assets",
-                    "unity mobile assets",
-                    "unity new assets",
-                    "unity physics asset",
-                    "unity realistic asset",
-                    "unity streaming asset",
-                    "unity svg assets",
-                    "unity top assets",
-                    "unity ufps asset"
+                    "houdini asset"
                 ]
             },
             {
@@ -928,54 +377,31 @@
                     "Audio design",
                     "audio effect",
                     "audio effects",
-                    "Audio Engineer (Profession)",
-                    "Audio in Unity",
                     "audio listener",
-                    "Audio Mastering (Industry)",
                     "audio mixer",
                     "audio mixer snapshot",
                     "audio mixing",
-                    "Audio Mixing (Film Company Role Or Service)",
-                    "Audio Mixing (Film Job)",
                     "audio routing",
                     "audio source",
                     "audio sources",
                     "audiomixer",
                     "audiomixer snapshot",
-                    "Game Audio",
-                    "unity 5 audio",
-                    "Unity audio"
+                    "Game Audio"
                 ]
             },
             {
                 "mainTag": "augmented",
                 "relatedWords": [
                     "Augmented Reality",
-                    "Augmented Reality (Media Genre)",
                     "Vuforia Augmented Reality SDK"
                 ]
             },
             {
                 "mainTag": "Austin",
-                "relatedWords": [
-                    "unite austin"
-                ]
-            },
-            {
-                "mainTag": "Australian game",
                 "relatedWords": []
             },
             {
-                "mainTag": "Auto",
-                "relatedWords": [
-                    "Autodesk",
-                    "Autodesk (Business Operation)",
-                    "automotive",
-                    "automotive design"
-                ]
-            },
-            {
-                "mainTag": "back to the future",
+                "mainTag": "Australian game",
                 "relatedWords": []
             },
             {
@@ -995,11 +421,7 @@
             {
                 "mainTag": "Ball",
                 "relatedWords": [
-                    "Roll a ball",
-                    "roll a ball unity",
-                    "Top Eleven Football Manager (Video Game)",
-                    "unity physics bouncing ball",
-                    "unity roll a ball tutorial"
+                    "Roll a ball"
                 ]
             },
             {
@@ -1019,29 +441,11 @@
                 "relatedWords": [
                     "basics",
                     "ml agents basics",
-                    "unity 2018 basics",
-                    "unity 2018 basics beginner",
-                    "unity 2018 basics tutorials",
-                    "unity basic",
-                    "unity basic shaders",
-                    "unity basics",
-                    "unity basics 2018",
-                    "unity c# basics",
-                    "unity game basics",
-                    "unity nested prefabs basics",
-                    "unity optimization basic",
-                    "unity optimization basics",
-                    "unity shader basics",
-                    "unity shader graph basics",
                     "vfx basics"
                 ]
             },
             {
                 "mainTag": "battery life",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Battle Chef Brigade",
                 "relatedWords": []
             },
             {
@@ -1063,14 +467,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "beautiful lighting in unity",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "beautiful scenes in unity",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "bedroom demo",
                 "relatedWords": []
             },
@@ -1079,58 +475,19 @@
                 "relatedWords": [
                     "Beginner Code",
                     "beginner friendly",
-                    "beginner prototype",
-                    "beginner tutorial",
-                    "beginner unity",
-                    "beginner unity tutorial",
                     "beginners",
                     "ecs for beginners",
                     "for beginners",
-                    "fps unity beginners",
                     "houdini for beginners",
                     "ml agents beginners",
                     "ml for beginners",
-                    "prefabs for beginners",
-                    "programming for beginners",
-                    "unity 2018 for beginners",
-                    "unity 2018 tutorial for beginners",
-                    "unity 2019 beginner",
-                    "unity beginner",
-                    "unity beginner code tutorial",
-                    "unity beginner course",
-                    "unity beginner friendly",
-                    "unity beginner game",
-                    "unity beginner guide",
-                    "unity beginner projects",
-                    "unity beginner scri",
-                    "unity beginner tips",
-                    "Unity Beginner Tutorial",
-                    "unity beginner tutorial 2019",
-                    "unity beginner tutorial 2020",
-                    "unity beginner tutorials",
-                    "unity beginners",
-                    "unity beginners 2018",
-                    "unity beginners guide",
-                    "unity C# beginner friendly",
-                    "unity C# beginner tutorial",
-                    "unity creator kit beginner code",
-                    "unity development tutorial beginner",
-                    "unity for beginners",
-                    "Unity for Beginners - Join Sykoo on this Livestream!",
-                    "unity hdrp for beginners",
-                    "unity nested prefabs beginners",
-                    "unity optimization beginner",
-                    "unity physics beginner",
-                    "unity shader graph beginner's guide",
-                    "unity tutorial for beginners",
-                    "unity tutorials for beginners"
+                    "prefabs for beginners"
                 ]
             },
             {
                 "mainTag": "behavior",
                 "relatedWords": [
-                    "behavior designer",
-                    "behavior tree"
+                    "behavior designer"
                 ]
             },
             {
@@ -1178,28 +535,15 @@
                 "relatedWords": [
                     "best graphics",
                     "best practice",
-                    "Game development best practices",
-                    "unity best",
-                    "unity best graphics"
+                    "Game development best practices"
                 ]
             },
             {
                 "mainTag": "beta",
-                "relatedWords": [
-                    "unity 2020 beta",
-                    "unity beta"
-                ]
-            },
-            {
-                "mainTag": "better data in unity",
                 "relatedWords": []
             },
             {
                 "mainTag": "better game performance",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "better performance unity",
                 "relatedWords": []
             },
             {
@@ -1245,14 +589,7 @@
                 "relatedWords": [
                     "Blacksmith demo",
                     "The Blacksmith",
-                    "The Blacksmith Demo",
-                    "Unity blacksmith"
-                ]
-            },
-            {
-                "mainTag": "blend tree",
-                "relatedWords": [
-                    "direct blend tree"
+                    "The Blacksmith Demo"
                 ]
             },
             {
@@ -1274,30 +611,12 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "Bohemia Interactive (Business Operation)",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "bolt",
-                "relatedWords": [
-                    "bolt scripting",
-                    "bolt tutorial",
-                    "bolt visual scripting tutorial",
-                    "made with bolt",
-                    "unity bolt",
-                    "unity bolt 2",
-                    "unity bolt tutorial"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "bomb",
                 "relatedWords": []
-            },
-            {
-                "mainTag": "Book of the Dead",
-                "relatedWords": [
-                    "unity book of the dead"
-                ]
             },
             {
                 "mainTag": "boom",
@@ -1305,19 +624,11 @@
             },
             {
                 "mainTag": "borders",
-                "relatedWords": [
-                    "games without borders"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "bossa studios",
                 "relatedWords": []
-            },
-            {
-                "mainTag": "boston",
-                "relatedWords": [
-                    "Unite 2015 Boston"
-                ]
             },
             {
                 "mainTag": "bounce",
@@ -1340,123 +651,16 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "broadcast",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Broken Window Studio",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "browse",
-                "relatedWords": [
-                    "browser",
-                    "Browser Game (Video Game Genre)"
-                ]
-            },
-            {
-                "mainTag": "brush",
-                "relatedWords": [
-                    "polybrush",
-                    "polybrush in unity",
-                    "polybrush unity",
-                    "polybrush unity download",
-                    "prefab brush",
-                    "Tilt Brush",
-                    "unity 2019 polybrush",
-                    "unity 2019.2 polybrush",
-                    "unity 2019.3 polybrush",
-                    "unity model brush",
-                    "unity polybrush",
-                    "unity polybrush 2019",
-                    "unity polybrush probuilder",
-                    "unity polybrush tutorial",
-                    "unity polybrush. unity polybrush tutorial",
-                    "unity zbrush",
-                    "z brush",
-                    "zbrush",
-                    "zbrush tutorial"
-                ]
-            },
-            {
-                "mainTag": "build",
-                "relatedWords": [
-                    "Build Engineering",
-                    "build pipeline",
-                    "Build Verification Test",
-                    "city-builder",
-                    "cloud build",
-                    "how to build your first game",
-                    "ProBuilder",
-                    "probuilder tutorial",
-                    "probuilder unity",
-                    "probuilder unity tutorial",
-                    "UI Builder",
-                    "unity 2019 probuilder",
-                    "unity build",
-                    "unity build level",
-                    "unity build settings",
-                    "Unity Cloud Build",
-                    "unity environment building",
-                    "unity probuilder",
-                    "unity probuilder tutorial"
-                ]
-            },
-            {
-                "mainTag": "Buisness",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "bullet",
-                "relatedWords": [
-                    "bullets"
-                ]
-            },
-            {
-                "mainTag": "buried memories",
-                "relatedWords": [
-                    "buried memories unity",
-                    "unity buried memories"
-                ]
-            },
-            {
                 "mainTag": "Burst Compiler",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "butterfly",
-                "relatedWords": [
-                    "butterfly nvidia passion unity"
-                ]
-            },
-            {
-                "mainTag": "button",
-                "relatedWords": [
-                    "Panic Button Games"
-                ]
-            },
-            {
-                "mainTag": "buying",
                 "relatedWords": []
             },
             {
                 "mainTag": "c#",
                 "relatedWords": [
-                    "C# (Programming Language)",
                     "C# development",
                     "c# graph",
                     "C# Job System",
-                    "C# jobs",
-                    "c# tutorial",
-                    "unity 2019 c#",
-                    "unity C#",
-                    "unity C# coding",
-                    "unity C# ecs",
-                    "unity C# game",
-                    "unity C# intermediate",
-                    "unity C# tutorial",
-                    "unity C# tutorials",
-                    "unity C# visual studio"
+                    "C# jobs"
                 ]
             },
             {
@@ -1472,38 +676,14 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "CAD",
-                "relatedWords": [
-                    "cadillac",
-                    "The national academy"
-                ]
-            },
-            {
                 "mainTag": "call of duty",
                 "relatedWords": []
             },
             {
                 "mainTag": "camera",
                 "relatedWords": [
-                    "camera controller unity",
-                    "Camera Shake Unity",
-                    "camera stacking unity",
-                    "Camera Tools",
-                    "camera unity tutorial",
                     "cameras",
-                    "hdrp camera",
-                    "pixel perfect camera",
-                    "third person camera",
-                    "third person camera cinemachine",
-                    "unity camera blur",
-                    "Unity Camera Control",
-                    "unity camera settings",
-                    "unity camera stacking",
-                    "unity camera stacking tutorial",
-                    "unity camera tutorial",
-                    "unity dynamic camera",
-                    "unity timeline camera",
-                    "unity urp camera stacking"
+                    "pixel perfect camera"
                 ]
             },
             {
@@ -1520,10 +700,7 @@
             },
             {
                 "mainTag": "Casual Game",
-                "relatedWords": [
-                    "making hyper casual games",
-                    "unity hyper casual game"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "catch",
@@ -1532,17 +709,12 @@
                 ]
             },
             {
-                "mainTag": "CCP Games (Business Operation)",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "cdn",
                 "relatedWords": []
             },
             {
                 "mainTag": "cg",
                 "relatedWords": [
-                    "cg film",
                     "cg movie",
                     "cg short",
                     "CGI"
@@ -1559,9 +731,7 @@
             },
             {
                 "mainTag": "chase",
-                "relatedWords": [
-                    "stormchasers"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "child",
@@ -1577,12 +747,7 @@
             },
             {
                 "mainTag": "cinemachine",
-                "relatedWords": [
-                    "how to cinemachine",
-                    "unity cinemachine",
-                    "unity cinemachine group",
-                    "unity timeline cinemachine"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "cinematic image effects",
@@ -1599,12 +764,6 @@
                 ]
             },
             {
-                "mainTag": "Cinematography",
-                "relatedWords": [
-                    "Cinematography (Field Of Study)"
-                ]
-            },
-            {
                 "mainTag": "cities Skylines",
                 "relatedWords": []
             },
@@ -1616,95 +775,50 @@
                 ]
             },
             {
-                "mainTag": "click to move",
+                "mainTag": "cloth",
                 "relatedWords": []
             },
             {
-                "mainTag": "cloth",
-                "relatedWords": [
-                    "Cloth Simulation"
-                ]
-            },
-            {
                 "mainTag": "cloud",
-                "relatedWords": [
-                    "Cloud Computing (Industry)",
-                    "Unity Cloud"
-                ]
-            },
-            {
-                "mainTag": "Cluster Rendering",
                 "relatedWords": []
             },
             {
                 "mainTag": "code",
                 "relatedWords": [
-                    "code editor",
                     "code monkey",
                     "Code testing",
-                    "create with code",
                     "fps code",
-                    "how to code",
                     "Machine Code",
                     "no code",
-                    "Summer of Code",
-                    "unity code",
-                    "unity code tutorial",
-                    "unity create with code",
-                    "unity create with code live",
-                    "unity ecs code",
-                    "unity no code",
-                    "unity visual code"
+                    "Summer of Code"
                 ]
             },
             {
                 "mainTag": "coding",
-                "relatedWords": [
-                    "make a game in unity without coding",
-                    "making games without coding",
-                    "unitiy coding tutorial",
-                    "unity coding",
-                    "unity coding tutorial",
-                    "unity games without coding"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "collaborate",
-                "relatedWords": [
-                    "Unity Collaborate"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "collect",
                 "relatedWords": [
                     "collectable",
-                    "collectible",
-                    "unity 2019 icon collective",
-                    "unity icon collective",
-                    "unity icon collective pack",
-                    "unity the icon collective"
+                    "collectible"
                 ]
             },
             {
                 "mainTag": "collider",
                 "relatedWords": [
-                    "Colliders",
-                    "SuperCollider (Programming Language)",
-                    "WheelCollider Unity"
+                    "Colliders"
                 ]
             },
             {
                 "mainTag": "collision",
                 "relatedWords": [
-                    "collision detection",
-                    "unity collision",
-                    "unity collision detection",
-                    "unity physics collision"
+                    "collision detection"
                 ]
-            },
-            {
-                "mainTag": "color grading",
-                "relatedWords": []
             },
             {
                 "mainTag": "colormatch",
@@ -1719,26 +833,13 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "Community (Website Category)",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "community game",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Community Management",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "component",
                 "relatedWords": [
                     "Component System",
                     "components",
                     "entity component",
                     "Entity Component System",
-                    "new transform component",
-                    "unity entity component system"
+                    "new transform component"
                 ]
             },
             {
@@ -1752,21 +853,14 @@
             {
                 "mainTag": "compute",
                 "relatedWords": [
-                    "compute shader",
                     "computer",
                     "computer game",
                     "computer generated",
                     "computer graphics",
                     "Computer Graphics (Algorithm Family)",
-                    "Computer Graphics (Field Of Study)",
                     "Computer Graphics (images) (File Format Genre)",
-                    "Computer Science (Field Of Study)",
-                    "Computer Security (Industry)",
-                    "computer vision",
-                    "Computer-generated Imagery (Film Company Role Or Service)",
                     "Kinect (Computer Peripheral)",
                     "Project Morpheus (Computer Peripheral)",
-                    "Wii U (Computer)",
                     "X86 (Computer Processor)"
                 ]
             },
@@ -1779,7 +873,6 @@
                     "Game Developers Conference 17",
                     "Game development conference",
                     "Graphics Processing Unit (Conference Subject)",
-                    "Unite Conference",
                     "Video Game Development (Conference Subject)"
                 ]
             },
@@ -1787,8 +880,7 @@
                 "mainTag": "connect",
                 "relatedWords": [
                     "connected games",
-                    "Game Connection",
-                    "unity connect"
+                    "Game Connection"
                 ]
             },
             {
@@ -1796,7 +888,6 @@
                 "relatedWords": [
                     "console port",
                     "console porting",
-                    "Editor Console Pro",
                     "Video Game Console (Invention)"
                 ]
             },
@@ -1807,23 +898,12 @@
             {
                 "mainTag": "content",
                 "relatedWords": [
-                    "content delivery network",
-                    "live content management",
-                    "Procedural Content Generation",
-                    "Procedural Generated Content"
+                    "live content management"
                 ]
             },
             {
                 "mainTag": "Contest",
                 "relatedWords": []
-            },
-            {
-                "mainTag": "Context",
-                "relatedWords": [
-                    "Context Menu",
-                    "prefab context",
-                    "unity prefab context"
-                ]
             },
             {
                 "mainTag": "control",
@@ -1834,9 +914,6 @@
                     "player controller",
                     "sliding control",
                     "Source Control",
-                    "third person controller unity",
-                    "unity controller",
-                    "unity version control",
                     "version control",
                     "xbox controller"
                 ]
@@ -1887,8 +964,7 @@
                     "covid19",
                     "effects of covid",
                     "how covid affected",
-                    "how covid affected game development",
-                    "how covid affected the world"
+                    "how covid affected game development"
                 ]
             },
             {
@@ -1904,14 +980,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "create vr game unity",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "creating vegetation in unity",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "creation",
                 "relatedWords": [
                     "Game Creation",
@@ -1924,25 +992,13 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "creator",
-                "relatedWords": [
-                    "unity creator kit",
-                    "unity creator kit fps"
-                ]
-            },
-            {
-                "mainTag": "creature tools",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "crop",
                 "relatedWords": []
             },
             {
                 "mainTag": "cross platform",
                 "relatedWords": [
-                    "Cross platform native plugins",
-                    "unity cross platform"
+                    "Cross platform native plugins"
                 ]
             },
             {
@@ -1964,26 +1020,9 @@
                     "effects processing",
                     "game objects",
                     "gameobjects",
-                    "how to scriptable objects",
                     "Image effects",
-                    "Post Effects in Unity",
-                    "Post Processing Effects Unity",
                     "realistic effects pack 4",
-                    "realtime visual effects",
-                    "scriptable objects",
-                    "sound effects",
-                    "unity effects",
-                    "unity how to create visual effects",
-                    "Unity Image effects",
-                    "unity making visual effects",
-                    "unity open projects",
-                    "unity scriptable objects",
-                    "unity visual effects",
-                    "unity visual effects graph",
-                    "visual effects",
-                    "Visual Effects (Film Company Role Or Service)",
-                    "visual effects graph",
-                    "visual effects unity"
+                    "sound effects"
                 ]
             },
             {
@@ -1997,25 +1036,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "custom",
-                "relatedWords": [
-                    "custom editor unity",
-                    "custom icon",
-                    "custom packages",
-                    "Custom Scripts",
-                    "custom shader",
-                    "custom shader graph",
-                    "custom shader unity",
-                    "customer",
-                    "Customer Relationship Management (Industry)",
-                    "Customer Service",
-                    "Customise",
-                    "hdrp custom passes",
-                    "unity custom inspector",
-                    "unity customization"
-                ]
-            },
-            {
                 "mainTag": "cut scene",
                 "relatedWords": [
                     "Cut Scenes"
@@ -2024,10 +1044,7 @@
             {
                 "mainTag": "cutscene",
                 "relatedWords": [
-                    "cutscenes",
-                    "unity cutscene",
-                    "unity cutscenes",
-                    "unity timeline cutscene"
+                    "cutscenes"
                 ]
             },
             {
@@ -2054,10 +1071,7 @@
                 "mainTag": "data",
                 "relatedWords": [
                     "data driven design",
-                    "data management in unity",
-                    "data management tutorial",
                     "data mystery",
-                    "Data Visualization (Industry)",
                     "data-oriented",
                     "game data",
                     "geospatial data"
@@ -2083,10 +1097,6 @@
                 ]
             },
             {
-                "mainTag": "de lighting",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "death",
                 "relatedWords": [
                     "deathmatch"
@@ -2097,29 +1107,11 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "debug",
-                "relatedWords": [
-                    "debug log",
-                    "debugger",
-                    "debugging",
-                    "Debugging (Quotation Subject)",
-                    "frame debugger"
-                ]
-            },
-            {
                 "mainTag": "decals",
                 "relatedWords": []
             },
             {
                 "mainTag": "deferred",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "delighting",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "de-lighting",
                 "relatedWords": []
             },
             {
@@ -2134,26 +1126,10 @@
                     "Demoscene (Video Game Genre)",
                     "fish demo",
                     "game demo",
-                    "lighting demo",
-                    "otoy demo",
                     "Pantheon demo",
                     "tech demo",
                     "timeline demo",
-                    "unity 2019 demo",
-                    "Unity 5 demo",
-                    "unity boat attack demo",
-                    "unity demo",
-                    "unity demo project",
-                    "Unity Demo Team",
-                    "unity demos",
-                    "unity full demo",
-                    "unity graphics demo",
-                    "unity spaceship demo",
-                    "unity tech demo",
-                    "unity vfx graph demo",
-                    "unityt fps demo",
-                    "viking village demo",
-                    "vr demo"
+                    "viking village demo"
                 ]
             },
             {
@@ -2161,31 +1137,11 @@
                 "relatedWords": [
                     "designer",
                     "game design",
-                    "Game Design (Field Of Study)",
                     "Industrial Design (Organization Type)",
-                    "Interaction Design (Organization Sector)",
                     "level design",
-                    "level design in unity",
                     "sound design",
-                    "Sound Design (Field Of Study)",
-                    "tips for level design",
-                    "tips for level design in unity 2019",
                     "UI design",
-                    "unity 2019 level design",
-                    "unity 2019 level design tutorial",
-                    "unity design",
-                    "unity environment design",
-                    "unity fps level design",
-                    "unity game design",
-                    "unity game designs",
-                    "unity level design",
-                    "unity level design tutorial",
-                    "unity level designs",
-                    "unity tips for level design",
-                    "User Experience Design (Industry)",
-                    "User Interface Design (Field Of Study)",
-                    "vfx graphic design",
-                    "Video Game Design (Field Of Study)"
+                    "vfx graphic design"
                 ]
             },
             {
@@ -2195,15 +1151,10 @@
                 ]
             },
             {
-                "mainTag": "Detonator",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "dev",
                 "relatedWords": [
                     "develop",
                     "developer",
-                    "developer interview",
                     "developer relations",
                     "developers",
                     "developing for nintendo switch",
@@ -2213,75 +1164,30 @@
                     "devlog",
                     "easy game dev",
                     "fighting cinematic game dev",
-                    "Film Development",
                     "fps game dev",
                     "Funcom (Video Game Developer)",
                     "Game Dev",
-                    "game dev interview",
                     "Game Dev Job",
-                    "game dev tutorial",
                     "game developer",
                     "Game Development",
                     "Game development education",
-                    "game development in unity",
                     "game development lego",
-                    "Game Development Tools",
                     "game develpoment",
                     "gamedev",
-                    "gamedev interview",
                     "gamedev open",
                     "gamedev open source",
-                    "Gamedev unity",
-                    "indie dev",
-                    "indie developer",
-                    "indie game dev",
-                    "indie game development",
-                    "Indiedev",
-                    "indiedev interview",
                     "integrated development environment",
                     "Microsoft Studios (Video Game Developer)",
                     "mobile development",
                     "mobile game development",
                     "Mobiledev",
                     "MonoDevelop",
-                    "Multiplayer development",
                     "Nintendo (Video Game Developer)",
                     "Nival (Video Game Developer)",
                     "one person game development",
-                    "solo indie game developer",
                     "switch development",
                     "switch development kit",
-                    "unity dev",
-                    "unity dev log",
-                    "unity dev log game",
-                    "Unity developer",
-                    "Unity Developer Day",
-                    "unity developer interview",
-                    "unity developer relations",
-                    "Unity Development",
-                    "unity device",
-                    "unity device sim",
-                    "unity device simulator",
-                    "unity device simulator tutoria",
-                    "unity devlog",
-                    "unity game dev",
-                    "unity game dev log",
-                    "unity game dev tutorial",
-                    "unity game development",
-                    "unity game devlog",
-                    "unity gamedev",
-                    "unity indiedev",
-                    "unity mobile development",
-                    "unity mobile devlog",
-                    "unity mobile game dev",
-                    "unity unity ui dev",
-                    "Valve Corporation (Video Game Developer)",
-                    "Video Game Development",
-                    "Video Game Development (Industry)",
-                    "Virtual Reality Development",
-                    "vr development",
-                    "vr game development unity",
-                    "Working in game development"
+                    "Video Game Development"
                 ]
             },
             {
@@ -2290,16 +1196,11 @@
                     "digital double",
                     "Digital Doubles",
                     "digital human",
-                    "Digital Ruby",
-                    "Digital Signal Processing (Industry)"
+                    "Digital Ruby"
                 ]
             },
             {
                 "mainTag": "dimopoulos",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Director",
                 "relatedWords": []
             },
             {
@@ -2318,37 +1219,16 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "Disruptor Beam",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "dissolve shader",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "Distance",
                 "relatedWords": [
                     "Distance Joint"
                 ]
             },
             {
-                "mainTag": "distortion",
-                "relatedWords": [
-                    "unity 2019 distortion shader",
-                    "unity distortion effect",
-                    "unity distortion shader",
-                    "unity distortion shader tutorial",
-                    "unity shader graph distortion"
-                ]
-            },
-            {
                 "mainTag": "distribution",
                 "relatedWords": [
                     "Google Play (Video Game Distribution System)",
-                    "Nintendo EShop (Video Game Distribution System)",
-                    "unity distribution platform",
-                    "Unity distribution platform tutorial",
-                    "Windows Phone Store (Video Game Distribution System)"
+                    "Nintendo EShop (Video Game Distribution System)"
                 ]
             },
             {
@@ -2381,8 +1261,7 @@
                     "Dots (Video Game)",
                     "Dots Game",
                     "PlayDots",
-                    "TwoDots",
-                    "unity dots"
+                    "TwoDots"
                 ]
             },
             {
@@ -2392,15 +1271,6 @@
             {
                 "mainTag": "double",
                 "relatedWords": []
-            },
-            {
-                "mainTag": "download",
-                "relatedWords": [
-                    "download unity",
-                    "fps unity download",
-                    "unity 2020 download",
-                    "unity 2020.1 download"
-                ]
             },
             {
                 "mainTag": "drag",
@@ -2442,11 +1312,7 @@
             },
             {
                 "mainTag": "easy",
-                "relatedWords": [
-                    "unity easy",
-                    "unity easy game",
-                    "unity easy tutorial"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "echo",
@@ -2461,10 +1327,7 @@
             {
                 "mainTag": "ecs",
                 "relatedWords": [
-                    "ecs example",
-                    "how to use ecs",
-                    "unity 2018 ecs",
-                    "unity ecs"
+                    "ecs example"
                 ]
             },
             {
@@ -2475,47 +1338,15 @@
                 "mainTag": "edit",
                 "relatedWords": [
                     "editing",
-                    "Editor",
-                    "editor gui",
-                    "editor scripting",
-                    "editor scripting tutorial",
-                    "editor scripts",
-                    "editor tool",
-                    "editor ui",
-                    "editor window unity",
-                    "EditorVR",
-                    "intro to editor scripting",
                     "level editing",
-                    "Multi-scene editing",
-                    "spline editor",
-                    "unity 2019.3 new editor",
-                    "unity 2020 editor",
-                    "unity editor",
-                    "unity new editor",
-                    "unity new editor skin",
-                    "unity new editor theme",
-                    "unity new editor ui",
-                    "Unity Personal Edition"
+                    "Multi-scene editing"
                 ]
             },
             {
                 "mainTag": "effect",
                 "relatedWords": [
-                    "fighter effect unity",
-                    "platform effector",
                     "receive effect",
-                    "send effect",
-                    "Sound Effect (Industry)",
-                    "surface effector",
-                    "unity effect",
-                    "unity fire effect",
-                    "unity portal effect",
-                    "unity teleport effect",
-                    "unity visual effect",
-                    "unity visual effect graph",
-                    "unity visual effect tutorial",
-                    "visual effect",
-                    "Visual Effect Graph"
+                    "send effect"
                 ]
             },
             {
@@ -2559,10 +1390,7 @@
             {
                 "mainTag": "enemy",
                 "relatedWords": [
-                    "enemy boss",
-                    "unity enemy",
-                    "unity enemy boss",
-                    "unity enemy tutorial"
+                    "enemy boss"
                 ]
             },
             {
@@ -2571,16 +1399,8 @@
                     "engineering",
                     "Game Engine",
                     "game engine jobs",
-                    "houdini engine unity",
                     "PhysX (Video Game Engine)",
-                    "Technology and Engineering",
-                    "unity (game engine)",
-                    "unity engine",
-                    "unity engine vfx",
-                    "unity game engine",
-                    "unity houdini engine",
-                    "unity houdini engine 2018",
-                    "unity(game engine)"
+                    "Technology and Engineering"
                 ]
             },
             {
@@ -2597,34 +1417,22 @@
                 "mainTag": "enviro",
                 "relatedWords": [
                     "environment",
-                    "gameenvironment",
-                    "unity environment",
-                    "unity environment light",
-                    "unity environment lighting",
-                    "unity environment lighting tutorial",
-                    "unity hdrp environment lighting",
-                    "unity realistic environments"
+                    "gameenvironment"
                 ]
             },
             {
                 "mainTag": "Essentials",
                 "relatedWords": [
-                    "Essentials Pack",
-                    "unity essentials",
-                    "vr essentials",
-                    "vr essentials pack"
+                    "Essentials Pack"
                 ]
             },
             {
                 "mainTag": "Event",
                 "relatedWords": [
                     "event system",
-                    "event triggers",
                     "events",
                     "game events",
-                    "games events",
-                    "unity events",
-                    "UnityEvent"
+                    "games events"
                 ]
             },
             {
@@ -2657,7 +1465,6 @@
                 "mainTag": "explosion",
                 "relatedWords": [
                     "Explosion (Fictional Object Destruction Method)",
-                    "unity physics explosion",
                     "vfx graph explosion"
                 ]
             },
@@ -2668,8 +1475,7 @@
             {
                 "mainTag": "Extending",
                 "relatedWords": [
-                    "Extending Space Shooter",
-                    "extending unity"
+                    "Extending Space Shooter"
                 ]
             },
             {
@@ -2679,29 +1485,14 @@
             {
                 "mainTag": "Facebook",
                 "relatedWords": [
-                    "Facebook (Website)",
                     "facebook gameroom",
                     "Facebook games",
                     "facebook spaces"
                 ]
             },
             {
-                "mainTag": "fall guys unity",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Family VR Music Video",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "fantasy",
                 "relatedWords": []
-            },
-            {
-                "mainTag": "fast shadow",
-                "relatedWords": [
-                    "Fast Shadow Projector"
-                ]
             },
             {
                 "mainTag": "Fat Pebble",
@@ -2711,34 +1502,12 @@
                 "mainTag": "feature",
                 "relatedWords": [
                     "features",
-                    "new features",
-                    "unity 2018 features",
-                    "unity 2018.3: new features and improvements",
-                    "unity 2019 features",
-                    "unity 2019.3 features",
-                    "unity feature",
-                    "unity features",
-                    "unity new features",
-                    "unity new features in 2019",
-                    "unity timeline feature"
+                    "new features"
                 ]
             },
             {
                 "mainTag": "festival of magic",
                 "relatedWords": []
-            },
-            {
-                "mainTag": "film",
-                "relatedWords": [
-                    "film making",
-                    "filmmaking",
-                    "nfl films",
-                    "sci-fi film",
-                    "short film",
-                    "sundance film festival",
-                    "unity film",
-                    "unity short film"
-                ]
             },
             {
                 "mainTag": "final IK",
@@ -2756,7 +1525,6 @@
                 "mainTag": "fire",
                 "relatedWords": [
                     "firewatch",
-                    "unity fire",
                     "vfx fire"
                 ]
             },
@@ -2771,10 +1539,6 @@
                 ]
             },
             {
-                "mainTag": "first vr game unity",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "firstperson",
                 "relatedWords": []
             },
@@ -2785,7 +1549,6 @@
             {
                 "mainTag": "fla",
                 "relatedWords": [
-                    "flame texture",
                     "flash"
                 ]
             },
@@ -2819,8 +1582,6 @@
                     "fog volume 3",
                     "fogvolume3",
                     "global fog",
-                    "hdrp fog",
-                    "hdrp volumetric fog",
                     "volumetric fog"
                 ]
             },
@@ -2836,22 +1597,17 @@
                     "ford",
                     "forum",
                     "game performance",
-                    "Geographic Information System (Industry)",
                     "Graphical User Interface (Computing Platform)",
-                    "how to optimize game performance",
                     "make a game for free",
                     "making games for money",
                     "Mobile Game (Video Game Platform)",
                     "mobile performance",
                     "Mobile Phone (Video Game Platform)",
                     "multi platform",
-                    "multiplatform",
                     "Oculus Rift (Video Game Platform)",
                     "PC Game (Video Game Platform)",
                     "performance",
-                    "performance optimisation unity 2020",
                     "performance optimization",
-                    "performance optimization unity",
                     "platform",
                     "platform game",
                     "Platform Game (Game Genre)",
@@ -2860,38 +1616,13 @@
                     "platformer kit",
                     "PlayStation (Video Game Platform)",
                     "PlayStation Vita (Video Game Platform)",
-                    "procedural platformer",
                     "Qualcomm Vuforia",
                     "rect transform",
-                    "Scripting Language (File Format Genre)",
-                    "Serialization (File Format Genre)",
-                    "Shader Forge",
-                    "unity for iphone",
-                    "Unity for Linux desktop",
-                    "unity for mobile",
-                    "unity forums",
-                    "unity hdrp performance",
-                    "unity micro games platformer",
-                    "Unity multiplatform publishing",
-                    "unity performance",
-                    "unity performance tutorial",
-                    "unity performane",
-                    "unity physics forces",
-                    "unity platformer",
-                    "unity platformer tutorial",
-                    "unity platforms",
-                    "Universal Windows Platform",
-                    "Vector Graphics (File Format Genre)",
                     "vuforia",
                     "vurforia",
-                    "Wii U (Video Game Platform)",
                     "Xbox (Video Game Platform)",
                     "Xbox One (Video Game Platform)"
                 ]
-            },
-            {
-                "mainTag": "fpa unity game tutorial",
-                "relatedWords": []
             },
             {
                 "mainTag": "fps",
@@ -2900,47 +1631,10 @@
                     "fps sample",
                     "fps sample game",
                     "fps sample project",
-                    "fps sample unity",
-                    "fps unity",
-                    "fps unity course",
-                    "fps unity games",
-                    "fps unity tutorial",
-                    "make an fps game in unity",
-                    "make an fps game with unity",
-                    "make an fps in unity",
-                    "making fps game in unity",
                     "ufps",
                     "ufps 2",
-                    "ufps tutorial",
-                    "ufps unity",
-                    "ufps unity tutorial",
                     "ultimate fps",
-                    "ultimate fps shooter",
-                    "ultimate fps shooter unity",
-                    "unity 2018 fps sample",
-                    "unity 2019 fps sample",
-                    "unity fps",
-                    "unity fps game",
-                    "unity fps game project",
-                    "unity fps game tutorial",
-                    "unity fps kit",
-                    "unity fps mechanic",
-                    "unity fps microgame",
-                    "unity fps online",
-                    "unity fps sample",
-                    "unity fps sample gameplay",
-                    "unity fps sample tutorial",
-                    "unity fps tutorial",
-                    "unity fps tutorial 2018",
-                    "unity how to fps",
-                    "unity make an fps game",
-                    "unity micro games fps",
-                    "unity online fps",
-                    "unity ufps",
-                    "unity ufps mobile",
-                    "unity ufps tutorial",
-                    "unity ufps ultimate fps",
-                    "unity ultimate fps"
+                    "ultimate fps shooter"
                 ]
             },
             {
@@ -2962,25 +1656,11 @@
             {
                 "mainTag": "free",
                 "relatedWords": [
-                    "Free Unity",
-                    "freelook",
-                    "Free-to-play (Video Game Genre)",
-                    "shader graph unity free",
-                    "unity free",
-                    "unity free course",
-                    "unity free courses",
-                    "unity free game",
-                    "unity free template",
-                    "unity free tutorial",
-                    "unity mobile game free"
+                    "freelook"
                 ]
             },
             {
                 "mainTag": "French Game",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "fresnel shader",
                 "relatedWords": []
             },
             {
@@ -3016,27 +1696,12 @@
                     "houdini fx",
                     "houdini game vfx",
                     "houdini sidefx",
-                    "houdini sidefx tutorial",
                     "sidefx",
                     "sidefx houdini",
-                    "sidefx houdini tutorial",
-                    "unity vfx",
-                    "unity vfx graph",
-                    "unity vfx graph 2019",
-                    "unity vfx graph tutorial",
-                    "unity vfx layer",
-                    "unity vfx timeline",
-                    "unity vfx tutorial",
-                    "unity vfx tutorials",
                     "vfx",
                     "VFX Graph",
-                    "vfx graph in unity",
-                    "vfx graph tutorial",
-                    "vfx graph unity",
-                    "vfx graph unity tutorial",
                     "vfx graphic smoke",
-                    "vfx graphics",
-                    "vfx in unity"
+                    "vfx graphics"
                 ]
             },
             {
@@ -3052,13 +1717,10 @@
                 "relatedWords": [
                     "game changer",
                     "game foundation",
-                    "Game Girl Workshop",
                     "game growth",
                     "game jam",
                     "game jam 2020",
                     "game jam games",
-                    "game jam tips",
-                    "game jam unity",
                     "game jams",
                     "Game Jobs",
                     "game kit",
@@ -3067,21 +1729,14 @@
                     "game menu",
                     "game metrics",
                     "game monetization",
-                    "Game networking",
                     "Game Object",
                     "game over",
                     "Game PR",
-                    "game programming",
-                    "game prototype",
-                    "game prototyping",
                     "game revenue",
-                    "game simulation",
                     "game stack",
                     "game studio",
                     "game system",
                     "game testing",
-                    "game view",
-                    "game vignettes",
                     "gamedraw",
                     "gamekit",
                     "gamemanager",
@@ -3091,8 +1746,6 @@
                     "Games",
                     "games as service",
                     "games graphics",
-                    "games made with unity",
-                    "games with Unity",
                     "gamescom",
                     "gamescom 2017",
                     "Gamevil",
@@ -3101,29 +1754,6 @@
                     "grow your game",
                     "HELP: The Game",
                     "houdini games",
-                    "how to create a successful game",
-                    "how to get money making games",
-                    "how to grow your game",
-                    "how to launch a game",
-                    "how to make a game",
-                    "how to make a game in unity",
-                    "how to make a game menu",
-                    "how to make a game unity",
-                    "how to make a game with unity",
-                    "how to make a video game",
-                    "how to make game",
-                    "how to make game in unity",
-                    "how to make games",
-                    "how to make games in 2019",
-                    "how to make games in unity",
-                    "how to make games with unity",
-                    "how to make vr game unity",
-                    "how to monetize unity games",
-                    "how to monetize your game",
-                    "how to operate a game",
-                    "indie game",
-                    "Indie Game (Business Operation)",
-                    "indie games",
                     "in-game monetization",
                     "innogames",
                     "Instant Games",
@@ -3131,169 +1761,59 @@
                     "launching a game",
                     "lego games",
                     "LEGO Microgame",
-                    "Madfinger Games",
                     "make a game",
-                    "make a game in unity",
-                    "make a game unity",
-                    "make a game with unity",
-                    "make game in unity",
-                    "make game tutorial",
-                    "make games in unity",
-                    "make games with unity",
                     "make mobile game",
                     "make nintendo switch games",
                     "make rpg game",
                     "make video game",
                     "make video games",
-                    "make vr game unity",
                     "making a game",
                     "making a game in uniity",
-                    "making a game in unity",
-                    "Making a game with unity",
                     "making game level",
-                    "making game with unity",
-                    "making games in unity",
-                    "making games with unity",
-                    "making mobile game in unity",
-                    "making mobile games in unity",
-                    "Massively Multiplayer Online Game (Media Genre)",
                     "Mercs (Video Game)",
                     "messenger games",
                     "Microgame",
                     "missing game revenue",
                     "mobile action game",
-                    "Mobile Game (Industry)",
                     "mobile game course",
-                    "mobile game tutorial",
                     "mobile games",
                     "money games",
                     "Monument Valley (Video Game)",
-                    "Multiplayer Game",
-                    "multiplayer games",
-                    "Multiplayer Video Game (Website Category)",
                     "Musical Games",
-                    "networking games",
                     "new upcoming games",
                     "Nordic Game",
                     "nour game",
-                    "nour game unity",
                     "nour the game",
-                    "Online Game (Website Category)",
-                    "PC Game (Industry)",
-                    "Physics in Games",
                     "Pipeline (Video Game)",
                     "Polishing your game",
-                    "Prototype (Video Game)",
                     "quiz game",
                     "Race The Sun (Video Game)",
                     "racing game",
                     "République (Video Game)",
                     "Roguelike (Video Game Genre)",
                     "role playing game",
-                    "Role-playing Game (Industry)",
-                    "Role-playing Video Game (Media Genre)",
                     "sample game",
                     "Serious Game (Game Genre)",
-                    "simple vr game unity",
-                    "Simulation Video Game (Video Game Genre)",
                     "Social Games",
-                    "Social Network Game (Industry)",
                     "Space Ape Games",
                     "Strategy Game (Game Genre)",
                     "Strategy Video Game (Video Game Genre)",
                     "switch games",
                     "Syndicate (Video Game)",
-                    "text game",
-                    "third person game",
-                    "tj game",
                     "ufo game",
                     "ui game",
-                    "unity 2018 games",
-                    "unity 2018 mobile game",
-                    "unity 2019.1 game",
-                    "unity 2020 game",
-                    "unity game",
-                    "unity game interview",
-                    "unity game jam",
-                    "unity game jam 2018",
-                    "unity game jam 2019",
-                    "unity game kit",
-                    "unity game making",
-                    "unity game mechanic",
-                    "unity game mechanics",
-                    "unity game skins",
-                    "unity game store",
-                    "unity game stores",
-                    "unity game tutorial",
-                    "unity game ui",
-                    "unity gameplay",
-                    "unity games",
-                    "unity games tutorial",
-                    "unity games ui",
-                    "unity global game jam",
-                    "unity hdrp game",
-                    "unity how to make a mobile game",
-                    "unity how to make games",
-                    "unity how to publish your game",
-                    "unity indie game",
-                    "unity lego microgame",
-                    "unity make a game",
-                    "unity make a mobile game",
-                    "unity make game",
-                    "unity make games",
-                    "unity making a game",
-                    "unity making an isometric game",
-                    "unity making games",
-                    "unity making mobile games",
-                    "unity micro game",
-                    "unity micro games",
-                    "unity microgame",
-                    "unity microgames",
-                    "unity mobile game",
-                    "unity mobile game interview",
-                    "unity mobile game tutorial",
-                    "unity monetize games",
-                    "unity new game",
-                    "unity new games",
-                    "unity new games 2018",
-                    "unity open game",
-                    "unity optimize game",
-                    "unity optimize games",
-                    "unity optimize your games",
-                    "unity optimizing games",
-                    "unity phone game",
-                    "unity physics game",
-                    "unity pixel game",
-                    "unity prototype game",
-                    "unity publish your game",
-                    "unity publishing games",
-                    "unity rpg game",
-                    "unity rpg game tutorial",
-                    "unity sample game",
-                    "unity top down game",
-                    "unity trash dash game",
-                    "unity ui game",
-                    "unity update game",
-                    "unity uploading games",
                     "vertigo games",
                     "video game",
-                    "Video Game (Industry)",
                     "Video Game Culture",
-                    "video game how to",
-                    "video game tutorial",
                     "video games",
                     "videogame",
-                    "videogames",
-                    "vignettes game",
-                    "vignettes gameplay",
-                    "vr game"
+                    "videogames"
                 ]
             },
             {
                 "mainTag": "Gaming",
                 "relatedWords": [
-                    "mobile gaming",
-                    "multiplayer gaming"
+                    "mobile gaming"
                 ]
             },
             {
@@ -3306,8 +1826,7 @@
                     "GDC 2016",
                     "gdc 2019",
                     "GDC14",
-                    "GDC17",
-                    "unity at gdc"
+                    "GDC17"
                 ]
             },
             {
@@ -3317,8 +1836,7 @@
             {
                 "mainTag": "generation",
                 "relatedWords": [
-                    "level generation",
-                    "procedural generation"
+                    "level generation"
                 ]
             },
             {
@@ -3330,24 +1848,12 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "Geometry (Field Of Study)",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "Gestures",
-                "relatedWords": [
-                    "Touch Gestures"
-                ]
-            },
-            {
-                "mainTag": "get better at unity",
                 "relatedWords": []
             },
             {
                 "mainTag": "ggj",
-                "relatedWords": [
-                    "unity ggj"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "ghostbusters",
@@ -3368,12 +1874,7 @@
                     "Qualcomm Technologies",
                     "realtime GI",
                     "rigging",
-                    "Rigidbody",
-                    "unity beginnners",
-                    "unity gi",
-                    "unity rigidbody",
-                    "Unity Technologies",
-                    "Unity Technologies Japan"
+                    "Rigidbody"
                 ]
             },
             {
@@ -3382,9 +1883,7 @@
             },
             {
                 "mainTag": "global illumination",
-                "relatedWords": [
-                    "unity global illumination"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "Glyph Quest",
@@ -3395,15 +1894,7 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "goldstone",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "GoNNER",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "good lighting in unity",
                 "relatedWords": []
             },
             {
@@ -3419,69 +1910,14 @@
             {
                 "mainTag": "graph",
                 "relatedWords": [
-                    "Graph Network",
                     "graphic",
                     "graphics",
-                    "Graphics (Field Of Study)",
-                    "graphics unity",
-                    "how to use unity shader graph",
                     "orthographic",
-                    "scalable vector graphics",
-                    "shader graph",
-                    "shader graph 2018",
-                    "Shader graph tutorial",
-                    "shader graph unity",
-                    "shader graph unity 2019",
-                    "shadergraph",
-                    "shadergraph tutorial",
                     "Siggraph",
                     "Siggraph 2017",
                     "Siggraph2017",
-                    "Sigraph 2017",
-                    "unity 2018 graphics",
-                    "unity 2019 graphics",
-                    "unity 2019 shader graph",
-                    "unity 2019.1 graphics",
-                    "unity 2019.3 graphics",
-                    "unity 2019.3 shader graph",
-                    "unity 2020 shader graph",
-                    "unity graph",
-                    "unity graphic",
-                    "unity graphics",
-                    "Unity graphics 2019.3",
-                    "Unity graphics 2020",
-                    "Unity graphics tutorial",
-                    "unity great graphics",
-                    "unity hdrp graphics",
-                    "unity hdrp shader graph",
-                    "unity high graphics",
-                    "unity high quality graphics",
-                    "unity improve graphics",
-                    "unity real graphics",
-                    "unity realistic graphics",
-                    "unity shader graph",
-                    "unity shader graph 2019",
-                    "unity shader graph displacement",
-                    "unity shader graph outline",
-                    "unity shader graph toon",
-                    "unity shader graph tutorial",
-                    "unity shader graph tutorial 2019",
-                    "unity shader graph tutorials",
-                    "unity shader graph urp",
-                    "unity shader graph vertex",
-                    "unity shader graph water",
-                    "unity shadergraph",
-                    "unity vector graphics",
-                    "unity vertex shader graph",
-                    "unity water shader graph",
-                    "vector graphics",
-                    "water in shadergraph",
-                    "water shader graph"
+                    "Sigraph 2017"
                 ]
-            },
-            {
-                "mainTag": "grenade",
-                "relatedWords": []
             },
             {
                 "mainTag": "greybox",
@@ -3489,16 +1925,6 @@
             },
             {
                 "mainTag": "grid",
-                "relatedWords": [
-                    "hex grid unity",
-                    "unity hex grid",
-                    "unity hex grid movement",
-                    "unity hex grid tutorial",
-                    "unity snap to grid"
-                ]
-            },
-            {
-                "mainTag": "Grimworks",
                 "relatedWords": []
             },
             {
@@ -3506,7 +1932,6 @@
                 "relatedWords": [
                     "layout group",
                     "sorting group",
-                    "unity online user group",
                     "user group"
                 ]
             },
@@ -3519,8 +1944,7 @@
                 "relatedWords": [
                     "guide",
                     "new gui",
-                    "uGUI",
-                    "unity guide"
+                    "uGUI"
                 ]
             },
             {
@@ -3531,9 +1955,7 @@
             },
             {
                 "mainTag": "hack",
-                "relatedWords": [
-                    "Hack Week"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "hash",
@@ -3545,57 +1967,10 @@
             },
             {
                 "mainTag": "havok",
-                "relatedWords": [
-                    "havok physics"
-                ]
-            },
-            {
-                "mainTag": "hd",
-                "relatedWords": [
-                    "HDRP",
-                    "hdrp 2019.3",
-                    "hdrp depth of field",
-                    "hdrp in unity",
-                    "hdrp light shaft",
-                    "hdrp passes",
-                    "hdrp post",
-                    "hdrp post processing",
-                    "hdrp tutorial",
-                    "hdrp tutorial in unity",
-                    "hdrp tutorial unity",
-                    "hdrp unity",
-                    "hdrp volume profile",
-                    "hdrp volumes",
-                    "hdrp volumetric lights",
-                    "unity 2018 hdrp",
-                    "unity 2019.3 hdrp",
-                    "unity 2020 hdrp",
-                    "unity hdrp",
-                    "unity hdrp 2018",
-                    "unity hdrp 2019.3",
-                    "unity hdrp fast",
-                    "unity hdrp glass",
-                    "unity hdrp light",
-                    "unity hdrp lighting",
-                    "unity hdrp materials",
-                    "unity hdrp project",
-                    "Unity hdrp shadows",
-                    "unity hdrp speed",
-                    "unity hdrp tutorial",
-                    "unity hdrp tutorial 2020",
-                    "unity hdrp tutorial material",
-                    "Unity hdrp tutorials",
-                    "unity hdrp volume",
-                    "unity hdrp volumetric",
-                    "unity tutorial hdrp"
-                ]
-            },
-            {
-                "mainTag": "head's up display",
                 "relatedWords": []
             },
             {
-                "mainTag": "Head-up Display",
+                "mainTag": "hd",
                 "relatedWords": []
             },
             {
@@ -3615,11 +1990,7 @@
             {
                 "mainTag": "heretic",
                 "relatedWords": [
-                    "the heretic",
-                    "the heretic unity",
-                    "unity 2019.3 heretic",
-                    "unity heretic",
-                    "unity the heretic"
+                    "the heretic"
                 ]
             },
             {
@@ -3631,19 +2002,8 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "high definition render",
-                "relatedWords": [
-                    "high definition render pipeline",
-                    "High definition render pipeline unity",
-                    "unity high definition render pipeline"
-                ]
-            },
-            {
                 "mainTag": "high quality",
-                "relatedWords": [
-                    "unity high quality",
-                    "unity high quality lighting"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "high score",
@@ -3672,28 +2032,14 @@
                 ]
             },
             {
-                "mainTag": "Homeworld: Shipbreakers",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "horror",
                 "relatedWords": []
             },
             {
                 "mainTag": "houdini",
                 "relatedWords": [
-                    "houdini and unity",
-                    "houdini and unity 2018",
-                    "houdini and unity tutorial",
                     "houdini pyro",
-                    "houdini to unity",
-                    "houdini tutorial",
-                    "houdini unity",
-                    "houdini unity support",
-                    "houdinin showreel",
-                    "unity houdini",
-                    "unity houdini support",
-                    "unity houdini tutorial"
+                    "houdinin showreel"
                 ]
             },
             {
@@ -3705,33 +2051,8 @@
             {
                 "mainTag": "how",
                 "relatedWords": [
-                    "how to",
-                    "how to raycast",
-                    "how to unity",
-                    "how to use nested prefabs",
-                    "how to use unity",
-                    "how to wall run unity",
-                    "how to water unity",
-                    "howto",
-                    "How-to (Media Genre)",
-                    "How-to (Media-Genre)",
-                    "How-to (Website Category)",
-                    "showreel",
-                    "unity 2019.1 showcase",
-                    "unity how to",
-                    "unity how to animate",
-                    "unity how to level",
-                    "unity how to make a level",
-                    "unity how to make ui",
-                    "unity how to make water",
-                    "unity how to monetize",
-                    "unity how to optimize",
-                    "unity howto"
+                    "showreel"
                 ]
-            },
-            {
-                "mainTag": "htc vive",
-                "relatedWords": []
             },
             {
                 "mainTag": "html",
@@ -3754,14 +2075,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "hyper casual unity",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "I Expect You to Die",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "Ian Deane",
                 "relatedWords": []
             },
@@ -3774,10 +2087,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "icon pack unity",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "IDE",
                 "relatedWords": [
                     "Inside",
@@ -3786,46 +2095,27 @@
                     "native video playback",
                     "oculus video",
                     "override",
-                    "play back video in unity",
                     "side scroller",
                     "slider",
                     "The Outsiders",
-                    "unity 2018.3 release video",
-                    "unity ide",
-                    "unity override",
-                    "unity rider",
-                    "unity video capture",
-                    "unity video player",
-                    "unity video tutorial",
                     "video",
                     "video chat",
                     "video clip",
-                    "video in unity",
-                    "video in vr",
                     "video playback",
                     "video player",
-                    "video tutorial",
                     "videoclip",
-                    "videoplayer",
-                    "vive video",
-                    "vr video"
+                    "videoplayer"
                 ]
             },
             {
                 "mainTag": "IK",
                 "relatedWords": [
                     "mike geig",
-                    "roguelike",
-                    "unity ik",
-                    "unity viking village"
+                    "roguelike"
                 ]
             },
             {
                 "mainTag": "IL2CPP",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "illustrator",
                 "relatedWords": []
             },
             {
@@ -3846,39 +2136,18 @@
                 "mainTag": "import",
                 "relatedWords": [
                     "importing",
-                    "stingray import",
-                    "unity importer",
-                    "unity svg importer"
+                    "stingray import"
                 ]
             },
             {
                 "mainTag": "improved",
                 "relatedWords": [
-                    "improved prefab workflows",
-                    "improved prefabs",
-                    "unity improved prefab workflows"
-                ]
-            },
-            {
-                "mainTag": "improving visuals in unity",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "indie",
-                "relatedWords": [
-                    "switch indie",
-                    "unity indie"
+                    "improved prefabs"
                 ]
             },
             {
                 "mainTag": "industry",
-                "relatedWords": [
-                    "Interactive Media (Industry)",
-                    "Publishing (Industry)",
-                    "Quality Assurance (Industry)",
-                    "Technology (Industry)",
-                    "Tutorial (Industry)"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "infinite",
@@ -3891,7 +2160,6 @@
             {
                 "mainTag": "Ink",
                 "relatedWords": [
-                    "iNK Stories",
                     "Inkle Studios",
                     "navmeshlink"
                 ]
@@ -3900,13 +2168,8 @@
                 "mainTag": "input",
                 "relatedWords": [
                     "input field",
-                    "Player Input",
-                    "Player Input Unity"
+                    "Player Input"
                 ]
-            },
-            {
-                "mainTag": "inspector",
-                "relatedWords": []
             },
             {
                 "mainTag": "installations",
@@ -3926,77 +2189,40 @@
             },
             {
                 "mainTag": "Intel",
-                "relatedWords": [
-                    "Intel Corporation (Business Operation)"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "interactive",
                 "relatedWords": [
-                    "interactive chat livestreaming",
                     "interactive lab",
                     "interactive livestream",
                     "interactive stream",
-                    "interactive vr",
                     "NFusion Interactive",
-                    "unity interactive",
-                    "unity interactive livestream",
-                    "unity interactive stream",
                     "voxel busters interactive"
                 ]
             },
             {
-                "mainTag": "Interactivity (Field Of Study)",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "interface",
                 "relatedWords": [
-                    "unity user interface",
-                    "user interface",
-                    "User Interface (Ontology Instance)",
-                    "User Interface (Speech Topic)",
-                    "user interface unity"
+                    "user interface"
                 ]
             },
             {
                 "mainTag": "Intermediate",
-                "relatedWords": [
-                    "unity intermediate"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "interpolate",
                 "relatedWords": []
             },
             {
-                "mainTag": "interview",
-                "relatedWords": [
-                    "Interviews",
-                    "unity 2018 interview",
-                    "unity interview",
-                    "unity interview questions",
-                    "unity interviews"
-                ]
-            },
-            {
                 "mainTag": "Intro",
                 "relatedWords": [
-                    "intro to unity",
                     "introduction",
                     "Introductuction",
                     "ml agents intro",
-                    "ml agents introduction",
-                    "unity introduction"
+                    "ml agents introduction"
                 ]
-            },
-            {
-                "mainTag": "invector",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "inventory",
-                "relatedWords": []
             },
             {
                 "mainTag": "inverse kinematics",
@@ -4018,23 +2244,16 @@
                 "mainTag": "ios",
                 "relatedWords": [
                     "NVYVE Studios",
-                    "Oats Studios",
-                    "unity ios",
-                    "unity ios notifications",
-                    "unity ios tutorial"
+                    "Oats Studios"
                 ]
             },
             {
                 "mainTag": "Iphone",
-                "relatedWords": [
-                    "unity iphone"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "Ipod",
-                "relatedWords": [
-                    "Ipod Touch"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "isometic",
@@ -4042,14 +2261,7 @@
             },
             {
                 "mainTag": "isometric",
-                "relatedWords": [
-                    "unity isometric",
-                    "unity isometric tilemap",
-                    "unity isometric tilemap system",
-                    "unity isometric tilemaps",
-                    "unity isometric tiles",
-                    "unity isometrics"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "iterate",
@@ -4065,10 +2277,6 @@
             },
             {
                 "mainTag": "Jake Sawyer",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "javascript",
                 "relatedWords": []
             },
             {
@@ -4089,9 +2297,7 @@
             },
             {
                 "mainTag": "jobs",
-                "relatedWords": [
-                    "unity jobs"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "john riccitiello",
@@ -4110,10 +2316,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "justin.tv",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "keeping score",
                 "relatedWords": []
             },
@@ -4123,11 +2325,7 @@
                     "keyframes",
                     "keyframing",
                     "keynote",
-                    "Keynote (Type Of Public Presentation)",
-                    "Unite 2016 keynote",
-                    "unite keynote",
-                    "unity keynote",
-                    "unity timeline keys"
+                    "Keynote (Type Of Public Presentation)"
                 ]
             },
             {
@@ -4136,12 +2334,6 @@
             },
             {
                 "mainTag": "kit",
-                "relatedWords": [
-                    "VR Toolkit"
-                ]
-            },
-            {
-                "mainTag": "kleptocats",
                 "relatedWords": []
             },
             {
@@ -4161,8 +2353,7 @@
                 "relatedWords": [
                     "Niantic Labs",
                     "Owlchemy Labs",
-                    "the labs",
-                    "unity labs"
+                    "the labs"
                 ]
             },
             {
@@ -4187,21 +2378,16 @@
             },
             {
                 "mainTag": "launch",
-                "relatedWords": [
-                    "unity launcher"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "layer",
                 "relatedWords": [
                     "Layers",
-                    "multiplayer",
                     "player",
                     "playerprefs",
                     "sorting layer",
-                    "Sorting Layers",
-                    "unity layer",
-                    "unity multiplayer"
+                    "Sorting Layers"
                 ]
             },
             {
@@ -4224,8 +2410,7 @@
                 "mainTag": "LEGO",
                 "relatedWords": [
                     "Lego Minifigures",
-                    "Lego unboxing",
-                    "unity x lego"
+                    "Lego unboxing"
                 ]
             },
             {
@@ -4237,27 +2422,17 @@
             },
             {
                 "mainTag": "lesson",
-                "relatedWords": [
-                    "unity lesson"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "level",
                 "relatedWords": [
                     "random level",
-                    "Randomize Level",
-                    "unity create level",
-                    "unity creating level",
-                    "unity making level",
-                    "unity test level"
+                    "Randomize Level"
                 ]
             },
             {
                 "mainTag": "Lexus",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "lifetime value",
                 "relatedWords": []
             },
             {
@@ -4270,31 +2445,10 @@
                     "light weight pipeline",
                     "lightfield",
                     "Lighthaus Inc",
-                    "lighting",
-                    "lighting in unity",
-                    "lighting unity 2020.1",
                     "lightmaps",
                     "lights",
-                    "lightweight render pipeline",
-                    "lightweight srp",
-                    "pixel perfect lights in unity",
-                    "realistic lighting",
-                    "realistic lighting in unity",
-                    "realtime lighting",
                     "rim light",
                     "uity lightweight",
-                    "unity env light",
-                    "unity light theme",
-                    "unity lighting tutorial",
-                    "unity lightweight",
-                    "unity lightweight render",
-                    "unity lightweight render pipeline",
-                    "unity real time light",
-                    "unity real time lighting",
-                    "unity vol lighting",
-                    "unity volumetric light",
-                    "unity volumetric lighting",
-                    "unity volumetric lights",
                     "ZeroLight"
                 ]
             },
@@ -4307,14 +2461,8 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "Linerenderer",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "lines",
-                "relatedWords": [
-                    "unity splines"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "linux",
@@ -4324,38 +2472,21 @@
                 "mainTag": "list",
                 "relatedWords": [
                     "listener",
-                    "photorealistic",
                     "realistic",
-                    "scroll list",
-                    "unity realistic",
-                    "unity realistic visuals",
-                    "unity realistic water"
+                    "scroll list"
                 ]
             },
             {
                 "mainTag": "Literature",
-                "relatedWords": [
-                    "Storytelling (Literature Subject)"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "live",
                 "relatedWords": [
-                    "Live Action (TV Genre)",
                     "live session",
                     "Live-Ops",
-                    "sykoo live",
-                    "unity live",
-                    "unity liveries",
-                    "unity livestream",
-                    "unity livestream sykoo",
-                    "unity livestreaming",
-                    "unity livestreaming tutorial"
+                    "sykoo live"
                 ]
-            },
-            {
-                "mainTag": "load",
-                "relatedWords": []
             },
             {
                 "mainTag": "localization",
@@ -4386,27 +2517,9 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "LTV",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "lwrp",
-                "relatedWords": [
-                    "unity lwrp",
-                    "unity lwrp tutorial"
-                ]
-            },
-            {
                 "mainTag": "mac",
                 "relatedWords": [
                     "state machine"
-                ]
-            },
-            {
-                "mainTag": "made",
-                "relatedWords": [
-                    "made with unity",
-                    "MadeWithUnity"
                 ]
             },
             {
@@ -4414,36 +2527,22 @@
                 "relatedWords": [
                     "make a gae",
                     "play maker",
-                    "playmaker",
-                    "unity make an rpg",
-                    "unity make mobile",
-                    "unity make shaders"
+                    "playmaker"
                 ]
             },
             {
                 "mainTag": "making",
-                "relatedWords": [
-                    "making shaders with unity",
-                    "unity making a toon shader"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "Management",
-                "relatedWords": [
-                    "Project Management (Professional Field)"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "manager",
                 "relatedWords": [
-                    "package manager",
-                    "package manager unity",
-                    "Unity Package Manager"
+                    "package manager"
                 ]
-            },
-            {
-                "mainTag": "manipulating gravity in unity",
-                "relatedWords": []
             },
             {
                 "mainTag": "Mantle",
@@ -4459,25 +2558,13 @@
                     "mapbox",
                     "maps",
                     "mini map",
-                    "minimap",
-                    "road map",
-                    "Technology Roadmap",
-                    "tile map",
-                    "tilemap",
-                    "tilemap unity",
-                    "unity 2020 roadmap",
-                    "unity roadmap",
-                    "unity tilemap",
-                    "unity tilemaps"
+                    "minimap"
                 ]
             },
             {
                 "mainTag": "mask",
                 "relatedWords": [
-                    "masking",
-                    "unity mask",
-                    "unity mask in urp",
-                    "unity masking in urp"
+                    "masking"
                 ]
             },
             {
@@ -4492,14 +2579,8 @@
                 "mainTag": "material",
                 "relatedWords": [
                     "materials",
-                    "Physic Material",
-                    "Physics Material",
-                    "unity material tutorial"
+                    "Physic Material"
                 ]
-            },
-            {
-                "mainTag": "Mathematics (Field Of Study)",
-                "relatedWords": []
             },
             {
                 "mainTag": "maya",
@@ -4515,9 +2596,7 @@
             },
             {
                 "mainTag": "Megacity",
-                "relatedWords": [
-                    "unity megacity"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "megalith",
@@ -4529,12 +2608,7 @@
             },
             {
                 "mainTag": "memory profiler",
-                "relatedWords": [
-                    "unity memory profiler",
-                    "unity memory profiler 2018",
-                    "unity memory profiler 2019",
-                    "unity memory profiler tutorial"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "menu",
@@ -4547,16 +2621,13 @@
                 "relatedWords": [
                     "mesh baker",
                     "mesh filter",
-                    "mesh renderer",
                     "Mesh Sculpting",
                     "mesh shape",
                     "meshes",
                     "nav mesh",
                     "navmesh",
                     "navmeshagent",
-                    "navmeshsurface",
-                    "runtime navmesh",
-                    "textmesh pro"
+                    "navmeshsurface"
                 ]
             },
             {
@@ -4576,12 +2647,7 @@
             },
             {
                 "mainTag": "Microsoft",
-                "relatedWords": [
-                    "Microsoft Envisioning Center",
-                    "Microsoft Visual Studio",
-                    "Microsoft Windows (Operating System)",
-                    "unity microsoft"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "Mini Metro",
@@ -4593,9 +2659,7 @@
             },
             {
                 "mainTag": "mix and jam",
-                "relatedWords": [
-                    "unity mix and jam"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "Mixamo",
@@ -4618,17 +2682,12 @@
                 "relatedWords": [
                     "ml agents",
                     "ml agents setup",
-                    "ml agents tutorial",
-                    "ml-agents",
-                    "unity ml",
-                    "unity ml agents"
+                    "ml-agents"
                 ]
             },
             {
                 "mainTag": "mmo",
-                "relatedWords": [
-                    "Unity MMO"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "moba",
@@ -4637,41 +2696,23 @@
             {
                 "mainTag": "Mobile",
                 "relatedWords": [
-                    "Mobile shooter",
-                    "mobile VR",
-                    "unity 2018 mobile",
-                    "unity mobile",
-                    "unity mobile course",
-                    "unity mobile notification",
-                    "unity mobile notifications",
-                    "unity mobile tutorial",
-                    "unity mobile tutorials",
-                    "unity ship to mobile"
+                    "Mobile shooter"
                 ]
             },
             {
                 "mainTag": "Modal",
                 "relatedWords": [
-                    "Modal Panel",
-                    "Modal Window"
+                    "Modal Panel"
                 ]
             },
             {
                 "mainTag": "mode",
                 "relatedWords": [
-                    "Model View ViewModel",
                     "Modeling",
                     "Modern Dream",
                     "play mode",
                     "prefab mode",
-                    "prefab mode 2018",
-                    "prefab mode in unity",
-                    "prefab mode tutorial",
-                    "prefab mode unity",
-                    "render mode",
-                    "Shading models",
-                    "unity 2018 prefab mode",
-                    "unity prefab mode"
+                    "prefab mode 2018"
                 ]
             },
             {
@@ -4688,9 +2729,7 @@
             },
             {
                 "mainTag": "monetize",
-                "relatedWords": [
-                    "unity monetize"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "monetizing",
@@ -4705,31 +2744,20 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "mosh pit simulator",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "motion",
                 "relatedWords": [
-                    "motion tracking",
                     "root motion",
-                    "slow motion",
-                    "slow motion in unity",
-                    "Stop Motion",
-                    "unity slow motion"
+                    "slow motion"
                 ]
             },
             {
                 "mainTag": "move",
-                "relatedWords": [
-                    "unity movement"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "movie",
                 "relatedWords": [
-                    "movies",
-                    "unity movie"
+                    "movies"
                 ]
             },
             {
@@ -4749,18 +2777,6 @@
             },
             {
                 "mainTag": "multi sku",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "multithreading",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "multi-threading",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Multi-touch",
                 "relatedWords": []
             },
             {
@@ -4798,23 +2814,15 @@
             {
                 "mainTag": "nav",
                 "relatedWords": [
-                    "navigation",
-                    "navigation tutorial",
-                    "procedural navigation"
+                    "navigation"
                 ]
             },
             {
                 "mainTag": "NBC",
-                "relatedWords": [
-                    "nbc Universal"
-                ]
-            },
-            {
-                "mainTag": "N-Dream",
                 "relatedWords": []
             },
             {
-                "mainTag": "need to know",
+                "mainTag": "N-Dream",
                 "relatedWords": []
             },
             {
@@ -4828,45 +2836,15 @@
             {
                 "mainTag": "nested",
                 "relatedWords": [
-                    "nested prefab preview",
-                    "nested prefabs",
-                    "unity 2019 nested prefabs",
-                    "unity 2019.2 nested prefabs",
-                    "unity nested prefabs",
-                    "unity nested prefabs 2018",
-                    "unity nested prefabs 2019",
-                    "unity nested prefabs tutorial"
-                ]
-            },
-            {
-                "mainTag": "network",
-                "relatedWords": [
-                    "Networking",
-                    "Unity Networking"
+                    "nested prefabs"
                 ]
             },
             {
                 "mainTag": "new",
                 "relatedWords": [
-                    "new in unity 2019.3",
-                    "New Media (Profession)",
-                    "new prefab workflows",
                     "new prefabs",
                     "new ui",
-                    "New UI Tools",
-                    "newbie",
-                    "unity 2019 new",
-                    "unity 2019.3 new",
-                    "unity 2020 news",
-                    "unity new",
-                    "unity new 2019.3",
-                    "unity new physics",
-                    "unity new tutorial",
-                    "unity new tutorials",
-                    "unity new ui",
-                    "unity news",
-                    "unity timeline new",
-                    "unity trash dash new"
+                    "newbie"
                 ]
             },
             {
@@ -4898,10 +2876,6 @@
                 ]
             },
             {
-                "mainTag": "non-programmer",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "noob",
                 "relatedWords": []
             },
@@ -4911,12 +2885,7 @@
             },
             {
                 "mainTag": "nordic",
-                "relatedWords": [
-                    "Unite Nordic",
-                    "Unite Nordic 2013",
-                    "Unite Nordic 2103",
-                    "UniteNordic"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "normal",
@@ -4926,9 +2895,7 @@
             },
             {
                 "mainTag": "nour",
-                "relatedWords": [
-                    "unity nour"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "NURBS",
@@ -4951,10 +2918,7 @@
                 "relatedWords": [
                     "object pool",
                     "object pooling",
-                    "objective c",
-                    "scriptable object",
-                    "scriptableobject",
-                    "unity snap object"
+                    "objective c"
                 ]
             },
             {
@@ -4965,50 +2929,30 @@
             },
             {
                 "mainTag": "octane",
-                "relatedWords": [
-                    "octane renderer",
-                    "octanerender"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "octave",
                 "relatedWords": []
             },
             {
-                "mainTag": "Octobo",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "oculus",
                 "relatedWords": [
                     "oculus quest",
-                    "oculus rift",
-                    "unity and oculus"
+                    "oculus rift"
                 ]
-            },
-            {
-                "mainTag": "oddworld soulstorm",
-                "relatedWords": []
             },
             {
                 "mainTag": "Official",
-                "relatedWords": [
-                    "Official Tutorial",
-                    "unity official tutorials"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "online",
-                "relatedWords": [
-                    "unity online",
-                    "unity online jam"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "open source",
-                "relatedWords": [
-                    "unity open source"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "OpenGL (API)",
@@ -5024,16 +2968,6 @@
             },
             {
                 "mainTag": "optimization",
-                "relatedWords": [
-                    "unity 2018 optimization",
-                    "unity optimization",
-                    "unity optimization talks",
-                    "unity optimization tutorial",
-                    "unity optimizations"
-                ]
-            },
-            {
-                "mainTag": "optimizing workflow",
                 "relatedWords": []
             },
             {
@@ -5048,19 +2982,6 @@
                 ]
             },
             {
-                "mainTag": "otoy",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Overview",
-                "relatedWords": [
-                    "technical overview",
-                    "unity overview",
-                    "unity project overview",
-                    "unity ui overview"
-                ]
-            },
-            {
                 "mainTag": "Owlchemy",
                 "relatedWords": []
             },
@@ -5071,9 +2992,7 @@
             {
                 "mainTag": "package",
                 "relatedWords": [
-                    "packages",
-                    "Packages in Unity",
-                    "unity notifications package"
+                    "packages"
                 ]
             },
             {
@@ -5083,10 +3002,7 @@
                     "panel",
                     "panels",
                     "panorama",
-                    "spanish",
-                    "Unity Japan",
-                    "vr panorama",
-                    "vr panorama 360"
+                    "spanish"
                 ]
             },
             {
@@ -5113,9 +3029,7 @@
             },
             {
                 "mainTag": "PBR",
-                "relatedWords": [
-                    "PBR Textures"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "pbs",
@@ -5138,13 +3052,7 @@
             {
                 "mainTag": "perfect",
                 "relatedWords": [
-                    "pixel perfect",
-                    "pixel perfect rendering",
-                    "pixel perfect unity",
-                    "unity 2018 pixel perfect",
-                    "unity 2018.2 pixel perfect",
-                    "unity perfect",
-                    "unity pixel perfect"
+                    "pixel perfect"
                 ]
             },
             {
@@ -5157,74 +3065,11 @@
             },
             {
                 "mainTag": "phone",
-                "relatedWords": [
-                    "unity phone",
-                    "unity ship to phone",
-                    "windows phone",
-                    "Windows Phone (Operating System)"
-                ]
-            },
-            {
-                "mainTag": "photo grammetry",
                 "relatedWords": []
-            },
-            {
-                "mainTag": "Photogrammetry",
-                "relatedWords": [
-                    "unity photogrammetry"
-                ]
-            },
-            {
-                "mainTag": "photometry",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "photon",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "photoreal",
-                "relatedWords": [
-                    "photorealism"
-                ]
-            },
-            {
-                "mainTag": "Photoshop",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "physically based",
-                "relatedWords": [
-                    "Physically Based Rendering",
-                    "Physically Based shading"
-                ]
-            },
-            {
-                "mainTag": "physics",
-                "relatedWords": [
-                    "Physics in unity",
-                    "Physics Playground Unity",
-                    "Physics unity",
-                    "Physics unity tutorial",
-                    "unity 2018.3 physics",
-                    "unity 2019 physics",
-                    "unity 2020 physics",
-                    "unity physics",
-                    "unity physics 2019",
-                    "unity physics 2020",
-                    "unity physics destruction",
-                    "unity physics sandbox",
-                    "unity physics simulation",
-                    "Unity Physics Tutorial",
-                    "unity physics update",
-                    "unity physx. unity physics upgrade"
-                ]
             },
             {
                 "mainTag": "physx",
-                "relatedWords": [
-                    "unity physx update"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "pickup",
@@ -5246,20 +3091,7 @@
             },
             {
                 "mainTag": "pipeline",
-                "relatedWords": [
-                    "render pipeline",
-                    "render pipeline unity",
-                    "scriptable render pipeline",
-                    "unity 2018 scriptable render pipeline",
-                    "unity render pipeline",
-                    "unity scriptable render pipeline",
-                    "unity scriptable render pipeline tutorial",
-                    "unity universal render pipeline",
-                    "unity universal render pipeline tutorial",
-                    "universal render pipeline",
-                    "universal render pipeline tutorial",
-                    "universal render pipeline unity"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "pivot",
@@ -5269,33 +3101,19 @@
                 "mainTag": "pixel",
                 "relatedWords": [
                     "pixel unit",
-                    "pixel unity",
-                    "pixels",
-                    "unity pixel"
+                    "pixels"
                 ]
-            },
-            {
-                "mainTag": "PiXYZ",
-                "relatedWords": []
             },
             {
                 "mainTag": "play",
                 "relatedWords": [
-                    "Playable API",
                     "playables",
                     "playback",
-                    "Playdead",
                     "playground project",
                     "Playstation",
                     "PlayStation 4",
-                    "Playstation VR",
-                    "Playworld",
                     "Pressplay",
-                    "sony playstation",
-                    "unity 2019 playground",
-                    "unity playground",
-                    "unity playground project",
-                    "unity playgrounds"
+                    "sony playstation"
                 ]
             },
             {
@@ -5309,8 +3127,7 @@
             {
                 "mainTag": "plus",
                 "relatedWords": [
-                    "plus pack",
-                    "unity plus"
+                    "plus pack"
                 ]
             },
             {
@@ -5346,8 +3163,7 @@
                     "post processing volume",
                     "postmortem",
                     "post-processing",
-                    "post-processing stack v2",
-                    "Unity Post Processing"
+                    "post-processing stack v2"
                 ]
             },
             {
@@ -5355,21 +3171,10 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "predator",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "prefab",
                 "relatedWords": [
                     "prefab placer",
-                    "prefab unity tutorial",
-                    "prefabs",
-                    "prefabs in unity",
-                    "prefabs in unity 2018",
-                    "unity change prefab",
-                    "unity prefab 2020",
-                    "unity prefab workflow",
-                    "unity prefabs"
+                    "prefabs"
                 ]
             },
             {
@@ -5385,10 +3190,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "preview",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "private",
                 "relatedWords": []
             },
@@ -5401,19 +3202,7 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "procedural",
-                "relatedWords": [
-                    "unity procedural"
-                ]
-            },
-            {
                 "mainTag": "processing",
-                "relatedWords": [
-                    "Signal Processing (Field Of Study)"
-                ]
-            },
-            {
-                "mainTag": "productviz",
                 "relatedWords": []
             },
             {
@@ -5423,69 +3212,18 @@
                 ]
             },
             {
-                "mainTag": "profiling",
-                "relatedWords": [
-                    "profiling tools"
-                ]
-            },
-            {
-                "mainTag": "Programmer",
-                "relatedWords": [
-                    "programmer tools unity"
-                ]
-            },
-            {
-                "mainTag": "programming",
-                "relatedWords": [
-                    "Programming in Unity",
-                    "Programming Shaders",
-                    "Programming Tool",
-                    "programming unity",
-                    "Shader Programming",
-                    "unity programming",
-                    "visual programming"
-                ]
-            },
-            {
                 "mainTag": "progressive",
                 "relatedWords": []
             },
             {
                 "mainTag": "project",
                 "relatedWords": [
-                    "Project Set up Unity",
-                    "project tango",
-                    "project tiny",
-                    "Project Wight",
-                    "projectile",
-                    "unity example project",
-                    "unity lost crypt project",
-                    "unity project"
+                    "Project Wight"
                 ]
             },
             {
                 "mainTag": "property",
-                "relatedWords": [
-                    "property drawer unity"
-                ]
-            },
-            {
-                "mainTag": "protospace",
                 "relatedWords": []
-            },
-            {
-                "mainTag": "prototype",
-                "relatedWords": [
-                    "prototype series",
-                    "unity prototype",
-                    "unity prototype series"
-                ]
-            },
-            {
-                "mainTag": "prototyping",
-                "relatedWords": [
-                    "prototyping unity"
-                ]
             },
             {
                 "mainTag": "Proxi",
@@ -5502,10 +3240,6 @@
                 ]
             },
             {
-                "mainTag": "PSVR",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "psyop",
                 "relatedWords": []
             },
@@ -5518,13 +3252,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "publish",
-                "relatedWords": [
-                    "publishing",
-                    "self-publishing"
-                ]
-            },
-            {
                 "mainTag": "pyroclastic",
                 "relatedWords": []
             },
@@ -5534,12 +3261,6 @@
             },
             {
                 "mainTag": "QA",
-                "relatedWords": [
-                    "Unity QA"
-                ]
-            },
-            {
-                "mainTag": "Qualcomm (Business Operation)",
                 "relatedWords": []
             },
             {
@@ -5560,21 +3281,10 @@
             },
             {
                 "mainTag": "racing",
-                "relatedWords": [
-                    "ray tracing",
-                    "ray-tracing"
-                ]
-            },
-            {
-                "mainTag": "radial",
                 "relatedWords": []
             },
             {
                 "mainTag": "ragdoll",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "random tile",
                 "relatedWords": []
             },
             {
@@ -5594,35 +3304,22 @@
                 ]
             },
             {
-                "mainTag": "reading",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "real time",
                 "relatedWords": [
-                    "Real Time Rendering",
                     "Real Time Strategy"
                 ]
             },
             {
                 "mainTag": "reality",
-                "relatedWords": [
-                    "virtual reality",
-                    "Virtual Reality (Media Genre)",
-                    "Virtual Reality (Type Of Fictional Setting)"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "realtime",
-                "relatedWords": [
-                    "unity realtime render"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "real-time",
-                "relatedWords": [
-                    "Real-time Strategy (Media Genre)"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "Rec Room",
@@ -5656,24 +3353,8 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "reflection",
-                "relatedWords": [
-                    "reflection probe",
-                    "reflections and refractions in unity",
-                    "screen space raytraced reflections",
-                    "screen space reflections",
-                    "unity reflection tutorial",
-                    "unity reflections",
-                    "unity reflections and refractions",
-                    "unity reflections tutorial",
-                    "unity tutorial reflection"
-                ]
-            },
-            {
                 "mainTag": "refraction",
-                "relatedWords": [
-                    "unity refractions"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "reimer",
@@ -5681,31 +3362,7 @@
             },
             {
                 "mainTag": "release",
-                "relatedWords": [
-                    "unity 2019.1 release date",
-                    "unity 2019.1 released",
-                    "unity 2019.3 release",
-                    "unity 2020 release",
-                    "unity 2020.1 release",
-                    "unity 2020.1 released",
-                    "unity released"
-                ]
-            },
-            {
-                "mainTag": "render",
-                "relatedWords": [
-                    "render texture",
-                    "Renderer",
-                    "Rendering",
-                    "rendering in unity",
-                    "rendertexture",
-                    "unity quad rendering",
-                    "unity rendering",
-                    "unity scriptable render pipe",
-                    "unity universal render",
-                    "universal render",
-                    "Visual Rendering"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "Resolution Independence",
@@ -5741,9 +3398,7 @@
             },
             {
                 "mainTag": "robot",
-                "relatedWords": [
-                    "unity robot"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "rocket",
@@ -5771,29 +3426,11 @@
             },
             {
                 "mainTag": "rpg",
-                "relatedWords": [
-                    "unity rpg tutorial"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "rts",
-                "relatedWords": [
-                    "unity tteleports"
-                ]
-            },
-            {
-                "mainTag": "rubys adventure unity",
                 "relatedWords": []
-            },
-            {
-                "mainTag": "rule tile",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "runtime",
-                "relatedWords": [
-                    "Small Runtime"
-                ]
             },
             {
                 "mainTag": "Rust LTD",
@@ -5809,21 +3446,15 @@
             },
             {
                 "mainTag": "sample",
-                "relatedWords": [
-                    "unity sample"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "samsung",
-                "relatedWords": [
-                    "Samsung VR",
-                    "unity samsung"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "sandbox",
                 "relatedWords": [
-                    "unity sandbox",
                     "Universe Sandbox"
                 ]
             },
@@ -5833,9 +3464,7 @@
             },
             {
                 "mainTag": "save",
-                "relatedWords": [
-                    "unity save"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "scale",
@@ -5847,9 +3476,7 @@
             },
             {
                 "mainTag": "scene",
-                "relatedWords": [
-                    "unity teleport to another scene"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "scifi",
@@ -5872,25 +3499,6 @@
                 ]
             },
             {
-                "mainTag": "script",
-                "relatedWords": [
-                    "scriptable",
-                    "scripting",
-                    "scripting api",
-                    "Scripting Improvements",
-                    "Scripting in unity",
-                    "scripting tutorial",
-                    "unity script tutorial",
-                    "unity scripting",
-                    "unity scripting tutorial",
-                    "unity scripting tutorials",
-                    "unity visual scripting",
-                    "unity wall running script",
-                    "unityscript",
-                    "visual scripting"
-                ]
-            },
-            {
                 "mainTag": "scroling",
                 "relatedWords": []
             },
@@ -5902,10 +3510,7 @@
             },
             {
                 "mainTag": "SEA",
-                "relatedWords": [
-                    "Unite 2014 Seattle",
-                    "Unite Seattle 2014"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "see through",
@@ -5932,25 +3537,7 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "Sequencer",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "serekh",
-                "relatedWords": [
-                    "unity serekh"
-                ]
-            },
-            {
-                "mainTag": "serialization",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "serialize field",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "serializefield",
                 "relatedWords": []
             },
             {
@@ -5962,56 +3549,8 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "shade",
-                "relatedWords": [
-                    "shader",
-                    "shader tutorial",
-                    "shaders",
-                    "skin shader",
-                    "snow shader",
-                    "subshader",
-                    "uber shader",
-                    "ubershader",
-                    "unity 2019 tutorial shader",
-                    "unity lit shader",
-                    "unity shader",
-                    "unity shader tutorial",
-                    "unity shaders",
-                    "unity toon shader",
-                    "unity toon shader tutorial",
-                    "unity unlit shader",
-                    "unity water shader",
-                    "unity water shader tutorial",
-                    "Vertex Shader",
-                    "water shader unity"
-                ]
-            },
-            {
-                "mainTag": "shading",
-                "relatedWords": [
-                    "Shading (Field Of Study)"
-                ]
-            },
-            {
-                "mainTag": "shadow fight 3",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Shadow Tactics",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "shadows",
-                "relatedWords": [
-                    "Unity shadows",
-                    "Unity shadows tutorial"
-                ]
-            },
-            {
                 "mainTag": "shape",
-                "relatedWords": [
-                    "unity 2018 shape"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "Sheffield Hallam University",
@@ -6039,26 +3578,19 @@
                     "shooter",
                     "shooting",
                     "space shooter",
-                    "survival shooter",
-                    "Top Down Shooter",
-                    "unity space shooter"
+                    "survival shooter"
                 ]
             },
             {
                 "mainTag": "shop",
-                "relatedWords": [
-                    "spiraloid workshop",
-                    "weapon shop",
-                    "Weta Workshop"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "short",
                 "relatedWords": [
                     "short cut",
                     "shortcut",
-                    "shortcuts",
-                    "unity animated short"
+                    "shortcuts"
                 ]
             },
             {
@@ -6082,13 +3614,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "simulation",
-                "relatedWords": [
-                    "Simulations",
-                    "unity simulation"
-                ]
-            },
-            {
                 "mainTag": "Simultaneous",
                 "relatedWords": []
             },
@@ -6097,24 +3622,8 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "singleton",
-                "relatedWords": [
-                    "singleton pattern"
-                ]
-            },
-            {
-                "mainTag": "skeleton",
-                "relatedWords": [
-                    "skeleton crew"
-                ]
-            },
-            {
                 "mainTag": "skin",
-                "relatedWords": [
-                    "unity create skins",
-                    "unity skins",
-                    "unity urp skin"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "slice",
@@ -6132,10 +3641,7 @@
                 "mainTag": "snap",
                 "relatedWords": [
                     "snapshot",
-                    "snapshots",
-                    "transitiontosnapshots",
-                    "unity snaps",
-                    "unity snaps tutoral"
+                    "snapshots"
                 ]
             },
             {
@@ -6201,23 +3707,11 @@
                 ]
             },
             {
-                "mainTag": "speed tree",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "speedtree",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "spellsouls",
                 "relatedWords": []
             },
             {
                 "mainTag": "Sphero",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "splatoon",
                 "relatedWords": []
             },
             {
@@ -6229,13 +3723,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "srp",
-                "relatedWords": [
-                    "unity 2018 srp",
-                    "unity srp"
-                ]
-            },
-            {
                 "mainTag": "ssao",
                 "relatedWords": []
             },
@@ -6245,10 +3732,6 @@
             },
             {
                 "mainTag": "Stack",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Stadia",
                 "relatedWords": []
             },
             {
@@ -6264,28 +3747,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "steam",
-                "relatedWords": [
-                    "Steamworks"
-                ]
-            },
-            {
-                "mainTag": "store",
-                "relatedWords": [
-                    "unity store"
-                ]
-            },
-            {
-                "mainTag": "storytelling",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "streaming",
-                "relatedWords": [
-                    "unity streaming"
-                ]
-            },
-            {
                 "mainTag": "stretching",
                 "relatedWords": []
             },
@@ -6295,13 +3756,7 @@
             },
             {
                 "mainTag": "studio",
-                "relatedWords": [
-                    "unity visual studio",
-                    "visual studio",
-                    "visual studio 2019",
-                    "visual studio tips",
-                    "visual studio tricks"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "style",
@@ -6340,17 +3795,6 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "svg",
-                "relatedWords": [
-                    "svg tutorial",
-                    "svg unity",
-                    "svg unity 2018",
-                    "unity 2018 svg",
-                    "unity svg",
-                    "unity svg files"
-                ]
-            },
-            {
                 "mainTag": "swap",
                 "relatedWords": []
             },
@@ -6372,10 +3816,7 @@
             },
             {
                 "mainTag": "sykoo",
-                "relatedWords": [
-                    "sykoo unity",
-                    "unity sykoo"
-                ]
+                "relatedWords": []
             },
             {
                 "mainTag": "syria",
@@ -6385,8 +3826,7 @@
                 "mainTag": "system",
                 "relatedWords": [
                     "system shock 3",
-                    "UI system",
-                    "Windows 8 (Operating System)"
+                    "UI system"
                 ]
             },
             {
@@ -6400,9 +3840,7 @@
             {
                 "mainTag": "talk",
                 "relatedWords": [
-                    "talks",
-                    "unity optimizing talk",
-                    "unity talk"
+                    "talks"
                 ]
             },
             {
@@ -6425,18 +3863,10 @@
             },
             {
                 "mainTag": "technology",
-                "relatedWords": [
-                    "Unity (technology)",
-                    "Unity Technology",
-                    "voice and chat technology"
-                ]
-            },
-            {
-                "mainTag": "teleporter",
                 "relatedWords": []
             },
             {
-                "mainTag": "television",
+                "mainTag": "teleporter",
                 "relatedWords": []
             },
             {
@@ -6448,488 +3878,20 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "Testing Unity",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "text",
-                "relatedWords": [
-                    "text adventure",
-                    "texture",
-                    "texture sheet",
-                    "textures",
-                    "Unity Textures"
-                ]
-            },
-            {
-                "mainTag": "the first tree",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "the void",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "the wandering band",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "third person",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Threaks",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "tile",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "tiling",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "time in unity",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "timed",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "timeline",
                 "relatedWords": [
                     "timeline 2019",
-                    "unity 2019 timeline",
-                    "unity 2019 timeline tutorial",
-                    "unity timeline",
-                    "unity timeline 2019",
-                    "unity timeline 2020",
-                    "unity timeline blending",
-                    "unity timeline signals",
-                    "unity timeline tutorial",
                     "Using Timeline"
                 ]
             },
             {
-                "mainTag": "Timer",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "tint",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Tiny Unity",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "tip",
-                "relatedWords": [
-                    "Tips",
-                    "Tips & Tricks",
-                    "tips and tricks",
-                    "unity tips",
-                    "unity tips and tricks",
-                    "unitytips"
-                ]
-            },
-            {
-                "mainTag": "tj",
-                "relatedWords": [
-                    "tj hughes",
-                    "tj1",
-                    "unity tj"
-                ]
-            },
-            {
-                "mainTag": "to",
-                "relatedWords": [
-                    "tools",
-                    "toon",
-                    "top down",
-                    "Top Eleven",
-                    "topology",
-                    "torque",
-                    "total",
-                    "touch",
-                    "tower defense",
-                    "Toy (Interest)",
-                    "transitionto",
-                    "tutorial",
-                    "Tutorial (Media Genre)",
-                    "tutorials",
-                    "uniity 2019 tutorial",
-                    "unity 2018 tutorial",
-                    "unity 2019 tutorial",
-                    "unity 2019 tutorials",
-                    "unity 2019.2 tutorial",
-                    "unity 2019.3 tutorial",
-                    "unity 2020 tutorial",
-                    "unity 2020 tutorials",
-                    "unity 2020.1 tutorial",
-                    "unity 5 tutorial",
-                    "Unity Certified Instructor",
-                    "unity hwo to",
-                    "unity memory tutorial",
-                    "unity portal tutorial",
-                    "unity portals tutorial",
-                    "unity teleport tutorial",
-                    "Unity Test Tools",
-                    "unity toon",
-                    "unity toon tutorial",
-                    "unity topdown",
-                    "unity trash dash tutorial",
-                    "unity tutorial",
-                    "unity tutorial 2019",
-                    "unity tutorial 2019.1",
-                    "unity tutorial 2020",
-                    "unity tutorial urp",
-                    "unity tutorial water",
-                    "unity tutorials",
-                    "unity ui elements tutorial",
-                    "unity ui tutorial",
-                    "unity ui tutorials",
-                    "unity universal rp tutorial",
-                    "unity urp tutorial",
-                    "unity urp tutorials",
-                    "unity vegetation tutorial",
-                    "unity water tutorial",
-                    "unity web tutorial",
-                    "unity. tutorial",
-                    "urp tutorial",
-                    "vector3",
-                    "vectors",
-                    "vr tutorial"
-                ]
-            },
-            {
-                "mainTag": "tracking",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Tracks",
-                "relatedWords": [
-                    "Understanding Tracks"
-                ]
-            },
-            {
-                "mainTag": "Transfluent",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "transition",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "translate",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "translation",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Treasure Trekkers",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "tree",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "tricks",
-                "relatedWords": [
-                    "unity tricks"
-                ]
-            },
-            {
-                "mainTag": "Trigger",
-                "relatedWords": [
-                    "trigger zone",
-                    "Triggers"
-                ]
-            },
-            {
-                "mainTag": "turning",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "turok",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "turret",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Tut",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "tv",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "twitch",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "u4",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "ubisoft",
-                "relatedWords": [
-                    "Ubisoft Blue Byte"
-                ]
-            },
-            {
-                "mainTag": "ubuntu",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "uFrame",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "UI",
                 "relatedWords": [
-                    "ui elements in unity",
-                    "ui elements unity",
-                    "ui in unity",
-                    "ui unity",
-                    "UIElements",
-                    "unity 2019 ui elements",
-                    "unity 2019.1 ui elements",
-                    "unity 2020 ui",
-                    "unity ui",
-                    "unity ui 2020",
-                    "unity ui elements",
-                    "unity ui pack",
-                    "unity urp ui",
-                    "user acquisition",
-                    "vr ui",
-                    "worldspace ui"
+                    "user acquisition"
                 ]
-            },
-            {
-                "mainTag": "undock",
-                "relatedWords": []
             },
             {
                 "mainTag": "unet",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "uneven",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "union",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "unite",
-                "relatedWords": [
-                    "unite 15",
-                    "Unite 16",
-                    "Unite 201",
-                    "unite 2012",
-                    "Unite 2013",
-                    "Unite 2013 Vancouver",
-                    "Unite 2014",
-                    "Unite 2014 Settle",
-                    "unite 2015",
-                    "Unite 2016",
-                    "Unite 2016 LA",
-                    "Unite 2017",
-                    "Unite Australia",
-                    "Unite Copenhagen",
-                    "unite europe",
-                    "Unite Europe 2015",
-                    "Unite Europe 2016",
-                    "Unite Europe 2017",
-                    "Unite LA",
-                    "Unite LA 2016",
-                    "unite now",
-                    "Unite Singapore",
-                    "Unite Vancouer 2013",
-                    "Unite Vancouver 2013",
-                    "unite12",
-                    "Unite16",
-                    "unite2012",
-                    "UniteEurope15",
-                    "unitenow",
-                    "unity unite",
-                    "unity unite now"
-                ]
-            },
-            {
-                "mainTag": "Unity",
-                "relatedWords": [
-                    "unity 2017",
-                    "unity 2018",
-                    "unity 2018 trash dash",
-                    "unity 2018.1",
-                    "unity 2018.2",
-                    "unity 2018.2 trash dash",
-                    "unity 2018.3",
-                    "unity 2019",
-                    "unity 2019 2",
-                    "Unity 2019 LTS",
-                    "unity 2019 notifications",
-                    "unity 2019.",
-                    "unity 2019.1",
-                    "unity 2019.2",
-                    "unity 2019.3",
-                    "unity 2019.4",
-                    "unity 2020",
-                    "unity 2020 changes",
-                    "unity 2020 universal",
-                    "unity 2020 update",
-                    "unity 2020 visual",
-                    "unity 2020.1",
-                    "Unity 2020.2",
-                    "Unity 4.2",
-                    "Unity 4.3",
-                    "Unity 4.6",
-                    "Unity 5",
-                    "Unity 5.1",
-                    "Unity 5.3",
-                    "unity 5.5",
-                    "unity advanced",
-                    "unity adventure",
-                    "unity agent",
-                    "unity agents",
-                    "unity allsky",
-                    "unity animated",
-                    "unity bedroom",
-                    "unity boat attack",
-                    "unity boat attack urp",
-                    "unity boss",
-                    "unity boss fight",
-                    "Unity bugs",
-                    "unity bundle",
-                    "unity chan",
-                    "unity cinema",
-                    "unity course",
-                    "unity courses",
-                    "unity deltatime",
-                    "unity displacement",
-                    "unity distribute",
-                    "unity enterprise",
-                    "unity enterprise support",
-                    "unity galaxy",
-                    "unity genvid",
-                    "unity genvid sdk",
-                    "unity grass",
-                    "unity halibut",
-                    "unity haunted jaunt",
-                    "unity high definition",
-                    "unity high defitionion",
-                    "unity hight definition rp",
-                    "unity icon",
-                    "unity icon episode 1",
-                    "unity icon pack",
-                    "unity icon yggdrasil",
-                    "unity icons",
-                    "Unity Jam",
-                    "unity john lemon",
-                    "unity john lemons. haunted jaunt",
-                    "unity kerry turner",
-                    "Unity Korea",
-                    "unity la",
-                    "unity lost crypt",
-                    "unity low poly",
-                    "unity low poly water",
-                    "unity mechanic",
-                    "unity mega city",
-                    "unity memory",
-                    "unity notification",
-                    "unity notifications",
-                    "unity nwe",
-                    "unity optimize",
-                    "Unity Packman",
-                    "unity planet",
-                    "unity portal",
-                    "unity portals",
-                    "Unity Pro",
-                    "Unity promo",
-                    "unity reel",
-                    "unity reflect",
-                    "unity remote",
-                    "unity remote config",
-                    "unity remote configuration",
-                    "Unity Royale",
-                    "unity ruby",
-                    "unity rubys adventure",
-                    "unity ruby's adventure",
-                    "unity sdk",
-                    "Unity Singapore",
-                    "unity space",
-                    "unity spline",
-                    "unity stream",
-                    "unity stylized",
-                    "unity stylized water",
-                    "unity team",
-                    "unity teaser",
-                    "Unity Tech stream",
-                    "unity teleport",
-                    "unity teleporting",
-                    "unity terrian",
-                    "unity theme",
-                    "unity time",
-                    "unity time manipulation",
-                    "unity trash dash",
-                    "unity triple a",
-                    "unity udp",
-                    "unity universal",
-                    "unity universal rp",
-                    "unity unlit",
-                    "unity update",
-                    "unity updates",
-                    "unity urp",
-                    "unity urp setup",
-                    "unity urp vegetation",
-                    "unity vegetation",
-                    "unity vegetations",
-                    "unity vertex displacement",
-                    "unity vignette",
-                    "unity vignettes",
-                    "unity visual",
-                    "unity visuals",
-                    "unity volume",
-                    "unity volumetric",
-                    "Unity VR",
-                    "unity vs",
-                    "unity wall run",
-                    "unity wall running",
-                    "unity wall running mechanic",
-                    "unity water",
-                    "unity waters",
-                    "unity web",
-                    "unity webgl",
-                    "unity yggdrasil",
-                    "unity2019",
-                    "unity2020",
-                    "unity2020.1",
-                    "unity4",
-                    "UnityAction",
-                    "vignette unity",
-                    "vignettes unity",
-                    "water in unity",
-                    "wild rift unity",
-                    "working at Unity"
-                ]
-            },
-            {
-                "mainTag": "Unive Vancouver 2013",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Universal",
                 "relatedWords": []
             },
             {
@@ -6937,93 +3899,11 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "untiy vr",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "upres",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "uptime",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "urp",
-                "relatedWords": [
-                    "urp in 2020.1"
-                ]
-            },
-            {
                 "mainTag": "user eperience",
                 "relatedWords": []
             },
             {
                 "mainTag": "ux",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "value",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "valve",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Veli-Pekka Kokkonen",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "vertex",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "vertices",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Veselin Efremov",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "view",
-                "relatedWords": [
-                    "view space"
-                ]
-            },
-            {
-                "mainTag": "vignette",
-                "relatedWords": [
-                    "vignettes"
-                ]
-            },
-            {
-                "mainTag": "VirZOOM",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "vision",
-                "relatedWords": [
-                    "Vision 17",
-                    "Vision 2017",
-                    "vision summit",
-                    "vision summit 2017",
-                    "Vision'17"
-                ]
-            },
-            {
-                "mainTag": "visual",
-                "relatedWords": [
-                    "Visualization (Field Of Study)"
-                ]
-            },
-            {
-                "mainTag": "vive",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "vivox",
                 "relatedWords": []
             },
             {
@@ -7035,113 +3915,14 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "Volkswagen",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Voltron",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "volumes",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Volvo",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "voxel",
                 "relatedWords": [
                     "voxel busters"
                 ]
             },
             {
-                "mainTag": "VR",
-                "relatedWords": [
-                    "vr interaction",
-                    "vrefugees",
-                    "vrtk",
-                    "VRWorks",
-                    "WebVR"
-                ]
-            },
-            {
-                "mainTag": "vs2019",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "vulkan",
                 "relatedWords": []
-            },
-            {
-                "mainTag": "wasteland",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "watch folder",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "weapon",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "weather",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "web",
-                "relatedWords": [
-                    "webgl"
-                ]
-            },
-            {
-                "mainTag": "week",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "weighted tangents",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "wheel",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Wii",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Will Wright",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "window",
-                "relatedWords": [
-                    "Windows 10"
-                ]
-            },
-            {
-                "mainTag": "wires",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "with",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "work",
-                "relatedWords": [
-                    "workflow",
-                    "workflows"
-                ]
-            },
-            {
-                "mainTag": "world",
-                "relatedWords": [
-                    "world space"
-                ]
             },
             {
                 "mainTag": "Xaomi",
@@ -7152,51 +3933,12 @@
                 "relatedWords": []
             },
             {
-                "mainTag": "Xevious",
-                "relatedWords": []
-            },
-            {
                 "mainTag": "Xiaomi",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "X-Mercs",
                 "relatedWords": []
             },
             {
                 "mainTag": "XR",
                 "relatedWords": []
-            },
-            {
-                "mainTag": "yilmaz kiymaz",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "z10",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "Zack Raymond",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "zoom",
-                "relatedWords": []
-            },
-            {
-                "mainTag": "ZShift",
-                "relatedWords": []
-            }
-        ],
-        "ignoreTags": [
-            {
-                "mainTag": "2D",
-                "relatedWords": [
-                    "sprite",
-                    "rigidbody2D",
-                    "physics2D",
-                    "2d"
-                ]
             }
         ]
     }
