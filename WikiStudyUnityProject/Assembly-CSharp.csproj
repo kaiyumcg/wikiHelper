@@ -59,24 +59,25 @@
     <Compile Include="Assets\com.rvkm.unitygames.gameplayFramework\Tag\GameTagManager.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.gameplayFramework\IController.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\Test\CrossBtnTester.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\YoutubeVideoTags.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\ScriptableObjectClasses\YoutubeVideoTags.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.gameplayFramework\Tag\Data\TagData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\DataClasses\WikiData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Debug\DebugRVKM.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\DataClasses\WikiUIData.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\SearchDataYoutube.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\ScriptableObjectClasses\SearchDataYoutube.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\FullScreenLoadingUI.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\Utilities\WikiSaveDataUtility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\AppDataManager.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\YoutubeVideoData.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\ScriptableObjectClasses\YoutubeVideoData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\Test\LoaderUITester.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\DialogueBox.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\ConstantManager.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\Data.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\MainData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.gameplayFramework\ConstantManager\ConstantManager.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Tweens\ScaleTween.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\Utilities\DataConversionUtility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Tweens\RotateTween.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\TagData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Extensions\VideoExtension.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\Test\DialogueBoxTester.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\UiElemOnPage.cs" />
@@ -93,9 +94,12 @@
     <Compile Include="Assets\com.rvkm.unitygames.extensions\NativeExtensions.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\TapHoldRepeaterCrossButton.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\Utilities\StatUtility.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\CategoryData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Extensions\StringExtension.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Utility\Utility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Async\AsyncUtility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\WikiCon.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\ReadOnlyAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\UnityChannel_data_generated_\ytVideoData_json.txt" />

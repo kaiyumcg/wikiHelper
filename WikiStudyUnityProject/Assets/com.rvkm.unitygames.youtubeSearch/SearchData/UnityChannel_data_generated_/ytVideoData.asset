@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ytVideoData
   m_EditorClassIdentifier: 
   searchName: UnityChannel
+  belongedCategory: 
   allVideos:
   - title: Your First Game Jam with LEGO | Livestream
     url: https://www.youtube.com/watch?v=pq_hjSUbrXs

@@ -4,9 +4,9 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace com.rvkm.unitygames.YouTubeSearch
+namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
 {
-    public static class IMGUIUtility
+    public static class PrintAssetFiles
     {
         /// <summary>
         /// Show array 'list' as well as browse option to select it from. If you set optional 'thisDataObject' parameter, the window will start from here
@@ -28,7 +28,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 for (int i = 0; i < list.arraySize; i++)
                 {
                     var elementSerProp = list.GetArrayElementAtIndex(i);
-                    ShowDataWithBrowseOption<T>(elementSerProp, thisDataObject);   
+                    ShowDataWithBrowseOption<T>(elementSerProp, thisDataObject);
                 }
             }
             EditorGUI.indentLevel -= 1;
@@ -67,7 +67,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 {
                     pathEmpty = true;
                 }
-                
+
                 if (data != null)
                 {
                     unityObjectData.objectReferenceValue = data;
@@ -83,7 +83,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
             if (typeof(T) == typeof(TextAsset) && unityObjectData.objectReferenceValue != null)
             {
-                if (GUILayout.Button("Open "+unityObjectData.objectReferenceValue.name+" 'Text'"))
+                if (GUILayout.Button("Open '" + unityObjectData.objectReferenceValue.name + "' as Text"))
                 {
                     loadCalled = true;
                     var oPath = AssetDatabase.GetAssetPath(unityObjectData.objectReferenceValue);
@@ -97,6 +97,19 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     {
                         EditorUtility.OpenWithDefaultApp(oPath);
                     }
+                }
+            }
+
+            if (typeof(T) == typeof(YoutubeVideoTags) && unityObjectData.objectReferenceValue != null)
+            {
+                if (GUILayout.Button("Save web page and Open"))
+                {
+                    loadCalled = true;
+                    string errorMsg = "";
+                    HtmlFilePrintUtility.MakeTagWebPage((YoutubeVideoTags)unityObjectData.objectReferenceValue, ref errorMsg, () =>
+                    {
+                        EditorUtility.DisplayDialog("Error!", "Could not save and open the tag web page! msg: " + errorMsg, "Ok");
+                    });
                 }
             }
 

@@ -51,15 +51,15 @@ namespace com.rvkm.unitygames.YouTubeSearch
             }
             else
             {
-                string videoID = ChannelDataEditorUtility.GetVideoId(video.url);
+                string videoID = Utility.GetVideoId(video.url);
                 string url = "https://youtube.googleapis.com/youtube/v3/" +
                     "videos?part=snippet&part=contentDetails&part=topicDetails&part=statistics&id="
                     + videoID + "&key=" + API_KEY;
                 bool titleOk = false, descriptionOk = false, channelNameOk = false,
-                    thumbUrlOk = false, tagsOk = false, viewCountOk = false,
+                    thumbUrlOk = false, viewCountOk = false,
                     likeCountOk = false, dislikeCountOk = false, commentCountOk = false,
                     durationOk = false, pubDateOk = false;
-                string json = ChannelDataEditorUtility.GetWWWResponse(url);
+                string json = Utility.GetWWWResponse(url);
                 VideoInfoJson data = new VideoInfoJson();
                 try
                 {
@@ -83,8 +83,8 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
                     if (item.snippet != null)
                     {
-                        video.channelName = ChannelDataEditorUtility.GetStringIfNullOrEmpty(item.snippet.channelTitle, ref channelNameOk);
-                        video.description = ChannelDataEditorUtility.GetStringIfNullOrEmpty(item.snippet.description, ref descriptionOk);
+                        video.channelName = Utility.GetStringIfNullOrEmpty(item.snippet.channelTitle, ref channelNameOk);
+                        video.description = Utility.GetStringIfNullOrEmpty(item.snippet.description, ref descriptionOk);
                         if (string.IsNullOrEmpty(item.snippet.publishedAt) == false)
                         {
                             DateTime pubDate = DateTime.Now;
@@ -98,20 +98,19 @@ namespace com.rvkm.unitygames.YouTubeSearch
                         if (item.snippet.tags != null)
                         {
                             video.tags = item.snippet.tags;
-                            tagsOk = true;
                         }
 
                         List<string> thumbUrls = new List<string>();
                         GetThumbs(item.snippet.thumbnails, ref video, ref thumbUrlOk);
-                        video.title = ChannelDataEditorUtility.GetStringIfNullOrEmpty(item.snippet.title, ref titleOk);
+                        video.title = Utility.GetStringIfNullOrEmpty(item.snippet.title, ref titleOk);
                     }
 
                     if (item.statistics != null)
                     {
-                        video.commentCount = ChannelDataEditorUtility.GetIntFromString(item.statistics.commentCount, ref commentCountOk);
-                        video.dislikeCount = ChannelDataEditorUtility.GetIntFromString(item.statistics.dislikeCount, ref dislikeCountOk);
-                        video.likeCount = ChannelDataEditorUtility.GetIntFromString(item.statistics.likeCount, ref likeCountOk);
-                        video.viewCount = ChannelDataEditorUtility.GetIntFromString(item.statistics.viewCount, ref viewCountOk);
+                        video.commentCount = Utility.GetIntFromString(item.statistics.commentCount, ref commentCountOk);
+                        video.dislikeCount = Utility.GetIntFromString(item.statistics.dislikeCount, ref dislikeCountOk);
+                        video.likeCount = Utility.GetIntFromString(item.statistics.likeCount, ref likeCountOk);
+                        video.viewCount = Utility.GetIntFromString(item.statistics.viewCount, ref viewCountOk);
                     }
                 }
 

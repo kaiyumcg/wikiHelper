@@ -8,6 +8,7 @@ using UnityEngine;
 using System.Security.AccessControl;
 using System.Linq;
 using com.rvkm.unitygames.YouTubeSearch.Extensions;
+using com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility;
 
 namespace com.rvkm.unitygames.YouTubeSearch
 {
@@ -20,7 +21,6 @@ namespace com.rvkm.unitygames.YouTubeSearch
         string nl;
         string ProcessButtonString, UpdateTagButtonString, CancelButtonString;
         public List<string> debugList = new List<string>();
-        Vector2 scroll_blackList, scroll_mustUseTheseWords;
 
         public override void OnEnableScriptableObject()
         {
@@ -33,6 +33,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
             CancelButtonString = nl + "Cancel" + nl;
             TagControl.InitControl();
             YouTubeControl.InitControl();
+            IMGUIStatics.CreateGUIContents();
         }
 
         public override void OnDisableScriptableObject()
@@ -56,7 +57,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 }
                 ChannelDataEditorUtility.SaveYoutubeDataToDisk(serializedObject, data);
                 string errorMsgIfAny = "";
-                HtmlFilePrintUtility.UpdateTagHtmlfileAndOpenIt(data, ref errorMsgIfAny, () =>
+                HtmlFilePrintUtility.MakeTagWebPage(data.tagData, ref errorMsgIfAny, () =>
                 {
                     StopAllEditorCoroutines();
                     EditorUtility.DisplayDialog("Error!", "Tag Operation Error! meg: " + errorMsgIfAny, "Ok");
@@ -105,56 +106,89 @@ namespace com.rvkm.unitygames.YouTubeSearch
             }
 
             serializedObject.Update();
+            GUILayout.Label("Text Area global Size: ");
+            data.textAreaSizeUI = GUILayout.HorizontalSlider(data.textAreaSizeUI, 0f, 1f);
+            GUILayout.Space(30);
             EditorGUILayout.PropertyField(serializedObject.FindProperty("SearchName"), true);
             EditorGUILayout.PropertyField(serializedObject.FindProperty("APIKEY"), true);
-            IMGUIUtility.ShowArrayWithBrowseOption<TextAsset>(serializedObject.FindProperty("InputHtmlFiles"), data);
+            PrintAssetFiles.ShowArrayWithBrowseOption<TextAsset>(serializedObject.FindProperty("InputHtmlFiles"), data);
             EditorGUILayout.PropertyField(serializedObject.FindProperty("InputUrls"), true);
-            IMGUIUtility.ShowDataWithBrowseOption<YoutubeVideoData>(serializedObject.FindProperty("videoData"), data);
-            IMGUIUtility.ShowDataWithBrowseOption<YoutubeVideoTags>(serializedObject.FindProperty("tagData"), data);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("blacklist.use"), new GUIContent("Use blacklist? "), true);
-            //blacklist.use
-            //blacklist.useTextArea
-            //blacklist.textFiles
-            //blacklist.textFiles.Array.data[0]
-            if (data.blacklist.use)
+            PrintAssetFiles.ShowDataWithBrowseOption<YoutubeVideoData>(serializedObject.FindProperty("videoData"), data);
+            PrintAssetFiles.ShowDataWithBrowseOption<YoutubeVideoTags>(serializedObject.FindProperty("tagData"), data);
+            
+            data.showCategorySetting = GUILayout.Toggle(data.showCategorySetting, "Category Settings");
+            if (data.showCategorySetting)
             {
-                EditorGUI.indentLevel += 1;
-                EditorGUILayout.PropertyField(serializedObject.FindProperty("blacklist.useFiles"), true);
-                if (data.blacklist.useFiles)
+                
+                EditorGUI.indentLevel += 2;
+                PrintCategory.ShowCategoryArray(data.textAreaSizeUI, serializedObject.FindProperty("categories"), data.categories);
+                if (GUILayout.Button(Environment.NewLine + "Categorize" + Environment.NewLine))
                 {
-                    IMGUIUtility.ShowArrayWithBrowseOption<TextAsset>(serializedObject.FindProperty("blacklist.textFiles"), data);
+                    Debug.Log("Here we must categorize!");
+                    //the video data should be created in similar name of this search
+                    throw new System.NotImplementedException(); //TODO
                 }
-
-                EditorGUILayout.PropertyField(serializedObject.FindProperty("blacklist.useTextArea"), true);
-                if (data.blacklist.useTextArea)
-                {
-                    scroll_blackList = EditorGUILayout.BeginScrollView(scroll_blackList);
-                    data.blacklist.textAreaString = EditorGUILayout.TextArea(data.blacklist.textAreaString, GUILayout.Height(Screen.height - Screen.height * 0.67f));
-                    EditorGUILayout.EndScrollView();
-                }
-                EditorGUI.indentLevel -= 1;
+                EditorGUI.indentLevel -= 2;
             }
-            GUILayout.Space(10);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("mustUseList.use"), new GUIContent("Use Exclusive whitelist? "), true);
-            if (data.mustUseList.use)
+
+            GUILayout.Space(30);
+            data.showTagSetting = GUILayout.Toggle(data.showTagSetting, "Tag Settings");
+            if (data.showTagSetting)
             {
-                EditorGUI.indentLevel += 1;
-                EditorGUILayout.PropertyField(serializedObject.FindProperty("mustUseList.useFiles"), true);
-                if (data.mustUseList.useFiles)
+                EditorGUILayout.PropertyField(serializedObject.FindProperty("blacklist.use"), IMGUIStatics.useBlacklist, true);
+                if (data.blacklist.use)
                 {
-                    IMGUIUtility.ShowArrayWithBrowseOption<TextAsset>(serializedObject.FindProperty("mustUseList.textFiles"), data);
-                }
+                    EditorGUI.indentLevel += 1;
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty("blacklist.useFiles"), true);
+                    if (data.blacklist.useFiles)
+                    {
+                        PrintAssetFiles.ShowArrayWithBrowseOption<TextAsset>(serializedObject.FindProperty("blacklist.textFiles"), data);
+                    }
 
-                EditorGUILayout.PropertyField(serializedObject.FindProperty("mustUseList.useTextArea"), true);
-                if (data.mustUseList.useTextArea)
-                {
-                    scroll_mustUseTheseWords = EditorGUILayout.BeginScrollView(scroll_mustUseTheseWords);
-                    data.mustUseList.textAreaString = EditorGUILayout.TextArea(data.mustUseList.textAreaString, GUILayout.Height(Screen.height - Screen.height * 0.67f));
-                    EditorGUILayout.EndScrollView();
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty("blacklist.useTextArea"), true);
+                    if (data.blacklist.useTextArea)
+                    {
+                        data.blacklist.scrollPositionUI = EditorGUILayout.BeginScrollView(data.blacklist.scrollPositionUI);
+                        data.blacklist.textAreaString = EditorGUILayout.TextArea(data.blacklist.textAreaString, GUILayout.Height(Screen.height - Screen.height * 0.67f));
+                        EditorGUILayout.EndScrollView();
+                    }
+                    EditorGUI.indentLevel -= 1;
                 }
-                EditorGUI.indentLevel -= 1;
+                GUILayout.Space(10);
+                EditorGUILayout.PropertyField(serializedObject.FindProperty("mustUseList.use"), IMGUIStatics.useWhitelist, true);
+                if (data.mustUseList.use)
+                {
+                    EditorGUI.indentLevel += 1;
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty("mustUseList.useFiles"), true);
+                    if (data.mustUseList.useFiles)
+                    {
+                        PrintAssetFiles.ShowArrayWithBrowseOption<TextAsset>(serializedObject.FindProperty("mustUseList.textFiles"), data);
+                    }
+
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty("mustUseList.useTextArea"), true);
+                    if (data.mustUseList.useTextArea)
+                    {
+                        data.mustUseList.scrollPositionUI = EditorGUILayout.BeginScrollView(data.mustUseList.scrollPositionUI);
+                        data.mustUseList.textAreaString = EditorGUILayout.TextArea(data.mustUseList.textAreaString, GUILayout.Height(Screen.height - Screen.height * 0.67f));
+                        EditorGUILayout.EndScrollView();
+                    }
+                    EditorGUI.indentLevel -= 1;
+                }
+                GUILayout.Space(20);
+
+                if (GUILayout.Button(UpdateTagButtonString))
+                {
+                    if (data.videoData.IsDataOk() == false)
+                    {
+                        EditorUtility.DisplayDialog("Error!", "You are trying to update tags but youtube data is invalid! "
+                            + Environment.NewLine + "Please generate the data first!", "Ok");
+                    }
+                    else
+                    {
+                        UpdateTags();
+                    }
+                }
             }
-            GUILayout.Space(20);
 
             if (GUILayout.Button(ProcessButtonString))
             {
@@ -202,7 +236,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     foreach (var url in data.InputUrls)
                     {
                         if (!UrlUtility.IsUrl(url)) { continue; }
-                        vList.CopyUniqueFrom(HtmlNodeUtility.GetAllVideoInfo(ChannelDataEditorUtility.GetWWWResponse(url)));
+                        vList.CopyUniqueFrom(HtmlNodeUtility.GetAllVideoInfo(Utility.GetWWWResponse(url)));
                     }
                 }
 
@@ -217,21 +251,6 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 tSer.ApplyModifiedProperties();
                 ChannelDataEditorUtility.SaveYoutubeDataToDisk(serializedObject, data);
             }
-
-            if (GUILayout.Button(UpdateTagButtonString))
-            {
-                if (data.videoData.IsDataOk() == false)
-                {
-                    EditorUtility.DisplayDialog("Error!", "You are trying to update tags but youtube data is invalid! "
-                        + Environment.NewLine + "Please generate the data first!", "Ok");
-                }
-                else
-                {
-                    UpdateTags();
-                }
-            }
-
-            
 
             EditorUtility.SetDirty(data);
             if (data.videoData != null)

@@ -23,14 +23,476 @@ MonoBehaviour:
     use: 1
     useTextArea: 0
     useFiles: 1
-    textAreaString: 
+    textAreaString: 'asdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asd
+
+      asdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asd
+
+      asdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asd
+
+      asdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asd
+
+      asdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asdasdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asd
+
+      asdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asdasdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asdasdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asdasdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asdasdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asdasdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asdasdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asdasdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asdasdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asdasdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asdasdadasd
+
+      asd
+
+      asd
+
+      as
+
+      da
+
+      d
+
+      a
+
+      sd
+
+      asd
+
+      asd'
     textFiles:
     - {fileID: 4900000, guid: dfdb1a631d670d345b61ae06ec477891, type: 3}
-    - {fileID: 4900000, guid: 4d1aa864e8ed369498f982fd56163db0, type: 3}
-    - {fileID: 4900000, guid: 29c1109aef9622244b08c8332e822545, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    scrollPositionUI: {x: 0, y: 0}
   mustUseList:
     use: 0
-    useTextArea: 1
+    useTextArea: 0
     useFiles: 0
-    textAreaString: (Business Operation)
+    textAreaString: Profession
     textFiles: []
+    scrollPositionUI: {x: 0, y: 0}
+  categories:
+  - categoryName: TestCategory2
+    showUI: 1
+    titleOp:
+      use: 0
+      caseSensitive: 1
+      useWhitelist: 1
+      useBlacklist: 1
+      compMode: 0
+      blacklistedWords: 
+      whitelistedWords: 
+      scrollBlacklistUI: {x: 0, y: 0}
+      scrollWhitelistUI: {x: 0, y: 0}
+    descriptionOp:
+      use: 0
+      caseSensitive: 0
+      useWhitelist: 0
+      useBlacklist: 0
+      compMode: 0
+      blacklistedWords: 
+      whitelistedWords: 
+      scrollBlacklistUI: {x: 0, y: 0}
+      scrollWhitelistUI: {x: 0, y: 0}
+    tagOp:
+      use: 0
+      caseSensitive: 1
+      useWhitelist: 0
+      useBlacklist: 1
+      compMode: 0
+      blacklistedWords: 
+      whitelistedWords: 
+      scrollBlacklistUI: {x: 0, y: 0}
+      scrollWhitelistUI: {x: 0, y: 0}
+    viewCountOp:
+      use: 0
+      comparison: 1
+      target: 9
+    likeCountOp:
+      use: 0
+      comparison: 1
+      target: 19
+    dislikeCountOp:
+      use: 0
+      comparison: 0
+      target: 0
+    commentCountOp:
+      use: 0
+      comparison: 0
+      target: 105
+    durationOp:
+      use: 0
+      comparison: 0
+      target: 24
+    pubDateOp:
+      use: 0
+      target: 200
+      targetMin:
+        year: 1995
+        month: 12
+        day: 30
+      targetMax:
+        year: 1995
+        month: 12
+        day: 30
+      scale: 0
+      mode: 2
+    videoData: {fileID: 0}
+    totalMinutes: 0
+    totalVideoCount: 0
+    sortMode: 0
+    AscendingOrder: 1
+  - categoryName: asdasdasd
+    showUI: 0
+    titleOp:
+      use: 1
+      caseSensitive: 1
+      useWhitelist: 0
+      useBlacklist: 0
+      compMode: 0
+      blacklistedWords: 
+      whitelistedWords: 
+      scrollBlacklistUI: {x: 0, y: 0}
+      scrollWhitelistUI: {x: 0, y: 0}
+    descriptionOp:
+      use: 0
+      caseSensitive: 0
+      useWhitelist: 0
+      useBlacklist: 0
+      compMode: 0
+      blacklistedWords: 
+      whitelistedWords: 
+      scrollBlacklistUI: {x: 0, y: 0}
+      scrollWhitelistUI: {x: 0, y: 0}
+    tagOp:
+      use: 0
+      caseSensitive: 0
+      useWhitelist: 0
+      useBlacklist: 0
+      compMode: 0
+      blacklistedWords: 
+      whitelistedWords: 
+      scrollBlacklistUI: {x: 0, y: 0}
+      scrollWhitelistUI: {x: 0, y: 0}
+    viewCountOp:
+      use: 0
+      comparison: 0
+      target: 0
+    likeCountOp:
+      use: 0
+      comparison: 0
+      target: 0
+    dislikeCountOp:
+      use: 0
+      comparison: 0
+      target: 0
+    commentCountOp:
+      use: 0
+      comparison: 0
+      target: 0
+    durationOp:
+      use: 0
+      comparison: 0
+      target: 0
+    pubDateOp:
+      use: 0
+      target: 0
+      targetMin:
+        year: 0
+        month: 0
+        day: 0
+      targetMax:
+        year: 0
+        month: 0
+        day: 0
+      scale: 0
+      mode: 0
+    videoData: {fileID: 0}
+    totalMinutes: 0
+    totalVideoCount: 0
+    sortMode: 0
+    AscendingOrder: 0
+  showTagSetting: 0
+  showCategorySetting: 1
+  textAreaSizeUI: 0.12146893

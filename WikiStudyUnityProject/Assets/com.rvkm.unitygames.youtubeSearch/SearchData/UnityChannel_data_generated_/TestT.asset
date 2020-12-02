@@ -1,0 +1,751 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
+  m_Name: TestT
+  m_EditorClassIdentifier: 
+  searchName: UnityChannel
+  belongedCategory: TestCategory2
+  allVideos:
+  - title: Your First Game Jam with LEGO | Livestream
+    url: https://www.youtube.com/watch?v=pq_hjSUbrXs
+    channelName: Unity
+    description: "Want to use the Danger Zone LEGO\xAE Microgame Add-On asset we
+      used during the Jam? Get it for free here: https://on.unity.com/3kegXEa\n\nIn
+      this live event, we will be taking you through the all new LEGO Microgame available
+      on Unity and showing you some of the fun things you can do with it.\n\nWe will
+      have special guests joining us from the Unity community and from LEGO to help
+      guide you through this fun adventure.\n\nTo get the most out of this Game Jam,
+      make sure to download all the assets required to participate alongside the
+      live event.\n\nContinue the Learning Fun with our LEGO Live Learning Series
+      here:\nhttps://on.unity.com/3m4fcLp\n\nHosts:\n\u2B50 Ashley Alicea, Unity
+      - https://twitter.com/avashly\n\u2B50 Carol Trang, Unity - https://twitter.com/AskAlicePlease\n\u2B50
+      Joyce Plokker, MinionsArt - https://twitter.com/minionsart\n\u2B50 Anders Tankred
+      Holm, LEGO - https://twitter.com/atholm\n\n================================\n\u2714\uFE0F
+      Core Set Up\nSet up Unity and the LEGO Microgame on your computer\nhttps://on.unity.com/36qwHPp\n\nIf
+      you have questions, reach out to us in the GameJam chat on Discord https://discord.com/invite/unity\n================================\n\nFAQs:\nQ:
+      Do I need any Unity or programming experience to attend?\nA: Nope! This jam
+      is for people who are new to Unity. We just ask that you arrive ready to jam
+      (see above).\n\nQ: What are the system requirements to install Unity?\nA: https://on.unity.com/3fzPkUs\n\nQ:
+      How long is the jam?\nA: We\u2019ll be jamming for about 2-2.5 hours. Of course,
+      you\u2019re free to pop in and out. We\u2019ll do our best to make sure it\u2019s
+      easy for people to just jump right back in with us!\n\nQ: Will it be recorded/published?\nA:
+      Yes! The stream will be converted to a video once it ends, so you can review
+      it at any time. If you missed it live, you can watch it at your convenience.\n\nQ:
+      What is a game jam?\nA: This game jam is unique because it\u2019s hosted online,
+      it\u2019s for beginners, we\u2019re using a game template, it\u2019s short,
+      and we (pretty much) know what we\u2019re going to show you. A \u201Ctraditional\u201D
+      game jam is an in-person event where you would typically gather with more experienced
+      programmers, game designers, artists, etc. to create a game or project from
+      scratch within a time span averaging 24\u201372 hours."
+    thumbUrls:
+    - https://i.ytimg.com/vi/pq_hjSUbrXs/sddefault.jpg
+    - https://i.ytimg.com/vi/pq_hjSUbrXs/mqdefault.jpg
+    - https://i.ytimg.com/vi/pq_hjSUbrXs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pq_hjSUbrXs/hqdefault.jpg
+    tags: []
+    viewCount: 11210
+    likeCount: 514
+    dislikeCount: 16
+    commentCount: 26
+    durationInMinutes: 148
+    publishedAtDate: 637414368470000000
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Behind the Game: Battletoads | Unite Now 2020'
+    url: https://www.youtube.com/watch?v=lWS1S9HuFk8
+    channelName: Unity
+    description: "Join Mike Geig and Dlala Studios for an in-depth talk about the
+      reboot of this classic side-scroller, which recently stomped its way onto Xbox
+      One. Learn how the studio tackled the beloved Battletoads franchise, hear about
+      the unique animated art that preserves its 8-bit roots, and the challenges
+      of bringing this title to a whole new generation of players.\n\n\U0001F438
+      Find out more about Dlala, the creator of Battletoads: https://on.unity.com/2GYhL2o\n\n\U0001F4FA 
+      Dive into Unite Now year-round to join us for live sessions or watch sessions
+      on-demand: https://on.unity.com/3niUiZj \n\n\U0001F4DD  Did you find this video
+      useful? Room for improvement? Complete this survey to let us know: https://on.unity.com/32C71OK"
+    thumbUrls:
+    - https://i.ytimg.com/vi/lWS1S9HuFk8/sddefault.jpg
+    - https://i.ytimg.com/vi/lWS1S9HuFk8/mqdefault.jpg
+    - https://i.ytimg.com/vi/lWS1S9HuFk8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lWS1S9HuFk8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2577
+    likeCount: 42
+    dislikeCount: 4
+    commentCount: 4
+    durationInMinutes: 0
+    publishedAtDate: 637414129200000000
+    YouTubeDataAPI_Cooked: 1
+  - title: Level up your game marketing | Unite Now 2020
+    url: https://www.youtube.com/watch?v=aF3-BmdESPk
+    channelName: Unity
+    description: "Looking to level up your game ops and business skills? The Indie
+      XP series will cover best practices on how to successfully scale and operate
+      your games. This season we focus on the mobile free-to-play (F2P) space and
+      how to increase retention, build game economies, manage live service campaigns,
+      and understand growth metrics.\n\n\U0001F331 Find out more about the Game Growth
+      program: https://on.unity.com/3eLaJdL \n\n\U0001F4FA  Dive into Unite Now year-round
+      to join us for live sessions or watch sessions on-demand: https://on.unity.com/2GS0LuA\n\n\U0001F4DD 
+      Did you find this video useful? Room for improvement? Complete this survey
+      to let us know: https://on.unity.com/3pi5l6Q"
+    thumbUrls:
+    - https://i.ytimg.com/vi/aF3-BmdESPk/sddefault.jpg
+    - https://i.ytimg.com/vi/aF3-BmdESPk/mqdefault.jpg
+    - https://i.ytimg.com/vi/aF3-BmdESPk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/aF3-BmdESPk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1818
+    likeCount: 74
+    dislikeCount: 3
+    commentCount: 11
+    durationInMinutes: 0
+    publishedAtDate: 637414127760000000
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Battletoads Tech Talk: The challenge of 11 game modes | Unite Now 2020'
+    url: https://www.youtube.com/watch?v=wWt29xdW_kA
+    channelName: Unity
+    description: "Developing any game will have its problems. And the more gameplay,
+      the more potential there is for issues. Learn how Dlala Studios developed Battletoads
+      \u2013 a game with multiple gameplay genres \u2013 while trying to mitigate
+      potential problems early, and how they handled issues that arose later in development.\n\n\U0001F438
+      Find out more about Dlala, the creator of Battletoads: https://on.unity.com/3pvHPTY\n\n\U0001F4FA 
+      Dive into Unite Now year-round to join us for live sessions or watch sessions
+      on-demand: https://on.unity.com/3niUiZj\n\n\U0001F4DD  Did you find this video
+      useful? Room for improvement? Complete this survey to let us know: https://on.unity.com/32ATkQa"
+    thumbUrls:
+    - https://i.ytimg.com/vi/wWt29xdW_kA/sddefault.jpg
+    - https://i.ytimg.com/vi/wWt29xdW_kA/mqdefault.jpg
+    - https://i.ytimg.com/vi/wWt29xdW_kA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wWt29xdW_kA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1879
+    likeCount: 58
+    dislikeCount: 1
+    commentCount: 4
+    durationInMinutes: 0
+    publishedAtDate: 637414126770000000
+    YouTubeDataAPI_Cooked: 1
+  - title: 2D Tips - Lightning round | Unite Now 2020 (Updated audio)
+    url: https://www.youtube.com/watch?v=DCAH1rlwAr4
+    channelName: Unity
+    description: "Get ready for a fast round of productivity tips and performance
+      tricks for 2D projects. We show you how to get the most out of our 2D tools
+      and ensure your project takes advantage of the latest best practices. \n\n00:00
+      \u2013 02:47  Getting started with a 2D project\n02:48 \u2013 10:55  Worldbuilding
+      \u2013 tips and tools for level design\n10:56 \u2013 14:41  Characters and
+      animation \n14:42 \u2013 17:51  Pixel art\n17:52 \u2013 21:21  Grouping and
+      atlasing \n\nSpeakers:\nRus Scammell, Technical Product Manager, 2D (Unity)\nEduardo
+      Oriz, Product Marketing Manager, 2D, Core Tech (Unity) \n\n\U0001F449 Get started
+      developing in 2D with Unity: https://on.unity.com/3kI9I7u\n\n\U0001F4FA Dive
+      into Unite Now year-round to join us for live sessions or watch sessions on-demand:
+      https://on.unity.com/3pGYiVu\n\n\U0001F4DD Did you find this video useful?
+      Room for improvement? Complete this survey to let us know: https://on.unity.com/35OqPiP"
+    thumbUrls:
+    - https://i.ytimg.com/vi/DCAH1rlwAr4/sddefault.jpg
+    - https://i.ytimg.com/vi/DCAH1rlwAr4/mqdefault.jpg
+    - https://i.ytimg.com/vi/DCAH1rlwAr4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DCAH1rlwAr4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1959
+    likeCount: 95
+    dislikeCount: 1
+    commentCount: 4
+    durationInMinutes: 0
+    publishedAtDate: 637414125010000000
+    YouTubeDataAPI_Cooked: 1
+  - title: Spatial augmented reality with Vuforia Engine in Unity | Unite Now 2020
+    url: https://www.youtube.com/watch?v=lomyM4loAVg
+    channelName: Unity
+    description: "Learn how to create a spatial AR application using Vuforia Engine
+      Area Targets in Unity. Area Targets utilize 3D scans of a location and are
+      designed for experiences in large indoor spaces. From retail stores to factory
+      floors \u2013 Area Targets enable better tracking and augmenting of spaces
+      and stationary objects.\n\nSpeaker(s):\nBrad Pitser, Director of AR, PTC Vuforia
+      \nJake Steinerman, Senior Augmented Reality Engineer, PTC Vuforia\n\n\U0001F449 
+      Get started with the latest version of Vuforia: https://on.unity.com/2Iht2Lx
+      \n\n\U0001F4FA  Dive into Unite Now year-round to join us for live sessions
+      or watch sessions on-demand: https://on.unity.com/35eLH3v\n\U0001F4DD  Did
+      you find this video useful? Room for improvement? Complete this survey to let
+      us know: https://on.unity.com/2IioAw8"
+    thumbUrls:
+    - https://i.ytimg.com/vi/lomyM4loAVg/sddefault.jpg
+    - https://i.ytimg.com/vi/lomyM4loAVg/mqdefault.jpg
+    - https://i.ytimg.com/vi/lomyM4loAVg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lomyM4loAVg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 4475
+    likeCount: 95
+    dislikeCount: 3
+    commentCount: 17
+    durationInMinutes: 0
+    publishedAtDate: 637414124580000000
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Behind the game: The Falconeer | Unite Now 2020'
+    url: https://www.youtube.com/watch?v=UhtkcRyGG6o
+    channelName: Unity
+    description: "Mike Geig sits down with Tomas Sala to discuss his upcoming open-world
+      aerial-combat game, The Falconeer. Journey to the mysterious world of The Great
+      Ursee and learn about Tomas' journey as a solo developer, how he created the
+      gorgeous graphics for the game, and what it was like developing a next-gen
+      launch title.\n\nSpeakers:\nMike Geig, Manager, Technical Marketing Content
+      (Unity)\nTomas Sala, Independent Game Developer\n\n\n\U0001F985 Find out more
+      about Tomas Sala, the creator of The Falconeer: https://on.unity.com/3pa8sNT\n\n\U0001F449
+      Check out more Made with Unity games: https://on.unity.com/32ulnka\n\n\U0001F4FA
+      Dive into Unite Now year-round to join us for live sessions or watch sessions
+      on-demand: https://on.unity.com/3keegSX\n\n\U0001F4DD Did you find this video
+      useful? Room for improvement? Complete this survey to let us know: https://on.unity.com/2JRIPRX"
+    thumbUrls:
+    - https://i.ytimg.com/vi/UhtkcRyGG6o/sddefault.jpg
+    - https://i.ytimg.com/vi/UhtkcRyGG6o/mqdefault.jpg
+    - https://i.ytimg.com/vi/UhtkcRyGG6o/maxresdefault.jpg
+    - https://i.ytimg.com/vi/UhtkcRyGG6o/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1445
+    likeCount: 24
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 61
+    publishedAtDate: 637414123150000000
+    YouTubeDataAPI_Cooked: 1
+  - title: 'The Falconeer Tech Talk: Creating with textureless art | Unite Now 2020'
+    url: https://www.youtube.com/watch?v=Bu5mxNyR8uA
+    channelName: Unity
+    description: "Solo developers like Tomas Sala need to find ways to be both original
+      and efficient. One way to achieve that is by creating a game that doesn\u2019t
+      use any pre-generated textures. Join Tomas as he explains how he achieved beautiful
+      game art and an open world of wonder with carefully handcrafted geometry and
+      highly technical shaders.\n\nSpeaker:\nTomas Sala - Independent Game Artist
+      & Designer \n\n\U0001F449  Find out more about Tomas Sala, the creator of The
+      Falconeer: https://on.unity.com/3lhTtPy\n\n\U0001F4FA  Dive into Unite Now
+      year-round to join us for live sessions or watch sessions on-demand: https://on.unity.com/3eFsriN\n\n\U0001F4DD 
+      Did you find this video useful? Room for improvement? Complete this survey
+      to let us know: https://on.unity.com/3nkl3N1"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Bu5mxNyR8uA/sddefault.jpg
+    - https://i.ytimg.com/vi/Bu5mxNyR8uA/mqdefault.jpg
+    - https://i.ytimg.com/vi/Bu5mxNyR8uA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Bu5mxNyR8uA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 8152
+    likeCount: 474
+    dislikeCount: 9
+    commentCount: 45
+    durationInMinutes: 0
+    publishedAtDate: 637414119820000000
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Devlog 1: How we built the toon shading | Open Projects'
+    url: https://www.youtube.com/watch?v=GGTTHOpUQDE
+    channelName: Unity
+    description: "Open Projects are small, open-source games where the community
+      of creators is free to collaborate and contribute actively to the entire game
+      development journey. In this first devlog, we're going to discover the ideas
+      and the process behind the cartoon look we developed in the first Open Project,
+      an action-adventure game titled \"Chop Chop\".\n\n\u2B50  Join the Open Projects
+      forum! https://on.unity.com/35UzPEp\n\u2B50  Github repository for Project
+      #1: https://on.unity.com/3kBcCLD\n\u2B50  Check out the roadmap for Project
+      #1! https://on.unity.com/3hMBH4F\n\n\U0001F517 Get the demo assets used in
+      this video on the Github branch:\nhttps://on.unity.com/35Bthdm\n(compatible
+      with Unity 2020.2b and later)\n\n0:00 - Open Project #1: \"Chop Chop\"\n1:12
+      - Developing the toon look\n6:18 - Rendering the outline\n7:39 - Next steps"
+    thumbUrls:
+    - https://i.ytimg.com/vi/GGTTHOpUQDE/sddefault.jpg
+    - https://i.ytimg.com/vi/GGTTHOpUQDE/mqdefault.jpg
+    - https://i.ytimg.com/vi/GGTTHOpUQDE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GGTTHOpUQDE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - shader graph
+    - shaders
+    - toon
+    viewCount: 18214
+    likeCount: 1023
+    dislikeCount: 6
+    commentCount: 90
+    durationInMinutes: 0
+    publishedAtDate: 637412510430000000
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Fruit Ninja 2 Tech Talk: Creating with data-driven components | Unite
+      Now 2020'
+    url: https://www.youtube.com/watch?v=IDGmxSBt3D4
+    channelName: Unity
+    description: "Halfbrick programmer Andrew McGill explores the tools used to create
+      UI in the fruit-slicing sensation, Fruit Ninja 2. Learn how you can develop
+      data-driven Prefabs in the Unity Editor, and how to use these intuitive components
+      for an expandable system that enhances iteration and creativity.\n\nSpeaker(s):\nAndrew
+      McGill, Programmer (Halfbrick)\n\n\U0001F449 Find out more about Halfbrick,
+      the creator of Fruit Ninja 2: https://on.unity.com/38hFEgp\n\n\U0001F4FA Dive
+      into Unite Now year-round to join us for live sessions or watch sessions on-demand:
+      https://on.unity.com/2TTxl1Z\n\U0001F4DD Did you find this video useful? Room
+      for improvement? Complete this survey to let us know: https://on.unity.com/32ePMCL"
+    thumbUrls:
+    - https://i.ytimg.com/vi/IDGmxSBt3D4/sddefault.jpg
+    - https://i.ytimg.com/vi/IDGmxSBt3D4/mqdefault.jpg
+    - https://i.ytimg.com/vi/IDGmxSBt3D4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IDGmxSBt3D4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 11697
+    likeCount: 356
+    dislikeCount: 16
+    commentCount: 53
+    durationInMinutes: 0
+    publishedAtDate: 637408030470000000
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Behind the Game: Fruit Ninja 2 | Unite Now 2020'
+    url: https://www.youtube.com/watch?v=MzcKUMOsNLk
+    channelName: Unity
+    description: "The team from Halfbrick chats with Unity\u2019s Arturo Nereu about
+      the development journey behind Fruit Ninja 2, the follow-up to the original
+      smash hit. Get into the juicy details of how they brought their game to Unity,
+      updated the experience for today\u2019s players, and what they learned along
+      the way.\n\nSpeakers:\nArturo Nereu, Senior Developer Advocate, Operate Solutions
+      (Unity)\nJason Maundrell, Marketing & Product Manager (Halfbrick Studios)\nShainiel
+      Deo, CEO & Product Manager Fruit Ninja 2 (Halfbrick Studios)\n\n\U0001F449
+      Find out more about Halfbrick, the creator of Fruit Ninja 2: https://on.unity.com/38hFEgp\n\n\U0001F4FA
+      Dive into Unite Now year-round to join us for live sessions or watch sessions
+      on-demand: https://on.unity.com/38ffFX8\n\U0001F4DD Did you find this video
+      useful? Room for improvement? Complete this survey to let us know: https://on.unity.com/3eriqp8"
+    thumbUrls:
+    - https://i.ytimg.com/vi/MzcKUMOsNLk/sddefault.jpg
+    - https://i.ytimg.com/vi/MzcKUMOsNLk/mqdefault.jpg
+    - https://i.ytimg.com/vi/MzcKUMOsNLk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MzcKUMOsNLk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3947
+    likeCount: 53
+    dislikeCount: 6
+    commentCount: 4
+    durationInMinutes: 0
+    publishedAtDate: 637408030040000000
+    YouTubeDataAPI_Cooked: 1
+  - title: Putting the pieces together for game launch | Unite Now 2020
+    url: https://www.youtube.com/watch?v=hZ9HdLlCym8
+    channelName: Unity
+    description: "Are you an indie developer? In our Indie XP series, we cover topics
+      such as the core game loop, monetization in game design, and how to make ad
+      creative. In this video, we walk you through the major stages that will take
+      your game from concept to worldwide launch \u2013 and beyond.\n\nSpeakers:\nAndrew
+      Kasbari, Director of Product Management (Unity)\nOmar Abdelwahed, Technical
+      Director (East Side Games)\n\n\U0001F449 Find out more about the Game Growth
+      program: https://on.unity.com/366X5gV\n\n\U0001F4FA Dive into Unite Now year-round
+      to join us for live sessions or watch sessions on-demand: https://on.unity.com/34ZfH3l\n\U0001F4DD
+      Did you find this video useful? Room for improvement? Complete this survey
+      to let us know: https://on.unity.com/3mZ0pSp"
+    thumbUrls:
+    - https://i.ytimg.com/vi/hZ9HdLlCym8/sddefault.jpg
+    - https://i.ytimg.com/vi/hZ9HdLlCym8/mqdefault.jpg
+    - https://i.ytimg.com/vi/hZ9HdLlCym8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hZ9HdLlCym8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1835
+    likeCount: 60
+    dislikeCount: 2
+    commentCount: 3
+    durationInMinutes: 0
+    publishedAtDate: 637408023480000000
+    YouTubeDataAPI_Cooked: 1
+  - title: "Persistent Data \u2013 How to save your game states and settings | Unite
+      Now 2020"
+    url: https://www.youtube.com/watch?v=uD7y4T4PVk0
+    channelName: Unity
+    description: "Saving data is critical for any game. Whether you need to save
+      high scores, preferences, or game state, Unity offers a variety of methods
+      \u2013 from PlayerPrefs to serializing data, encrypting it, and writing to
+      a file. In this video, we share some valuable tips on creating data persistence
+      in Unity.\n\nSpeaker:\nBronson Zgeb, Senior Content Developer (Unity)\n\n\U0001F449
+      Learn more about serialization: https://on.unity.com/2I2Ykpr\nExample scripts:
+      https://github.com/UnityTechnologies/UniteNow20-Persistent-Data\n\n\U0001F449
+      Easy Save on the Unity Asset Store: https://assetstore.unity.com/packages/tools/input-management/easy-save-the-complete-save-load-asset-768?_ga=2.86283544.1638775723.1605810081-1893381353.1546531620\n\n\U0001F449
+      JSON .NET on the Unity Asset Store: https://assetstore.unity.com/packages/tools/input-management/easy-save-the-complete-save-load-asset-768?_ga=2.86283544.1638775723.1605810081-1893381353.1546531620\n\n\U0001F4FA
+      Dive into Unite Now year-round to join us for live sessions or watch sessions
+      on-demand: https://on.unity.com/34P0yRX\n\U0001F4DD Did you find this video
+      useful? Room for improvement? Complete this survey to let us know: https://on.unity.com/3mO3zIk\n\n\n00:00
+      \u2013 01:07 Introduction and agenda\n01:08 \u2013 05:45 PlayerPrefs \n05:46
+      \u2013 18:00 JSON and JsonUtility\n18:01 \u2013 19:20 Other libraries\n19:21
+      \u2013 20:49 Data security\n20:50 \u2013 21:57 Conclusion"
+    thumbUrls:
+    - https://i.ytimg.com/vi/uD7y4T4PVk0/sddefault.jpg
+    - https://i.ytimg.com/vi/uD7y4T4PVk0/mqdefault.jpg
+    - https://i.ytimg.com/vi/uD7y4T4PVk0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/uD7y4T4PVk0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 8556
+    likeCount: 457
+    dislikeCount: 10
+    commentCount: 92
+    durationInMinutes: 0
+    publishedAtDate: 637408022840000000
+    YouTubeDataAPI_Cooked: 1
+  - title: Visual scripting for programmers | Unite Now 2020
+    url: https://www.youtube.com/watch?v=8cKAWsEQEdg
+    channelName: Unity
+    description: "Learn how programmers can take advantage of visual scripting in
+      Unity in several ways, including faster prototyping for testing/iterating ideas
+      and creating tools that can be used by other team members. \n\nSpeaker(s):\nAshley
+      Alicea, Developer Advocate (Unity)\n\n\U0001F449 Get Bolt now: https://on.unity.com/3mRhCwJ\n\n\U0001F4FA
+      Dive into Unite Now year-round to join us for live sessions or watch sessions
+      on-demand: https://on.unity.com/366PEq6\n\n\U0001F4DD Did you find this video
+      useful? Room for improvement? Complete this survey to let us know: https://on.unity.com/2TUVAgc\n\n00:00
+      \u2013 01:06 Introduction\n01:07 \u2013 02:00 Unity Visual Scripting & C# Workflows\n02:00
+      \u2013 06:40 Using a C# function in Unity Visual Scripting\n06:40 \u2013 09:32
+      Customizing reflected C# units\n09:33 \u2013 12:26 Preview of custom Unit /
+      node creation\n12:27 \u2013 15:07 Accessing Visual Scripting events & variables
+      in C# scripts\n15:07 \u2013 15:40 Helpful Resources"
+    thumbUrls:
+    - https://i.ytimg.com/vi/8cKAWsEQEdg/sddefault.jpg
+    - https://i.ytimg.com/vi/8cKAWsEQEdg/mqdefault.jpg
+    - https://i.ytimg.com/vi/8cKAWsEQEdg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8cKAWsEQEdg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 4739
+    likeCount: 154
+    dislikeCount: 5
+    commentCount: 25
+    durationInMinutes: 0
+    publishedAtDate: 637408020780000000
+    YouTubeDataAPI_Cooked: 1
+  - title: Benefiting from Unity Professional Services | Unite Now 2020
+    url: https://www.youtube.com/watch?v=iKWV0UW0Z6M
+    channelName: Unity
+    description: "In this video, we will give you an introduction to our Professional
+      Services group's expertise and products, and how you can benefit from them.
+      We share the best ways to work with the team in order to meet your \"ship on
+      time\" and project-quality needs.\n\nSpeakers:\nRoger Walkden, Director of
+      Solutions (Unity)\n\n\U0001F449 Find out more about Unity Professional Services:
+      https://on.unity.com/3oWEaht\n\n\U0001F4FA Dive into Unite Now year-round to
+      join us for live sessions or watch sessions on-demand: https://on.unity.com/3oVopHx\n\U0001F4DD
+      Did you find this video useful? Room for improvement? Complete this survey
+      to let us know: https://on.unity.com/2HT71CZ\n\n\n00:00 \u2013 01:29 Introduction
+      and Agenda\n01:30 \u2013 07:00 What is Unity Solutions?\n07:01 \u2013 11:58
+      How we Engage with Customers\n11:59 \u2013 14:36 Catalog of Services:\n14:37
+      \u2013 17:49 Technical Architecture Consultancy\n17:50 \u2013 20:44 Code, Assets,
+      and Performance\n20:45 \u2013 24:04 Technical Art Review\n24:05 \u2013 26:25
+      Dedicated Expert Advisor\n26:26 \u2013 28:07 Optimization Accelerator\n28:08
+      \u2013 31:06 Custom Development\n31:07 \u2013 33:08 Game Audit\n33:09 \u2013
+      35:45 Conclusion"
+    thumbUrls:
+    - https://i.ytimg.com/vi/iKWV0UW0Z6M/sddefault.jpg
+    - https://i.ytimg.com/vi/iKWV0UW0Z6M/mqdefault.jpg
+    - https://i.ytimg.com/vi/iKWV0UW0Z6M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/iKWV0UW0Z6M/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 493
+    likeCount: 11
+    dislikeCount: 1
+    commentCount: 0
+    durationInMinutes: 0
+    publishedAtDate: 637408020090000000
+    YouTubeDataAPI_Cooked: 1
+  - title: FPS level design | Prototype Series
+    url: https://www.youtube.com/watch?v=7wieQDuykxo
+    channelName: Unity
+    description: "In this episode of the Unity Prototyping series, we showcase how
+      we prototyped a level tailored to the wall-run game mechanic we've implemented
+      in the first episode of the FPS Wall Run prototype!\n\n\u2B50 Download the
+      full Wall Run project: https://on.unity.com/3lMUj73\n\u2B50 Watch the longer
+      Training Session: https://on.unity.com/371Vtr0\n\u2B50 Learn more about the
+      FPS Microgame: https://on.unity.com/2FpNsRp"
+    thumbUrls:
+    - https://i.ytimg.com/vi/7wieQDuykxo/sddefault.jpg
+    - https://i.ytimg.com/vi/7wieQDuykxo/mqdefault.jpg
+    - https://i.ytimg.com/vi/7wieQDuykxo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7wieQDuykxo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - fps game
+    - unity fps
+    - unity fps level design
+    - unity wall run
+    - unity making level
+    - unity probuilder
+    - unity how to level
+    - unity how to fps
+    - unity prototype series
+    - prototype series
+    viewCount: 9755
+    likeCount: 458
+    dislikeCount: 8
+    commentCount: 41
+    durationInMinutes: 0
+    publishedAtDate: 637407252020000000
+    YouTubeDataAPI_Cooked: 1
+  - title: 'The Journey: Ep. 3 | Open Projects'
+    url: https://www.youtube.com/watch?v=0lhLLnKitSI
+    channelName: Unity
+    description: "The journey continues! Join our EMEA Creator Advocacy team for
+      a progress update on the first Open Project. In this episode, we'll reveal
+      the title of the game (chosen by the community), see how the graphics for the
+      game are coming together, talk about new game systems in development and, finally,
+      reveal new tasks that you can take on.\n\n\u2B50 Join the Open Projects forum!
+      https://on.unity.com/35UzPEp\n\u2B50 Github repository for Project #1: https://on.unity.com/3kBcCLD\n\u2B50
+      Check out the roadmap for Project #1! https://on.unity.com/3hMBH4F\n\n00:00
+      - Pre-stream\n02:33 - Stream starts and intro to Open Projects\n09:11 - In
+      previous episodes...\n20:55 - Game design and progression\n34:10 - The Input
+      system\n45:39 - Cutscene and Dialogues\n53:28 - Custom Timeline track\n01:02:33
+      - Where are you from?\n01:05:37 - Localising the game\n01:39:04 - Community
+      contributions\n01:48:47 - Graphic updates and the big merge\n01:59:04 - Roadmap
+      and new tasks\n02:07:11 - TITLE REVEAL!!\n02:16:49 - Outro\n02:22:21 - Stream
+      ends"
+    thumbUrls:
+    - https://i.ytimg.com/vi/0lhLLnKitSI/sddefault.jpg
+    - https://i.ytimg.com/vi/0lhLLnKitSI/mqdefault.jpg
+    - https://i.ytimg.com/vi/0lhLLnKitSI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0lhLLnKitSI/hqdefault.jpg
+    tags: []
+    viewCount: 22223
+    likeCount: 680
+    dislikeCount: 16
+    commentCount: 29
+    durationInMinutes: 152
+    publishedAtDate: 637406602490000000
+    YouTubeDataAPI_Cooked: 1
+  - title: How Autoliv uses real-time 3D to drive sales & marketing effectiveness
+    url: https://www.youtube.com/watch?v=OtewjIJFGIU
+    channelName: Unity
+    description: "Autoliv is the world\u2019s largest automotive safety supplier.
+      Check out how they used Unity to showcase upwards of 15 of their complex products
+      in an interactive iOS app, improving product understanding and customer engagement.\n\nLearn
+      more in the case study: https://on.unity.com/2YMVV6L"
+    thumbUrls:
+    - https://i.ytimg.com/vi/OtewjIJFGIU/sddefault.jpg
+    - https://i.ytimg.com/vi/OtewjIJFGIU/mqdefault.jpg
+    - https://i.ytimg.com/vi/OtewjIJFGIU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/OtewjIJFGIU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1685
+    likeCount: 42
+    dislikeCount: 0
+    commentCount: 4
+    durationInMinutes: 0
+    publishedAtDate: 637405827230000000
+    YouTubeDataAPI_Cooked: 1
+  - title: How to build Lightmaps in Unity 2020.1 | Tutorial
+    url: https://www.youtube.com/watch?v=KJ4fl-KBDR8
+    channelName: Unity
+    description: 'In this video, we are going to take a look at Lightmapping in Unity
+      2020.1 to help you create fast and beautiful lighting in your scene.
+
+
+      Learn
+      more about Lightmapping in 2020.1 from our Docs!
+
+      https://on.unity.com/2U7VQIX
+
+
+      Interested
+      in the newest Graphics Features we added in 2020.1? Click here!
+
+      https://on.unity.com/2GHYGkR
+
+
+      Download
+      the Spaceship Demo we used in this video here!
+
+      https://on.unity.com/2IngTEz
+
+
+
+      Chapters:
+
+      00:00
+      Intro
+
+      00:18 Global Illumination
+
+      01:00 Baked Lights and Static
+      Geometry
+
+      03:26 Baking the Scene
+
+      04:55 Ambient Occlusion
+
+      05:49
+      Lightmap UVs
+
+      07:26 Final Bake
+
+
+
+
+      Unity Version used 2020.1'
+    thumbUrls:
+    - https://i.ytimg.com/vi/KJ4fl-KBDR8/sddefault.jpg
+    - https://i.ytimg.com/vi/KJ4fl-KBDR8/mqdefault.jpg
+    - https://i.ytimg.com/vi/KJ4fl-KBDR8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/KJ4fl-KBDR8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - lightmapping
+    - lighting in unity
+    - lighting unity 2020.1
+    - unity 2020.1
+    - beautiful scenes in unity
+    - beautiful lighting in unity
+    - good lighting in unity
+    - realistic lighting
+    - realistic lighting in unity
+    - lightmapping unity
+    viewCount: 12082
+    likeCount: 637
+    dislikeCount: 7
+    commentCount: 65
+    durationInMinutes: 0
+    publishedAtDate: 637405524030000000
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Behind the Game: Escape from Tarkov | Unite Now 2020'
+    url: https://www.youtube.com/watch?v=WniPt5Kal7Q
+    channelName: Unity
+    description: "Escape from Tarkov is a hardcore FPS from Battlestate Games. Hear
+      from COO and project lead, Nikita Buyanov, on their experience moving the project
+      to the latest version of Unity and how they\u2019re using features such as
+      Timeline and ProBuilder to create one of the most-viewed titles on Twitch.\n\nSpeakers:\nMike
+      Geig, Manager, Technical Marketing Content (Unity)\nNikita Buyanov, COO and
+      Project Lead (Battlestate Games)\n\n\U0001F449 Check out more Made with Unity
+      games: https://on.unity.com/3oXcyZH\n\n\U0001F4FA Dive into Unite Now year-round
+      to join us for live sessions or watch sessions on-demand: https://on.unity.com/3dXFk7j\n\n\U0001F4DD
+      Did you find this video useful? Room for improvement? Complete this survey
+      to let us know: https://on.unity.com/34vlrl3"
+    thumbUrls:
+    - https://i.ytimg.com/vi/WniPt5Kal7Q/sddefault.jpg
+    - https://i.ytimg.com/vi/WniPt5Kal7Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/WniPt5Kal7Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WniPt5Kal7Q/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Escape from Tarkov
+    viewCount: 34663
+    likeCount: 1354
+    dislikeCount: 28
+    commentCount: 207
+    durationInMinutes: 0
+    publishedAtDate: 637402021010000000
+    YouTubeDataAPI_Cooked: 1

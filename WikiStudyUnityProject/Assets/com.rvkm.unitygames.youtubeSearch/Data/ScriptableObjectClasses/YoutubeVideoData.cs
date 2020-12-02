@@ -5,7 +5,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
 {
     public class YoutubeVideoData : ScriptableObject
     {
-        public string searchName;
+        public string searchName, belongedCategory;
         public YoutubeVideo[] allVideos;
         public bool IsDataOk()
         {
