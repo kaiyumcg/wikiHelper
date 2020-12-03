@@ -12,6 +12,9 @@ using com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility;
 
 namespace com.rvkm.unitygames.YouTubeSearch
 {
+    /// <summary>
+    /// TODO: horizontal box indent, fold/expand item group, implement unimplemented methods, indent buttons
+    /// </summary>
     [CustomEditor(typeof(SearchDataYoutube))]
     public class SearchDataEditor : KaiyumScriptableObjectEditor
     {
@@ -135,6 +138,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
             data.showTagSetting = GUILayout.Toggle(data.showTagSetting, "Tag Settings");
             if (data.showTagSetting)
             {
+                EditorGUI.indentLevel += 1;
                 EditorGUILayout.PropertyField(serializedObject.FindProperty("blacklist.use"), IMGUIStatics.useBlacklist, true);
                 if (data.blacklist.use)
                 {
@@ -188,6 +192,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                         UpdateTags();
                     }
                 }
+                EditorGUI.indentLevel -= 1;
             }
 
             if (GUILayout.Button(ProcessButtonString))

@@ -8,7 +8,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
     {
         public static GUIContent useTitle, useDescription, useTags, useBlacklist, useWhitelist, categoryName, stringComparisonMode, isCaseSensitive,
             willShowUI, useViewCount, useLikeCount, useDislikeCount, useCommentCount, useDuration, useDateOperation, videoData, totalMinutes, 
-            sortMode, IsAscendingOrder, totalVideoCount;
+            sortMode, IsAscendingOrder, totalVideoCount, averageDuration, mediationDuration, frequentDuration;
         public static void CreateGUIContents()
         {
             useTitle = new GUIContent("Use title? ");
@@ -31,6 +31,9 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
             stringComparisonMode = new GUIContent("String Comparison Mode ");
             isCaseSensitive = new GUIContent("Case Sensitive Operation? ");
             willShowUI = new GUIContent("Show UI? ");
+            averageDuration = new GUIContent("Average Duration: ");
+            mediationDuration = new GUIContent("Median Duration: ");
+            frequentDuration = new GUIContent("Frequent Duration: ");
         }
     }
 }

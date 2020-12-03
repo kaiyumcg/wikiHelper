@@ -76,6 +76,9 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                 EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.videoData)), IMGUIStatics.videoData);
                 EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.totalMinutes)), IMGUIStatics.totalMinutes);
                 EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.totalVideoCount)), IMGUIStatics.totalVideoCount);
+                EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.averageVideoDuration)), IMGUIStatics.averageDuration);
+                EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.medianVideoDuration)), IMGUIStatics.mediationDuration);
+                EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.frequentVideoDuration)), IMGUIStatics.frequentDuration);
             }
             
             GUILayout.EndVertical();

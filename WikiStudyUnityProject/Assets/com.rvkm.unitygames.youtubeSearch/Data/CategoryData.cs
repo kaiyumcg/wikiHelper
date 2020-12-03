@@ -61,6 +61,8 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public float totalMinutes;
         [ReadOnly]
         public int totalVideoCount;
+        [ReadOnly]
+        public int averageVideoDuration, medianVideoDuration, frequentVideoDuration;
         public CategorySortMode sortMode;
         public bool AscendingOrder;
     }

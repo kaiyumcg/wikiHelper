@@ -421,9 +421,12 @@ MonoBehaviour:
     videoData: {fileID: 0}
     totalMinutes: 0
     totalVideoCount: 0
+    averageVideoDuration: 0
+    medianVideoDuration: 0
+    frequentVideoDuration: 0
     sortMode: 0
     AscendingOrder: 1
-  - categoryName: asdasdasd
+  - categoryName: sdadasdasd
     showUI: 0
     titleOp:
       use: 1
@@ -491,8 +494,11 @@ MonoBehaviour:
     videoData: {fileID: 0}
     totalMinutes: 0
     totalVideoCount: 0
+    averageVideoDuration: 0
+    medianVideoDuration: 0
+    frequentVideoDuration: 0
     sortMode: 0
     AscendingOrder: 0
   showTagSetting: 0
-  showCategorySetting: 1
+  showCategorySetting: 0
   textAreaSizeUI: 0.12146893
