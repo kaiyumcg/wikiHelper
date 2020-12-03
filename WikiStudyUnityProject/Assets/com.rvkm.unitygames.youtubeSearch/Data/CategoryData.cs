@@ -51,7 +51,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
     public class YoutubeCategory
     {
         public string categoryName;
-        public bool showUI;
+        public bool showUI, StrOpShow, IntOpShow, DurationAndDateOpShow, SortOpShow, OutputOptionShow;
         public StringSearchOp titleOp = null, descriptionOp = null, tagOp = null;
         public IntSearchOp viewCountOp = null, likeCountOp = null, dislikeCountOp = null, commentCountOp = null, durationOp = null;
         public DateSearchOp pubDateOp = null;

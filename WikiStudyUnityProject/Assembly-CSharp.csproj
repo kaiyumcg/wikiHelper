@@ -67,6 +67,7 @@
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\ScriptableObjectClasses\SearchDataYoutube.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\FullScreenLoadingUI.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\Utilities\WikiSaveDataUtility.cs" />
+    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\ReadOnlyAttribute.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\AppDataManager.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\ScriptableObjectClasses\YoutubeVideoData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\Test\LoaderUITester.cs" />
@@ -99,7 +100,6 @@
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Utility\Utility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Async\AsyncUtility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\WikiCon.cs" />
-    <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\ReadOnlyAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\UnityChannel_data_generated_\ytVideoData_json.txt" />

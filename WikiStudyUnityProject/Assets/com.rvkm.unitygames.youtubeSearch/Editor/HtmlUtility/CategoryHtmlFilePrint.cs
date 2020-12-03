@@ -5,9 +5,9 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace com.rvkm.unitygames.YouTubeSearch
+namespace com.rvkm.unitygames.YouTubeSearch.HtmlPrinter
 {
-    public static class HtmlFilePrintUtility
+    public static class CategoryHtmlFilePrint
     {
         /// <summary>
         /// https://stackoverflow.com/questions/31760560/collapsible-list-with-dynamically-loaded-content
@@ -77,73 +77,17 @@ html += menuItem;
 </body>
 </html> ";
 
-        public static void MakeTagWebPage(YoutubeVideoTags data, ref string errorMsgIfAny, Action OnHandleError)
+        public static void MakeCategoryWebPage(YoutubeCategory data, ref string errorMsgIfAny, Action OnHandleError)
         {
-            var upperTxt = HtmlFilePrintUtility.upperHtml;
-            var lowerTxt = HtmlFilePrintUtility.lowerHtml;
+            throw new System.NotImplementedException(); //TODO
+            var upperTxt = CategoryHtmlFilePrint.upperHtml;
+            var lowerTxt = CategoryHtmlFilePrint.lowerHtml;
             string htmlCode = upperTxt;
             string nl = Environment.NewLine;
-            var tags = data.allTags;
-            if (tags != null)
-            {
-                for (int i = 0; i < tags.Length; i++)
-                {
-                    var t = tags[i];
-                    if (t == null) { continue; }
-                    if (t.relatedWords == null
-                        || t.relatedWords.Length == 0)
-                    {
-                        //no child
-                        htmlCode += "{" + nl +
-                            " name: \"" + t.mainTag + "[S]" + "\"" + nl +
-                            "}";
-                        if (i != tags.Length - 1)
-                        {
-                            htmlCode += "," + nl;
-                        }
-                        else
-                        {
-                            htmlCode += nl;
-                        }
-                    }
-                    else
-                    {
-                        htmlCode += "{" + nl +
-                            " name: \"" + t.mainTag + "\"," + nl +
-                            " menu:" + nl +
-                            " [";
-                        for (int j = 0; j < t.relatedWords.Length; j++)
-                        {
-                            if (string.IsNullOrEmpty(t.relatedWords[j])) { continue; }
-                            htmlCode += "{" + nl +
-                           "  name: \"" + t.relatedWords[j] + "\"" + nl +
-                           "}";
-                            if (j != t.relatedWords.Length - 1)
-                            {
-                                htmlCode += "," + nl;
-                            }
-                            else
-                            {
-                                htmlCode += nl;
-                            }
-                        }
-                        htmlCode += "]" + nl +
-                            "}";
-                        if (i != tags.Length - 1)
-                        {
-                            htmlCode += "," + nl;
-                        }
-                        else
-                        {
-                            htmlCode += nl;
-                        }
-                    }
-                }
-            }
 
             htmlCode += lowerTxt;
 
-            var htmlSavepath = EditorUtility.SaveFilePanel("Save html files", "", "web_"+data.name+".html", "html");
+            var htmlSavepath = EditorUtility.SaveFilePanel("Save html files", "", "web_" + data.categoryName + ".html", "html");
             try
             {
                 File.WriteAllText(htmlSavepath, htmlCode);

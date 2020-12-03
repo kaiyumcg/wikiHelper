@@ -9,6 +9,7 @@ using System.Security.AccessControl;
 using System.Linq;
 using com.rvkm.unitygames.YouTubeSearch.Extensions;
 using com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility;
+using com.rvkm.unitygames.YouTubeSearch.HtmlPrinter;
 
 namespace com.rvkm.unitygames.YouTubeSearch
 {
@@ -36,6 +37,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
             CancelButtonString = nl + "Cancel" + nl;
             TagControl.InitControl();
             YouTubeControl.InitControl();
+            CategoryControl.InitControl();
             IMGUIStatics.CreateGUIContents();
         }
 
@@ -60,7 +62,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 }
                 ChannelDataEditorUtility.SaveYoutubeDataToDisk(serializedObject, data);
                 string errorMsgIfAny = "";
-                HtmlFilePrintUtility.MakeTagWebPage(data.tagData, ref errorMsgIfAny, () =>
+                TagsHtmlFilePrint.MakeTagWebPage(data.tagData, ref errorMsgIfAny, () =>
                 {
                     StopAllEditorCoroutines();
                     EditorUtility.DisplayDialog("Error!", "Tag Operation Error! meg: " + errorMsgIfAny, "Ok");
@@ -77,16 +79,31 @@ namespace com.rvkm.unitygames.YouTubeSearch
             edObject.ApplyModifiedProperties();
 
             busy = false;
-            if (TagControl.TagFetchOperationHasCompleted == false || YouTubeControl.YoutubeAPIOperationHasCompleted == false)
+            if (TagControl.TagFetchOperationHasCompleted == false || YouTubeControl.YoutubeAPIOperationHasCompleted == false || CategoryControl.categoryOperationHasCompleted == false)
             {
                 busy = true;
                 if (TagControl.TagFetchOperationHasCompleted == false) { progress = TagControl.TagFetchOperationProgress; }
-                else if (YouTubeControl.YoutubeAPIOperationHasCompleted== false) { progress = YouTubeControl.YoutubeAPIOperationProgress; }
+                else if (YouTubeControl.YoutubeAPIOperationHasCompleted == false) { progress = YouTubeControl.YoutubeAPIOperationProgress; }
+                else if (CategoryControl.categoryOperationHasCompleted == false) { progress = CategoryControl.categoryOperationProgress; }
             }
 
             if (busy)
             {
-                GUILayout.Label(TagControl.TagFetchOperationHasCompleted == false ? "Updating tags. Please wait..." : "Processing video information from youtube. Please wait...");
+                string status = "";
+                if (TagControl.TagFetchOperationHasCompleted)
+                {
+                    status = "Updating tags. Please wait...";
+                }
+                else if (CategoryControl.categoryOperationHasCompleted)
+                {
+                    status = "Processing category information from youtube. Please wait...";
+                }
+                else
+                {
+                    status = "Processing video information from youtube. Please wait...";
+                }
+
+                GUILayout.Label(status);
                 GUILayout.BeginHorizontal("box");
                 progress = (float)Math.Round((double)progress, 4);
                 
@@ -122,14 +139,19 @@ namespace com.rvkm.unitygames.YouTubeSearch
             data.showCategorySetting = GUILayout.Toggle(data.showCategorySetting, "Category Settings");
             if (data.showCategorySetting)
             {
-                
                 EditorGUI.indentLevel += 2;
-                PrintCategory.ShowCategoryArray(data.textAreaSizeUI, serializedObject.FindProperty("categories"), data.categories);
+                PrintCategory.ShowCategoryArray(data.textAreaSizeUI, serializedObject.FindProperty("categories"), data.categories, this);
                 if (GUILayout.Button(Environment.NewLine + "Categorize" + Environment.NewLine))
                 {
                     Debug.Log("Here we must categorize!");
                     //the video data should be created in similar name of this search
-                    throw new System.NotImplementedException(); //TODO
+                    CategoryControl.Categorize(ref data.categories, data.videoData, this, () =>
+                    {
+                        StopAllEditorCoroutines();
+                        EditorUtility.ClearProgressBar();
+                        EditorUtility.DisplayDialog("Success!", "Successfully done category task!", "Ok");
+                        busy = false;
+                    });
                 }
                 EditorGUI.indentLevel -= 2;
             }

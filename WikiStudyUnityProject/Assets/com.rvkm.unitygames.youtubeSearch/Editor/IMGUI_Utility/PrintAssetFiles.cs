@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using com.rvkm.unitygames.YouTubeSearch.HtmlPrinter;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
@@ -106,7 +107,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                 {
                     loadCalled = true;
                     string errorMsg = "";
-                    HtmlFilePrintUtility.MakeTagWebPage((YoutubeVideoTags)unityObjectData.objectReferenceValue, ref errorMsg, () =>
+                    TagsHtmlFilePrint.MakeTagWebPage((YoutubeVideoTags)unityObjectData.objectReferenceValue, ref errorMsg, () =>
                     {
                         EditorUtility.DisplayDialog("Error!", "Could not save and open the tag web page! msg: " + errorMsg, "Ok");
                     });
