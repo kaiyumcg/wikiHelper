@@ -354,12 +354,12 @@ MonoBehaviour:
     scrollPositionUI: {x: 0, y: 0}
   categories:
   - categoryName: film and animation
-    showUI: 0
+    showUI: 1
     StrOpShow: 1
     IntOpShow: 0
-    DurationAndDateOpShow: 1
+    DurationAndDateOpShow: 0
     SortOpShow: 0
-    OutputOptionShow: 1
+    OutputOptionShow: 0
     titleOp:
       use: 0
       caseSensitive: 1
@@ -381,7 +381,7 @@ MonoBehaviour:
       scrollBlacklistUI: {x: 0, y: 0}
       scrollWhitelistUI: {x: 0, y: 0}
     tagOp:
-      use: 1
+      use: 0
       caseSensitive: 1
       useWhitelist: 0
       useBlacklist: 0
@@ -420,8 +420,7 @@ MonoBehaviour:
 
         90 fps[S]
 
-        9-slice
-        sprite[S]
+        9-slice sprite[S]
 
         A*[S]
 
@@ -429,7 +428,7 @@ MonoBehaviour:
       scrollBlacklistUI: {x: 0, y: 0}
       scrollWhitelistUI: {x: 0, y: 0}
     viewCountOp:
-      use: 0
+      use: 1
       comparison: 1
       target: 9
     likeCountOp:
@@ -471,4 +470,5 @@ MonoBehaviour:
     AscendingOrder: 1
   showTagSetting: 0
   showCategorySetting: 1
+  showAllCategoryOutputUI: 0
   textAreaSizeUI: 0.11864407

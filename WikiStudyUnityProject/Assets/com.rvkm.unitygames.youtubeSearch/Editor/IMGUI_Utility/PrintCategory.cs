@@ -54,7 +54,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
 
                 if (catData.categoryName != "Uncategorized")
                 {
-                    catData.StrOpShow = EditorGUILayout.Foldout(catData.StrOpShow, "Word Operation groups");
+                    catData.StrOpShow = EditorGUILayout.Foldout(catData.StrOpShow, "Word Operations");
                     if (catData.StrOpShow)
                     {
                         EditorGUI.indentLevel += 1;
@@ -64,7 +64,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                         EditorGUI.indentLevel -= 1;
                     }
                     
-                    catData.IntOpShow = EditorGUILayout.Foldout(catData.IntOpShow, "Number Operation groups");
+                    catData.IntOpShow = EditorGUILayout.Foldout(catData.IntOpShow, "Number Operations");
                     if (catData.IntOpShow)
                     {
                         EditorGUI.indentLevel += 1;
@@ -75,7 +75,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                         EditorGUI.indentLevel -= 1;
                     }
                     
-                    catData.DurationAndDateOpShow = EditorGUILayout.Foldout(catData.DurationAndDateOpShow, "Time And/Or Date Operation groups");
+                    catData.DurationAndDateOpShow = EditorGUILayout.Foldout(catData.DurationAndDateOpShow, "Time And/Or Date Operations");
                     if (catData.DurationAndDateOpShow)
                     {
                         EditorGUI.indentLevel += 1;
@@ -124,8 +124,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                     }
                 }
 
-                catData.OutputOptionShow = EditorGUILayout.Foldout(catData.OutputOptionShow, "Output groups");
-
+                catData.OutputOptionShow = EditorGUILayout.Foldout(catData.OutputOptionShow, "Outputs");
                 if (catData.OutputOptionShow)
                 {
                     EditorGUI.indentLevel += 1;
@@ -139,9 +138,8 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                 }
                 EditorGUI.indentLevel -= 1;
             }
-            //EditorGUILayout.EndFoldoutHeaderGroup();
             GUILayout.EndVertical();
-            GUILayout.Space(30);
+            GUILayout.Space(10);
         }
 
         static void PrintStringOp(SerializedProperty prop, StringSearchOp op, GUIContent useGuiContent, string varName)
@@ -173,7 +171,6 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                     EditorGUILayout.EndScrollView();
                     EditorGUI.indentLevel -= 1;
                 }
-
                 EditorGUI.indentLevel -= 1;
             }
         }

@@ -20,6 +20,45 @@ namespace com.rvkm.unitygames.YouTubeSearch.Extensions
            //  return strList.Exists((s) => { return string.Equals(s, str, StringComparison.CurrentCultureIgnoreCase); });
         }
 
+        public static bool HasAnyOnItems(this string[] strList, string str, bool caseSensitive = false)
+        {
+            bool hasAny = false;
+            for (int i = 0; i < strList.Length; i++)
+            {
+                if (string.IsNullOrEmpty(strList[i])) { continue; }
+                if (caseSensitive)
+                {
+                    if (strList[i] == str) { hasAny = true; break; }
+                }
+                else
+                {
+                    if (string.Equals(strList[i], str, StringComparison.OrdinalIgnoreCase)) { hasAny = true; break; }
+                }
+            }
+            return hasAny;
+        }
+
+        public static bool ContainsOnItems(this string[] strList, string str, bool caseSensitive = false)
+        {
+            bool contains = false;
+            if (strList != null)
+            {
+                for (int i = 0; i < strList.Length; i++)
+                {
+                    if (string.IsNullOrEmpty(strList[i])) { continue; }
+                    if (caseSensitive)
+                    {
+                        if (strList[i].Contains(str)) { contains = true; break; }
+                    }
+                    else
+                    {
+                        if (strList[i].Contains_IgnoreCase(str)) { contains = true; break; }
+                    }
+                }
+            }
+            return contains;
+        }
+
         public static bool Contains_IgnoreCase(this string st, string str)
         {
             var st_lower = st.ToLower();

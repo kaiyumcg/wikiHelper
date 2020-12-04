@@ -18,7 +18,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public YoutubeVideoTags tagData;
         public TagSearchDescription blacklist, mustUseList;
         public YoutubeCategory[] categories;
-        public bool showTagSetting, showCategorySetting;
+        public bool showTagSetting, showCategorySetting, showAllCategoryOutputUI;
         public float textAreaSizeUI;
     }
 }

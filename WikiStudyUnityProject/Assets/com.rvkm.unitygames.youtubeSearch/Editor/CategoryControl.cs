@@ -11,6 +11,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public static float categoryOperationProgress { get; private set; }
         static YoutubeVideoData videoData;
         static YoutubeCategory[] cats;
+        static string errorMsgIfAny;
         public static void InitControl()
         {
             categoryOperationHasCompleted = true;
@@ -18,11 +19,14 @@ namespace com.rvkm.unitygames.YouTubeSearch
             
         }
 
-        public static void Categorize(ref YoutubeCategory[] catList, YoutubeVideoData videoData, SearchDataEditor editor, Action OnComplete)
+        public static void Categorize(ref YoutubeCategory[] cats, YoutubeVideoData videoData, SearchDataEditor editor, Action OnComplete, Action<string> OnErrorIfAny)
         {
             categoryOperationHasCompleted = false;
+            categoryOperationProgress = 0f;
+            errorMsgIfAny = "";
             CategoryControl.videoData = videoData;
-            CategoryControl.cats = catList;
+            CategoryControl.cats = cats;
+
 
             throw new System.NotImplementedException(); //TODO
         }

@@ -141,17 +141,33 @@ namespace com.rvkm.unitygames.YouTubeSearch
             {
                 EditorGUI.indentLevel += 2;
                 PrintCategory.ShowCategoryArray(data.textAreaSizeUI, serializedObject.FindProperty("categories"), data.categories, this);
-                if (GUILayout.Button(Environment.NewLine + "Categorize" + Environment.NewLine))
+                data.showAllCategoryOutputUI= EditorGUILayout.Foldout(data.showAllCategoryOutputUI, "Outputs of All Categories");
+                if (data.showAllCategoryOutputUI)
                 {
-                    Debug.Log("Here we must categorize!");
-                    //the video data should be created in similar name of this search
-                    CategoryControl.Categorize(ref data.categories, data.videoData, this, () =>
+                    GUILayout.BeginHorizontal("box");
+                    GUILayout.Label("To categorize all: ");
+                    if (GUILayout.Button(Environment.NewLine + "Categorize" + Environment.NewLine))
                     {
-                        StopAllEditorCoroutines();
-                        EditorUtility.ClearProgressBar();
-                        EditorUtility.DisplayDialog("Success!", "Successfully done category task!", "Ok");
-                        busy = false;
-                    });
+                        Debug.Log("Here we must categorize!");
+                        //the video data should be created in similar name of this search
+                        CategoryControl.Categorize(ref data.categories, data.videoData, this, () =>
+                        {
+                            StopAllEditorCoroutines();
+                            EditorUtility.ClearProgressBar();
+                            EditorUtility.DisplayDialog("Success!", "Successfully done category task!", "Ok");
+                            busy = false;
+                        },
+
+
+                        (errorMsg) =>
+                        {
+                            StopAllEditorCoroutines();
+                            EditorUtility.ClearProgressBar();
+                            EditorUtility.DisplayDialog("Error!", "Could not categorize. Msg: " + errorMsg, "Ok");
+                            busy = false;
+                        });
+                    }
+                    GUILayout.EndHorizontal();
                 }
                 EditorGUI.indentLevel -= 2;
             }
