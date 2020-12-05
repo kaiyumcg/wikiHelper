@@ -7,129 +7,67 @@ namespace com.rvkm.unitygames.YouTubeSearch
 {
     public static class DateTimeUtility
     {
-        public static float GetDurationInMinute(string durationStr)
+        static bool GetNumberBeforeACharacter(char c, string inputString, ref int number)
         {
-            string hStr = "", mStr = "", sStr = "";
-            if (durationStr.Contains("PT"))
+            int startIdx = -1;
+            startIdx = inputString.IndexOf(c);
+            if (startIdx < 0)
             {
-                durationStr = durationStr.Replace("PT", "");
+                return false;
             }
-
-            var cArray = durationStr.ToCharArray();
-            int h_id_start = 0, m_id_start = 0, s_id_start = 0;
-            for (int i = 0; i < cArray.Length; i++)
+            startIdx = startIdx - 1;
+            if (startIdx < 0)
             {
-                if (cArray[i] == 'H')
-                {
-                    h_id_start = i;
-                }
-                if (cArray[i] == 'M')
-                {
-                    m_id_start = i;
-                }
-                if (cArray[i] == 'S')
-                {
-                    s_id_start = i;
-                }
+                return false;
             }
-
-            if (durationStr.Contains("H"))
+            List<char> cList = new List<char>();
+            for (int i = startIdx; i > -1; i--)
             {
-                for (int i = 0; i < h_id_start; i++)
+                if (char.IsDigit(inputString[i]))
                 {
-                    if (char.IsDigit(cArray[i]) || cArray[i] == '.')
-                    {
-                        if (hStr.Contains("."))
-                        {
-                            if (char.IsDigit(cArray[i]))
-                            {
-                                hStr += cArray[i];
-                            }
-                        }
-                        else
-                        {
-                            hStr += cArray[i];
-                        }
-
-                    }
+                    cList.Add(inputString[i]);
+                }
+                else
+                {
+                    break;
                 }
             }
-
-            if (durationStr.Contains("M"))
+            cList.Reverse();
+            if (cList.Count <= 0)
             {
-                int m_end = 0;
-                for (int i = m_id_start - 1; i >= 0; i--)
-                {
-                    if (char.IsDigit(cArray[i]) == false && cArray[i] != '.')
-                    {
-                        m_end = i;
-                        break;
-                    }
-                }
-
-                if (m_end > 0)
-                {
-                    for (int i = m_end + 1; i < m_id_start; i++)
-                    {
-                        if (char.IsDigit(cArray[i]) || cArray[i] == '.')
-                        {
-                            if (mStr.Contains("."))
-                            {
-                                if (char.IsDigit(cArray[i]))
-                                {
-                                    mStr += cArray[i];
-                                }
-                            }
-                            else
-                            {
-                                mStr += cArray[i];
-                            }
-                        }
-                    }
-                }
+                return false;
             }
 
-            if (durationStr.Contains("S"))
+            string NumStr = "";
+            for (int i = 0; i < cList.Count; i++)
             {
-                int s_end = 0;
-                for (int i = s_id_start - 1; i >= 0; i--)
-                {
-                    if (char.IsDigit(cArray[i]) == false && cArray[i] != '.')
-                    {
-                        s_end = i;
-                        break;
-                    }
-                }
-
-                if (s_end > 0)
-                {
-                    for (int i = s_end + 1; i < s_id_start; i++)
-                    {
-                        if (char.IsDigit(cArray[i]) || cArray[i] == '.')
-                        {
-                            if (sStr.Contains("."))
-                            {
-                                if (char.IsDigit(cArray[i]))
-                                {
-                                    sStr += cArray[i];
-                                }
-                            }
-                            else
-                            {
-                                sStr += cArray[i];
-                            }
-                        }
-                    }
-                }
+                NumStr += cList[i];
             }
-            float hour = 0f;
-            float minute = 0f;
-            float second = 0f;
-            float.TryParse(hStr, out hour);
-            float.TryParse(mStr, out minute);
-            float.TryParse(sStr, out second);
 
-            return hour * 60f + minute + (second / 60f);
+            var convSuccess = int.TryParse(NumStr, out number);
+            if (!convSuccess)
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        public static int GetDurationInMinute(string durationStr, ref bool success)
+        {
+            int hour = 0, minute = 0, second = 0, day = 0;
+            var hSuccess = GetNumberBeforeACharacter('H', durationStr, ref hour);
+            var mSuccess = GetNumberBeforeACharacter('M', durationStr, ref minute);
+            var sSuccess = GetNumberBeforeACharacter('S', durationStr, ref second);
+            var dSuccess = GetNumberBeforeACharacter('D', durationStr, ref day);
+            var min = day * 24 * 60 + hour * 60 + minute + (int)((float)second / (float)60);
+
+            success = true;
+            if (durationStr.Contains("H") && hSuccess == false) { success = false; }
+            if (durationStr.Contains("M") && mSuccess == false) { success = false; }
+            if (durationStr.Contains("S") && sSuccess == false) { success = false; }
+            if (durationStr.Contains("D") && dSuccess == false) { success = false; }
+            return min;
         }
 
         public static bool GetDate(string publishedDateStr, ref DateTime publishedDate)

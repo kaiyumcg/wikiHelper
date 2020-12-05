@@ -11,8 +11,6 @@ namespace com.rvkm.unitygames.YouTubeSearch
     {
         public static bool categoryOperationHasCompleted { get; private set; }
         public static float categoryOperationProgress { get; private set; }
-        static SearchDataYoutube data;
-        static string errorMsgIfAny;
         public static void InitControl()
         {
             categoryOperationHasCompleted = true;
@@ -20,19 +18,16 @@ namespace com.rvkm.unitygames.YouTubeSearch
             
         }
 
-        public static void Categorize(ref SearchDataYoutube data, SearchDataEditor editor, Action OnComplete, Action<string> OnErrorIfAny)
+        public static void Categorize(ref SearchDataYoutube data, SearchDataEditor editor)
         {
             categoryOperationHasCompleted = false;
             categoryOperationProgress = 0f;
-            errorMsgIfAny = "";
-            CategoryControl.data = data;
 
             if (data == null || data.videoData == null || data.videoData.allVideos == null || data.videoData.allVideos.Length == 0
                 || data.categories == null || data.categories.Length == 0)
             {
                 categoryOperationHasCompleted = true;
                 categoryOperationProgress = 0f;
-                OnErrorIfAny?.Invoke("Check the category data and/or video data. Those are invalid!");
             }
 
             List<YoutubeVideo> vList = new List<YoutubeVideo>();
@@ -42,6 +37,8 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 var nVideo = new YoutubeVideo(video);
                 vList.Add(nVideo);
             }
+
+
 
             Dictionary<YoutubeVideo, bool> usedFlags = new Dictionary<YoutubeVideo, bool>();
             foreach (var video in vList)
@@ -62,8 +59,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     }
                 }
 
-
-                if (data.catListType == CategoryListType.Exclusive)
+                if (data.categoryProcessType == CategoryListType.Exclusive)
                 {
                     Dictionary<YoutubeVideo, bool> delList = new Dictionary<YoutubeVideo, bool>();
                     foreach (var p in usedFlags)
@@ -81,7 +77,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     }
                 }
 
-                CreateVideoDataWithVideoList(ref data.categories[i], catVlist, data, OnErrorIfAny);
+                CreateOrLoadVideoDataWithVideoList(ref data.categories[i], catVlist, data);
             }
 
             int notUsedCount = 0;
@@ -116,11 +112,19 @@ namespace com.rvkm.unitygames.YouTubeSearch
             {
                 if (uncat == null)
                 {
-                    //create uncat 
+                    Debug.Log("we need to create it!");
                     uncat = new YoutubeCategory() { categoryName = "Uncategorized" };
                 }
-                CreateVideoDataWithVideoList(ref uncat, notUsedVideos, data, OnErrorIfAny);
-                uncat.UpdateStat(OnErrorIfAny);
+                CreateOrLoadVideoDataWithVideoList(ref uncat, notUsedVideos, data);
+                uncat.UpdateStat();
+                List<YoutubeCategory> cList = new List<YoutubeCategory>();
+                foreach (var c in data.categories) 
+                {
+                    if (c.categoryName == "Uncategorized") { continue; }
+                    cList.Add(c);
+                }
+                cList.Add(uncat);
+                data.categories = cList.ToArray();
             }
             else
             {
@@ -134,28 +138,21 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     }
                 }
             }
-
             categoryOperationHasCompleted = true;
         }
-
-
-        public static void SortVideos(ref YoutubeCategory category, Action<string> OnErrorIfAny)
-        {
-            var success = category.Sort(OnErrorIfAny);
-        }
-
-        static void CreateVideoDataWithVideoList(ref YoutubeCategory cat, List<YoutubeVideo> catVlist, SearchDataYoutube originalData, 
-            Action<string> OnErrorIfAny)
+        static void CreateOrLoadVideoDataWithVideoList(ref YoutubeCategory cat, List<YoutubeVideo> catVlist, SearchDataYoutube originalData)
         {
             string dirRel = UrlUtility.GetDataDirRelative(originalData.videoData);
-            string assetPathRel = Path.Combine(dirRel, cat.categoryName + "_vData_.asset");
+            string catName = cat.categoryName;
+            catName = catName.Replace(" ", "_");
+            string assetPathRel = Path.Combine(dirRel, catName + "_vData_.asset");
             assetPathRel = assetPathRel.Replace('\\', '/');
             string assetPathAbs = UrlUtility.GetAbsolutePath(assetPathRel);
             if (File.Exists(assetPathAbs) == false)
             {
                 //create
                 cat.videoData = ScriptableObject.CreateInstance<YoutubeVideoData>();
-                AssetDatabase.CreateAsset(data, assetPathRel);
+                AssetDatabase.CreateAsset(cat.videoData, assetPathRel);
             }
             else
             {
@@ -167,11 +164,10 @@ namespace com.rvkm.unitygames.YouTubeSearch
             cat.videoData.searchName = originalData.SearchName;
             cat.videoData.belongedCategory = cat.categoryName;
             cat.videoData.allVideos = catVlist.ToArray();
-            cat.UpdateStat(OnErrorIfAny);
-            cat.Sort(OnErrorIfAny);
+            cat.UpdateStat();
+            cat.Sort();
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();
         }
-
     }
 }

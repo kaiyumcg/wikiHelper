@@ -17,7 +17,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
             useDescription = new GUIContent("Use Description? ");
             useTags = new GUIContent("Use YouTube Video tags? ");
             useBlacklist = new GUIContent("Use blacklist? ");
-            useWhitelist = new GUIContent("Use Exclusive whitelist? ");
+            useWhitelist = new GUIContent("Use whitelist? ");
             useViewCount = new GUIContent("Use view count? ");
             useLikeCount = new GUIContent("Use like count? ");
             useDislikeCount = new GUIContent("Use dislike count? ");

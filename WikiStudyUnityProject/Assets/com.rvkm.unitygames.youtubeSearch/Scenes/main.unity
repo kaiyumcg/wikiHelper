@@ -327,13 +327,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f56c3e095ed34abdc856d4e901f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  year: 2020
-  month: 12
-  day: 1
-  hour: 1
-  minute: 1
-  second: 1
-  addDays: 0
+  inputStr: PT13M55S
+  totalMins: 0
+  success: 0
+  urlTest: https://www.youtube.com/watch?v=yqCHiZrgKzs&amp;t=1622s
 --- !u!4 &2124332765
 Transform:
   m_ObjectHideFlags: 0

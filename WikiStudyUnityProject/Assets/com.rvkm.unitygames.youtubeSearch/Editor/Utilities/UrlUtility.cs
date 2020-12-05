@@ -30,8 +30,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
         {
             relativePath = GetRelativePath(relativePath);
             relativePath = relativePath.Replace('/', '\\');
-            FileAttributes attr = File.GetAttributes(relativePath);
-            if ((attr & FileAttributes.Directory) == FileAttributes.Directory)
+            if (relativePath.EndsWith("/") || relativePath.EndsWith("\\"))
             {
                 DirectoryInfo nfo = new DirectoryInfo(relativePath);
                 return nfo.FullName;

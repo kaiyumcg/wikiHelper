@@ -96,11 +96,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                             Debug.Log("Here we must sort!");
                             if (catData != null && catData.videoData != null && catData.videoData.allVideos != null && catData.videoData.allVideos.Length > 0)
                             {
-                                CategoryControl.SortVideos(ref catData, (errMsgIfAny) =>
-                                {
-                                    editor.StopAllEditorCoroutines();
-                                    EditorUtility.DisplayDialog("Error!", "Category Operation Error! meg: " + errMsgIfAny, "Ok");
-                                });
+                                catData.Sort();
                             }
                         }
 

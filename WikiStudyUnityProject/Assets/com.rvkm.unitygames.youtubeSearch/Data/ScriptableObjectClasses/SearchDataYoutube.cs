@@ -21,7 +21,10 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public bool showTagSetting, showCategorySetting, showAllCategoryOutputUI;
         public float textAreaSizeUI;
         public bool publishedYearInHtml, durationInHtml, showThumbnailInHtml, viewCountInHtml, likeCountInHtml, dislikeCountInHtml, commentCountInHtml;
-        public CategoryListType catListType;
+        public CategoryListType categoryProcessType;
+        public bool dataGenerationTestMode;
+        public int dataGenerationCountForTestMode;
+        public bool forceUpdateForGeneration;
     }
     public enum CategoryListType { Associative, Exclusive }
 }

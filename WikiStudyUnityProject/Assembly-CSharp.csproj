@@ -106,11 +106,8 @@
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\UnityChannel_data_generated_\ytVideoData_json.txt" />
      <None Include="Assets\Packages\HtmlAgilityPack.1.11.24\lib\netstandard2.0\HtmlAgilityPack.xml" />
      <None Include="Assets\Packages\HtmlAgilityPack.1.11.24\lib\netstandard2.0\HtmlAgilityPack.dll" />
-     <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\tagDataUnityChannel\chosenTags.txt" />
-     <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\tagDataUnityChannel\industries.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\channel.xml" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\UnityChannel_data_generated_\ytTagData_json.txt" />
-     <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\tagDataUnityChannel\junkTags.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

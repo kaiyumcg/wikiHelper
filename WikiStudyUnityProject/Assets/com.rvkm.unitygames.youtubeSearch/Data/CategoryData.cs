@@ -18,6 +18,49 @@ namespace com.rvkm.unitygames.YouTubeSearch
         [HideInInspector]
         public Vector2 scrollBlacklistUI, scrollWhitelistUI;
 
+        bool MatchesInTheList(string[] strList, string str, bool caseSensitive = false)
+        {
+            bool hasAny = false;
+            if (strList != null)
+            {
+                for (int i = 0; i < strList.Length; i++)
+                {
+                    if (string.IsNullOrEmpty(strList[i])) { continue; }
+                    if (caseSensitive)
+                    {
+                        if (strList[i] == str) { hasAny = true; break; }
+                    }
+                    else
+                    {
+                        if (string.Equals(strList[i], str, StringComparison.OrdinalIgnoreCase)) { hasAny = true; break; }
+                    }
+                }
+            }
+            
+            return hasAny;
+        }
+
+        bool ContainsInTheList(string[] strList, string str, bool caseSensitive = false)
+        {
+            bool contains = false;
+            if (strList != null)
+            {
+                for (int i = 0; i < strList.Length; i++)
+                {
+                    if (string.IsNullOrEmpty(strList[i])) { continue; }
+                    if (caseSensitive)
+                    {
+                        if (str.Contains(strList[i])) { contains = true; break; }
+                    }
+                    else
+                    {
+                        if (str.Contains_IgnoreCase(strList[i])) { contains = true; break; }
+                    }
+                }
+            }
+            return contains;
+        }
+
         public bool IsPassed(string str)
         {
             if (!use) { return true; }
@@ -27,18 +70,19 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 if (useBlacklist)
                 {
                     var blacklist = Utility.SplitByComaOrNewline(blacklistedWords);
-                    passed = compMode == StrSearchComp.ContainsOnAnyParts ? blacklist.ContainsOnItems(str, caseSensitive) : blacklist.HasAnyOnItems(str, caseSensitive);
+                    passed = compMode == StrSearchComp.ContainsOnAnyParts ? ContainsInTheList(blacklist, str, caseSensitive) : MatchesInTheList(blacklist, str, caseSensitive);
                 }
 
                 if (useWhitelist)
                 {
                     var whitelist = Utility.SplitByComaOrNewline(whitelistedWords);
-                    passed = compMode == StrSearchComp.ContainsOnAnyParts ? whitelist.ContainsOnItems(str, caseSensitive) : whitelist.HasAnyOnItems(str, caseSensitive);
+                    passed = compMode == StrSearchComp.ContainsOnAnyParts ? ContainsInTheList(whitelist, str, caseSensitive) : MatchesInTheList(whitelist, str, caseSensitive);
                 }
             }
 
             return passed;
         }
+
 
         public bool IsPassed(string[] strs)
         {
@@ -61,7 +105,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
         }
     }
 
-    public enum StrSearchComp { ContainsOnAnyParts = 0, Match = 1 }
+    public enum StrSearchComp { ContainsOnAnyParts = 0, ExactMatch = 1 }
     public enum IntSearchComp { Equal = 0, LessthanOrEqual = 1, GreaterthanOrEqual = 2, Greaterthan = 3, Lessthan = 4, NotEqual = 5 }
     public enum IntSearchCompMode { SingleTarget = 0, InBetween = 1}
     public enum IntSearchBetweenMode { OutsideRange = 0, InsideRange = 1, EitherExtreme = 2, MinExtremeSide = 3, MaxExtremeSide = 4 }
@@ -210,12 +254,26 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
         public bool IsSatisfiedByVideo(YoutubeVideo video)
         {
-            return titleOp.IsPassed(video.title) && descriptionOp.IsPassed(video.description) && tagOp.IsPassed(video.tags)
-                && viewCountOp.IsPassed(video.viewCount) && likeCountOp.IsPassed(video.likeCount) && dislikeCountOp.IsPassed(video.dislikeCount)
-                && commentCountOp.IsPassed(video.commentCount) && durationOp.IsPassed(video.durationInMinutes) && pubDateOp.IsPassed(video.publishedAtDate);
+            bool titlePass = titleOp.IsPassed(video.title);
+            bool descPass = descriptionOp.IsPassed(video.description);
+            bool tagsPass = tagOp.IsPassed(video.tags);
+            bool viewCountPass = viewCountOp.IsPassed(video.viewCount);
+            bool likeCountPass = likeCountOp.IsPassed(video.likeCount);
+            bool dislikeCountPass = dislikeCountOp.IsPassed(video.dislikeCount);
+            bool commentCountPass = commentCountOp.IsPassed(video.commentCount);
+            bool durationPass = durationOp.IsPassed(video.durationInMinutes);
+            //if (video.durationInMinutes > 2)
+            //{
+            //    Debug.Log("bag valluk!");
+            //}
+            bool pubDatePass = pubDateOp.IsPassed(video.publishedAtDate);
+            //Debug.Log("titlePass? " + titlePass + " and descPass? " + descPass + " and tagsPass? " + tagsPass + " and viewCountPass? " + viewCountPass +
+            //    " and likeCountPass? " + likeCountPass + " and dislikeCountPass? " + dislikeCountPass + " and commentCountPass? " + commentCountPass +
+            //    " and durationPass? " + durationPass + " and pubDatePass? " + pubDatePass);
+            return titlePass && descPass && tagsPass && viewCountPass && likeCountPass && dislikeCountPass && commentCountPass && durationPass && pubDatePass;
         }
 
-        public bool UpdateStat(Action<string> OnErrorIfAny)
+        public bool UpdateStat()
         {
             totalMinutes = 0f;
             totalVideoCount = averageVideoDuration = medianVideoDuration = frequentVideoDuration = 0;
@@ -231,7 +289,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
             return true;
         }
 
-        public bool Sort(Action<string> OnErrorIfAny)
+        public bool Sort()
         {
             return true;
             //throw new NotImplementedException();

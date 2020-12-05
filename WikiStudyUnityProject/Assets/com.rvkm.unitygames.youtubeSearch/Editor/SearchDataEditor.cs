@@ -24,8 +24,8 @@ namespace com.rvkm.unitygames.YouTubeSearch
         static bool busy;
         string nl;
         string ProcessButtonString, UpdateTagButtonString, CancelButtonString;
-        public List<string> debugList = new List<string>();
-
+        //public List<string> debugList = new List<string>();
+        bool loadWindowCalled = false;
         public override void OnEnableScriptableObject()
         {
             data = (SearchDataYoutube)target;
@@ -39,6 +39,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
             YouTubeControl.InitControl();
             CategoryControl.InitControl();
             IMGUIStatics.CreateGUIContents();
+            loadWindowCalled = false;
         }
 
         public override void OnDisableScriptableObject()
@@ -72,12 +73,13 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
         public override void OnUpdateScriptableObject()
         {
-            var edObject = new SerializedObject(this);
-            edObject.Update();
-            EditorGUILayout.PropertyField(edObject.FindProperty("debugList"), true);
-            EditorUtility.SetDirty(this);
-            edObject.ApplyModifiedProperties();
+            //var edObject = new SerializedObject(this);
+            //edObject.Update();
+            //EditorGUILayout.PropertyField(edObject.FindProperty("debugList"), true);
+            //EditorUtility.SetDirty(this);
+            //edObject.ApplyModifiedProperties();
 
+            loadWindowCalled = false;
             busy = false;
             if (TagControl.TagFetchOperationHasCompleted == false || YouTubeControl.YoutubeAPIOperationHasCompleted == false || CategoryControl.categoryOperationHasCompleted == false)
             {
@@ -109,8 +111,11 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 
                 GUILayout.Label("Progress: ");
                 GUILayout.Button("" + (100 * progress) + "% ");
-                //progress = EditorGUILayout.Slider(progress, 0f, 1f);
-                GUILayout.EndHorizontal();
+                if (loadWindowCalled == false)
+                {
+                    GUILayout.EndHorizontal();
+                }
+                
 
                 GUILayout.Space(10);
                 if (GUILayout.Button(CancelButtonString))
@@ -120,6 +125,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     EditorUtility.DisplayDialog("Error!", "Operation aborted by user!", "Ok");
                     TagControl.InitControl();
                     YouTubeControl.InitControl();
+                    loadWindowCalled = true;
                     busy = false;
                 }
                 return;
@@ -129,18 +135,26 @@ namespace com.rvkm.unitygames.YouTubeSearch
             GUILayout.Label("Text Area global Size: ");
             data.textAreaSizeUI = GUILayout.HorizontalSlider(data.textAreaSizeUI, 0f, 1f);
             GUILayout.Space(30);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("SearchName"), true);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("APIKEY"), true);
-            PrintAssetFiles.ShowArrayWithBrowseOption<TextAsset>(serializedObject.FindProperty("InputHtmlFiles"), data);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("InputUrls"), true);
-            PrintAssetFiles.ShowDataWithBrowseOption<YoutubeVideoData>(serializedObject.FindProperty("videoData"), data);
-            PrintAssetFiles.ShowDataWithBrowseOption<YoutubeVideoTags>(serializedObject.FindProperty("tagData"), data);
+
+            EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.dataGenerationTestMode)), true);
+            if (data.dataGenerationTestMode)
+            {
+                EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.dataGenerationCountForTestMode)), true);
+            }
+
+            EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.forceUpdateForGeneration)), true);
+            EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.SearchName)), true);
+            EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.APIKEY)), true);
+            PrintAssetFiles.ShowArrayWithBrowseOption<TextAsset>(serializedObject.FindProperty(nameof(data.InputHtmlFiles)), data);
+            EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.InputUrls)), true);
+            PrintAssetFiles.ShowDataWithBrowseOption<YoutubeVideoData>(serializedObject.FindProperty(nameof(data.videoData)), data);
+            PrintAssetFiles.ShowDataWithBrowseOption<YoutubeVideoTags>(serializedObject.FindProperty(nameof(data.tagData)), data);
             
             data.showCategorySetting = GUILayout.Toggle(data.showCategorySetting, "Category Settings");
             if (data.showCategorySetting)
             {
                 EditorGUI.indentLevel += 2;
-                PrintCategory.ShowCategoryArray(data.textAreaSizeUI, serializedObject.FindProperty("categories"), data.categories, this);
+                PrintCategory.ShowCategoryArray(data.textAreaSizeUI, serializedObject.FindProperty(nameof(data.categories)), data.categories, this);
                 data.showAllCategoryOutputUI= EditorGUILayout.Foldout(data.showAllCategoryOutputUI, "Outputs Group");
                 if (data.showAllCategoryOutputUI)
                 {
@@ -148,23 +162,13 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     GUILayout.Label("");
                     if (GUILayout.Button(Environment.NewLine + "Categorize" + Environment.NewLine))
                     {
-                        Debug.Log("Here we must categorize!");
                         //the video data should be created in similar name of this search
-                        CategoryControl.Categorize(ref data, this, () =>
-                        {
-                            StopAllEditorCoroutines();
-                            EditorUtility.ClearProgressBar();
-                            EditorUtility.DisplayDialog("Success!", "Successfully done category task!", "Ok");
-                            busy = false;
-                        },
-
-                        (errorMsg) =>
-                        {
-                            StopAllEditorCoroutines();
-                            EditorUtility.ClearProgressBar();
-                            EditorUtility.DisplayDialog("Error!", "Could not categorize. Msg: " + errorMsg, "Ok");
-                            busy = false;
-                        });
+                        CategoryControl.Categorize(ref data, this);
+                        StopAllEditorCoroutines();
+                        EditorUtility.ClearProgressBar();
+                        EditorUtility.DisplayDialog("Success!", "Successfully done category task!", "Ok");
+                        busy = false;
+                        loadWindowCalled = true;
                     }
 
                     if (GUILayout.Button(Environment.NewLine + "Open Html" + Environment.NewLine))
@@ -179,19 +183,27 @@ namespace com.rvkm.unitygames.YouTubeSearch
                                 EditorUtility.DisplayDialog("Error!", "Category Operation Error! meg: " + errMsgIfAny, "Ok");
                             });
                         }
+                        loadWindowCalled = true;
                     }
-                    GUILayout.EndHorizontal();
-
+                    if (loadWindowCalled == false)
+                    {
+                        GUILayout.EndHorizontal();
+                    }
+                    
                     GUILayout.BeginVertical("box");
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty("publishedYearInHtml"), IMGUIStatics.printPublishedYearInHtml, true);
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty("durationInHtml"), IMGUIStatics.printDurationInHtml, true);
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty("showThumbnailInHtml"), IMGUIStatics.printThumbnailInHtml, true);
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty("viewCountInHtml"), IMGUIStatics.printViewCountInHtml, true);
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty("likeCountInHtml"), IMGUIStatics.printLikeCountInHtml, true);
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty("dislikeCountInHtml"), IMGUIStatics.printDislikeCountInHtml, true);
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty("commentCountInHtml"), IMGUIStatics.printCommentCountInHtml, true);
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty("catListType"), IMGUIStatics.categoryListType, true);
-                    GUILayout.EndVertical();
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.publishedYearInHtml)), IMGUIStatics.printPublishedYearInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.durationInHtml)), IMGUIStatics.printDurationInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.showThumbnailInHtml)), IMGUIStatics.printThumbnailInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.viewCountInHtml)), IMGUIStatics.printViewCountInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.likeCountInHtml)), IMGUIStatics.printLikeCountInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.dislikeCountInHtml)), IMGUIStatics.printDislikeCountInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.commentCountInHtml)), IMGUIStatics.printCommentCountInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.categoryProcessType)), IMGUIStatics.categoryListType, true);
+
+                    if (loadWindowCalled == false)
+                    {
+                        GUILayout.EndVertical();
+                    }
                 }
                 EditorGUI.indentLevel -= 2;
             }
@@ -201,41 +213,53 @@ namespace com.rvkm.unitygames.YouTubeSearch
             if (data.showTagSetting)
             {
                 EditorGUI.indentLevel += 1;
-                EditorGUILayout.PropertyField(serializedObject.FindProperty("blacklist.use"), IMGUIStatics.useBlacklist, true);
+                var serBlack = serializedObject.FindProperty(nameof(data.blacklist));
+                
+                EditorGUILayout.PropertyField(serBlack.FindPropertyRelative(nameof(data.blacklist.use)), IMGUIStatics.useBlacklist, true);//serializedObject.FindProperty("blacklist.use")
                 if (data.blacklist.use)
                 {
                     EditorGUI.indentLevel += 1;
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty("blacklist.useFiles"), true);
+                    EditorGUILayout.PropertyField(serBlack.FindPropertyRelative(nameof(data.blacklist.useFiles)), true);
                     if (data.blacklist.useFiles)
                     {
-                        PrintAssetFiles.ShowArrayWithBrowseOption<TextAsset>(serializedObject.FindProperty("blacklist.textFiles"), data);
+                        EditorGUI.indentLevel += 1;
+                        PrintAssetFiles.ShowArrayWithBrowseOption<TextAsset>(serBlack.FindPropertyRelative(nameof(data.blacklist.textFiles)), data);
+                        EditorGUI.indentLevel -= 1;
                     }
 
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty("blacklist.useTextArea"), true);
+                    EditorGUILayout.PropertyField(serBlack.FindPropertyRelative(nameof(data.blacklist.useTextArea)), true);
                     if (data.blacklist.useTextArea)
                     {
+                        EditorGUI.indentLevel += 1;
                         data.blacklist.scrollPositionUI = EditorGUILayout.BeginScrollView(data.blacklist.scrollPositionUI);
                         data.blacklist.textAreaString = EditorGUILayout.TextArea(data.blacklist.textAreaString, GUILayout.Height(Screen.height - Screen.height * 0.67f));
+                        EditorGUI.indentLevel -= 1;
                         EditorGUILayout.EndScrollView();
                     }
                     EditorGUI.indentLevel -= 1;
                 }
                 GUILayout.Space(10);
-                EditorGUILayout.PropertyField(serializedObject.FindProperty("mustUseList.use"), IMGUIStatics.useWhitelist, true);
+
+                var serWhite = serializedObject.FindProperty(nameof(data.mustUseList));
+                EditorGUILayout.PropertyField(serWhite.FindPropertyRelative(nameof(data.mustUseList.use)), IMGUIStatics.useWhitelist, true);
                 if (data.mustUseList.use)
                 {
                     EditorGUI.indentLevel += 1;
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty("mustUseList.useFiles"), true);
+                    EditorGUILayout.PropertyField(serWhite.FindPropertyRelative(nameof(data.mustUseList.useFiles)), true);
                     if (data.mustUseList.useFiles)
                     {
-                        PrintAssetFiles.ShowArrayWithBrowseOption<TextAsset>(serializedObject.FindProperty("mustUseList.textFiles"), data);
+                        EditorGUI.indentLevel += 1;
+                        PrintAssetFiles.ShowArrayWithBrowseOption<TextAsset>(serWhite.FindPropertyRelative(nameof(data.mustUseList.textFiles)), data);
+                        EditorGUI.indentLevel -= 1;
                     }
 
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty("mustUseList.useTextArea"), true);
+                    EditorGUILayout.PropertyField(serWhite.FindPropertyRelative(nameof(data.mustUseList.useTextArea)), true);
                     if (data.mustUseList.useTextArea)
                     {
+                        EditorGUI.indentLevel += 1;
                         data.mustUseList.scrollPositionUI = EditorGUILayout.BeginScrollView(data.mustUseList.scrollPositionUI);
                         data.mustUseList.textAreaString = EditorGUILayout.TextArea(data.mustUseList.textAreaString, GUILayout.Height(Screen.height - Screen.height * 0.67f));
+                        EditorGUI.indentLevel -= 1;
                         EditorGUILayout.EndScrollView();
                     }
                     EditorGUI.indentLevel -= 1;
@@ -253,12 +277,14 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     {
                         UpdateTags();
                     }
+                    loadWindowCalled = true;
                 }
                 EditorGUI.indentLevel -= 1;
             }
 
             if (GUILayout.Button(ProcessButtonString))
             {
+                loadWindowCalled = true;
                 YoutubeVideoData vData = null;
                 YoutubeVideoTags tData = null;
                 var dataObtained = DependencyDataUtility.GetDependencyDataIfAny(data, ref vData, ref tData);
@@ -308,10 +334,9 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 }
 
                 EditorUtility.ClearProgressBar();
-                var cor = EditorCoroutineUtility.StartCoroutine(YouTubeControl.LoopAllYoutubeAPI(vList, data.APIKEY, this, (procList) =>
+                var cor = EditorCoroutineUtility.StartCoroutine(YouTubeControl.LoopAllYoutubeAPI(vList, data.APIKEY, this, data, (procList) =>
                 {
                     data.videoData.allVideos = procList.ToArray();
-                    UpdateTags();
                 }), this);
                 AllCoroutines.Add(cor);
                 vSer.ApplyModifiedProperties();

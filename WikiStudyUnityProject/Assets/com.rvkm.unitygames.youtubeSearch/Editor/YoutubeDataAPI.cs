@@ -77,8 +77,14 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     //item.contentDetails.duration
                     if (item.contentDetails != null && string.IsNullOrEmpty(item.contentDetails.duration) == false)
                     {
-                        video.durationInMinutes = (int)DateTimeUtility.GetDurationInMinute(item.contentDetails.duration);
-                        durationOk = true;
+                        bool success = false;
+                        float durationValue = DateTimeUtility.GetDurationInMinute(item.contentDetails.duration, ref success);
+                        if (success)
+                        {
+                            Debug.Log("we got duration: " + durationValue);
+                            video.durationInMinutes = (int)durationValue;
+                            durationOk = true;
+                        }
                     }
 
                     if (item.snippet != null)
@@ -92,6 +98,8 @@ namespace com.rvkm.unitygames.YouTubeSearch
                             if (success)
                             {
                                 video.publishedAtDate = pubDate.Ticks;
+                                DateTime dt = new DateTime(video.publishedAtDate);
+                                video.publisdedDate = new OurDateTime() { year = dt.Year, month = dt.Month, day = dt.Day };
                                 pubDateOk = true;
                             }
                         }

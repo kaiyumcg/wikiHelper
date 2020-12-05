@@ -20,7 +20,7 @@ MonoBehaviour:
   videoData: {fileID: 11400000, guid: a26ab8c0b1890b449910723e48b1a173, type: 2}
   tagData: {fileID: 11400000, guid: 8a50b1d13e7b9084984ae16b2ca5697b, type: 2}
   blacklist:
-    use: 1
+    use: 0
     useTextArea: 0
     useFiles: 1
     textAreaString: 'asdadasd
@@ -350,19 +350,21 @@ MonoBehaviour:
     useTextArea: 0
     useFiles: 0
     textAreaString: Profession
-    textFiles: []
+    textFiles:
+    - {fileID: 0}
+    - {fileID: 0}
     scrollPositionUI: {x: 0, y: 0}
   categories:
-  - categoryName: film and animation
+  - categoryName: Uncategorized
     showUI: 1
     StrOpShow: 0
     IntOpShow: 0
-    DurationAndDateOpShow: 1
+    DurationAndDateOpShow: 0
     SortOpShow: 0
-    OutputOptionShow: 0
+    OutputOptionShow: 1
     titleOp:
       use: 0
-      caseSensitive: 1
+      caseSensitive: 0
       useWhitelist: 0
       useBlacklist: 0
       compMode: 0
@@ -382,57 +384,20 @@ MonoBehaviour:
       scrollWhitelistUI: {x: 0, y: 0}
     tagOp:
       use: 0
-      caseSensitive: 1
+      caseSensitive: 0
       useWhitelist: 0
       useBlacklist: 0
       compMode: 0
       blacklistedWords: 
-      whitelistedWords: '#hangoutsonair[S]
-
-        #hoa[S]
-
-        #madewithunity[S]
-
-        #unitytips[S]
-
-        .NET
-        Framework (Software)[S]
-
-        1979 Revolution: Black Friday[S]
-
-        2.5D[S]
-
-        2D
-
-        360
-        video
-
-        3D
-
-        3rd person
-
-        5 great assets
-
-        5
-        Lives Studios[S]
-
-        7dfps[S]
-
-        90 fps[S]
-
-        9-slice sprite[S]
-
-        A*[S]
-
-        AAA'
+      whitelistedWords: 
       scrollBlacklistUI: {x: 0, y: 0}
       scrollWhitelistUI: {x: 0, y: 0}
     viewCountOp:
-      use: 1
-      comparison: 1
+      use: 0
+      comparison: 0
       mode: 0
       betweenMode: 0
-      target: 9
+      target: 0
       targetMin: 0
       targetMax: 0
     likeCountOp:
@@ -440,7 +405,7 @@ MonoBehaviour:
       comparison: 0
       mode: 0
       betweenMode: 0
-      target: 19
+      target: 0
       targetMin: 0
       targetMax: 0
     dislikeCountOp:
@@ -456,38 +421,38 @@ MonoBehaviour:
       comparison: 0
       mode: 0
       betweenMode: 0
-      target: 105
+      target: 0
       targetMin: 0
       targetMax: 0
     durationOp:
-      use: 1
-      comparison: 3
-      mode: 1
-      betweenMode: 1
+      use: 0
+      comparison: 0
+      mode: 0
+      betweenMode: 0
       target: 0
       targetMin: 0
       targetMax: 0
     pubDateOp:
       use: 0
-      target: 7
+      target: 0
       startDate:
-        year: 1971
-        month: 1
-        day: 1
+        year: 0
+        month: 0
+        day: 0
       endDate:
-        year: 1971
-        month: 1
-        day: 1
+        year: 0
+        month: 0
+        day: 0
       scale: 0
-      mode: 2
-    videoData: {fileID: 0}
-    totalMinutes: 0
-    totalVideoCount: 0
+      mode: 0
+    videoData: {fileID: 11400000, guid: 422de54caf87c344a924a8f16d2d17ed, type: 2}
+    totalMinutes: 64618
+    totalVideoCount: 2566
     averageVideoDuration: 0
     medianVideoDuration: 0
     frequentVideoDuration: 0
     sortMode: 0
-    AscendingOrder: 1
+    AscendingOrder: 0
   showTagSetting: 0
   showCategorySetting: 1
   showAllCategoryOutputUI: 1
@@ -499,4 +464,7 @@ MonoBehaviour:
   likeCountInHtml: 0
   dislikeCountInHtml: 0
   commentCountInHtml: 0
-  catListType: 1
+  categoryProcessType: 0
+  dataGenerationTestMode: 0
+  dataGenerationCountForTestMode: 5
+  forceUpdateForGeneration: 1
