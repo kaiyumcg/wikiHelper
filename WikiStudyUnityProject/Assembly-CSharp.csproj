@@ -64,6 +64,7 @@
     <Compile Include="Assets\com.rvkm.unitygames.wiki\DataClasses\WikiData.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Debug\DebugRVKM.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\DataClasses\WikiUIData.cs" />
+    <Compile Include="Assets\TestDelete.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Data\ScriptableObjectClasses\SearchDataYoutube.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\UI\FullScreenLoadingUI.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\Utilities\WikiSaveDataUtility.cs" />
@@ -100,7 +101,6 @@
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Utility\Utility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Async\AsyncUtility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\WikiCon.cs" />
-    <Compile Include="Assets\TestDelete.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\UnityChannel_data_generated_\ytVideoData_json.txt" />

@@ -11,9 +11,11 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
     {
         static float textAreaGlobalSize;
         static SearchDataEditor editor;
-        public static void ShowCategoryArray(float textAreaSizeGlobal, SerializedProperty list, YoutubeCategory[] catData, SearchDataEditor editor)
+        static SearchDataYoutube mainData;
+        public static void ShowCategoryArray(float textAreaSizeGlobal, SerializedProperty list, YoutubeCategory[] catData, SearchDataYoutube mainData, SearchDataEditor editor)
         {
             PrintCategory.textAreaGlobalSize = textAreaSizeGlobal;
+            PrintCategory.mainData = mainData;
             PrintCategory.editor = editor;
             EditorGUILayout.PropertyField(list, false);
             EditorGUI.indentLevel += 1;
@@ -42,9 +44,10 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                 EditorGUI.indentLevel += 1;
                 if (catData != null && catData.videoData != null && string.IsNullOrEmpty(catData.videoData.belongedCategory) == false)
                 {
-                    catData.categoryName = catData.videoData.belongedCategory;
+                    //catData.categoryName = catData.videoData.belongedCategory;
                     GUILayout.BeginHorizontal("box");
-                    GUILayout.Label("Category name: " + catData.categoryName);
+                    //GUILayout.Label("Category name: " + catData.categoryName);
+                    EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.categoryName)), IMGUIStatics.categoryName, true);
                     GUILayout.EndHorizontal();
                 }
                 else
@@ -105,12 +108,10 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                             Debug.Log("Here we must open html!");
                             if (catData != null && catData.videoData != null && catData.videoData.allVideos != null && catData.videoData.allVideos.Length > 0)
                             {
-                                //use linq
-                                string errMsgIfAny = "";
-                                CategoryHtmlFilePrint.MakeCategoryWebPage(catData, ref errMsgIfAny, () =>
+                                CategoryHtmlFilePrintControl.MakeCategoryWebPage(catData, mainData, editor, (errMsgIfAny) =>
                                 {
                                     editor.StopAllEditorCoroutines();
-                                    EditorUtility.DisplayDialog("Error!", "Tag Operation Error! meg: " + errMsgIfAny, "Ok");
+                                    EditorUtility.DisplayDialog("Error!", "Html operation error! message: " + errMsgIfAny, "Ok");
                                 });
                             }
                         }
@@ -167,7 +168,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                     EditorGUI.indentLevel -= 1;
                 }
 
-                if (!op.useWhitelist && !op.useBlacklist) { op.useBlacklist = true; }
+                //if (!op.useWhitelist && !op.useBlacklist) { op.use = false; }
                 EditorGUI.indentLevel -= 1;
             }
         }

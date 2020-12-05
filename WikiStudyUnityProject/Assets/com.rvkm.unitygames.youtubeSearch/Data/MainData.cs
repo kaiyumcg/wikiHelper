@@ -15,7 +15,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public string channelName, description;
         [HideInInspector]
         public string[] thumbUrls, tags;
-        [HideInInspector]
+        //[HideInInspector]
         public int viewCount, likeCount, dislikeCount, commentCount;
         //[HideInInspector]
         public int durationInMinutes;

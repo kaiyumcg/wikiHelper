@@ -38,6 +38,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
             TagControl.InitControl();
             YouTubeControl.InitControl();
             CategoryControl.InitControl();
+            CategoryHtmlFilePrintControl.InitControl();
             IMGUIStatics.CreateGUIContents();
             loadWindowCalled = false;
         }
@@ -81,13 +82,16 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
             loadWindowCalled = false;
             busy = false;
-            if (TagControl.TagFetchOperationHasCompleted == false || YouTubeControl.YoutubeAPIOperationHasCompleted == false || CategoryControl.categoryOperationHasCompleted == false)
+            if (TagControl.TagFetchOperationHasCompleted == false || YouTubeControl.YoutubeAPIOperationHasCompleted == false 
+                || CategoryControl.categoryOperationHasCompleted == false || CategoryHtmlFilePrintControl.printHtmlCategoryCompleted == false)
             {
                 busy = true;
                 if (TagControl.TagFetchOperationHasCompleted == false) { progress = TagControl.TagFetchOperationProgress; }
                 else if (YouTubeControl.YoutubeAPIOperationHasCompleted == false) { progress = YouTubeControl.YoutubeAPIOperationProgress; }
                 else if (CategoryControl.categoryOperationHasCompleted == false) { progress = CategoryControl.categoryOperationProgress; }
+                else if (CategoryHtmlFilePrintControl.printHtmlCategoryCompleted == false) { progress = CategoryHtmlFilePrintControl.categoryHtmlPrintOperationProgress; }
             }
+
 
             if (busy)
             {
@@ -100,7 +104,11 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 {
                     status = "Processing category information from youtube. Please wait...";
                 }
-                else
+                else if (CategoryHtmlFilePrintControl.printHtmlCategoryCompleted)
+                {
+                    status = "Processing Html page for view. Please wait...";
+                }
+                else if (YouTubeControl.YoutubeAPIOperationHasCompleted)
                 {
                     status = "Processing video information from youtube. Please wait...";
                 }
@@ -154,7 +162,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
             if (data.showCategorySetting)
             {
                 EditorGUI.indentLevel += 2;
-                PrintCategory.ShowCategoryArray(data.textAreaSizeUI, serializedObject.FindProperty(nameof(data.categories)), data.categories, this);
+                PrintCategory.ShowCategoryArray(data.textAreaSizeUI, serializedObject.FindProperty(nameof(data.categories)), data.categories, data, this);
                 data.showAllCategoryOutputUI= EditorGUILayout.Foldout(data.showAllCategoryOutputUI, "Outputs Group");
                 if (data.showAllCategoryOutputUI)
                 {
@@ -177,7 +185,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                         if (data != null && data.categories != null)
                         {
                             string errMsgIfAny = "";
-                            CategoryHtmlFilePrint.MakeCategoryWebPage(data.categories, data.SearchName, ref errMsgIfAny, () =>
+                            CategoryHtmlFilePrintControl.MakeCategoryWebPage(data.categories, data.SearchName, data, this, (errMsg) =>
                             {
                                 StopAllEditorCoroutines();
                                 EditorUtility.DisplayDialog("Error!", "Category Operation Error! meg: " + errMsgIfAny, "Ok");

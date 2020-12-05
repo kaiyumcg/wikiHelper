@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility;
 using com.rvkm.unitygames.YouTubeSearch.Extensions;
+using System.Linq;
 
 namespace com.rvkm.unitygames.YouTubeSearch
 {
@@ -63,7 +64,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
         public bool IsPassed(string str)
         {
-            if (!use) { return true; }
+            if (!use || (!useBlacklist && !useWhitelist)) { return true; }
             bool passed = false;
             if (string.IsNullOrEmpty(str) == false && (useBlacklist || useWhitelist))
             {
@@ -86,7 +87,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
         public bool IsPassed(string[] strs)
         {
-            if (!use) { return true; }
+            if (!use || (!useBlacklist && !useWhitelist)) { return true; }
             bool isPassed = false;
             if (strs != null && strs.Length > 0)
             {
@@ -273,10 +274,11 @@ namespace com.rvkm.unitygames.YouTubeSearch
             return titlePass && descPass && tagsPass && viewCountPass && likeCountPass && dislikeCountPass && commentCountPass && durationPass && pubDatePass;
         }
 
-        public bool UpdateStat()
+        public void UpdateStat()
         {
             totalMinutes = 0f;
             totalVideoCount = averageVideoDuration = medianVideoDuration = frequentVideoDuration = 0;
+            List<int> allDuration = new List<int>();
             if (videoData != null && videoData.allVideos != null)
             {
                 foreach (var video in videoData.allVideos)
@@ -284,15 +286,48 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     if (video == null) { continue; }
                     totalVideoCount++;
                     totalMinutes += video.durationInMinutes;
+                    allDuration.Add(video.durationInMinutes);
                 }
             }
-            return true;
+
+            averageVideoDuration = (int)((float)totalMinutes / (float)totalVideoCount);
+            medianVideoDuration = (int)allDuration.GetMedian();
+            frequentVideoDuration = (int)allDuration.GetMode();
         }
 
-        public bool Sort()
+        public void Sort()
         {
-            return true;
-            //throw new NotImplementedException();
+            List<YoutubeVideo> vdList = new List<YoutubeVideo>();
+            vdList.AddRange(videoData.allVideos);
+
+            if (sortMode == CategorySortMode.SortAlphabetically)
+            {
+                videoData.allVideos = AscendingOrder ? vdList.OrderBy(v => v.title).ToArray() : vdList.OrderByDescending(v => v.title).ToArray();
+            }
+            else if (sortMode == CategorySortMode.SortByCommentCount)
+            {
+                videoData.allVideos = AscendingOrder ? vdList.OrderBy(v => v.commentCount).ToArray() : vdList.OrderByDescending(v => v.commentCount).ToArray();
+            }
+            else if (sortMode == CategorySortMode.SortByDislikeCount)
+            {
+                videoData.allVideos = AscendingOrder ? vdList.OrderBy(v => v.dislikeCount).ToArray() : vdList.OrderByDescending(v => v.dislikeCount).ToArray();
+            }
+            else if (sortMode == CategorySortMode.SortByDuration)
+            {
+                videoData.allVideos = AscendingOrder ? vdList.OrderBy(v => v.durationInMinutes).ToArray() : vdList.OrderByDescending(v => v.durationInMinutes).ToArray();
+            }
+            else if (sortMode == CategorySortMode.SortByLikeCount)
+            {
+                videoData.allVideos = AscendingOrder ? vdList.OrderBy(v => v.likeCount).ToArray() : vdList.OrderByDescending(v => v.likeCount).ToArray();
+            }
+            else if (sortMode == CategorySortMode.SortByPublishedDate)
+            {
+                videoData.allVideos = AscendingOrder ? vdList.OrderBy(v => v.publishedAtDate).ToArray() : vdList.OrderByDescending(v => v.publishedAtDate).ToArray();
+            }
+            else if (sortMode == CategorySortMode.SortByViewCount)
+            {
+                videoData.allVideos = AscendingOrder ? vdList.OrderBy(v => v.viewCount).ToArray() : vdList.OrderByDescending(v => v.viewCount).ToArray();
+            }
         }
     }
 }
