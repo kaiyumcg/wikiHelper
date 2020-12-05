@@ -96,8 +96,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                             Debug.Log("Here we must sort!");
                             if (catData != null && catData.videoData != null && catData.videoData.allVideos != null && catData.videoData.allVideos.Length > 0)
                             {
-                                string errMsgIfAny = "";
-                                CategoryControl.SortVideos(ref catData.videoData.allVideos, ref errMsgIfAny, catData.sortMode, () =>
+                                CategoryControl.SortVideos(ref catData, (errMsgIfAny) =>
                                 {
                                     editor.StopAllEditorCoroutines();
                                     EditorUtility.DisplayDialog("Error!", "Category Operation Error! meg: " + errMsgIfAny, "Ok");
@@ -124,7 +123,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                     }
                 }
 
-                catData.OutputOptionShow = EditorGUILayout.Foldout(catData.OutputOptionShow, "Outputs");
+                catData.OutputOptionShow = EditorGUILayout.Foldout(catData.OutputOptionShow, "Outputs group of this category");
                 if (catData.OutputOptionShow)
                 {
                     EditorGUI.indentLevel += 1;
@@ -171,6 +170,8 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                     EditorGUILayout.EndScrollView();
                     EditorGUI.indentLevel -= 1;
                 }
+
+                if (!op.useWhitelist && !op.useBlacklist) { op.useBlacklist = true; }
                 EditorGUI.indentLevel -= 1;
             }
         }
@@ -182,9 +183,25 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
             {
                 EditorGUI.indentLevel += 1;
                 GUILayout.BeginVertical("box");
-                EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".comparison"), new GUIContent(goodName + " is "), true);
-                EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".target"), new GUIContent("To value"), true);
+                EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".mode"), new GUIContent("Operation Mode: "), true);
+                if (op.mode == IntSearchCompMode.SingleTarget)
+                {
+                    EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".comparison"), new GUIContent(goodName + " is "), true);
+                    EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".target"), new GUIContent("To value"), true);
+                    
+                }
+                else
+                {
+                    EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".betweenMode"), new GUIContent("Range Mode: "), true);
+                    GUILayout.BeginHorizontal("box");
+                    EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".targetMin"), new GUIContent("Range Min: "), true);
+                    EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".targetMax"), new GUIContent("Range Max: "), true);
+                    GUILayout.EndHorizontal();
+                }
+
                 if (op.target < 0) { op.target = 0; }
+                if(op.targetMin < 0) { op.targetMin = 0; }
+                if (op.targetMax < 0) { op.targetMax = 0; }
                 GUILayout.EndVertical();
 
                 EditorGUI.indentLevel -= 1;
@@ -207,10 +224,16 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                 else
                 {
                     EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".mode"), new GUIContent(""), true);
-                    EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".targetMin"), new GUIContent("Start Date"), true);
-                    EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".targetMax"), new GUIContent("End Date"), true);
-                    ValidateDateTime(ref op.targetMin, op.targetMin);
-                    ValidateDateTime(ref op.targetMax, op.targetMin);
+                    string startStr = "Start Date", endStr = "End Date";
+                    if (op.mode == DateSearchMode.OutSideRange)
+                    {
+                        startStr = "Range Start Date";
+                        endStr = "Range End Date";
+                    }
+                    EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".startDate"), new GUIContent(startStr), true);
+                    EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".endDate"), new GUIContent(endStr), true);
+                    ValidateDateTime(ref op.startDate, op.startDate);
+                    ValidateDateTime(ref op.endDate, op.startDate);
                 }
                 GUILayout.EndVertical();
                 EditorGUI.indentLevel -= 1;

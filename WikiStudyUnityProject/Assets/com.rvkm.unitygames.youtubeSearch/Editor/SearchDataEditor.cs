@@ -141,23 +141,22 @@ namespace com.rvkm.unitygames.YouTubeSearch
             {
                 EditorGUI.indentLevel += 2;
                 PrintCategory.ShowCategoryArray(data.textAreaSizeUI, serializedObject.FindProperty("categories"), data.categories, this);
-                data.showAllCategoryOutputUI= EditorGUILayout.Foldout(data.showAllCategoryOutputUI, "Outputs of All Categories");
+                data.showAllCategoryOutputUI= EditorGUILayout.Foldout(data.showAllCategoryOutputUI, "Outputs Group");
                 if (data.showAllCategoryOutputUI)
                 {
                     GUILayout.BeginHorizontal("box");
-                    GUILayout.Label("To categorize all: ");
+                    GUILayout.Label("");
                     if (GUILayout.Button(Environment.NewLine + "Categorize" + Environment.NewLine))
                     {
                         Debug.Log("Here we must categorize!");
                         //the video data should be created in similar name of this search
-                        CategoryControl.Categorize(ref data.categories, data.videoData, this, () =>
+                        CategoryControl.Categorize(ref data, this, () =>
                         {
                             StopAllEditorCoroutines();
                             EditorUtility.ClearProgressBar();
                             EditorUtility.DisplayDialog("Success!", "Successfully done category task!", "Ok");
                             busy = false;
                         },
-
 
                         (errorMsg) =>
                         {
@@ -167,7 +166,32 @@ namespace com.rvkm.unitygames.YouTubeSearch
                             busy = false;
                         });
                     }
+
+                    if (GUILayout.Button(Environment.NewLine + "Open Html" + Environment.NewLine))
+                    {
+                        Debug.Log("Here we must open html!");
+                        if (data != null && data.categories != null)
+                        {
+                            string errMsgIfAny = "";
+                            CategoryHtmlFilePrint.MakeCategoryWebPage(data.categories, data.SearchName, ref errMsgIfAny, () =>
+                            {
+                                StopAllEditorCoroutines();
+                                EditorUtility.DisplayDialog("Error!", "Category Operation Error! meg: " + errMsgIfAny, "Ok");
+                            });
+                        }
+                    }
                     GUILayout.EndHorizontal();
+
+                    GUILayout.BeginVertical("box");
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty("publishedYearInHtml"), IMGUIStatics.printPublishedYearInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty("durationInHtml"), IMGUIStatics.printDurationInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty("showThumbnailInHtml"), IMGUIStatics.printThumbnailInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty("viewCountInHtml"), IMGUIStatics.printViewCountInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty("likeCountInHtml"), IMGUIStatics.printLikeCountInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty("dislikeCountInHtml"), IMGUIStatics.printDislikeCountInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty("commentCountInHtml"), IMGUIStatics.printCommentCountInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty("catListType"), IMGUIStatics.categoryListType, true);
+                    GUILayout.EndVertical();
                 }
                 EditorGUI.indentLevel -= 2;
             }

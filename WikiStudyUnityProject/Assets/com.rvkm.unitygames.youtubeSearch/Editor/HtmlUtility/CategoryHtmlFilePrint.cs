@@ -100,5 +100,29 @@ html += menuItem;
             }
             EditorUtility.OpenWithDefaultApp(htmlSavepath);
         }
+
+        public static void MakeCategoryWebPage(YoutubeCategory[] data, string searchName, ref string errorMsgIfAny, Action OnHandleError)
+        {
+            throw new System.NotImplementedException(); //TODO
+            var upperTxt = CategoryHtmlFilePrint.upperHtml;
+            var lowerTxt = CategoryHtmlFilePrint.lowerHtml;
+            string htmlCode = upperTxt;
+            string nl = Environment.NewLine;
+
+            htmlCode += lowerTxt;
+
+            var htmlSavepath = EditorUtility.SaveFilePanel("Save html files", "", "web_" + searchName + ".html", "html");
+            try
+            {
+                File.WriteAllText(htmlSavepath, htmlCode);
+            }
+            catch (Exception)
+            {
+                errorMsgIfAny = "can not write html code into html file!";
+                OnHandleError?.Invoke();
+                return;
+            }
+            EditorUtility.OpenWithDefaultApp(htmlSavepath);
+        }
     }
 }

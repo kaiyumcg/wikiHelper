@@ -355,9 +355,9 @@ MonoBehaviour:
   categories:
   - categoryName: film and animation
     showUI: 1
-    StrOpShow: 1
+    StrOpShow: 0
     IntOpShow: 0
-    DurationAndDateOpShow: 0
+    DurationAndDateOpShow: 1
     SortOpShow: 0
     OutputOptionShow: 0
     titleOp:
@@ -430,36 +430,56 @@ MonoBehaviour:
     viewCountOp:
       use: 1
       comparison: 1
+      mode: 0
+      betweenMode: 0
       target: 9
+      targetMin: 0
+      targetMax: 0
     likeCountOp:
       use: 0
       comparison: 0
+      mode: 0
+      betweenMode: 0
       target: 19
+      targetMin: 0
+      targetMax: 0
     dislikeCountOp:
       use: 0
       comparison: 0
+      mode: 0
+      betweenMode: 0
       target: 0
+      targetMin: 0
+      targetMax: 0
     commentCountOp:
       use: 0
       comparison: 0
+      mode: 0
+      betweenMode: 0
       target: 105
+      targetMin: 0
+      targetMax: 0
     durationOp:
-      use: 0
-      comparison: 1
+      use: 1
+      comparison: 3
+      mode: 1
+      betweenMode: 1
       target: 0
+      targetMin: 0
+      targetMax: 0
     pubDateOp:
       use: 0
       target: 7
-      targetMin:
-        year: 1995
-        month: 12
-        day: 30
-      targetMax:
-        year: 1995
-        month: 12
-        day: 30
+      startDate:
+        year: 1971
+        month: 1
+        day: 1
+      endDate:
+        year: 1971
+        month: 1
+        day: 1
       scale: 0
-      mode: 0
+      mode: 2
     videoData: {fileID: 0}
     totalMinutes: 0
     totalVideoCount: 0
@@ -470,5 +490,13 @@ MonoBehaviour:
     AscendingOrder: 1
   showTagSetting: 0
   showCategorySetting: 1
-  showAllCategoryOutputUI: 0
+  showAllCategoryOutputUI: 1
   textAreaSizeUI: 0.11864407
+  publishedYearInHtml: 0
+  durationInHtml: 0
+  showThumbnailInHtml: 0
+  viewCountInHtml: 0
+  likeCountInHtml: 0
+  dislikeCountInHtml: 0
+  commentCountInHtml: 0
+  catListType: 1

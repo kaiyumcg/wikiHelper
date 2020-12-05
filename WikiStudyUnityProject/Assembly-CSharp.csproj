@@ -100,6 +100,7 @@
     <Compile Include="Assets\com.rvkm.unitygames.youtubeSearch\Utility\Utility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.extensions\Async\AsyncUtility.cs" />
     <Compile Include="Assets\com.rvkm.unitygames.wiki\WikiCon.cs" />
+    <Compile Include="Assets\TestDelete.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\UnityChannel_data_generated_\ytVideoData_json.txt" />
