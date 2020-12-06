@@ -28,6 +28,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.HtmlPrinter
         public static float categoryHtmlPrintOperationProgress { get; private set; }
         static string htmlCode;
         static int videoCount = 1;
+
         public static void InitControl()
         {
             printHtmlCategoryCompleted = true;
@@ -137,12 +138,8 @@ alt = " + title + @" width = ""480"" height = ""360""
         {
             printHtmlCategoryCompleted = false;
             categoryHtmlPrintOperationProgress = 0f;
-
-            var upperTxt = CategoryHtmlFilePrintControl.upperHtml;
-            var lowerTxt = CategoryHtmlFilePrintControl.lowerHtml;
-            htmlCode = upperTxt;
+            htmlCode = upperHtml;
             string nl = Environment.NewLine;
-            htmlCode = "";
             htmlCode += @"<h1 style=""color: #5e9ca0;"">Category: " + data.categoryName + "</h1>";
             
             if (data.videoData != null && data.videoData.allVideos != null && data.videoData.allVideos.Length > 0)
@@ -150,7 +147,7 @@ alt = " + title + @" width = ""480"" height = ""360""
                 videoCount = 1;
                 var cor = EditorCoroutineUtility.StartCoroutine(WriteToHtmlCOR_Single(data.videoData.allVideos, mainData, editor, () =>
                 {
-                    htmlCode += lowerTxt;
+                    htmlCode += lowerHtml;
 
                     var htmlSavepath = EditorUtility.SaveFilePanel("Save html files", "", "web_" + data.categoryName + ".html", "html");
                     try
@@ -186,6 +183,7 @@ alt = " + title + @" width = ""480"" height = ""360""
             }
             printHtmlCategoryCompleted = true;
             categoryHtmlPrintOperationProgress = 1f;
+            OnComplete?.Invoke();
         }
 
         static IEnumerator WriteToHtmlCOR_Multiple(YoutubeCategory[] dataList, SearchDataYoutube mainData, SearchDataEditor editor, Action OnComplete)
@@ -217,25 +215,21 @@ alt = " + title + @" width = ""480"" height = ""360""
             }
             printHtmlCategoryCompleted = true;
             categoryHtmlPrintOperationProgress = 1f;
+            OnComplete?.Invoke();
         }
-
-
+        
         public static void MakeCategoryWebPage(YoutubeCategory[] dataList, string searchName, SearchDataYoutube mainData, SearchDataEditor editor, Action<string> OnHandleError)
         {
             printHtmlCategoryCompleted = false;
             categoryHtmlPrintOperationProgress = 0f;
-
-            var upperTxt = CategoryHtmlFilePrintControl.upperHtml;
-            var lowerTxt = CategoryHtmlFilePrintControl.lowerHtml;
-            htmlCode = upperTxt;
+            htmlCode = upperHtml;
             string nl = Environment.NewLine;
-
             if (dataList != null && dataList.Length > 0)
             {
                 videoCount = 1;
                 var cor = EditorCoroutineUtility.StartCoroutine(WriteToHtmlCOR_Multiple(dataList, mainData, editor, () =>
                 {
-                    htmlCode += lowerTxt;
+                    htmlCode += lowerHtml;
                     var htmlSavepath = EditorUtility.SaveFilePanel("Save html files", "", "web_" + searchName + ".html", "html");
                     try
                     {

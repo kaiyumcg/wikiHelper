@@ -22,7 +22,7 @@ MonoBehaviour:
   blacklist:
     use: 0
     useTextArea: 0
-    useFiles: 1
+    useFiles: 0
     textAreaString: 'asdadasd
 
       asd
@@ -459,8 +459,8 @@ MonoBehaviour:
     averageVideoDuration: 23
     medianVideoDuration: 13
     frequentVideoDuration: 56
-    sortMode: 6
-    AscendingOrder: 1
+    sortMode: 1
+    AscendingOrder: 0
   - categoryName: Graphics
     showUI: 0
     StrOpShow: 0
