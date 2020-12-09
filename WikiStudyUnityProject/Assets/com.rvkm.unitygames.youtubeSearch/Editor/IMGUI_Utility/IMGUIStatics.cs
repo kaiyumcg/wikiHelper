@@ -10,9 +10,11 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
             willShowUI, useViewCount, useLikeCount, useDislikeCount, useCommentCount, useDuration, useDateOperation, videoData, totalMinutes, 
             sortMode, IsAscendingOrder, totalVideoCount, averageDuration, mediationDuration, frequentDuration,
             printPublishedYearInHtml, printDurationInHtml, printViewCountInHtml, printLikeCountInHtml, printDislikeCountInHtml, printCommentCountInHtml,
-            printThumbnailInHtml, categoryListType;
+            printThumbnailInHtml, categoryListType, useTextArea, useAssetFile;
         public static void CreateGUIContents()
         {
+            useTextArea = new GUIContent("Use TextArea? ");
+            useAssetFile = new GUIContent("Use TextAsset? ");
             useTitle = new GUIContent("Use title? ");
             useDescription = new GUIContent("Use Description? ");
             useTags = new GUIContent("Use YouTube Video tags? ");

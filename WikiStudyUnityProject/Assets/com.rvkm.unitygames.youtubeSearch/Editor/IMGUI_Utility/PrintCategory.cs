@@ -87,37 +87,39 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                         EditorGUI.indentLevel -= 1;
                     }
 
-                    catData.SortOpShow = EditorGUILayout.Foldout(catData.SortOpShow, "Sort And Html output");
-                    if (catData.SortOpShow)
-                    {
-                        EditorGUI.indentLevel += 1;
-                        EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.sortMode)), IMGUIStatics.sortMode);
-                        GUILayout.BeginHorizontal("box");
-                        EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.AscendingOrder)), IMGUIStatics.IsAscendingOrder);
-                        if (GUILayout.Button(Environment.NewLine + "Sort" + Environment.NewLine))
-                        {
-                            Debug.Log("Here we must sort!");
-                            if (catData != null && catData.videoData != null && catData.videoData.allVideos != null && catData.videoData.allVideos.Length > 0)
-                            {
-                                catData.Sort();
-                            }
-                        }
+                    
+                }
 
-                        if (GUILayout.Button(Environment.NewLine + "Open Html" + Environment.NewLine))
+                catData.SortOpShow = EditorGUILayout.Foldout(catData.SortOpShow, "Sort And Html output");
+                if (catData.SortOpShow)
+                {
+                    EditorGUI.indentLevel += 1;
+                    EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.sortMode)), IMGUIStatics.sortMode);
+                    GUILayout.BeginHorizontal("box");
+                    EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.AscendingOrder)), IMGUIStatics.IsAscendingOrder);
+                    if (GUILayout.Button(Environment.NewLine + "Sort" + Environment.NewLine))
+                    {
+                        Debug.Log("Here we must sort!");
+                        if (catData != null && catData.videoData != null && catData.videoData.allVideos != null && catData.videoData.allVideos.Length > 0)
                         {
-                            Debug.Log("Here we must open html!");
-                            if (catData != null && catData.videoData != null && catData.videoData.allVideos != null && catData.videoData.allVideos.Length > 0)
-                            {
-                                CategoryHtmlFilePrintControl.MakeCategoryWebPage(catData, mainData, editor, (errMsgIfAny) =>
-                                {
-                                    editor.StopAllEditorCoroutines();
-                                    EditorUtility.DisplayDialog("Error!", "Html operation error! message: " + errMsgIfAny, "Ok");
-                                });
-                            }
+                            catData.Sort();
                         }
-                        GUILayout.EndHorizontal();
-                        EditorGUI.indentLevel -= 1;
                     }
+
+                    if (GUILayout.Button(Environment.NewLine + "Open Html" + Environment.NewLine))
+                    {
+                        Debug.Log("Here we must open html!");
+                        if (catData != null && catData.videoData != null && catData.videoData.allVideos != null && catData.videoData.allVideos.Length > 0)
+                        {
+                            CategoryHtmlFilePrintControl.MakeCategoryWebPage(catData, mainData, editor, (errMsgIfAny) =>
+                            {
+                                editor.StopAllEditorCoroutines();
+                                EditorUtility.DisplayDialog("Error!", "Html operation error! message: " + errMsgIfAny, "Ok");
+                            });
+                        }
+                    }
+                    GUILayout.EndHorizontal();
+                    EditorGUI.indentLevel -= 1;
                 }
 
                 catData.OutputOptionShow = EditorGUILayout.Foldout(catData.OutputOptionShow, "Outputs group of this category");
@@ -125,7 +127,25 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                 {
                     EditorGUI.indentLevel += 1;
                     EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.videoData)), IMGUIStatics.videoData);
-                    EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.totalMinutes)), IMGUIStatics.totalMinutes);
+                    string duration = "";
+                    if (catData.totalMinutes > 60)
+                    {
+                        float hourCount = catData.totalMinutes / 60.0f;
+                        int hourCountInt = (int)hourCount;
+                        int minutes = (int)catData.totalMinutes - hourCountInt * 60;
+                        duration = hourCountInt + " hours";
+                        if (minutes > 0)
+                        {
+                            duration += " and " + minutes + " minutes";
+
+                        }
+                    }
+                    else
+                    {
+                        duration = catData.totalMinutes + " Minutes";
+                    }
+                    EditorGUILayout.LabelField("Duration: " + duration);
+                    //EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.totalMinutes)), IMGUIStatics.totalMinutes);
                     EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.totalVideoCount)), IMGUIStatics.totalVideoCount);
                     EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.averageVideoDuration)), IMGUIStatics.averageDuration);
                     EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.medianVideoDuration)), IMGUIStatics.mediationDuration);
@@ -146,29 +166,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
                 EditorGUI.indentLevel += 1;
                 EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".compMode"), IMGUIStatics.stringComparisonMode, true);
                 EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".caseSensitive"), IMGUIStatics.isCaseSensitive, true);
-                EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".useBlacklist"), IMGUIStatics.useBlacklist, true);
-                if (op.useBlacklist)
-                {
-                    EditorGUI.indentLevel += 1;
-                    op.scrollBlacklistUI = EditorGUILayout.BeginScrollView(op.scrollBlacklistUI);
-                    op.blacklistedWords = EditorGUILayout.TextArea(op.blacklistedWords,
-                        GUILayout.Height(Screen.height * textAreaGlobalSize));
-                    EditorGUILayout.EndScrollView();
-                    EditorGUI.indentLevel -= 1;
-                }
-
-                EditorGUILayout.PropertyField(prop.FindPropertyRelative(varName + ".useWhitelist"), IMGUIStatics.useWhitelist, true);
-                if (op.useWhitelist)
-                {
-                    EditorGUI.indentLevel += 1;
-                    op.scrollWhitelistUI = EditorGUILayout.BeginScrollView(op.scrollWhitelistUI);
-                    op.whitelistedWords = EditorGUILayout.TextArea(op.whitelistedWords,
-                        GUILayout.Height(Screen.height * textAreaGlobalSize));
-                    EditorGUILayout.EndScrollView();
-                    EditorGUI.indentLevel -= 1;
-                }
-
-                //if (!op.useWhitelist && !op.useBlacklist) { op.use = false; }
+                PrintAssetFiles.ShowArrayWithBrowseOption<TextAsset>(prop.FindPropertyRelative(varName + ".defAssets"), mainData);
                 EditorGUI.indentLevel -= 1;
             }
         }

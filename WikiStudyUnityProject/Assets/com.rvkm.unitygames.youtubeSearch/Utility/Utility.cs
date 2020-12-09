@@ -91,6 +91,29 @@ namespace com.rvkm.unitygames.YouTubeSearch
             return Regex.Split(Regex.Replace(inputString, "^[,\r\n]+|[,\r\n]+$", ""), "[,\r\n]+");
         }
 
+        public static void GetBlackWhitelist(string inputString, ref string[] blackList, ref string[] whiteList)
+        {
+            var sps = Regex.Split(Regex.Replace(inputString, "^[,\r\n]+|[,\r\n]+$", ""), "[,\r\n]+");
+            List<string> bList = new List<string>();
+            List<string> wList = new List<string>();
+            if (sps != null && sps.Length > 0)
+            {
+                foreach (var s in sps)
+                {
+                    if (s.StartsWith("-"))
+                    {
+                        bList.Add(s);
+                    }
+                    else
+                    {
+                        wList.Add(s);
+                    }
+                }
+            }
+            blackList = bList.ToArray();
+            whiteList = wList.ToArray();
+        }
+
         public static int GetIntFromString(string str, ref bool success)
         {
             int result = 0;

@@ -13,11 +13,8 @@ namespace com.rvkm.unitygames.YouTubeSearch
     {
         public bool use;
         public bool caseSensitive;
-        public bool useWhitelist, useBlacklist;
         public StrSearchComp compMode;
-        public string blacklistedWords, whitelistedWords;
-        [HideInInspector]
-        public Vector2 scrollBlacklistUI, scrollWhitelistUI;
+        public TextAsset[] defAssets;
 
         bool MatchesInTheList(string[] strList, string str, bool caseSensitive = false)
         {
@@ -64,19 +61,26 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
         public bool IsPassed(string str)
         {
-            if (!use || (!useBlacklist && !useWhitelist)) { return true; }
+            if (!use || defAssets == null || defAssets.Length == 0) { return true; }
             bool passed = false;
-            if (string.IsNullOrEmpty(str) == false && (useBlacklist || useWhitelist))
+            if (string.IsNullOrEmpty(str) == false)
             {
-                if (useBlacklist)
+                string strSoup = "";
+                foreach (var a in defAssets)
                 {
-                    var blacklist = Utility.SplitByComaOrNewline(blacklistedWords);
-                    passed = compMode == StrSearchComp.ContainsOnAnyParts ? ContainsInTheList(blacklist, str, caseSensitive) : MatchesInTheList(blacklist, str, caseSensitive);
+                    if (a == null) { continue; }
+                    strSoup += a.text + Environment.NewLine;
                 }
 
-                if (useWhitelist)
+                var blacklist = Utility.SplitByComaOrNewline(strSoup);
+                if (blacklist != null && blacklist.Length > 0)
                 {
-                    var whitelist = Utility.SplitByComaOrNewline(whitelistedWords);
+                    passed = compMode == StrSearchComp.ContainsOnAnyParts ? !ContainsInTheList(blacklist, str, caseSensitive) : !MatchesInTheList(blacklist, str, caseSensitive);
+                }
+                
+                var whitelist = Utility.SplitByComaOrNewline(strSoup);
+                if (whitelist != null && whitelist.Length > 0)
+                {
                     passed = compMode == StrSearchComp.ContainsOnAnyParts ? ContainsInTheList(whitelist, str, caseSensitive) : MatchesInTheList(whitelist, str, caseSensitive);
                 }
             }
@@ -87,7 +91,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
         public bool IsPassed(string[] strs)
         {
-            if (!use || (!useBlacklist && !useWhitelist)) { return true; }
+            if (!use || defAssets == null || defAssets.Length == 0) { return true; }
             bool isPassed = false;
             if (strs != null && strs.Length > 0)
             {
@@ -290,9 +294,12 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 }
             }
 
-            averageVideoDuration = (int)((float)totalMinutes / (float)totalVideoCount);
-            medianVideoDuration = (int)allDuration.GetMedian();
-            frequentVideoDuration = (int)allDuration.GetMode();
+            if (allDuration != null && allDuration.Count > 0)
+            {
+                averageVideoDuration = (int)((float)totalMinutes / (float)totalVideoCount);
+                medianVideoDuration = (int)allDuration.GetMedian();
+                frequentVideoDuration = (int)allDuration.GetMode();
+            }
         }
 
         public void Sort()
