@@ -1,1 +1,1 @@
-ML Agent,ML,AI,Behaviour tree,Behavior tree,A*,ml-agents,pathfinding
+ML Agent,ML,AI,Behaviour tree,Behavior tree,A*,ml-agents,pathfinding,Machine Learning

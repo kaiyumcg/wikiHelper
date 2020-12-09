@@ -6,3 +6,4 @@ Shadow,volumetric fog,vegetation,tree,GI,global illumination,Heightmap,render,li
 PBR,physically based render,pathtracing,photogrammetry,photorealism,Physically Based Rendering,Physically Based shading,ray-tracing
 reflection,refraction,rendertexture,shading,speedtree,ssao,ssrr,tesselation,toon,GPU,occlusion culling
 Effect,Image effects,visual effects,Camera,Post Process,Pixel Perfect,chromatic aberration,blur,depth of field,color grading
+rendering,Rendering,Graphics,graphics,command buffer,Command Buffer,Render,Lighting,lighting,Post-Processing

@@ -110,6 +110,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
             if (notUsedCount > 0 && notUsedVideos != null && notUsedVideos.Count > 0)
             {
+                /*
                 if (uncat == null)
                 {
                     Debug.Log("we need to create it!");
@@ -125,6 +126,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 }
                 cList.Add(uncat);
                 data.categories = cList.ToArray();
+                */
             }
             else
             {

@@ -12,7 +12,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
     {
         static float progress;
         static string nl;
-        public static bool GetBusyFlagAndContinuePrintingRelatedIMGUIIfAny(SearchDataEditor editor)
+        public static bool GetBusyFlagAndContinuePrintingRelatedIMGUIIfAny(KaiyumScriptableObjectEditor editor)
         {
             bool busy = false;
             string status = "";

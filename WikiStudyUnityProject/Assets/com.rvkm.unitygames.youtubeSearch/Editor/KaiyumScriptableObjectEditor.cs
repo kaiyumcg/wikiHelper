@@ -13,6 +13,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
     public abstract class KaiyumScriptableObjectEditor : Editor
     {
         static List<EditorCoroutine> allCORs;
+        public bool anyButtonClicked = false;
         public List<EditorCoroutine> AllCoroutines { get { return allCORs; } }
         public void OnEnable()
         {

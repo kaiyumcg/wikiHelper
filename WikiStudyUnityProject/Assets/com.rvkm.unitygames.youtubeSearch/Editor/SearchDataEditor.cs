@@ -21,12 +21,13 @@ namespace com.rvkm.unitygames.YouTubeSearch
     {
         SearchDataYoutube data;
         //public List<string> debugList = new List<string>();
-        public bool anyButtonClicked = false;
+        
         public override void OnEnableScriptableObject()
         {
             data = (SearchDataYoutube)target;
             if (data.blacklist == null) { data.blacklist = new TagSearchDescription(); }
             if (data.mustUseList == null) { data.mustUseList = new TagSearchDescription(); }
+            if (data.htmlPrintOptions == null) { data.htmlPrintOptions = new CategoryHtmlPrintDesc(); }
             InitScript();
         }
 
@@ -48,19 +49,10 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
         public override void OnUpdateScriptableObject()
         {
-            //var edObject = new SerializedObject(this);
-            //edObject.Update();
-            //EditorGUILayout.PropertyField(edObject.FindProperty("debugList"), true);
-            //EditorUtility.SetDirty(this);
-            //edObject.ApplyModifiedProperties();
-
             anyButtonClicked = false;
             if (BusyControl.GetBusyFlagAndContinuePrintingRelatedIMGUIIfAny(this)) { return; }
 
             serializedObject.Update();
-            GUILayout.Label("Text Area global Size: ");
-            data.textAreaSizeUI = GUILayout.HorizontalSlider(data.textAreaSizeUI, 0f, 1f);
-            GUILayout.Space(30);
 
             EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.dataGenerationTestMode)), true);
             if (data.dataGenerationTestMode)

@@ -28,6 +28,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.HtmlPrinter
         public static float categoryHtmlPrintOperationProgress { get; private set; }
         static string htmlCode;
         static int videoCount = 1;
+        static CategoryHtmlPrintDesc printDesc;
 
         public static void InitControl()
         {
@@ -35,7 +36,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.HtmlPrinter
             categoryHtmlPrintOperationProgress = 0f;
         }
 
-        static IEnumerator WriteInnerHtmlForVideoCOR(YoutubeVideo video, SearchDataYoutube mainData)
+        static IEnumerator WriteInnerHtmlForVideoCOR(YoutubeVideo video)
         {
             string title = "\"" + video.title + "\"";
             string url = "\"" + video.url + "\"";
@@ -58,47 +59,47 @@ namespace com.rvkm.unitygames.YouTubeSearch.HtmlPrinter
             }
 
             string subHeading = "";
-            if (mainData.durationInHtml)
+            if (printDesc.durationInHtml)
             {
                 subHeading += "T: " + video.durationInMinutes + " minutes, ";
             }
 
-            if (mainData.publishedYearInHtml)
+            if (printDesc.publishedYearInHtml)
             {
                 subHeading += "Y: " + video.publisdedDate.year + ", ";
             }
 
-            if (mainData.viewCountInHtml)
+            if (printDesc.viewCountInHtml)
             {
                 subHeading += "V/";
             }
-            if (mainData.likeCountInHtml)
+            if (printDesc.likeCountInHtml)
             {
                 subHeading += "L/";
             }
-            if (mainData.dislikeCountInHtml)
+            if (printDesc.dislikeCountInHtml)
             {
                 subHeading += "D/";
             }
-            if (mainData.commentCountInHtml)
+            if (printDesc.commentCountInHtml)
             {
                 subHeading += "C/";
             }
 
             subHeading += ": ";
-            if (mainData.viewCountInHtml)
+            if (printDesc.viewCountInHtml)
             {
                 subHeading += video.viewCount + "/";
             }
-            if (mainData.likeCountInHtml)
+            if (printDesc.likeCountInHtml)
             {
                 subHeading += video.likeCount + "/";
             }
-            if (mainData.dislikeCountInHtml)
+            if (printDesc.dislikeCountInHtml)
             {
                 subHeading += video.dislikeCount + "/";
             }
-            if (mainData.commentCountInHtml)
+            if (printDesc.commentCountInHtml)
             {
                 subHeading += video.commentCount + "/";
             }
@@ -116,7 +117,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.HtmlPrinter
             }
 
 
-            if (mainData.showThumbnailInHtml)
+            if (printDesc.showThumbnailInHtml)
             {
                 htmlCode +=
 @"
@@ -134,8 +135,9 @@ alt = " + title + @" width = ""480"" height = ""360""
             yield return null;
         }
 
-        public static void MakeCategoryWebPage(YoutubeCategory data, SearchDataYoutube mainData, SearchDataEditor editor, Action<string> OnHandleError)
+        public static void MakeCategoryWebPage(YoutubeCategory data, CategoryHtmlPrintDesc printDesc, KaiyumScriptableObjectEditor editor, Action<string> OnHandleError)
         {
+            CategoryHtmlFilePrintControl.printDesc = printDesc;
             printHtmlCategoryCompleted = false;
             categoryHtmlPrintOperationProgress = 0f;
             htmlCode = upperHtml;
@@ -145,7 +147,7 @@ alt = " + title + @" width = ""480"" height = ""360""
             if (data.videoData != null && data.videoData.allVideos != null && data.videoData.allVideos.Length > 0)
             {
                 videoCount = 1;
-                var cor = EditorCoroutineUtility.StartCoroutine(WriteToHtmlCOR_Single(data.videoData.allVideos, mainData, editor, () =>
+                var cor = EditorCoroutineUtility.StartCoroutine(WriteToHtmlCOR_Single(data.videoData.allVideos, editor, () =>
                 {
                     htmlCode += lowerHtml;
 
@@ -169,14 +171,14 @@ alt = " + title + @" width = ""480"" height = ""360""
             
         }
         
-        static IEnumerator WriteToHtmlCOR_Single(YoutubeVideo[] videos, SearchDataYoutube mainData, SearchDataEditor editor, Action OnComplete)
+        static IEnumerator WriteToHtmlCOR_Single(YoutubeVideo[] videos, KaiyumScriptableObjectEditor editor, Action OnComplete)
         {
             videoCount = 1;
             foreach (var video in videos)
             {
                 if (video == null) { continue; }
                 categoryHtmlPrintOperationProgress = (float)((float)videoCount / (float)videos.Length);
-                var cor = EditorCoroutineUtility.StartCoroutine(WriteInnerHtmlForVideoCOR(video, mainData), editor);
+                var cor = EditorCoroutineUtility.StartCoroutine(WriteInnerHtmlForVideoCOR(video), editor);
                 editor.AllCoroutines.Add(cor);
                 yield return cor;
                 videoCount++;
@@ -186,14 +188,20 @@ alt = " + title + @" width = ""480"" height = ""360""
             OnComplete?.Invoke();
         }
 
-        static IEnumerator WriteToHtmlCOR_Multiple(YoutubeCategory[] dataList, SearchDataYoutube mainData, SearchDataEditor editor, Action OnComplete)
+        static IEnumerator WriteToHtmlCOR_Multiple(YoutubeCategory[] dataList, KaiyumScriptableObjectEditor editor, Action OnComplete)
         {
             int maxVdCount = 0;
-            if (mainData != null && mainData.videoData != null && mainData.videoData.allVideos != null && mainData.videoData.allVideos.Length > 0)
+            if (dataList != null && dataList.Length > 0)
             {
-                maxVdCount = mainData.videoData.allVideos.Length;
+                foreach (var d in dataList)
+                {
+                    if (d == null) { continue; }
+                    if (d.videoData != null && d.videoData.allVideos != null && d.videoData.allVideos.Length > 0)
+                    {
+                        maxVdCount += d.videoData.allVideos.Length;
+                    }
+                }
             }
-           
 
             foreach (var data in dataList)
             {
@@ -206,7 +214,7 @@ alt = " + title + @" width = ""480"" height = ""360""
                     {
                         if (video == null) { continue; }
                         categoryHtmlPrintOperationProgress = (float)((float)videoCount / (float)maxVdCount);
-                        var cor = EditorCoroutineUtility.StartCoroutine(WriteInnerHtmlForVideoCOR(video, mainData), editor);
+                        var cor = EditorCoroutineUtility.StartCoroutine(WriteInnerHtmlForVideoCOR(video), editor);
                         editor.AllCoroutines.Add(cor);
                         yield return cor;
                         videoCount++;
@@ -218,8 +226,9 @@ alt = " + title + @" width = ""480"" height = ""360""
             OnComplete?.Invoke();
         }
         
-        public static void MakeCategoryWebPage(YoutubeCategory[] dataList, string searchName, SearchDataYoutube mainData, SearchDataEditor editor, Action<string> OnHandleError)
+        public static void MakeCategoryWebPage(YoutubeCategory[] dataList, string searchName, CategoryHtmlPrintDesc printDesc, KaiyumScriptableObjectEditor editor, Action<string> OnHandleError)
         {
+            CategoryHtmlFilePrintControl.printDesc = printDesc;
             printHtmlCategoryCompleted = false;
             categoryHtmlPrintOperationProgress = 0f;
             htmlCode = upperHtml;
@@ -227,7 +236,7 @@ alt = " + title + @" width = ""480"" height = ""360""
             if (dataList != null && dataList.Length > 0)
             {
                 videoCount = 1;
-                var cor = EditorCoroutineUtility.StartCoroutine(WriteToHtmlCOR_Multiple(dataList, mainData, editor, () =>
+                var cor = EditorCoroutineUtility.StartCoroutine(WriteToHtmlCOR_Multiple(dataList, editor, () =>
                 {
                     htmlCode += lowerHtml;
                     var htmlSavepath = EditorUtility.SaveFilePanel("Save html files", "", "web_" + searchName + ".html", "html");

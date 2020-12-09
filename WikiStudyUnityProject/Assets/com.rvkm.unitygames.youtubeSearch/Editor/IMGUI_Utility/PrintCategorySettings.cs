@@ -17,7 +17,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
             if (data.showCategorySetting)
             {
                 EditorGUI.indentLevel += 2;
-                PrintCategory.ShowCategoryArray(data.textAreaSizeUI, serializedObject.FindProperty(nameof(data.categories)), data.categories, data, editor);
+                PrintCategory.ShowCategoryArray(serializedObject.FindProperty(nameof(data.categories)), data.categories);
                 data.showAllCategoryOutputUI = EditorGUILayout.Foldout(data.showAllCategoryOutputUI, "Outputs Group");
                 if (data.showAllCategoryOutputUI)
                 {
@@ -39,7 +39,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                         if (data != null && data.categories != null)
                         {
                             string errMsgIfAny = "";
-                            CategoryHtmlFilePrintControl.MakeCategoryWebPage(data.categories, data.SearchName, data, editor, (errMsg) =>
+                            CategoryHtmlFilePrintControl.MakeCategoryWebPage(data.categories, data.SearchName, data.htmlPrintOptions, editor, (errMsg) =>
                             {
                                 editor.StopAllEditorCoroutines();
                                 EditorUtility.DisplayDialog("Error!", "Category Operation Error! meg: " + errMsgIfAny, "Ok");
@@ -53,13 +53,8 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     }
 
                     GUILayout.BeginVertical("box");
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.publishedYearInHtml)), IMGUIStatics.printPublishedYearInHtml, true);
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.durationInHtml)), IMGUIStatics.printDurationInHtml, true);
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.showThumbnailInHtml)), IMGUIStatics.printThumbnailInHtml, true);
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.viewCountInHtml)), IMGUIStatics.printViewCountInHtml, true);
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.likeCountInHtml)), IMGUIStatics.printLikeCountInHtml, true);
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.dislikeCountInHtml)), IMGUIStatics.printDislikeCountInHtml, true);
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.commentCountInHtml)), IMGUIStatics.printCommentCountInHtml, true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.htmlPrintOptions)), IMGUIStatics.htmlPrintOptions, true);
+
                     EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.categoryProcessType)), IMGUIStatics.categoryListType, true);
 
                     if (editor.anyButtonClicked == false)

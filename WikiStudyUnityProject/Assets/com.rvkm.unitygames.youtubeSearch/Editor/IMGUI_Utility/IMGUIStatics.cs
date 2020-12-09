@@ -9,8 +9,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
         public static GUIContent useTitle, useDescription, useTags, useBlacklist, useWhitelist, categoryName, stringComparisonMode, isCaseSensitive,
             willShowUI, useViewCount, useLikeCount, useDislikeCount, useCommentCount, useDuration, useDateOperation, videoData, totalMinutes, 
             sortMode, IsAscendingOrder, totalVideoCount, averageDuration, mediationDuration, frequentDuration,
-            printPublishedYearInHtml, printDurationInHtml, printViewCountInHtml, printLikeCountInHtml, printDislikeCountInHtml, printCommentCountInHtml,
-            printThumbnailInHtml, categoryListType, useTextArea, useAssetFile;
+            htmlPrintOptions, categoryListType, useTextArea, useAssetFile;
         public static void CreateGUIContents()
         {
             useTextArea = new GUIContent("Use TextArea? ");
@@ -38,13 +37,7 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
             averageDuration = new GUIContent("Average Duration: ");
             mediationDuration = new GUIContent("Median Duration: ");
             frequentDuration = new GUIContent("Frequent Duration: ");
-            printPublishedYearInHtml = new GUIContent("Print Published Year? ");
-            printDurationInHtml = new GUIContent("Print Duration? ");
-            printViewCountInHtml = new GUIContent("Print View Count? ");
-            printLikeCountInHtml = new GUIContent("Print Like Count? ");
-            printDislikeCountInHtml = new GUIContent("Print Dislike Count? ");
-            printCommentCountInHtml = new GUIContent("Print Comment Count? ");
-            printThumbnailInHtml = new GUIContent("Show Thumbnail? ");
+            htmlPrintOptions = new GUIContent("Html Print Options: ");
             categoryListType = new GUIContent("Category list type: ");
         }
     }

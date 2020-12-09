@@ -1,1 +1,2 @@
 Animation,Blend tree,IK,Mecanim,Animator,finite state machine,rig,humanik,humanoid,inverse kinematics,keyframe,Mechanim,navmesh,Playable API
+Motion,motion
