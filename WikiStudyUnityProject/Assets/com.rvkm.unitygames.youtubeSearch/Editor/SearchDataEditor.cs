@@ -10,6 +10,7 @@ using System.Linq;
 using com.rvkm.unitygames.YouTubeSearch.Extensions;
 using com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility;
 using com.rvkm.unitygames.YouTubeSearch.HtmlPrinter;
+using Mochineko.SimpleReorderableList;
 
 namespace com.rvkm.unitygames.YouTubeSearch
 {
@@ -22,6 +23,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
         SearchDataYoutube data;
         //public List<string> debugList = new List<string>();
         public static Action OnCategorize;
+        public ReorderableList catList;
 
         public override void OnEnableScriptableObject()
         {
@@ -29,6 +31,9 @@ namespace com.rvkm.unitygames.YouTubeSearch
             if (data.blacklist == null) { data.blacklist = new TagSearchDescription(); }
             if (data.mustUseList == null) { data.mustUseList = new TagSearchDescription(); }
             if (data.htmlPrintOptions == null) { data.htmlPrintOptions = new CategoryHtmlPrintDesc(); }
+            catList = new ReorderableList(
+                serializedObject.FindProperty(nameof(data.categories))
+            );
             InitScript();
         }
 

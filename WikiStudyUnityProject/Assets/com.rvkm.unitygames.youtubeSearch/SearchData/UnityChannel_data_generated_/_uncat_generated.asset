@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 731d7ca5cab79ed47be8ba4cd387da8c, type: 3}
   m_Name: _uncat_generated
   m_EditorClassIdentifier: 
-  categoryName: _uncat_generated
+  categoryName: Uncategorized
   showUI: 0
   StrOpShow: 0
   IntOpShow: 0
@@ -20,15 +20,12 @@ MonoBehaviour:
   OutputOptionShow: 0
   titleOp:
     use: 0
-    compMode: 0
     defAssets: []
   descriptionOp:
     use: 0
-    compMode: 0
     defAssets: []
   tagOp:
     use: 0
-    compMode: 0
     defAssets: []
   viewCountOp:
     use: 0
@@ -83,12 +80,12 @@ MonoBehaviour:
       day: 0
     scale: 0
     mode: 0
-  videoData: {fileID: 11400000, guid: 422de54caf87c344a924a8f16d2d17ed, type: 2}
-  totalMinutes: 13832
-  totalVideoCount: 530
-  averageVideoDuration: 26
-  medianVideoDuration: 18
-  frequentVideoDuration: 1
+  videoData: {fileID: 0}
+  totalMinutes: 0
+  totalVideoCount: 0
+  averageVideoDuration: 0
+  medianVideoDuration: 0
+  frequentVideoDuration: 0
   sortMode: 0
   AscendingOrder: 0
   htmlPrintOptions:

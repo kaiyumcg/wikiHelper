@@ -1,0 +1,2 @@
+This folder is a sample of SimpleReorderableList.
+If you do not need it, you can remove it safely.

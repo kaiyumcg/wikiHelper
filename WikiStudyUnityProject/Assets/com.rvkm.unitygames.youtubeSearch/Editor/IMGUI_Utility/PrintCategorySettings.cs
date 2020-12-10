@@ -17,7 +17,16 @@ namespace com.rvkm.unitygames.YouTubeSearch
             if (data.showCategorySetting)
             {
                 EditorGUI.indentLevel += 2;
-                PrintCategory.ShowCategoryArray(serializedObject.FindProperty(nameof(data.categories)), data.categories);
+
+                EditorGUI.BeginChangeCheck();
+                {
+                    if (editor.catList != null)
+                    {
+                        editor.catList.Layout();
+                    }
+                }
+               
+                //PrintCategory.ShowCategoryArray(serializedObject.FindProperty(nameof(data.categories)), data.categories);
                 data.showAllCategoryOutputUI = EditorGUILayout.Foldout(data.showAllCategoryOutputUI, "Outputs Group");
                 if (data.showAllCategoryOutputUI)
                 {

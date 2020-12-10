@@ -81,12 +81,12 @@ MonoBehaviour:
       day: 0
     scale: 0
     mode: 0
-  videoData: {fileID: 11400000, guid: 16f02870bb5bbcd4981b4362e1df0bc2, type: 2}
-  totalMinutes: 1322
-  totalVideoCount: 98
-  averageVideoDuration: 13
-  medianVideoDuration: 5
-  frequentVideoDuration: 1
+  videoData: {fileID: 11400000, guid: eaf6e949ee328e448a7357c1e66e0fd7, type: 2}
+  totalMinutes: 790
+  totalVideoCount: 25
+  averageVideoDuration: 31
+  medianVideoDuration: 30
+  frequentVideoDuration: 9
   sortMode: 0
   AscendingOrder: 0
   htmlPrintOptions:
