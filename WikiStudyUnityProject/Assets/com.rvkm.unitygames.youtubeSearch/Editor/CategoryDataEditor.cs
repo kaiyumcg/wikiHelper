@@ -91,39 +91,6 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
                 }
 
-                data.SortOpShow = EditorGUILayout.Foldout(data.SortOpShow, "Sort And Html output");
-                if (data.SortOpShow)
-                {
-                    EditorGUI.indentLevel += 1;
-                    EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.sortMode)), IMGUIStatics.sortMode);
-                    GUILayout.BeginHorizontal("box");
-                    EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.AscendingOrder)), IMGUIStatics.IsAscendingOrder);
-                    if (GUILayout.Button(Environment.NewLine + "Sort" + Environment.NewLine))
-                    {
-                        Debug.Log("Here we must sort!");
-                        if (data != null && data.videoData != null && data.videoData.allVideos != null && data.videoData.allVideos.Length > 0)
-                        {
-                            data.Sort();
-                        }
-                    }
-
-                    if (GUILayout.Button(Environment.NewLine + "Open Html" + Environment.NewLine))
-                    {
-                        Debug.Log("Here we must open html!");
-                        if (data != null && data.videoData != null && data.videoData.allVideos != null && data.videoData.allVideos.Length > 0)
-                        {
-                            CategoryHtmlFilePrintControl.MakeCategoryWebPage(data,data.htmlPrintOptions, this, (errMsgIfAny) =>
-                            {
-                                StopAllEditorCoroutines();
-                                EditorUtility.DisplayDialog("Error!", "Html operation error! message: " + errMsgIfAny, "Ok");
-                            });
-                        }
-                    }
-                    GUILayout.EndHorizontal();
-                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.htmlPrintOptions)), IMGUIStatics.htmlPrintOptions, true);
-                    EditorGUI.indentLevel -= 1;
-                }
-
                 data.OutputOptionShow = EditorGUILayout.Foldout(data.OutputOptionShow, "Outputs group of this category");
                 if (data.OutputOptionShow)
                 {
@@ -152,6 +119,34 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.averageVideoDuration)), IMGUIStatics.averageDuration);
                     EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.medianVideoDuration)), IMGUIStatics.mediationDuration);
                     EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.frequentVideoDuration)), IMGUIStatics.frequentDuration);
+
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.htmlPrintOptions)), IMGUIStatics.htmlPrintOptions, true);
+                    EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.sortMode)), IMGUIStatics.sortMode);
+                    GUILayout.BeginHorizontal("box");
+                    EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.AscendingOrder)), IMGUIStatics.IsAscendingOrder);
+                    if (GUILayout.Button(Environment.NewLine + "Sort" + Environment.NewLine))
+                    {
+                        Debug.Log("Here we must sort!");
+                        if (data != null && data.videoData != null && data.videoData.allVideos != null && data.videoData.allVideos.Length > 0)
+                        {
+                            data.Sort();
+                        }
+                    }
+
+                    if (GUILayout.Button(Environment.NewLine + "Open Html" + Environment.NewLine))
+                    {
+                        Debug.Log("Here we must open html!");
+                        if (data != null && data.videoData != null && data.videoData.allVideos != null && data.videoData.allVideos.Length > 0)
+                        {
+                            CategoryHtmlFilePrintControl.MakeCategoryWebPage(data, data.htmlPrintOptions, this, (errMsgIfAny) =>
+                            {
+                                StopAllEditorCoroutines();
+                                EditorUtility.DisplayDialog("Error!", "Html operation error! message: " + errMsgIfAny, "Ok");
+                            });
+                        }
+                    }
+                    GUILayout.EndHorizontal();
+                    
                     EditorGUI.indentLevel -= 1;
                 }
                 EditorGUI.indentLevel -= 1;

@@ -10,7 +10,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
     public class YoutubeCategory : ScriptableObject
     {
         public string categoryName;
-        public bool showUI, StrOpShow, IntOpShow, DurationAndDateOpShow, SortOpShow, OutputOptionShow;
+        public bool showUI, StrOpShow, IntOpShow, DurationAndDateOpShow, OutputOptionShow;
         public StringSearchOp titleOp = null, descriptionOp = null, tagOp = null;
         public IntSearchOp viewCountOp = null, likeCountOp = null, dislikeCountOp = null, commentCountOp = null, durationOp = null;
         public DateSearchOp pubDateOp = null;
