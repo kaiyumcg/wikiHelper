@@ -69,14 +69,22 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 }
                 StringAndCaseDesc[] blacklist = null, whitelist = null;
                 Utility.GetBlackWhitelist(strSoup, ref blacklist, ref whitelist);
-                if (blacklist != null && blacklist.Length > 0)
-                {
-                    passed = !IsRelatableWithAnyInList(str, blacklist);
-                }
+
                 
                 if (whitelist != null && whitelist.Length > 0)
                 {
-                    passed = IsRelatableWithAnyInList(str, whitelist);
+                    if (IsRelatableWithAnyInList(str, whitelist))
+                    {
+                        passed = true;   
+                    }
+                }
+
+                if (blacklist != null && blacklist.Length > 0)
+                {
+                    if (IsRelatableWithAnyInList(str, blacklist))
+                    {
+                        passed = false;
+                    }
                 }
             }
 

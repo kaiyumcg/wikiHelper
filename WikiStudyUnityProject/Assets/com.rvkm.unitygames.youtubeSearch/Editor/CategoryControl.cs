@@ -144,6 +144,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 List<YoutubeCategory> cList = new List<YoutubeCategory>();
                 foreach (var c in data.categories) 
                 {
+                    if (c == null) { continue; }
                     if (c.categoryName == "Uncategorized") { continue; }
                     cList.Add(c);
                 }

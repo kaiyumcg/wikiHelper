@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 731d7ca5cab79ed47be8ba4cd387da8c, type: 3}
-  m_Name: Film Industry
+  m_Name: HDRP
   m_EditorClassIdentifier: 
-  categoryName: Film Industry
+  categoryName: HDRP
   showUI: 1
   StrOpShow: 1
   IntOpShow: 0
@@ -21,7 +21,7 @@ MonoBehaviour:
   titleOp:
     use: 1
     defAssets:
-    - {fileID: 4900000, guid: 5ce540c7c710ffa44befc700a6bf54e0, type: 3}
+    - {fileID: 4900000, guid: c06777cd3dd4025498aaa9b2e5469b13, type: 3}
   descriptionOp:
     use: 0
     defAssets: []
@@ -81,12 +81,12 @@ MonoBehaviour:
       day: 0
     scale: 0
     mode: 0
-  videoData: {fileID: 11400000, guid: cca567444aa5ecb41b5368de6f200788, type: 2}
-  totalMinutes: 490
-  totalVideoCount: 27
-  averageVideoDuration: 18
+  videoData: {fileID: 11400000, guid: 0c100468d48ef2e4f8e7bbf4da6dfb15, type: 2}
+  totalMinutes: 603
+  totalVideoCount: 31
+  averageVideoDuration: 19
   medianVideoDuration: 7
-  frequentVideoDuration: 2
+  frequentVideoDuration: 7
   sortMode: 0
   AscendingOrder: 0
   htmlPrintOptions:

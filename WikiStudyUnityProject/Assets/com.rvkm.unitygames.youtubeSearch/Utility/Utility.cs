@@ -101,7 +101,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 foreach (var s in sps)
                 {
                     var extStr = s.Replace("^", "");
-                    extStr = extStr.Replace("--", "");
+                    extStr = extStr.Replace("-", "");
                     bool exactMatch = false;
                     string quotationMark = "\"";
                     if (extStr.StartsWith(quotationMark) && extStr.StartsWith(quotationMark))
@@ -110,14 +110,20 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     }
 
                     bool caseSensitive = s.StartsWith("^");
-                    if (s.EndsWith("--"))
+                    if (s.EndsWith("-"))
                     {
-                        var desc = new StringAndCaseDesc { caseSensitive = caseSensitive, str = s, matchExactPhraseOrSentence = exactMatch };
+                        var st = s.Replace("^", "");
+                        st = st.Replace("\"", "");
+                        st = st.Replace("-", "");
+                        var desc = new StringAndCaseDesc { caseSensitive = caseSensitive, str = st, matchExactPhraseOrSentence = exactMatch };
                         bList.Add(desc);
                     }
                     else
                     {
-                        var desc = new StringAndCaseDesc { caseSensitive = caseSensitive, str = s, matchExactPhraseOrSentence = exactMatch };
+                        var st = s.Replace("^", "");
+                        st = st.Replace("\"", "");
+                        st = st.Replace("-", "");
+                        var desc = new StringAndCaseDesc { caseSensitive = caseSensitive, str = st, matchExactPhraseOrSentence = exactMatch };
                         wList.Add(desc);
                     }
                 }

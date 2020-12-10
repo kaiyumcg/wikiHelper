@@ -27,7 +27,16 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public CategoryHtmlPrintDesc htmlPrintOptions;
         public bool IsSatisfiedByVideo(YoutubeVideo video)
         {
-            bool titlePass = titleOp.IsPassed(video.title);
+            bool titlePass = false;
+            if (categoryName == "Graphics" && video.title.Contains("Film"))
+            {
+                titlePass = titleOp.IsPassed(video.title);
+            }
+            else
+            {
+                titlePass = titleOp.IsPassed(video.title);
+            }
+            //bool titlePass = titleOp.IsPassed(video.title);
             bool descPass = descriptionOp.IsPassed(video.description);
             bool tagsPass = tagOp.IsPassed(video.tags);
             bool viewCountPass = viewCountOp.IsPassed(video.viewCount);

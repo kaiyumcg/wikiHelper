@@ -82,9 +82,9 @@ MonoBehaviour:
     scale: 0
     mode: 0
   videoData: {fileID: 11400000, guid: eef3c2a2f3318714e98513817362d41b, type: 2}
-  totalMinutes: 355
-  totalVideoCount: 17
-  averageVideoDuration: 20
+  totalMinutes: 315
+  totalVideoCount: 15
+  averageVideoDuration: 21
   medianVideoDuration: 27
   frequentVideoDuration: 3
   sortMode: 0
