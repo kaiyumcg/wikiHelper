@@ -12,27 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 731d7ca5cab79ed47be8ba4cd387da8c, type: 3}
   m_Name: AI
   m_EditorClassIdentifier: 
-  categoryName: 2D
+  categoryName: AI
   showUI: 1
   StrOpShow: 1
   IntOpShow: 0
   DurationAndDateOpShow: 0
-  OutputOptionShow: 0
+  OutputOptionShow: 1
   titleOp:
     use: 1
-    caseSensitive: 0
-    compMode: 0
     defAssets:
-    - {fileID: 4900000, guid: 3ffbfd8f48f16f3488a51beebdcaf547, type: 3}
+    - {fileID: 4900000, guid: 6b33c8f208740e3479bee368951ca665, type: 3}
   descriptionOp:
     use: 0
-    caseSensitive: 0
-    compMode: 0
     defAssets: []
   tagOp:
     use: 0
-    caseSensitive: 0
-    compMode: 0
     defAssets: []
   viewCountOp:
     use: 0
@@ -87,11 +81,11 @@ MonoBehaviour:
       day: 0
     scale: 0
     mode: 0
-  videoData: {fileID: 0}
-  totalMinutes: 0
-  totalVideoCount: 0
-  averageVideoDuration: 0
-  medianVideoDuration: 0
+  videoData: {fileID: 11400000, guid: e99c20082a99a844095350e5cd4bedcf, type: 2}
+  totalMinutes: 315
+  totalVideoCount: 27
+  averageVideoDuration: 11
+  medianVideoDuration: 3
   frequentVideoDuration: 0
   sortMode: 0
   AscendingOrder: 0

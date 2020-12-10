@@ -10,23 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 731d7ca5cab79ed47be8ba4cd387da8c, type: 3}
-  m_Name: Misc
+  m_Name: _uncat_generated
   m_EditorClassIdentifier: 
-  categoryName: Misc
-  showUI: 1
-  StrOpShow: 1
+  categoryName: _uncat_generated
+  showUI: 0
+  StrOpShow: 0
   IntOpShow: 0
   DurationAndDateOpShow: 0
-  OutputOptionShow: 1
+  OutputOptionShow: 0
   titleOp:
-    use: 1
-    defAssets:
-    - {fileID: 4900000, guid: 490495fee14c0fc4dbeff7c03c557753, type: 3}
+    use: 0
+    compMode: 0
+    defAssets: []
   descriptionOp:
     use: 0
+    compMode: 0
     defAssets: []
   tagOp:
     use: 0
+    compMode: 0
     defAssets: []
   viewCountOp:
     use: 0
@@ -81,12 +83,12 @@ MonoBehaviour:
       day: 0
     scale: 0
     mode: 0
-  videoData: {fileID: 11400000, guid: 7e2265b55d3cae74cbefca5d54ecf1b6, type: 2}
-  totalMinutes: 12534
-  totalVideoCount: 403
-  averageVideoDuration: 31
-  medianVideoDuration: 13
-  frequentVideoDuration: 3
+  videoData: {fileID: 11400000, guid: 422de54caf87c344a924a8f16d2d17ed, type: 2}
+  totalMinutes: 13832
+  totalVideoCount: 530
+  averageVideoDuration: 26
+  medianVideoDuration: 18
+  frequentVideoDuration: 1
   sortMode: 0
   AscendingOrder: 0
   htmlPrintOptions:

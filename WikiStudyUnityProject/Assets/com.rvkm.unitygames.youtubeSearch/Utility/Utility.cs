@@ -91,22 +91,34 @@ namespace com.rvkm.unitygames.YouTubeSearch
             return Regex.Split(Regex.Replace(inputString, "^[,\r\n]+|[,\r\n]+$", ""), "[,\r\n]+");
         }
 
-        public static void GetBlackWhitelist(string inputString, ref string[] blackList, ref string[] whiteList)
+        public static void GetBlackWhitelist(string inputString, ref StringAndCaseDesc[] blackList, ref StringAndCaseDesc[] whiteList)
         {
             var sps = Regex.Split(Regex.Replace(inputString, "^[,\r\n]+|[,\r\n]+$", ""), "[,\r\n]+");
-            List<string> bList = new List<string>();
-            List<string> wList = new List<string>();
+            List<StringAndCaseDesc> bList = new List<StringAndCaseDesc>();
+            List<StringAndCaseDesc> wList = new List<StringAndCaseDesc>();
             if (sps != null && sps.Length > 0)
             {
                 foreach (var s in sps)
                 {
-                    if (s.StartsWith("-"))
+                    var extStr = s.Replace("^", "");
+                    extStr = extStr.Replace("--", "");
+                    bool exactMatch = false;
+                    string quotationMark = "\"";
+                    if (extStr.StartsWith(quotationMark) && extStr.StartsWith(quotationMark))
                     {
-                        bList.Add(s);
+                        exactMatch = true;
+                    }
+
+                    bool caseSensitive = s.StartsWith("^");
+                    if (s.EndsWith("--"))
+                    {
+                        var desc = new StringAndCaseDesc { caseSensitive = caseSensitive, str = s, matchExactPhraseOrSentence = exactMatch };
+                        bList.Add(desc);
                     }
                     else
                     {
-                        wList.Add(s);
+                        var desc = new StringAndCaseDesc { caseSensitive = caseSensitive, str = s, matchExactPhraseOrSentence = exactMatch };
+                        wList.Add(desc);
                     }
                 }
             }

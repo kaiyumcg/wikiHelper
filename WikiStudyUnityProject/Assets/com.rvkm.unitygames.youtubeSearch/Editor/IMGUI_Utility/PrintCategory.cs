@@ -27,7 +27,5 @@ namespace com.rvkm.unitygames.YouTubeSearch.IMGUI_Utility
             }
             EditorGUI.indentLevel -= 1;
         }
-
-        
     }
 }

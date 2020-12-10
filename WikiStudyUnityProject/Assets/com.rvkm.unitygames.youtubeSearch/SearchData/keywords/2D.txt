@@ -1,1 +1,1 @@
-2D,Tilemap,2.5D,UI,Canvas,tilemapper,svg,vector graphics,UnityTiny,Sprite,event system,event trigger,UnityEvent,GUI,uGUI
+2D,Tilemap,2.5D,tilemapper,svg,vector graphics,UnityTiny,Sprite

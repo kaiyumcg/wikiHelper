@@ -1,6 +1,1 @@
-VR,MR,XR,AR,Vuforia,Augmented Reality,daydream,oculus,htc,vive,vuforia,Magic Leap,google tango,HoloLens,mixed reality
-Mixed Reality
-Augmented Reality
-Virtual Reality
-virtual reality
-Augmented
+XR

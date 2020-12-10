@@ -49,6 +49,11 @@ namespace com.rvkm.unitygames.YouTubeSearch
             for (int i = 0; i < data.categories.Length; i++)
             {
                 if (data.categories[i] == null || data.categories[i].categoryName == "Uncategorized") { continue; }
+                if (data.categories[i].videoData != null && data.categories[i].videoData.allVideos != null && data.categories[i].videoData.allVideos.Length > 0)
+                {
+                    data.categories[i].videoData.allVideos = null;
+                }
+
                 List<YoutubeVideo> catVlist = new List<YoutubeVideo>();
                 foreach (var video in vList)
                 {
@@ -110,11 +115,29 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
             if (notUsedCount > 0 && notUsedVideos != null && notUsedVideos.Count > 0)
             {
-                /*
+                
                 if (uncat == null)
                 {
                     Debug.Log("we need to create it!");
-                    uncat = new YoutubeCategory() { categoryName = "Uncategorized" };
+                    //uncat = new YoutubeCategory() { categoryName = "Uncategorized" };
+
+                    string mainDataDirRel = UrlUtility.GetDataDirRelative(data);
+                    string dependencyDataDirRel = Path.Combine(mainDataDirRel, data.name + "_data_generated_");
+                    string dependencyDataDirRelAbs = UrlUtility.GetAbsolutePath(dependencyDataDirRel);
+                    
+                    if (Directory.Exists(dependencyDataDirRelAbs) == false)
+                    {
+                        AssetDatabase.CreateFolder(mainDataDirRel, data.name + "_data_generated_");
+                        Debug.Log("folder created at: " + dependencyDataDirRel);
+                    }
+
+                    string uncatDataPathRel = Path.Combine(dependencyDataDirRel, "_uncat_generated.asset");
+                    uncatDataPathRel = uncatDataPathRel.Replace('\\', '/');
+                    uncat = ScriptableObject.CreateInstance<YoutubeCategory>();
+                    uncat.categoryName = "Uncategorized";
+                    AssetDatabase.CreateAsset(uncat, uncatDataPathRel);
+                    AssetDatabase.SaveAssets();
+                    AssetDatabase.Refresh();
                 }
                 CreateOrLoadVideoDataWithVideoList(ref uncat, notUsedVideos, data);
                 uncat.UpdateStat();
@@ -126,7 +149,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 }
                 cList.Add(uncat);
                 data.categories = cList.ToArray();
-                */
+                
             }
             else
             {

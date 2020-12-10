@@ -8,55 +8,51 @@ using System.Linq;
 
 namespace com.rvkm.unitygames.YouTubeSearch
 {
+    public class StringAndCaseDesc
+    {
+        public string str;
+        public bool caseSensitive, matchExactPhraseOrSentence;
+    }
+
     [System.Serializable]
     public class StringSearchOp
     {
         public bool use;
-        public bool caseSensitive;
-        public StrSearchComp compMode;
         public TextAsset[] defAssets;
 
-        bool MatchesInTheList(string[] strList, string str, bool caseSensitive = false)
+        bool IsRelatableWithAnyInList(string str, StringAndCaseDesc[] strList)
         {
-            bool hasAny = false;
+            bool relatable = false;
             if (strList != null)
             {
                 for (int i = 0; i < strList.Length; i++)
                 {
-                    if (string.IsNullOrEmpty(strList[i])) { continue; }
-                    if (caseSensitive)
+                    if (strList[i] == null || string.IsNullOrEmpty(strList[i].str)) { continue; }
+                    if (strList[i].matchExactPhraseOrSentence)
                     {
-                        if (strList[i] == str) { hasAny = true; break; }
+                        if (strList[i].caseSensitive)
+                        {
+                            if (strList[i].str == str) { relatable = true; break; }
+                        }
+                        else
+                        {
+                            if (string.Equals(strList[i].str, str, StringComparison.OrdinalIgnoreCase)) { relatable = true; break; }
+                        }
                     }
                     else
                     {
-                        if (string.Equals(strList[i], str, StringComparison.OrdinalIgnoreCase)) { hasAny = true; break; }
+                        if (strList[i].caseSensitive)
+                        {
+                            if (str.Contains(strList[i].str)) { relatable = true; break; }
+                        }
+                        else
+                        {
+                            if (str.Contains_IgnoreCase(strList[i].str)) { relatable = true; break; }
+                        }
                     }
                 }
             }
-            
-            return hasAny;
-        }
-
-        bool ContainsInTheList(string[] strList, string str, bool caseSensitive = false)
-        {
-            bool contains = false;
-            if (strList != null)
-            {
-                for (int i = 0; i < strList.Length; i++)
-                {
-                    if (string.IsNullOrEmpty(strList[i])) { continue; }
-                    if (caseSensitive)
-                    {
-                        if (str.Contains(strList[i])) { contains = true; break; }
-                    }
-                    else
-                    {
-                        if (str.Contains_IgnoreCase(strList[i])) { contains = true; break; }
-                    }
-                }
-            }
-            return contains;
+            return relatable;
         }
 
         public bool IsPassed(string str)
@@ -71,17 +67,16 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     if (a == null) { continue; }
                     strSoup += a.text + Environment.NewLine;
                 }
-
-                var blacklist = Utility.SplitByComaOrNewline(strSoup);
+                StringAndCaseDesc[] blacklist = null, whitelist = null;
+                Utility.GetBlackWhitelist(strSoup, ref blacklist, ref whitelist);
                 if (blacklist != null && blacklist.Length > 0)
                 {
-                    passed = compMode == StrSearchComp.ContainsOnAnyParts ? !ContainsInTheList(blacklist, str, caseSensitive) : !MatchesInTheList(blacklist, str, caseSensitive);
+                    passed = !IsRelatableWithAnyInList(str, blacklist);
                 }
                 
-                var whitelist = Utility.SplitByComaOrNewline(strSoup);
                 if (whitelist != null && whitelist.Length > 0)
                 {
-                    passed = compMode == StrSearchComp.ContainsOnAnyParts ? ContainsInTheList(whitelist, str, caseSensitive) : MatchesInTheList(whitelist, str, caseSensitive);
+                    passed = IsRelatableWithAnyInList(str, whitelist);
                 }
             }
 
@@ -110,7 +105,6 @@ namespace com.rvkm.unitygames.YouTubeSearch
         }
     }
 
-    public enum StrSearchComp { ContainsOnAnyParts = 0, ExactMatch = 1 }
     public enum IntSearchComp { Equal = 0, LessthanOrEqual = 1, GreaterthanOrEqual = 2, Greaterthan = 3, Lessthan = 4, NotEqual = 5 }
     public enum IntSearchCompMode { SingleTarget = 0, InBetween = 1}
     public enum IntSearchBetweenMode { OutsideRange = 0, InsideRange = 1, EitherExtreme = 2, MinExtremeSide = 3, MaxExtremeSide = 4 }

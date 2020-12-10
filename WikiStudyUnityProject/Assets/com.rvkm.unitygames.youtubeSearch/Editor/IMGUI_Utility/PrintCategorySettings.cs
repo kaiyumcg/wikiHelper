@@ -30,6 +30,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                         editor.StopAllEditorCoroutines();
                         EditorUtility.ClearProgressBar();
                         EditorUtility.DisplayDialog("Success!", "Successfully done category task!", "Ok");
+                        SearchDataEditor.OnCategorize?.Invoke();
                         editor.anyButtonClicked = true;
                     }
 

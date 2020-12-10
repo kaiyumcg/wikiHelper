@@ -12,27 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 731d7ca5cab79ed47be8ba4cd387da8c, type: 3}
   m_Name: Physics
   m_EditorClassIdentifier: 
-  categoryName: 2D
+  categoryName: Physics
   showUI: 1
   StrOpShow: 1
   IntOpShow: 0
   DurationAndDateOpShow: 0
-  OutputOptionShow: 0
+  OutputOptionShow: 1
   titleOp:
     use: 1
-    caseSensitive: 0
-    compMode: 0
     defAssets:
-    - {fileID: 4900000, guid: 3ffbfd8f48f16f3488a51beebdcaf547, type: 3}
+    - {fileID: 4900000, guid: 8a852c876bd80a94889b1d1eafeae305, type: 3}
   descriptionOp:
     use: 0
-    caseSensitive: 0
-    compMode: 0
     defAssets: []
   tagOp:
     use: 0
-    caseSensitive: 0
-    compMode: 0
     defAssets: []
   viewCountOp:
     use: 0
@@ -87,12 +81,12 @@ MonoBehaviour:
       day: 0
     scale: 0
     mode: 0
-  videoData: {fileID: 0}
-  totalMinutes: 0
-  totalVideoCount: 0
-  averageVideoDuration: 0
-  medianVideoDuration: 0
-  frequentVideoDuration: 0
+  videoData: {fileID: 11400000, guid: caa28e6fa8ab4d14189d91170b226f05, type: 2}
+  totalMinutes: 314
+  totalVideoCount: 18
+  averageVideoDuration: 17
+  medianVideoDuration: 5
+  frequentVideoDuration: 3
   sortMode: 0
   AscendingOrder: 0
   htmlPrintOptions:

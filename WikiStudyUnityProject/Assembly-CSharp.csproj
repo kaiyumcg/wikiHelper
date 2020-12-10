@@ -128,11 +128,13 @@
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\keywords\Submission.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\keywords\MISC.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\tags\12. Core.txt" />
+     <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\keywords\VR.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\tags\19. Conference like.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\keywords\Physics.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\tags\5. Editor Scripting.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\keywords\Core.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\keywords\Graphics.txt" />
+     <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\keywords\AR.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\keywords\AI.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\tags\2. AEC.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\keywords\Editor Scripting.txt" />
@@ -141,6 +143,7 @@
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\keywords\Collaboration.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\channel.xml" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\keywords\Optimization.txt" />
+     <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\keywords\MR.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\tags\3. AI.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\UnityChannel_data_generated_\ytTagData_json.txt" />
      <None Include="Assets\com.rvkm.unitygames.youtubeSearch\SearchData\keywords\Baremetal.txt" />

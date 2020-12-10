@@ -21,7 +21,8 @@ namespace com.rvkm.unitygames.YouTubeSearch
     {
         SearchDataYoutube data;
         //public List<string> debugList = new List<string>();
-        
+        public static Action OnCategorize;
+
         public override void OnEnableScriptableObject()
         {
             data = (SearchDataYoutube)target;

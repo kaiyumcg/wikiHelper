@@ -12,13 +12,26 @@ namespace com.rvkm.unitygames.YouTubeSearch
     public class CategoryDataEditor : KaiyumScriptableObjectEditor
     {
         YoutubeCategory data;
-       // public bool anyButtonClicked = false;
-
+        bool showVideoData;
+        Editor catVideoDataEd;
         public override void OnEnableScriptableObject()
         {
             data = (YoutubeCategory)target;
             if (data.htmlPrintOptions == null) { data.htmlPrintOptions = new CategoryHtmlPrintDesc(); }
+            if (catVideoDataEd == null)
+            {
+                catVideoDataEd = Editor.CreateEditor(data.videoData);
+            }
+            SearchDataEditor.OnCategorize += OnCategory;
             InitScript();
+        }
+
+        void OnCategory()
+        {
+            if (catVideoDataEd == null)
+            {
+                catVideoDataEd = Editor.CreateEditor(data.videoData);
+            }
         }
 
         void InitScript()
@@ -34,6 +47,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public override void OnDisableScriptableObject()
         {
             InitScript();
+            SearchDataEditor.OnCategorize -= OnCategory;
         }
 
         public override void OnUpdateScriptableObject()
@@ -54,7 +68,9 @@ namespace com.rvkm.unitygames.YouTubeSearch
             if (data.showUI)
             {
                 EditorGUI.indentLevel += 1;
-                EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.categoryName)), IMGUIStatics.categoryName, true);
+                data.categoryName = data.name;
+                EditorGUILayout.LabelField("Category name: " + data.categoryName);
+                //EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.categoryName)), IMGUIStatics.categoryName, true);
 
                 if (data.categoryName != "Uncategorized")
                 {
@@ -96,6 +112,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 {
                     EditorGUI.indentLevel += 1;
                     EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.videoData)), IMGUIStatics.videoData);
+                    
                     string duration = "";
                     if (data.totalMinutes > 60)
                     {
@@ -114,7 +131,13 @@ namespace com.rvkm.unitygames.YouTubeSearch
                         duration = data.totalMinutes + " Minutes";
                     }
                     EditorGUILayout.LabelField("Duration: " + duration);
-                    //EditorGUILayout.PropertyField(catObj.FindPropertyRelative(nameof(catData.totalMinutes)), IMGUIStatics.totalMinutes);
+                    showVideoData = EditorGUILayout.Foldout(showVideoData, "Videos");
+                    if (showVideoData)
+                    {
+                        EditorGUI.indentLevel += 1;
+                        catVideoDataEd.OnInspectorGUI();
+                        EditorGUI.indentLevel -= 1;
+                    }
                     EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.totalVideoCount)), IMGUIStatics.totalVideoCount);
                     EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.averageVideoDuration)), IMGUIStatics.averageDuration);
                     EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.medianVideoDuration)), IMGUIStatics.mediationDuration);
@@ -146,7 +169,10 @@ namespace com.rvkm.unitygames.YouTubeSearch
                         }
                     }
                     GUILayout.EndHorizontal();
+
                     
+                    
+
                     EditorGUI.indentLevel -= 1;
                 }
                 EditorGUI.indentLevel -= 1;
@@ -161,8 +187,8 @@ namespace com.rvkm.unitygames.YouTubeSearch
             if (op.use)
             {
                 EditorGUI.indentLevel += 1;
-                EditorGUILayout.PropertyField(prop.FindProperty(varName + ".compMode"), IMGUIStatics.stringComparisonMode, true);
-                EditorGUILayout.PropertyField(prop.FindProperty(varName + ".caseSensitive"), IMGUIStatics.isCaseSensitive, true);
+                //EditorGUILayout.PropertyField(prop.FindProperty(varName + ".compMode"), IMGUIStatics.stringComparisonMode, true);
+                //EditorGUILayout.PropertyField(prop.FindProperty(varName + ".caseSensitive"), IMGUIStatics.isCaseSensitive, true);
                 PrintAssetFiles.ShowArrayWithBrowseOption<TextAsset>(prop.FindProperty(varName + ".defAssets"), data);
                 EditorGUI.indentLevel -= 1;
             }
