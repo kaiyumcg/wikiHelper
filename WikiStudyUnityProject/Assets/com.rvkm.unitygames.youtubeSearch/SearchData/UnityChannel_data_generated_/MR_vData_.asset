@@ -12,6 +12,209 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: MR_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: MR
+  allVideos:
+  - title: Carte Blanche concept
+    url: https://www.youtube.com/watch?v=bKR0eEKTiBM
+    channelName: Unity
+    description: "The sister project of EditorVR (https://youtu.be/FzjxRi5J4XI),
+      Carte Blanche is Unity Lab's research initiative on VR-in-VR authoring tools
+      for non technical users. \n\nWe are looking at the future of virtual reality
+      experience creation and to that end are exploring how creative minds like level
+      designers and artists might approach the next generation of creation platforms.
+      We are working on finding the best solutions for enabling non programmers to
+      build virtual worlds inside VR, so we are designing and implementing a platform
+      on top of Unity that will integrate with the rest of Unity services.\n\nThis
+      is a *concept video* showing the kinds of tools and interactions we envision
+      for putting creation tools in the hands of consumers and artists.  \n\nUnity
+      Labs website: http://labs.unity.com\nVideo direction and editing: Greg Madison,
+      Lead UX Designer on Carte Blanche at Unity Labs\n\nThanks to the following
+      devs and artists from the Unity community for assets used in this video:\n\n\xBB
+      Lowpoly Township Set by Evgenia - https://www.assetstore.unity3d.com/en/#!/content/22258\n\xBB
+      Fantasy Treasure Chest by Unity Art Assets - https://www.assetstore.unity3d.com/en/#!/content/9007\n\xBB
+      Cartoon Zombie by M.eye - https://www.assetstore.unity3d.com/en/#!/content/14116\n\xBB
+      Cute Medieval Hunter by jay-z - https://www.assetstore.unity3d.com/en/#!/content/9091\n\xBB
+      Books by VIS Games  - https://www.assetstore.unity3d.com/en/#!/content/3356\n\xBB
+      Hand Painted Potions and Bottles by Antonio Neves  - https://www.assetstore.unity3d.com/en/#!/content/31586\n\xBB
+      Furniture Props by Matheus Oliveira - https://www.assetstore.unity3d.com/en/#!/content/36782\n\nHelp
+      us caption & translate this video!\n\nhttp://amara.org/v/V604/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/bKR0eEKTiBM/sddefault.jpg
+    - https://i.ytimg.com/vi/bKR0eEKTiBM/mqdefault.jpg
+    - https://i.ytimg.com/vi/bKR0eEKTiBM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/bKR0eEKTiBM/hqdefault.jpg
+    tags:
+    - unity
+    - labs
+    - Unity (software)
+    - Virtual Reality
+    - Unity Technologies
+    viewCount: 31842
+    likeCount: 700
+    dislikeCount: 74
+    commentCount: 71
+    durationInMinutes: 3
+    publishedAtDate: 635993838350000000
+    publisdedDate:
+      year: 2016
+      month: 5
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating 2D Magic Spells | Prototype Series
+    url: https://www.youtube.com/watch?v=Z_FaqmP5Wm0
+    channelName: Unity
+    description: "In this episode of the Prototype Series - we try to take Unity's
+      latest 2D demo and implement new magical game mechanics to it! \u2728 \u2604\uFE0F
+      \n\n\u2B50 Download the project here: https://on.unity.com/2GfTPqP\n\u2B50
+      Check out our longer training session! https://on.unity.com/3ieU81R\n\u2B50
+      You can find the original Lost Crypt demo here: https://on.unity.com/33g9jUn"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Z_FaqmP5Wm0/sddefault.jpg
+    - https://i.ytimg.com/vi/Z_FaqmP5Wm0/mqdefault.jpg
+    - https://i.ytimg.com/vi/Z_FaqmP5Wm0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Z_FaqmP5Wm0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity 2d
+    - making 2d games
+    - unity 2d movement
+    - unity 2d animation
+    - unity 2d shooting
+    - unity 2d games
+    - unity 2d light
+    - unity 2d platformer
+    - unity 2d tutorial
+    - gamedev 2d
+    - 2d indie
+    - unity 2d animation rigging
+    - unity 2020
+    - unity 2020 2d
+    - how to make 2d game
+    - prototype 2d
+    - prototying 2d game
+    - prototype series 2d
+    - 2d game
+    - 2d unity character
+    - 2d unity tutorial
+    - game development
+    viewCount: 35940
+    likeCount: 1665
+    dislikeCount: 4
+    commentCount: 65
+    durationInMinutes: 4
+    publishedAtDate: 637371792100000000
+    publisdedDate:
+      year: 2020
+      month: 10
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: 'forma.8: Unity for 2D games case study'
+    url: https://www.youtube.com/watch?v=18xpAo57SzU
+    channelName: Unity
+    description: 'Mauro Fanelli, co-founder of Mixed Bag studios, talks about how
+      2D tools in Unity enabled them to realize their vision. Read the full story:
+      https://unity3d.com/solutions/2d-game-development-case-stories/forma.8'
+    thumbUrls:
+    - https://i.ytimg.com/vi/18xpAo57SzU/sddefault.jpg
+    - https://i.ytimg.com/vi/18xpAo57SzU/mqdefault.jpg
+    - https://i.ytimg.com/vi/18xpAo57SzU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/18xpAo57SzU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3672
+    likeCount: 21
+    dislikeCount: 1
+    commentCount: 4
+    durationInMinutes: 1
+    publishedAtDate: 636534485680000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Introducing Unity MARS
+    url: https://www.youtube.com/watch?v=825WgLYUqvg
+    channelName: Unity
+    description: 'Create intelligent augmented reality (AR) experiences with Unity
+      MARS.
+
+
+      Unity MARS is a new product that provides AR creators across
+      industries with specialized tools and a streamlined workflow to unlock the
+      next generation of AR experiences.
+
+
+      Learn more about Unity MARS on the
+      blog: https://on.unity.com/37npIqJ
+
+      Visit our Unity MARS page: https://on.unity.com/2yDxdfZ'
+    thumbUrls:
+    - https://i.ytimg.com/vi/825WgLYUqvg/sddefault.jpg
+    - https://i.ytimg.com/vi/825WgLYUqvg/mqdefault.jpg
+    - https://i.ytimg.com/vi/825WgLYUqvg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/825WgLYUqvg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Augmented Reality
+    viewCount: 82786
+    likeCount: 2593
+    dislikeCount: 417
+    commentCount: 263
+    durationInMinutes: 1
+    publishedAtDate: 637272533150000000
+    publisdedDate:
+      year: 2020
+      month: 6
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Storytellers of Tomorrow -  Nate Turley and Igal Nassima (Superbright)
+      on Zikr: A Sufi Revival'
+    url: https://www.youtube.com/watch?v=atHbMWjTbq8
+    channelName: Unity
+    description: "As an Official Partner of the 2018 Sundance Film Festival, Unity
+      presents Storytellers of Tomorrow, a series of interviews with award-winning
+      VR/AR creators and filmmakers who are revolutionizing digital storytelling.
+      \n\nUnity welcomes Nate Turley and Igal Nassima of Superbright to talk about
+      their roomscale, social VR project Zikr: A Sufi Revival. \n\nZikr: A Sufi Revival,
+      which debuted in Sundance's New Frontier, is the first virtual reality documentary
+      to be acquired out of the festival.\n\nhttps://unity3d.com/sff"
+    thumbUrls:
+    - https://i.ytimg.com/vi/atHbMWjTbq8/sddefault.jpg
+    - https://i.ytimg.com/vi/atHbMWjTbq8/mqdefault.jpg
+    - https://i.ytimg.com/vi/atHbMWjTbq8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/atHbMWjTbq8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1755
+    likeCount: 24
+    dislikeCount: 8
+    commentCount: 4
+    durationInMinutes: 2
+    publishedAtDate: 636532956000000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 3
+    YouTubeDataAPI_Cooked: 1

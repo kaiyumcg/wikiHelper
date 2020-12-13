@@ -12,6 +12,4439 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: Core_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: Core
+  allVideos:
+  - title: 'ustwo at Nordic Game 2014: Making of Monument Valley in Unity'
+    url: https://www.youtube.com/watch?v=mCCC9hQm6MM
+    channelName: Unity
+    description: 'Peter Pashley from the digital agency ustwo explains the basic
+      design principles underpinning their hit mobile game Monument Valley.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V67O/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/mCCC9hQm6MM/sddefault.jpg
+    - https://i.ytimg.com/vi/mCCC9hQm6MM/mqdefault.jpg
+    - https://i.ytimg.com/vi/mCCC9hQm6MM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/mCCC9hQm6MM/hqdefault.jpg
+    tags:
+    - Nordic Game
+    - Unity (Software)
+    viewCount: 63107
+    likeCount: 1111
+    dislikeCount: 7
+    commentCount: 16
+    durationInMinutes: 47
+    publishedAtDate: 635425171770000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Using Timeline: Understanding Tracks'
+    url: https://www.youtube.com/watch?v=mpRnKI8amEc
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      https://unity3d.com/learn/tutorials/topics/animation/using-timeline-understanding-tracks
+
+
+      Learn
+      about the different track types in Timeline and how to record animation data
+      onto a track.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/mpRnKI8amEc/sddefault.jpg
+    - https://i.ytimg.com/vi/mpRnKI8amEc/mqdefault.jpg
+    - https://i.ytimg.com/vi/mpRnKI8amEc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/mpRnKI8amEc/hqdefault.jpg
+    tags:
+    - Unity
+    - TImeline
+    - Animation
+    - Director
+    - Sequencer
+    - Tracks
+    - Using Timeline
+    - Understanding Tracks
+    - Unity3d
+    viewCount: 42797
+    likeCount: 289
+    dislikeCount: 11
+    commentCount: 23
+    durationInMinutes: 6
+    publishedAtDate: 636404200300000000
+    publisdedDate:
+      year: 2017
+      month: 9
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Game Studios Report 2018 Fireside Chat
+    url: https://www.youtube.com/watch?v=4hoO_5qNel0
+    channelName: Unity
+    description: 'To read the full report, please visit our dedicated site - https://create.unity3d.com/game-studio-report
+
+
+      The
+      Unity Game Studio Report 2018 was put together to share relevant benchmarking
+      data with emerging studios, and help them understand how fellow creative teams
+      operate and make successful games. The report provides a richly detailed snapshot
+      of the practices and choices required of independent studios to forge their
+      own path to success. To highlight the story behind the report findings, we
+      held this fireside chat with a panel that includes Jo Twist (CEO, UKIE), Will
+      Goldstone (Product Manager, Unity), Ciro Continisio (Technical Evangelist,
+      Unity) and Peter Pimley (Developer Relations Engineer, Unity).
+
+
+      *Please
+      note* : Some of the statistics in the Unity Game Studio Report 2018 were adjusted
+      after the recording of this video. However, the general trends discussed in
+      it remain the same. We apologize for any inconvenience/confusion, thanks.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/4hoO_5qNel0/sddefault.jpg
+    - https://i.ytimg.com/vi/4hoO_5qNel0/mqdefault.jpg
+    - https://i.ytimg.com/vi/4hoO_5qNel0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4hoO_5qNel0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - research
+    viewCount: 2959
+    likeCount: 57
+    dislikeCount: 1
+    commentCount: 13
+    durationInMinutes: 82
+    publishedAtDate: 636689305160000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity and Autodesk: Powering immersive experiences with more efficient
+      workflows'
+    url: https://www.youtube.com/watch?v=ydUgE-S7Dag
+    channelName: Unity
+    description: "We\u2019ve taken our collaboration with Autodesk to a new level
+      with interoperability between Unity and Autodesk\u2019s Revit, VRED, Shotgun,
+      3ds Max, or Maya products. Our goal is to eliminate design friction among all
+      customers so that you can unlock cost savings, increase efficiencies and better
+      collaborate.\n\nLearn more: https://unity3d.com/partners/autodesk"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ydUgE-S7Dag/sddefault.jpg
+    - https://i.ytimg.com/vi/ydUgE-S7Dag/mqdefault.jpg
+    - https://i.ytimg.com/vi/ydUgE-S7Dag/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ydUgE-S7Dag/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Demo
+    - AEC
+    viewCount: 26191
+    likeCount: 408
+    dislikeCount: 11
+    commentCount: 38
+    durationInMinutes: 0
+    publishedAtDate: 636778410310000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Ultimate FPS: Prototyping Core Gameplay - Player Prefab and Image Effects
+      [2/8] Live 2017/4/12'
+    url: https://www.youtube.com/watch?v=ar7adaPC5rc
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/asset-store/player-prefab-and-image-effects
+
+
+      In
+      this live training session we will explore how to prototype game play using
+      the Ultimate FPS asset to get up and running quickly. Using Ultimate FPS allows
+      us to focus on designing game play with minimal scripting to quickly iterate
+      on game ideas. Ultimate FPS is currently part of the Accelerator Pack which
+      is currently free with a Unity Plus subscription. In this episode we will look
+      at setting up the player prefab and adding image effects to our camera using
+      Unity''s post processing stack.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ar7adaPC5rc/sddefault.jpg
+    - https://i.ytimg.com/vi/ar7adaPC5rc/mqdefault.jpg
+    - https://i.ytimg.com/vi/ar7adaPC5rc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ar7adaPC5rc/hqdefault.jpg
+    tags:
+    - Unity
+    - tutorial
+    - live training
+    - unity3d
+    - fps
+    - ufps
+    - game development
+    - first person
+    - shooter
+    - shooting
+    - ultimate fps
+    viewCount: 6590
+    likeCount: 61
+    dislikeCount: 3
+    commentCount: 4
+    durationInMinutes: 10
+    publishedAtDate: 636280800930000000
+    publisdedDate:
+      year: 2017
+      month: 4
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'The Heretic: VFX Character out now'
+    url: https://www.youtube.com/watch?v=pZ-C68QnJxo
+    channelName: Unity
+    description: "At the end of The Heretic, we introduce Morgan, a VFX-based character
+      created with the help of Visual Effect Graph. Now we\u2019re releasing it as
+      a project on the Unity Asset Store, so you can see for yourselves how we have
+      approached the design of this complex character, and manipulate it directly
+      in the Unity Editor. We're excited to see how you will use this for your own
+      projects!\n\nMore info about The Heretic: https://on.unity.com/2Tl8btq\nWatch
+      The Heretic short film: https://youtu.be/iQZobAhgayA\nDownload the project
+      on the Asset Store: https://on.unity.com/3g8P0wH"
+    thumbUrls:
+    - https://i.ytimg.com/vi/pZ-C68QnJxo/sddefault.jpg
+    - https://i.ytimg.com/vi/pZ-C68QnJxo/mqdefault.jpg
+    - https://i.ytimg.com/vi/pZ-C68QnJxo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pZ-C68QnJxo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 30474
+    likeCount: 838
+    dislikeCount: 20
+    commentCount: 70
+    durationInMinutes: 0
+    publishedAtDate: 637257055680000000
+    publisdedDate:
+      year: 2020
+      month: 5
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: The DrawDefaultInspector Function - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=jvczWAPryUg
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://unity3d.com/learn/tutorials/modules/intermediate/editor/drawdefaultinspector-function
+
+      The
+      DrawDefaultInspector function allows us to easily recreate the default inspector
+      for a script inside a custom inspector. This is very useful if we only want
+      to add new items to the inspector for a script instead of changing the currently
+      existing items. In this video you will learn how to use the DrawDefaultInspector
+      function.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V68s/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/jvczWAPryUg/sddefault.jpg
+    - https://i.ytimg.com/vi/jvczWAPryUg/mqdefault.jpg
+    - https://i.ytimg.com/vi/jvczWAPryUg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/jvczWAPryUg/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    viewCount: 19485
+    likeCount: 67
+    dislikeCount: 1
+    commentCount: 5
+    durationInMinutes: 2
+    publishedAtDate: 635206812440000000
+    publisdedDate:
+      year: 2013
+      month: 11
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Stealth game tutorial - 203 - HashIDs - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=nGzUQIgNPFo
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/projects/stealth/hashids
+
+
+      Learn
+      how to make a script of name hashes to make referencing states and parameters
+      more efficient.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6bl/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/nGzUQIgNPFo/sddefault.jpg
+    - https://i.ytimg.com/vi/nGzUQIgNPFo/mqdefault.jpg
+    - https://i.ytimg.com/vi/nGzUQIgNPFo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/nGzUQIgNPFo/hqdefault.jpg
+    tags:
+    - tutorial
+    - beginner
+    - editor
+    - unity
+    - unity3d
+    - unity (game Engine)
+    - game engine software
+    - how to
+    - video tutorial
+    - make video games
+    - stealth
+    - metal gear solid
+    - sneak
+    - top down
+    - third person
+    - hash
+    - cache
+    - string
+    - states
+    - animator
+    viewCount: 40368
+    likeCount: 88
+    dislikeCount: 3
+    commentCount: 6
+    durationInMinutes: 4
+    publishedAtDate: 635011335840000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Stealth game tutorial - 106 - Game Controller - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=LxFMLnM21b8
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/projects/stealth/game-controller
+
+
+      How
+      to setup a game controller that stores data for your game, and controls the
+      alarm system''s lights.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/LxFMLnM21b8/sddefault.jpg
+    - https://i.ytimg.com/vi/LxFMLnM21b8/mqdefault.jpg
+    - https://i.ytimg.com/vi/LxFMLnM21b8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/LxFMLnM21b8/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - game controller
+    - scripting
+    - coding
+    - game engine
+    - make video games
+    viewCount: 55728
+    likeCount: 154
+    dislikeCount: 3
+    commentCount: 82
+    durationInMinutes: 12
+    publishedAtDate: 635035435890000000
+    publisdedDate:
+      year: 2013
+      month: 5
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Stealth game tutorial - 104 - Tag Management - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=l7BHFbxZ9y4
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/projects/stealth/tag-management
+
+
+      How
+      to create a script of public constant variables in order to make your game''s
+      tags autocomplete as you write code.
+
+
+      Help us caption & translate this
+      video!
+
+
+      http://amara.org/v/V6bs/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/l7BHFbxZ9y4/sddefault.jpg
+    - https://i.ytimg.com/vi/l7BHFbxZ9y4/mqdefault.jpg
+    - https://i.ytimg.com/vi/l7BHFbxZ9y4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/l7BHFbxZ9y4/hqdefault.jpg
+    tags:
+    - tutorial
+    - beginner
+    - editor
+    - unity
+    - unity3d
+    - unity (game engine)
+    - game engine software
+    - learn
+    - how to
+    - make video games
+    - stealth
+    - metal gear solid
+    - sneak
+    - top down
+    - third person
+    viewCount: 46580
+    likeCount: 100
+    dislikeCount: 1
+    commentCount: 8
+    durationInMinutes: 4
+    publishedAtDate: 635010565230000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Shop UI - Button Prefab [4/9] Live 2016/10/31
+    url: https://www.youtube.com/watch?v=pV7kx4NQvmo
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/user-interface-ui/shop-ui-runtime-scroll-lists-part-4-button-prefab
+
+
+      In
+      this live training we will learn the updated workflow for creating and populating
+      scroll-lists at run time using the Scroll Rect interaction component. We will
+      use this to create a simple two column shop where items can be bought and sold
+      between two lists. A Scroll Rect can be used when content that takes up a lot
+      of space needs to be displayed in a small area. The Scroll Rect provides functionality
+      to scroll over this content.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/ZWLt/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/pV7kx4NQvmo/sddefault.jpg
+    - https://i.ytimg.com/vi/pV7kx4NQvmo/mqdefault.jpg
+    - https://i.ytimg.com/vi/pV7kx4NQvmo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pV7kx4NQvmo/hqdefault.jpg
+    tags:
+    - unity3d
+    - tutorial
+    - ui
+    - unity
+    - game development
+    - scroll list
+    - scroll
+    - list
+    - scroll rect
+    - rect
+    - shop
+    - button
+    - layout group
+    - layout element
+    viewCount: 26623
+    likeCount: 130
+    dislikeCount: 3
+    commentCount: 4
+    durationInMinutes: 6
+    publishedAtDate: 636137199300000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Search the scene hierarchy by component name - Unity Tips
+    url: https://www.youtube.com/watch?v=Zn9e_lTfYkw
+    channelName: Unity
+    description: 'Type the complete, case sensitive name of a script or component
+      in the hierarchy search to reveal game objects that have it attached.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V63p/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Zn9e_lTfYkw/sddefault.jpg
+    - https://i.ytimg.com/vi/Zn9e_lTfYkw/mqdefault.jpg
+    - https://i.ytimg.com/vi/Zn9e_lTfYkw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Zn9e_lTfYkw/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Video Game Culture
+    - Tips
+    - '#unitytips'
+    - tips and tricks
+    - hierarchy
+    - search
+    - component
+    - script
+    - class
+    - Tutorial
+    - Video Game (Industry)
+    - Tricks
+    - unity3d
+    viewCount: 14044
+    likeCount: 149
+    dislikeCount: 6
+    commentCount: 11
+    durationInMinutes: 1
+    publishedAtDate: 635689064970000000
+    publisdedDate:
+      year: 2015
+      month: 6
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Runtime NavMesh Generation - Walking On Walls and Ceilings [3/6] Live
+      2017/7/26
+    url: https://www.youtube.com/watch?v=AeBOj59WWZs
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/navigation/walking-walls-and-ceilings\n\nIn
+      this live training session we will learn how to work with Unity\u2019s Navigation
+      tools at runtime. We will explore the publicly available Components for Runtime
+      NavMesh Building and look at how we can use the provided components to create
+      characters which can navigate dynamic environments and walk on arbitrarily
+      rotated surfaces, including enemies that walk on walls. In this session we
+      will learn how to use NavMesh to allow agents to walk on walls, ceilings or
+      other rotated surfaces."
+    thumbUrls:
+    - https://i.ytimg.com/vi/AeBOj59WWZs/sddefault.jpg
+    - https://i.ytimg.com/vi/AeBOj59WWZs/mqdefault.jpg
+    - https://i.ytimg.com/vi/AeBOj59WWZs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/AeBOj59WWZs/hqdefault.jpg
+    tags:
+    - Unity
+    - unity3d
+    - navigation
+    - nav mesh
+    - navmesh
+    - navmeshsurface
+    - navmeshlink
+    - navmeshagent
+    - procedural
+    - proc gen
+    - runtime navmesh
+    - procedural navigation
+    - runtime
+    - generation
+    viewCount: 16420
+    likeCount: 122
+    dislikeCount: 12
+    commentCount: 11
+    durationInMinutes: 7
+    publishedAtDate: 636373059630000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Runtime NavMesh Generation - Questions and Answers [6/6] Live 2017/7/26
+    url: https://www.youtube.com/watch?v=HtPLAzqM5sw
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/navigation/questions-and-answers-0\n\nIn
+      this live training session we will learn how to work with Unity\u2019s Navigation
+      tools at runtime. We will explore the publicly available Components for Runtime
+      NavMesh Building and look at how we can use the provided components to create
+      characters which can navigate dynamic environments and walk on arbitrarily
+      rotated surfaces, including enemies that walk on walls. In this session we
+      will take questions from the Twitch chat."
+    thumbUrls:
+    - https://i.ytimg.com/vi/HtPLAzqM5sw/sddefault.jpg
+    - https://i.ytimg.com/vi/HtPLAzqM5sw/mqdefault.jpg
+    - https://i.ytimg.com/vi/HtPLAzqM5sw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HtPLAzqM5sw/hqdefault.jpg
+    tags:
+    - Unity
+    - unity3d
+    - navigation
+    - nav mesh
+    - navmesh
+    - navmeshsurface
+    - navmeshlink
+    - navmeshagent
+    - procedural
+    - proc gen
+    - runtime navmesh
+    - procedural navigation
+    - runtime
+    - generation
+    viewCount: 3764
+    likeCount: 33
+    dislikeCount: 3
+    commentCount: 3
+    durationInMinutes: 9
+    publishedAtDate: 636373059620000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Runtime NavMesh Generation - Introduction and Navigation Overview [1/6]
+      Live 2017/7/26
+    url: https://www.youtube.com/watch?v=ZigSuoGmJ0Y
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/navigation/introduction-and-navigation-overview\n\nIn
+      this live training session we will learn how to work with Unity\u2019s Navigation
+      tools at runtime. We will explore the publicly available Components for Runtime
+      NavMesh Building and look at how we can use the provided components to create
+      characters which can navigate dynamic environments and walk on arbitrarily
+      rotated surfaces, including enemies that walk on walls. In this session we
+      will introduce the session and get an overview of the Navigation system."
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZigSuoGmJ0Y/sddefault.jpg
+    - https://i.ytimg.com/vi/ZigSuoGmJ0Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZigSuoGmJ0Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZigSuoGmJ0Y/hqdefault.jpg
+    tags:
+    - Unity
+    - unity3d
+    - navigation
+    - nav mesh
+    - navmesh
+    - navmeshsurface
+    - navmeshlink
+    - navmeshagent
+    - procedural
+    - proc gen
+    - runtime navmesh
+    - procedural navigation
+    - runtime
+    - generation
+    viewCount: 25646
+    likeCount: 247
+    dislikeCount: 6
+    commentCount: 12
+    durationInMinutes: 8
+    publishedAtDate: 636373059630000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Roll-a-Ball: 7.1 Store the value of collected PickUps'
+    url: https://www.youtube.com/watch?v=yxt1DYerz8M
+    channelName: Unity
+    description: "In this tutorial, you\u2019ll:\n\n- Revise the PlayerController
+      script to store the value of collected PickUp GameObjects\n- Create and configure
+      UI Text Elements to display:\n- The count value\n- An end of game message\n\nFind
+      the full course on: https://learn.unity.com/project/roll-a-ball"
+    thumbUrls:
+    - https://i.ytimg.com/vi/yxt1DYerz8M/sddefault.jpg
+    - https://i.ytimg.com/vi/yxt1DYerz8M/mqdefault.jpg
+    - https://i.ytimg.com/vi/yxt1DYerz8M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/yxt1DYerz8M/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - C#
+    - Beginner Code
+    - Programming
+    - Roll a ball
+    viewCount: 9798
+    likeCount: 62
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 3
+    publishedAtDate: 637335614230000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Roll-a-Ball: 6.1 Disable PickUps with OnTriggerEnter'
+    url: https://www.youtube.com/watch?v=AtKjwryaYdI
+    channelName: Unity
+    description: "In this tutorial, you\u2019ll:\n\n- Revise your PlayerController
+      script to make PickUpGameObjects disappear when they collide with the Player
+      sphere\n- Tag PickUp GameObjects and write conditional statements to make sure
+      they\u2019re the only things that disappear\n- Set the Prefab PickUp Collider
+      as a trigger and add a Rigidbody component, to make the collectibles work properly\n\nFor
+      the full course on Unity learn to go: https://learn.unity.com/project/roll-a-ball"
+    thumbUrls:
+    - https://i.ytimg.com/vi/AtKjwryaYdI/sddefault.jpg
+    - https://i.ytimg.com/vi/AtKjwryaYdI/mqdefault.jpg
+    - https://i.ytimg.com/vi/AtKjwryaYdI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/AtKjwryaYdI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - C#
+    - Beginner Code
+    - Programmer
+    - Roll a ball
+    viewCount: 10131
+    likeCount: 68
+    dislikeCount: 3
+    commentCount: 5
+    durationInMinutes: 4
+    publishedAtDate: 637335614210000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Roll-a-Ball: 5.1 Create a collectible GameObject'
+    url: https://www.youtube.com/watch?v=t5G3oOUhlS8
+    channelName: Unity
+    description: "In this tutorial, you\u2019ll:\n\n- Create a PickUp GameObject
+      for the player to collect\n- Write a script to rotate the collectible\n- Turn
+      the PickUp GameObject into a Prefab\n- Instantiate the Prefab around your play
+      area\n\nFor the full course on Unity learn to go: https://learn.unity.com/project/roll-a-ball"
+    thumbUrls:
+    - https://i.ytimg.com/vi/t5G3oOUhlS8/sddefault.jpg
+    - https://i.ytimg.com/vi/t5G3oOUhlS8/mqdefault.jpg
+    - https://i.ytimg.com/vi/t5G3oOUhlS8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/t5G3oOUhlS8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - C#
+    - Programming
+    - Beginner Code
+    - roll a ball
+    viewCount: 10631
+    likeCount: 79
+    dislikeCount: 3
+    commentCount: 9
+    durationInMinutes: 3
+    publishedAtDate: 637335614190000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game 2 - Questions and Answers  [7/7] Live 2016/25/11
+    url: https://www.youtube.com/watch?v=I7jfiBM4Ef8
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/question-and-answer
+
+
+      In
+      this live training session we will learn how to extend our basic Quiz Game
+      created in session one to include: loading game data from an external JSON
+      file, editor scripting to create a window for editing game data and very basic
+      saving of player progress using PlayerPrefs.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/I7jfiBM4Ef8/sddefault.jpg
+    - https://i.ytimg.com/vi/I7jfiBM4Ef8/mqdefault.jpg
+    - https://i.ytimg.com/vi/I7jfiBM4Ef8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/I7jfiBM4Ef8/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - game development
+    - json
+    - serialization
+    - high score
+    - playerprefs
+    - game data
+    - save
+    - load
+    - editor scripting
+    - quiz game
+    - quiz
+    viewCount: 93590
+    likeCount: 168
+    dislikeCount: 26
+    commentCount: 52
+    durationInMinutes: 7
+    publishedAtDate: 636161436150000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game 2 - Loading and Saving via Editor Script  [5/7] Live 2016/11/25
+    url: https://www.youtube.com/watch?v=9x_N0bwriYs
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/loading-and-saving-editor-script
+
+
+      In
+      this live training session we will learn how to extend our basic Quiz Game
+      created in session one to include: loading game data from an external JSON
+      file, editor scripting to create a window for editing game data and very basic
+      saving of player progress using PlayerPrefs.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/9x_N0bwriYs/sddefault.jpg
+    - https://i.ytimg.com/vi/9x_N0bwriYs/mqdefault.jpg
+    - https://i.ytimg.com/vi/9x_N0bwriYs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9x_N0bwriYs/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - game development
+    - json
+    - serialization
+    - high score
+    - playerprefs
+    - game data
+    - save
+    - load
+    - editor scripting
+    - quiz game
+    - quiz
+    viewCount: 8493
+    likeCount: 40
+    dislikeCount: 0
+    commentCount: 6
+    durationInMinutes: 7
+    publishedAtDate: 636161435510000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game 2 - Intro to Part Two [1/7] Live 2016/11/25
+    url: https://www.youtube.com/watch?v=1AhLdWiWUG0
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/intro-part-two
+
+
+      In
+      this live training session we will learn how to extend our basic Quiz Game
+      created in session one to include: loading game data from an external JSON
+      file, editor scripting to create a window for editing game data and very basic
+      saving of player progress using PlayerPrefs.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/1AhLdWiWUG0/sddefault.jpg
+    - https://i.ytimg.com/vi/1AhLdWiWUG0/mqdefault.jpg
+    - https://i.ytimg.com/vi/1AhLdWiWUG0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1AhLdWiWUG0/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - game development
+    - json
+    - serialization
+    - high score
+    - playerprefs
+    - game data
+    - save
+    - load
+    - editor scripting
+    - quiz game
+    - quiz
+    viewCount: 26887
+    likeCount: 155
+    dislikeCount: 2
+    commentCount: 27
+    durationInMinutes: 7
+    publishedAtDate: 636161433710000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game 2 - High Score with PlayerPrefs [2/7] Live 2016/11/25
+    url: https://www.youtube.com/watch?v=ccxJTDzpzkM
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/high-score-playerprefs
+
+
+      In
+      this live training session we will learn how to extend our basic Quiz Game
+      created in session one to include: loading game data from an external JSON
+      file, editor scripting to create a window for editing game data and very basic
+      saving of player progress using PlayerPrefs.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ccxJTDzpzkM/sddefault.jpg
+    - https://i.ytimg.com/vi/ccxJTDzpzkM/mqdefault.jpg
+    - https://i.ytimg.com/vi/ccxJTDzpzkM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ccxJTDzpzkM/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - game development
+    - json
+    - serialization
+    - high score
+    - playerprefs
+    - game data
+    - save
+    - load
+    - editor scripting
+    - quiz game
+    - quiz
+    viewCount: 17649
+    likeCount: 77
+    dislikeCount: 1
+    commentCount: 18
+    durationInMinutes: 13
+    publishedAtDate: 636161434190000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game - Menu Screen  [3/8] 2016/11/14
+    url: https://www.youtube.com/watch?v=Orl4ja65ofo
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/menu-screen
+
+
+      In
+      this live training session we will look at creating a multiple choice quiz
+      game. We will create the core game loop - timer, score, win and lose states.
+      We will also show code architecture best practices - keeping data and logic
+      separate, and how to structure a game in a way that makes it easy to maintain
+      and extend. We will look at some of the ways we can extend this in session
+      two.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/0RsC/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Orl4ja65ofo/sddefault.jpg
+    - https://i.ytimg.com/vi/Orl4ja65ofo/mqdefault.jpg
+    - https://i.ytimg.com/vi/Orl4ja65ofo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Orl4ja65ofo/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - game development
+    - quiz
+    - quiz game
+    - ui
+    - data
+    - scripting
+    viewCount: 30841
+    likeCount: 130
+    dislikeCount: 2
+    commentCount: 25
+    durationInMinutes: 6
+    publishedAtDate: 636149341300000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game - Intro and Setup [1/8] Live 2016/11/14
+    url: https://www.youtube.com/watch?v=hLNPjIxf0C8
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/quiz-game-intro-and-setup
+
+
+      In
+      this live training session we will look at creating a multiple choice quiz
+      game. We will create the core game loop - timer, score, win and lose states.
+      We will also show code architecture best practices - keeping data and logic
+      separate, and how to structure a game in a way that makes it easy to maintain
+      and extend. We will look at some of the ways we can extend this in session
+      two.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/hLNPjIxf0C8/sddefault.jpg
+    - https://i.ytimg.com/vi/hLNPjIxf0C8/mqdefault.jpg
+    - https://i.ytimg.com/vi/hLNPjIxf0C8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hLNPjIxf0C8/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - game development
+    - quiz
+    - quiz game
+    - ui
+    - data
+    - scripting
+    viewCount: 88486
+    likeCount: 426
+    dislikeCount: 8
+    commentCount: 62
+    durationInMinutes: 6
+    publishedAtDate: 636149340470000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game - Game UI  [4/8] Live 2016/11/14
+    url: https://www.youtube.com/watch?v=N7g2faChUJs
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/game-ui
+
+
+      In
+      this live training session we will look at creating a multiple choice quiz
+      game. We will create the core game loop - timer, score, win and lose states.
+      We will also show code architecture best practices - keeping data and logic
+      separate, and how to structure a game in a way that makes it easy to maintain
+      and extend. We will look at some of the ways we can extend this in session
+      two.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/0RsB/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/N7g2faChUJs/sddefault.jpg
+    - https://i.ytimg.com/vi/N7g2faChUJs/mqdefault.jpg
+    - https://i.ytimg.com/vi/N7g2faChUJs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/N7g2faChUJs/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - game development
+    - quiz
+    - quiz game
+    - ui
+    - data
+    - scripting
+    viewCount: 25973
+    likeCount: 97
+    dislikeCount: 5
+    commentCount: 19
+    durationInMinutes: 7
+    publishedAtDate: 636149341640000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game - Ending The Game and Q&A  [8/8] Live  2016/11/14
+    url: https://www.youtube.com/watch?v=5QplEkgfC84
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/quiz-game-intro-and-setup
+
+
+      In
+      this live training session we will look at creating a multiple choice quiz
+      game. We will create the core game loop - timer, score, win and lose states.
+      We will also show code architecture best practices - keeping data and logic
+      separate, and how to structure a game in a way that makes it easy to maintain
+      and extend. We will look at some of the ways we can extend this in session
+      two.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/0Rrx/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/5QplEkgfC84/sddefault.jpg
+    - https://i.ytimg.com/vi/5QplEkgfC84/mqdefault.jpg
+    - https://i.ytimg.com/vi/5QplEkgfC84/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5QplEkgfC84/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - game development
+    - quiz
+    - quiz game
+    - ui
+    - data
+    - scripting
+    viewCount: 23287
+    likeCount: 147
+    dislikeCount: 4
+    commentCount: 77
+    durationInMinutes: 12
+    publishedAtDate: 636149342810000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game - Displaying Questions  [6/8] Live 2016/11/14
+    url: https://www.youtube.com/watch?v=wfTtTrOJocQ
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/quiz-game-intro-and-setup
+
+
+      In
+      this live training session we will look at creating a multiple choice quiz
+      game. We will create the core game loop - timer, score, win and lose states.
+      We will also show code architecture best practices - keeping data and logic
+      separate, and how to structure a game in a way that makes it easy to maintain
+      and extend. We will look at some of the ways we can extend this in session
+      two.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/0Rrz/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/wfTtTrOJocQ/sddefault.jpg
+    - https://i.ytimg.com/vi/wfTtTrOJocQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/wfTtTrOJocQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wfTtTrOJocQ/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - game development
+    - quiz
+    - quiz game
+    - ui
+    - data
+    - scripting
+    viewCount: 26415
+    likeCount: 105
+    dislikeCount: 3
+    commentCount: 43
+    durationInMinutes: 15
+    publishedAtDate: 636149342260000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game - Click To Answer  [7/8] Live 2016/11/14
+    url: https://www.youtube.com/watch?v=MX2Jvnsjsco
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/quiz-game-intro-and-setup
+
+
+      In
+      this live training session we will look at creating a multiple choice quiz
+      game. We will create the core game loop - timer, score, win and lose states.
+      We will also show code architecture best practices - keeping data and logic
+      separate, and how to structure a game in a way that makes it easy to maintain
+      and extend. We will look at some of the ways we can extend this in session
+      two.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/0Rry/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/MX2Jvnsjsco/sddefault.jpg
+    - https://i.ytimg.com/vi/MX2Jvnsjsco/mqdefault.jpg
+    - https://i.ytimg.com/vi/MX2Jvnsjsco/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MX2Jvnsjsco/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - game development
+    - quiz
+    - quiz game
+    - ui
+    - data
+    - scripting
+    viewCount: 21503
+    likeCount: 81
+    dislikeCount: 4
+    commentCount: 56
+    durationInMinutes: 12
+    publishedAtDate: 636149342560000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game - Answer Button  [5/8] Live 2016/11/14
+    url: https://www.youtube.com/watch?v=n1ghAcdG7-Q
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/answer-button
+
+
+      In
+      this live training session we will look at creating a multiple choice quiz
+      game. We will create the core game loop - timer, score, win and lose states.
+      We will also show code architecture best practices - keeping data and logic
+      separate, and how to structure a game in a way that makes it easy to maintain
+      and extend. We will look at some of the ways we can extend this in session
+      two.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/0RsA/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/n1ghAcdG7-Q/sddefault.jpg
+    - https://i.ytimg.com/vi/n1ghAcdG7-Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/n1ghAcdG7-Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/n1ghAcdG7-Q/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - game development
+    - quiz
+    - quiz game
+    - ui
+    - data
+    - scripting
+    viewCount: 27123
+    likeCount: 98
+    dislikeCount: 13
+    commentCount: 32
+    durationInMinutes: 5
+    publishedAtDate: 636149342050000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: ProGrids Intro and Tutorial
+    url: https://www.youtube.com/watch?v=1G-0f5m1_lw
+    channelName: Unity
+    description: 'ProGrids gives you both a visual and functional grid, which snaps
+      on all 3 axis. Combine ProBuilder, Polybrush and ProGrid together, you get
+      a complete in-editor level design solution for faster and more precise geometry
+      construction! Learn more: https://blogs.unity3d.com/2018/02/15/probuilder-joins-unity-offering-integrated-in-editor-advanced-level-design/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/1G-0f5m1_lw/sddefault.jpg
+    - https://i.ytimg.com/vi/1G-0f5m1_lw/mqdefault.jpg
+    - https://i.ytimg.com/vi/1G-0f5m1_lw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1G-0f5m1_lw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 60516
+    likeCount: 541
+    dislikeCount: 14
+    commentCount: 46
+    durationInMinutes: 7
+    publishedAtDate: 636555106350000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Procedural Head Look Controller for Unity
+    url: https://www.youtube.com/watch?v=z8vZeztp8X4
+    channelName: Unity
+    description: 'A head look controller script for Unity is demonstrated that can
+      be used to make a character look towards a specified point in space, smoothly
+      turning towards it with for example the head, upper body, or whatever is specified.
+      Multiple ranges of bones can be specified, each with different settings for
+      responsiveness, angle constraints etc. The script component can be downloaded
+      from http://unity3d.com/support/resources/example-projects/head-look-controller
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6dJ/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/z8vZeztp8X4/mqdefault.jpg
+    - https://i.ytimg.com/vi/z8vZeztp8X4/hqdefault.jpg
+    tags:
+    - Unity
+    - procedural
+    - animation
+    - looking
+    - turning
+    - 3d
+    - game
+    viewCount: 38347
+    likeCount: 274
+    dislikeCount: 9
+    commentCount: 69
+    durationInMinutes: 0
+    publishedAtDate: 633852813970000000
+    publisdedDate:
+      year: 2009
+      month: 8
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Physics Objects (Rigidbodies) - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=WTGcs10Sj34
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/physics/rigidbody
+
+
+      How
+      to use Rigidbodies - Unity''s physics driven objects.
+
+
+      Help us caption
+      & translate this video!
+
+
+      http://amara.org/v/V6cE/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/WTGcs10Sj34/sddefault.jpg
+    - https://i.ytimg.com/vi/WTGcs10Sj34/mqdefault.jpg
+    - https://i.ytimg.com/vi/WTGcs10Sj34/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WTGcs10Sj34/hqdefault.jpg
+    tags:
+    - tutorial
+    - beginner
+    - editor
+    - unity
+    - unity3d
+    - unity (game engine)
+    - game engine software
+    - learn
+    - how to
+    - make video games
+    viewCount: 138116
+    likeCount: 716
+    dislikeCount: 13
+    commentCount: 29
+    durationInMinutes: 5
+    publishedAtDate: 635010461650000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Moving the Player - 05 - Space Shooter - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=rVSLczG1M1E
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/projects/space-shooter/moving-the-player
+
+
+      Writing
+      simple C# code to capture player input and move the player ship.
+
+
+      Related
+      download: http://u3d.as/66k
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V682/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/rVSLczG1M1E/sddefault.jpg
+    - https://i.ytimg.com/vi/rVSLczG1M1E/mqdefault.jpg
+    - https://i.ytimg.com/vi/rVSLczG1M1E/maxresdefault.jpg
+    - https://i.ytimg.com/vi/rVSLczG1M1E/hqdefault.jpg
+    tags:
+    - Unity
+    - Unity3d
+    - Unity 3d
+    - Tutorial
+    - Space Shooter
+    - Arcade Shooter
+    - Learn
+    - Tut
+    - Physics
+    - Collider
+    - Trigger
+    - Beginner
+    - Starting
+    - How to learn Unity
+    - Unity Tutorial
+    - Unity (Software)
+    - How-to (Media-Genre)
+    - Help
+    - Tips
+    - Tricks
+    - SHMUP
+    - 2D
+    - 2.5D
+    - Game Controller
+    - Top Down Shooter
+    - Shooter
+    viewCount: 223476
+    likeCount: 1105
+    dislikeCount: 88
+    commentCount: 726
+    durationInMinutes: 20
+    publishedAtDate: 635232057760000000
+    publisdedDate:
+      year: 2013
+      month: 12
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Modulating values with Lerp - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=cD-mXwSCvWc
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/scripting/lerp
+
+
+      How
+      to use Lerp to ''Linearly Interpolate'' (smoothly transition) between values
+      for various data types.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6c5/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/cD-mXwSCvWc/sddefault.jpg
+    - https://i.ytimg.com/vi/cD-mXwSCvWc/mqdefault.jpg
+    - https://i.ytimg.com/vi/cD-mXwSCvWc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cD-mXwSCvWc/hqdefault.jpg
+    tags:
+    - beginner
+    - scripting
+    - unity
+    - unity3d
+    - script
+    - code
+    - c#
+    - unity (game engine)
+    - game engine software
+    - learn
+    - tutorial
+    - how to
+    - c sharp
+    - lerp
+    - transition
+    - smooth
+    - interpolate
+    viewCount: 170853
+    likeCount: 1113
+    dislikeCount: 66
+    commentCount: 96
+    durationInMinutes: 5
+    publishedAtDate: 635010458960000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Making an FPS Game with Unity using the Asset Store!
+    url: https://www.youtube.com/watch?v=NvzpOCkw-eA
+    channelName: Unity
+    description: "How do you make an FPS game using Unity, very quickly? Let's check
+      out some outstanding asset store content that can help you in your journey!
+      \n\nAssets in this video:\nUFPS - Ultimate FPS: https://ole.unity.com/UFPS\nSNAPS
+      Office Pack: https://ole.unity.com/SNAPSOffice\nAllSky: https://ole.unity.com/AllSky\nRobot
+      Warrior Cartoon: https://ole.unity.com/RobotWarrior\nAura 2: https://ole.unity.com/Aura2"
+    thumbUrls:
+    - https://i.ytimg.com/vi/NvzpOCkw-eA/sddefault.jpg
+    - https://i.ytimg.com/vi/NvzpOCkw-eA/mqdefault.jpg
+    - https://i.ytimg.com/vi/NvzpOCkw-eA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/NvzpOCkw-eA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity make a game
+    - unity how to make games
+    - how to make a game in unity
+    - how to make a game with unity
+    - how to make games in unity
+    - unity 2019
+    - unity 2019.1
+    - unity ufps
+    - unity allsky
+    - unity assets
+    - unity new assets
+    - unity game dev
+    - unity 2018.3
+    - unity
+    - unity easy game
+    - unity tutorials
+    - unity tutorial
+    - unity beginner
+    - make a gae
+    - unity fps
+    - unity fps game
+    - 3D
+    viewCount: 277977
+    likeCount: 5385
+    dislikeCount: 160
+    commentCount: 258
+    durationInMinutes: 3
+    publishedAtDate: 636925176060000000
+    publisdedDate:
+      year: 2019
+      month: 5
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Make UI with Nested Prefabs in Unity 2019!
+    url: https://www.youtube.com/watch?v=4fkTbbxktpc
+    channelName: Unity
+    description: 'In this video, learn how to create flexible UI using prefab variants
+      and nested prefabs. Download the example project here: https://ole.unity.com/NestedPrefabsProject'
+    thumbUrls:
+    - https://i.ytimg.com/vi/4fkTbbxktpc/sddefault.jpg
+    - https://i.ytimg.com/vi/4fkTbbxktpc/mqdefault.jpg
+    - https://i.ytimg.com/vi/4fkTbbxktpc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4fkTbbxktpc/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity nested prefabs
+    - unity nested prefabs tutorial
+    - unity nested prefabs 2019
+    - unity 2019 nested prefabs
+    - unity 2019.2 nested prefabs
+    - unity 2019.2
+    - unity 2019.2 tutorial
+    - unity 2019 tutorial
+    - unity tutorials
+    - unity new tutorial
+    - unity howto
+    - unity3d
+    - unity new tutorials
+    - unity gamedev
+    - unity indiedev
+    - unity 3d
+    - unity prefab workflow
+    - unity2019
+    - learn uniity
+    - game
+    viewCount: 28576
+    likeCount: 965
+    dislikeCount: 19
+    commentCount: 62
+    durationInMinutes: 5
+    publishedAtDate: 637013984310000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Make a Planet in Unity 2019 with Polybrush! (Tutorial)
+    url: https://www.youtube.com/watch?v=QHslFO0vlGg
+    channelName: Unity
+    description: "Polybrush is a fantastic tool for Unity, which you can use for
+      level design, scattering prefabs, painting and sculpting meshes! In Unity 2019.2,
+      Polybrush was added to the Package Manager, and introduced the Prefab Scatter
+      mode! \n\nLearn more about Polybrush here: https://ole.unity.com/polybrush\n\nAssets
+      used in this video:\nTime Of Day (Sky): https://ole.unity.com/TimeOfDaySky\nLow
+      Poly Rocks and Plants: https://ole.unity.com/RocksAndPlants\nTerrain Textures
+      Pack Free: https://ole.unity.com/TerrainTexturesFree\n\nPolybrush enables you
+      to blend textures and colors, sculpt meshes, and scatter objects directly in
+      the Unity Editor.\n\nCombined with ProBuilder, Polybrush gives you a complete
+      in-editor level design solution. You can also take advantage of Unity\u2019s
+      seamless round-tripping with digital content-creation tools (like Maya) so
+      you can further polish models with your favorite tools."
+    thumbUrls:
+    - https://i.ytimg.com/vi/QHslFO0vlGg/sddefault.jpg
+    - https://i.ytimg.com/vi/QHslFO0vlGg/mqdefault.jpg
+    - https://i.ytimg.com/vi/QHslFO0vlGg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/QHslFO0vlGg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - polybrush unity
+    - polybrush
+    - unity polybrush. unity polybrush tutorial
+    - unity polybrush 2019
+    - unity 2019 polybrush
+    - unity polybrush tutorial
+    - how to use unity
+    - how to make a game in unity
+    - unity 2019.3 polybrush
+    - unity 2019.2 polybrush
+    - unity 2019
+    - polybrush in unity
+    - polybrush unity download
+    - unity polybrush terrain
+    - unity gamedev
+    - learn unity
+    - unity indiedev
+    - unity tutorial for beginners
+    - unity
+    viewCount: 53301
+    likeCount: 1645
+    dislikeCount: 58
+    commentCount: 112
+    durationInMinutes: 7
+    publishedAtDate: 637042437890000000
+    publisdedDate:
+      year: 2019
+      month: 9
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Localization Tools - Startup Manager [5/8] Live 2017/1/9
+    url: https://www.youtube.com/watch?v=1dmrhUyCMG4
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/startup-manager?playlist=17117
+
+
+      In
+      this live training example we will look at a common need for many games: localizing
+      text into other languages. We will create a LocalizationManager class that
+      loads a file with localized text, and a component that can be attached to a
+      text field in order to populate it with the localized text at runtime.  We
+      will also look at loading and parsing JSON files, dictionaries and some data
+      driven best practices.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/1dmrhUyCMG4/sddefault.jpg
+    - https://i.ytimg.com/vi/1dmrhUyCMG4/mqdefault.jpg
+    - https://i.ytimg.com/vi/1dmrhUyCMG4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1dmrhUyCMG4/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - localize
+    - localization
+    - translation
+    - json
+    - string
+    - tutorial
+    - translate
+    viewCount: 9991
+    likeCount: 82
+    dislikeCount: 2
+    commentCount: 6
+    durationInMinutes: 11
+    publishedAtDate: 636197734790000000
+    publisdedDate:
+      year: 2017
+      month: 1
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Localization Tools - Overview and Goals [1/8] Live 2017/1/9
+    url: https://www.youtube.com/watch?v=5Kt9jbnqzKA
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/overview-and-goals?playlist=17117
+
+
+      In
+      this live training example we will look at a common need for many games: localizing
+      text into other languages. We will create a LocalizationManager class that
+      loads a file with localized text, and a component that can be attached to a
+      text field in order to populate it with the localized text at runtime.  We
+      will also look at loading and parsing JSON files, dictionaries and some data
+      driven best practices.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/5Kt9jbnqzKA/sddefault.jpg
+    - https://i.ytimg.com/vi/5Kt9jbnqzKA/mqdefault.jpg
+    - https://i.ytimg.com/vi/5Kt9jbnqzKA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5Kt9jbnqzKA/hqdefault.jpg
+    tags: []
+    viewCount: 39319
+    likeCount: 381
+    dislikeCount: 5
+    commentCount: 29
+    durationInMinutes: 9
+    publishedAtDate: 636197733460000000
+    publisdedDate:
+      year: 2017
+      month: 1
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Localization Tools - Localized Text Editor Script [7/8] Live 2017/1/9
+    url: https://www.youtube.com/watch?v=Gb1fgFV1qMM
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/localized-text-editor-script?playlist=17117
+
+
+      In
+      this live training example we will look at a common need for many games: localizing
+      text into other languages. We will create a LocalizationManager class that
+      loads a file with localized text, and a component that can be attached to a
+      text field in order to populate it with the localized text at runtime.  We
+      will also look at loading and parsing JSON files, dictionaries and some data
+      driven best practices.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Gb1fgFV1qMM/sddefault.jpg
+    - https://i.ytimg.com/vi/Gb1fgFV1qMM/mqdefault.jpg
+    - https://i.ytimg.com/vi/Gb1fgFV1qMM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Gb1fgFV1qMM/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - localize
+    - localization
+    - translation
+    - json
+    - string
+    - tutorial
+    - translate
+    viewCount: 9679
+    likeCount: 101
+    dislikeCount: 3
+    commentCount: 17
+    durationInMinutes: 17
+    publishedAtDate: 636197735200000000
+    publisdedDate:
+      year: 2017
+      month: 1
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Localization Tools - Localization Q&A [8/8] Live 2017/1/9
+    url: https://www.youtube.com/watch?v=ErJjopUrDdg
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/localization-qa?playlist=17117
+
+
+      In
+      this live training example we will look at a common need for many games: localizing
+      text into other languages. We will create a LocalizationManager class that
+      loads a file with localized text, and a component that can be attached to a
+      text field in order to populate it with the localized text at runtime.  We
+      will also look at loading and parsing JSON files, dictionaries and some data
+      driven best practices.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ErJjopUrDdg/sddefault.jpg
+    - https://i.ytimg.com/vi/ErJjopUrDdg/mqdefault.jpg
+    - https://i.ytimg.com/vi/ErJjopUrDdg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ErJjopUrDdg/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - localize
+    - localization
+    - translation
+    - json
+    - string
+    - tutorial
+    - translate
+    viewCount: 7304
+    likeCount: 80
+    dislikeCount: 5
+    commentCount: 19
+    durationInMinutes: 8
+    publishedAtDate: 636197735340000000
+    publisdedDate:
+      year: 2017
+      month: 1
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Localization Tools - Localization Manager [4/8] Live 2017/1/9
+    url: https://www.youtube.com/watch?v=IRQBIPcwjC8
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/localization-manager?playlist=17117
+
+
+      In
+      this live training example we will look at a common need for many games: localizing
+      text into other languages. We will create a LocalizationManager class that
+      loads a file with localized text, and a component that can be attached to a
+      text field in order to populate it with the localized text at runtime.  We
+      will also look at loading and parsing JSON files, dictionaries and some data
+      driven best practices.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/IRQBIPcwjC8/sddefault.jpg
+    - https://i.ytimg.com/vi/IRQBIPcwjC8/mqdefault.jpg
+    - https://i.ytimg.com/vi/IRQBIPcwjC8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IRQBIPcwjC8/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - localize
+    - localization
+    - translation
+    - json
+    - string
+    - tutorial
+    - translate
+    viewCount: 15126
+    likeCount: 100
+    dislikeCount: 5
+    commentCount: 14
+    durationInMinutes: 12
+    publishedAtDate: 636197734600000000
+    publisdedDate:
+      year: 2017
+      month: 1
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Localization Tools - Dictionaries, JSON and Streaming Assets [3/8] Live
+      2017/1/9
+    url: https://www.youtube.com/watch?v=kox9EuSQL48
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/dictionary-json-and-streaming-assets?playlist=17117
+
+
+      In
+      this live training example we will look at a common need for many games: localizing
+      text into other languages. We will create a LocalizationManager class that
+      loads a file with localized text, and a component that can be attached to a
+      text field in order to populate it with the localized text at runtime.  We
+      will also look at loading and parsing JSON files, dictionaries and some data
+      driven best practices.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/kox9EuSQL48/sddefault.jpg
+    - https://i.ytimg.com/vi/kox9EuSQL48/mqdefault.jpg
+    - https://i.ytimg.com/vi/kox9EuSQL48/maxresdefault.jpg
+    - https://i.ytimg.com/vi/kox9EuSQL48/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - localize
+    - localization
+    - translation
+    - json
+    - string
+    - tutorial
+    - translate
+    viewCount: 19396
+    likeCount: 112
+    dislikeCount: 12
+    commentCount: 11
+    durationInMinutes: 8
+    publishedAtDate: 636197734390000000
+    publisdedDate:
+      year: 2017
+      month: 1
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Live Training Nov. 2, 2015: Creating An In-Game Shop'
+    url: https://www.youtube.com/watch?v=n1YigY3IaE0
+    channelName: Unity
+    description: 'Get the scripts and more context at: http://unity3d.com/learn/tutorials/modules/intermediate/live-training-archive/creating-an-in-game-shop
+
+
+      In
+      this live training session we will extend the Survival Shooter training project
+      by adding an in-game shop where the player can purchase additional weapons.
+      We''ll achieve this using a combination of scriptable objects to store weapon
+      data and the UI system.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V61A/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/n1YigY3IaE0/sddefault.jpg
+    - https://i.ytimg.com/vi/n1YigY3IaE0/mqdefault.jpg
+    - https://i.ytimg.com/vi/n1YigY3IaE0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/n1YigY3IaE0/hqdefault.jpg
+    tags:
+    - unity3d
+    - Unity (Software)
+    - tutorial
+    - live training
+    - Video Game Culture
+    - shop
+    - weapon shop
+    - scriptable object
+    - unity 5
+    - unity ui
+    - ui
+    - Video Game (Industry)
+    - game development
+    viewCount: 50925
+    likeCount: 614
+    dislikeCount: 14
+    commentCount: 72
+    durationInMinutes: 47
+    publishedAtDate: 635829803530000000
+    publisdedDate:
+      year: 2015
+      month: 11
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Live Training June. 29, 2015: Game Jam Menu Template'
+    url: https://www.youtube.com/watch?v=j9CqczkeYJY
+    channelName: Unity
+    description: 'Watch in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/game-jam-template
+
+
+      In
+      this live training session we look at setting up and using the Game Jam Menu
+      Template asset which you can download here: https://www.assetstore.unity3d.com/en/#!/content/40465
+
+
+      If
+      you have any comments, suggestions or requests, put them up on our official
+      forum thread:
+
+      http://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V63U/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/j9CqczkeYJY/sddefault.jpg
+    - https://i.ytimg.com/vi/j9CqczkeYJY/mqdefault.jpg
+    - https://i.ytimg.com/vi/j9CqczkeYJY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/j9CqczkeYJY/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Tutorial (Media Genre)
+    - unity3d
+    - game jam
+    - start menu
+    - sound options
+    - quit
+    - ui
+    - Training (Industry)
+    - video games
+    - Video Game (Industry)
+    - game dev
+    - Ludum Dare (Video Game Publisher)
+    - global game jam
+    viewCount: 32994
+    likeCount: 292
+    dislikeCount: 15
+    commentCount: 63
+    durationInMinutes: 50
+    publishedAtDate: 635714653790000000
+    publisdedDate:
+      year: 2015
+      month: 7
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Live Training Feb. 2nd, 2015: Creating A Basic Platformer Game'
+    url: https://www.youtube.com/watch?v=Jp4gqdHXYhg
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/creating-a-basic-platformer-game
+
+
+      In
+      this live training session we''re going to prototype a simple platformer game.
+      We''ll cover player movement, create a simple level and add collectible objects.
+
+
+      If
+      you have any comments, suggestions or requests, put them up on our official
+      forum thread:
+
+      http://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V64s/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Jp4gqdHXYhg/sddefault.jpg
+    - https://i.ytimg.com/vi/Jp4gqdHXYhg/mqdefault.jpg
+    - https://i.ytimg.com/vi/Jp4gqdHXYhg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Jp4gqdHXYhg/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unity 3d
+    - Unity Technologies
+    - Platformer
+    - Video Game (Industry)
+    - Video Game Development (Industry)
+    - Tutorial
+    - 2D
+    - Randomize Level
+    - live training
+    - Platform Game (Video Game Genre)
+    - Games
+    viewCount: 47186
+    likeCount: 505
+    dislikeCount: 51
+    commentCount: 147
+    durationInMinutes: 45
+    publishedAtDate: 635587643360000000
+    publisdedDate:
+      year: 2015
+      month: 2
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Live Training Apr. 22nd, 2015: Integrating Unity Ads'
+    url: https://www.youtube.com/watch?v=pKRUNly4RRM
+    channelName: Unity
+    description: "More info - http://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/integrating-ads\n\nJoin
+      us as we explore Unity Ads and how easy it can be to monetize your game projects
+      in Unity. We'll be approaching this from a developer's perspective, so the
+      focus will be on the technical requirements and scripting required to integrate
+      ads and less on the design principles of ad strategies. Let's start making
+      some money. \nTutor: Mike Geig\n\nIf you have any comments, suggestions or
+      requests, put them up on our official forum thread:\nhttp://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/\n\nHelp
+      us caption & translate this video!\n\nhttp://amara.org/v/V64E/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/pKRUNly4RRM/sddefault.jpg
+    - https://i.ytimg.com/vi/pKRUNly4RRM/mqdefault.jpg
+    - https://i.ytimg.com/vi/pKRUNly4RRM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pKRUNly4RRM/hqdefault.jpg
+    tags: []
+    viewCount: 38913
+    likeCount: 454
+    dislikeCount: 22
+    commentCount: 90
+    durationInMinutes: 59
+    publishedAtDate: 635654217430000000
+    publisdedDate:
+      year: 2015
+      month: 4
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: Introduction to the Profiler - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=sBpXiJ9G3OY
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://cms.hq.unity3d.com/learn/tutorials/modules/intermediate/editor/intro-to-profiler
+
+      The
+      built-in profiler allows us to capture real-time data about our scenes and
+      analyze there performance. In this video, you will be introduced to the profiler
+      and its basic sections.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V68p/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/sBpXiJ9G3OY/sddefault.jpg
+    - https://i.ytimg.com/vi/sBpXiJ9G3OY/mqdefault.jpg
+    - https://i.ytimg.com/vi/sBpXiJ9G3OY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/sBpXiJ9G3OY/hqdefault.jpg
+    tags:
+    - Unity
+    - Unity (Software)
+    viewCount: 59945
+    likeCount: 324
+    dislikeCount: 13
+    commentCount: 21
+    durationInMinutes: 3
+    publishedAtDate: 635207138540000000
+    publisdedDate:
+      year: 2013
+      month: 11
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Introducing Snaps by the Asset Store
+    url: https://www.youtube.com/watch?v=UGBOU2IqrBU
+    channelName: Unity
+    description: 'Our asset library makes it a snap to bring your project to life.
+      From prototyping to production, Snaps asset packs make it quick and easy. Learn
+      more: https://unity.com/snaps'
+    thumbUrls:
+    - https://i.ytimg.com/vi/UGBOU2IqrBU/sddefault.jpg
+    - https://i.ytimg.com/vi/UGBOU2IqrBU/mqdefault.jpg
+    - https://i.ytimg.com/vi/UGBOU2IqrBU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/UGBOU2IqrBU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 16148
+    likeCount: 430
+    dislikeCount: 30
+    commentCount: 42
+    durationInMinutes: 2
+    publishedAtDate: 637015958950000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Improved Prefab workflows
+    url: https://www.youtube.com/watch?v=0M6RFRNsm9A
+    channelName: Unity
+    description: "Learn how the Unity R&D team\u2019s Nikoline H\xF8gh and Stine
+      Kj\xE6rb\xF8ll went on a  journey of discovery: Running user tests, conducting
+      surveys and talking face-to-face with 150 customers, they gained valuable insight
+      that has helped fundamentally improve the Prefab workflows. \nLearn more about
+      the new Prefab workflows: https://unity3d.com/prefabs"
+    thumbUrls:
+    - https://i.ytimg.com/vi/0M6RFRNsm9A/sddefault.jpg
+    - https://i.ytimg.com/vi/0M6RFRNsm9A/mqdefault.jpg
+    - https://i.ytimg.com/vi/0M6RFRNsm9A/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0M6RFRNsm9A/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 4177
+    likeCount: 154
+    dislikeCount: 11
+    commentCount: 16
+    durationInMinutes: 2
+    publishedAtDate: 636753276000000000
+    publisdedDate:
+      year: 2018
+      month: 10
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: How to use Play Mode tint - Unity Tips
+    url: https://www.youtube.com/watch?v=5WdzDOyBFpI
+    channelName: Unity
+    description: 'When in playmode, Unity doesn''t save changes to instances of game
+      objects in your scene. So you always need to switch off play to keep editing
+      - remind yourself to do this by tinting your editor on play.
+
+
+      Help us
+      caption & translate this video!
+
+
+      http://amara.org/v/V63y/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/5WdzDOyBFpI/sddefault.jpg
+    - https://i.ytimg.com/vi/5WdzDOyBFpI/mqdefault.jpg
+    - https://i.ytimg.com/vi/5WdzDOyBFpI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5WdzDOyBFpI/hqdefault.jpg
+    tags:
+    - unity
+    - unitytips
+    - play
+    - play mode
+    - game dev
+    - tint
+    - ux
+    viewCount: 13854
+    likeCount: 140
+    dislikeCount: 3
+    commentCount: 10
+    durationInMinutes: 0
+    publishedAtDate: 635666357220000000
+    publisdedDate:
+      year: 2015
+      month: 5
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: How to use custom icons for empty game objects in Scene view - Unity Tips
+    url: https://www.youtube.com/watch?v=NISY5Crstio
+    channelName: Unity
+    description: 'To make empty game objects visible when not selected, assign them
+      standard or custom icons.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V63o/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/NISY5Crstio/sddefault.jpg
+    - https://i.ytimg.com/vi/NISY5Crstio/mqdefault.jpg
+    - https://i.ytimg.com/vi/NISY5Crstio/maxresdefault.jpg
+    - https://i.ytimg.com/vi/NISY5Crstio/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Video Game Culture
+    - tips
+    - tricks
+    - Video Game (Industry)
+    - empty game object
+    - custom icon
+    - inspector
+    - UnityTips
+    viewCount: 12376
+    likeCount: 212
+    dislikeCount: 4
+    commentCount: 18
+    durationInMinutes: 1
+    publishedAtDate: 635689074760000000
+    publisdedDate:
+      year: 2015
+      month: 6
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: How to Snap objects - Unity Tips
+    url: https://www.youtube.com/watch?v=t_xxsCcM60k
+    channelName: Unity
+    description: 'Snap objects when moving, rotating or scaling by holding CTRL (PC)
+      or CMD (Mac). Also use V to snap Vertices together. Change settings for snapping
+      by choosing Edit - Snap Settings.
+
+
+      Help us caption & translate this
+      video!
+
+
+      http://amara.org/v/V63x/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/t_xxsCcM60k/sddefault.jpg
+    - https://i.ytimg.com/vi/t_xxsCcM60k/mqdefault.jpg
+    - https://i.ytimg.com/vi/t_xxsCcM60k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/t_xxsCcM60k/hqdefault.jpg
+    tags:
+    - snap
+    - snapping
+    - level design
+    - moving
+    - game objects
+    - unity
+    - unitytips
+    viewCount: 79567
+    likeCount: 491
+    dislikeCount: 31
+    commentCount: 24
+    durationInMinutes: 0
+    publishedAtDate: 635666357220000000
+    publisdedDate:
+      year: 2015
+      month: 5
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: How to show variables as Sliders in Inspector - Unity Tips
+    url: https://www.youtube.com/watch?v=rVit25uPgH8
+    channelName: Unity
+    description: 'Exposing a float variable in the Inspector for tweaking? Add a
+      Range declaration above your variable in your script and you can instantly
+      turn your public variable into a slider.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V63r/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/rVit25uPgH8/sddefault.jpg
+    - https://i.ytimg.com/vi/rVit25uPgH8/mqdefault.jpg
+    - https://i.ytimg.com/vi/rVit25uPgH8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/rVit25uPgH8/hqdefault.jpg
+    tags:
+    - slider
+    - unity
+    - code
+    - script
+    - programming
+    - property
+    - variable
+    - editor gui
+    - editor ui
+    - game design
+    - unitytips
+    viewCount: 26395
+    likeCount: 509
+    dislikeCount: 3
+    commentCount: 33
+    durationInMinutes: 1
+    publishedAtDate: 635683533500000000
+    publisdedDate:
+      year: 2015
+      month: 5
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Get Started with Scripting in C# with Unity and Visual Studio
+    url: https://www.youtube.com/watch?v=EtVKzxLjRrQ
+    channelName: Unity
+    description: "Announcing an exciting remake! We've updated our Beginner and Intermediate
+      Scripting tutorial videos to include Unity 2019 and Microsoft Visual Studio
+      2019 with a brand new example scene. \n\nFind all the videos here in context
+      on Unity Learn:\n\nBeginner's scripting: https://ole.unity.com/BeginnerScripting\nIntermediate
+      scripting: https://ole.unity.com/IntermediateScripting"
+    thumbUrls:
+    - https://i.ytimg.com/vi/EtVKzxLjRrQ/sddefault.jpg
+    - https://i.ytimg.com/vi/EtVKzxLjRrQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/EtVKzxLjRrQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/EtVKzxLjRrQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity scripting
+    - unity coding
+    - unitiy coding tutorial
+    - unity scripting tutorial
+    - unity script tutorial
+    - unity make a game
+    - unity game
+    - unity making a game
+    - make a game in unity
+    - making a game in uniity
+    - make a game with unity
+    - unity visual studio
+    - C#
+    - how to make a game with unity
+    - how to make games in unity
+    - unity tutorial
+    - unity c# tutorial
+    - unity C# coding
+    - unity C# tutorial
+    - unity C# game
+    viewCount: 32890
+    likeCount: 1051
+    dislikeCount: 13
+    commentCount: 60
+    durationInMinutes: 1
+    publishedAtDate: 636982927470000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: FPS level design | Prototype Series
+    url: https://www.youtube.com/watch?v=7wieQDuykxo
+    channelName: Unity
+    description: "In this episode of the Unity Prototyping series, we showcase how
+      we prototyped a level tailored to the wall-run game mechanic we've implemented
+      in the first episode of the FPS Wall Run prototype!\n\n\u2B50 Download the
+      full Wall Run project: https://on.unity.com/3lMUj73\n\u2B50 Watch the longer
+      Training Session: https://on.unity.com/371Vtr0\n\u2B50 Learn more about the
+      FPS Microgame: https://on.unity.com/2FpNsRp"
+    thumbUrls:
+    - https://i.ytimg.com/vi/7wieQDuykxo/sddefault.jpg
+    - https://i.ytimg.com/vi/7wieQDuykxo/mqdefault.jpg
+    - https://i.ytimg.com/vi/7wieQDuykxo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7wieQDuykxo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - fps game
+    - unity fps
+    - unity fps level design
+    - unity wall run
+    - unity making level
+    - unity probuilder
+    - unity how to level
+    - unity how to fps
+    - unity prototype series
+    - prototype series
+    viewCount: 10169
+    likeCount: 468
+    dislikeCount: 8
+    commentCount: 42
+    durationInMinutes: 4
+    publishedAtDate: 637407252020000000
+    publisdedDate:
+      year: 2020
+      month: 11
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Editing Prefabs in Context - Unity 2020.1 (Feature Preview)
+    url: https://www.youtube.com/watch?v=PWZgqABuBGs
+    channelName: Unity
+    description: 'When we introduced Prefab Mode in Unity 2018.3, it became easy
+      to edit a Prefab Asset in isolation. In 2020.1 we''re introducing Prefab Mode
+      in Context. Now, when opening a Prefab Asset via an instance in the scene,
+      by default it''s opened in context.
+
+
+      More info about Unity 2020.1 beta:
+      https://on.unity.com/2zRMmdM
+
+      Download Unity''s 2020.1 beta to try this
+      feature: https://unity3d.com/beta/2020.1b
+
+      Check out the documentation:
+      https://on.unity.com/2z2MDe1
+
+      We''d love to receive your feedback on
+      the forum: https://on.unity.com/2WGmM4C'
+    thumbUrls:
+    - https://i.ytimg.com/vi/PWZgqABuBGs/sddefault.jpg
+    - https://i.ytimg.com/vi/PWZgqABuBGs/mqdefault.jpg
+    - https://i.ytimg.com/vi/PWZgqABuBGs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/PWZgqABuBGs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - prefab unity 2d
+    - prefab unity 3d
+    - prefab unity tutorial
+    - prefab context
+    - unity prefab context
+    - unity change prefab
+    - unity prefab 2020
+    - unity 2020.1
+    viewCount: 22028
+    likeCount: 852
+    dislikeCount: 13
+    commentCount: 66
+    durationInMinutes: 2
+    publishedAtDate: 637252794020000000
+    publisdedDate:
+      year: 2020
+      month: 5
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Detecting Collisions (OnCollisionEnter) - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=QRp4V1JTZnM
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/physics/on-collision-enter
+
+
+      How
+      to detect collisions between objects in code using the OnCollisionEnter function.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6bh/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/QRp4V1JTZnM/sddefault.jpg
+    - https://i.ytimg.com/vi/QRp4V1JTZnM/mqdefault.jpg
+    - https://i.ytimg.com/vi/QRp4V1JTZnM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/QRp4V1JTZnM/hqdefault.jpg
+    tags:
+    - tutorial
+    - beginner
+    - editor
+    - unity
+    - unity3d
+    - unity (game engine)
+    - game engine software
+    - learn
+    - how to
+    - make video games
+    - physics
+    - collision
+    - detect
+    - detection
+    viewCount: 245398
+    likeCount: 1099
+    dislikeCount: 62
+    commentCount: 136
+    durationInMinutes: 1
+    publishedAtDate: 635012082120000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating shots - 06 - Space Shooter - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=OYeF62uhplQ
+    channelName: Unity
+    description: "Watch this video in context on Unity's learning pages here -\nhttp://unity3d.com/learn/tutorials/projects/space-shooter/creating-shots\n\nCreating
+      shots by assembling artwork, physics components and custom C# code. \n\nRelated
+      download: http://u3d.as/66k\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/V687/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/OYeF62uhplQ/sddefault.jpg
+    - https://i.ytimg.com/vi/OYeF62uhplQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/OYeF62uhplQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/OYeF62uhplQ/hqdefault.jpg
+    tags:
+    - Unity
+    - Unity3d
+    - Unity 3d
+    - Tutorial
+    - Space Shooter
+    - Arcade Shooter
+    - Learn
+    - Tut
+    - Physics
+    - Collider
+    - Trigger
+    - Beginner
+    - Starting
+    - How to learn Unity
+    - Unity Tutorial
+    - Unity (Software)
+    - How-to (Media-Genre)
+    - Help
+    - Tips
+    - Tricks
+    - SHMUP
+    - 2D
+    - 2.5D
+    - Game Controller
+    - Top Down Shooter
+    - Shooter
+    viewCount: 187047
+    likeCount: 861
+    dislikeCount: 20
+    commentCount: 332
+    durationInMinutes: 13
+    publishedAtDate: 635231892520000000
+    publisdedDate:
+      year: 2013
+      month: 12
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: C# vs JS syntax - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=GPpw_ZE1LVc
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/scripting/c-sharp-vs-javascript-syntax
+
+
+      Some
+      of the core differences between C# and Javascript script syntax in Unity.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6ce/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/GPpw_ZE1LVc/sddefault.jpg
+    - https://i.ytimg.com/vi/GPpw_ZE1LVc/mqdefault.jpg
+    - https://i.ytimg.com/vi/GPpw_ZE1LVc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GPpw_ZE1LVc/hqdefault.jpg
+    tags:
+    - beginner
+    - scripting
+    - unity
+    - unity3d
+    - script
+    - code
+    - c#
+    - unity (game engine)
+    - game engine software
+    - learn
+    - tutorial
+    - how to
+    - c sharp
+    - javascript
+    - unityscript
+    viewCount: 120837
+    likeCount: 431
+    dislikeCount: 6
+    commentCount: 89
+    durationInMinutes: 1
+    publishedAtDate: 635015139960000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Vector Maths in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=e3z91RqZPAk
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/vector-maths
+
+
+      A
+      primer on Vector maths - as well as information on the Dot and Cross products.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/e3z91RqZPAk/sddefault.jpg
+    - https://i.ytimg.com/vi/e3z91RqZPAk/mqdefault.jpg
+    - https://i.ytimg.com/vi/e3z91RqZPAk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/e3z91RqZPAk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity beginners
+    - unity for beginners
+    - unity beginners guide
+    - unity beginner tutorial
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity C# beginner friendly
+    - unity C# starting
+    - unity guide
+    - unity 3d
+    - unity 2d
+    - unity C# visual studio
+    - unity visual studio
+    viewCount: 80097
+    likeCount: 1557
+    dislikeCount: 25
+    commentCount: 99
+    durationInMinutes: 9
+    publishedAtDate: 636984705910000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Variables And Functions in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=-c1RsydH2nA
+    channelName: Unity
+    description: 'What are Variables and Functions, and how do they store and process
+      information for us? This video answers those questions!
+
+
+      Learn more:
+      https://on.unity.com/3gbCR8N'
+    thumbUrls:
+    - https://i.ytimg.com/vi/-c1RsydH2nA/sddefault.jpg
+    - https://i.ytimg.com/vi/-c1RsydH2nA/mqdefault.jpg
+    - https://i.ytimg.com/vi/-c1RsydH2nA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-c1RsydH2nA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginners guide
+    - unity beginner tutorial
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorials
+    - unity C# starting
+    - unity beginner tips
+    - unity beginner tutorial 2019
+    - unity microsoft
+    - unity visual studio
+    viewCount: 101278
+    likeCount: 857
+    dislikeCount: 15
+    commentCount: 75
+    durationInMinutes: 6
+    publishedAtDate: 637335700650000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Update And Fixed Update in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=u42aWzAIAqg
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/update-and-fixedupdate
+
+
+      How
+      to effect changes every frame with the Update and FixedUpdate functions, and
+      their differences.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/u42aWzAIAqg/sddefault.jpg
+    - https://i.ytimg.com/vi/u42aWzAIAqg/mqdefault.jpg
+    - https://i.ytimg.com/vi/u42aWzAIAqg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/u42aWzAIAqg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity beginners
+    - unity for beginners
+    - unity beginners guide
+    - unity beginner tutorial
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity C# beginner friendly
+    - unity C# starting
+    - unity guide
+    viewCount: 63939
+    likeCount: 654
+    dislikeCount: 5
+    commentCount: 47
+    durationInMinutes: 2
+    publishedAtDate: 636984705660000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Translate and Rotate in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=32JkMANaMpk
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/translate-and-rotate
+
+
+      How
+      to use the two transform functions Translate and Rotate to effect a non-rigidbody
+      object''s position and rotation.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/32JkMANaMpk/sddefault.jpg
+    - https://i.ytimg.com/vi/32JkMANaMpk/mqdefault.jpg
+    - https://i.ytimg.com/vi/32JkMANaMpk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/32JkMANaMpk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    viewCount: 64064
+    likeCount: 801
+    dislikeCount: 13
+    commentCount: 31
+    durationInMinutes: 3
+    publishedAtDate: 636995216470000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Ternary Operator in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=gF5pwVCrOsk
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/ternary-operator
+
+
+      The
+      Ternary Operator can be thought of as a simple, short hand syntax for an IF-ELSE
+      statement. In this video, you will learn to Ternary Operation to test the condition
+      of a variable.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/gF5pwVCrOsk/sddefault.jpg
+    - https://i.ytimg.com/vi/gF5pwVCrOsk/mqdefault.jpg
+    - https://i.ytimg.com/vi/gF5pwVCrOsk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gF5pwVCrOsk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 23427
+    likeCount: 236
+    dislikeCount: 2
+    commentCount: 11
+    durationInMinutes: 1
+    publishedAtDate: 636988107600000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Switch Statements in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=-PWvI3q6_OE
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/switch-statements
+
+
+      Switch
+      statements act like streamline conditionals. They are useful for when you want
+      to compare a single variable against a series of constants. In this video you
+      will learn how to write and use switch statements.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/-PWvI3q6_OE/sddefault.jpg
+    - https://i.ytimg.com/vi/-PWvI3q6_OE/mqdefault.jpg
+    - https://i.ytimg.com/vi/-PWvI3q6_OE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-PWvI3q6_OE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 37660
+    likeCount: 487
+    dislikeCount: 4
+    commentCount: 61
+    durationInMinutes: 4
+    publishedAtDate: 637003992430000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Statics in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=I57PPyA_Dgg
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/statics-l
+
+
+      Statics
+      are methods, variables, classes that aren''t instanced. This means that methods
+      and variables declared as static will belong to the class specifically and
+      will be shared by all objects of the class. Classes declared as static will
+      not be able to be instantiated. In this video you will learn how to create
+      and work with statics in Unity.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/I57PPyA_Dgg/sddefault.jpg
+    - https://i.ytimg.com/vi/I57PPyA_Dgg/mqdefault.jpg
+    - https://i.ytimg.com/vi/I57PPyA_Dgg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/I57PPyA_Dgg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity code
+    - unity visual
+    - unity coding
+    - how to code
+    - learn coding
+    viewCount: 30009
+    likeCount: 392
+    dislikeCount: 2
+    commentCount: 18
+    durationInMinutes: 3
+    publishedAtDate: 636988108240000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Scope and Access Modifiers in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=_0oBLCJcpCs
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/scope-and-access-modifiers
+
+
+      Understanding
+      variable & function scope and accessibility.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/_0oBLCJcpCs/sddefault.jpg
+    - https://i.ytimg.com/vi/_0oBLCJcpCs/mqdefault.jpg
+    - https://i.ytimg.com/vi/_0oBLCJcpCs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/_0oBLCJcpCs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Dev
+    - Game Engine
+    - Game Development
+    - unity
+    - unity basics
+    - unity beginner
+    - unity beginners guide
+    - unity beginner tutorial
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity C# beginner friendly
+    - unity C# starting
+    - unity beginner tips
+    - unity beginner tutorial 2019
+    - uniity 2019 tutorial
+    - unity visual code
+    viewCount: 54636
+    likeCount: 613
+    dislikeCount: 7
+    commentCount: 46
+    durationInMinutes: 6
+    publishedAtDate: 636984704900000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Polymorphism in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=s6Y_4Ekz0Ms
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/polymorphism
+
+
+      Polymorphism
+      is the process by which a child class can be treated as an object of the parent
+      class. In this video you will learn how to use Polymorphism, Upcasting, and
+      Downcasting to create complex and dynamic functionality between related classes.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/s6Y_4Ekz0Ms/sddefault.jpg
+    - https://i.ytimg.com/vi/s6Y_4Ekz0Ms/mqdefault.jpg
+    - https://i.ytimg.com/vi/s6Y_4Ekz0Ms/maxresdefault.jpg
+    - https://i.ytimg.com/vi/s6Y_4Ekz0Ms/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 21146
+    likeCount: 228
+    dislikeCount: 12
+    commentCount: 12
+    durationInMinutes: 3
+    publishedAtDate: 636990831870000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Overriding in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=h0J4gs4DW5A
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/overriding
+
+
+      Overriding
+      allows you to replace the members of a parent class with newer members from
+      the child class. This allows child classes which have been Upcasted to a parent
+      class to be treating like a parent class while behaving like a child class.
+      In this video you will learn how to implement overriding in a parent / child
+      class relationship.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/h0J4gs4DW5A/sddefault.jpg
+    - https://i.ytimg.com/vi/h0J4gs4DW5A/mqdefault.jpg
+    - https://i.ytimg.com/vi/h0J4gs4DW5A/maxresdefault.jpg
+    - https://i.ytimg.com/vi/h0J4gs4DW5A/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 20371
+    likeCount: 256
+    dislikeCount: 4
+    commentCount: 10
+    durationInMinutes: 2
+    publishedAtDate: 636990833440000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: C# OnMouseDown in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=c69oZprM1oc
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/onmousedown
+
+
+      How
+      to detect mouse clicks on a Collider or GUI element.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/c69oZprM1oc/sddefault.jpg
+    - https://i.ytimg.com/vi/c69oZprM1oc/mqdefault.jpg
+    - https://i.ytimg.com/vi/c69oZprM1oc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/c69oZprM1oc/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 33847
+    likeCount: 316
+    dislikeCount: 3
+    commentCount: 26
+    durationInMinutes: 1
+    publishedAtDate: 636997787240000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Namespaces in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=LtQs5FzdQ2k
+    channelName: Unity
+    description: 'Namespaces allow you to organize your classes and prevent any unwanted
+      clutter. In this video, you will learn to use existing namespaces and create
+      new namespaces for your scripts!
+
+
+      Learn more: https://on.unity.com/3ggDJsW'
+    thumbUrls:
+    - https://i.ytimg.com/vi/LtQs5FzdQ2k/sddefault.jpg
+    - https://i.ytimg.com/vi/LtQs5FzdQ2k/mqdefault.jpg
+    - https://i.ytimg.com/vi/LtQs5FzdQ2k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/LtQs5FzdQ2k/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 14323
+    likeCount: 165
+    dislikeCount: 1
+    commentCount: 7
+    durationInMinutes: 3
+    publishedAtDate: 637335695160000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Method Overloading in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=dY_Ck8-PIZM
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/method-overloading
+
+
+      Overloading
+      a method allows you to create different methods with the same name. The result
+      is that you can provide a range of functionality without creating a lot of
+      clutter. In this video you will learn how to create and use overloaded methods.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/dY_Ck8-PIZM/sddefault.jpg
+    - https://i.ytimg.com/vi/dY_Ck8-PIZM/mqdefault.jpg
+    - https://i.ytimg.com/vi/dY_Ck8-PIZM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/dY_Ck8-PIZM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 17719
+    likeCount: 214
+    dislikeCount: 1
+    commentCount: 10
+    durationInMinutes: 2
+    publishedAtDate: 636988109190000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Member Hiding in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=n58yUg2V1lc
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/member-hiding
+
+
+      Member
+      Hiding is the process by which a derived class can hide the members of the
+      base class without overriding them. In this video you will learn how to effectively
+      hide the members of a parent class in a child class and see the effect it has
+      on Polymorphism.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/n58yUg2V1lc/sddefault.jpg
+    - https://i.ytimg.com/vi/n58yUg2V1lc/mqdefault.jpg
+    - https://i.ytimg.com/vi/n58yUg2V1lc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/n58yUg2V1lc/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 13549
+    likeCount: 121
+    dislikeCount: 3
+    commentCount: 7
+    durationInMinutes: 2
+    publishedAtDate: 636990832840000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Loops in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=Jefkb3Gm7vE
+    channelName: Unity
+    description: 'This video explains how to use the For, While, and Do-While Loops.
+      It also explains how to use the For Each loop to repeat actions in code!
+
+
+      Learn
+      more: https://on.unity.com/34hcpZ5'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Jefkb3Gm7vE/sddefault.jpg
+    - https://i.ytimg.com/vi/Jefkb3Gm7vE/mqdefault.jpg
+    - https://i.ytimg.com/vi/Jefkb3Gm7vE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Jefkb3Gm7vE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Engine
+    - Game Development
+    - Game Dev
+    - unity
+    - unity basics
+    - unity beginner
+    - unity beginners
+    - unity for beginners
+    - unity beginner tutorial
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity C# beginner friendly
+    - unity C# starting
+    - unity beginner tips
+    - unity beginner tutorial 2019
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - C#
+    viewCount: 53729
+    likeCount: 449
+    dislikeCount: 7
+    commentCount: 29
+    durationInMinutes: 6
+    publishedAtDate: 637335697510000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: C# LookAt in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=cAAqf5J7_9w
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/look-at-s
+
+
+      How
+      to make a game object''s transform face another''s by using the LookAt function.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/cAAqf5J7_9w/sddefault.jpg
+    - https://i.ytimg.com/vi/cAAqf5J7_9w/mqdefault.jpg
+    - https://i.ytimg.com/vi/cAAqf5J7_9w/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cAAqf5J7_9w/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    viewCount: 41024
+    likeCount: 405
+    dislikeCount: 6
+    commentCount: 23
+    durationInMinutes: 1
+    publishedAtDate: 636995216840000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Lists and Dictionaries in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=0WdWiF_Si4I
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/lists-and-dictionaries
+
+
+      Lists
+      and Dictionaries are two types of generic collections. These collections give
+      you a broad array of functions that allow you to manage and maintain your data.
+      In this video you will learn how to create lists and dictionaries. You will
+      also learn about some of their functionality.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/0WdWiF_Si4I/sddefault.jpg
+    - https://i.ytimg.com/vi/0WdWiF_Si4I/mqdefault.jpg
+    - https://i.ytimg.com/vi/0WdWiF_Si4I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0WdWiF_Si4I/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 48708
+    likeCount: 601
+    dislikeCount: 34
+    commentCount: 30
+    durationInMinutes: 5
+    publishedAtDate: 637003820450000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Invoke in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=-YgM4DXGeq4
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/invoke-2d
+
+
+      The
+      Invoke functions allow you to schedule method calls to occur at a later time.
+      In this video you will learn how to use the Invoke, InvokeRepeating, and CancelInvoke
+      functions in your Unity scripts.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/-YgM4DXGeq4/sddefault.jpg
+    - https://i.ytimg.com/vi/-YgM4DXGeq4/mqdefault.jpg
+    - https://i.ytimg.com/vi/-YgM4DXGeq4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-YgM4DXGeq4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 38975
+    likeCount: 541
+    dislikeCount: 8
+    commentCount: 65
+    durationInMinutes: 3
+    publishedAtDate: 637003991780000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Interfaces in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=50_qBoKGKxs
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/interfaces
+
+
+      Interfaces
+      allow you to force functionality on any classes that implement it. In this
+      way, you can ensure unrelated classes can all behave in a similar manner. In
+      this video you will learn how to create regular and generic interfaces. You
+      will also learn how to implement those interfaces in a class.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/50_qBoKGKxs/sddefault.jpg
+    - https://i.ytimg.com/vi/50_qBoKGKxs/mqdefault.jpg
+    - https://i.ytimg.com/vi/50_qBoKGKxs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/50_qBoKGKxs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 35079
+    likeCount: 480
+    dislikeCount: 8
+    commentCount: 48
+    durationInMinutes: 4
+    publishedAtDate: 636990833860000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Instantiate in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=Q3u0x8VRJS4
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/instantiate
+
+
+      How
+      to use Instantiate to create clones of a Prefab during runtime.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Q3u0x8VRJS4/sddefault.jpg
+    - https://i.ytimg.com/vi/Q3u0x8VRJS4/mqdefault.jpg
+    - https://i.ytimg.com/vi/Q3u0x8VRJS4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Q3u0x8VRJS4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 59927
+    likeCount: 833
+    dislikeCount: 14
+    commentCount: 60
+    durationInMinutes: 4
+    publishedAtDate: 637003991270000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: C# If Statements in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=PQihrWCOSic
+    channelName: Unity
+    description: 'This video explains how to use IF statements to set conditions
+      in your code!
+
+
+      Learn more: https://on.unity.com/3gcH8Jn'
+    thumbUrls:
+    - https://i.ytimg.com/vi/PQihrWCOSic/sddefault.jpg
+    - https://i.ytimg.com/vi/PQihrWCOSic/mqdefault.jpg
+    - https://i.ytimg.com/vi/PQihrWCOSic/maxresdefault.jpg
+    - https://i.ytimg.com/vi/PQihrWCOSic/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Games
+    - Game Dev
+    - Game Engine
+    - Unity Technologies
+    - Game Development
+    - unity
+    - unity basics
+    - unity beginner
+    - unity beginners
+    - unity for beginners
+    - unity beginners guide
+    - unity beginner tutorial
+    - unity beginner tutorials
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity C# beginner friendly
+    - unity C# starting
+    - unity beginner tips
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - C#
+    viewCount: 49220
+    likeCount: 358
+    dislikeCount: 5
+    commentCount: 27
+    durationInMinutes: 1
+    publishedAtDate: 637335698540000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: C# GetComponent in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=xbDKC4zP9XY
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/getcomponent
+
+
+      How
+      to use the GetComponent function to address properties of other scripts or
+      components.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/xbDKC4zP9XY/sddefault.jpg
+    - https://i.ytimg.com/vi/xbDKC4zP9XY/mqdefault.jpg
+    - https://i.ytimg.com/vi/xbDKC4zP9XY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xbDKC4zP9XY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 54653
+    likeCount: 604
+    dislikeCount: 28
+    commentCount: 45
+    durationInMinutes: 3
+    publishedAtDate: 636997787420000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: C# GetButton and GetKey in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=-A7D5Rcumz4
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/getbutton-and-getkey
+
+
+      How
+      to get button or key for input and how these axes behave / can be modified
+      with the Input manager'
+    thumbUrls:
+    - https://i.ytimg.com/vi/-A7D5Rcumz4/sddefault.jpg
+    - https://i.ytimg.com/vi/-A7D5Rcumz4/mqdefault.jpg
+    - https://i.ytimg.com/vi/-A7D5Rcumz4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-A7D5Rcumz4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    viewCount: 45259
+    likeCount: 472
+    dislikeCount: 7
+    commentCount: 13
+    durationInMinutes: 3
+    publishedAtDate: 636995217440000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Generics in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=LnjuFeHLQ2Y
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/generics
+
+
+      Generic
+      classes and methods allow you to write code without knowing the exact type
+      they will have. The result is that you can write code that can work with a
+      wide array of data types and provide a great level of flexibility. In this
+      video you will learn to create generic methods and classes, as well as place
+      constraints of generic types.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/LnjuFeHLQ2Y/sddefault.jpg
+    - https://i.ytimg.com/vi/LnjuFeHLQ2Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/LnjuFeHLQ2Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/LnjuFeHLQ2Y/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 26802
+    likeCount: 320
+    dislikeCount: 14
+    commentCount: 33
+    durationInMinutes: 4
+    publishedAtDate: 636988109990000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Extension Methods in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=C7mdDB3zY1A
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/extension-methods
+
+
+      Extension
+      methods allow you to give functionality to classes that you cannot modify and
+      don''t want to derive from. In this video you will learn how to create an extension
+      method for the Transform class.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/C7mdDB3zY1A/sddefault.jpg
+    - https://i.ytimg.com/vi/C7mdDB3zY1A/mqdefault.jpg
+    - https://i.ytimg.com/vi/C7mdDB3zY1A/maxresdefault.jpg
+    - https://i.ytimg.com/vi/C7mdDB3zY1A/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 16014
+    likeCount: 241
+    dislikeCount: 2
+    commentCount: 9
+    durationInMinutes: 2
+    publishedAtDate: 637003819940000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Events in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=k4JlFxPcqlg
+    channelName: Unity
+    description: 'This video explains how to use special delegates called Events
+      in order to subscribe methods (functions) to create flexible broadcast systems
+      in your code!
+
+
+      Learn more: https://on.unity.com/3iVYXhx'
+    thumbUrls:
+    - https://i.ytimg.com/vi/k4JlFxPcqlg/sddefault.jpg
+    - https://i.ytimg.com/vi/k4JlFxPcqlg/mqdefault.jpg
+    - https://i.ytimg.com/vi/k4JlFxPcqlg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/k4JlFxPcqlg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 39760
+    likeCount: 487
+    dislikeCount: 5
+    commentCount: 33
+    durationInMinutes: 6
+    publishedAtDate: 637335691830000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Enumerations in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=L2E2aB1CMYw
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/enumerations
+
+
+      Enumerations
+      allow you to create a collection of related constants. In this video you will
+      learn how to declare and use enumerations in your code.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/L2E2aB1CMYw/sddefault.jpg
+    - https://i.ytimg.com/vi/L2E2aB1CMYw/mqdefault.jpg
+    - https://i.ytimg.com/vi/L2E2aB1CMYw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/L2E2aB1CMYw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 41099
+    likeCount: 426
+    dislikeCount: 8
+    commentCount: 20
+    durationInMinutes: 4
+    publishedAtDate: 637003992180000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Enabling and Disabling Components in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=PCdg3cnQfZ4
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/enabling-and-disabling-components
+
+
+      How
+      to enable and disable components via script during runtime.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/PCdg3cnQfZ4/sddefault.jpg
+    - https://i.ytimg.com/vi/PCdg3cnQfZ4/mqdefault.jpg
+    - https://i.ytimg.com/vi/PCdg3cnQfZ4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/PCdg3cnQfZ4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity beginners
+    - unity for beginners
+    - unity beginners guide
+    - unity beginner tutorial
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity C# beginner friendly
+    - unity C# starting
+    - unity guide
+    - gamedev
+    - indiedev
+    viewCount: 59373
+    likeCount: 516
+    dislikeCount: 9
+    commentCount: 22
+    durationInMinutes: 1
+    publishedAtDate: 636984706210000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Destroy in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=pRDj3jss5t8
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/destroy-i
+
+
+      How
+      to use the Destroy() function to remove GameObjects and Components at runtime.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/pRDj3jss5t8/sddefault.jpg
+    - https://i.ytimg.com/vi/pRDj3jss5t8/mqdefault.jpg
+    - https://i.ytimg.com/vi/pRDj3jss5t8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pRDj3jss5t8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 40155
+    likeCount: 350
+    dislikeCount: 2
+    commentCount: 17
+    durationInMinutes: 2
+    publishedAtDate: 636995217100000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: C# DeltaTime in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=Gcoj3llfzSw
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/delta-time
+
+
+      What
+      is Delta Time and how can it be used in your games to smooth and interpret
+      values.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Gcoj3llfzSw/sddefault.jpg
+    - https://i.ytimg.com/vi/Gcoj3llfzSw/mqdefault.jpg
+    - https://i.ytimg.com/vi/Gcoj3llfzSw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Gcoj3llfzSw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 35026
+    likeCount: 397
+    dislikeCount: 3
+    commentCount: 15
+    durationInMinutes: 1
+    publishedAtDate: 636997787660000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Delegates in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=VgwP1uXNnCw
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/delegates
+
+
+      Delegates
+      are containers for methods (functions). They can be thought of as a variable
+      that be called like a function to invoke whichever methods are currently stored
+      in it. In this video you will learn to make your own delegates and use them
+      to call various methods.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/VgwP1uXNnCw/sddefault.jpg
+    - https://i.ytimg.com/vi/VgwP1uXNnCw/mqdefault.jpg
+    - https://i.ytimg.com/vi/VgwP1uXNnCw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/VgwP1uXNnCw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 39497
+    likeCount: 602
+    dislikeCount: 6
+    commentCount: 32
+    durationInMinutes: 4
+    publishedAtDate: 637003821250000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: C# DataTypes in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=IVcx-tSxjys
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/data-types
+
+
+      Learn
+      the important differences between Value and Reference data types, in order
+      to better understand how variables work.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/IVcx-tSxjys/sddefault.jpg
+    - https://i.ytimg.com/vi/IVcx-tSxjys/mqdefault.jpg
+    - https://i.ytimg.com/vi/IVcx-tSxjys/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IVcx-tSxjys/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 28688
+    likeCount: 356
+    dislikeCount: 2
+    commentCount: 36
+    durationInMinutes: 4
+    publishedAtDate: 636997787890000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Conventions and Syntax in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=0mks0QaWCNQ
+    channelName: Unity
+    description: 'In this video, you''ll learn about some basic conventions and syntax
+      of writing code - dot operators, semi-colons, indentation, and commenting.
+
+
+      Learn
+      more: https://on.unity.com/31giT8K'
+    thumbUrls:
+    - https://i.ytimg.com/vi/0mks0QaWCNQ/sddefault.jpg
+    - https://i.ytimg.com/vi/0mks0QaWCNQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/0mks0QaWCNQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0mks0QaWCNQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity beginners
+    - unity beginners guide
+    - unity beginner tutorials
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity C# beginner friendly
+    - unity C# starting
+    - unity beginner tips
+    - unity beginner tutorial 2019
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - C#
+    viewCount: 64829
+    likeCount: 583
+    dislikeCount: 8
+    commentCount: 38
+    durationInMinutes: 5
+    publishedAtDate: 637335699580000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Classes in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=odKtPBsyFnw
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/classes-5
+
+
+      How
+      to use Classes to store and organise your information, and how to create constructors
+      to work with parts of your class.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/odKtPBsyFnw/sddefault.jpg
+    - https://i.ytimg.com/vi/odKtPBsyFnw/mqdefault.jpg
+    - https://i.ytimg.com/vi/odKtPBsyFnw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/odKtPBsyFnw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 56617
+    likeCount: 665
+    dislikeCount: 15
+    commentCount: 40
+    durationInMinutes: 6
+    publishedAtDate: 636997788130000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Awake and Start in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=4QdjoV63wjM
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/awake-and-start
+
+
+      How
+      to use Awake and Start, two of Unity''s initialisation functions.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/4QdjoV63wjM/sddefault.jpg
+    - https://i.ytimg.com/vi/4QdjoV63wjM/mqdefault.jpg
+    - https://i.ytimg.com/vi/4QdjoV63wjM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4QdjoV63wjM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity C# starting
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    viewCount: 53328
+    likeCount: 430
+    dislikeCount: 3
+    commentCount: 12
+    durationInMinutes: 1
+    publishedAtDate: 636984705380000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Attributes in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=HvAIvAEjSGU
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/attributes
+
+
+      Attributes
+      allow you to attach additional behavior to the methods and variables you create.
+      In this video you will learn the format of attributes as well as how to use
+      the "Range" and "ExecuteInEditMode" attributes.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/HvAIvAEjSGU/sddefault.jpg
+    - https://i.ytimg.com/vi/HvAIvAEjSGU/mqdefault.jpg
+    - https://i.ytimg.com/vi/HvAIvAEjSGU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HvAIvAEjSGU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 15172
+    likeCount: 201
+    dislikeCount: 4
+    commentCount: 6
+    durationInMinutes: 4
+    publishedAtDate: 637003821500000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Arrays in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=Zn4BDIXhy-M
+    channelName: Unity
+    description: 'This video explains how to use arrays to collect variables together
+      into a more manageable form!
+
+
+      Learn more: https://on.unity.com/3ggq3Ov'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Zn4BDIXhy-M/sddefault.jpg
+    - https://i.ytimg.com/vi/Zn4BDIXhy-M/mqdefault.jpg
+    - https://i.ytimg.com/vi/Zn4BDIXhy-M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Zn4BDIXhy-M/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 27437
+    likeCount: 286
+    dislikeCount: 2
+    commentCount: 21
+    durationInMinutes: 4
+    publishedAtDate: 637335696270000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Activating GameObjects in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=MhPFB-rAdlg
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/activating-gameobjects
+
+
+      What
+      are Scripts in Unity? Learn about the behaviour component that is a Unity script,
+      and how to Create and Attach them to objects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/MhPFB-rAdlg/sddefault.jpg
+    - https://i.ytimg.com/vi/MhPFB-rAdlg/mqdefault.jpg
+    - https://i.ytimg.com/vi/MhPFB-rAdlg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MhPFB-rAdlg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity beginners
+    - unity for beginners
+    - unity beginners guide
+    - unity beginner tutorial
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity C# beginner friendly
+    - unity C# starting
+    - unity guide
+    - make a game in unity
+    - how to make games in 2019
+    viewCount: 47218
+    likeCount: 346
+    dislikeCount: 4
+    commentCount: 16
+    durationInMinutes: 2
+    publishedAtDate: 636984706550000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: (Unity 4) Play area & pick-up objects - 04 - Roll-a-ball - Unity Official
+      Tutorials
+    url: https://www.youtube.com/watch?v=4l2YJsgmusI
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/projects/roll-a-ball/pickup-objects
+
+
+      Setting
+      up the play area and creating pick-up objects.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V6aQ/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/4l2YJsgmusI/sddefault.jpg
+    - https://i.ytimg.com/vi/4l2YJsgmusI/mqdefault.jpg
+    - https://i.ytimg.com/vi/4l2YJsgmusI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4l2YJsgmusI/hqdefault.jpg
+    tags:
+    - Unity
+    - Unity3d
+    - Unity 3d
+    - Tutorial
+    - Roll a ball
+    - Ball
+    - Learn
+    - Tut
+    - Physics
+    - Collider
+    - Colliders
+    - Triggers
+    - Trigger
+    - Beginner
+    - Starting
+    - How to learn Unity
+    - Unity Tutorial
+    - Unity (Software)
+    - How-to (Media Genre)
+    - Help
+    - Tips
+    - Tricks
+    viewCount: 106232
+    likeCount: 300
+    dislikeCount: 4
+    commentCount: 62
+    durationInMinutes: 10
+    publishedAtDate: 635127320350000000
+    publisdedDate:
+      year: 2013
+      month: 8
+      day: 22
+    YouTubeDataAPI_Cooked: 1

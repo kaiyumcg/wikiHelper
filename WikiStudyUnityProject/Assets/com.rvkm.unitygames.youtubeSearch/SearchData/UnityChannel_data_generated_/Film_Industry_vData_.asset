@@ -12,6 +12,760 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: Film_Industry_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: Film Industry
+  allVideos:
+  - title: 'WindUp Trailer: Animated short created with Unity'
+    url: https://www.youtube.com/watch?v=8JCQ9V2y85s
+    channelName: Unity
+    description: "Get a sneak peek of Unity's newest animated short, Windup. Windup
+      highlights the fragile nature of life, love, and what it means to never give
+      up. \n\nThis film is created in real-time in out-of-the-box Unity 2019.2, the
+      animators used regular desktops that most CG artists have at home. The result
+      was achieved, by setting strict rules about poly-count, as well as what features
+      they could afford to use. Such as using pixel displacement instead of tessellation
+      shader; using joints animation instead of animation caches. We can't wait to
+      share the full video with you later this year!\n\nLearn more: https://on.unity.com/2Z2RMx1\n\nFor
+      more information on the ways Unity can help you achieve your animation goals,
+      head over to https://on.unity.com/2Y9nnwJ. \n\nDirected by: Yibing Jiang\nProducers:
+      Aleksander Karshikoff, Silvia Rasheva\nExecutive Producer: Junbo Zhang"
+    thumbUrls:
+    - https://i.ytimg.com/vi/8JCQ9V2y85s/sddefault.jpg
+    - https://i.ytimg.com/vi/8JCQ9V2y85s/mqdefault.jpg
+    - https://i.ytimg.com/vi/8JCQ9V2y85s/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8JCQ9V2y85s/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 32351
+    likeCount: 635
+    dislikeCount: 8
+    commentCount: 56
+    durationInMinutes: 0
+    publishedAtDate: 637236396640000000
+    publisdedDate:
+      year: 2020
+      month: 4
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Universal GameDev Challenge - Questions and Answers [5/5] Live 2018/3/28
+    url: https://www.youtube.com/watch?v=xQ-KW93eRkc
+    channelName: Unity
+    description: "Join the challenge here: https://connect.unity.com/challenges/universal\n\nIn
+      this live session we will learn about the Universal Gamedev Challenge, an exciting
+      new opportunity for Unity developers. The Universal GameDev Challenge is a
+      contest which includes five iconic worlds from Universal. From the classic
+      Back to the Future\u2122 films to the current animated series and popular reboot
+      Voltron Legendary Defender, the Universal GameDev Challenge celebrates the
+      creativity of game developers designing and building a PC game with Unity."
+    thumbUrls:
+    - https://i.ytimg.com/vi/xQ-KW93eRkc/sddefault.jpg
+    - https://i.ytimg.com/vi/xQ-KW93eRkc/mqdefault.jpg
+    - https://i.ytimg.com/vi/xQ-KW93eRkc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xQ-KW93eRkc/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 783
+    likeCount: 4
+    dislikeCount: 2
+    commentCount: 0
+    durationInMinutes: 12
+    publishedAtDate: 636590035100000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Universal GameDev Challenge - Overview [1/5] Live 2018/3/28
+    url: https://www.youtube.com/watch?v=HlLgR0tw6yM
+    channelName: Unity
+    description: "Join the challenge here: https://connect.unity.com/challenges/universal\n\nIn
+      this live session we will learn about the Universal Gamedev Challenge, an exciting
+      new opportunity for Unity developers. The Universal GameDev Challenge is a
+      contest which includes five iconic worlds from Universal. From the classic
+      Back to the Future\u2122 films to the current animated series and popular reboot
+      Voltron Legendary Defender, the Universal GameDev Challenge celebrates the
+      creativity of game developers designing and building a PC game with Unity."
+    thumbUrls:
+    - https://i.ytimg.com/vi/HlLgR0tw6yM/sddefault.jpg
+    - https://i.ytimg.com/vi/HlLgR0tw6yM/mqdefault.jpg
+    - https://i.ytimg.com/vi/HlLgR0tw6yM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HlLgR0tw6yM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - jaws
+    - voltron
+    - battlestar galactica
+    - turok
+    - back to the future
+    - universal
+    - microsoft
+    - intel
+    viewCount: 3815
+    likeCount: 38
+    dislikeCount: 2
+    commentCount: 2
+    durationInMinutes: 7
+    publishedAtDate: 636590035100000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Universal GameDev Challenge - Microsoft, Mixer and Using the IP [4/5]
+      Live 2018/3/28
+    url: https://www.youtube.com/watch?v=lBuvmZpo9S0
+    channelName: Unity
+    description: "Join the challenge here: https://connect.unity.com/challenges/universal\n\nIn
+      this live session we will learn about the Universal Gamedev Challenge, an exciting
+      new opportunity for Unity developers. The Universal GameDev Challenge is a
+      contest which includes five iconic worlds from Universal. From the classic
+      Back to the Future\u2122 films to the current animated series and popular reboot
+      Voltron Legendary Defender, the Universal GameDev Challenge celebrates the
+      creativity of game developers designing and building a PC game with Unity."
+    thumbUrls:
+    - https://i.ytimg.com/vi/lBuvmZpo9S0/sddefault.jpg
+    - https://i.ytimg.com/vi/lBuvmZpo9S0/mqdefault.jpg
+    - https://i.ytimg.com/vi/lBuvmZpo9S0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lBuvmZpo9S0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1734
+    likeCount: 14
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 7
+    publishedAtDate: 636590035100000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Universal GameDev Challenge - Intel Game Dev Program [3/5] Live 2018/3/28
+    url: https://www.youtube.com/watch?v=779kRtrNbZc
+    channelName: Unity
+    description: "Join the challenge here: https://connect.unity.com/challenges/universal\n\nIn
+      this live session we will learn about the Universal Gamedev Challenge, an exciting
+      new opportunity for Unity developers. The Universal GameDev Challenge is a
+      contest which includes five iconic worlds from Universal. From the classic
+      Back to the Future\u2122 films to the current animated series and popular reboot
+      Voltron Legendary Defender, the Universal GameDev Challenge celebrates the
+      creativity of game developers designing and building a PC game with Unity."
+    thumbUrls:
+    - https://i.ytimg.com/vi/779kRtrNbZc/sddefault.jpg
+    - https://i.ytimg.com/vi/779kRtrNbZc/mqdefault.jpg
+    - https://i.ytimg.com/vi/779kRtrNbZc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/779kRtrNbZc/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 836
+    likeCount: 5
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 4
+    publishedAtDate: 636590035090000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Universal GameDev Challenge - Advice From Universal, Microsoft and Intel
+      [2/5] Live 2018/3/28
+    url: https://www.youtube.com/watch?v=yotQmvy6nOk
+    channelName: Unity
+    description: "Join the challenge here: https://connect.unity.com/challenges/universal\n\nIn
+      this live session we will learn about the Universal Gamedev Challenge, an exciting
+      new opportunity for Unity developers. The Universal GameDev Challenge is a
+      contest which includes five iconic worlds from Universal. From the classic
+      Back to the Future\u2122 films to the current animated series and popular reboot
+      Voltron Legendary Defender, the Universal GameDev Challenge celebrates the
+      creativity of game developers designing and building a PC game with Unity."
+    thumbUrls:
+    - https://i.ytimg.com/vi/yotQmvy6nOk/sddefault.jpg
+    - https://i.ytimg.com/vi/yotQmvy6nOk/mqdefault.jpg
+    - https://i.ytimg.com/vi/yotQmvy6nOk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/yotQmvy6nOk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 814
+    likeCount: 6
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 10
+    publishedAtDate: 636590035090000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Universal GameDev Challenge
+    url: https://www.youtube.com/watch?v=q1uglGu5EA8
+    channelName: Unity
+    description: "Reimagine five iconic worlds from Universal. From the classic Back
+      to the Future\u2122 films to the current animated series and popular reboot
+      Voltron Legendary Defender, the Universal GameDev Challenge celebrates the
+      creativity of game developers building with Unity.\n\nMore information: https://connect.unity.com/challenges/universal"
+    thumbUrls:
+    - https://i.ytimg.com/vi/q1uglGu5EA8/sddefault.jpg
+    - https://i.ytimg.com/vi/q1uglGu5EA8/mqdefault.jpg
+    - https://i.ytimg.com/vi/q1uglGu5EA8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/q1uglGu5EA8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - NBC
+    - NBC UNiversal
+    - Back to the Future
+    - Jaws
+    - Voltron
+    - 'Voltron: the legendary defender'
+    - Back to the future
+    - Turok
+    viewCount: 9442
+    likeCount: 141
+    dislikeCount: 6
+    commentCount: 25
+    durationInMinutes: 0
+    publishedAtDate: 636571304300000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at MPC Film: Real-Time Set Dressing with Diorama'
+    url: https://www.youtube.com/watch?v=lvkUX_Ql7ZQ
+    channelName: Unity
+    description: "Alex Jenyon and John Vanderbeck of MPC show us at SIGGRAPH 2019
+      how to rapidly create environments for film in real-time using Diorama, which
+      is discussed in both technical and artistic terms. Powered by Unity and part
+      of MPC\u2019s Genesis toolkit, Diorama leverages the speed of procedural tools
+      to accelerate workflows and retain artist control."
+    thumbUrls:
+    - https://i.ytimg.com/vi/lvkUX_Ql7ZQ/sddefault.jpg
+    - https://i.ytimg.com/vi/lvkUX_Ql7ZQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/lvkUX_Ql7ZQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lvkUX_Ql7ZQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3638
+    likeCount: 72
+    dislikeCount: 0
+    commentCount: 10
+    durationInMinutes: 31
+    publishedAtDate: 637115570630000000
+    publisdedDate:
+      year: 2019
+      month: 12
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: The Heretic short film | Unity
+    url: https://www.youtube.com/watch?v=iQZobAhgayA
+    channelName: Unity
+    description: "The Heretic is a short film created by Unity\u2019s Demo Team,
+      written and directed by Veselin Efremov.\n\nThe film uses every aspect of Unity\u2019s
+      High Definition Rendering Pipeline, features advanced effects created with
+      the VFX Graph, and showcases Demo Team's first realistic digital human.\n\nRead
+      more at https://on.unity.com/36jOXHY\n\nCheck out more of the team\u2019s work:\nBook
+      of the Dead: https://www.youtube.com/watch?v=DDsRfbfnC_A\nAdam: https://www.youtube.com/watch?v=GXI0l3yqBrAS\nThe
+      Blacksmith: https://www.youtube.com/watch?v=pXWAsayTFTo"
+    thumbUrls:
+    - https://i.ytimg.com/vi/iQZobAhgayA/sddefault.jpg
+    - https://i.ytimg.com/vi/iQZobAhgayA/mqdefault.jpg
+    - https://i.ytimg.com/vi/iQZobAhgayA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/iQZobAhgayA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Game Dev
+    - 3d
+    - short
+    - short film
+    - demo
+    - sci-fi
+    - realtime
+    - fantasy
+    - real-time
+    - real time
+    - sci-fi film
+    - sci-fi short
+    - scifi
+    - game engine
+    - digital human
+    - cg short
+    - cg
+    - cgi
+    - graphics
+    - next gen
+    - photoreal
+    - photorealism
+    - heretic
+    - robot
+    - god
+    - angel
+    - cg movie
+    - realistic
+    - 2020
+    viewCount: 2740078
+    likeCount: 76924
+    dislikeCount: 2124
+    commentCount: 3242
+    durationInMinutes: 7
+    publishedAtDate: 637153206520000000
+    publisdedDate:
+      year: 2020
+      month: 1
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: The Butterfly Effect - Unity Realtime Rendering Short film
+    url: https://www.youtube.com/watch?v=YdNdEuU30m4
+    channelName: Unity
+    description: 'A collaboration with Passion Pictures, this short shows is the
+      result of an experiment into realtime rendering with Unity to advance its capabilities,
+      for more information see http://unity3d.com/butterfly
+
+
+      Help us caption
+      & translate this video!
+
+
+      http://amara.org/v/V6cl/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/YdNdEuU30m4/sddefault.jpg
+    - https://i.ytimg.com/vi/YdNdEuU30m4/mqdefault.jpg
+    - https://i.ytimg.com/vi/YdNdEuU30m4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/YdNdEuU30m4/hqdefault.jpg
+    tags:
+    - 11
+    - butterfly
+    - directx
+    - dx
+    - effects
+    - motion
+    - passion
+    - pictures
+    - realtime
+    - rendering
+    viewCount: 204769
+    likeCount: 1642
+    dislikeCount: 41
+    commentCount: 164
+    durationInMinutes: 2
+    publishedAtDate: 634879119250000000
+    publisdedDate:
+      year: 2012
+      month: 11
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: The Butterfly Effect - Making Of
+    url: https://www.youtube.com/watch?v=BwMu3PxHOEc
+    channelName: Unity
+    description: 'A behind the scenes look at how Unity collaborated with Passion
+      Pictures and Nvidia to create short realtime rendered film ''The Butterfly
+      Effect''.
+
+
+      For more information see http://unity3d.com/butterfly
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6cm/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/BwMu3PxHOEc/sddefault.jpg
+    - https://i.ytimg.com/vi/BwMu3PxHOEc/mqdefault.jpg
+    - https://i.ytimg.com/vi/BwMu3PxHOEc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/BwMu3PxHOEc/hqdefault.jpg
+    tags:
+    - butterfly
+    - butterfly nvidia passion unity
+    - nvidia
+    - passion
+    - unity
+    viewCount: 63930
+    likeCount: 601
+    dislikeCount: 9
+    commentCount: 55
+    durationInMinutes: 5
+    publishedAtDate: 634879118150000000
+    publisdedDate:
+      year: 2012
+      month: 11
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Sundance panel highlights - Real-time film production takes center stage
+    url: https://www.youtube.com/watch?v=XmcTHm7W8s4
+    channelName: Unity
+    description: "As an Official Partner of the 2018 Sundance Film Festival, Unity
+      invited the boldest storytellers, creators, and industry leaders to take part
+      in an evening of discussions on the power of real-time and how it\u2019s already
+      revolutionizing the way that movies are created, from pre-visualization to
+      virtual production. \n\nSpecial guests included Academy Award-winner Ben Grossman
+      of Magnopus and Pixar\u2019s John Halstead, Technical Director for Coco, who
+      discussed transferring film IP to VR. BAFTA winner Habib Zargarpour and Wes
+      Potter of Digital Monarch Media (Blade Runner 2049, Disney\u2019s The Jungle
+      Book, and the upcoming film, Ready Player One) revealed how they use Unity
+      for virtual production. Chris Harvey also demonstrated how the power of real-time
+      brought the short films ADAM: The Mirror and ADAM: Episode 3 to life in a fraction
+      of the time of a traditional production pipeline.\n\nhttps://unity3d.com/sff/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/XmcTHm7W8s4/sddefault.jpg
+    - https://i.ytimg.com/vi/XmcTHm7W8s4/mqdefault.jpg
+    - https://i.ytimg.com/vi/XmcTHm7W8s4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/XmcTHm7W8s4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2487
+    likeCount: 54
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 2
+    publishedAtDate: 636528705540000000
+    publisdedDate:
+      year: 2018
+      month: 1
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Sundance Film Festival panel - Real-time film production takes center
+      stage (full)
+    url: https://www.youtube.com/watch?v=9uNCnChl9CU
+    channelName: Unity
+    description: "Unity invited the boldest storytellers, creators, and industry
+      leaders to take part in an evening of discussions and networking centered around
+      the power of real-time and how it\u2019s already revolutionizing the way that
+      movies are created, from pre-visualization to virtual production. Special guests
+      included Academy Award-winner Ben Grossman of Magnopus and Pixar\u2019s John
+      Halstead, Technical Director for Coco, who discussed transferring film IP to
+      VR. BAFTA winner Habib Zargapour and Wes Potter of Digital Monarch Media (Blade
+      Runner 2049, Disney\u2019s The Jungle Book, and the upcoming film, Ready Player
+      One) revealed how they use Unity for virtual production. Chris Harvey also
+      demonstrated how the power of real-time brought the short films ADAM: The Mirror
+      and ADAM: Episode 3 to life in a fraction of the time of a traditional production
+      pipeline.\n\nhttps://unity3d.com/sff/18"
+    thumbUrls:
+    - https://i.ytimg.com/vi/9uNCnChl9CU/sddefault.jpg
+    - https://i.ytimg.com/vi/9uNCnChl9CU/mqdefault.jpg
+    - https://i.ytimg.com/vi/9uNCnChl9CU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9uNCnChl9CU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3676
+    likeCount: 53
+    dislikeCount: 8
+    commentCount: 5
+    durationInMinutes: 59
+    publishedAtDate: 636542748000000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: Storytellers of Tomorrow - Nico Casavecchia on BattleScar (Atlas V)
+    url: https://www.youtube.com/watch?v=gc1MR3rBPPw
+    channelName: Unity
+    description: "As an Official Partner of the 2018 Sundance Film Festival, Unity
+      presents Storytellers of Tomorrow, a series of interviews with award-winning
+      VR/AR creators and filmmakers who are revolutionizing digital storytelling.
+      \n\nUnity welcomes writer and director Nico Casavecchia (Atlas V) to speak
+      about his animated VR film, BattleScar, starring Rosario Dawson. BattleScar
+      is part of Sundance New Frontier.\n\nhttps://unity3d.com/sff"
+    thumbUrls:
+    - https://i.ytimg.com/vi/gc1MR3rBPPw/sddefault.jpg
+    - https://i.ytimg.com/vi/gc1MR3rBPPw/mqdefault.jpg
+    - https://i.ytimg.com/vi/gc1MR3rBPPw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gc1MR3rBPPw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3320
+    likeCount: 71
+    dislikeCount: 4
+    commentCount: 7
+    durationInMinutes: 2
+    publishedAtDate: 636525331430000000
+    publisdedDate:
+      year: 2018
+      month: 1
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Sonder: Animated Film Made with Unity'
+    url: https://www.youtube.com/watch?v=chwIQDmC1Po
+    channelName: Unity
+    description: 'An intimate look into the production of Sonder, one of the first
+      animated films created in Unity! Watch producer Sara Sampson (Pixar) and director
+      Neth Nom (Google Spotlight Stories) share their insights into this groundbreaking
+      production. More info: https://unity.com/madewith/sonder'
+    thumbUrls:
+    - https://i.ytimg.com/vi/chwIQDmC1Po/sddefault.jpg
+    - https://i.ytimg.com/vi/chwIQDmC1Po/mqdefault.jpg
+    - https://i.ytimg.com/vi/chwIQDmC1Po/maxresdefault.jpg
+    - https://i.ytimg.com/vi/chwIQDmC1Po/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 53974
+    likeCount: 1186
+    dislikeCount: 26
+    commentCount: 71
+    durationInMinutes: 1
+    publishedAtDate: 636665976060000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Playing Video In Unity -Questions and Answers [8/8] Live 2017/7/12
+    url: https://www.youtube.com/watch?v=WKyAjhLptrU
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/questions-and-answers-1
+
+
+
+      In
+      this session we will learn how to create an in-game video player which the
+      player can interact with using first person shooter controls. The goals of
+      this session are to learn how to use the VideoPlayer component and how to write
+      scripts to control it. In this session we''ll learn how to create an animated
+      playhead that visually displays our current playback point within the length
+      of a VideoClip.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/WKyAjhLptrU/sddefault.jpg
+    - https://i.ytimg.com/vi/WKyAjhLptrU/mqdefault.jpg
+    - https://i.ytimg.com/vi/WKyAjhLptrU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WKyAjhLptrU/hqdefault.jpg
+    tags:
+    - Unity
+    - unity3d
+    - video
+    - videoplayer
+    - videoclip
+    - video clip
+    - video player
+    - play
+    - pause
+    - rendertexture
+    - render texture
+    - material override
+    - render mode
+    viewCount: 3064
+    likeCount: 23
+    dislikeCount: 1
+    commentCount: 12
+    durationInMinutes: 6
+    publishedAtDate: 636356685740000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Playing Video In Unity - Animated Playhead [7/8] Live 2017/7/12
+    url: https://www.youtube.com/watch?v=k2jhzISLfSY
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/animated-playhead
+
+
+
+      In
+      this session we will learn how to create an in-game video player which the
+      player can interact with using first person shooter controls. The goals of
+      this session are to learn how to use the VideoPlayer component and how to write
+      scripts to control it. In this session we''ll learn how to create an animated
+      playhead that visually displays our current playback point within the length
+      of a VideoClip.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/k2jhzISLfSY/sddefault.jpg
+    - https://i.ytimg.com/vi/k2jhzISLfSY/mqdefault.jpg
+    - https://i.ytimg.com/vi/k2jhzISLfSY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/k2jhzISLfSY/hqdefault.jpg
+    tags:
+    - Unity
+    - unity3d
+    - video
+    - videoplayer
+    - videoclip
+    - video clip
+    - video player
+    - play
+    - pause
+    - rendertexture
+    - render texture
+    - material override
+    - render mode
+    viewCount: 3984
+    likeCount: 29
+    dislikeCount: 0
+    commentCount: 8
+    durationInMinutes: 7
+    publishedAtDate: 636356685740000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating a boss with procedural animation | Prototype Series
+    url: https://www.youtube.com/watch?v=LVSmp0zW8pY
+    channelName: Unity
+    description: "In this episode of the Prototype Series, we've experimented with
+      creating a procedurally animated boss enemy! Let us know what you would like
+      to see being prototyped!\n\n\u2B50 Project Download https://on.unity.com/37K5j1b\n\u2B50
+      Training Session https://on.unity.com/37LQfzV\n\nTimestamps:\n00:00 - Intro\n00:40
+      - Assets Used\n01:07 - Building the player camera\n01:30 - Building the player
+      movement\n02:02 - Making the boss procedural animation\n02:58 - Making the
+      boss movement\n04:15 - Focus camera\n04:44 - Polishing the project\n05:17 -
+      Download details"
+    thumbUrls:
+    - https://i.ytimg.com/vi/LVSmp0zW8pY/sddefault.jpg
+    - https://i.ytimg.com/vi/LVSmp0zW8pY/mqdefault.jpg
+    - https://i.ytimg.com/vi/LVSmp0zW8pY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/LVSmp0zW8pY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity procedural
+    - unity procedural animation
+    - unity procedural animation tutorial
+    - unity animation rigging
+    - unity boss fight
+    - unity 3d space shooter
+    - unity prototype
+    - unity prototype series
+    - procedural animation
+    - prototype series
+    - unity animation rigging 3d
+    - unity cinemachine group
+    viewCount: 89395
+    likeCount: 4920
+    dislikeCount: 35
+    commentCount: 204
+    durationInMinutes: 5
+    publishedAtDate: 637395156010000000
+    publisdedDate:
+      year: 2020
+      month: 10
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Adding Gameplay Interactions w/ PlayMaker - Detecting Input For Invisibility
+      [3/8] Live 2017/4/26
+    url: https://www.youtube.com/watch?v=_fa1XYg5XSg
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/asset-store/detecting-input-invisibility
+
+
+      In
+      this live training session we will explore how to create interactivity using
+      visual scripting in PlayMaker. PlayMaker allows non-programmers to begin quickly
+      creating interaction in their games using it''s graphical interface. In this
+      episode we will set up animated transitions for our invisibility mechanic and
+      detect input from the player.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/_fa1XYg5XSg/sddefault.jpg
+    - https://i.ytimg.com/vi/_fa1XYg5XSg/mqdefault.jpg
+    - https://i.ytimg.com/vi/_fa1XYg5XSg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/_fa1XYg5XSg/hqdefault.jpg
+    tags:
+    - unity
+    - tutorial
+    - live training
+    - unity3d
+    - fps
+    - playmaker
+    - play maker
+    - state machine
+    - fsm
+    - finite state machine
+    - first person
+    - shooter
+    - invisibility
+    - turret
+    - enemy ai
+    - ai
+    viewCount: 5761
+    likeCount: 42
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 15
+    publishedAtDate: 636294538590000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 4
+    YouTubeDataAPI_Cooked: 1

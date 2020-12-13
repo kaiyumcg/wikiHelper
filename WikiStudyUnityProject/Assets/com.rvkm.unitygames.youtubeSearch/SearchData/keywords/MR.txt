@@ -1,2 +1,0 @@
-MR,Magic Leap,google tango,HoloLens,mixed reality
-Mixed Reality

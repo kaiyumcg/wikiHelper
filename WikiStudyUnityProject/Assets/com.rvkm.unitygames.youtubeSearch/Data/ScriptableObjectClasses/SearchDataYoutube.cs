@@ -17,11 +17,13 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public YoutubeVideoData videoData;
         public YoutubeVideoTags tagData;
         public TagSearchDescription blacklist, mustUseList;
+        public YoutubeCategory[] categoryDataForManualMode;
+        public bool useManualVideoDataForCategory;
         public YoutubeCategory[] categories;
         public bool showTagSetting, showCategorySetting, showAllCategoryOutputUI;
         public CategoryHtmlPrintDesc htmlPrintOptions;
         public CategoryListType categoryProcessType;
-        public bool dataGenerationTestMode;
+        public bool dataGenerationTestMode, showGenerationSetting;
         public int dataGenerationCountForTestMode;
         public bool forceUpdateForGeneration;
     }

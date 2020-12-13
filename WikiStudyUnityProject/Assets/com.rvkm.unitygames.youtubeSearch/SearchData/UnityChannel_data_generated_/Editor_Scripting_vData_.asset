@@ -12,6 +12,726 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: Editor_Scripting_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: Editor Scripting
+  allVideos:
+  - title: Visual Scripting With Bolt - Player Shooting [3/3] Live 2018/3/14
+    url: https://www.youtube.com/watch?v=83eWWVJlNG8
+    channelName: Unity
+    description: 'Learn more: https://ole.unity.com/getbolt
+
+
+      Learn how to
+      prototype faster using BOLT: a 5-star visual-scripting tool for both programmers
+      and non-coders available on the Unity Asset Store. Bolt gives you the power
+      of complete visual scripting, allowing programmers to iterate faster and empowering
+      artists and designers to create gameplay mechanics without writing a single
+      line of code. In this live session we will walk you through the process of
+      how to get started using Bolt.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/83eWWVJlNG8/sddefault.jpg
+    - https://i.ytimg.com/vi/83eWWVJlNG8/mqdefault.jpg
+    - https://i.ytimg.com/vi/83eWWVJlNG8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/83eWWVJlNG8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - bolt
+    - visual scripting
+    - graph
+    - c# graph
+    - visual programming
+    - unity plus
+    - space shooter
+    - nodes
+    - wires
+    - programming for beginners
+    viewCount: 6381
+    likeCount: 61
+    dislikeCount: 6
+    commentCount: 12
+    durationInMinutes: 14
+    publishedAtDate: 636569214930000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Visual Scripting With Bolt - Player Movement Boundary [2/3] Live 2018/3/14
+    url: https://www.youtube.com/watch?v=DMBNticfUkg
+    channelName: Unity
+    description: 'Learn more: https://ole.unity.com/getbolt
+
+
+      Learn how to
+      prototype faster using BOLT: a 5-star visual-scripting tool for both programmers
+      and non-coders available on the Unity Asset Store. Bolt gives you the power
+      of complete visual scripting, allowing programmers to iterate faster and empowering
+      artists and designers to create gameplay mechanics without writing a single
+      line of code. In this live session we will walk you through the process of
+      how to get started using Bolt.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/DMBNticfUkg/sddefault.jpg
+    - https://i.ytimg.com/vi/DMBNticfUkg/mqdefault.jpg
+    - https://i.ytimg.com/vi/DMBNticfUkg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DMBNticfUkg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - bolt
+    - visual scripting
+    - graph
+    - c# graph
+    - visual programming
+    - unity plus
+    - space shooter
+    - nodes
+    - wires
+    - programming for beginners
+    viewCount: 11266
+    likeCount: 82
+    dislikeCount: 10
+    commentCount: 18
+    durationInMinutes: 11
+    publishedAtDate: 636569214930000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Visual Scripting With Bolt - Introduction and Setup [1/3] Live 2018/3/14
+    url: https://www.youtube.com/watch?v=9_Bl4QsP7HY
+    channelName: Unity
+    description: 'Learn more: https://ole.unity.com/getbolt
+
+
+      Learn how to
+      prototype faster using BOLT: a 5-star visual-scripting tool for both programmers
+      and non-coders available on the Unity Asset Store. Bolt gives you the power
+      of complete visual scripting, allowing programmers to iterate faster and empowering
+      artists and designers to create gameplay mechanics without writing a single
+      line of code. In this live session we will walk you through the process of
+      how to get started using Bolt.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/9_Bl4QsP7HY/sddefault.jpg
+    - https://i.ytimg.com/vi/9_Bl4QsP7HY/mqdefault.jpg
+    - https://i.ytimg.com/vi/9_Bl4QsP7HY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9_Bl4QsP7HY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - bolt
+    - visual scripting
+    - graph
+    - c# graph
+    - visual programming
+    - unity plus
+    - space shooter
+    - nodes
+    - wires
+    - programming for beginners
+    viewCount: 49330
+    likeCount: 415
+    dislikeCount: 48
+    commentCount: 102
+    durationInMinutes: 10
+    publishedAtDate: 636569214930000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Using Timeline: Overview'
+    url: https://www.youtube.com/watch?v=v6sC4cwc7_4
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      https://unity3d.com/learn/tutorials/topics/animation/using-timeline-overview
+
+
+      A
+      quick overview of the features included in the Timeline Editor window and ways
+      in which we might be able to use the Timeline tools in our game.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/v6sC4cwc7_4/sddefault.jpg
+    - https://i.ytimg.com/vi/v6sC4cwc7_4/mqdefault.jpg
+    - https://i.ytimg.com/vi/v6sC4cwc7_4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/v6sC4cwc7_4/hqdefault.jpg
+    tags:
+    - Unity
+    - TImeline
+    - Animation
+    - Director
+    - Sequencer
+    - Tracks
+    - Using Timeline
+    - Overview
+    - Unity3d
+    viewCount: 31811
+    likeCount: 199
+    dislikeCount: 8
+    commentCount: 9
+    durationInMinutes: 4
+    publishedAtDate: 636398189320000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Using Timeline: Getting Started'
+    url: https://www.youtube.com/watch?v=42QZ3aUDnV0
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      https://unity3d.com/learn/tutorials/topics/animation/using-timeline-getting-started
+
+
+      How
+      to access and get started with the Timeline Editor window.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/42QZ3aUDnV0/sddefault.jpg
+    - https://i.ytimg.com/vi/42QZ3aUDnV0/mqdefault.jpg
+    - https://i.ytimg.com/vi/42QZ3aUDnV0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/42QZ3aUDnV0/hqdefault.jpg
+    tags:
+    - Unity
+    - TImeline
+    - Animation
+    - Director
+    - Sequencer
+    - Tracks
+    - Using Timeline
+    - Getting Started
+    - Unity3d
+    viewCount: 55439
+    likeCount: 350
+    dislikeCount: 30
+    commentCount: 12
+    durationInMinutes: 3
+    publishedAtDate: 636398189370000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 2019 LTS is now available
+    url: https://www.youtube.com/watch?v=x6jx_qPm6rY
+    channelName: Unity
+    description: "Unity 2019.1, 2019.2, and 2019.3 have brought lots of improvements
+      in rendering, Editor UI, node-based authoring tools, and more. Unity 2019 LTS
+      includes all of these features, as well as additional fixes for maximum stability.
+      \n\nLearn more about Unity 2019 LTS: https://on.unity.com/3f2FQjI\nRead our
+      Unity 2019 LTS release blog: https://on.unity.com/37eAn6R"
+    thumbUrls:
+    - https://i.ytimg.com/vi/x6jx_qPm6rY/sddefault.jpg
+    - https://i.ytimg.com/vi/x6jx_qPm6rY/mqdefault.jpg
+    - https://i.ytimg.com/vi/x6jx_qPm6rY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/x6jx_qPm6rY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 110450
+    likeCount: 3825
+    dislikeCount: 69
+    commentCount: 347
+    durationInMinutes: 2
+    publishedAtDate: 637273251450000000
+    publisdedDate:
+      year: 2020
+      month: 6
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: The Inspector Window - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=qltyYjFdyVc
+    channelName: Unity
+    description: 'The Inspector window is context sensitive and displays all the
+      properties of any selected GameObject, Asset or Setting.
+
+
+      Watch this
+      video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/editor/the-inspector'
+    thumbUrls:
+    - https://i.ytimg.com/vi/qltyYjFdyVc/sddefault.jpg
+    - https://i.ytimg.com/vi/qltyYjFdyVc/mqdefault.jpg
+    - https://i.ytimg.com/vi/qltyYjFdyVc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/qltyYjFdyVc/hqdefault.jpg
+    tags:
+    - tutorial
+    - beginner
+    - editor
+    - unity
+    - unity3d
+    - unity (game engine)
+    - game engine software
+    - learn
+    - how to
+    - make video games
+    - inspector
+    - setting
+    - edit
+    viewCount: 29558
+    likeCount: 122
+    dislikeCount: 10
+    commentCount: 9
+    durationInMinutes: 10
+    publishedAtDate: 636290177830000000
+    publisdedDate:
+      year: 2017
+      month: 4
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: The Inspector - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=X65o6Gcx3C8
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/editor/the-inspector
+
+
+      The
+      Inspector panel, the context sensitive editor of all things in Unity!
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6cP/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/X65o6Gcx3C8/sddefault.jpg
+    - https://i.ytimg.com/vi/X65o6Gcx3C8/mqdefault.jpg
+    - https://i.ytimg.com/vi/X65o6Gcx3C8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/X65o6Gcx3C8/hqdefault.jpg
+    tags:
+    - tutorial
+    - beginner
+    - editor
+    - unity
+    - unity3d
+    - unity (game engine)
+    - game engine software
+    - learn
+    - how to
+    - make video games
+    - inspector
+    - setting
+    - edit
+    viewCount: 98000
+    likeCount: 151
+    dislikeCount: 2
+    commentCount: 1
+    durationInMinutes: 4
+    publishedAtDate: 635010457670000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: New Editor UI in Unity 2019.3! (Overview)
+    url: https://www.youtube.com/watch?v=nduyBAUq7vQ
+    channelName: Unity
+    description: "Unity 2019.3 introduces a new set of updates to the editor UI,
+      so let's take a look at them! \n\nOf course, along with the UI updates, Unity
+      2019.3 introduces many other improvements and updates made to features and
+      the workflow. To find out more about what's new in Unity 2019.3, check this
+      out: https://on.unity.com/3eVrbaW"
+    thumbUrls:
+    - https://i.ytimg.com/vi/nduyBAUq7vQ/sddefault.jpg
+    - https://i.ytimg.com/vi/nduyBAUq7vQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/nduyBAUq7vQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/nduyBAUq7vQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2019.3
+    - unity 2019
+    - unity editor
+    - unity ui
+    - unity theme
+    - unity dark theme
+    - unity new editor ui
+    - unity new editor theme
+    - unity new editor skin
+    - unity 2019.3 new editor
+    - unity 2019.3 features
+    - unity 2019.3 new
+    - new in unity 2019.3
+    - unity 2019.4
+    - unity 2019.3 tutorial
+    - unity new 2019.3
+    - unity 2019 new
+    - unity 2020 editor
+    - unity new editor
+    - unity light theme
+    - unity dark
+    - unity new ui
+    - dark
+    viewCount: 36171
+    likeCount: 1358
+    dislikeCount: 32
+    commentCount: 206
+    durationInMinutes: 4
+    publishedAtDate: 637237122850000000
+    publisdedDate:
+      year: 2020
+      month: 4
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Live Training 3rd November 2014 -  Property Drawers & Custom Inspectors
+    url: https://www.youtube.com/watch?v=-bxaYugwVL4
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/modules/intermediate/live-training-archive/property-drawers-custom-inspectors
+
+
+      Recap
+      the live training session on Property Drawers & Custom Inspectors.
+
+
+      If
+      you have any comments, suggestions or requests, put them up on our official
+      forum thread:
+
+      http://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V65W/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/-bxaYugwVL4/sddefault.jpg
+    - https://i.ytimg.com/vi/-bxaYugwVL4/mqdefault.jpg
+    - https://i.ytimg.com/vi/-bxaYugwVL4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-bxaYugwVL4/hqdefault.jpg
+    tags: []
+    viewCount: 18605
+    likeCount: 174
+    dislikeCount: 9
+    commentCount: 14
+    durationInMinutes: 48
+    publishedAtDate: 635509044480000000
+    publisdedDate:
+      year: 2014
+      month: 11
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Live Training 23 Sept 2013 - Unity Editor Basics
+    url: https://www.youtube.com/watch?v=DEumkKjE2YQ
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/editor-basics
+
+      In
+      this first live training video we cover the basics of the Unity Editor. Topics
+      include the interface, controls, views, and layouts.
+
+      You can see all
+      of our live sessions here: http://unity3d.com/learn/live-training
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V69M/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/DEumkKjE2YQ/sddefault.jpg
+    - https://i.ytimg.com/vi/DEumkKjE2YQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/DEumkKjE2YQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DEumkKjE2YQ/hqdefault.jpg
+    tags:
+    - twitch
+    - justin.tv
+    viewCount: 89476
+    likeCount: 667
+    dislikeCount: 13
+    commentCount: 58
+    durationInMinutes: 60
+    publishedAtDate: 635155886350000000
+    publisdedDate:
+      year: 2013
+      month: 9
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Live Training 17th November 2014 -  Sound Effects and Scripting
+    url: https://www.youtube.com/watch?v=5N-428vKwaE
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/sound-effects-scripting
+
+
+      Recap
+      of the live training session on Sound Effects and Scripting.
+
+
+      If you
+      have any comments, suggestions or requests, put them up on our official forum
+      thread:
+
+      http://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V65Q/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/5N-428vKwaE/sddefault.jpg
+    - https://i.ytimg.com/vi/5N-428vKwaE/mqdefault.jpg
+    - https://i.ytimg.com/vi/5N-428vKwaE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5N-428vKwaE/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - game audio
+    - unity audio
+    - audio
+    - game development
+    - Video Game Design (Field Of Study)
+    - audio source
+    - audio listener
+    - Sound Effect (Industry)
+    - Scripting Language (Software Genre)
+    - C# (Programming Language)
+    viewCount: 22969
+    likeCount: 222
+    dislikeCount: 13
+    commentCount: 33
+    durationInMinutes: 46
+    publishedAtDate: 635520453120000000
+    publisdedDate:
+      year: 2014
+      month: 11
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Live Q&A 2/3/2014
+    url: https://www.youtube.com/watch?v=wr0XO8a_A9Q
+    channelName: Unity
+    description: 'This was supposed to be a Scripting Primer, but ended up being
+      a Live Q&A hangout. In this session viewers got the opportunity to ask and
+      answer questions. Most questions revolved around basic scripting or future
+      live sessions
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V68N/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/wr0XO8a_A9Q/sddefault.jpg
+    - https://i.ytimg.com/vi/wr0XO8a_A9Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/wr0XO8a_A9Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wr0XO8a_A9Q/hqdefault.jpg
+    tags: []
+    viewCount: 3617
+    likeCount: 37
+    dislikeCount: 0
+    commentCount: 10
+    durationInMinutes: 61
+    publishedAtDate: 635271128880000000
+    publisdedDate:
+      year: 2014
+      month: 2
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: How to Undock the Preview Window! - Unity Tips
+    url: https://www.youtube.com/watch?v=8z42DgDph_U
+    channelName: Unity
+    description: Working with the Preview window on the Inspector a lot? Unleash
+      it's power by right-clicking the bar at the top to un-dock it and place it
+      wherever you wish.
+    thumbUrls:
+    - https://i.ytimg.com/vi/8z42DgDph_U/sddefault.jpg
+    - https://i.ytimg.com/vi/8z42DgDph_U/mqdefault.jpg
+    - https://i.ytimg.com/vi/8z42DgDph_U/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8z42DgDph_U/hqdefault.jpg
+    tags:
+    - preview
+    - undock
+    - import
+    - animation
+    - editor
+    - unity
+    - unitytips
+    viewCount: 16751
+    likeCount: 189
+    dislikeCount: 4
+    commentCount: 22
+    durationInMinutes: 0
+    publishedAtDate: 635670644940000000
+    publisdedDate:
+      year: 2015
+      month: 5
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: Custom bubble editor in Tiny Bubbles
+    url: https://www.youtube.com/watch?v=6ZBWKU2ljys
+    channelName: Unity
+    description: This custom tool made it easy for developer, Stu Denman, to experiment
+      with and test new elements of his game.
+    thumbUrls:
+    - https://i.ytimg.com/vi/6ZBWKU2ljys/sddefault.jpg
+    - https://i.ytimg.com/vi/6ZBWKU2ljys/mqdefault.jpg
+    - https://i.ytimg.com/vi/6ZBWKU2ljys/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3425
+    likeCount: 47
+    dislikeCount: 3
+    commentCount: 4
+    durationInMinutes: 0
+    publishedAtDate: 636616444490000000
+    publisdedDate:
+      year: 2018
+      month: 5
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating Custom Packages in Unity! (Tutorial)
+    url: https://www.youtube.com/watch?v=mgsLb3TKljk
+    channelName: Unity
+    description: 'In this video, we are going to show you how you can create custom
+      packages for the Unity Package Manager.
+
+
+      Learn more about custom packages
+      here:
+
+      https://on.unity.com/3hRrYKZ'
+    thumbUrls:
+    - https://i.ytimg.com/vi/mgsLb3TKljk/sddefault.jpg
+    - https://i.ytimg.com/vi/mgsLb3TKljk/mqdefault.jpg
+    - https://i.ytimg.com/vi/mgsLb3TKljk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/mgsLb3TKljk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Unity 2020
+    - Unity Packman
+    - Unity Package Manager
+    - Packages in Unity
+    - game development
+    - unity game dev
+    - unity game dev tutorial
+    - custom packages
+    - unity tutorial
+    - package manager unity
+    viewCount: 17846
+    likeCount: 763
+    dislikeCount: 10
+    commentCount: 51
+    durationInMinutes: 8
+    publishedAtDate: 637351020100000000
+    publisdedDate:
+      year: 2020
+      month: 9
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Building a Custom Inspector - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=GDSw2CB2Zk0
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://unity3d.com/learn/tutorials/modules/intermediate/editor/building-custom-inspector
+
+      Custom
+      inspectors allow you to add a lot of power and flexibility to your workflow.
+      In this video you will learn about the benefits of custom inspectors as well
+      as how to build them.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V68t/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/GDSw2CB2Zk0/sddefault.jpg
+    - https://i.ytimg.com/vi/GDSw2CB2Zk0/mqdefault.jpg
+    - https://i.ytimg.com/vi/GDSw2CB2Zk0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GDSw2CB2Zk0/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    viewCount: 61769
+    likeCount: 241
+    dislikeCount: 9
+    commentCount: 32
+    durationInMinutes: 6
+    publishedAtDate: 635206812340000000
+    publisdedDate:
+      year: 2013
+      month: 11
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Adding Buttons to a Custom Inspector - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=_fNgn3Arpoo
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://unity3d.com/learn/tutorials/modules/intermediate/editor/adding-buttons-to-inspector
+
+      In
+      Unity we can add buttons to editor windows so that we can call our functions
+      from our scripts. Doing so give us the ability to write scripts specifically
+      to improve our workflow. In this video you will learn how to create buttons
+      in a custom inspector and how to tie them to functions that exist in our scripts.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V68r/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/_fNgn3Arpoo/sddefault.jpg
+    - https://i.ytimg.com/vi/_fNgn3Arpoo/mqdefault.jpg
+    - https://i.ytimg.com/vi/_fNgn3Arpoo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/_fNgn3Arpoo/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    viewCount: 39822
+    likeCount: 213
+    dislikeCount: 13
+    commentCount: 15
+    durationInMinutes: 3
+    publishedAtDate: 635206822830000000
+    publisdedDate:
+      year: 2013
+      month: 11
+      day: 22
+    YouTubeDataAPI_Cooked: 1

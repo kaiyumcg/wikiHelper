@@ -1,0 +1,991 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
+  m_Name: SiggraphVideos_vData_
+  m_EditorClassIdentifier: 
+  searchName: UnityChannel
+  belongedCategory: SiggraphVideos
+  allVideos:
+  - title: "XR graphics in Unity: Maximizing your AR/VR experience\u2019s potential
+      - SIGGRAPH 2019"
+    url: https://www.youtube.com/watch?v=fvYURJq334c
+    channelName: Unity
+    description: 'Virtual and augmented reality are powerful tools for storytelling,
+      but poor execution can negatively impact consumer reactions and engagement.
+      This video guides you through the latest Unity tech and best practices for
+      creating stunning high-end VR and mobile AR visuals.
+
+
+      Make your content
+      truly immersive: https://on.unity.com/2HSEryh
+
+
+      Speaker: Dan Miller,
+      Evangelist (Unity Technologies)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/fvYURJq334c/sddefault.jpg
+    - https://i.ytimg.com/vi/fvYURJq334c/mqdefault.jpg
+    - https://i.ytimg.com/vi/fvYURJq334c/maxresdefault.jpg
+    - https://i.ytimg.com/vi/fvYURJq334c/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Virtual reality
+    - VR
+    - AR
+    - augmented reality
+    viewCount: 5811
+    likeCount: 183
+    dislikeCount: 4
+    commentCount: 7
+    durationInMinutes: 27
+    publishedAtDate: 637039204720000000
+    publisdedDate:
+      year: 2019
+      month: 9
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity for Film - Siggraph 2018 Trailer
+    url: https://www.youtube.com/watch?v=dwVkOuvu-Nw
+    channelName: Unity
+    description: "The real-time revolution is here \u2013 powered by Unity. At SIGGRAPH
+      2018, we\u2019re showcasing and celebrating real-time creative achievements
+      and innovations by visionary film directors, CG artists, animators and others.\n\nLearn
+      more: https://unity3d.com/siggraph2018"
+    thumbUrls:
+    - https://i.ytimg.com/vi/dwVkOuvu-Nw/sddefault.jpg
+    - https://i.ytimg.com/vi/dwVkOuvu-Nw/mqdefault.jpg
+    - https://i.ytimg.com/vi/dwVkOuvu-Nw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/dwVkOuvu-Nw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 55010
+    likeCount: 523
+    dislikeCount: 13
+    commentCount: 34
+    durationInMinutes: 0
+    publishedAtDate: 636691968140000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at MPC Film: Real-Time Set Dressing with Diorama'
+    url: https://www.youtube.com/watch?v=lvkUX_Ql7ZQ
+    channelName: Unity
+    description: "Alex Jenyon and John Vanderbeck of MPC show us at SIGGRAPH 2019
+      how to rapidly create environments for film in real-time using Diorama, which
+      is discussed in both technical and artistic terms. Powered by Unity and part
+      of MPC\u2019s Genesis toolkit, Diorama leverages the speed of procedural tools
+      to accelerate workflows and retain artist control."
+    thumbUrls:
+    - https://i.ytimg.com/vi/lvkUX_Ql7ZQ/sddefault.jpg
+    - https://i.ytimg.com/vi/lvkUX_Ql7ZQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/lvkUX_Ql7ZQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lvkUX_Ql7ZQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3638
+    likeCount: 72
+    dislikeCount: 0
+    commentCount: 10
+    durationInMinutes: 31
+    publishedAtDate: 637115570630000000
+    publisdedDate:
+      year: 2019
+      month: 12
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Terrain Tools and the road ahead - SIGGRAPH 2019
+    url: https://www.youtube.com/watch?v=I3nR_jL5RsE
+    channelName: Unity
+    description: "Creating landscapes for interactive experiences can be difficult,
+      but Unity\u2019s new Terrain tools are designed to streamline that process!
+      This video covers Terrain improvements in Unity 2019, including a demo of the
+      Terrain Tools package and a sneak peek of new features coming in the next update.\n\nLearn
+      more about Terrain Tools here: https://on.unity.com/2Pltifq\n\nSpeakers: Ashley
+      Alicea, Evangelist (Unity Technologies), Xiaoxi Liu, Graphics Technical Artist
+      (Unity Technologies)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/I3nR_jL5RsE/sddefault.jpg
+    - https://i.ytimg.com/vi/I3nR_jL5RsE/mqdefault.jpg
+    - https://i.ytimg.com/vi/I3nR_jL5RsE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/I3nR_jL5RsE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 4778
+    likeCount: 102
+    dislikeCount: 2
+    commentCount: 28
+    durationInMinutes: 35
+    publishedAtDate: 637031438700000000
+    publisdedDate:
+      year: 2019
+      month: 9
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Synchronize Real-Time Production with Unity + Glassbox
+    url: https://www.youtube.com/watch?v=op_XEGurV3M
+    channelName: Unity
+    description: "In this SIGGRAPH 2019 session, Jannes Nagel, Senior Lead Engineer
+      at Glassbox demonstrates how Glassbox\u2019s BeeHive technology synchronizes
+      projects over multiple machines, letting all users view the history and properties
+      of every DCC asset such as those created in Maya. This enhances real-time collaboration
+      on your VR projects."
+    thumbUrls:
+    - https://i.ytimg.com/vi/op_XEGurV3M/sddefault.jpg
+    - https://i.ytimg.com/vi/op_XEGurV3M/mqdefault.jpg
+    - https://i.ytimg.com/vi/op_XEGurV3M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/op_XEGurV3M/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3088
+    likeCount: 19
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 40
+    publishedAtDate: 637115578870000000
+    publisdedDate:
+      year: 2019
+      month: 12
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2018 - VFX Workflow for Real-Time Production with Photogrammetry,
+      Alembic, and Unity
+    url: https://www.youtube.com/watch?v=xKWQBSnhExM
+    channelName: Unity
+    description: 'Made with Unity''s Mike Wuetherick uses The ''Mirror'' character
+      in Neill Blomkamp''s real-time short film ADAM: Episode 2, to demonstrate how
+      Oats Studios updated their VFX pipeline using techniques such as Photogrammetry,
+      Alembic, and Unity.
+
+
+      Speaker:
+
+      Mike Wuetherick (Producer, Unity
+      Technologies)
+
+
+      https://unity3d.com/siggraph2018'
+    thumbUrls:
+    - https://i.ytimg.com/vi/xKWQBSnhExM/sddefault.jpg
+    - https://i.ytimg.com/vi/xKWQBSnhExM/mqdefault.jpg
+    - https://i.ytimg.com/vi/xKWQBSnhExM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xKWQBSnhExM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 5267
+    likeCount: 88
+    dislikeCount: 0
+    commentCount: 14
+    durationInMinutes: 57
+    publishedAtDate: 636734414620000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2018 - Using a Real-Time Engine in Movie Production
+    url: https://www.youtube.com/watch?v=U_NG7WfoI7s
+    channelName: Unity
+    description: 'Habib Zargarpour, CCO at Digital Monarch Media, describes how some
+      of the most successful films including The Jungle Book, Ready Player One and
+      on Oscar-winner Blade Runner 2049 benefited from realtime camera tools like
+      Expozure, and and how their custom tool is currently being implemented on films
+      such as Tom Hank''s Greyhound production.
+
+
+      Speaker:
+
+      Habib Zargarpou
+      (CCO, Digital Monarch Media)
+
+
+      https://unity3d.com/siggraph2018'
+    thumbUrls:
+    - https://i.ytimg.com/vi/U_NG7WfoI7s/sddefault.jpg
+    - https://i.ytimg.com/vi/U_NG7WfoI7s/mqdefault.jpg
+    - https://i.ytimg.com/vi/U_NG7WfoI7s/maxresdefault.jpg
+    - https://i.ytimg.com/vi/U_NG7WfoI7s/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 12053
+    likeCount: 223
+    dislikeCount: 3
+    commentCount: 11
+    durationInMinutes: 54
+    publishedAtDate: 636731676020000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: "Siggraph 2018 - Start Building 3D Interactive Experiences \u2013 for
+      Any Industry"
+    url: https://www.youtube.com/watch?v=DUGEJypjNog
+    channelName: Unity
+    description: "Get an overview of Unity engine and lighting features and uses
+      for a broad range of industries. Unity evangelist Liz Mercuri uses a kitchen
+      configurator project to demo Lighting Setup, Light Types, Realtime vs. Baked
+      Lighting, HDR Skyboxes, and Reflection Probes. \n\nSpeaker:\nLiz Mercuri (Technical
+      Evangelist, Unity Technologies)\n\nhttps://unity3d.com/siggraph2018"
+    thumbUrls:
+    - https://i.ytimg.com/vi/DUGEJypjNog/sddefault.jpg
+    - https://i.ytimg.com/vi/DUGEJypjNog/mqdefault.jpg
+    - https://i.ytimg.com/vi/DUGEJypjNog/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DUGEJypjNog/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3534
+    likeCount: 61
+    dislikeCount: 4
+    commentCount: 6
+    durationInMinutes: 45
+    publishedAtDate: 636736860010000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2018 - Creating XR Stories
+    url: https://www.youtube.com/watch?v=p62cMnxKz18
+    channelName: Unity
+    description: "Learn about different tools and resources within Unity that can
+      be combined to create stories and applications for XR. There will be an overview
+      of Timeline, spatialized audio, 360 video and how to trigger events in Unity
+      to tell your story. \n\nSpeaker:\nDan Miller (AR / VR Evangelist, Unity Technologies)\n\nhttps://unity3d.com/siggraph2018"
+    thumbUrls:
+    - https://i.ytimg.com/vi/p62cMnxKz18/sddefault.jpg
+    - https://i.ytimg.com/vi/p62cMnxKz18/mqdefault.jpg
+    - https://i.ytimg.com/vi/p62cMnxKz18/maxresdefault.jpg
+    - https://i.ytimg.com/vi/p62cMnxKz18/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1707
+    likeCount: 29
+    dislikeCount: 2
+    commentCount: 2
+    durationInMinutes: 46
+    publishedAtDate: 636735132070000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2018 - Creating Tools for Spatial Computing
+    url: https://www.youtube.com/watch?v=Kt14RwBZyF4
+    channelName: Unity
+    description: "Unity\u2019s Director of XR Research, Timoni West, discusses how
+      computers make sense of the world today,\_ how humans will communicate with
+      computers in new ways, and and how Unity Labs\u2019 latest project, MARS, will
+      help developers build the apps for the future.\_\n\nSpeaker:\nTimoni West (Director
+      of XR Research, Unity Technologies)\n\nhttps://unity3d.com/siggraph2018"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Kt14RwBZyF4/sddefault.jpg
+    - https://i.ytimg.com/vi/Kt14RwBZyF4/mqdefault.jpg
+    - https://i.ytimg.com/vi/Kt14RwBZyF4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Kt14RwBZyF4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 9633
+    likeCount: 198
+    dislikeCount: 5
+    commentCount: 14
+    durationInMinutes: 70
+    publishedAtDate: 636736860040000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Siggraph 2018 - Create Stunning Visuals: A New Workflow for Artists'
+    url: https://www.youtube.com/watch?v=ebMTrUoB2VU
+    channelName: Unity
+    description: "Get practical tips you can use now on FBX Exporter, Shader Graph,
+      and Post Processing Effects, and find out how to keep the learning going\u2014for
+      yourself or your school, studio, or enterprise.\n\nSpeaker:\nLiz Mercuri (Technical
+      Evangelist, Unity Technologies)\n\nhttps://unity3d.com/siggraph2018"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ebMTrUoB2VU/sddefault.jpg
+    - https://i.ytimg.com/vi/ebMTrUoB2VU/mqdefault.jpg
+    - https://i.ytimg.com/vi/ebMTrUoB2VU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ebMTrUoB2VU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 9262
+    likeCount: 228
+    dislikeCount: 13
+    commentCount: 35
+    durationInMinutes: 38
+    publishedAtDate: 636735132030000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2018 - Cinematic and Holographic Media on the RNDR Blockchain
+    url: https://www.youtube.com/watch?v=IPXKDS7hz24
+    channelName: Unity
+    description: 'Learn more about the latest in holographic rendering and its application
+      on OTOY''s RNDR network. This includes a dive into the goals and challenges
+      of deploying a fully decentralized GPU ray tracing and streaming platform on
+      top of the Ethereum blockchain, as well as how future phases of RNDR will unlock
+      modular IP rights management of holographic media and AR services.
+
+
+      Speaker:
+
+      Jules
+      Urbach (Co-founder and CEO of OTOY)
+
+
+      https://unity3d.com/siggraph2018'
+    thumbUrls:
+    - https://i.ytimg.com/vi/IPXKDS7hz24/sddefault.jpg
+    - https://i.ytimg.com/vi/IPXKDS7hz24/mqdefault.jpg
+    - https://i.ytimg.com/vi/IPXKDS7hz24/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IPXKDS7hz24/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3760
+    likeCount: 67
+    dislikeCount: 3
+    commentCount: 6
+    durationInMinutes: 47
+    publishedAtDate: 636735132020000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2018 - Building Environments for Autonomous Vehicle Training
+    url: https://www.youtube.com/watch?v=Rrkhn06ofBQ
+    channelName: Unity
+    description: 'One of the biggest pain points for Autonomous Vehicle Simulation
+      is generation of content: the assets that create the environments that set
+      the stage for simulation. Those simulations are extensively used for training
+      of Machine Learning models. Learn how Unity game development experience can
+      transfer to an entirely new market where there is great demand for these skills.
+
+
+      Speaker:
+
+      Jose
+      De Oliveira (Principal Software Engineer, Machine Learning, Unity Technologies)
+
+
+      https://unity3d.com/siggraph2018'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Rrkhn06ofBQ/sddefault.jpg
+    - https://i.ytimg.com/vi/Rrkhn06ofBQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/Rrkhn06ofBQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Rrkhn06ofBQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Event
+    - Automotive
+    viewCount: 1713
+    likeCount: 22
+    dislikeCount: 2
+    commentCount: 1
+    durationInMinutes: 43
+    publishedAtDate: 636736860020000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2018 - Anatomy of an End-to-End Unity Animation Pipeline
+    url: https://www.youtube.com/watch?v=1Cs9jh6FZ90
+    channelName: Unity
+    description: 'From Asset Round tripping, pre-visualizing with ProBuilder, leveraging
+      cameras with Cinemachine, sequencing with Timeline, leveling up your artistry
+      with Post-Processing Stack, and taking advantage of Unity''s new HD render
+      pipeline, this video will provide a technical, step-by-step overview of how
+      to create animated cinematic content with Unity''s powerful toolset.
+
+
+      Speaker:
+
+      Arvind
+      Neelakantan (Evangelist, Unity Technologies)
+
+
+      https://unity3d.com/siggraph2018'
+    thumbUrls:
+    - https://i.ytimg.com/vi/1Cs9jh6FZ90/sddefault.jpg
+    - https://i.ytimg.com/vi/1Cs9jh6FZ90/mqdefault.jpg
+    - https://i.ytimg.com/vi/1Cs9jh6FZ90/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1Cs9jh6FZ90/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2595
+    likeCount: 35
+    dislikeCount: 7
+    commentCount: 4
+    durationInMinutes: 53
+    publishedAtDate: 636735132010000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2017 - XR for Creative, Brand, and Design
+    url: https://www.youtube.com/watch?v=VRoYamuIajo
+    channelName: Unity
+    description: 'Tony Parisi, Global Head of VR/AR Strategy at Unity Technologies,
+      dives into VR and AR for the creative industry and how these mediums are the
+      most powerful storytelling medium we''ve ever seen.
+
+
+      For more information
+      on Unity - http://bit.ly/2vOtBEa'
+    thumbUrls:
+    - https://i.ytimg.com/vi/VRoYamuIajo/sddefault.jpg
+    - https://i.ytimg.com/vi/VRoYamuIajo/mqdefault.jpg
+    - https://i.ytimg.com/vi/VRoYamuIajo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/VRoYamuIajo/hqdefault.jpg
+    tags:
+    - Unity
+    - Siggraph
+    - Unity3D
+    - Xr
+    - AR
+    - MR
+    - Brand
+    - Design
+    - Creative
+    - Advertising
+    - Storytelling
+    - Siggraph2017
+    - Siggraph 2017
+    viewCount: 2066
+    likeCount: 23
+    dislikeCount: 4
+    commentCount: 4
+    durationInMinutes: 51
+    publishedAtDate: 636379309390000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2017 - XR Development in Unity
+    url: https://www.youtube.com/watch?v=T_CQa_SZTt4
+    channelName: Unity
+    description: 'Sara Stumbo, XR Evangelist at Unity Technologies, drives you through
+      an overview of XR in Unity. She will discuss the platforms supported, run you
+      through multiple editor demos and discuss tools for artists who are interested
+      in XR.
+
+
+      For more information on Unity - http://bit.ly/2vOtBEa'
+    thumbUrls:
+    - https://i.ytimg.com/vi/T_CQa_SZTt4/sddefault.jpg
+    - https://i.ytimg.com/vi/T_CQa_SZTt4/mqdefault.jpg
+    - https://i.ytimg.com/vi/T_CQa_SZTt4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/T_CQa_SZTt4/hqdefault.jpg
+    tags:
+    - ARkit
+    - Apple
+    - VR
+    - AR
+    - MR
+    - XR
+    - Unity
+    - Siggraph
+    - Artists
+    - Oculus
+    viewCount: 8672
+    likeCount: 107
+    dislikeCount: 3
+    commentCount: 7
+    durationInMinutes: 44
+    publishedAtDate: 636379310100000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2017 - Simulation as Art
+    url: https://www.youtube.com/watch?v=wF6eXZkMbSM
+    channelName: Unity
+    description: 'Isaac Cohen drives the discussion of how experimentation and simulation
+      can come together as art.
+
+
+      For more information on Unity - http://bit.ly/2vOtBEa'
+    thumbUrls:
+    - https://i.ytimg.com/vi/wF6eXZkMbSM/sddefault.jpg
+    - https://i.ytimg.com/vi/wF6eXZkMbSM/mqdefault.jpg
+    - https://i.ytimg.com/vi/wF6eXZkMbSM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wF6eXZkMbSM/hqdefault.jpg
+    tags:
+    - VR
+    - Art
+    - Unity
+    - Siggraph
+    - Sigraph 2017
+    viewCount: 5266
+    likeCount: 66
+    dislikeCount: 11
+    commentCount: 8
+    durationInMinutes: 50
+    publishedAtDate: 636379310150000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2017 - Real-time Cinematics & Storytelling
+    url: https://www.youtube.com/watch?v=eNFJXoMIFe4
+    channelName: Unity
+    description: 'Adam Myhill, Head of Cinematics at Unity Technologies, gives you
+      insights into the revolution of real-time cinematics and storytelling using
+      Cinemachine and Timeline.
+
+
+      For more information on Unity - http://bit.ly/2vOtBEa'
+    thumbUrls:
+    - https://i.ytimg.com/vi/eNFJXoMIFe4/sddefault.jpg
+    - https://i.ytimg.com/vi/eNFJXoMIFe4/mqdefault.jpg
+    - https://i.ytimg.com/vi/eNFJXoMIFe4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/eNFJXoMIFe4/hqdefault.jpg
+    tags:
+    - Unity
+    - Cinematics
+    - Real-Time
+    - Storytelling
+    - Game Art
+    - Game Development
+    - Siggraph
+    - Cinemachine
+    - Timeline
+    - Siggraph 2017
+    viewCount: 37240
+    likeCount: 344
+    dislikeCount: 4
+    commentCount: 18
+    durationInMinutes: 56
+    publishedAtDate: 636379310020000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2017 - Photogrammetry workflow and the tech behind the de-lighting
+      tool
+    url: https://www.youtube.com/watch?v=Ny9ZXt_2v2Y
+    channelName: Unity
+    description: "Cyril Jover and Mathieu Muller of Unity Technologies discuss their
+      photogrammetry workflow, the technology behind the de-lighting tool and how
+      to get started with photogrammetry in Unity. \n\nSlide are available here:
+      https://drive.google.com/a/unity3d.com/file/d/0B9zNWyIY6dPeVlU1djdnWVFuUFU/view?usp=sharing\n\nFor
+      more information on Unity - http://bit.ly/2vOtBEa\nFor more information on
+      Photogrammetry - http://bit.ly/2vzuNMn"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Ny9ZXt_2v2Y/sddefault.jpg
+    - https://i.ytimg.com/vi/Ny9ZXt_2v2Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/Ny9ZXt_2v2Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Ny9ZXt_2v2Y/hqdefault.jpg
+    tags:
+    - Unity
+    - Photogrammetry
+    - Game Art
+    - Siggraph
+    - Rendering
+    - 3D Art
+    viewCount: 50096
+    likeCount: 757
+    dislikeCount: 11
+    commentCount: 34
+    durationInMinutes: 49
+    publishedAtDate: 636379310120000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2017 - Mixed Reality - 3 Axes of Improvement
+    url: https://www.youtube.com/watch?v=dvvV4FEm918
+    channelName: Unity
+    description: 'Dioselin Gonzalez of Unity Labs walks us through three issues that
+      mixed reality needs to solve before mass adoption, and provides solutions on
+      how to approach them.
+
+
+      For more information on Unity - http://bit.ly/2vOtBEa'
+    thumbUrls:
+    - https://i.ytimg.com/vi/dvvV4FEm918/sddefault.jpg
+    - https://i.ytimg.com/vi/dvvV4FEm918/mqdefault.jpg
+    - https://i.ytimg.com/vi/dvvV4FEm918/maxresdefault.jpg
+    - https://i.ytimg.com/vi/dvvV4FEm918/hqdefault.jpg
+    tags:
+    - Siggraph
+    - Unity
+    - Siggraph 2017
+    - MR
+    - XR
+    - VR
+    - Game Development
+    viewCount: 3369
+    likeCount: 48
+    dislikeCount: 4
+    commentCount: 8
+    durationInMinutes: 36
+    publishedAtDate: 636379309360000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2017 - Mastering Unity VR Rendering
+    url: https://www.youtube.com/watch?v=axbAxX2qSzs
+    channelName: Unity
+    description: 'David Borel, Manager, Oculus Engine Integrations breaks down the
+      VR graphics pipeline and helps you understand VR quality and performance.
+
+
+      For
+      more information on Unity - http://bit.ly/2vOtBEa'
+    thumbUrls:
+    - https://i.ytimg.com/vi/axbAxX2qSzs/sddefault.jpg
+    - https://i.ytimg.com/vi/axbAxX2qSzs/mqdefault.jpg
+    - https://i.ytimg.com/vi/axbAxX2qSzs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/axbAxX2qSzs/hqdefault.jpg
+    tags:
+    - Unity
+    - Facebook
+    - Oculus
+    - VR
+    - AR
+    - MR
+    - XR
+    - Rendering
+    - Computer Graphics
+    - Siggraph
+    - Siggraph 2017
+    viewCount: 9865
+    likeCount: 119
+    dislikeCount: 1
+    commentCount: 8
+    durationInMinutes: 51
+    publishedAtDate: 636379309410000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2017 - Editor VR
+    url: https://www.youtube.com/watch?v=DkMfBIn81Xk
+    channelName: Unity
+    description: 'Amir Ebrahimi and Matt Schoen from Unity Labs discuss building
+      tools to match your teams creativity, how you can architect for adaptability,
+      and how to embrace design ambiguity in your production.
+
+
+      For more information
+      on Unity - http://bit.ly/2vOtBEa'
+    thumbUrls:
+    - https://i.ytimg.com/vi/DkMfBIn81Xk/sddefault.jpg
+    - https://i.ytimg.com/vi/DkMfBIn81Xk/mqdefault.jpg
+    - https://i.ytimg.com/vi/DkMfBIn81Xk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DkMfBIn81Xk/hqdefault.jpg
+    tags:
+    - Unity
+    - Vr
+    - EditorVR
+    - Siggraph
+    - Siggraph 2017
+    viewCount: 12285
+    likeCount: 134
+    dislikeCount: 3
+    commentCount: 13
+    durationInMinutes: 47
+    publishedAtDate: 636379310070000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Implementing a Fighter Cinematic | Prototype Series
+    url: https://www.youtube.com/watch?v=O1F5ViqQLgg
+    channelName: Unity
+    description: 'Welcome to the Prototype Series - a group of videos that focuses
+      on the creation of playable prototypes, showcasing how multiple features of
+      Unity can be used to achieve game mechanics that can be used in real-world
+      scenarios!
+
+
+      Watch longer training session & download project!
+
+      https://on.unity.com/30CXRj8
+
+
+      Dave
+      Hunt''s Siggraph Workshop
+
+      https://on.unity.com/2WQpxQx'
+    thumbUrls:
+    - https://i.ytimg.com/vi/O1F5ViqQLgg/sddefault.jpg
+    - https://i.ytimg.com/vi/O1F5ViqQLgg/mqdefault.jpg
+    - https://i.ytimg.com/vi/O1F5ViqQLgg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/O1F5ViqQLgg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity prototype
+    - unity prototype game
+    - unity game
+    - unity gameplay
+    - unity game development
+    - unity game basics
+    - unity game mechanics
+    - unity mechanic
+    - unity full demo
+    - fighter effect unity
+    - fighting cinematic game dev
+    viewCount: 47713
+    likeCount: 1665
+    dislikeCount: 31
+    commentCount: 69
+    durationInMinutes: 6
+    publishedAtDate: 637312248060000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: "Getting started with Unity\u2019s new Lightweight Render Pipeline - SIGGRAPH
+      2019"
+    url: https://www.youtube.com/watch?v=YAOin1eqcFc
+    channelName: Unity
+    description: 'This video teaches you the benefits of using LWRP, how to set up
+      your project for it, and how to extend it for custom rendering effects.
+
+
+      Learn
+      more about LWRP here: https://on.unity.com/2PoWIth
+
+
+      Speaker: Arturo
+      Nereu, Evangelist (Unity Technologies)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/YAOin1eqcFc/sddefault.jpg
+    - https://i.ytimg.com/vi/YAOin1eqcFc/mqdefault.jpg
+    - https://i.ytimg.com/vi/YAOin1eqcFc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/YAOin1eqcFc/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 17043
+    likeCount: 342
+    dislikeCount: 21
+    commentCount: 26
+    durationInMinutes: 41
+    publishedAtDate: 637031437790000000
+    publisdedDate:
+      year: 2019
+      month: 9
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting started with DirectX ray tracing in Unity - SIGGRAPH 2019
+    url: https://www.youtube.com/watch?v=DoKOCgNel7E
+    channelName: Unity
+    description: "In this video, learn how to use the experimental ray tracing features
+      introduced in the 19.3 Unity beta without getting bogged down in algorithms!
+      \n\nLearn more about Ray Tracing here: https://on.unity.com/2zuhQ6t\n\nSpeaker:
+      Tianliang Ning, DXR Graphics Dev (Unity Technologies)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/DoKOCgNel7E/sddefault.jpg
+    - https://i.ytimg.com/vi/DoKOCgNel7E/mqdefault.jpg
+    - https://i.ytimg.com/vi/DoKOCgNel7E/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DoKOCgNel7E/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 5418
+    likeCount: 119
+    dislikeCount: 8
+    commentCount: 4
+    durationInMinutes: 30
+    publishedAtDate: 637031439120000000
+    publisdedDate:
+      year: 2019
+      month: 9
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Creating Episodic TV Shows with Unity: Hero Dad Case Study'
+    url: https://www.youtube.com/watch?v=P3N9_gO9zwA
+    channelName: Unity
+    description: 'Go behind the scenes of Hero Dad, a 3D animation comedy created
+      in Unity. In this SIGGRAPH 2019 session, Nathalie Martinez, founder of Wise
+      Blue Studios, covers the processes, advantages, and potential for creating
+      compelling, high-quality episodic animation using real-time tools in Unity.
+
+
+      Speaker:
+      Nathalie Martinez'
+    thumbUrls:
+    - https://i.ytimg.com/vi/P3N9_gO9zwA/sddefault.jpg
+    - https://i.ytimg.com/vi/P3N9_gO9zwA/mqdefault.jpg
+    - https://i.ytimg.com/vi/P3N9_gO9zwA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/P3N9_gO9zwA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2219
+    likeCount: 31
+    dislikeCount: 1
+    commentCount: 2
+    durationInMinutes: 42
+    publishedAtDate: 637115562970000000
+    publisdedDate:
+      year: 2019
+      month: 12
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Cinemachine 3.0: New Features in Unity for Film and Games'
+    url: https://www.youtube.com/watch?v=TtD-ywes5oQ
+    channelName: Unity
+    description: Unity's Adam Myhill demos the latest Cinemachine features at SIGGRAPH
+      2019, including Technocrane film camera rigs, CM 3.0 DOTS preview (with support
+      for tens of thousands of active cameras), hybrid procedural/keyframe cameras
+      for virtual production, the Mixer camera module, and a preview of the new Reactor
+      module for driving games.
+    thumbUrls:
+    - https://i.ytimg.com/vi/TtD-ywes5oQ/sddefault.jpg
+    - https://i.ytimg.com/vi/TtD-ywes5oQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/TtD-ywes5oQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TtD-ywes5oQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 20252
+    likeCount: 497
+    dislikeCount: 7
+    commentCount: 37
+    durationInMinutes: 39
+    publishedAtDate: 637115580370000000
+    publisdedDate:
+      year: 2019
+      month: 12
+      day: 10
+    YouTubeDataAPI_Cooked: 1

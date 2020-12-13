@@ -46,31 +46,17 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     scrollPositionUI: {x: 0, y: 0}
+  categoryDataForManualMode:
+  - {fileID: 11400000, guid: 39ca70132e96e984f957eb7fcaaec60a, type: 2}
+  useManualVideoDataForCategory: 1
   categories:
-  - {fileID: 11400000, guid: 34f09ef7269307a4dac0f4d9c5fdd280, type: 2}
-  - {fileID: 11400000, guid: 5961fb85e4c267043b447d7b89201ad7, type: 2}
-  - {fileID: 11400000, guid: 7e2fec5614f0a1f498c517dfb5ea5622, type: 2}
-  - {fileID: 11400000, guid: 1887b084a8bd6184b920dc1c4b395b3c, type: 2}
-  - {fileID: 11400000, guid: cee30639d36f8d541a21e4de8c4b5a3a, type: 2}
-  - {fileID: 11400000, guid: df261b1c711ab2b48b23d720016dcb9d, type: 2}
-  - {fileID: 11400000, guid: e31283ee7c41d5d40bfd80fd265802c9, type: 2}
-  - {fileID: 11400000, guid: c5cb0978e33569b4ca811b989a42eccf, type: 2}
-  - {fileID: 11400000, guid: dc337a5c7f2bf1247b5c79f969431aee, type: 2}
-  - {fileID: 11400000, guid: 9a075071a6825da438e2bd7ec3906660, type: 2}
-  - {fileID: 11400000, guid: c5a814fbec45a364faadeb62e81c05b2, type: 2}
-  - {fileID: 11400000, guid: a88a97340118dea44bc4acb98d62a37d, type: 2}
-  - {fileID: 11400000, guid: 5bc2e0e2ff251304eba97a5bd6234acc, type: 2}
-  - {fileID: 11400000, guid: c8e957888e264f14ebde127e379fd829, type: 2}
-  - {fileID: 11400000, guid: e85390fccf06bb74c9e08ef2b5679754, type: 2}
-  - {fileID: 11400000, guid: c8b1b64f6d916c9448f93c128e7c696f, type: 2}
-  - {fileID: 11400000, guid: a48adb928749d214bbf30f617ead6c98, type: 2}
-  - {fileID: 11400000, guid: 03b82e8d32d655c4da3a8b0d227853d9, type: 2}
-  - {fileID: 11400000, guid: dafb10ef64a4def4689a30c11c9ea3b9, type: 2}
-  - {fileID: 11400000, guid: 59aa7588bbc440f4e96426b69508ac0a, type: 2}
-  - {fileID: 11400000, guid: 9cc340d7462859b4da45608033973ee5, type: 2}
-  - {fileID: 11400000, guid: af764e408ae1a134884f4619b95d13d1, type: 2}
-  - {fileID: 11400000, guid: 0269b0f025fa03149b57bef030b2dbb9, type: 2}
-  - {fileID: 11400000, guid: a8c09aff82275884aac7f85ab4f4de1d, type: 2}
+  - {fileID: 11400000, guid: d3db815d4583dbf4cbbdb4e445bb525b, type: 2}
+  - {fileID: 11400000, guid: c7c84099db89389439dffd37a51b2228, type: 2}
+  - {fileID: 11400000, guid: f131334a6da73894fac322309c5fba00, type: 2}
+  - {fileID: 11400000, guid: c7999f2435e067041b0f7b9463822705, type: 2}
+  - {fileID: 11400000, guid: 38861a3a15a44f248b2171cf293ae520, type: 2}
+  - {fileID: 11400000, guid: 02013ffc193f2164abb057a60388afec, type: 2}
+  - {fileID: 11400000, guid: 004af34ce414c17469528120e6a0748c, type: 2}
   - {fileID: 11400000, guid: 1440b6edad3ade247994863f73371b46, type: 2}
   showTagSetting: 0
   showCategorySetting: 1
@@ -85,5 +71,6 @@ MonoBehaviour:
     commentCountInHtml: 0
   categoryProcessType: 1
   dataGenerationTestMode: 0
+  showGenerationSetting: 0
   dataGenerationCountForTestMode: 5
-  forceUpdateForGeneration: 1
+  forceUpdateForGeneration: 0

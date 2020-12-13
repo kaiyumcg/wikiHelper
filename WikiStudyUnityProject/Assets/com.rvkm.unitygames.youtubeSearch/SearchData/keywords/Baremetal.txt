@@ -1,2 +1,0 @@
-assembly,Machine Code,register,DOTS,ECS,Burst,Data Oriented Design,Entity Component System,job system,Megacity
-Component System

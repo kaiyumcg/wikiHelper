@@ -12,6 +12,805 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: AR_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: AR
+  allVideos:
+  - title: Vision 2017 - So You Want to get Into Hardware Dev
+    url: https://www.youtube.com/watch?v=4WO-1HblxKk
+    channelName: Unity
+    description: 'Peter Hollander (Talaria VR) introduces developers to the mindset
+      and resources they''ll need to start creating their own custom hardware, and
+      how to integrate their technologies into VR and AR content.
+
+
+      Holland
+      shares his progression from entering the industry as a virtual reality enthusiast
+      with no prior knowledge of electronics or programming, to inventing, creating,
+      and now bringing a commercial product to market in less than two years.
+
+
+      Speaker:
+
+      Peter
+      S. Hollander - Talaria VR
+
+
+      bit.ly/visionsummit17'
+    thumbUrls:
+    - https://i.ytimg.com/vi/4WO-1HblxKk/sddefault.jpg
+    - https://i.ytimg.com/vi/4WO-1HblxKk/mqdefault.jpg
+    - https://i.ytimg.com/vi/4WO-1HblxKk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4WO-1HblxKk/hqdefault.jpg
+    tags:
+    - vision
+    - vr
+    - ar
+    - unity
+    viewCount: 1154
+    likeCount: 29
+    dislikeCount: 3
+    commentCount: 8
+    durationInMinutes: 24
+    publishedAtDate: 636306803010000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Building AR Apps with the Vuforia AR Starter Kit
+    url: https://www.youtube.com/watch?v=YzpjlUdF0bc
+    channelName: Unity
+    description: "David Beard (Vuforia) shows you how to get started developing AR
+      apps with Vuforia's AR Starter Kit in the Unity Asset Store. \n\nLearn how
+      to create experiences on objects, environments and spaces in the real world.
+      Beard demonstrates what's possible and how to customize the scenes in the Starter
+      Kits with your own content and app logic.\n\nSpeaker:\nDavid Beard - Vuforia\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/YzpjlUdF0bc/sddefault.jpg
+    - https://i.ytimg.com/vi/YzpjlUdF0bc/mqdefault.jpg
+    - https://i.ytimg.com/vi/YzpjlUdF0bc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/YzpjlUdF0bc/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 17141
+    likeCount: 109
+    dislikeCount: 6
+    commentCount: 6
+    durationInMinutes: 37
+    publishedAtDate: 636306769910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Big AR Talk: Three Innovators Discuss Unlocking AR''s Potential'
+    url: https://www.youtube.com/watch?v=-5vzTtUX-IE
+    channelName: Unity
+    description: "CastAR, Avegant, and Bent Image Labs all have different approaches
+      to powering the AR ecosystem. Listen to their unique perspectives on unleashing
+      AR developer creativity, the future of AR, and what makes their different approaches
+      so special. Moderated by Jay Wright, CEO of Vuforia.\n\nRay Di Carlo - Bent
+      Image Lab / youAR \nJeri Ellsworth - castAR \nDioselin Gonzalez - Unity Technologies
+      \nEdward Tang - Avegant"
+    thumbUrls:
+    - https://i.ytimg.com/vi/-5vzTtUX-IE/sddefault.jpg
+    - https://i.ytimg.com/vi/-5vzTtUX-IE/mqdefault.jpg
+    - https://i.ytimg.com/vi/-5vzTtUX-IE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-5vzTtUX-IE/hqdefault.jpg
+    tags:
+    - AR
+    - XR
+    - CastAR
+    - Bent Image Lab
+    - youAR
+    - Unity
+    - Unity Technologies
+    viewCount: 431
+    likeCount: 2
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 39
+    publishedAtDate: 636306764380000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Beyond the Screen: Using the Real World as Your AR Canvas'
+    url: https://www.youtube.com/watch?v=jkCJLq_Za0Q
+    channelName: Unity
+    description: "Take a look inside two mixed reality experiences from Nexus Studios
+      and MAP Design Lab.\n\nSpeakers:\nMelissa Painter - MAP Design Lab \nLuke Ritchie
+      - Nexus Studios\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/jkCJLq_Za0Q/sddefault.jpg
+    - https://i.ytimg.com/vi/jkCJLq_Za0Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/jkCJLq_Za0Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/jkCJLq_Za0Q/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 2889
+    likeCount: 32
+    dislikeCount: 3
+    commentCount: 3
+    durationInMinutes: 33
+    publishedAtDate: 636306837540000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Behind the VR/AR Hype: Actionable Advice Derived from Data'
+    url: https://www.youtube.com/watch?v=Z9AORntkS2s
+    channelName: Unity
+    description: "Speakers:\nJohn Cheng - Unity Technologies \nTipatat Chennavasin
+      - The Venture Reality Fund \nStephanie Llamas - SuperData Research \nJacob
+      Mullins - Shasta Ventures\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Z9AORntkS2s/sddefault.jpg
+    - https://i.ytimg.com/vi/Z9AORntkS2s/mqdefault.jpg
+    - https://i.ytimg.com/vi/Z9AORntkS2s/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Z9AORntkS2s/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - ar
+    - vr
+    - unity
+    viewCount: 575
+    likeCount: 4
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 36
+    publishedAtDate: 636306769910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Architects and the Future of AR Design
+    url: https://www.youtube.com/watch?v=2zBMtbB3z28
+    channelName: Unity
+    description: 'Never before in the modern history of technology has the architect,
+      the designer, been a more important part of technology''s future. Architects
+      have been curating and ideating on the development of ''place'' for centuries.
+      Gensler covers how they are leveraging AR in the coverage of AI, the Internet
+      of Things, and Cloud computing, and how to design places using game engine
+      technology.
+
+
+      Speaker:
+
+      Alan Robles - Gensler
+
+
+      bit.ly/visionsummit17'
+    thumbUrls:
+    - https://i.ytimg.com/vi/2zBMtbB3z28/sddefault.jpg
+    - https://i.ytimg.com/vi/2zBMtbB3z28/mqdefault.jpg
+    - https://i.ytimg.com/vi/2zBMtbB3z28/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2zBMtbB3z28/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 17958
+    likeCount: 173
+    dislikeCount: 9
+    commentCount: 7
+    durationInMinutes: 22
+    publishedAtDate: 636306837130000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Labs
+    url: https://www.youtube.com/watch?v=cnEwzJV3RUQ
+    channelName: Unity
+    description: 'Unity Labs is where we do experimental projects, research, and
+      explorations into the future of game design, VR, AR and development. Check
+      out https://labs.unity.com/ for more updates from the team.
+
+
+      Help us
+      caption & translate this video!
+
+
+      http://amara.org/v/V605/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/cnEwzJV3RUQ/sddefault.jpg
+    - https://i.ytimg.com/vi/cnEwzJV3RUQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/cnEwzJV3RUQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cnEwzJV3RUQ/hqdefault.jpg
+    tags:
+    - unity
+    - labs
+    - Unity (software)
+    - Virtual Reality
+    - Unity Technologies
+    viewCount: 20071
+    likeCount: 560
+    dislikeCount: 27
+    commentCount: 42
+    durationInMinutes: 2
+    publishedAtDate: 635993786540000000
+    publisdedDate:
+      year: 2016
+      month: 5
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Reality vs illusion: What''s achievable with real-time ray tracing'
+    url: https://www.youtube.com/watch?v=IY8FJxS4Lbs
+    channelName: Unity
+    description: 'Highlighting what''s achievable with real-time ray tracing, Unity
+      has collaborated with NVIDIA and the BMW Group to showcase the 2019 BMW 8 Series
+      Coupe. Once thought impossible to achieve, performant real-time ray tracing
+      delivers photorealistic image quality and lighting for any task where visual
+      fidelity is essential, such as for design, engineering, or marketing, at a
+      fraction of the time of offline rendering solutions.
+
+
+      More about real-time
+      ray tracing: https://on.unity.com/2GatCa5'
+    thumbUrls:
+    - https://i.ytimg.com/vi/IY8FJxS4Lbs/sddefault.jpg
+    - https://i.ytimg.com/vi/IY8FJxS4Lbs/mqdefault.jpg
+    - https://i.ytimg.com/vi/IY8FJxS4Lbs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IY8FJxS4Lbs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ray tracing
+    - nvidia
+    - GDC
+    - GTC
+    viewCount: 112393
+    likeCount: 3173
+    dislikeCount: 169
+    commentCount: 262
+    durationInMinutes: 1
+    publishedAtDate: 636906024070000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Reality vs illusion: Unity real-time ray tracing'
+    url: https://www.youtube.com/watch?v=AG7DDXwYpD0
+    channelName: Unity
+    description: 'Highlighting what''s achievable with real-time ray tracing, Unity
+      has collaborated with NVIDIA and the BMW Group to showcase the 2019 BMW 8 Series
+      Coupe. Once thought impossible to achieve, performant real-time ray tracing
+      delivers photorealistic image quality and lighting for any task where visual
+      fidelity is essential, such as for design, engineering, or marketing, at a
+      fraction of the time of offline rendering solutions.
+
+
+      Real or rendered?
+      Can you tell the difference between the real-time car and the physical car?
+
+
+      For
+      more information, head to https://on.unity.com/2HtFF4y
+
+
+      Help us caption
+      & translate this video!
+
+
+      https://amara.org/v/oIgF/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/AG7DDXwYpD0/sddefault.jpg
+    - https://i.ytimg.com/vi/AG7DDXwYpD0/mqdefault.jpg
+    - https://i.ytimg.com/vi/AG7DDXwYpD0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/AG7DDXwYpD0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ray tracing
+    - real-time
+    - real time
+    - ray-tracing
+    - graphics
+    viewCount: 116656
+    likeCount: 1623
+    dislikeCount: 84
+    commentCount: 172
+    durationInMinutes: 1
+    publishedAtDate: 636885625180000000
+    publisdedDate:
+      year: 2019
+      month: 3
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Made with Unity: PHAROS AR - Behind the Scenes'
+    url: https://www.youtube.com/watch?v=FCfL4eknWCo
+    channelName: Unity
+    description: "A conversation on the making of and tech behind Childish Gambino\u2019s
+      AR app, PHAROS AR.\n\nLearn more at: https://on.unity.com/2x10tsH"
+    thumbUrls:
+    - https://i.ytimg.com/vi/FCfL4eknWCo/sddefault.jpg
+    - https://i.ytimg.com/vi/FCfL4eknWCo/mqdefault.jpg
+    - https://i.ytimg.com/vi/FCfL4eknWCo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 20740
+    likeCount: 366
+    dislikeCount: 35
+    commentCount: 21
+    durationInMinutes: 5
+    publishedAtDate: 636964992920000000
+    publisdedDate:
+      year: 2019
+      month: 6
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: "Cross-Platform AR in Unity! \u2013 AR Foundation Overview"
+    url: https://www.youtube.com/watch?v=ml9qVRdEH4k
+    channelName: Unity
+    description: "Check out more about AR Foundation, ARCore and ARKit here: https://ole.unity.com/arblogpost\n\nUse
+      the AR Foundation package to add high-level functionality for working with
+      augmented reality. Unity 2018.1 includes built-in multi-platform support for
+      AR. The AR Foundation package wraps this low-level API into a cohesive whole
+      and enhances it with additional utilities, such as AR session lifecycle management
+      and the creation of GameObjects to represent detected features in the environment.\n\nAR
+      Foundation is a set of MonoBehaviours for dealing with devices that support
+      following concepts:\n\n- Planar surface detection\n- Point clouds, also known
+      as feature points\n- Reference points: an arbitrary position and orientation
+      that the device tracks\n- Light estimation: estimates for average color temperature
+      and \nbrightness in physical space.\n- World tracking: tracking the device's
+      position and orientation in physical space."
+    thumbUrls:
+    - https://i.ytimg.com/vi/ml9qVRdEH4k/sddefault.jpg
+    - https://i.ytimg.com/vi/ml9qVRdEH4k/mqdefault.jpg
+    - https://i.ytimg.com/vi/ml9qVRdEH4k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ml9qVRdEH4k/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2019
+    - unity 2019.1
+    - unity 2019 ar foundation
+    - unity 2019 arfoundation
+    - unity 2019 ar
+    - unity ar
+    - unity ar foundation
+    - unity arfoundation
+    - unity game dev
+    - unity make a game
+    - unity mobile game
+    - unity mobile
+    - unity ar game
+    - unity ar tutorial
+    - easy
+    - unity ar tutorial for beginners
+    - unity ar foundation tutorial
+    - unity 2019.1 game
+    - unity cross platform
+    - unity arcore
+    - unity arkit
+    - arkit
+    - arcore
+    viewCount: 97266
+    likeCount: 1867
+    dislikeCount: 19
+    commentCount: 89
+    durationInMinutes: 3
+    publishedAtDate: 636922482580000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating Immersive AR with Unity 2019!
+    url: https://www.youtube.com/watch?v=FuKzngwzDYI
+    channelName: Unity
+    description: 'In this video we look at a number of techniques useful for creating
+      immersive AR (augmented reality) content including light estimation, realtime
+      reflections and plane occlusion. For the source code for the plane occlusion
+      video, click here: https://ole.unity.com/ARSamples'
+    thumbUrls:
+    - https://i.ytimg.com/vi/FuKzngwzDYI/sddefault.jpg
+    - https://i.ytimg.com/vi/FuKzngwzDYI/mqdefault.jpg
+    - https://i.ytimg.com/vi/FuKzngwzDYI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/FuKzngwzDYI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ar immersion
+    - untiy ar
+    - untiy vr
+    - unity ar tutorial
+    - unity ar 2019
+    - unity 2019
+    - unity 2019 ar
+    - unity ar foundation
+    - unity ar foundation tutorial
+    - unity 2019 ar foundation
+    - unity ar foundation image tracking
+    - unity tutorial
+    - unity 2019.2
+    - unity 2019.1
+    - unity2019
+    - unity ar tutorial for beginners 2019
+    - unity for beginners
+    viewCount: 67137
+    likeCount: 1510
+    dislikeCount: 24
+    commentCount: 57
+    durationInMinutes: 5
+    publishedAtDate: 637021075380000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating AR Content with Vuforia - Vuforia Configuration [2/6] Live 2018/1/24
+    url: https://www.youtube.com/watch?v=I5qGTyBY6kA
+    channelName: Unity
+    description: 'Download the assets to follow along: http://ole.unity.com/vuforialive2018
+
+
+      In
+      this live session with online evangelist Matt Schell we will look at how to
+      get started creating augmented reality (AR) content using the Vuforia Engine,
+      now integrated directly into the Unity Editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/I5qGTyBY6kA/sddefault.jpg
+    - https://i.ytimg.com/vi/I5qGTyBY6kA/mqdefault.jpg
+    - https://i.ytimg.com/vi/I5qGTyBY6kA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/I5qGTyBY6kA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - AR
+    - XR
+    - vuforia
+    - image target
+    - marker
+    - tutorial
+    - ar basics
+    - image recognition
+    - computer vision
+    - ar button
+    - live session
+    - live training
+    - live
+    viewCount: 43546
+    likeCount: 162
+    dislikeCount: 6
+    commentCount: 16
+    durationInMinutes: 4
+    publishedAtDate: 636536305860000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating AR Content with Vuforia - Tracking and Scripting [5/6] Live 2018/1/24
+    url: https://www.youtube.com/watch?v=P5UgsDAEbdg
+    channelName: Unity
+    description: 'Download the assets to follow along: http://ole.unity.com/vuforialive2018
+
+
+      In
+      this live session with online evangelist Matt Schell we will look at how to
+      get started creating augmented reality (AR) content using the Vuforia Engine,
+      now integrated directly into the Unity Editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/P5UgsDAEbdg/sddefault.jpg
+    - https://i.ytimg.com/vi/P5UgsDAEbdg/mqdefault.jpg
+    - https://i.ytimg.com/vi/P5UgsDAEbdg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/P5UgsDAEbdg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - AR
+    - XR
+    - vuforia
+    - image target
+    - marker
+    - tutorial
+    - ar basics
+    - image recognition
+    - computer vision
+    - ar button
+    - live session
+    - live training
+    - live
+    viewCount: 25166
+    likeCount: 141
+    dislikeCount: 4
+    commentCount: 12
+    durationInMinutes: 9
+    publishedAtDate: 636536305860000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating AR Content with Vuforia - Questions and Answers [6/6] Live 2018/1/24
+    url: https://www.youtube.com/watch?v=4CS6F7nQpRI
+    channelName: Unity
+    description: 'Download the assets to follow along: http://ole.unity.com/vuforialive2018
+
+
+      In
+      this live session with online evangelist Matt Schell we will look at how to
+      get started creating augmented reality (AR) content using the Vuforia Engine,
+      now integrated directly into the Unity Editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/4CS6F7nQpRI/sddefault.jpg
+    - https://i.ytimg.com/vi/4CS6F7nQpRI/mqdefault.jpg
+    - https://i.ytimg.com/vi/4CS6F7nQpRI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4CS6F7nQpRI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - AR
+    - XR
+    - vuforia
+    - image target
+    - marker
+    - tutorial
+    - ar basics
+    - image recognition
+    - computer vision
+    - ar button
+    - live session
+    - live training
+    - live
+    viewCount: 9369
+    likeCount: 44
+    dislikeCount: 3
+    commentCount: 5
+    durationInMinutes: 2
+    publishedAtDate: 636536305860000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating AR Content with Vuforia - Introduction [1/6] Live 2018/1/24
+    url: https://www.youtube.com/watch?v=9XikHnTiukk
+    channelName: Unity
+    description: 'Download the assets to follow along: http://ole.unity.com/vuforialive2018
+
+
+      In
+      this live session with online evangelist Matt Schell we will look at how to
+      get started creating augmented reality (AR) content using the Vuforia Engine,
+      now integrated directly into the Unity Editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/9XikHnTiukk/sddefault.jpg
+    - https://i.ytimg.com/vi/9XikHnTiukk/mqdefault.jpg
+    - https://i.ytimg.com/vi/9XikHnTiukk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9XikHnTiukk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - AR
+    - XR
+    - vuforia
+    - image target
+    - marker
+    - tutorial
+    - ar basics
+    - image recognition
+    - computer vision
+    - ar button
+    - live session
+    - live training
+    - live
+    viewCount: 79059
+    likeCount: 515
+    dislikeCount: 13
+    commentCount: 16
+    durationInMinutes: 3
+    publishedAtDate: 636536305860000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating AR Content with Vuforia - Image Targets [3/6] Live 2018/1/24
+    url: https://www.youtube.com/watch?v=Wqbg9mB84V4
+    channelName: Unity
+    description: 'Download the assets to follow along: http://ole.unity.com/vuforialive2018
+
+
+      In
+      this live session with online evangelist Matt Schell we will look at how to
+      get started creating augmented reality (AR) content using the Vuforia Engine,
+      now integrated directly into the Unity Editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Wqbg9mB84V4/sddefault.jpg
+    - https://i.ytimg.com/vi/Wqbg9mB84V4/mqdefault.jpg
+    - https://i.ytimg.com/vi/Wqbg9mB84V4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Wqbg9mB84V4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - AR
+    - XR
+    - vuforia
+    - image target
+    - marker
+    - tutorial
+    - ar basics
+    - image recognition
+    - computer vision
+    - ar button
+    - live session
+    - live training
+    - live
+    viewCount: 42957
+    likeCount: 168
+    dislikeCount: 11
+    commentCount: 17
+    durationInMinutes: 5
+    publishedAtDate: 636536305860000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating AR Content with Vuforia - AR Buttons [4/6] Live 2018/1/24
+    url: https://www.youtube.com/watch?v=S1VrS05IxyQ
+    channelName: Unity
+    description: 'Download the assets to follow along: http://ole.unity.com/vuforialive2018
+
+
+      In
+      this live session with online evangelist Matt Schell we will look at how to
+      get started creating augmented reality (AR) content using the Vuforia Engine,
+      now integrated directly into the Unity Editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/S1VrS05IxyQ/sddefault.jpg
+    - https://i.ytimg.com/vi/S1VrS05IxyQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/S1VrS05IxyQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/S1VrS05IxyQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - AR
+    - XR
+    - vuforia
+    - image target
+    - marker
+    - tutorial
+    - ar basics
+    - image recognition
+    - computer vision
+    - ar button
+    - live session
+    - live training
+    - live
+    viewCount: 37191
+    likeCount: 179
+    dislikeCount: 7
+    commentCount: 13
+    durationInMinutes: 10
+    publishedAtDate: 636536305860000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Bully Entertainment Unity Developer Profile
+    url: https://www.youtube.com/watch?v=ADsV7Ql_u58
+    channelName: Unity
+    description: 'Bully Entertainment talk about their experiences with Unity. The
+      company develops a wide array of interactive experiences using Unity and has
+      proven experience in porting some of their high profile projects from Flash
+      to Unity. Bully Entertainment has also made some of the most innovative applications
+      in the field of mobile augmented reality to date using Unity and String AR
+      plug-in.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6cy/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ADsV7Ql_u58/sddefault.jpg
+    - https://i.ytimg.com/vi/ADsV7Ql_u58/mqdefault.jpg
+    - https://i.ytimg.com/vi/ADsV7Ql_u58/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ADsV7Ql_u58/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - unity game
+    - Unity (game Engine)
+    - flash
+    - animation
+    - baltimore
+    - ar
+    - augmented
+    - berkebile
+    - bob
+    - dragon
+    - ford
+    - industry
+    - itween
+    - profile
+    - reality
+    - stormchasers
+    - string
+    - window
+    viewCount: 6828
+    likeCount: 78
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 5
+    publishedAtDate: 634732913880000000
+    publisdedDate:
+      year: 2012
+      month: 5
+      day: 22
+    YouTubeDataAPI_Cooked: 1

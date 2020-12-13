@@ -12,6 +12,644 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: AEC_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: AEC
+  allVideos:
+  - title: Unlock your CAD data for real time development Unity+PiXYZ - Unite LA
+    url: https://www.youtube.com/watch?v=-psT9ub7LoM
+    channelName: Unity
+    description: 'This advanced presentation will focus on the exciting uses for
+      high-resolution BIM data and provide an in-depth look at importing into Unity
+      with a PiXYZ plugin for AEC (architecture, engineering, and construction) projects.
+      We''ll demonstrate how the Revit format and Rule Engine will be performed by
+      Unity while using PiXYZ to simplify the models for developers. We''ll be showing
+      you previews of the upcoming photorealistic Unity material library specifically
+      built for the AEC market.
+
+
+      Speakers:
+
+      Olivier Giniaux (PiXYZ Software),
+      Laurent Milon (PiXYZ)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/-psT9ub7LoM/sddefault.jpg
+    - https://i.ytimg.com/vi/-psT9ub7LoM/mqdefault.jpg
+    - https://i.ytimg.com/vi/-psT9ub7LoM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-psT9ub7LoM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Event
+    - Automotive
+    viewCount: 5902
+    likeCount: 53
+    dislikeCount: 0
+    commentCount: 8
+    durationInMinutes: 39
+    publishedAtDate: 636776640000000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity Reflect: BIM to real-time 3D in one click for better design decisions'
+    url: https://www.youtube.com/watch?v=LTYaPOFgC9g
+    channelName: Unity
+    description: 'Unity Reflect makes it easy to bring multiple BIM models with all
+      their metadata to real-time 3D and maintain a live link between them. You can
+      also create your own real-time BIM applications and customize the user experience
+      by building on top of Unity Reflect with Unity Pro.
+
+
+      Learn more about
+      Unity Reflect: https://on.unity.com/39XGaie
+
+
+      Watch a webinar on how
+      AEC firms use Unity Reflect: https://on.unity.com/35Dswxq'
+    thumbUrls:
+    - https://i.ytimg.com/vi/LTYaPOFgC9g/sddefault.jpg
+    - https://i.ytimg.com/vi/LTYaPOFgC9g/mqdefault.jpg
+    - https://i.ytimg.com/vi/LTYaPOFgC9g/maxresdefault.jpg
+    - https://i.ytimg.com/vi/LTYaPOFgC9g/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - AEC
+    - architecture
+    - construction
+    - Revit
+    - Autodesk
+    viewCount: 39405
+    likeCount: 377
+    dislikeCount: 22
+    commentCount: 31
+    durationInMinutes: 1
+    publishedAtDate: 636953586040000000
+    publisdedDate:
+      year: 2019
+      month: 6
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2017 - Visualizing geospatial big data in Unity
+    url: https://www.youtube.com/watch?v=F6vtgGY-aLs
+    channelName: Unity
+    description: "Visualizing extremely large geospatial data sets presents several
+      unique challenges -- how to efficiently index into a petabyte sized data set
+      to load relevant data to the user, or manage framerate and memory usage when
+      thousands of visual objects need to be created and destroyed each second. Explore
+      how Fugro Roames overcame these challenges while developing Roames World, enabling
+      the visualization of complex objects, viewing of real time information, and
+      execution of dynamic simulations.\n\nFor more information on Unite Europe and
+      future Unite events visit this page. https://unite.unity.com/\n\nPeter O'Loughlin
+      - Fugro Roames \nGlen Ross-Sampson - Fugro Roames"
+    thumbUrls:
+    - https://i.ytimg.com/vi/F6vtgGY-aLs/sddefault.jpg
+    - https://i.ytimg.com/vi/F6vtgGY-aLs/mqdefault.jpg
+    - https://i.ytimg.com/vi/F6vtgGY-aLs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/F6vtgGY-aLs/hqdefault.jpg
+    tags:
+    - Unite Europe 2017
+    - unity
+    - unity3d
+    - gamedev
+    - indiedev
+    - game engine
+    - geospatial data
+    - Fugro Roames
+    viewCount: 22625
+    likeCount: 263
+    dislikeCount: 5
+    commentCount: 6
+    durationInMinutes: 51
+    publishedAtDate: 636353380610000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Unlock your CAD Data with Unity and PiXYZ
+    url: https://www.youtube.com/watch?v=3MBQKMF98ME
+    channelName: Unity
+    description: 'Get an in-depth look at the exciting uses for high-resolution CAD
+      Data in Unity, and ease of converting NURBS CAD data into Polygons with the
+      PiXYZ to Unity plugin. Use Timeline to create the classic "exploded view" for
+      your models. Dig into a preview of the upcoming photo-realistic Unity material
+      library specifically built for the Automotive market.
+
+
+      Speakers:
+
+      Mark
+      Schoennagel (Lead Evangelist - Automotive, Unity Technologies)
+
+
+      https://unite.unity.com/2018/berlin/autotech'
+    thumbUrls:
+    - https://i.ytimg.com/vi/3MBQKMF98ME/sddefault.jpg
+    - https://i.ytimg.com/vi/3MBQKMF98ME/mqdefault.jpg
+    - https://i.ytimg.com/vi/3MBQKMF98ME/maxresdefault.jpg
+    - https://i.ytimg.com/vi/3MBQKMF98ME/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - PiXYZ
+    - Automotive
+    - Cars
+    - CAD
+    - Event
+    viewCount: 14166
+    likeCount: 165
+    dislikeCount: 5
+    commentCount: 26
+    durationInMinutes: 29
+    publishedAtDate: 636673464000000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - From Interactive to Automatic CAD Data Prep
+    url: https://www.youtube.com/watch?v=c6tnXq9537I
+    channelName: Unity
+    description: 'PiXYZ CAD data prep experts walk you through how to use PiXYZ products
+      to convert, optimize, and conform 3D models coming from the CAD industrial
+      world to Unity. This session covers everything from simple use cases to extensive
+      automatic CAD data-prep usage.
+
+
+      Speakers:
+
+      Axel Jacquet (PiXYZ)
+
+      Geoffrey
+      Subileau (PiXYZ)
+
+
+      https://unite.unity.com/2018/berlin/autotech'
+    thumbUrls:
+    - https://i.ytimg.com/vi/c6tnXq9537I/sddefault.jpg
+    - https://i.ytimg.com/vi/c6tnXq9537I/mqdefault.jpg
+    - https://i.ytimg.com/vi/c6tnXq9537I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/c6tnXq9537I/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - PiXYZ
+    - Automotive
+    - CAD
+    - Car
+    - Event
+    viewCount: 1479
+    likeCount: 19
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 32
+    publishedAtDate: 636673464020000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 - Unity In The Wild
+    url: https://www.youtube.com/watch?v=tQ7TTs4d9x0
+    channelName: Unity
+    description: 'Unity is showing up in all kinds of awesome places: huge projection
+      surfaces, architectural visualization, performance art...the list goes on.
+      This session is a series of 10-minute presentations highlighting unusual and
+      awesome uses of Unity. More about Unity for non-games: http://unity3d.com/industries
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V65q/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/tQ7TTs4d9x0/sddefault.jpg
+    - https://i.ytimg.com/vi/tQ7TTs4d9x0/mqdefault.jpg
+    - https://i.ytimg.com/vi/tQ7TTs4d9x0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/tQ7TTs4d9x0/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unite 2014 Seattle
+    viewCount: 7581
+    likeCount: 57
+    dislikeCount: 0
+    commentCount: 12
+    durationInMinutes: 50
+    publishedAtDate: 635463958060000000
+    publisdedDate:
+      year: 2014
+      month: 9
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: Turning large CAD assemblies into real-time 3D visualizations - Unite
+      Copenhagen 2019
+    url: https://www.youtube.com/watch?v=BNUZLnhCR2Q
+    channelName: Unity
+    description: "Discover the potential for working with CAD models. With PiXYZ,
+      you can quickly import, prep, and optimize large CAD assemblies for real-time
+      high-fidelity visualization. Highlighting Alias models and other CAD software
+      in Unity workflows, this session shows how these technologies are enhanced
+      when they're combined correctly.\n\nVideo 1: https://youtu.be/XRMiPv0HaFU\nVideo
+      2 : https://youtu.be/Iz76zhtkAsw \n\nSpeakers:\nAxel Jacquet \u2013 PiXYZ Software\nC\xE9dric
+      Rousteau \u2013 PiXYZ Software\n\nSlides available here: https://www.slideshare.net/unity3d/turning-large-cad-assemblies-into-realtime-3d-visualizations"
+    thumbUrls:
+    - https://i.ytimg.com/vi/BNUZLnhCR2Q/sddefault.jpg
+    - https://i.ytimg.com/vi/BNUZLnhCR2Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/BNUZLnhCR2Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/BNUZLnhCR2Q/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1586
+    likeCount: 24
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 45
+    publishedAtDate: 637060824020000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Real-time BIM with Unity Reflect
+    url: https://www.youtube.com/watch?v=b-vEPNON2HI
+    channelName: Unity
+    description: 'Unity Reflect makes it easy to bring multiple BIM models with all
+      their metadata to real-time 3D and maintain a live link between them. You can
+      also create your own real-time BIM applications and customize the user experience
+      by building on top of Unity Reflect with Unity Pro.
+
+
+      Learn more about
+      Unity Reflect: https://on.unity.com/39XGaie
+
+
+      Watch a webinar on how
+      AEC firms use Unity Reflect: https://on.unity.com/35Dswxq'
+    thumbUrls:
+    - https://i.ytimg.com/vi/b-vEPNON2HI/sddefault.jpg
+    - https://i.ytimg.com/vi/b-vEPNON2HI/mqdefault.jpg
+    - https://i.ytimg.com/vi/b-vEPNON2HI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/b-vEPNON2HI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 29201
+    likeCount: 343
+    dislikeCount: 5
+    commentCount: 19
+    durationInMinutes: 1
+    publishedAtDate: 637122422810000000
+    publisdedDate:
+      year: 2019
+      month: 12
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Powerful libraries for high fidelity visualization applications | Unite
+      Now 2020
+    url: https://www.youtube.com/watch?v=eVolaH34PVQ
+    channelName: Unity
+    description: "This video introduces you to the Intel\xAE oneAPI Rendering Toolkits
+      and the components for lightmapping and denoising. Learn about the tools that
+      deliver rich illumination experiences!\n\nSpeaker:\nRudy Cazabon, Technical
+      Evangelist at Intel\n\nAsk your questions here: https://on.unity.com/37I7ZKL\n\nDid
+      you find this video useful? Room for improvement? Let us know: https://on.unity.com/30Xap6W\n\nCheck
+      out the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/2YbSUOk\n\nFind
+      out more about Open Source Denoising for Lightmaps in Unity: https://on.unity.com/3hG8fhN\n\n00:00
+      Introduction\n01:23 Xe Architecture\n01:52 Intel oneAPI Initiative\n02:29 Intel
+      oneAPI Rendering Toolkit\n03:34 Render Kit components and value they deliver
+      to Unity users\n07:58 Progressive lightmapping and denoising\n12:57 Upcoming
+      Intel oneAPI Rendering Toolkit features\n13:53 Summary"
+    thumbUrls:
+    - https://i.ytimg.com/vi/eVolaH34PVQ/sddefault.jpg
+    - https://i.ytimg.com/vi/eVolaH34PVQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/eVolaH34PVQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/eVolaH34PVQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 4026
+    likeCount: 35
+    dislikeCount: 10
+    commentCount: 7
+    durationInMinutes: 15
+    publishedAtDate: 637293296920000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: How SHoP Architects brings real time BIM to AEC with Unity Reflect
+    url: https://www.youtube.com/watch?v=8vbiojZ7DRA
+    channelName: Unity
+    description: 'Adam Chernick and Christopher Morse from SHoP Architects'' interactive
+      visualization team share why Unity Reflect is "a very welcome technology" for
+      their industry.
+
+
+      Learn more about how SHoP uses Unity Reflect: https://blogs.unity3d.com/2019/09/25/connecting-design-and-construction-with-unity-reflect/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/8vbiojZ7DRA/sddefault.jpg
+    - https://i.ytimg.com/vi/8vbiojZ7DRA/mqdefault.jpg
+    - https://i.ytimg.com/vi/8vbiojZ7DRA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8vbiojZ7DRA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 7902
+    likeCount: 129
+    dislikeCount: 3
+    commentCount: 8
+    durationInMinutes: 2
+    publishedAtDate: 637082616640000000
+    publisdedDate:
+      year: 2019
+      month: 11
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: "How Honda\u2019s designers use Unity to create stunning, interactive
+      presentations"
+    url: https://www.youtube.com/watch?v=AybnQNSQMFM
+    channelName: Unity
+    description: "Since 2019, Unity has worked with Honda to develop custom Unity
+      Editor tools that enable its design team to easily create interactive showcases
+      of their vehicle designs in a single day\n\n\"We believe Unity gives us the
+      best visualization tool that can be extended and adapted to our needs in the
+      future,\u201D said Sano Hideki, Automobile Design Division, Honda R&D Co.,
+      Ltd. Design Center.\n\nLearn more in our blog post: https://on.unity.com/3aUlCrL"
+    thumbUrls:
+    - https://i.ytimg.com/vi/AybnQNSQMFM/sddefault.jpg
+    - https://i.ytimg.com/vi/AybnQNSQMFM/mqdefault.jpg
+    - https://i.ytimg.com/vi/AybnQNSQMFM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/AybnQNSQMFM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 10859
+    likeCount: 414
+    dislikeCount: 15
+    commentCount: 37
+    durationInMinutes: 3
+    publishedAtDate: 637340089740000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Driving AEC into a new age - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=GJ4e-NUZCoo
+    channelName: Unity
+    description: "Unity is embracing the concept of an \"engineering engine\" and
+      building tools and workflows to help the AEC industry. Aurecon Group has been
+      using Unity in engineering for 3 years now and has developed a philosophy around
+      visualization in engineering. In this video, you'll see some of the firm's
+      work and hear about things that work well and some things that don't work so
+      well for lessons about engineering in real-time.\n\nSpeaker: Murray Walker
+      \u2013 Aurecon\n\nSlides available here: https://www.slideshare.net/unity3d/driving-aec-into-a-new-age-unite-copenhagen-2019"
+    thumbUrls:
+    - https://i.ytimg.com/vi/GJ4e-NUZCoo/sddefault.jpg
+    - https://i.ytimg.com/vi/GJ4e-NUZCoo/mqdefault.jpg
+    - https://i.ytimg.com/vi/GJ4e-NUZCoo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GJ4e-NUZCoo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 549
+    likeCount: 9
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 25
+    publishedAtDate: 637060824030000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Create immersive experiences for real-world applications at scale | Unity
+    url: https://www.youtube.com/watch?v=5VRxVVOIoJs
+    channelName: Unity
+    description: 'Interactive, real-time 3D visualization is revolutionizing the
+      design process for architects and engineers, as they can immerse themselves
+      in life-sized creations before construction begins.
+
+
+      Discover how industry
+      leaders are changing the way buildings are designed, created, and operated:
+      https://on.unity.com/3iFHYPT'
+    thumbUrls:
+    - https://i.ytimg.com/vi/5VRxVVOIoJs/sddefault.jpg
+    - https://i.ytimg.com/vi/5VRxVVOIoJs/mqdefault.jpg
+    - https://i.ytimg.com/vi/5VRxVVOIoJs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5VRxVVOIoJs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 7606
+    likeCount: 249
+    dislikeCount: 5
+    commentCount: 18
+    durationInMinutes: 4
+    publishedAtDate: 637378743890000000
+    publisdedDate:
+      year: 2020
+      month: 10
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Bedroom demo: ArchViz with SSRR in Unity'
+    url: https://www.youtube.com/watch?v=nYBEndFphik
+    channelName: Unity
+    description: 'Coming soon in Unity: Screen-space raytraced reflections. Our demo
+      took an an early internal build of the tools for a spin and created an architectural
+      visualization project. Learn how: http://goo.gl/v6AFDJ
+
+
+      Help us caption
+      & translate this video!
+
+
+      http://amara.org/v/V61B/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/nYBEndFphik/sddefault.jpg
+    - https://i.ytimg.com/vi/nYBEndFphik/mqdefault.jpg
+    - https://i.ytimg.com/vi/nYBEndFphik/maxresdefault.jpg
+    - https://i.ytimg.com/vi/nYBEndFphik/hqdefault.jpg
+    tags:
+    - screen space raytraced reflections
+    - ssrr
+    - Unity 5
+    - Unity (Software)
+    - Unity demo
+    - bedroom demo
+    - archviz demo
+    - Unity archviz
+    - unity bedroom
+    viewCount: 224068
+    likeCount: 1155
+    dislikeCount: 23
+    commentCount: 172
+    durationInMinutes: 2
+    publishedAtDate: 635828189660000000
+    publisdedDate:
+      year: 2015
+      month: 11
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Autonomous vehicle development with Unity - Unite LA | AutoTech Summit
+    url: https://www.youtube.com/watch?v=EP_Wj09Z8H0
+    channelName: Unity
+    description: 'Jose De Oliveira, who heads up Unity''s Autonomous Vehicles Strategy,
+      reveals our roadmap to leverage the leading 3D real-time rendering engine for
+      creating a simulation and visualization framework for automotive projects.
+      In particular, he will focus on how Unity is ideal for supporting the development
+      of autonomous vehicle technologies and processes.
+
+
+      Speaker:
+
+      Jose
+      De Oliveira (Unity Technologies)
+
+
+      Learn more about Unity for Automotive:
+      https://unity.com/solutions/automotive-transportation
+
+
+      Help us caption
+      & translate this video!
+
+
+      https://amara.org/v/oLGT/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/EP_Wj09Z8H0/sddefault.jpg
+    - https://i.ytimg.com/vi/EP_Wj09Z8H0/mqdefault.jpg
+    - https://i.ytimg.com/vi/EP_Wj09Z8H0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/EP_Wj09Z8H0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Event
+    - Automotive
+    viewCount: 4772
+    likeCount: 66
+    dislikeCount: 3
+    commentCount: 2
+    durationInMinutes: 41
+    publishedAtDate: 636791220010000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: Accelerating communication in AEC with Unity Reflect - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=FeTsoMXSxXw
+    channelName: Unity
+    description: 'Learn how SHoP Architects is leveraging Unity Reflect to connect
+      live BIM data into custom AR/VR applications. Adam and Chris break down the
+      implications of a live data connection into interactive environments and unpack
+      specific industry use cases.
+
+
+      Speakers:
+
+      Adam Chernick - SHoP
+      Architects
+
+      Christopher Morse - SHoP Architects
+
+
+      Slides available
+      here: https://www.slideshare.net/unity3d/accelerating-communication-in-aec-with-unity-reflect
+
+
+      Find
+      out more about Unity Reflect: https://on.unity.com/2moXx7b'
+    thumbUrls:
+    - https://i.ytimg.com/vi/FeTsoMXSxXw/sddefault.jpg
+    - https://i.ytimg.com/vi/FeTsoMXSxXw/mqdefault.jpg
+    - https://i.ytimg.com/vi/FeTsoMXSxXw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/FeTsoMXSxXw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - architecture
+    - BIM
+    - AR
+    - VR
+    - Augmented reality
+    - virtual reality
+    - unity reflect
+    viewCount: 6389
+    likeCount: 72
+    dislikeCount: 2
+    commentCount: 2
+    durationInMinutes: 47
+    publishedAtDate: 637050132000000000
+    publisdedDate:
+      year: 2019
+      month: 9
+      day: 25
+    YouTubeDataAPI_Cooked: 1

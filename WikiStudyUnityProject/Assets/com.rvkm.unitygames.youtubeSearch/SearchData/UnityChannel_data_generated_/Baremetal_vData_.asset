@@ -12,6 +12,3682 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: Baremetal_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: Baremetal
+  allVideos:
+  - title: Your First Game Jam hosted by Mike Geig with Soaryn and Roman Papush
+    url: https://www.youtube.com/watch?v=Dweo04X7mJU
+    channelName: Unity
+    description: "Thanks for joining the #YourFirstGameJam livestream where we showed
+      all you beginners out there how to get started with Unity using our beginner-friendly
+      Karting Microgame and Mods \u2014 with the help of your suggestions in the
+      chat, we customized this wild, nearly unbeatable game together: https://ole.unity.com/Four-2065-The-Alpacalypse\nWant
+      to try creating your own version? You can find the Karting Mods here: https://ole.unity.com/yfgj-karting-microgame
+      then follow along with this recorded version of the livestream. If you need
+      help downloading Unity or the Karting Microgame, go here: http://ole.unity.com/YFGJ-how-to-prepare.\n\nAFTER
+      THE JAM \u2014 YOUR NEXT STEPS:\nNeed 4 Kart II Challenge:\nCalling all you
+      beginners! On May 4th, we\u2019ll open a special challenge for you to show
+      us how you\u2019ve modded your Karting Microgame. You have from May 4 until
+      May 26 to submit your customized microgame to the Need 4 Kart II Challenge
+      for a chance to be crowned a winner and be featured in the showcase alongside
+      other people who have just started creating in Unity. Get the deets: https://ole.unity.com/NEED-4-KART-II.\nFor
+      inspiration, check out the winners and honorable mentions from the first Need
+      4 Kart I Challenge: https://ole.unity.com/NEED-4-KART-I-WINNERS  \n\nKeep sharing
+      your Karting creations with us on social: tweet or post on Instagram using
+      the hashtag #yourfirstgamejam and tag Unity to let us know you\u2019re watching.
+      Tag @unity3d on Twitter or @UnityTechnologies on Instagram using the hashtag
+      #yourfirstgamejam. Want to tag the hosts? Find us on Twitter:\n@MikeGeig http://ole.unity.com/tweet-to-MikeGeig\n@Soaryn117
+      http://ole.unity.com/tweet-to-soaryn117\n@RomanPapush http://ole.unity.com/tweet-to-RomanPapush\n@ElenaUnity3d
+      http://ole.unity.com/tweet-to-ElenaUnity3d \nPlus Unity Evangelists Alexandre
+      Kikuchi and @avashly who connected with so many of you in the live chat https://ole.unity.com/tweet-to-ashley
+      \n\nJoin the Karting Creators group. This is a fantastic community to join
+      where you can ask questions and share your progress with your peers who are
+      also modding the Karting Microgame: http://ole.unity.com/Karting-Creators\n\nWant
+      to play the games that the hosts made?\nPlay Mike\u2019s game: https://ole.unity.com/Mike-ro-Machines\nPlay
+      Roman\u2019s game: https://ole.unity.com/Romans-Awesome-Kart-Game \nPlay the
+      game we modded during this stream: https://ole.unity.com/Four-2065-The-Alpacalypse
+      \n\nFAQs:\nQ: Do I need any Unity or programming experience to follow along?\nA:
+      Nope! This jam is for people who are new to Unity. (Although we do sneak some
+      coding in to keep you on your toes.)\n\nQ: What system requirements are there
+      to install Unity?\nA: https://unity3d.com/unity/system-requirements\n\nQ: What
+      is a game jam?\nA: This game jam is unique because it\u2019s hosted online,
+      it\u2019s for beginners, we\u2019re using a game template, it\u2019s short,
+      and we (pretty much) know what we\u2019re going to show you. A *traditional*
+      game jam is an in-person event where you would typically gather with more experienced
+      programmers, game designers, artists, etc., to create a game or project from
+      scratch in about 24-72 hours.\n\nQ: What if I have a question that's not answered
+      here?\nA: If you have other questions, reach out to us in the Karting Creators
+      Group: http://ole.unity.com/Karting-Creators\n\nQ: Who hosted the jam?\nA:
+      \nMike Geig: http://ole.unity.com/tweet-to-MikeGeig\nSoaryn: https://ole.unity.com/soarynTwitch
+      \nRoman Papush: http://ole.unity.com/RomanPapushYouTube \nElena: http://ole.unity.com/tweet-to-ElenaUnity3d"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Dweo04X7mJU/sddefault.jpg
+    - https://i.ytimg.com/vi/Dweo04X7mJU/mqdefault.jpg
+    - https://i.ytimg.com/vi/Dweo04X7mJU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Dweo04X7mJU/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - unity technologies
+    - games
+    - game development
+    - game dev
+    - game engine
+    - unity tutorial
+    - unity make a game
+    - making a game in unity
+    - making a game with unity
+    - unity game tutorial
+    - unity tutorials
+    - unity 3d
+    - unity easy
+    - unity how to
+    - unity basics
+    - unity beginner tutorial 2020
+    - unity beginners guide
+    - soaryn
+    - roman papush
+    - mike geig
+    - how to make a game with unity
+    - how to make a video game
+    - video game how to
+    - unity beginner tutorials
+    - unity beginner tutorial
+    viewCount: 58798
+    likeCount: 1337
+    dislikeCount: 18
+    commentCount: 39
+    durationInMinutes: 222
+    publishedAtDate: 637241580700000000
+    publisdedDate:
+      year: 2020
+      month: 5
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: Your First Game Jam hosted by Andre (Mix and Jam) with Code Monkey and
+      CouchFerret
+    url: https://www.youtube.com/watch?v=lh2oAtIh3Ss
+    channelName: Unity
+    description: "Thanks for joining the #YourFirstGameJam livestream where we showed
+      new users how to get started with Unity using our beginner-friendly FPS Microgame
+      and Mods. You can get the Microgame here: http://bit.ly/fps-mg-yfgjv, then
+      follow along with the recorded version of the livestream. If you need help
+      downloading Unity or the FPS Microgame, go here: http://bit.ly/yfgj-howtoprepare.
+      \n\nAFTER THE JAM \u2014 YOUR NEXT STEPS:\nKeep sharing your FPS creations
+      with us on social using the hashtag #yourfirstgamejam and tag Unity to let
+      us know about it: @unity3d on Twitter | @UnityTechnologies on Instagram. Want
+      to tag the hosts? On Twitter they\u2019re: @andre_mc @UnityCodeMonkey @couchferret
+      @elenaunity3d + @LixianTV\n\nJoin the FPS Creators group. This is a fantastic
+      community to join where you can ask questions and share your progress with
+      your peers who are also modding the FPS Microgame. http://bit.ly/fpscreators.
+      \n\nWant to play the games that the hosts made?\nCouchFerret\u2019s Slick FPS:
+      http://bit.ly/couchferretfps\nCode Monkey\u2019s Awesome FPS Game: http://bit.ly/codemonkeyfps
+      \nAndr\xE9 / Mix and Jam\u2019s FrostPS: http://bit.ly/mixandjamfrostps \n\n\nFAQs:\nQ:
+      Do I need any Unity or programming experience to follow along?\nA: Nope! This
+      jam is for people who are new to Unity. \n\nQ: What system requirements are
+      there to install Unity?\nA: https://unity3d.com/unity/system-requ...\n\nQ:
+      How long is the jam?\nA: We\u2019ll be jamming for about three hours. Of course,
+      you\u2019re free to pop in and out, and we\u2019ll do our best to make sure
+      it\u2019s easy for people to do so. That way, when you come back you can just
+      jump right back in with us.\n\nQ: Will it be recorded?\nA: Yes. The full recording
+      will be published on YouTube within an hour after the stream ends. \n\nQ: What
+      is a game jam?\nA: This game jam is unique because it\u2019s hosted online,
+      it\u2019s for beginners, we\u2019re using a game template, it\u2019s short,
+      and we (pretty much) know what we\u2019re going to show you. A *traditional*
+      game jam is an in-person event where you would typically gather with more experienced
+      programmers, game designers, artists, etc., to create a game or project from
+      scratch in about 24-72 hours.\n\nQ: What if I have a question that's not answered
+      here?\nA: If you have other questions leading up to the event, reach out to
+      us in the FPS Creators Group: https://bit.ly/fpscreators\n\nQ: Who is hosting
+      the jam?\nA: Andr\xE9 from Mix and Jam: https://bit.ly/MixAndJam\nCode Monkey:
+      https://bit.ly/Code-Monkey\nCouchFerret: https://bit.ly/couchferret\nElena:
+      https://bit.ly/elenaunity\n+Unity expert LixianTV is joining as a community
+      chatter: http://bit.ly/lixiantv"
+    thumbUrls:
+    - https://i.ytimg.com/vi/lh2oAtIh3Ss/mqdefault.jpg
+    - https://i.ytimg.com/vi/lh2oAtIh3Ss/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 60500
+    likeCount: 2421
+    dislikeCount: 35
+    commentCount: 52
+    durationInMinutes: 194
+    publishedAtDate: 637102521230000000
+    publisdedDate:
+      year: 2019
+      month: 11
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Using The Burst Compiler - Intro To The Entity Component System And C#
+      Job System 5/5
+    url: https://www.youtube.com/watch?v=D1KShj8ZV_I
+    channelName: Unity
+    description: 'Join our next online user group: https://ole.unity.com/olug_june27
+
+
+      In
+      this presentation, Unity Evangelist Mike Geig explains how to convert a project
+      from Monobehaviour style code to code which uses the C# Job System and then
+      code which uses that and the Entity Component System and Burst Compiler.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/D1KShj8ZV_I/sddefault.jpg
+    - https://i.ytimg.com/vi/D1KShj8ZV_I/mqdefault.jpg
+    - https://i.ytimg.com/vi/D1KShj8ZV_I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/D1KShj8ZV_I/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ECS
+    - entity component system
+    - c# job system
+    - burst compiler
+    - C# jobs
+    - jobified
+    - data driven design
+    - unity 2018
+    - unity 2018.1
+    - unity 2018.2
+    - unity entity component system
+    - entity
+    - component
+    - system
+    - job system
+    - unity 2018 ecs
+    - unity ecs
+    - ecs for beginners
+    - how to use ecs
+    - unity C# ecs
+    - ecs example
+    - beginner
+    - basics
+    - tutorial
+    - entity component
+    - unity ecs code
+    - easy
+    - programming
+    - performance
+    - new
+    - coding
+    viewCount: 39289
+    likeCount: 724
+    dislikeCount: 10
+    commentCount: 124
+    durationInMinutes: 7
+    publishedAtDate: 636639903070000000
+    publisdedDate:
+      year: 2018
+      month: 6
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Using Cinemachine: Free Look'
+    url: https://www.youtube.com/watch?v=X33t13gOBFw
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+      http://unity3d.com/learn/tutorials/topics/animation/using-cinemachine-free-look
+
+
+      Cinemachine''s
+      Free Look component allows us to create an orbital camera system with input
+      from the player and maintain control of our camera''s composition at different
+      stages of orbit.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/X33t13gOBFw/sddefault.jpg
+    - https://i.ytimg.com/vi/X33t13gOBFw/mqdefault.jpg
+    - https://i.ytimg.com/vi/X33t13gOBFw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/X33t13gOBFw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - freelook
+    - cinemachine
+    viewCount: 55680
+    likeCount: 525
+    dislikeCount: 19
+    commentCount: 34
+    durationInMinutes: 4
+    publishedAtDate: 636474019360000000
+    publisdedDate:
+      year: 2017
+      month: 11
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Visual Effect Graph Showcase
+    url: https://www.youtube.com/watch?v=uUHRJ26gMGI
+    channelName: Unity
+    description: 'Our new Visual Effect Graph gives you more power for creating beautiful
+      effects. It is a node-based system that is both easy to use and flexible, empowering
+      artists to create stunning VFX quickly.
+
+
+      Learn more about the Visual
+      Effect Graph: http://unity.com/visual-effect-graph'
+    thumbUrls:
+    - https://i.ytimg.com/vi/uUHRJ26gMGI/sddefault.jpg
+    - https://i.ytimg.com/vi/uUHRJ26gMGI/mqdefault.jpg
+    - https://i.ytimg.com/vi/uUHRJ26gMGI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/uUHRJ26gMGI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - VFX
+    - Visual Effect Graph
+    - VFX Graph
+    - Visual Effects
+    - Visual Effect
+    viewCount: 90541
+    likeCount: 1338
+    dislikeCount: 20
+    commentCount: 67
+    durationInMinutes: 0
+    publishedAtDate: 636759678280000000
+    publisdedDate:
+      year: 2018
+      month: 10
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Visual Effect Graph - Spaceship demo
+    url: https://www.youtube.com/watch?v=rqMcPZoEc3U
+    channelName: Unity
+    description: 'The Visual Effect Graph gives artists of all experience levels
+      the power to create amazing visual effects. This node-based system is both
+      easy to use and flexible, empowering artists to create stunning VFX quickly.
+
+
+      Learn
+      More: http://unity.com/visual-effect-graph'
+    thumbUrls:
+    - https://i.ytimg.com/vi/rqMcPZoEc3U/sddefault.jpg
+    - https://i.ytimg.com/vi/rqMcPZoEc3U/mqdefault.jpg
+    - https://i.ytimg.com/vi/rqMcPZoEc3U/maxresdefault.jpg
+    - https://i.ytimg.com/vi/rqMcPZoEc3U/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Visual Effect
+    - VFX Graph
+    - VFX
+    - Visual Effect Graph
+    viewCount: 192510
+    likeCount: 4596
+    dislikeCount: 41
+    commentCount: 389
+    durationInMinutes: 3
+    publishedAtDate: 636759672450000000
+    publisdedDate:
+      year: 2018
+      month: 10
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity Game Dev Courses: Swords and Shovels 2 - Game Character Art'
+    url: https://www.youtube.com/watch?v=JJsYt-5V_d4
+    channelName: Unity
+    description: 'Learn more: https://ole.unity.com/swordsshovels2
+
+
+      Whether
+      you are experienced in Unity or just getting started, Unity Game Dev Courses
+      is the best way to learn game development. Start with Unity Fundamentals, then
+      explore specialized tracks in Art, Design or Programming. Choose one or do
+      them all!'
+    thumbUrls:
+    - https://i.ytimg.com/vi/JJsYt-5V_d4/sddefault.jpg
+    - https://i.ytimg.com/vi/JJsYt-5V_d4/mqdefault.jpg
+    - https://i.ytimg.com/vi/JJsYt-5V_d4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/JJsYt-5V_d4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - swords and shovels
+    - zbrush
+    - z brush
+    - game character
+    - character
+    - 3d art
+    - 3d modeling
+    - 3d game character
+    - 3d game
+    - unity zbrush
+    - pluralsight
+    - learn unity
+    - unity tutorial
+    - zbrush tutorial
+    - 3d game art
+    viewCount: 12912
+    likeCount: 120
+    dislikeCount: 11
+    commentCount: 6
+    durationInMinutes: 8
+    publishedAtDate: 636589894630000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity for Beginners - Join Mix and Jam on this Livestream Nov 24!
+    url: https://www.youtube.com/watch?v=IHVGvZbKc2Q
+    channelName: Unity
+    description: "Hi! This is Andr\xE9 from Mix and Jam, your host for Your First
+      Game Jam. If you're new to Unity or have been thinking about giving it a go,
+      this free online event is a must for you!\n\nMe, along with the support of
+      expert game dev content creators, Code Monkey and CouchFerret, can't wait to
+      help you start creating and answer your questions.\n\nGet all the details and
+      set a reminder over on the event page: https://bit.ly/yfgj-fps-yt-promo\n\nAlso,
+      make sure to check out me and the co-hosts on our socials to find out more
+      about us!\n\nAndr\xE9 from Mix and Jam: https://bit.ly/MixAndJam\nCode Monkey:
+      https://bit.ly/Code-Monkey\nCouchFerret: https://bit.ly/couchferret\nElena:
+      https://bit.ly/elenaunity\n\nLive chat contributors:\nLixianTV: http://bit.ly/lixiantv\n\nSee
+      what the co-hosts are already working on!\nCode Monkey\u2019s Awesome FPS Game:
+      \nhttp://bit.ly/codemonkeyfps \nCouchFerret\u2019s Slick FPS: \nhttp://bit.ly/couchferretfps"
+    thumbUrls:
+    - https://i.ytimg.com/vi/IHVGvZbKc2Q/sddefault.jpg
+    - https://i.ytimg.com/vi/IHVGvZbKc2Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/IHVGvZbKc2Q/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity beginner tutorial
+    - unity beginner tutorial 2019
+    - unity game jam
+    - unity mix and jam
+    - mix and jam
+    - couch ferret
+    - code monkey
+    - unity beginner tips
+    - unity beginner game
+    - unity game jam 2019
+    - unity micro games
+    - unity micro games karting
+    - unity micro games platformer
+    - unity micro games fps
+    viewCount: 23958
+    likeCount: 360
+    dislikeCount: 4
+    commentCount: 28
+    durationInMinutes: 0
+    publishedAtDate: 637080837430000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: "Unity for Beginners \u2013 Join Kristin, Elena, Eleonora and Code Monkey
+      on this Livestream July 23!"
+    url: https://www.youtube.com/watch?v=VZBYoN-iHkE
+    channelName: Unity
+    description: "Hey there! I\u2019m your host Kristin from Unity. During this livestream
+      I will be joined by two amazing YouTubers \u2013 Eleonora and Code Monkey \u2013
+      as well as my colleague Elena Nizhnik. \n\nWant more info?\nhttps://on.unity.com/2WmLir2\n\nIf
+      you have questions leading up to the event, reach out to us in the FPS Creators
+      Group:\nhttps://on.unity.com/3gZxM4c\n\nWho is hosting the jam?\nKristin Stock
+      https://www.youtube.com/channel/UCCHg9mt6Tu6f-WCF4gf5oyQ\nCode Monkey https://www.youtube.com/channel/UCFK6NCbuCIVzA6Yj1G_ZqCg
+      \nEleonora https://www.youtube.com/channel/UCl9trNk_L-LC5FS259d7ayA\nElena
+      https://twitter.com/itsElenaWalker\n\nTo get the most out of this video,\nmake
+      sure to download all the assets available.\n\nAnd if you get stuck, refer to
+      the Creative Mods \u2014 online resources that detail how to use your assets,
+      and personalize your Microgame.\n\n================================\n\n# Assets:
+      \nFPS Creator Asset Bundle\nhttps://assetstore.unity.com/browse/fps-creator-bundle\n\nSnaps
+      Prototype | Sci-Fi Industrial\nhttps://assetstore.unity.com/packages/3d/environments/sci-fi/snaps-prototype-sci-fi-industrial-136759\n\nCode
+      Monkey\u2019s \u201CKey and Door System\u201D:\nhttps://assetstore.unity.com/packages/templates/systems/key-door-system-fps-microgame-approved-add-ons-175210\n\nAnimated
+      Machinery Pack\nhttps://assetstore.unity.com/packages/3d/animated-machinery-pack-3d-microgames-add-ons-166452\n\nCustomizable
+      Boss\nhttps://assetstore.unity.com/packages/3d/characters/robots/customizable-boss-fps-microgame-add-ons-162578\n\n\n#
+      Creative Mods:\nMix your own soundtrack\nhttps://learn.unity.com/tutorial/fps-mod-mix-your-own-sci-fi-soundtrack?projectId=5d9c91a4edbc2a03209169ab#\n\n\nSwap
+      your sounds\nhttps://learn.unity.com/tutorial/fps-mod-swap-your-sounds?projectId=5d9c91a4edbc2a03209169ab\n\nAdd
+      the Fireballer Pickup\nhttps://learn.unity.com/tutorial/add-the-fireballer-pickup?projectId=5d9c91a4edbc2a03209169ab\n\n\nCreate
+      a new game level with instant Snaps\nhttps://learn.unity.com/tutorial/fps-mod-create-an-instant-new-game-level-with-snaps?projectId=5d9c91a4edbc2a03209169ab\n\nTurn
+      your Snaps level into a playable scene\nhttps://learn.unity.com/tutorial/fps-mod-turn-your-snaps-level-into-a-playable-scene?projectId=5d9c91a4edbc2a03209169ab\n\nBuild
+      your Customizable Boss\nhttps://learn.unity.com/tutorial/fps-mod-build-your-own-boss?projectId=5d9c91a4edbc2a03209169ab\n\nTweak
+      damage dealt by enemies\nhttps://learn.unity.com/tutorial/fps-mod-tweak-damage-dealt-by-enemies-and-attack-range-new?projectId=5d9c91a4edbc2a03209169ab\n\nCreate
+      patrol paths\nhttps://learn.unity.com/tutorial/fps-mod-create-enemy-patrol-paths#\n\nSet
+      up a new burst rifle https://learn.unity.com/tutorial/fps-mod-set-up-a-new-burst-rifle-weapon?projectId=5d9c91a4edbc2a03209169ab\n\nAdd
+      a new level to your game flow https://learn.unity.com/tutorial/fps-mod-add-a-new-level-to-your-game-flow?projectId=5d9c91a4edbc2a03209169ab\n\nCreating
+      the Navigation Mesh https://learn.unity.com/tutorial/fps-mod-Create-and-Bake-the-NavMesh?projectId=5d9c91a4edbc2a03209169ab\n\n================================"
+    thumbUrls:
+    - https://i.ytimg.com/vi/VZBYoN-iHkE/sddefault.jpg
+    - https://i.ytimg.com/vi/VZBYoN-iHkE/mqdefault.jpg
+    - https://i.ytimg.com/vi/VZBYoN-iHkE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/VZBYoN-iHkE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 12693
+    likeCount: 87
+    dislikeCount: 2
+    commentCount: 8
+    durationInMinutes: 0
+    publishedAtDate: 637306229920000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Everyplay Webinar - Social Game Design
+    url: https://www.youtube.com/watch?v=Kf_SNZ7Fwzs
+    channelName: Unity
+    description: "\u2022 Why is Social Game Design Still Relevant?\n\u2022 The Six
+      Degrees of Socialisation\n\u2022 Social Zeitgest, Social Identity, Niche Lore
+      and Brand Reach\n\u2022 Unlocking the Heirarchy of Needs for Social Games\nRead
+      more: http://blogs.unity3d.com/2015/09/01/games-made-for-sharing-social-game-design/\n\nHelp
+      us caption & translate this video!\n\nhttp://amara.org/v/V629/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Kf_SNZ7Fwzs/sddefault.jpg
+    - https://i.ytimg.com/vi/Kf_SNZ7Fwzs/mqdefault.jpg
+    - https://i.ytimg.com/vi/Kf_SNZ7Fwzs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Kf_SNZ7Fwzs/hqdefault.jpg
+    tags:
+    - Game Design
+    - Unity (Software)
+    - monetization
+    - ads
+    - everyplay
+    - Social games
+    - Games marketing
+    - Social Network Game (Industry)
+    - Video Game Development (Conference Subject)
+    - Video Game Culture
+    viewCount: 7015
+    likeCount: 71
+    dislikeCount: 11
+    commentCount: 13
+    durationInMinutes: 63
+    publishedAtDate: 635767476870000000
+    publisdedDate:
+      year: 2015
+      month: 9
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Art & Design Essentials Pack Quick Demo
+    url: https://www.youtube.com/watch?v=f5uALKRwMKE
+    channelName: Unity
+    description: 'Learn more about Unity Essentials Packs here: https://store.unity.com/offer/unity-essentials-packs#ep-yt-artdesign
+
+
+      Subscribe
+      today and get up to $188 in top-rated Asset Store tools FREE by selecting an
+      Essentials Pack of your choosing at checkout. Select from VR, Mobile, 2D, or
+      Art & Design.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/f5uALKRwMKE/sddefault.jpg
+    - https://i.ytimg.com/vi/f5uALKRwMKE/mqdefault.jpg
+    - https://i.ytimg.com/vi/f5uALKRwMKE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/f5uALKRwMKE/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - unity art
+    - unity design
+    - art
+    - design
+    - essentials
+    - unity essentials
+    - asset pack
+    - octave3d
+    - fogvolume3
+    - fog
+    - fog volume 3
+    - uber shader
+    - uber standard shader ultra
+    - octave 3d
+    viewCount: 18535
+    likeCount: 275
+    dislikeCount: 24
+    commentCount: 14
+    durationInMinutes: 7
+    publishedAtDate: 636398204600000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity and Havok Physics for DOTS-based projects
+    url: https://www.youtube.com/watch?v=TPIIT6SK9vA
+    channelName: Unity
+    description: 'Hear Shawn McClelland (Product Manager at Unity) and Joel Van Eenwyk
+      (Field Application Engineer at Havok) explain how we partnered to build on
+      top of the DOTS framework.
+
+      Learn more: https://on.unity.com/2SnwEMG'
+    thumbUrls:
+    - https://i.ytimg.com/vi/TPIIT6SK9vA/sddefault.jpg
+    - https://i.ytimg.com/vi/TPIIT6SK9vA/mqdefault.jpg
+    - https://i.ytimg.com/vi/TPIIT6SK9vA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TPIIT6SK9vA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 10270
+    likeCount: 407
+    dislikeCount: 24
+    commentCount: 37
+    durationInMinutes: 3
+    publishedAtDate: 636995789070000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Analytics Raw Data Export Demo
+    url: https://www.youtube.com/watch?v=7JXG1DKR-ZM
+    channelName: Unity
+    description: 'The real time Raw Data Export from Unity Analytics gives you full
+      control of your own data and how you use it.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V6Ys/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/7JXG1DKR-ZM/sddefault.jpg
+    - https://i.ytimg.com/vi/7JXG1DKR-ZM/mqdefault.jpg
+    - https://i.ytimg.com/vi/7JXG1DKR-ZM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7JXG1DKR-ZM/hqdefault.jpg
+    tags: []
+    viewCount: 5741
+    likeCount: 58
+    dislikeCount: 2
+    commentCount: 2
+    durationInMinutes: 0
+    publishedAtDate: 636077425900000000
+    publisdedDate:
+      year: 2016
+      month: 8
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity Analytics Data Mystery: The case of the missing revenue'
+    url: https://www.youtube.com/watch?v=uxK8D5aBKuQ
+    channelName: Unity
+    description: "We\u2019ve put together a scenario showing how the world\u2019s
+      greatest detective, Sherlock Holmes, and his faithful companion, Dr. Watson,
+      might have used Unity Analytics in a modern-day data mystery involving the
+      sudden, mysterious disappearance of a whole group of active game users \u2014
+      and the revenue they were contributing.\n\nHelp us caption & translate this
+      video!\n\nhttp://amara.org/v/V6ZF/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/uxK8D5aBKuQ/sddefault.jpg
+    - https://i.ytimg.com/vi/uxK8D5aBKuQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/uxK8D5aBKuQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/uxK8D5aBKuQ/hqdefault.jpg
+    tags:
+    - data mystery
+    - unity analytics
+    - analytics for games
+    - missing game revenue
+    - game revenue
+    - in-game monetization
+    - game analytics
+    - in-game analytics
+    viewCount: 15203
+    likeCount: 438
+    dislikeCount: 23
+    commentCount: 52
+    durationInMinutes: 5
+    publishedAtDate: 636060052880000000
+    publisdedDate:
+      year: 2016
+      month: 8
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 4.6 - New UI System overview
+    url: https://www.youtube.com/watch?v=EOX6itCuKOc
+    channelName: Unity
+    description: 'Ahead of it''s release, Rune Skovbo Johansen gives an overview
+      of the upcoming new UI system.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V67c/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/EOX6itCuKOc/sddefault.jpg
+    - https://i.ytimg.com/vi/EOX6itCuKOc/mqdefault.jpg
+    - https://i.ytimg.com/vi/EOX6itCuKOc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/EOX6itCuKOc/hqdefault.jpg
+    tags:
+    - ui
+    - gui
+    - Unity
+    - Unity 4.6
+    - New GUI
+    - UI system
+    - Unity3d
+    - Unity (Software)
+    - User Interface (Ontology Instance)
+    viewCount: 237662
+    likeCount: 1529
+    dislikeCount: 17
+    commentCount: 240
+    durationInMinutes: 28
+    publishedAtDate: 635369041650000000
+    publisdedDate:
+      year: 2014
+      month: 5
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity 2019.3 feature: Input System'
+    url: https://www.youtube.com/watch?v=QZbBYOaA164
+    channelName: Unity
+    description: 'One of our new features of Unity 2019.3 is the new Input System.
+      Its workflow is designed around Input Actions, an interface that allows separating
+      controls binding from the code logic. The new system is consistent across platforms,
+      extensible and customizable, and is currently in Preview.
+
+
+      More info:
+      https://on.unity.com/396J5UP'
+    thumbUrls:
+    - https://i.ytimg.com/vi/QZbBYOaA164/sddefault.jpg
+    - https://i.ytimg.com/vi/QZbBYOaA164/mqdefault.jpg
+    - https://i.ytimg.com/vi/QZbBYOaA164/maxresdefault.jpg
+    - https://i.ytimg.com/vi/QZbBYOaA164/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 15251
+    likeCount: 469
+    dislikeCount: 60
+    commentCount: 88
+    durationInMinutes: 3
+    publishedAtDate: 637183627020000000
+    publisdedDate:
+      year: 2020
+      month: 2
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: UI Image - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=WFQcc1GUe7U
+    channelName: Unity
+    description: The UI Image component is the main graphic element of the UI system
+      in Unity, and is used for everything from button and panel backgrounds to slider
+      handles and speedometers!
+    thumbUrls:
+    - https://i.ytimg.com/vi/WFQcc1GUe7U/sddefault.jpg
+    - https://i.ytimg.com/vi/WFQcc1GUe7U/mqdefault.jpg
+    - https://i.ytimg.com/vi/WFQcc1GUe7U/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WFQcc1GUe7U/hqdefault.jpg
+    tags:
+    - UI
+    - image
+    - GUI
+    - graphic
+    - Unity (Software)
+    - Tutorial (Media Genre)
+    - Photoshop
+    - sprite
+    - slice
+    - 2d
+    - Unity3d
+    viewCount: 101325
+    likeCount: 307
+    dislikeCount: 40
+    commentCount: 17
+    durationInMinutes: 3
+    publishedAtDate: 635441734290000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: UI Events and Event Triggers - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=3NBYqPAA5Es
+    channelName: Unity
+    description: 'Watch on the official Unity learn pages here -
+
+
+      In Unity
+      4.6 we add the new Event System to trigger things in code from your UI. This
+      tutorial is a quick overview of the system and how it works.
+
+
+      Help us
+      caption & translate this video!
+
+
+      http://amara.org/v/V67C/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/3NBYqPAA5Es/sddefault.jpg
+    - https://i.ytimg.com/vi/3NBYqPAA5Es/mqdefault.jpg
+    - https://i.ytimg.com/vi/3NBYqPAA5Es/maxresdefault.jpg
+    - https://i.ytimg.com/vi/3NBYqPAA5Es/hqdefault.jpg
+    tags:
+    - unity
+    - ui
+    - events
+    - event system
+    - event triggers
+    - user interface
+    viewCount: 142430
+    likeCount: 600
+    dislikeCount: 76
+    commentCount: 76
+    durationInMinutes: 5
+    publishedAtDate: 635441734280000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Tips for Level Design in Unity 2019!
+    url: https://www.youtube.com/watch?v=t0G5p6z8NkQ
+    channelName: Unity
+    description: 'In this video, we share some valuable tips and features for Level
+      Design in Unity 2019! These features include Polybrush, ProBuilder, Terrain,
+      Terrain Tools package, and more!
+
+
+      Check out my Polybrush video here:
+      https://ole.unity.com/PolybrushVideo
+
+      Learn more about Universal Render
+      Pipeline: https://ole.unity.com/UniversalRP
+
+
+      Assets used in this video:
+
+      Ground
+      Textures: https://ole.unity.com/GroundTextures
+
+      Low Poly Ultimate Pack:
+      https://ole.unity.com/LowPolyPack
+
+      Time of Day: https://ole.unity.com/TimeOfDaySky'
+    thumbUrls:
+    - https://i.ytimg.com/vi/t0G5p6z8NkQ/sddefault.jpg
+    - https://i.ytimg.com/vi/t0G5p6z8NkQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/t0G5p6z8NkQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/t0G5p6z8NkQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity level design
+    - unity tips for level design
+    - unity 2019 level design
+    - unity 2019 level design tutorial
+    - unity tips and tricks
+    - unity tips
+    - unity tricks
+    - unity3d
+    - unity game
+    - making a game with unity
+    - learn unity in 2019
+    - unity gamedev
+    - unity indie
+    - tips for level design
+    - tips for level design in unity 2019
+    - unity how to make a level
+    - unity terrian
+    - unity terrain 2019
+    - unity polybrush
+    - basics
+    viewCount: 59317
+    likeCount: 1787
+    dislikeCount: 93
+    commentCount: 78
+    durationInMinutes: 5
+    publishedAtDate: 637083324090000000
+    publisdedDate:
+      year: 2019
+      month: 11
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Tic Toc Games: Speeding up games and development with DOTS'
+    url: https://www.youtube.com/watch?v=oO2Qpv_r0Gg
+    channelName: Unity
+    description: "Read the full breakdown of how Tic Toc Games use DOTS: https://on.unity.com/2F1ZpZp\nIn
+      this interview, Garth Smith (Tic Toc Games) explains how the team leveraged
+      our Data-Oriented Technology Stack (DOTS) \u2013 which includes the Entity
+      Component System (ECS), the C# Job System, and the Burst Compiler \u2013 to
+      enable 60 fps performance on mobile devices without draining batteries or overheating
+      phones.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/nz00/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/oO2Qpv_r0Gg/sddefault.jpg
+    - https://i.ytimg.com/vi/oO2Qpv_r0Gg/mqdefault.jpg
+    - https://i.ytimg.com/vi/oO2Qpv_r0Gg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/oO2Qpv_r0Gg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 6565
+    likeCount: 158
+    dislikeCount: 22
+    commentCount: 31
+    durationInMinutes: 3
+    publishedAtDate: 636879161180000000
+    publisdedDate:
+      year: 2019
+      month: 3
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: 'The Journey: Ep. 2 | Open Projects'
+    url: https://www.youtube.com/watch?v=ukE73ifSrTM
+    channelName: Unity
+    description: "Join the Unity team in another installment of the Open Projects
+      livestream: get a glimpse of the first project, discover its roadmap, and of
+      the contributions the community already made to it.\n\n00:00 - Intro music\n02:31
+      - Livestream begins\n18:48 - UI wireframing\n37:55 - Event system / Loading
+      system\n50:17 - Loading system in-editor demo\n01:01:36 - State Machine\n01:18:04
+      - Choosing the game title\n01:25:05 - New tasks reveal!\n01:34:45 - Q&A and
+      Community Contributions\n\n\u2B50 Join the Open Projects forum! https://on.unity.com/35UzPEp\n\u2B50
+      Github repository for Project #1: https://on.unity.com/3kBcCLD\n\u2B50 Check
+      out the roadmap for Project #1! https://on.unity.com/3hMBH4F"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ukE73ifSrTM/sddefault.jpg
+    - https://i.ytimg.com/vi/ukE73ifSrTM/mqdefault.jpg
+    - https://i.ytimg.com/vi/ukE73ifSrTM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ukE73ifSrTM/hqdefault.jpg
+    tags: []
+    viewCount: 31754
+    likeCount: 839
+    dislikeCount: 15
+    commentCount: 36
+    durationInMinutes: 126
+    publishedAtDate: 637394451740000000
+    publisdedDate:
+      year: 2020
+      month: 10
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Settings and Features - Unity 2018: UFPS 2 Overview (3/3)'
+    url: https://www.youtube.com/watch?v=wlOZXtaZpR0
+    channelName: Unity
+    description: "Check out UFPS 2 here: https://ole.unity.com/ufps2\n\nIn this series
+      of 3 videos, we're going to take a look at an overview of UFPS 2, and see how
+      we can use a wide set of options and features to add an FPS controller into
+      our Unity projects.\n\nThe Ultimate First Person Shooter (UFPS) is your ultimate
+      solution for creating ANY first person shooter game. It is a professional,
+      deterministic character controller designed to include the smoothest first
+      person controls and to excel in all areas: PC, mobile, console, AI, networking,
+      and VR. \n\nUFPS version 2 was built from the ground up leveraging the best
+      parts of version 1 of our controllers, which have been on the Asset Store for
+      many years and have resulted in a solid code base. A no compromises approach
+      was taken during development when determining how to implement a feature: opting
+      to have an extremely polished asset instead of quickly rushing a particular
+      feature out the door. \n\nA wide variety of shootable weapons such as a rocket
+      launcher, sniper, and bow & arrow are included. The spring system is the heart
+      of first person perspective adding bobs, shakes, and sways to the camera/items.
+      The editor scripts allow you to create your character and items in seconds.
+      The ability system comes with over 20 abilities or add your own functionality
+      without having to change any of the included scripts. Up may not always be
+      up with the adjustable dynamic gravity system. Full body awareness is supported.
+      UFPS comes with more than 200 pages of documentation plus tutorial videos to
+      help you easily get started on your project."
+    thumbUrls:
+    - https://i.ytimg.com/vi/wlOZXtaZpR0/sddefault.jpg
+    - https://i.ytimg.com/vi/wlOZXtaZpR0/mqdefault.jpg
+    - https://i.ytimg.com/vi/wlOZXtaZpR0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wlOZXtaZpR0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ufps
+    - unity ufps
+    - ufps tutorial
+    - unity ufps tutorial
+    - unity 2018
+    - unity 2018.3
+    - unity ufps asset
+    - ultimate fps shooter
+    - ultimate fps shooter unity
+    - ufps unity
+    - ufps unity tutorial
+    - easy
+    - beginner
+    - basic
+    - unity ufps ultimate fps
+    - unity ultimate fps
+    - unity fps
+    - unity fps tutorial
+    - unity fps tutorial 2018
+    - unity ufps mobile
+    - unity game
+    - unity games tutorial
+    - unity 2018 tutorial
+    - asset
+    - assets
+    - ufps 2
+    viewCount: 11368
+    likeCount: 130
+    dislikeCount: 29
+    commentCount: 16
+    durationInMinutes: 10
+    publishedAtDate: 636741202560000000
+    publisdedDate:
+      year: 2018
+      month: 10
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Scripting Improvements in Unity 2019 LTS & 2020.1
+    url: https://www.youtube.com/watch?v=txgNwQpqwtY
+    channelName: Unity
+    description: "In this video, we compiled the most recent Scripting Improvements
+      from Unity 2019 LTS and 2020.1 \n\nLearn more about our Unity 2019.3 Programmer
+      Tools here:\nhttps://on.unity.com/3o6uu3K\n\nYou can see what else is new in
+      2020.1 here\nhttps://on.unity.com/2IK6CCF\n\nDownload the Unity Royale Project
+      here:\nhttps://on.unity.com/2T5Saaf\n\n\nChapters:\n00:00 Intro\n00:36 Compiler
+      Performance\n01:06 Configurable Enter Play Mode\n03:29 TypeCache API\n04:00
+      Serialization Improvements\n05:21 IDE Support Packages\n05:57 Debugging Workflow\n06:36
+      Code Coverage\n\nUnity Version Used: 2020.1"
+    thumbUrls:
+    - https://i.ytimg.com/vi/txgNwQpqwtY/sddefault.jpg
+    - https://i.ytimg.com/vi/txgNwQpqwtY/mqdefault.jpg
+    - https://i.ytimg.com/vi/txgNwQpqwtY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/txgNwQpqwtY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Unity2d
+    - Scripting Improvements
+    - Scripting in Unity3d
+    - Programming Tool
+    - Programming in Unity
+    - IL2CPP
+    - Scripting in unity
+    - Unity 2019 LTS
+    - Unity 2020.1
+    - Unity Royale
+    - tower defense
+    viewCount: 37743
+    likeCount: 1501
+    dislikeCount: 13
+    commentCount: 146
+    durationInMinutes: 7
+    publishedAtDate: 637387326030000000
+    publisdedDate:
+      year: 2020
+      month: 10
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Scaling up with DOTS: Tips from Far North Entertainment'
+    url: https://www.youtube.com/watch?v=QGM4feh0fRA
+    channelName: Unity
+    description: 'Many studios are already seeing massive performance wins when using
+      our Data-Oriented Tech Stack, including the Entity Component System (ECS),
+      the C# Job System, and the Burst Compiler. We talked to Far North Entertainment
+      to learn they got started with DOTS. Learn more: https://on.unity.com/37DOzWF'
+    thumbUrls:
+    - https://i.ytimg.com/vi/QGM4feh0fRA/sddefault.jpg
+    - https://i.ytimg.com/vi/QGM4feh0fRA/mqdefault.jpg
+    - https://i.ytimg.com/vi/QGM4feh0fRA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/QGM4feh0fRA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 9766
+    likeCount: 230
+    dislikeCount: 17
+    commentCount: 12
+    durationInMinutes: 3
+    publishedAtDate: 637104818350000000
+    publisdedDate:
+      year: 2019
+      month: 11
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Roll-a-Ball: 2.1 Add a Rigidbody to the player'
+    url: https://www.youtube.com/watch?v=IItr6riqfyM
+    channelName: Unity
+    description: "In this tutorial, you\u2019ll:\n\n- Understand components and how
+      to add them to your objects\n- Understand what the rigidbody and Collider components
+      are and how they function on an object\n- Be able to use package manager and
+      know how to add packages\n- Understand what is the Input System is and how
+      to use PlayerInput on a basic GameObject\n- Creating a C# script and editing
+      it in Visual Studio\n- Understand the theory behind variables and methods +
+      Update()\n- Be able to use Vector3\u2019s and adding forces via script\n- Be
+      able to take this knowledge and apply this to the players movement\n\nFor the
+      full Roll a Ball course, go to: https://learn.unity.com/project/roll-a-ball"
+    thumbUrls:
+    - https://i.ytimg.com/vi/IItr6riqfyM/sddefault.jpg
+    - https://i.ytimg.com/vi/IItr6riqfyM/mqdefault.jpg
+    - https://i.ytimg.com/vi/IItr6riqfyM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IItr6riqfyM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Programming
+    - Beginner Code
+    - C#
+    - roll a ball
+    viewCount: 18838
+    likeCount: 99
+    dislikeCount: 2
+    commentCount: 8
+    durationInMinutes: 1
+    publishedAtDate: 637335614130000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Real-time results: VRED to Unity'
+    url: https://www.youtube.com/watch?v=XRMiPv0HaFU
+    channelName: Unity
+    description: 'Instead of hours of manual work, VRED data can be brought into
+      Unity in minutes.
+
+
+      Model courtesy of Genesis Design GmbH.
+
+
+      Learn
+      more: https://unity3d.com/partners/autodesk'
+    thumbUrls:
+    - https://i.ytimg.com/vi/XRMiPv0HaFU/sddefault.jpg
+    - https://i.ytimg.com/vi/XRMiPv0HaFU/mqdefault.jpg
+    - https://i.ytimg.com/vi/XRMiPv0HaFU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/XRMiPv0HaFU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Demo
+    - Automotive
+    viewCount: 7753
+    likeCount: 68
+    dislikeCount: 2
+    commentCount: 6
+    durationInMinutes: 0
+    publishedAtDate: 636778411430000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game 2 - Serialization and Game Data [3/7] Live 2016/11/25
+    url: https://www.youtube.com/watch?v=6MZCMLXW1mw
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/serialization-and-game-data
+
+
+      In
+      this live training session we will learn how to extend our basic Quiz Game
+      created in session one to include: loading game data from an external JSON
+      file, editor scripting to create a window for editing game data and very basic
+      saving of player progress using PlayerPrefs.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/6MZCMLXW1mw/sddefault.jpg
+    - https://i.ytimg.com/vi/6MZCMLXW1mw/mqdefault.jpg
+    - https://i.ytimg.com/vi/6MZCMLXW1mw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/6MZCMLXW1mw/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - game development
+    - json
+    - serialization
+    - high score
+    - playerprefs
+    - game data
+    - save
+    - load
+    - editor scripting
+    - quiz game
+    - quiz
+    viewCount: 11065
+    likeCount: 47
+    dislikeCount: 2
+    commentCount: 8
+    durationInMinutes: 4
+    publishedAtDate: 636161434440000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game 2 - Game Data Editor GUI  [6/7] Live 2016/11/25
+    url: https://www.youtube.com/watch?v=-GfCRhTphLA
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/game-data-editor-gui
+
+
+      In
+      this live training session we will learn how to extend our basic Quiz Game
+      created in session one to include: loading game data from an external JSON
+      file, editor scripting to create a window for editing game data and very basic
+      saving of player progress using PlayerPrefs.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/-GfCRhTphLA/sddefault.jpg
+    - https://i.ytimg.com/vi/-GfCRhTphLA/mqdefault.jpg
+    - https://i.ytimg.com/vi/-GfCRhTphLA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-GfCRhTphLA/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - game development
+    - json
+    - serialization
+    - high score
+    - playerprefs
+    - game data
+    - save
+    - load
+    - editor scripting
+    - quiz game
+    - quiz
+    viewCount: 10495
+    likeCount: 72
+    dislikeCount: 1
+    commentCount: 11
+    durationInMinutes: 12
+    publishedAtDate: 636161435760000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game 2  - Loading Game Data via JSON  [4/7] Live 2016/11/25
+    url: https://www.youtube.com/watch?v=No_COzTN-Is
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/loading-game-data-json
+
+
+      In
+      this live training session we will learn how to extend our basic Quiz Game
+      created in session one to include: loading game data from an external JSON
+      file, editor scripting to create a window for editing game data and very basic
+      saving of player progress using PlayerPrefs.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/No_COzTN-Is/sddefault.jpg
+    - https://i.ytimg.com/vi/No_COzTN-Is/mqdefault.jpg
+    - https://i.ytimg.com/vi/No_COzTN-Is/maxresdefault.jpg
+    - https://i.ytimg.com/vi/No_COzTN-Is/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - game development
+    - json
+    - serialization
+    - high score
+    - playerprefs
+    - game data
+    - save
+    - load
+    - editor scripting
+    - quiz game
+    - quiz
+    viewCount: 16985
+    likeCount: 86
+    dislikeCount: 2
+    commentCount: 24
+    durationInMinutes: 9
+    publishedAtDate: 636161434930000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Quiz Game - Data Classes  [2/8] Live 2016/11/14
+    url: https://www.youtube.com/watch?v=6tme8b5ZGhA
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/data-classes
+
+
+      In
+      this live training session we will look at creating a multiple choice quiz
+      game. We will create the core game loop - timer, score, win and lose states.
+      We will also show code architecture best practices - keeping data and logic
+      separate, and how to structure a game in a way that makes it easy to maintain
+      and extend. We will look at some of the ways we can extend this in session
+      two.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/0RsD/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/6tme8b5ZGhA/sddefault.jpg
+    - https://i.ytimg.com/vi/6tme8b5ZGhA/mqdefault.jpg
+    - https://i.ytimg.com/vi/6tme8b5ZGhA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/6tme8b5ZGhA/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - game development
+    - quiz
+    - quiz game
+    - ui
+    - data
+    - scripting
+    viewCount: 37092
+    likeCount: 143
+    dislikeCount: 6
+    commentCount: 38
+    durationInMinutes: 8
+    publishedAtDate: 636149340820000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Playing Video In Unity - The VideoPlayer Component [2/8] Live 2017/7/12
+    url: https://www.youtube.com/watch?v=he7xfXwFhk4
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/videoplayer-component
+
+
+
+      In
+      this session we will learn how to create an in-game video player which the
+      player can interact with using first person shooter controls. The goals of
+      this session are to learn how to use the VideoPlayer component and how to write
+      scripts to control it. In this session we will give an overview of the VideoPlayer
+      component and how to configure it in the editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/he7xfXwFhk4/sddefault.jpg
+    - https://i.ytimg.com/vi/he7xfXwFhk4/mqdefault.jpg
+    - https://i.ytimg.com/vi/he7xfXwFhk4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/he7xfXwFhk4/hqdefault.jpg
+    tags:
+    - Unity
+    - unity3d
+    - video
+    - videoplayer
+    - videoclip
+    - video clip
+    - video player
+    - play
+    - pause
+    - rendertexture
+    - render texture
+    - material override
+    - render mode
+    viewCount: 24946
+    likeCount: 123
+    dislikeCount: 8
+    commentCount: 8
+    durationInMinutes: 8
+    publishedAtDate: 636356685740000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Overview - Intro To The Entity Component System And C# Job System 1/5
+    url: https://www.youtube.com/watch?v=WLfhUKp2gag
+    channelName: Unity
+    description: 'Join our next online user group: https://ole.unity.com/olug_june27
+
+
+      In
+      this presentation, Unity Evangelist Mike Geig explains how to convert a project
+      from Monobehaviour style code to code which uses the C# Job System and then
+      code which uses that and the Entity Component System and Burst Compiler.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/WLfhUKp2gag/sddefault.jpg
+    - https://i.ytimg.com/vi/WLfhUKp2gag/mqdefault.jpg
+    - https://i.ytimg.com/vi/WLfhUKp2gag/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WLfhUKp2gag/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ECS
+    - entity component system
+    - c# job system
+    - burst compiler
+    - C# jobs
+    - jobified
+    - data driven design
+    - unity 2018
+    - unity 2018.1
+    - unity 2018.2
+    - unity entity component system
+    - entity
+    - component
+    - system
+    - job system
+    - unity 2018 ecs
+    - unity ecs
+    - ecs for beginners
+    - how to use ecs
+    - unity C# ecs
+    - ecs example
+    - beginner
+    - basics
+    - tutorial
+    - entity component
+    - unity ecs code
+    - easy
+    - programming
+    - performance
+    - new
+    - coding
+    viewCount: 72644
+    likeCount: 927
+    dislikeCount: 11
+    commentCount: 50
+    durationInMinutes: 7
+    publishedAtDate: 636639903070000000
+    publisdedDate:
+      year: 2018
+      month: 6
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Navigation Overview - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=iMOYTAbN4CM
+    channelName: Unity
+    description: 'Watch this video in context on the Unity learning pages here: http://unity3d.com/learn/tutorials/modules/beginner/navigation/navigation-overview
+
+      The
+      navigation system in Unity allows us to provide powerful path finding to the
+      characters in our games very easily. In this video we will look at the basics
+      of navigation.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V68L/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/iMOYTAbN4CM/sddefault.jpg
+    - https://i.ytimg.com/vi/iMOYTAbN4CM/mqdefault.jpg
+    - https://i.ytimg.com/vi/iMOYTAbN4CM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/iMOYTAbN4CM/hqdefault.jpg
+    tags: []
+    viewCount: 42546
+    likeCount: 93
+    dislikeCount: 1
+    commentCount: 11
+    durationInMinutes: 1
+    publishedAtDate: 635283150840000000
+    publisdedDate:
+      year: 2014
+      month: 2
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Making Particles in Unity 2018.4! (Beginner Friendly Tutorial)
+    url: https://www.youtube.com/watch?v=oPUxv-zClNA
+    channelName: Unity
+    description: 'Using particles is a great way to add effects to your games! We''ll
+      look at how to implement basic settings from the Particle System Component
+      using Unity 2019!
+
+
+      To view a written version of this tutorial and access
+      the ready-made particle effects we created in this video go to: https://learn.unity.com/tutorial/karting-mod-add-particles
+
+
+      Particle
+      Examples:
+
+      https://ole.unity.com/particleexample
+
+
+      The Karting
+      Micro-Game is a game project which you can download and walkthrough in order
+      to learn Unity for the first time. To get started with the Karting Micro-Game
+      and Mods tutorials go to: https://learn.unity.com/project/karting-template'
+    thumbUrls:
+    - https://i.ytimg.com/vi/oPUxv-zClNA/sddefault.jpg
+    - https://i.ytimg.com/vi/oPUxv-zClNA/mqdefault.jpg
+    - https://i.ytimg.com/vi/oPUxv-zClNA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/oPUxv-zClNA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Particles
+    - Particle System
+    - Kart Racer
+    - Kart Prototype Unity
+    - Unity VFX
+    - Unity Particles
+    - Unity Micro Games
+    - Unity Jam
+    - unity 2019
+    - unity 2019 particles
+    viewCount: 88514
+    likeCount: 1536
+    dislikeCount: 39
+    commentCount: 160
+    durationInMinutes: 5
+    publishedAtDate: 637061818530000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Localization Tools - Localized Text Component [6/8] Live 2017/1/9
+    url: https://www.youtube.com/watch?v=tsuc_lK_afI
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/localized-text-component?playlist=17117
+
+
+      In
+      this live training example we will look at a common need for many games: localizing
+      text into other languages. We will create a LocalizationManager class that
+      loads a file with localized text, and a component that can be attached to a
+      text field in order to populate it with the localized text at runtime.  We
+      will also look at loading and parsing JSON files, dictionaries and some data
+      driven best practices.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/tsuc_lK_afI/sddefault.jpg
+    - https://i.ytimg.com/vi/tsuc_lK_afI/mqdefault.jpg
+    - https://i.ytimg.com/vi/tsuc_lK_afI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/tsuc_lK_afI/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - localize
+    - localization
+    - translation
+    - json
+    - string
+    - tutorial
+    - translate
+    viewCount: 10487
+    likeCount: 84
+    dislikeCount: 3
+    commentCount: 11
+    durationInMinutes: 11
+    publishedAtDate: 636197734970000000
+    publisdedDate:
+      year: 2017
+      month: 1
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Localization Tools - Localization Data [2/8] Live 2017/1/9
+    url: https://www.youtube.com/watch?v=MYuBNuoU95g
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/localization-data?playlist=17117
+
+
+      In
+      this live training example we will look at a common need for many games: localizing
+      text into other languages. We will create a LocalizationManager class that
+      loads a file with localized text, and a component that can be attached to a
+      text field in order to populate it with the localized text at runtime.  We
+      will also look at loading and parsing JSON files, dictionaries and some data
+      driven best practices.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/MYuBNuoU95g/sddefault.jpg
+    - https://i.ytimg.com/vi/MYuBNuoU95g/mqdefault.jpg
+    - https://i.ytimg.com/vi/MYuBNuoU95g/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MYuBNuoU95g/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - localize
+    - localization
+    - translation
+    - json
+    - string
+    - tutorial
+    - translate
+    viewCount: 18218
+    likeCount: 127
+    dislikeCount: 4
+    commentCount: 8
+    durationInMinutes: 4
+    publishedAtDate: 636197757160000000
+    publisdedDate:
+      year: 2017
+      month: 1
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Loading Assets with the Addressable Asset System - Trash Dash in Unity
+      2018 (Update!)
+    url: https://www.youtube.com/watch?v=dKYuyKoKU14
+    channelName: Unity
+    description: "Download Trash Dash now: https://ole.unity.com/trashdash\n\nIn
+      this video, we're going to see how our game Trash Dash utilizes the Lightweight
+      Render Pipeline and new Addressable Asset System!\n\nTrash Dash is a game that
+      we created as an example of how to use Unity Services in a mobile game. It
+      also contains some useful examples of coding architecture and techniques for
+      solving common game programming problems. \n\nAnd now, our demo team have reworked
+      the Trash Dash project, and made it compatible with the Lightweight Render
+      Pipeline and the brand new Addressable Asset System in Unity."
+    thumbUrls:
+    - https://i.ytimg.com/vi/dKYuyKoKU14/sddefault.jpg
+    - https://i.ytimg.com/vi/dKYuyKoKU14/mqdefault.jpg
+    - https://i.ytimg.com/vi/dKYuyKoKU14/maxresdefault.jpg
+    - https://i.ytimg.com/vi/dKYuyKoKU14/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity 2018
+    - unity trash dash
+    - unity trash dash new
+    - unity lwrp tutorial
+    - unity lwrp
+    - unity lightweight render pipeline
+    - lightweight render pipeline
+    - unity srp
+    - unity trash dash tutorial
+    - unity 2018.2 trash dash
+    - unity lightweight render
+    - unity trash dash game
+    - unity free game
+    - render pipeline
+    - render pipeline unity
+    - addressable assets unity
+    - addressable assets
+    - addressable
+    - assets
+    - asset
+    - 3d
+    viewCount: 26898
+    likeCount: 187
+    dislikeCount: 14
+    commentCount: 17
+    durationInMinutes: 3
+    publishedAtDate: 636699676560000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Live Training Dec. 21, 2015: Merry Fragmas 2.0 Multiplayer FPS'
+    url: https://www.youtube.com/watch?v=1aj0zDYF4Z8
+    channelName: Unity
+    description: 'Get the scripts and more context at: http://unity3d.com/learn/tutorials/modules/intermediate/live-training-archive/fragmas-2-multiplayer-fps
+
+
+      Merry
+      Fragmas everyone! Mike Geig returns with a festive live training session packed
+      with wanton yuletide destruction! In this session we will be building a Networked
+      Multiplayer First Person Shooter game. The content will range from beginner
+      to intermediate as we look at scripting and features specific to multiplayer
+      networking. As this is an updated version of the Merry Fragmas live training
+      from last December, some concepts will move more quickly. Another notable change
+      is that this year we will be using the new networking system built into Unity
+      instead of Photon. Pack a lunch because we are going to complete this in a
+      single session even if it means we go over our usual 1 hour limit. Let the
+      slay bells ring!
+
+      Tutor: Mike Geig
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V60n/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/1aj0zDYF4Z8/sddefault.jpg
+    - https://i.ytimg.com/vi/1aj0zDYF4Z8/mqdefault.jpg
+    - https://i.ytimg.com/vi/1aj0zDYF4Z8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1aj0zDYF4Z8/hqdefault.jpg
+    tags: []
+    viewCount: 22041
+    likeCount: 351
+    dislikeCount: 6
+    commentCount: 62
+    durationInMinutes: 95
+    publishedAtDate: 635864135100000000
+    publisdedDate:
+      year: 2015
+      month: 12
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Live Training April 13th, 2015: Creating a Simple Messaging System'
+    url: https://www.youtube.com/watch?v=0AqG1fDhPT8
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/modules/intermediate/live-training-archive/events-creating-simple-messaging-system
+
+
+      Recap
+      the live training session on creating a simple messaging system to reduce dependencies
+      and allow easier maintenance of our projects
+
+
+      If you have any comments,
+      suggestions or requests, put them up on our official forum thread:
+
+      http://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V64D/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/0AqG1fDhPT8/sddefault.jpg
+    - https://i.ytimg.com/vi/0AqG1fDhPT8/mqdefault.jpg
+    - https://i.ytimg.com/vi/0AqG1fDhPT8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0AqG1fDhPT8/hqdefault.jpg
+    tags: []
+    viewCount: 42300
+    likeCount: 391
+    dislikeCount: 47
+    commentCount: 101
+    durationInMinutes: 62
+    publishedAtDate: 635659280180000000
+    publisdedDate:
+      year: 2015
+      month: 4
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: Live Training 8th August 2016 - Ability System with Scriptable Objects
+    url: https://www.youtube.com/watch?v=bvRKfLPqQ0Q
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/topics/scripting/ability-system-scriptable-objects
+
+
+
+      In
+      this live training session we will create a flexible player ability system
+      which includes player abilities with cool downs, similar to those seen in MOBA
+      or MMO games. The approach uses scriptable objects and is designed to allow
+      game designers to create multiple variations of an ability and swap between
+      them easily.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6ZE/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/bvRKfLPqQ0Q/sddefault.jpg
+    - https://i.ytimg.com/vi/bvRKfLPqQ0Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/bvRKfLPqQ0Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/bvRKfLPqQ0Q/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - ability
+    - cooldown
+    - moba
+    - mmo
+    - c#
+    - abstract class
+    - scriptable object
+    - scriptable
+    - object
+    - cooldown bar
+    viewCount: 76794
+    likeCount: 1086
+    dislikeCount: 12
+    commentCount: 88
+    durationInMinutes: 60
+    publishedAtDate: 636063851400000000
+    publisdedDate:
+      year: 2016
+      month: 8
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Live Training 5th September 2016 - Creating a Main Menu
+    url: https://www.youtube.com/watch?v=OWtQnZsSdEU
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/user-interface-ui/creating-main-menu
+
+
+      2:20
+      Import Assets
+
+      3:40 Set Up Background
+
+      5:20 Create Canvas & Panel
+
+      7:18
+      Anchor Panel Position
+
+      10:05 Adding Art To Our Panel
+
+      12:28 Importing
+      and Slicing Your Own Sprites For UI
+
+      16:20 Adding Buttons
+
+      17:30
+      Button Transition with Color Tint
+
+      21:35 Vertical Layout Group
+
+      27:32
+      Creating Audio Panel
+
+      31:05 Creating Help Panel
+
+      32:49 Changing
+      Canvas Scale
+
+      33:50 Loading Scene From Start Button
+
+      40:20 Help
+      Button To Open Help Panel
+
+      44:00 Audio Button To Open Audio Panel
+
+      44:44
+      Back Buttons To Exit To Main Menu
+
+      47:47 Quit Button To Quit Game / Exit
+      Play Mode
+
+      52:10 Detecting Keyboard or Gamepad Navigation and Selecting
+      UI
+
+
+      Learn how to use Unity''s UI system to create a basic menu for your
+      game including buttons, sub-pages for help and audio settings and scripts to
+      control menu functionality.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6Yo/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/OWtQnZsSdEU/sddefault.jpg
+    - https://i.ytimg.com/vi/OWtQnZsSdEU/mqdefault.jpg
+    - https://i.ytimg.com/vi/OWtQnZsSdEU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/OWtQnZsSdEU/hqdefault.jpg
+    tags:
+    - unity3d
+    - tutorial
+    - live training
+    - menu
+    - game menu
+    - main menu
+    - ui
+    - button
+    - panel
+    - slider
+    - unity
+    - game development
+    - training
+    - live
+    viewCount: 224513
+    likeCount: 2451
+    dislikeCount: 50
+    commentCount: 238
+    durationInMinutes: 61
+    publishedAtDate: 636088118180000000
+    publisdedDate:
+      year: 2016
+      month: 9
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Live Training 3 Mar 2014 - Data Persistence
+    url: https://www.youtube.com/watch?v=J6FfcJpbPXE
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here: http://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/persistence-data-saving-loading
+
+      Jump
+      to 4:07 to bypass intro and technical issues.
+
+      Do you want to know how
+      to keep your data between scenes? How about between executions of your game?
+      During this session we will learn how to do both. We will look at things like
+      DontDestroyOnLoad, PlayerPrefs, and data serialization. Note that this session
+      is coding intensive. It is advisable that you understand datatypes and OOP
+      concepts before attending. Tutor: Mike Geig
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V68E/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/J6FfcJpbPXE/sddefault.jpg
+    - https://i.ytimg.com/vi/J6FfcJpbPXE/mqdefault.jpg
+    - https://i.ytimg.com/vi/J6FfcJpbPXE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/J6FfcJpbPXE/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Video Game Development (Conference Subject)
+    viewCount: 108347
+    likeCount: 1569
+    dislikeCount: 67
+    commentCount: 359
+    durationInMinutes: 56
+    publishedAtDate: 635295401180000000
+    publisdedDate:
+      year: 2014
+      month: 3
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: Live Training 22nd September 2014 -  Animate Anything
+    url: https://www.youtube.com/watch?v=jWuNtik0C8E
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/animate-anything
+
+
+      Recap
+      the live training session on Animate Anything.
+
+
+      In this specific session
+      we covered Inspector Tips, including Component Tools, the Documentation Quick
+      Reference, the Context Menu, Reset Functions, Menu Item Attributes, a script
+      to Align with Ground, additional useful attributes and an open Q&A session.
+
+
+      If
+      you have any comments, suggestions or requests, put them up on our official
+      forum thread:
+
+      http://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V65l/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/jWuNtik0C8E/sddefault.jpg
+    - https://i.ytimg.com/vi/jWuNtik0C8E/mqdefault.jpg
+    - https://i.ytimg.com/vi/jWuNtik0C8E/maxresdefault.jpg
+    - https://i.ytimg.com/vi/jWuNtik0C8E/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - unity3d
+    - live training
+    - mecanim
+    - animation
+    - animator
+    - animate anything
+    viewCount: 24830
+    likeCount: 249
+    dislikeCount: 21
+    commentCount: 46
+    durationInMinutes: 48
+    publishedAtDate: 635473845120000000
+    publisdedDate:
+      year: 2014
+      month: 9
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Live Training 22nd August 2016 - Character Select System with Scriptable
+      Objects
+    url: https://www.youtube.com/watch?v=4VxoE-dsziM
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/topics/scripting/character-select-system-scriptable-objects
+
+
+      In
+      this live training session we will create a system which allows players to
+      select between two different characters, each with a different set of abilities.
+      We will do this using scriptable objects for both the characters and abilities.
+      This session continues from and extends our previous session ''Ability System
+      with Scriptable Objects''.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6Yu/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/4VxoE-dsziM/sddefault.jpg
+    - https://i.ytimg.com/vi/4VxoE-dsziM/mqdefault.jpg
+    - https://i.ytimg.com/vi/4VxoE-dsziM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4VxoE-dsziM/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - game development
+    - character
+    - character select
+    - menu
+    - scriptable object
+    viewCount: 28819
+    likeCount: 354
+    dislikeCount: 10
+    commentCount: 26
+    durationInMinutes: 43
+    publishedAtDate: 636075949700000000
+    publisdedDate:
+      year: 2016
+      month: 8
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Live Training 15th September 2014 -  Tips & Tricks 3
+    url: https://www.youtube.com/watch?v=Evl2lkISzXs
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/tips-tricks-3
+
+
+      Recap
+      the live training session on Unity Tips & Tricks 3.
+
+
+      In this specific
+      session we covered Inspector Tips, including Component Tools, the Documentation
+      Quick Reference, the Context Menu, Reset Functions, Menu Item Attributes, a
+      script to Align with Ground, additional useful attributes and an open Q&A session.
+
+
+      If
+      you have any comments, suggestions or requests, put them up on our official
+      forum thread:
+
+      http://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V65n/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Evl2lkISzXs/sddefault.jpg
+    - https://i.ytimg.com/vi/Evl2lkISzXs/mqdefault.jpg
+    - https://i.ytimg.com/vi/Evl2lkISzXs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Evl2lkISzXs/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - unity3d
+    - live training
+    - sprite ui
+    - Tips
+    - Tricks
+    - Tips and Tricks
+    - Inspector
+    - Context
+    - Context Menu
+    - Attribute
+    viewCount: 7465
+    likeCount: 90
+    dislikeCount: 1
+    commentCount: 9
+    durationInMinutes: 59
+    publishedAtDate: 635465696740000000
+    publisdedDate:
+      year: 2014
+      month: 9
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Live Training 11 Nov 2013 - The Particle System
+    url: https://www.youtube.com/watch?v=xTQeW4muY10
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/particle-systems
+
+      This
+      session we get to grips with the Unity Particle system, and learn how to use
+      it for a variety of effects.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V68v/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/xTQeW4muY10/sddefault.jpg
+    - https://i.ytimg.com/vi/xTQeW4muY10/mqdefault.jpg
+    - https://i.ytimg.com/vi/xTQeW4muY10/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xTQeW4muY10/hqdefault.jpg
+    tags:
+    - particle
+    - effect
+    - system
+    - fx
+    - particles
+    - unity
+    - unity3d
+    - game development
+    - engine
+    viewCount: 86575
+    likeCount: 701
+    dislikeCount: 19
+    commentCount: 65
+    durationInMinutes: 75
+    publishedAtDate: 635198301600000000
+    publisdedDate:
+      year: 2013
+      month: 11
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: Learn how to use Unity with Learn Premium & Create with Code Live
+    url: https://www.youtube.com/watch?v=IKXY7uTB_Fs
+    channelName: Unity
+    description: 'To support our community during the current COVID-19 crisis, we
+      are providing 3 months of complementary access to Unity Learn Premium. We have
+      also launched Create with Code Live, a live 7-week virtual course for students,
+      teachers, and anyone else interested in using this extra time at home to learn
+      to code! Join us starting on Monday, March 23.
+
+
+      Sign in to Learn Premium
+      to access: https://ole.unity.com/LearnPremium
+
+      Check out Create with
+      Code Live: https://ole.unity.com/CreateWithCodeLive'
+    thumbUrls:
+    - https://i.ytimg.com/vi/IKXY7uTB_Fs/sddefault.jpg
+    - https://i.ytimg.com/vi/IKXY7uTB_Fs/mqdefault.jpg
+    - https://i.ytimg.com/vi/IKXY7uTB_Fs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IKXY7uTB_Fs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity learn
+    - learn unity
+    - learn unity free
+    - unity learning
+    - unity how to learn
+    - how to learn unity
+    - get better at unity
+    - learn unity to make games
+    - make games with unity
+    - how to make games in unity
+    - unity learn premium
+    - unity create with code
+    - unity3d
+    - make games in unity
+    - how to make a game in unity
+    - unity create with code live
+    - coronavirus
+    - covid 19
+    - unity announcement
+    - create with code
+    - unity
+    viewCount: 22646
+    likeCount: 971
+    dislikeCount: 32
+    commentCount: 57
+    durationInMinutes: 2
+    publishedAtDate: 637206049550000000
+    publisdedDate:
+      year: 2020
+      month: 3
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Implementing Job System - Intro To The Entity Component System And C#
+      Job System 3/5
+    url: https://www.youtube.com/watch?v=WZ6-LxwxWEI
+    channelName: Unity
+    description: 'Join our next online user group: https://ole.unity.com/olug_june27
+
+
+      In
+      this presentation, Unity Evangelist Mike Geig explains how to convert a project
+      from Monobehaviour style code to code which uses the C# Job System and then
+      code which uses that and the Entity Component System and Burst Compiler.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/WZ6-LxwxWEI/sddefault.jpg
+    - https://i.ytimg.com/vi/WZ6-LxwxWEI/mqdefault.jpg
+    - https://i.ytimg.com/vi/WZ6-LxwxWEI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WZ6-LxwxWEI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ECS
+    - entity component system
+    - c# job system
+    - burst compiler
+    - C# jobs
+    - jobified
+    - data driven design
+    - unity 2018
+    - unity 2018.1
+    - unity 2018.2
+    - unity entity component system
+    - entity
+    - component
+    - system
+    - job system
+    - unity 2018 ecs
+    - unity ecs
+    - ecs for beginners
+    - how to use ecs
+    - unity C# ecs
+    - ecs example
+    - beginner
+    - basics
+    - tutorial
+    - entity component
+    - unity ecs code
+    - easy
+    - programming
+    - performance
+    - new
+    - coding
+    viewCount: 58245
+    likeCount: 460
+    dislikeCount: 31
+    commentCount: 53
+    durationInMinutes: 11
+    publishedAtDate: 636639903070000000
+    publisdedDate:
+      year: 2018
+      month: 6
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Implementing ECS - Intro To The Entity Component System And C# Job System
+      4/5
+    url: https://www.youtube.com/watch?v=j2z5KRWZTDA
+    channelName: Unity
+    description: 'Join our next online user group: https://ole.unity.com/olug_june27
+
+
+      In
+      this presentation, Unity Evangelist Mike Geig explains how to convert a project
+      from Monobehaviour style code to code which uses the C# Job System and then
+      code which uses that and the Entity Component System and Burst Compiler.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/j2z5KRWZTDA/sddefault.jpg
+    - https://i.ytimg.com/vi/j2z5KRWZTDA/mqdefault.jpg
+    - https://i.ytimg.com/vi/j2z5KRWZTDA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/j2z5KRWZTDA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ECS
+    - entity component system
+    - c# job system
+    - burst compiler
+    - C# jobs
+    - jobified
+    - data driven design
+    - unity 2018
+    - unity 2018.1
+    - unity 2018.2
+    - unity entity component system
+    - entity
+    - component
+    - system
+    - job system
+    - unity 2018 ecs
+    - unity ecs
+    - ecs for beginners
+    - how to use ecs
+    - unity C# ecs
+    - ecs example
+    - beginner
+    - basics
+    - tutorial
+    - entity component
+    - unity ecs code
+    - easy
+    - programming
+    - performance
+    - new
+    - coding
+    viewCount: 54027
+    likeCount: 307
+    dislikeCount: 23
+    commentCount: 54
+    durationInMinutes: 10
+    publishedAtDate: 636639903070000000
+    publisdedDate:
+      year: 2018
+      month: 6
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: How to Start Making Games - Unity Playground (Beginner Friendly)
+    url: https://www.youtube.com/watch?v=-akBC3v4t34
+    channelName: Unity
+    description: 'Download Unity Playground: https://ole.unity.com/unityplayground
+
+
+      The
+      Unity Playground is a framework to enable anyone to quickly get started with
+      Unity, with no prior coding knowledge required.
+
+      In this video, we quickly
+      see what Playground offers, and how to go from the initial download all the
+      way to making a first game with it. By following this short tutorial you will
+      be able to start making games yourself, or potentially use the Playground in
+      a classroom or a workshop in no time.
+
+
+      Read the Getting Started and
+      Reference Guide on the Learn site here: https://ole.unity.com/learnplayground
+
+      Join
+      the discussion on the forums here: https://forum.unity.com/threads/unity-playground-official-thread.609982/
+
+
+      Or,
+      if you feel like you would learn more by taking part in a structured course,
+      take a look at our more advanced offerings: https://ole.unity.com/unitycourses
+
+
+      Topics:
+
+      00:00
+      - Intro and requirements
+
+      01:12 - Getting the Playground and project
+      structure
+
+      02:24 - Creating our first game
+
+      03:40 - Adding interactivity:
+      Push script, Rotate script
+
+      05:20 - Adjusting the Camera, Camera Follow
+      script
+
+      07:13 - Health System and Modify Health scripts
+
+      07:43
+      - User Interface, tags
+
+      08:39 - Spawning a projectile, Bullet script,
+      creating a Prefab
+
+      10:20 - Shooting objects: Object Shooter and Destroy
+      for Points scripts
+
+      11:18 - Finishing the game, game design
+
+      13:13
+      - Next steps (edited)
+
+
+      Help us caption & translate this video!
+
+
+      https://amara.org/v/n5ku/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/-akBC3v4t34/sddefault.jpg
+    - https://i.ytimg.com/vi/-akBC3v4t34/mqdefault.jpg
+    - https://i.ytimg.com/vi/-akBC3v4t34/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-akBC3v4t34/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - unity playground
+    - unity 2019
+    - unity 2019.1
+    - unity 2019 playground
+    - unity playground project
+    - unity beginner
+    - unity 2019 tutorial
+    - unity tutorial
+    - unity getting started
+    - unity playgrounds
+    - unity tutorials
+    - unity tutorial 2019
+    - unity tutorial 2019.1
+    - unity basics
+    - unity beginners
+    - unity easy
+    - unity howto
+    - howto
+    - easy
+    - unity guide
+    - unity make a game
+    - unity games without coding
+    - making games without coding
+    - 2D
+    viewCount: 68060
+    likeCount: 747
+    dislikeCount: 13
+    commentCount: 53
+    durationInMinutes: 14
+    publishedAtDate: 636851734390000000
+    publisdedDate:
+      year: 2019
+      month: 2
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Getting started with DOTS: Scripting Pong (Tutorial)'
+    url: https://www.youtube.com/watch?v=a9AUXNFBWt4
+    channelName: Unity
+    description: 'In this workshop style video we walk through an example project
+      created by Unity Evangelist Mike Geig on how to script a Pong style game using
+      Unity''s Data Oriented Tech Stack (DOTS) including the Entity Component System
+      (ECS). This video covers the latest syntax in Unity 2019.3.0f1 and Entities
+      package version 0.3.0-preview.4
+
+
+      You can download the example project
+      here: https://ole.unity.com/dotspong
+
+
+      You can learn more about the Data
+      Oriented Tech Stack (DOTS) here: https://on.unity.com/36XkT5E'
+    thumbUrls:
+    - https://i.ytimg.com/vi/a9AUXNFBWt4/sddefault.jpg
+    - https://i.ytimg.com/vi/a9AUXNFBWt4/mqdefault.jpg
+    - https://i.ytimg.com/vi/a9AUXNFBWt4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/a9AUXNFBWt4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 78151
+    likeCount: 1854
+    dislikeCount: 40
+    commentCount: 241
+    durationInMinutes: 55
+    publishedAtDate: 637124688830000000
+    publisdedDate:
+      year: 2019
+      month: 12
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Getting Started - Unity 2018: UFPS 2 Overview (1/3)'
+    url: https://www.youtube.com/watch?v=B7R3xiy8HDY
+    channelName: Unity
+    description: "Check out UFPS 2 here: https://ole.unity.com/ufps2\n\nIn this series
+      of 3 videos, we're going to take a look at an overview of UFPS 2, and see how
+      we can use a wide set of options and features to add an FPS controller into
+      our Unity projects.\n\nThe Ultimate First Person Shooter (UFPS) is your ultimate
+      solution for creating ANY first person shooter game. It is a professional,
+      deterministic character controller designed to include the smoothest first
+      person controls and to excel in all areas: PC, mobile, console, AI, networking,
+      and VR. \n\nUFPS version 2 was built from the ground up leveraging the best
+      parts of version 1 of our controllers, which have been on the Asset Store for
+      many years and have resulted in a solid code base. A no compromises approach
+      was taken during development when determining how to implement a feature: opting
+      to have an extremely polished asset instead of quickly rushing a particular
+      feature out the door. \n\nA wide variety of shootable weapons such as a rocket
+      launcher, sniper, and bow & arrow are included. The spring system is the heart
+      of first person perspective adding bobs, shakes, and sways to the camera/items.
+      The editor scripts allow you to create your character and items in seconds.
+      The ability system comes with over 20 abilities or add your own functionality
+      without having to change any of the included scripts. Up may not always be
+      up with the adjustable dynamic gravity system. Full body awareness is supported.
+      UFPS comes with more than 200 pages of documentation plus tutorial videos to
+      help you easily get started on your project."
+    thumbUrls:
+    - https://i.ytimg.com/vi/B7R3xiy8HDY/sddefault.jpg
+    - https://i.ytimg.com/vi/B7R3xiy8HDY/mqdefault.jpg
+    - https://i.ytimg.com/vi/B7R3xiy8HDY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/B7R3xiy8HDY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ufps
+    - unity ufps
+    - ufps tutorial
+    - unity ufps tutorial
+    - unity 2018
+    - unity 2018.3
+    - unity ufps asset
+    - ultimate fps shooter
+    - ultimate fps shooter unity
+    - ufps unity
+    - ufps unity tutorial
+    - easy
+    - beginner
+    - basic
+    - unity ufps ultimate fps
+    - unity ultimate fps
+    - unity fps
+    - unity fps tutorial
+    - unity fps tutorial 2018
+    - unity ufps mobile
+    - unity game
+    - unity games tutorial
+    - unity 2018 tutorial
+    - asset
+    - assets
+    - ufps 2
+    viewCount: 28399
+    likeCount: 275
+    dislikeCount: 104
+    commentCount: 54
+    durationInMinutes: 8
+    publishedAtDate: 636741202440000000
+    publisdedDate:
+      year: 2018
+      month: 10
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Eisko Digital Double in Unity - Making of
+    url: https://www.youtube.com/watch?v=0459ZxTTFLk
+    channelName: Unity
+    description: "Eisko provides 3D scanning and reconstructed character data (\"digital
+      doubles\") for the film industry. By building a custom skin shader, their data
+      was easily plugged into Unity 5\u2019s physically based shading system to achieve
+      the result we are showing. \n\n\nFind out more on: https://www.eisko.com/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/0459ZxTTFLk/sddefault.jpg
+    - https://i.ytimg.com/vi/0459ZxTTFLk/mqdefault.jpg
+    - https://i.ytimg.com/vi/0459ZxTTFLk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0459ZxTTFLk/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Digital Double
+    viewCount: 33511
+    likeCount: 423
+    dislikeCount: 7
+    commentCount: 35
+    durationInMinutes: 3
+    publishedAtDate: 635442533620000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: ECS Overview - Intro To The Entity Component System And C# Job System
+      2/5
+    url: https://www.youtube.com/watch?v=z9WE3fwre-k
+    channelName: Unity
+    description: 'Join our next online user group: https://ole.unity.com/olug_june27
+
+
+      In
+      this presentation, Unity Evangelist Mike Geig explains how to convert a project
+      from Monobehaviour style code to code which uses the C# Job System and then
+      code which uses that and the Entity Component System and Burst Compiler.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/z9WE3fwre-k/sddefault.jpg
+    - https://i.ytimg.com/vi/z9WE3fwre-k/mqdefault.jpg
+    - https://i.ytimg.com/vi/z9WE3fwre-k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/z9WE3fwre-k/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ECS
+    - entity component system
+    - c# job system
+    - burst compiler
+    - C# jobs
+    - jobified
+    - data driven design
+    - unity 2018
+    - unity 2018.1
+    - unity 2018.2
+    - unity entity component system
+    - entity
+    - component
+    - system
+    - job system
+    - unity 2018 ecs
+    - unity ecs
+    - ecs for beginners
+    - how to use ecs
+    - unity C# ecs
+    - ecs example
+    - beginner
+    - basics
+    - tutorial
+    - entity component
+    - unity ecs code
+    - easy
+    - programming
+    - performance
+    - new
+    - coding
+    viewCount: 52357
+    likeCount: 518
+    dislikeCount: 4
+    commentCount: 35
+    durationInMinutes: 5
+    publishedAtDate: 636639903070000000
+    publisdedDate:
+      year: 2018
+      month: 6
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Demo of Locomotion System
+    url: https://www.youtube.com/watch?v=29ZEvxwq_F8
+    channelName: Unity
+    description: 'This is a demonstration of the Locomotion System for Unity, developed
+      by Rune Skovbo Johansen. The Locomotion System automatically blends keyframed
+      or motion-captured walk and run cycles and then adjusts the movements of the
+      bones in the legs to ensure that the feet step correctly on the ground. The
+      system can adjust animations made for a specific speed and direction on a plain
+      surface to any speed, any direction, and any curvature, on any surface, including
+      arbitrary steps and slopes. The Locomotion System can be downloaded from http://unity3d.com/support/resources/example-projects/locomotion-ik
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6dG/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/29ZEvxwq_F8/mqdefault.jpg
+    - https://i.ytimg.com/vi/29ZEvxwq_F8/hqdefault.jpg
+    tags:
+    - animation
+    - procedural
+    - uneven
+    - terrain
+    - ik
+    - inverse kinematics
+    - Unity
+    - 3d
+    - game
+    viewCount: 64230
+    likeCount: 373
+    dislikeCount: 10
+    commentCount: 51
+    durationInMinutes: 7
+    publishedAtDate: 633853091610000000
+    publisdedDate:
+      year: 2009
+      month: 8
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Customising UI With Scriptable Objects - Questions and Answers[6/6] -
+      Live 2018-01-17
+    url: https://www.youtube.com/watch?v=8D4LMdutobE
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages:
+      https://unity3d.com/learn/tutorials/topics/user-interface-ui/questions-and-answers?playlist=17111
+
+
+      In
+      this session Online Evangelist Matt Gambell will take us through how to build
+      a system that allows for flexible and customisable way to work with UI in a
+      project by taking advantadge of the power of scriptable objects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/8D4LMdutobE/sddefault.jpg
+    - https://i.ytimg.com/vi/8D4LMdutobE/mqdefault.jpg
+    - https://i.ytimg.com/vi/8D4LMdutobE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8D4LMdutobE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - UI
+    - Flexible
+    - Customise
+    - Scriptable Objects
+    - Dynamic
+    - Asset Store
+    viewCount: 6460
+    likeCount: 83
+    dislikeCount: 1
+    commentCount: 9
+    durationInMinutes: 13
+    publishedAtDate: 636525979490000000
+    publisdedDate:
+      year: 2018
+      month: 1
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Customising UI With Scriptable Objects - Menu Shortcuts & Additional Styling
+      [5/6] - Live 2018-01-17
+    url: https://www.youtube.com/watch?v=J3SNDc6Gib4
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages:
+      https://unity3d.com/learn/tutorials/topics/user-interface-ui/menu-shortcuts-and-additional-styling?playlist=17111
+
+
+      In
+      this session Online Evangelist Matt Gambell will take us through how to build
+      a system that allows for flexible and customisable way to work with UI in a
+      project by taking advantadge of the power of scriptable objects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/J3SNDc6Gib4/sddefault.jpg
+    - https://i.ytimg.com/vi/J3SNDc6Gib4/mqdefault.jpg
+    - https://i.ytimg.com/vi/J3SNDc6Gib4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/J3SNDc6Gib4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - UI
+    - Flexible
+    - Customise
+    - Scriptable Objects
+    - Dynamic
+    - Asset Store
+    viewCount: 6463
+    likeCount: 71
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 6
+    publishedAtDate: 636525979490000000
+    publisdedDate:
+      year: 2018
+      month: 1
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Customising UI With Scriptable Objects - Introduction [1/6] - Live 2018-01-17
+    url: https://www.youtube.com/watch?v=HkUSmI7F304
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages:
+      https://unity3d.com/learn/tutorials/topics/user-interface-ui/introduction?playlist=17111
+
+
+      In
+      this session Online Evangelist Matt Gambell will take us through how to build
+      a system that allows for flexible and customisable way to work with UI in a
+      project by taking advantadge of the power of scriptable objects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/HkUSmI7F304/sddefault.jpg
+    - https://i.ytimg.com/vi/HkUSmI7F304/mqdefault.jpg
+    - https://i.ytimg.com/vi/HkUSmI7F304/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HkUSmI7F304/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - UI
+    - Flexible
+    - Customise
+    - Scriptable Objects
+    - Dynamic
+    - Asset Store
+    viewCount: 28320
+    likeCount: 386
+    dislikeCount: 10
+    commentCount: 15
+    durationInMinutes: 4
+    publishedAtDate: 636525979490000000
+    publisdedDate:
+      year: 2018
+      month: 1
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Customising UI With Scriptable Objects - Extending The Button [4/6] -
+      Live 2018-01-17
+    url: https://www.youtube.com/watch?v=d-nZPQnVu7Q
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages:
+      https://unity3d.com/learn/tutorials/topics/user-interface-ui/extending-button?playlist=17111
+
+
+      In
+      this session Online Evangelist Matt Gambell will take us through how to build
+      a system that allows for flexible and customisable way to work with UI in a
+      project by taking advantadge of the power of scriptable objects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/d-nZPQnVu7Q/sddefault.jpg
+    - https://i.ytimg.com/vi/d-nZPQnVu7Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/d-nZPQnVu7Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/d-nZPQnVu7Q/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - UI
+    - Flexible
+    - Customise
+    - Scriptable Objects
+    - Dynamic
+    - Asset Store
+    viewCount: 8427
+    likeCount: 65
+    dislikeCount: 1
+    commentCount: 11
+    durationInMinutes: 6
+    publishedAtDate: 636525979480000000
+    publisdedDate:
+      year: 2018
+      month: 1
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Customising UI With Scriptable Objects - Creating A Button[3/6] - Live
+      2018-01-17
+    url: https://www.youtube.com/watch?v=NRRyrtaQeNc
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages:
+      https://unity3d.com/learn/tutorials/topics/user-interface-ui/creating-button?playlist=17111
+
+
+      In
+      this session Online Evangelist Matt Gambell will take us through how to build
+      a system that allows for flexible and customisable way to work with UI in a
+      project by taking advantadge of the power of scriptable objects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/NRRyrtaQeNc/sddefault.jpg
+    - https://i.ytimg.com/vi/NRRyrtaQeNc/mqdefault.jpg
+    - https://i.ytimg.com/vi/NRRyrtaQeNc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/NRRyrtaQeNc/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - UI
+    - Flexible
+    - Customise
+    - Scriptable Objects
+    - Dynamic
+    - Asset Store
+    viewCount: 15405
+    likeCount: 85
+    dislikeCount: 6
+    commentCount: 10
+    durationInMinutes: 5
+    publishedAtDate: 636525979490000000
+    publisdedDate:
+      year: 2018
+      month: 1
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Customising UI With Scriptable Objects - Building A Framework [2/6] -
+      Live 2018-01-17
+    url: https://www.youtube.com/watch?v=UgGMKo08krQ
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages:
+      https://unity3d.com/learn/tutorials/topics/user-interface-ui/building-framework?playlist=17111
+
+
+      In
+      this session Online Evangelist Matt Gambell will take us through how to build
+      a system that allows for flexible and customisable way to work with UI in a
+      project by taking advantadge of the power of scriptable objects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/UgGMKo08krQ/sddefault.jpg
+    - https://i.ytimg.com/vi/UgGMKo08krQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/UgGMKo08krQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/UgGMKo08krQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - UI
+    - Flexible
+    - Customise
+    - Scriptable Objects
+    - Dynamic
+    - Asset Store
+    viewCount: 13109
+    likeCount: 94
+    dislikeCount: 5
+    commentCount: 1
+    durationInMinutes: 4
+    publishedAtDate: 636525979490000000
+    publisdedDate:
+      year: 2018
+      month: 1
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Creator Kit: Beginner Code (Overview)'
+    url: https://www.youtube.com/watch?v=0Sh6WncKUmI
+    channelName: Unity
+    description: "No coding experience? No problem! In this short beginner project,
+      you\u2019ll explore the basics of C# code for Unity in the context of an action
+      RPG. \n\nFind the accompanying tutorials on Unity Learn: \nhttps://learn.unity.com/project/creator-kit-beginner-code\n\nAlso,
+      make sure to check out the tutorial we prepared on how to expand the creator
+      kit by modifying the main player model with the cactus model!\nhttps://youtu.be/a6lpcR47sDE"
+    thumbUrls:
+    - https://i.ytimg.com/vi/0Sh6WncKUmI/sddefault.jpg
+    - https://i.ytimg.com/vi/0Sh6WncKUmI/mqdefault.jpg
+    - https://i.ytimg.com/vi/0Sh6WncKUmI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0Sh6WncKUmI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity beginner code tutorial
+    - unity creator kit beginner code
+    - unity beginner
+    - unity where to start
+    - unity introduction
+    - unity tutorials
+    - unity beginner projects
+    - unity beginner tips
+    - unity beginner scri
+    viewCount: 78083
+    likeCount: 866
+    dislikeCount: 7
+    commentCount: 63
+    durationInMinutes: 2
+    publishedAtDate: 637192188020000000
+    publisdedDate:
+      year: 2020
+      month: 3
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Creator Kit: Beginner Code - Get coding quickly in Unity 2019!'
+    url: https://www.youtube.com/watch?v=aAzLC3c7JKg
+    channelName: Unity
+    description: 'Creator Kits are short step-by-step tutorials which enable beginners
+      to gain a good understanding of Unity. This Beginner Code kit introduces you
+      to the fundamentals of C#; from understanding how to read a script to creating
+      your own variables and adjusting this top down action RPG.
+
+
+      Explore
+      Rancho Rodadora and do some feisty gardening as the rakish sheriff Moose, defeat
+      Cactus Nails and battle Cactus Bossy while following the tutorial on Unity
+      Learn.
+
+
+      Download Creator Kit: Beginner Code on the Asset Store https://assetstore.unity.com/packages/templates/tutorials/creator-kit-beginner-code-151986
+
+      Follow
+      the free tutorials on Unity Learn:  https://learn.unity.com/project/creator-kit-beginner-code
+
+      Join
+      the conversation on the Forum: https://forum.unity.com/threads/new-creator-kit-beginner-code.732398/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/aAzLC3c7JKg/sddefault.jpg
+    - https://i.ytimg.com/vi/aAzLC3c7JKg/mqdefault.jpg
+    - https://i.ytimg.com/vi/aAzLC3c7JKg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/aAzLC3c7JKg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - C#
+    viewCount: 47800
+    likeCount: 1046
+    dislikeCount: 14
+    commentCount: 67
+    durationInMinutes: 1
+    publishedAtDate: 637021073690000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating A Minimap System - Questions and Answers [6/6] Live 2017/5/24
+    url: https://www.youtube.com/watch?v=ZdWKAXNFXhE
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/questions-and-answers
+
+
+      In
+      this live training session we will learn how to create a minimap system which
+      displays objects near the player as icons in a top down view. In this episode
+      we will answer questions from guests in the live chat on Twitch.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZdWKAXNFXhE/sddefault.jpg
+    - https://i.ytimg.com/vi/ZdWKAXNFXhE/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZdWKAXNFXhE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZdWKAXNFXhE/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - minimap
+    - mini map
+    - map
+    - orthographic
+    - perspective
+    - ui
+    - render texture
+    - mask
+    viewCount: 8518
+    likeCount: 82
+    dislikeCount: 3
+    commentCount: 14
+    durationInMinutes: 9
+    publishedAtDate: 636314268900000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating A Minimap System - Introduction and Goals [1/6] Live 2017/5/24
+    url: https://www.youtube.com/watch?v=K6FpyLXd9Zk
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/introduction-and-goals-0
+
+
+      In
+      this live training session we will learn how to create a minimap system which
+      displays objects near the player as icons in a top down view. In this episode
+      we will introduce our goals and demonstrate our minimap system.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/K6FpyLXd9Zk/sddefault.jpg
+    - https://i.ytimg.com/vi/K6FpyLXd9Zk/mqdefault.jpg
+    - https://i.ytimg.com/vi/K6FpyLXd9Zk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/K6FpyLXd9Zk/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - minimap
+    - mini map
+    - map
+    - orthographic
+    - perspective
+    - ui
+    - render texture
+    - mask
+    viewCount: 29095
+    likeCount: 265
+    dislikeCount: 9
+    commentCount: 35
+    durationInMinutes: 3
+    publishedAtDate: 636314268920000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating A Minimap System - Adding Minimap Icons [4/6] Live 2017/5/24
+    url: https://www.youtube.com/watch?v=Oy44jshNang
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/render-textures-and-ui
+
+
+      In
+      this live training session we will learn how to create a minimap system which
+      displays objects near the player as icons in a top down view. In this episode
+      we will add icons to our units that will be displayed only on the minimap camera.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Oy44jshNang/sddefault.jpg
+    - https://i.ytimg.com/vi/Oy44jshNang/mqdefault.jpg
+    - https://i.ytimg.com/vi/Oy44jshNang/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Oy44jshNang/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - minimap
+    - mini map
+    - map
+    - orthographic
+    - perspective
+    - ui
+    - render texture
+    - mask
+    viewCount: 11738
+    likeCount: 85
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 9
+    publishedAtDate: 636314268910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating A Minimap System - Adding Minimap Icons [3/6] Live 2017/5/24
+    url: https://www.youtube.com/watch?v=lccrJXiCQxA
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/adding-minimap-icons
+
+
+      In
+      this live training session we will learn how to create a minimap system which
+      displays objects near the player as icons in a top down view. In this episode
+      we will add icons to our units that will be displayed only on the minimap camera.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/lccrJXiCQxA/sddefault.jpg
+    - https://i.ytimg.com/vi/lccrJXiCQxA/mqdefault.jpg
+    - https://i.ytimg.com/vi/lccrJXiCQxA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lccrJXiCQxA/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - minimap
+    - mini map
+    - map
+    - orthographic
+    - perspective
+    - ui
+    - render texture
+    - mask
+    viewCount: 13421
+    likeCount: 102
+    dislikeCount: 3
+    commentCount: 3
+    durationInMinutes: 15
+    publishedAtDate: 636314268910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating A Minimap System - Adding A UI Mask and Border Image [5/6] Live
+      2017/5/24
+    url: https://www.youtube.com/watch?v=v5GGXm791-M
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/adding-ui-mask-and-border-image
+
+
+      In
+      this live training session we will learn how to create a minimap system which
+      displays objects near the player as icons in a top down view. In this episode
+      we will add a circular mask to our map along with a border image.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/v5GGXm791-M/sddefault.jpg
+    - https://i.ytimg.com/vi/v5GGXm791-M/mqdefault.jpg
+    - https://i.ytimg.com/vi/v5GGXm791-M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/v5GGXm791-M/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - minimap
+    - mini map
+    - map
+    - orthographic
+    - perspective
+    - ui
+    - render texture
+    - mask
+    viewCount: 20876
+    likeCount: 187
+    dislikeCount: 7
+    commentCount: 14
+    durationInMinutes: 5
+    publishedAtDate: 636314268910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Create new scripts fast with Add Component shortcut
+    url: https://www.youtube.com/watch?v=-v2GbEnhMns
+    channelName: Unity
+    description: 'Create and attach new scripts fast by using the Search field in
+      the Add Component Button menu.
+
+
+      Watch this video in context on our learn
+      site for links to the documentation and other tips:
+
+      http://unity3d.com/learn/tutorials/modules/beginner/tips/new-script-add-component-shortcut
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V60d/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/-v2GbEnhMns/sddefault.jpg
+    - https://i.ytimg.com/vi/-v2GbEnhMns/mqdefault.jpg
+    - https://i.ytimg.com/vi/-v2GbEnhMns/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-v2GbEnhMns/hqdefault.jpg
+    tags:
+    - unity
+    - script
+    - editor ui
+    - game design
+    - unitytips
+    - editor
+    - unity3d
+    - short cut
+    - add component
+    viewCount: 15062
+    likeCount: 198
+    dislikeCount: 26
+    commentCount: 42
+    durationInMinutes: 1
+    publishedAtDate: 635894445330000000
+    publisdedDate:
+      year: 2016
+      month: 1
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Create massive game worlds with Unity's Entity Component System (ECS)
+    url: https://www.youtube.com/watch?v=9ADpYQIQg1w
+    channelName: Unity
+    description: 'Our ECS team has teamed up with two artists from the FPS Sample
+      team and in just two months they have produced a futuristic cityscape showcasing
+      our current progress on the ECS foundation and Burst. More info: https://blogs.unity3d.com/2018/10/24/a-peek-at-the-new-visual-effect-graph-cinecast-our-first-sample-game-and-more-from-unite-los-angeles/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/9ADpYQIQg1w/sddefault.jpg
+    - https://i.ytimg.com/vi/9ADpYQIQg1w/mqdefault.jpg
+    - https://i.ytimg.com/vi/9ADpYQIQg1w/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9ADpYQIQg1w/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 174802
+    likeCount: 2865
+    dislikeCount: 37
+    commentCount: 288
+    durationInMinutes: 0
+    publishedAtDate: 636760158440000000
+    publisdedDate:
+      year: 2018
+      month: 10
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Cinemachine 3.0: New Features in Unity for Film and Games'
+    url: https://www.youtube.com/watch?v=TtD-ywes5oQ
+    channelName: Unity
+    description: Unity's Adam Myhill demos the latest Cinemachine features at SIGGRAPH
+      2019, including Technocrane film camera rigs, CM 3.0 DOTS preview (with support
+      for tens of thousands of active cameras), hybrid procedural/keyframe cameras
+      for virtual production, the Mixer camera module, and a preview of the new Reactor
+      module for driving games.
+    thumbUrls:
+    - https://i.ytimg.com/vi/TtD-ywes5oQ/sddefault.jpg
+    - https://i.ytimg.com/vi/TtD-ywes5oQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/TtD-ywes5oQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TtD-ywes5oQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 20252
+    likeCount: 497
+    dislikeCount: 7
+    commentCount: 37
+    durationInMinutes: 39
+    publishedAtDate: 637115580370000000
+    publisdedDate:
+      year: 2019
+      month: 12
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Quaternions in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=hd1QzLf4ZH8
+    channelName: Unity
+    description: 'Quaternions are a system of rotation that allowed for smooth incremental
+      rotations in objects. In this video, you''ll learn about the quaternion system
+      used in Unity and will explore a few of the methods that allow you to work
+      with it!
+
+
+      Learn more: https://on.unity.com/2YniWhk'
+    thumbUrls:
+    - https://i.ytimg.com/vi/hd1QzLf4ZH8/sddefault.jpg
+    - https://i.ytimg.com/vi/hd1QzLf4ZH8/mqdefault.jpg
+    - https://i.ytimg.com/vi/hd1QzLf4ZH8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hd1QzLf4ZH8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 25153
+    likeCount: 468
+    dislikeCount: 9
+    commentCount: 20
+    durationInMinutes: 5
+    publishedAtDate: 637335694150000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Inheritance in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=F7Wu6_uzD1I
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/inheritance
+
+
+      Inheritance
+      is a cornerstone of Object Oriented Programming that allows one class to inherit
+      and reuse the members of another class. In this video you will learn to use
+      inheritance to build strong relationships between classes in Unity.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/F7Wu6_uzD1I/sddefault.jpg
+    - https://i.ytimg.com/vi/F7Wu6_uzD1I/mqdefault.jpg
+    - https://i.ytimg.com/vi/F7Wu6_uzD1I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/F7Wu6_uzD1I/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 34836
+    likeCount: 527
+    dislikeCount: 22
+    commentCount: 41
+    durationInMinutes: 5
+    publishedAtDate: 636990723440000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Better Data with Scriptable Objects in Unity! (Tutorial)
+    url: https://www.youtube.com/watch?v=PVOVIxNxxeQ
+    channelName: Unity
+    description: "In this video, we are going to show you how to use Scriptable Objects
+      to manage your data in Unity.\n\nDownload the Unity Royale Project here!\nhttps://on.unity.com/33FplpG\n\nLearn
+      more about Scriptable Objects here!\nhttps://on.unity.com/33PzcJR\n\nGet Inspiration
+      on what else to do with Scriptable Objects here!\nhttps://on.unity.com/2RKXXkK\n\nChapters:\n00:00
+      Intro\n00:30 Scriptable Objects vs MonoBehaviours\n01:43 Scriptable Objects
+      as a data container\n03:10 Scriptable Objects as \u201CEnum States\u201D\n03:44
+      Runtime Data Editing\n\nUnity Version used 2020.1.2"
+    thumbUrls:
+    - https://i.ytimg.com/vi/PVOVIxNxxeQ/sddefault.jpg
+    - https://i.ytimg.com/vi/PVOVIxNxxeQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/PVOVIxNxxeQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/PVOVIxNxxeQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity3d
+    - unity technologies
+    - scriptable objects
+    - how to
+    - unity tutorial
+    - better data in unity
+    - data management in unity
+    - data management tutorial
+    - unity scriptable objects
+    - how to scriptable objects
+    - scripting in unity
+    - c#
+    - game development
+    - unity game development
+    - game dev
+    - unity3d tutorial
+    - unity
+    viewCount: 55710
+    likeCount: 1935
+    dislikeCount: 13
+    commentCount: 113
+    durationInMinutes: 5
+    publishedAtDate: 637364862020000000
+    publisdedDate:
+      year: 2020
+      month: 9
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: Audio in Unity 5 with Wayne Johnson from Unity Technologies
+    url: https://www.youtube.com/watch?v=snvVIjAp4dc
+    channelName: Unity
+    description: 'At Nordic Game 2014, audio engineer Wayne Johnson introduced the
+      new audio system coming in Unity 5.
+
+
+      Help us caption & translate this
+      video!
+
+
+      http://amara.org/v/V676/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/snvVIjAp4dc/mqdefault.jpg
+    - https://i.ytimg.com/vi/snvVIjAp4dc/hqdefault.jpg
+    tags:
+    - Unity (software)
+    - Unity Technologies
+    - Unity game engine
+    - Unity engine
+    viewCount: 24328
+    likeCount: 218
+    dislikeCount: 4
+    commentCount: 61
+    durationInMinutes: 44
+    publishedAtDate: 635380931750000000
+    publisdedDate:
+      year: 2014
+      month: 6
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Addressable Asset System - Trash Dash in Unity 2018 (Update!)
+    url: https://www.youtube.com/watch?v=cpAjNEKxRRk
+    channelName: Unity
+    description: "Download Trash Dash now: https://ole.unity.com/trashdash\n\nIn
+      this video, we're going to see how our game Trash Dash utilizes the Lightweight
+      Render Pipeline and new Addressable Asset System!\n\nTrash Dash is a game that
+      we created as an example of how to use Unity Services in a mobile game. It
+      also contains some useful examples of coding architecture and techniques for
+      solving common game programming problems. \n\nAnd now, our demo team have reworked
+      the Trash Dash project, and made it compatible with the Lightweight Render
+      Pipeline and the brand new Addressable Asset System in Unity."
+    thumbUrls:
+    - https://i.ytimg.com/vi/cpAjNEKxRRk/sddefault.jpg
+    - https://i.ytimg.com/vi/cpAjNEKxRRk/mqdefault.jpg
+    - https://i.ytimg.com/vi/cpAjNEKxRRk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cpAjNEKxRRk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity 2018
+    - unity trash dash
+    - unity trash dash new
+    - unity lwrp tutorial
+    - unity lwrp
+    - unity lightweight render pipeline
+    - lightweight render pipeline
+    - unity srp
+    - unity trash dash tutorial
+    - unity 2018.2 trash dash
+    - unity lightweight render
+    - unity trash dash game
+    - unity free game
+    - render pipeline
+    - render pipeline unity
+    - addressable assets unity
+    - addressable assets
+    - addressable
+    - assets
+    - asset
+    - 3d
+    viewCount: 16043
+    likeCount: 99
+    dislikeCount: 13
+    commentCount: 6
+    durationInMinutes: 2
+    publishedAtDate: 636699675270000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Adding Weapons - Unity 2018: UFPS 2 Overview (2/3)'
+    url: https://www.youtube.com/watch?v=bHpzREXV4mE
+    channelName: Unity
+    description: "Check out UFPS 2 here: https://ole.unity.com/ufps2\n\nIn this series
+      of 3 videos, we're going to take a look at an overview of UFPS 2, and see how
+      we can use a wide set of options and features to add an FPS controller into
+      our Unity projects.\n\nThe Ultimate First Person Shooter (UFPS) is your ultimate
+      solution for creating ANY first person shooter game. It is a professional,
+      deterministic character controller designed to include the smoothest first
+      person controls and to excel in all areas: PC, mobile, console, AI, networking,
+      and VR. \n\nUFPS version 2 was built from the ground up leveraging the best
+      parts of version 1 of our controllers, which have been on the Asset Store for
+      many years and have resulted in a solid code base. A no compromises approach
+      was taken during development when determining how to implement a feature: opting
+      to have an extremely polished asset instead of quickly rushing a particular
+      feature out the door. \n\nA wide variety of shootable weapons such as a rocket
+      launcher, sniper, and bow & arrow are included. The spring system is the heart
+      of first person perspective adding bobs, shakes, and sways to the camera/items.
+      The editor scripts allow you to create your character and items in seconds.
+      The ability system comes with over 20 abilities or add your own functionality
+      without having to change any of the included scripts. Up may not always be
+      up with the adjustable dynamic gravity system. Full body awareness is supported.
+      UFPS comes with more than 200 pages of documentation plus tutorial videos to
+      help you easily get started on your project."
+    thumbUrls:
+    - https://i.ytimg.com/vi/bHpzREXV4mE/sddefault.jpg
+    - https://i.ytimg.com/vi/bHpzREXV4mE/mqdefault.jpg
+    - https://i.ytimg.com/vi/bHpzREXV4mE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/bHpzREXV4mE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ufps
+    - unity ufps
+    - ufps tutorial
+    - unity ufps tutorial
+    - unity 2018
+    - unity 2018.3
+    - unity ufps asset
+    - ultimate fps shooter
+    - ultimate fps shooter unity
+    - ufps unity
+    - ufps unity tutorial
+    - easy
+    - beginner
+    - basic
+    - unity ufps ultimate fps
+    - unity ultimate fps
+    - unity fps
+    - unity fps tutorial
+    - unity fps tutorial 2018
+    - unity ufps mobile
+    - unity game
+    - unity games tutorial
+    - unity 2018 tutorial
+    - asset
+    - assets
+    - ufps 2
+    viewCount: 13604
+    likeCount: 115
+    dislikeCount: 30
+    commentCount: 18
+    durationInMinutes: 8
+    publishedAtDate: 636741202490000000
+    publisdedDate:
+      year: 2018
+      month: 10
+      day: 2
+    YouTubeDataAPI_Cooked: 1

@@ -12,6 +12,3055 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: Animation_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: Animation
+  allVideos:
+  - title: 'Using Timeline: Working with Animation Clips'
+    url: https://www.youtube.com/watch?v=Y1mwswiuung
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      https://unity3d.com/learn/tutorials/topics/animation/using-timeline-working-animation-clips
+
+
+      How
+      to sequence and work with Animation clips inside of Timeline.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Y1mwswiuung/sddefault.jpg
+    - https://i.ytimg.com/vi/Y1mwswiuung/mqdefault.jpg
+    - https://i.ytimg.com/vi/Y1mwswiuung/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Y1mwswiuung/hqdefault.jpg
+    tags:
+    - Unity
+    - TImeline
+    - Animation
+    - Director
+    - Sequencer
+    - Tracks
+    - Using Timeline
+    - animation clips
+    - unity3d
+    viewCount: 58014
+    likeCount: 479
+    dislikeCount: 13
+    commentCount: 21
+    durationInMinutes: 6
+    publishedAtDate: 636398189230000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Character Animation GDC 2012 Feature Preview
+    url: https://www.youtube.com/watch?v=6klcDu8usJU
+    channelName: Unity
+    description: 'A first look at the forthcoming character animation system for
+      Unity, as demonstrated at Game Developer''s Conference 2012.
+
+
+      Help us
+      caption & translate this video!
+
+
+      http://amara.org/v/V6cz/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/6klcDu8usJU/sddefault.jpg
+    - https://i.ytimg.com/vi/6klcDu8usJU/mqdefault.jpg
+    - https://i.ytimg.com/vi/6klcDu8usJU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/6klcDu8usJU/hqdefault.jpg
+    tags:
+    - animation
+    - character
+    - control
+    - ik
+    - input
+    - kinematic
+    - ragdoll
+    - rigging
+    - skeleton
+    viewCount: 104093
+    likeCount: 334
+    dislikeCount: 17
+    commentCount: 36
+    durationInMinutes: 2
+    publishedAtDate: 634732211210000000
+    publisdedDate:
+      year: 2012
+      month: 5
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 5 - Root Motion Authoring
+    url: https://www.youtube.com/watch?v=Kn6jxLWA31M
+    channelName: Unity
+    description: 'Watch this tutorial in context on the official Learn site -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/unity-5/root-motion-authoring
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V64W/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Kn6jxLWA31M/sddefault.jpg
+    - https://i.ytimg.com/vi/Kn6jxLWA31M/mqdefault.jpg
+    - https://i.ytimg.com/vi/Kn6jxLWA31M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Kn6jxLWA31M/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - tutorial
+    - root motion
+    - generate root motion curves
+    - Video Game Development (Industry)
+    - animation
+    - animator controller
+    - unity3d
+    - unity 5
+    viewCount: 57219
+    likeCount: 407
+    dislikeCount: 10
+    commentCount: 65
+    durationInMinutes: 1
+    publishedAtDate: 635610390120000000
+    publisdedDate:
+      year: 2015
+      month: 3
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 5 - Direct Blend Trees
+    url: https://www.youtube.com/watch?v=ihmPDjiF-zg
+    channelName: Unity
+    description: 'Watch this tutorial in context on the official Learn site -
+
+      http://unity3d.com/learn/learn/tutorials/modules/intermediate/unity-5/direct-blend-trees
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V64Y/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ihmPDjiF-zg/sddefault.jpg
+    - https://i.ytimg.com/vi/ihmPDjiF-zg/mqdefault.jpg
+    - https://i.ytimg.com/vi/ihmPDjiF-zg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ihmPDjiF-zg/hqdefault.jpg
+    tags:
+    - unity 5
+    - mecanim
+    - direct blend tree
+    - blend tree
+    - animator
+    - animation
+    - unity3d
+    - Unity (Software)
+    - tutorial
+    - video game
+    - Game
+    - Video Game Culture
+    viewCount: 24915
+    likeCount: 260
+    dislikeCount: 4
+    commentCount: 23
+    durationInMinutes: 3
+    publishedAtDate: 635610381870000000
+    publisdedDate:
+      year: 2015
+      month: 3
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 5 - Animation Asset API
+    url: https://www.youtube.com/watch?v=DyYib-cDfvQ
+    channelName: Unity
+    description: 'Watch this tutorial in context on the official Learn site -
+
+      http://unity3d.com/learn/tutorials/modules/intermediate/unity-5/animation-asset-api
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V64X/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/DyYib-cDfvQ/sddefault.jpg
+    - https://i.ytimg.com/vi/DyYib-cDfvQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/DyYib-cDfvQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DyYib-cDfvQ/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - unity 5
+    - animation asset api
+    - animator controller
+    - Unity (Software)
+    - Application Programming Interface (Literature Subject)
+    - blend tree
+    - transition
+    - editor scripting
+    viewCount: 31849
+    likeCount: 187
+    dislikeCount: 10
+    commentCount: 35
+    durationInMinutes: 11
+    publishedAtDate: 635610383400000000
+    publisdedDate:
+      year: 2015
+      month: 3
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 4.0 - Mecanim Animation Tutorial
+    url: https://www.youtube.com/watch?v=Xx21y9eJq1U
+    channelName: Unity
+    description: "Download the project folder to follow this tutorial at - \n\nhttp://files.unity3d.com/will/MecanimTute.zip\n\nLearn
+      how to create animated characters with the new Mecanim animation system in
+      Unity 4.0.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/V6ck/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Xx21y9eJq1U/sddefault.jpg
+    - https://i.ytimg.com/vi/Xx21y9eJq1U/mqdefault.jpg
+    - https://i.ytimg.com/vi/Xx21y9eJq1U/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Xx21y9eJq1U/hqdefault.jpg
+    tags:
+    - Unity (game Engine)
+    - Game Engine (Software Genre)
+    - Mecanim
+    - character animation
+    - game design
+    - game development
+    - how to make games
+    - videogames
+    - biped
+    - ik
+    - controller
+    - humanik
+    - tutorial
+    - lesson
+    - unity3d
+    viewCount: 601301
+    likeCount: 3676
+    dislikeCount: 82
+    commentCount: 659
+    durationInMinutes: 49
+    publishedAtDate: 634893211690000000
+    publisdedDate:
+      year: 2012
+      month: 11
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite Europe 2017 - Photon vs UNet: multiplayer architecture explained'
+    url: https://www.youtube.com/watch?v=Y1my5bKhKJY
+    channelName: Unity
+    description: 'This talk discusses the important trade offs in developing multiplayer
+      games, such as server vs client authority, local determinism vs state serialisation,
+      rollbacks, and other known and proven mechanisms.
+
+
+      For more information
+      on Unite Europe and future Unite events visit this page. https://unite.unity.com/
+
+
+      Christof
+      Wegmann - Exit Games'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Y1my5bKhKJY/sddefault.jpg
+    - https://i.ytimg.com/vi/Y1my5bKhKJY/mqdefault.jpg
+    - https://i.ytimg.com/vi/Y1my5bKhKJY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Y1my5bKhKJY/hqdefault.jpg
+    tags:
+    - Unite Europe 2017
+    - unity
+    - unity3d
+    - gamedev
+    - indiedev
+    - game engine
+    - multiplayer
+    - unity multiplayer
+    - photon
+    - exit games
+    viewCount: 29139
+    likeCount: 372
+    dislikeCount: 9
+    commentCount: 31
+    durationInMinutes: 25
+    publishedAtDate: 636353384100000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2017 - Performance optimization for beginners
+    url: https://www.youtube.com/watch?v=1e5WY2qf600
+    channelName: Unity
+    description: "In this introductory talk, you'll learn the basics of performance
+      optimization and how to use Unity's profiling tools to help get your game running
+      quickly and smoothly. You'll also learn some useful best practice optimization
+      tips.\n\nNote: Around 24:00 we recommend using a StringBuilder to reduce garbage
+      when building complex strings. We incorrectly state that this is because StringBuilder
+      is a stack object. A StringBuilder is a heap object that is designed to be
+      manipulated.\n\nFor more information on Unite Europe and future Unite events
+      visit this page. https://unite.unity.com/\n\nMatt Schell - Unity Technologies
+      \nKerry Turner - Unity Technologies"
+    thumbUrls:
+    - https://i.ytimg.com/vi/1e5WY2qf600/sddefault.jpg
+    - https://i.ytimg.com/vi/1e5WY2qf600/mqdefault.jpg
+    - https://i.ytimg.com/vi/1e5WY2qf600/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1e5WY2qf600/hqdefault.jpg
+    tags:
+    - Unite Europe 2017
+    - unity
+    - unity3d
+    - gamedev
+    - indiedev
+    - game engine
+    - performance
+    - performance optimization
+    - optimization
+    - how to optimize game performance
+    viewCount: 36965
+    likeCount: 664
+    dislikeCount: 26
+    commentCount: 46
+    durationInMinutes: 27
+    publishedAtDate: 636353405540000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2016 - Monetize Your Games In China's Market
+    url: https://www.youtube.com/watch?v=dPozIZ-niPg
+    channelName: Unity
+    description: 'The Chinese mobile game market has surpassed United Sates with
+      the number of downloads. Zoe Chen (4399.com) describes the state of the Chinese
+      market, the challenges, and rewards of entering the Chinese Market.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6Z8/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/dPozIZ-niPg/sddefault.jpg
+    - https://i.ytimg.com/vi/dPozIZ-niPg/mqdefault.jpg
+    - https://i.ytimg.com/vi/dPozIZ-niPg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/dPozIZ-niPg/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unite Europe 2016
+    viewCount: 2235
+    likeCount: 47
+    dislikeCount: 3
+    commentCount: 3
+    durationInMinutes: 27
+    publishedAtDate: 636027223580000000
+    publisdedDate:
+      year: 2016
+      month: 6
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite Berlin 2018 - Unity Hub: A Gateway to Managing your Unity Experience'
+    url: https://www.youtube.com/watch?v=KzgqC1xOGtk
+    channelName: Unity
+    description: 'The Unity Hub is a desktop application that helps you manage your
+      Unity experience and workflows outside of the editor. The first official release
+      (non-preview) makes it easier for you to discover and deploy editor releases
+      and get new projects up and running. Learn about the current state of the Hub
+      in the 18.2 release and get an introduction to the upcoming advanced project-creation
+      flow and services configuration.
+
+
+
+      Speakers:
+
+      Daniel Tutino-Galletti
+      (PM, Unity) &  Boris Mongeau (Dev Lead, Unity)
+
+
+      https://unite.unity.com/2018/berlin'
+    thumbUrls:
+    - https://i.ytimg.com/vi/KzgqC1xOGtk/sddefault.jpg
+    - https://i.ytimg.com/vi/KzgqC1xOGtk/mqdefault.jpg
+    - https://i.ytimg.com/vi/KzgqC1xOGtk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/KzgqC1xOGtk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1071
+    likeCount: 22
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 26
+    publishedAtDate: 636670062000000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - The Future of Character Animation in Unity High Quality
+      Motion Synthesis
+    url: https://www.youtube.com/watch?v=9h2tKoI3CXU
+    channelName: Unity
+    description: 'Slides: https://www.slideshare.net/unity3d/the-future-of-character-animation-in-unity-high-quality-motion-synthesis
+
+      You
+      will be introduced to a novel, high-quality, real-time motion synthesizer --
+      a new concept for character animation that allows precise specification of
+      the character movement, constraints and goals, while still leaving full control
+      of look and feel in animators'' hands.
+
+
+      Speakers:
+
+      Michael Buttner
+      (Unity Technologies)
+
+
+      https://unite.unity.com/2018/berlin/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/9h2tKoI3CXU/sddefault.jpg
+    - https://i.ytimg.com/vi/9h2tKoI3CXU/mqdefault.jpg
+    - https://i.ytimg.com/vi/9h2tKoI3CXU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9h2tKoI3CXU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 7951
+    likeCount: 83
+    dislikeCount: 12
+    commentCount: 6
+    durationInMinutes: 36
+    publishedAtDate: 636700302000000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Optimizing Engagement and LTV Through Personalization
+    url: https://www.youtube.com/watch?v=-Dw75TV-K00
+    channelName: Unity
+    description: "Slides: https://www.slideshare.net/unity3d/optimizing-engagement-and-ltv-through-personalization\nMaximizing
+      player LTV requires a fine balance between IAP promotions, ads, cross-promotion,
+      and more. Learn how Unity uses machine learning to find what should be shown
+      to each individual player to optimize lifetime value. \n\nSpeakers:\nNicolas
+      Boulay (Space Ape) \nStephen Sullivan (Unity Technologies) \nFelix The (Unity
+      Technologies)\n\nhttps://unite.unity.com/2018/berlin/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/-Dw75TV-K00/sddefault.jpg
+    - https://i.ytimg.com/vi/-Dw75TV-K00/mqdefault.jpg
+    - https://i.ytimg.com/vi/-Dw75TV-K00/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-Dw75TV-K00/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1044
+    likeCount: 8
+    dislikeCount: 3
+    commentCount: 0
+    durationInMinutes: 33
+    publishedAtDate: 636676110020000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Harold Halibut and Making a Stop Motion Game
+    url: https://www.youtube.com/watch?v=9usssSQc0wQ
+    channelName: Unity
+    description: SlowBros talk about the creation of their upcoming game, Harold
+      Halibut, diving into the details of their innovative stop-motion techniques
+      and Unity 2018's latest features.
+    thumbUrls:
+    - https://i.ytimg.com/vi/9usssSQc0wQ/sddefault.jpg
+    - https://i.ytimg.com/vi/9usssSQc0wQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/9usssSQc0wQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9usssSQc0wQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Harold Halibut
+    - Stop Motion
+    viewCount: 4918
+    likeCount: 146
+    dislikeCount: 2
+    commentCount: 10
+    durationInMinutes: 34
+    publishedAtDate: 636691608010000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Create Faster with Cache Server V6
+    url: https://www.youtube.com/watch?v=ALYeojq6Eqc
+    channelName: Unity
+    description: "Slides: https://www.slideshare.net/unity3d/create-faster-with-cache-server-v6\nCache
+      Server makes creating with Unity faster by optimizing the asset-import processes
+      either on your local machine or on a dedicated server for teams working on
+      a LAN. In this session, you\u2019ll learn about improvements in the recent
+      Version 6.0 release (and how to implement it), accelerating your team\u2019s
+      workflow.  \n\nSpeaker:\nStephen Palmer"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ALYeojq6Eqc/sddefault.jpg
+    - https://i.ytimg.com/vi/ALYeojq6Eqc/mqdefault.jpg
+    - https://i.ytimg.com/vi/ALYeojq6Eqc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ALYeojq6Eqc/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3043
+    likeCount: 51
+    dislikeCount: 2
+    commentCount: 3
+    durationInMinutes: 18
+    publishedAtDate: 636670062000000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 - Weird Tech and Working with Novel Hardware
+    url: https://www.youtube.com/watch?v=9dvjCsqJElg
+    channelName: Unity
+    description: "Interested in developing for an unusual platform? This panel covers
+      advice and tips for developing on a wide range of hardware beyond PC. The speakers
+      have experience in AR/VR, motion tracking, eye tracking, holographic technology,
+      and more! \n\nMJ Johns (Founder / Director, Astire Games), \nSteve Lukas (CEO,
+      Across Realities), \nTristan Moore (Designer/Co-Founder, Broken Window Studios),
+      \nAdam Creighton (Studio GM & Director of Development, Panic Button Games),
+      \nAndrew Eiche (Developer and Producer-Extraordinaire, Owlchemy Labs)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/9dvjCsqJElg/sddefault.jpg
+    - https://i.ytimg.com/vi/9dvjCsqJElg/mqdefault.jpg
+    - https://i.ytimg.com/vi/9dvjCsqJElg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9dvjCsqJElg/hqdefault.jpg
+    tags:
+    - Unity
+    - Unity3D
+    - Unite
+    - Game Development
+    - Game Dev
+    - Astire Games
+    - Across Realities
+    - Broken Window Studio
+    - Panic Button Games
+    - Owlchemy Labs
+    viewCount: 680
+    likeCount: 5
+    dislikeCount: 1
+    commentCount: 0
+    durationInMinutes: 60
+    publishedAtDate: 636453396000000000
+    publisdedDate:
+      year: 2017
+      month: 11
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 - Unity for Nintendo Platforms
+    url: https://www.youtube.com/watch?v=UKp4-GvG-ZA
+    channelName: Unity
+    description: "Nintendo of America presents the current state of Unity's tools
+      for the Nintendo platforms, and explores the funnel for getting your project
+      from development to being publishes on the Nintendo eShop.\n\nKirk Scott (Manager,
+      Business Development, Nintendo of America), \nJustin Price (Software Engineer,
+      Nintendo Technology Development)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/UKp4-GvG-ZA/sddefault.jpg
+    - https://i.ytimg.com/vi/UKp4-GvG-ZA/mqdefault.jpg
+    - https://i.ytimg.com/vi/UKp4-GvG-ZA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/UKp4-GvG-ZA/hqdefault.jpg
+    tags: []
+    viewCount: 9184
+    likeCount: 177
+    dislikeCount: 6
+    commentCount: 7
+    durationInMinutes: 23
+    publishedAtDate: 636456816020000000
+    publisdedDate:
+      year: 2017
+      month: 11
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite Austin 2017 - Photon vs UNet: Battle of the Giants'
+    url: https://www.youtube.com/watch?v=JMTWvoM6cqo
+    channelName: Unity
+    description: 'Developing multiplayer games is extremely challenging. While game
+      design aspects do change a lot, it is the design and implementation of the
+      multiplayer architecture that separates the best from the rest. Join Christof
+      Wegmann as he embarks on discussing trade offs such as server vs client authority,
+      local determinism vs state serialisation, rollbacks, and other known and proven
+      mechanisms and how some of the most popular networking middleware impliment
+      these concepts.
+
+
+      Christof Wegmann (Founder & CTO, Exit Games // Photon)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/JMTWvoM6cqo/sddefault.jpg
+    - https://i.ytimg.com/vi/JMTWvoM6cqo/mqdefault.jpg
+    - https://i.ytimg.com/vi/JMTWvoM6cqo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/JMTWvoM6cqo/hqdefault.jpg
+    tags: []
+    viewCount: 3041
+    likeCount: 44
+    dislikeCount: 2
+    commentCount: 3
+    durationInMinutes: 28
+    publishedAtDate: 636462828020000000
+    publisdedDate:
+      year: 2017
+      month: 11
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 - Game Architecture with Scriptable Objects
+    url: https://www.youtube.com/watch?v=raQ3iHhE_Kk
+    channelName: Unity
+    description: 'Scriptable Objects are an immensely powerful yet often underutilized
+      feature of Unity. Learn how to get the most out of this versatile data structure
+      and build more extensible systems and data patterns. In this talk, Schell Games
+      shares specific examples of how they have used the Scriptable Object for everything
+      from a hierarchical state machine, to an event system, to a method of cross
+      scene communication.  Sample project: https://github.com/roboryantron/Unite2017
+
+
+      Ryan
+      Hipple (Principal Engineer, Schell Games)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/raQ3iHhE_Kk/sddefault.jpg
+    - https://i.ytimg.com/vi/raQ3iHhE_Kk/mqdefault.jpg
+    - https://i.ytimg.com/vi/raQ3iHhE_Kk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/raQ3iHhE_Kk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 187109
+    likeCount: 4270
+    dislikeCount: 49
+    commentCount: 273
+    durationInMinutes: 64
+    publishedAtDate: 636467891770000000
+    publisdedDate:
+      year: 2017
+      month: 11
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 - Unity for Films
+    url: https://www.youtube.com/watch?v=tvcu4oIcFuA
+    channelName: Unity
+    description: "For many years, we have dreamt of films and games converging. Now,
+      making films with a real-time engine is not an idea, it is a reality. This
+      is the start of a new era for film makers. Discover the latest uses of Unity
+      for cinematographic and animation projects, such as The Jungle Book (Digital
+      Domain), The Gift (Marza Animation Planet), Sonder (Soba Productions), and
+      Mr Carton (.\n\nSara Sampson - Soba Productions \nNeth Nom - Soba Productions
+      \nGirish Balakrishnan - Digital Domain \nMicha\xEBl Bolufer - Director \nMathieu
+      Muller - Unity Technologies\nHiroki Omae - Unity Technologies"
+    thumbUrls:
+    - https://i.ytimg.com/vi/tvcu4oIcFuA/sddefault.jpg
+    - https://i.ytimg.com/vi/tvcu4oIcFuA/mqdefault.jpg
+    - https://i.ytimg.com/vi/tvcu4oIcFuA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/tvcu4oIcFuA/hqdefault.jpg
+    tags: []
+    viewCount: 62202
+    likeCount: 677
+    dislikeCount: 43
+    commentCount: 40
+    durationInMinutes: 56
+    publishedAtDate: 636172013320000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite 2016 - Input and Tracking: Mass Market AR/VR Adoption is Coming
+      Soon'
+    url: https://www.youtube.com/watch?v=aa8pB93bq4A
+    channelName: Unity
+    description: "Current ARVR mobile technology has not yet provided natural input
+      for body and motion tracking. Adding inside-out hand and head position tracking
+      for mobile devices will enable the most natural mobile ARVR experiences. With
+      this evolved input feature, mobile ARVR app and game developers will now be
+      able to create intuitive hands-free UX for mobile ARVR. \n\nYue Fei - uSens
+      Inc."
+    thumbUrls:
+    - https://i.ytimg.com/vi/aa8pB93bq4A/sddefault.jpg
+    - https://i.ytimg.com/vi/aa8pB93bq4A/mqdefault.jpg
+    - https://i.ytimg.com/vi/aa8pB93bq4A/maxresdefault.jpg
+    - https://i.ytimg.com/vi/aa8pB93bq4A/hqdefault.jpg
+    tags:
+    - AR
+    - VR
+    - Unite 2016 Los Angeles
+    - Unite 16
+    - Unite LA
+    viewCount: 1117
+    likeCount: 15
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 31
+    publishedAtDate: 636162312670000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 - Cinematics and Storytelling in Unity
+    url: https://www.youtube.com/watch?v=5KSaHcsSVa4
+    channelName: Unity
+    description: "Our upcoming Timeline tools can help you create powerful cinematic
+      and interactive sequences. This talk explains the new Playable API and shows
+      how to seamlessly transition from gameplay to cutscenes and back. \n\nAdam
+      Myhill - Unity Technologies \nSean Thompson - Unity Technologies \nMike Wuetherick
+      - Unity Technologies\""
+    thumbUrls:
+    - https://i.ytimg.com/vi/5KSaHcsSVa4/sddefault.jpg
+    - https://i.ytimg.com/vi/5KSaHcsSVa4/mqdefault.jpg
+    - https://i.ytimg.com/vi/5KSaHcsSVa4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5KSaHcsSVa4/hqdefault.jpg
+    tags:
+    - Unite Los Angeles 2016
+    - Unity (Software)
+    - Playable API
+    viewCount: 44285
+    likeCount: 376
+    dislikeCount: 8
+    commentCount: 30
+    durationInMinutes: 59
+    publishedAtDate: 636162205750000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 - Building Multiplayer Games with Unity
+    url: https://www.youtube.com/watch?v=-_0TtPY5LCc
+    channelName: Unity
+    description: "Senior Software Engineer Alexey Abramychev (Unity Technologies)
+      provides an in-depth understanding of Unity Multiplayer. Then, Yossarian King
+      and Richard Harrison (Blackbird Interactive, Homeworld: Deserts of Kharak)
+      shows how they build their game from the ground up for multiplayer: data driven
+      systems, software architecture, game state synchronization and more.\n\nAlexey
+      Abramychev - Unity Technologies \nRichard Harrison - Blackbird Interactive
+      Inc. \nYossarian King - Blackbird Interactive Inc."
+    thumbUrls:
+    - https://i.ytimg.com/vi/-_0TtPY5LCc/sddefault.jpg
+    - https://i.ytimg.com/vi/-_0TtPY5LCc/mqdefault.jpg
+    - https://i.ytimg.com/vi/-_0TtPY5LCc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-_0TtPY5LCc/hqdefault.jpg
+    tags:
+    - UNET
+    - Unity Networking
+    - Unity Multiplayer
+    viewCount: 54120
+    likeCount: 581
+    dislikeCount: 23
+    commentCount: 62
+    durationInMinutes: 54
+    publishedAtDate: 636162433510000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2015 - Unity for Nintendo Platforms
+    url: https://www.youtube.com/watch?v=y7TiIg75A4k
+    channelName: Unity
+    description: 'Nintendo''s software development support group engineers and developer
+      Irena Cranston and Erik Hill, together with manager for developer relations
+      Kirk Scott talk about the current state of Unity''s tools for Nintendo''s platforms
+      and the process for publishing your game there.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V61h/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/y7TiIg75A4k/sddefault.jpg
+    - https://i.ytimg.com/vi/y7TiIg75A4k/mqdefault.jpg
+    - https://i.ytimg.com/vi/y7TiIg75A4k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/y7TiIg75A4k/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Video Game (Industry)
+    - Video Game Development
+    - Unite 2015 Boston
+    - Nintendo (Video Game Developer)
+    - Nintendo 3DS (Video Game Platform)
+    - Wii U (Video Game Platform)
+    - New Nintendo 3DS
+    viewCount: 8337
+    likeCount: 163
+    dislikeCount: 5
+    commentCount: 23
+    durationInMinutes: 17
+    publishedAtDate: 635814746080000000
+    publisdedDate:
+      year: 2015
+      month: 10
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2015 - Unity for Animated Productions
+    url: https://www.youtube.com/watch?v=x9vIE2yDG28
+    channelName: Unity
+    description: 'In early 2014, Montreal-based Hibernum Creations started work on
+      a unified pipeline for game development and animation. Since then, the studio''s
+      R&D team, Hibernum Labs, has been busy experimenting with in-game motion capture
+      previsualization, interactive photorealistic rendering, and automated asset
+      management, as well as developing Unity-based video montage and post-production
+      tools. The result: some very promising new technologies and some very valuable
+      lessons learned. Get the details from Etienne Whittom, head of Hibernum Labs,
+      and Patrick Roussel, systems engineer at the Digital Imagery Research and Development
+      Centre (CDRIN).
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V62A/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/x9vIE2yDG28/sddefault.jpg
+    - https://i.ytimg.com/vi/x9vIE2yDG28/mqdefault.jpg
+    - https://i.ytimg.com/vi/x9vIE2yDG28/maxresdefault.jpg
+    - https://i.ytimg.com/vi/x9vIE2yDG28/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Video Game (Industry)
+    - Video Game Development
+    - Unite 2015 Boston
+    viewCount: 4236
+    likeCount: 50
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 46
+    publishedAtDate: 635809634720000000
+    publisdedDate:
+      year: 2015
+      month: 10
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2015 - Publishing your Unity content to the Web with WebGL
+    url: https://www.youtube.com/watch?v=trO7FFx0fRA
+    channelName: Unity
+    description: 'Jonas Echterhoff and Marco Trivellato (Unity Technologies) together
+      with Andre Vrignaud and Luke Wagner (Mozilla) talk about the current state
+      of WebGL export in Unity and share an outlook of the ecosystem of browser technologies.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V62U/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/trO7FFx0fRA/sddefault.jpg
+    - https://i.ytimg.com/vi/trO7FFx0fRA/mqdefault.jpg
+    - https://i.ytimg.com/vi/trO7FFx0fRA/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - WebGL
+    - Video Game (Industry)
+    - Video Game Development
+    - Unite 2015 Boston
+    viewCount: 7779
+    likeCount: 67
+    dislikeCount: 4
+    commentCount: 12
+    durationInMinutes: 61
+    publishedAtDate: 635798231300000000
+    publisdedDate:
+      year: 2015
+      month: 10
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 - The State of the Unity Community
+    url: https://www.youtube.com/watch?v=wuO1OLLpJ7M
+    channelName: Unity
+    description: 'Aurore Dimopoulos, Joe Robins and Will Goldstone discuss the state
+      of the Community, our roadmap for online tools and make your views heard as
+      to what you like and dislike about our engagement with you!
+
+
+      Help us
+      caption & translate this video!
+
+
+      http://amara.org/v/V664/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/wuO1OLLpJ7M/sddefault.jpg
+    - https://i.ytimg.com/vi/wuO1OLLpJ7M/mqdefault.jpg
+    - https://i.ytimg.com/vi/wuO1OLLpJ7M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wuO1OLLpJ7M/hqdefault.jpg
+    tags:
+    - Community (Website Category)
+    - Unity (Software)
+    - Unite 2014 Seattle
+    viewCount: 1036
+    likeCount: 8
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 59
+    publishedAtDate: 635447443100000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 - Crash Course on Implementing Steamworks SDK
+    url: https://www.youtube.com/watch?v=3FJzehQrqJE
+    channelName: Unity
+    description: 'Chris Figuera (KinifiGames) and Riley Labrecque
+
+      (Steamworks.NET)
+      give an introduction into getting your game up and running with Steamworks
+      API and the wrappers available to use in Unity.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V668/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/3FJzehQrqJE/sddefault.jpg
+    - https://i.ytimg.com/vi/3FJzehQrqJE/mqdefault.jpg
+    - https://i.ytimg.com/vi/3FJzehQrqJE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/3FJzehQrqJE/hqdefault.jpg
+    tags:
+    - Software Development Kit (Software Genre)
+    - Steamworks
+    - Unity (Software)
+    - Unite 2014 Seattle
+    - Steam
+    viewCount: 16056
+    likeCount: 192
+    dislikeCount: 8
+    commentCount: 11
+    durationInMinutes: 21
+    publishedAtDate: 635446837030000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 - Animating Indie Impressionism
+    url: https://www.youtube.com/watch?v=T40IqpkeOlE
+    channelName: Unity
+    description: 'Sam Farmer (Rocket Science Amusements) and Steffano Corazza (Mixamo)
+      talk about the unique style of Last Life, how the story evolves into character
+      design and animation and how to get the best results with Unity''s Mecanim
+      animation system.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V66a/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/T40IqpkeOlE/sddefault.jpg
+    - https://i.ytimg.com/vi/T40IqpkeOlE/mqdefault.jpg
+    - https://i.ytimg.com/vi/T40IqpkeOlE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/T40IqpkeOlE/hqdefault.jpg
+    tags:
+    - Unity (software)
+    - Unite 2014 Seattle
+    - game development
+    - game art
+    - game animation
+    viewCount: 5085
+    likeCount: 43
+    dislikeCount: 0
+    commentCount: 5
+    durationInMinutes: 46
+    publishedAtDate: 635446826170000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2012 - Developing Content for the Unity 4 Animation System
+    url: https://www.youtube.com/watch?v=88y6X5CCg4s
+    channelName: Unity
+    description: 'Speakers: Oliver Barraza, Mixamo & Doug Perkowski, OC3 Entertainment
+      & Andreas Kleer, xaitment GmbH
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6b2/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/88y6X5CCg4s/sddefault.jpg
+    - https://i.ytimg.com/vi/88y6X5CCg4s/mqdefault.jpg
+    - https://i.ytimg.com/vi/88y6X5CCg4s/maxresdefault.jpg
+    - https://i.ytimg.com/vi/88y6X5CCg4s/hqdefault.jpg
+    tags:
+    - oc3 entertainment
+    - xaitment
+    - unity
+    - unity3d
+    - mecanim
+    - animation
+    - characters
+    viewCount: 2027
+    likeCount: 28
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 49
+    publishedAtDate: 635056322290000000
+    publisdedDate:
+      year: 2013
+      month: 5
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite 12 - Mecanim: Creating Retargetable Animation in Unity 4'
+    url: https://www.youtube.com/watch?v=96UId0AdOVM
+    channelName: Unity
+    description: 'Robert Lanciault and Pierre-Paul Giroux from Unity show the latest
+      in Unity''s character animation system ''Mecanim''.
+
+
+      Help us caption
+      & translate this video!
+
+
+      http://amara.org/v/V6b8/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/96UId0AdOVM/sddefault.jpg
+    - https://i.ytimg.com/vi/96UId0AdOVM/mqdefault.jpg
+    - https://i.ytimg.com/vi/96UId0AdOVM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/96UId0AdOVM/hqdefault.jpg
+    tags:
+    - unity
+    - unite2012
+    - unite12
+    - mecanim
+    - animation
+    - retargetable
+    - retargetting
+    - unity4
+    viewCount: 24432
+    likeCount: 152
+    dislikeCount: 0
+    commentCount: 21
+    durationInMinutes: 61
+    publishedAtDate: 635053472040000000
+    publisdedDate:
+      year: 2013
+      month: 5
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: UIElements, a new UI system for the editor - Unite LA
+    url: https://www.youtube.com/watch?v=MNNURw0LeoQ
+    channelName: Unity
+    description: 'We designed a new UI system (targeted for 2019.1 release) that
+      will replace IMGUI for extending the Editor. Learn how the new system, built
+      for performance and scalability, will have a comprehensible and conventional
+      API and enable designers to easily contribute to styling and layout with Damian
+      Campeanu and Benoit Dupuis (Unity Technologies)
+
+
+      More info about UI
+      Elements: https://on.unity.com/2JKTFI0'
+    thumbUrls:
+    - https://i.ytimg.com/vi/MNNURw0LeoQ/sddefault.jpg
+    - https://i.ytimg.com/vi/MNNURw0LeoQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/MNNURw0LeoQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MNNURw0LeoQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 47099
+    likeCount: 563
+    dislikeCount: 46
+    commentCount: 65
+    durationInMinutes: 42
+    publishedAtDate: 636788736010000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: UIElements in Unity 2019.1
+    url: https://www.youtube.com/watch?v=GSRVI1HqlF4
+    channelName: Unity
+    description: 'UIElements is a new retained mode UI framework for Unity.
+
+      In
+      Unity 2019.1, UIElements is releasing as a production ready UI API for extending
+      the Editor. More info: https://on.unity.com/2UYdP6z'
+    thumbUrls:
+    - https://i.ytimg.com/vi/GSRVI1HqlF4/sddefault.jpg
+    - https://i.ytimg.com/vi/GSRVI1HqlF4/mqdefault.jpg
+    - https://i.ytimg.com/vi/GSRVI1HqlF4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GSRVI1HqlF4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 59125
+    likeCount: 656
+    dislikeCount: 15
+    commentCount: 58
+    durationInMinutes: 1
+    publishedAtDate: 636913081050000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: The Animator Controller - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=JeZkctmoBPw
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://unity3d.com/learn/tutorials/modules/beginner/animation/animator-controller
+
+      Animator
+      Controllers are state machines that determine which animations are currently
+      being played and blends between animations seamlessly. In this video you will
+      learn how to make animator controllers and apply different animations and states
+      to it.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V68Z/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/JeZkctmoBPw/sddefault.jpg
+    - https://i.ytimg.com/vi/JeZkctmoBPw/mqdefault.jpg
+    - https://i.ytimg.com/vi/JeZkctmoBPw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/JeZkctmoBPw/hqdefault.jpg
+    tags: []
+    viewCount: 421885
+    likeCount: 1602
+    dislikeCount: 259
+    commentCount: 129
+    durationInMinutes: 8
+    publishedAtDate: 635269920270000000
+    publisdedDate:
+      year: 2014
+      month: 2
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: The Animator Component - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=b0O2CRSdiOA
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://unity3d.com/learn/tutorials/modules/beginner/animation/animator-component
+
+      The
+      Animator Component binds Unity''s animation system to a game object. In this
+      video you will learn what this component does and how you can use it to start
+      animating objects.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V68i/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/b0O2CRSdiOA/sddefault.jpg
+    - https://i.ytimg.com/vi/b0O2CRSdiOA/mqdefault.jpg
+    - https://i.ytimg.com/vi/b0O2CRSdiOA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/b0O2CRSdiOA/hqdefault.jpg
+    tags: []
+    viewCount: 188391
+    likeCount: 422
+    dislikeCount: 13
+    commentCount: 27
+    durationInMinutes: 3
+    publishedAtDate: 635269920060000000
+    publisdedDate:
+      year: 2014
+      month: 2
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: The Animation View - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=8jDvh3hbzv4
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://unity3d.com/learn/tutorials/modules/beginner/animation/animation-view
+
+      The
+      animation view allows you to build and customize your own animations within
+      Unity. In this video you will learn how to make your own animations and use
+      them to build creative behaviors within a scene.
+
+
+      Help us caption &
+      translate this video!
+
+
+      http://amara.org/v/V68O/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/8jDvh3hbzv4/sddefault.jpg
+    - https://i.ytimg.com/vi/8jDvh3hbzv4/mqdefault.jpg
+    - https://i.ytimg.com/vi/8jDvh3hbzv4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8jDvh3hbzv4/hqdefault.jpg
+    tags: []
+    viewCount: 48537
+    likeCount: 238
+    dislikeCount: 15
+    commentCount: 30
+    durationInMinutes: 6
+    publishedAtDate: 635269921350000000
+    publisdedDate:
+      year: 2014
+      month: 2
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Testing and QA open mic - Unite LA
+    url: https://www.youtube.com/watch?v=pXpUF_VWn_M
+    channelName: Unity
+    description: 'Are you involved in testing or QA on projects in Unity? Get a quick
+      overview of the state of Unity for all things testing related, and hear stories
+      of success, failure, pain, and glory. Learn from your fellow developers and
+      get feedback on how Unity could help you hold your projects to a higher quality
+      standard.
+
+
+      Speaker: Richard Fine (BuildSystem Team Lead, Unity Technologies)
+
+
+      Learn
+      more: https://unity3d.com/unity/qa
+
+
+      Help us caption & translate this
+      video!
+
+
+      https://amara.org/v/oLG2/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/pXpUF_VWn_M/sddefault.jpg
+    - https://i.ytimg.com/vi/pXpUF_VWn_M/mqdefault.jpg
+    - https://i.ytimg.com/vi/pXpUF_VWn_M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pXpUF_VWn_M/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1081
+    likeCount: 18
+    dislikeCount: 0
+    commentCount: 3
+    durationInMinutes: 42
+    publishedAtDate: 636788718020000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Survival Shooter Tutorial - 4 of 10 : Adding Enemy one - Unity Official
+      Tutorials (new)'
+    url: https://www.youtube.com/watch?v=xUl-Agx2cLc
+    channelName: Unity
+    description: '* IMPORTANT - This projects requires Unity 4.6 or greater *
+
+      Watch
+      on Unity''s learn site here -
+
+      http://unity3d.com/learn/tutorials/projects/survival-shooter
+
+
+      The
+      Unite 2014 Training Day Project ''Nightmares'' guides you through creating
+      an isometric shooter game. You play as a young boy having a nightmare that
+      his toys have come to life as members of the undead, luckily in this nightmare,
+      he''s armed to the teeth!
+
+
+      This is part 4 of 10, in which you will create
+      the enemy behaviour, including animation, state machines, nav mesh and code.
+
+
+      Presented
+      by -
+
+      Will Goldstone - Content Manager (@willgoldstone)
+
+      Mike Geig
+      - Trainer (@mikegeig)
+
+      James Bouckley - Content Developer
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V65c/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/xUl-Agx2cLc/sddefault.jpg
+    - https://i.ytimg.com/vi/xUl-Agx2cLc/mqdefault.jpg
+    - https://i.ytimg.com/vi/xUl-Agx2cLc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xUl-Agx2cLc/hqdefault.jpg
+    tags:
+    - unite
+    - unity
+    - shooter
+    - tutorial
+    - isometric
+    - gun
+    - raycast
+    - ai
+    - survival
+    - horror
+    - top down
+    - training day
+    viewCount: 139169
+    likeCount: 733
+    dislikeCount: 10
+    commentCount: 260
+    durationInMinutes: 23
+    publishedAtDate: 635489157450000000
+    publisdedDate:
+      year: 2014
+      month: 10
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Stealth game tutorial - 304 - Double Door Animation - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=xzFsq7W4sJc
+    channelName: Unity
+    description: 'Watch this video in context on the Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/projects/stealth/double-doors
+
+
+      Learn
+      how to add the double doors for the lift that will control the inner doors
+      in the following assignment.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6bI/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/xzFsq7W4sJc/sddefault.jpg
+    - https://i.ytimg.com/vi/xzFsq7W4sJc/mqdefault.jpg
+    - https://i.ytimg.com/vi/xzFsq7W4sJc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xzFsq7W4sJc/hqdefault.jpg
+    tags:
+    - unity3d
+    - lift
+    - door
+    - double
+    - motion tracking
+    - vector3
+    - mathf lerp
+    - lerp
+    viewCount: 17653
+    likeCount: 61
+    dislikeCount: 1
+    commentCount: 16
+    durationInMinutes: 9
+    publishedAtDate: 635060648900000000
+    publisdedDate:
+      year: 2013
+      month: 6
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Stealth game tutorial - 303 - Single Door & Animation - Unity Official
+      Tutorials
+    url: https://www.youtube.com/watch?v=9rEI2mLUKcM
+    channelName: Unity
+    description: 'Watch this video in context on the Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/projects/stealth/single-doors
+
+
+      Learn
+      how to make the standard, single doors that are placed around the level.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6be/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/9rEI2mLUKcM/sddefault.jpg
+    - https://i.ytimg.com/vi/9rEI2mLUKcM/mqdefault.jpg
+    - https://i.ytimg.com/vi/9rEI2mLUKcM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9rEI2mLUKcM/hqdefault.jpg
+    tags:
+    - tutorial
+    - beginner
+    - editor
+    - unity
+    - unity3d
+    - unity (game Engine)
+    - game engine software
+    - how to
+    - video tutorial
+    - make video games
+    - stealth
+    - metal gear solid
+    - sneak
+    - top down
+    - third person
+    - door
+    - animation
+    - mecanim
+    viewCount: 35724
+    likeCount: 162
+    dislikeCount: 1
+    commentCount: 47
+    durationInMinutes: 15
+    publishedAtDate: 635014218020000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: Stealth game tutorial - 202 - Player Animator Controller - Unity Official
+      Tutorials
+    url: https://www.youtube.com/watch?v=ZoTr3mPpPSY
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/projects/stealth/player-animator-controller
+
+
+      Learn
+      how to make the Animator Controller asset to drive the player''s animation.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6bm/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZoTr3mPpPSY/sddefault.jpg
+    - https://i.ytimg.com/vi/ZoTr3mPpPSY/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZoTr3mPpPSY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZoTr3mPpPSY/hqdefault.jpg
+    tags:
+    - tutorial
+    - beginner
+    - editor
+    - unity
+    - unity3d
+    - unity (game Engine)
+    - game engine software
+    - how to
+    - video tutorial
+    - make video games
+    - stealth
+    - metal gear solid
+    - sneak
+    - top down
+    - third person
+    - animator
+    - mecanim
+    - state machine
+    - player
+    viewCount: 99010
+    likeCount: 330
+    dislikeCount: 14
+    commentCount: 43
+    durationInMinutes: 13
+    publishedAtDate: 635011336180000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Stealth game tutorial - 107 - CCTV Cameras - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=hrFJLwpKXXQ
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/projects/stealth/cctv-cameras
+
+
+      Setting
+      up the CCTV Cameras, using models, trigger colliders, lights, light cookies
+      and the Animation window.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6bq/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/hrFJLwpKXXQ/sddefault.jpg
+    - https://i.ytimg.com/vi/hrFJLwpKXXQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/hrFJLwpKXXQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hrFJLwpKXXQ/hqdefault.jpg
+    tags:
+    - tutorial
+    - beginner
+    - editor
+    - unity
+    - unity3d
+    - unity (game engine)
+    - game engine software
+    - learn
+    - how to
+    - make video games
+    - stealth
+    - metal gear solid
+    - sneak
+    - top down
+    - third person
+    viewCount: 51105
+    likeCount: 193
+    dislikeCount: 9
+    commentCount: 46
+    durationInMinutes: 11
+    publishedAtDate: 635010569490000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Realtime Animation and Lighting in Unity! (Tutorial)
+    url: https://www.youtube.com/watch?v=SXMxfSp6YPQ
+    channelName: Unity
+    description: "Want to learn how to optimize lighting for high quality visuals
+      in realtime animation? Let's check out how Unity Technologies did it in our
+      animation Sherman!\n\nIn this video we go behind the scenes of the realtime
+      animation Sherman. We will look at how to achieve high quality lighting effects,
+      optimized not for gameplay performance but instead for maximum visual fidelity.
+      \n\nIf you would like to learn more please check out our blog post which goes
+      into even greater detail:\n\nLighting In Sherman:\nhttps://ole.unity.com/lightingshermanblog\n\nDownload
+      the project:\nhttps://ole.unity.com/shermanproject\n\nMultiscene Workflows:\nhttps://ole.unity.com/multiscenewf"
+    thumbUrls:
+    - https://i.ytimg.com/vi/SXMxfSp6YPQ/sddefault.jpg
+    - https://i.ytimg.com/vi/SXMxfSp6YPQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/SXMxfSp6YPQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/SXMxfSp6YPQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity real time animation
+    - unity real time animation tutorial
+    - unity animation cartoon
+    - unity animation film
+    - unity real time lighting
+    - unity hdrp
+    - unity realtime render
+    - realtime lighting
+    - high definition render pipeline
+    - unity animations
+    - realtime animation in unity
+    - realtime animations
+    - unity graphics
+    - unity real graphics
+    - unity realistic graphics
+    - unity high quality lighting
+    viewCount: 30300
+    likeCount: 960
+    dislikeCount: 13
+    commentCount: 83
+    durationInMinutes: 8
+    publishedAtDate: 637167935670000000
+    publisdedDate:
+      year: 2020
+      month: 2
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: 'QA your code: The new Unity Test Framework - Unite Copenhagen'
+    url: https://www.youtube.com/watch?v=wTiF2D0_vKA
+    channelName: Unity
+    description: "Are you involved in testing or QA on projects in Unity? In this
+      session from Unite Copenhagen, you'll get an overview of the state of Unity
+      for all things testing-related, and have the opportunity to share your stories
+      of success, failure, pain, and glory. You will also get an introduction to
+      the newest features in the Test Framework.\n\nSpeakers:\nChristian Warnecke
+      \u2013 Unity\nRichard Fine \u2013 Unity\n\nSlides available here: https://www.slideshare.net/unity3d/qa-your-code-the-new-unity-test-framework-unite-copenhagen-2019-186054545"
+    thumbUrls:
+    - https://i.ytimg.com/vi/wTiF2D0_vKA/sddefault.jpg
+    - https://i.ytimg.com/vi/wTiF2D0_vKA/mqdefault.jpg
+    - https://i.ytimg.com/vi/wTiF2D0_vKA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wTiF2D0_vKA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 6669
+    likeCount: 99
+    dislikeCount: 6
+    commentCount: 5
+    durationInMinutes: 40
+    publishedAtDate: 637060824080000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Publishing your Unity content to the Web with WebGL - Unite Europe 2015
+    url: https://www.youtube.com/watch?v=RufJDxm6Lq8
+    channelName: Unity
+    description: 'Unity engineer Jonas Echterhoff talks about the current state of
+      WebGL tools in Unity, gives tips for browser game developers and shares the
+      roadmap of his team.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V63f/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/RufJDxm6Lq8/sddefault.jpg
+    - https://i.ytimg.com/vi/RufJDxm6Lq8/mqdefault.jpg
+    - https://i.ytimg.com/vi/RufJDxm6Lq8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/RufJDxm6Lq8/hqdefault.jpg
+    tags:
+    - WebGL
+    - Browser Game (Video Game Genre)
+    - Unity (Software)
+    viewCount: 8164
+    likeCount: 77
+    dislikeCount: 3
+    commentCount: 9
+    durationInMinutes: 32
+    publishedAtDate: 635708567080000000
+    publisdedDate:
+      year: 2015
+      month: 6
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Post install optimization for user acquisition | Unite Now 2020
+    url: https://www.youtube.com/watch?v=66_QlY0315c
+    channelName: Unity
+    description: 'Unity user acquisition experts share how to get the most value
+      from our features for post-install optimization. Find out how the latest machine
+      learning can greatly improve your UA efforts.
+
+
+      Speakers:
+
+      Paivi
+      Putsepp-Seufert, Unity Head of Performance Marketing
+
+      Jaakko Virtanen,
+      Unity, Senior Data Scientist
+
+
+      Ask your questions here: https://on.unity.com/2zYtYQQ
+
+      Did
+      you find this video useful? Room for improvement? Let us know: https://on.unity.com/2Tof7WE
+
+      Check
+      out the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/3d1QeId'
+    thumbUrls:
+    - https://i.ytimg.com/vi/66_QlY0315c/sddefault.jpg
+    - https://i.ytimg.com/vi/66_QlY0315c/mqdefault.jpg
+    - https://i.ytimg.com/vi/66_QlY0315c/maxresdefault.jpg
+    - https://i.ytimg.com/vi/66_QlY0315c/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - user acquisition
+    - game monetization
+    - grow your game
+    viewCount: 4673
+    likeCount: 59
+    dislikeCount: 7
+    commentCount: 5
+    durationInMinutes: 36
+    publishedAtDate: 637266678190000000
+    publisdedDate:
+      year: 2020
+      month: 6
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Physics and Slow Motion in Unity | Beginner Prototype Series
+    url: https://www.youtube.com/watch?v=F0kezWUqytM
+    channelName: Unity
+    description: "Physics is fun to play with in Unity, but what about Physics AND
+      Slow Motion?! Having the power to slow down time in a sandbox game is magnificent.
+      In this particular video, we showcase how we can manipulate time in Unity using
+      timeScale and how to modify it via code!\n\nWatch longer training session &
+      download the project:\nhttps://on.unity.com/3gwqeX2 \n\nAsset Store access
+      to Creator Kit used in this project:\nhttps://on.unity.com/3dWtj0d\n\nThis
+      video is the second part of the Beginner Prototype series, you can watch the
+      first part here:\nhttps://www.youtube.com/watch?v=sOJKpjiIZQs"
+    thumbUrls:
+    - https://i.ytimg.com/vi/F0kezWUqytM/sddefault.jpg
+    - https://i.ytimg.com/vi/F0kezWUqytM/mqdefault.jpg
+    - https://i.ytimg.com/vi/F0kezWUqytM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/F0kezWUqytM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity physics
+    - unity time
+    - unity time manipulation
+    - unity slow motion
+    - unity physics tutorial
+    - unity physics game
+    - unity unity physics 3d
+    - unity collision
+    - unity collision detection
+    - unity movement
+    - unity rigidbody
+    - slow motion in unity
+    - unity 2020
+    - unity tutorial
+    - unity game development
+    - unity physics sandbox
+    - unity sandbox
+    - unity 2020 physics
+    - unity deltatime
+    - physics in unity
+    - time in unity
+    - 3D
+    viewCount: 24689
+    likeCount: 1018
+    dislikeCount: 8
+    commentCount: 71
+    durationInMinutes: 9
+    publishedAtDate: 637322709010000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Optimizing Engagement and LTV with Personalization - Unite LA
+    url: https://www.youtube.com/watch?v=HXJtjv-wQVk
+    channelName: Unity
+    description: 'Maximizing player lifetime value (LTV) requires a fine balance
+      between in-app purchases (IAP), ads and more. Learn how you can use Unity''s
+      machine learning to deliver a unique experience for each player that optimizes
+      for LTV.
+
+      Speakers: Ingrid Lestiyo (Unity Technologies), Stephen Sullivan
+      (Unity Technologies)
+
+
+      Help us caption & translate this video!
+
+
+      https://amara.org/v/oLG8/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/HXJtjv-wQVk/sddefault.jpg
+    - https://i.ytimg.com/vi/HXJtjv-wQVk/mqdefault.jpg
+    - https://i.ytimg.com/vi/HXJtjv-wQVk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HXJtjv-wQVk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 739
+    likeCount: 8
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 28
+    publishedAtDate: 636786002450000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: Introducing Animation Rigging for 2019.3 - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=9IBhQMYYYWs
+    channelName: Unity
+    description: "Animators, rigging technical artists and developers can all benefit
+      from the Animation Rigging package. The package provides a library of rig constraints
+      that can be used to procedurally control skeletal animation at runtime. Unity
+      2019.3 lets you keyframe the rig constraints in Timeline to author new animation
+      clips in the Unity Editor. Learn how to set up rigs for animation authoring
+      and see a variety of examples for game content creation as well as runtime
+      interactive gameplay.\n\nSpeaker: Dave Hunt \u2013 Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/9IBhQMYYYWs/sddefault.jpg
+    - https://i.ytimg.com/vi/9IBhQMYYYWs/mqdefault.jpg
+    - https://i.ytimg.com/vi/9IBhQMYYYWs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9IBhQMYYYWs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 26476
+    likeCount: 505
+    dislikeCount: 7
+    commentCount: 26
+    durationInMinutes: 45
+    publishedAtDate: 637066891030000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: In Beta - Unity 5.5 Animation Window updates
+    url: https://www.youtube.com/watch?v=7uwB8Wh76o0
+    channelName: Unity
+    description: 'As part of Unity 5.5 we''re bringing some much needed workflow
+      improvements to the Animation window. Introducing the box tool, ripple editing
+      and Clamped Auto tangent mode as well as a host of performance improvements
+      under the hood, check out the Unity 5.5 beta now to try out the new workflows:
+      https://unity3d.com/unity/beta
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/VxXy/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/7uwB8Wh76o0/sddefault.jpg
+    - https://i.ytimg.com/vi/7uwB8Wh76o0/mqdefault.jpg
+    - https://i.ytimg.com/vi/7uwB8Wh76o0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7uwB8Wh76o0/hqdefault.jpg
+    tags:
+    - unity
+    - animation
+    - workflow
+    - beta
+    - 5.5
+    - ripple
+    - editing
+    - keyframes
+    - keyframing
+    viewCount: 38788
+    likeCount: 713
+    dislikeCount: 8
+    commentCount: 71
+    durationInMinutes: 2
+    publishedAtDate: 636099128470000000
+    publisdedDate:
+      year: 2016
+      month: 9
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: Improve your animation workflow with Animation Rigging | Unite Now 2020
+    url: https://www.youtube.com/watch?v=hs2goLjUz4U
+    channelName: Unity
+    description: 'In this video you will learn how the Animation Rigging package
+      can improve animation in your project via better tools and more flexible workflows.
+      Discover how to setup a character, and harness both runtime rigging and animation
+      authoring in this practical demonstration aimed at riggers, animators, and
+      cinematic designers.
+
+
+      Speaker:
+
+      Ciro Continisio, Lead Evangelist
+
+
+      Ask
+      your questions here: https://on.unity.com/37Qf2RA
+
+      Did you find this
+      video useful? Room for improvement? Let us know: https://on.unity.com/37Ri33U
+
+      Check
+      out the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/3erMcte
+
+
+      00:00
+      - Introduction and agenda
+
+      01:17 - The animation workflow
+
+      06:04
+      - Intro to Runtime Rigging
+
+      07:34 - Character setup
+
+      27:33 - Runtime
+      Rigging in Timeline
+
+      32:28 - Animation Authoring demonstration
+
+      44:42
+      - Wrap-up'
+    thumbUrls:
+    - https://i.ytimg.com/vi/hs2goLjUz4U/sddefault.jpg
+    - https://i.ytimg.com/vi/hs2goLjUz4U/mqdefault.jpg
+    - https://i.ytimg.com/vi/hs2goLjUz4U/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hs2goLjUz4U/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - animation rigging
+    - animation
+    - game animation
+    viewCount: 12264
+    likeCount: 408
+    dislikeCount: 4
+    commentCount: 39
+    durationInMinutes: 47
+    publishedAtDate: 637297572010000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: How TV's Treasure Trekkers set up a CG animation pipeline - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=VC-2CRTUP1c
+    channelName: Unity
+    description: 'The Treasure Trekkers team from B. Water Studios switched from
+      Unreal to Unity for this animated production for broadcast television. In this
+      video you''ll learn about its animation pipeline and best practices.
+
+
+      Learn
+      more:
+
+      Julian Lararui - B-Water Animation Studios'
+    thumbUrls:
+    - https://i.ytimg.com/vi/VC-2CRTUP1c/sddefault.jpg
+    - https://i.ytimg.com/vi/VC-2CRTUP1c/mqdefault.jpg
+    - https://i.ytimg.com/vi/VC-2CRTUP1c/maxresdefault.jpg
+    - https://i.ytimg.com/vi/VC-2CRTUP1c/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - animation
+    - Treasure Trekkers
+    viewCount: 7239
+    likeCount: 80
+    dislikeCount: 4
+    commentCount: 5
+    durationInMinutes: 31
+    publishedAtDate: 637070320470000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: How to Search the API via our Forum - Unity Tips
+    url: https://www.youtube.com/watch?v=2bXDuYP84i8
+    channelName: Unity
+    description: 'Want to jump from code you see on the forum to the Scripting reference?
+      you can! Sorry Unityscripters, it''s C# only..
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V63s/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/2bXDuYP84i8/sddefault.jpg
+    - https://i.ytimg.com/vi/2bXDuYP84i8/mqdefault.jpg
+    - https://i.ytimg.com/vi/2bXDuYP84i8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2bXDuYP84i8/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - scripting
+    - forum
+    - code
+    - Unity (Software)
+    - unitytips
+    - programming
+    viewCount: 7388
+    likeCount: 85
+    dislikeCount: 1
+    commentCount: 4
+    durationInMinutes: 0
+    publishedAtDate: 635676525790000000
+    publisdedDate:
+      year: 2015
+      month: 5
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: How FuturePlay increased earnings using GameTune - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=KqX_XyMccWk
+    channelName: Unity
+    description: "Optimization is key to growing your games business. But how do
+      you determine what to prioritize, and how can you roll back changes that have
+      a negative effect? In this session, FuturePlay shows how they implemented Unity
+      machine learning to increase their D7 retention.\n\nSpeakers:\nKaisa Salakka
+      \u2013 Unity Technologies\nErkki Koskenkorva \u2013 Futureplay\n\nGet early
+      access to the beta: https://on.unity.com/35oeKzv\n\nSlides available here:
+      https://www.slideshare.net/unity3d/how-futureplay-increased-earnings-using-gametune-from-unity-unite-copenhagen-2019"
+    thumbUrls:
+    - https://i.ytimg.com/vi/KqX_XyMccWk/sddefault.jpg
+    - https://i.ytimg.com/vi/KqX_XyMccWk/mqdefault.jpg
+    - https://i.ytimg.com/vi/KqX_XyMccWk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/KqX_XyMccWk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1867
+    likeCount: 30
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 43
+    publishedAtDate: 637064280040000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: How AppQuantum used GameTune to optimize their game | Unite Now 2020
+    url: https://www.youtube.com/watch?v=Fh6bRr9iSC0
+    channelName: Unity
+    description: "GameTune is Unity\u2019s machine learning product for optimizing
+      games and player experiences. In this video, AppQuantum's Product team walks
+      you through their GameTune implementation and shares their learnings and best
+      practices.\n\nSpeaker(s):\nJenny Hissa - Product Manager (GameTune)\nElena
+      Bugakova - Publisher Producer (AppQuantum)\n\n\U0001F449 Sign up for the GameTune
+      beta: https://on.unity.com/34P2nwV\n\n\U0001F4FA Dive into Unite Now year-round
+      to join us for live sessions or watch sessions on-demand: https://on.unity.com/2SQfBE5\n\U0001F4DD
+      Did you find this video useful? Room for improvement? Complete this survey
+      to let us know: https://on.unity.com/3lFVrZX"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Fh6bRr9iSC0/sddefault.jpg
+    - https://i.ytimg.com/vi/Fh6bRr9iSC0/mqdefault.jpg
+    - https://i.ytimg.com/vi/Fh6bRr9iSC0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Fh6bRr9iSC0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1922
+    likeCount: 25
+    dislikeCount: 4
+    commentCount: 2
+    durationInMinutes: 24
+    publishedAtDate: 637389835310000000
+    publisdedDate:
+      year: 2020
+      month: 10
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: 'GDC 2019 - Unity Educator Breakfast:  Breaking into Creative Industries'
+    url: https://www.youtube.com/watch?v=BRIsnf9wiaw
+    channelName: Unity
+    description: 'Speakers: Alwyn Hunt & Andrew McDonald (Visual Effects and Animation
+      Professionals, The Rookies, Co-Founders)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/BRIsnf9wiaw/sddefault.jpg
+    - https://i.ytimg.com/vi/BRIsnf9wiaw/mqdefault.jpg
+    - https://i.ytimg.com/vi/BRIsnf9wiaw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/BRIsnf9wiaw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2313
+    likeCount: 74
+    dislikeCount: 3
+    commentCount: 4
+    durationInMinutes: 11
+    publishedAtDate: 636951642810000000
+    publisdedDate:
+      year: 2019
+      month: 6
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Extending the Animation Rigging package with C# - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=xwwK0lAlSyY
+    channelName: Unity
+    description: "The Animation Rigging package can be extended with C# to enable
+      precise results for specific gameplay needs. In this session, Unity Animation
+      Developer Sven Santema demonstrates how to build custom rig constraints in
+      C#. You'll see how you can easily extend the package to add secondary motions
+      on your character rigs at runtime and how you can create authoring constraints
+      to tweak your current animation assets within Unity.\n\nSpeaker: Sven Santema
+      \u2013 Unity\n\nSlides available here: https://www.slideshare.net/unity3d/extending-the-animation-rigging-package-with-c-unite-copenhagen-2019"
+    thumbUrls:
+    - https://i.ytimg.com/vi/xwwK0lAlSyY/sddefault.jpg
+    - https://i.ytimg.com/vi/xwwK0lAlSyY/mqdefault.jpg
+    - https://i.ytimg.com/vi/xwwK0lAlSyY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xwwK0lAlSyY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Animation Rigging package
+    - C#
+    viewCount: 7371
+    likeCount: 160
+    dislikeCount: 5
+    commentCount: 6
+    durationInMinutes: 35
+    publishedAtDate: 637066895970000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Ending the game - 15 - Space Shooter - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=QxWWz5IAvoI
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/projects/space-shooter/ending-the-game
+
+
+      End
+      the game, and show that state of the game with labels for Game Over and Restart.
+
+
+      Related
+      download: http://u3d.as/66k
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V681/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/QxWWz5IAvoI/sddefault.jpg
+    - https://i.ytimg.com/vi/QxWWz5IAvoI/mqdefault.jpg
+    - https://i.ytimg.com/vi/QxWWz5IAvoI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/QxWWz5IAvoI/hqdefault.jpg
+    tags:
+    - Unity
+    - Unity3d
+    - Unity 3d
+    - Tutorial
+    - Space Shooter
+    - Arcade Shooter
+    - Learn
+    - Tut
+    - Physics
+    - Collider
+    - Trigger
+    - Beginner
+    - Starting
+    - How to learn Unity
+    - Unity Tutorial
+    - Unity (Software)
+    - How-to (Media-Genre)
+    - Help
+    - Tips
+    - Tricks
+    - SHMUP
+    - 2D
+    - 2.5D
+    - Game Controller
+    - Top Down Shooter
+    - Shooter
+    viewCount: 111140
+    likeCount: 591
+    dislikeCount: 11
+    commentCount: 193
+    durationInMinutes: 11
+    publishedAtDate: 635233748080000000
+    publisdedDate:
+      year: 2013
+      month: 12
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: 'ECS Track: The Evolution of the ECS API - Unite LA'
+    url: https://www.youtube.com/watch?v=JpqwZ8SPArg
+    channelName: Unity
+    description: 'Come take a look at the past, present, and future of the Entity
+      Component System (ECS) API. Software engineer, Aria Bonczek from the Unity
+      Data-Oriented Design team, will offer a few specific examples of why we made
+      the choices we did with this API. And anyone curious about the ECS will get
+      a good overview of the API and its standards.
+
+
+      Speaker: Aria Bonczek
+      (Unity Technologies)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/JpqwZ8SPArg/sddefault.jpg
+    - https://i.ytimg.com/vi/JpqwZ8SPArg/mqdefault.jpg
+    - https://i.ytimg.com/vi/JpqwZ8SPArg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/JpqwZ8SPArg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 7025
+    likeCount: 117
+    dislikeCount: 4
+    commentCount: 2
+    durationInMinutes: 40
+    publishedAtDate: 636784236030000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating Character Animations in Unity! (Tutorial)
+    url: https://www.youtube.com/watch?v=T7AdzwW7n2I
+    channelName: Unity
+    description: 'In this video, we''re going to take a ''look at'' (pun absolutely
+      intended) how to create procedural character animations in Unity! This will
+      be done using the Animation Rigging Package.
+
+
+      Watch this video to learn
+      the basics of Animation Rigging!
+
+      https://on.unity.com/2DczAZi
+
+
+      Download
+      the project here!
+
+      https://on.unity.com/3hJWeaq'
+    thumbUrls:
+    - https://i.ytimg.com/vi/T7AdzwW7n2I/sddefault.jpg
+    - https://i.ytimg.com/vi/T7AdzwW7n2I/mqdefault.jpg
+    - https://i.ytimg.com/vi/T7AdzwW7n2I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/T7AdzwW7n2I/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity animations
+    - unity animation
+    - unity animation tutorial
+    - unity animations tutorial
+    - unity animating
+    - unity how to animate
+    - unity procedural animation
+    - unity procedural animations
+    - unity procedural
+    - procedural animation
+    - animation unity
+    - unity game development
+    - unity game tutorial
+    - procedural animation unity
+    - unity animation rigging package
+    - unity animation rigging
+    - unity character rigging
+    viewCount: 54822
+    likeCount: 2564
+    dislikeCount: 24
+    commentCount: 109
+    durationInMinutes: 7
+    publishedAtDate: 637315673110000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Character Setup: Animations, Effects and Audio'
+    url: https://www.youtube.com/watch?v=ZG2sUgRP0gE
+    channelName: Unity
+    description: 'Check out the assets used here: https://ole.unity.com/rpgcharacter
+
+
+      In
+      this video, we look at implementing a top-down RPG character using navmesh
+      with animation, audio, and props sourced from the Unity Asset Store.
+
+
+
+      The
+      C# script shown: https://ole.unity.com/2jM9teA'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZG2sUgRP0gE/sddefault.jpg
+    - https://i.ytimg.com/vi/ZG2sUgRP0gE/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZG2sUgRP0gE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZG2sUgRP0gE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - pbr orcs pack
+    - animset pro longsword
+    - ancient treasures sword pack
+    - realistic effects pack 4
+    - nav mesh
+    - top down animation
+    - top down character
+    - blend tree
+    - blend animation
+    - animation setup
+    - retargeting
+    - generic rig
+    - humanoid rig
+    - click to move
+    - point and click character
+    - moba character
+    - rts character
+    - rpg character
+    - character setup unity
+    - character
+    viewCount: 20619
+    likeCount: 463
+    dislikeCount: 19
+    commentCount: 26
+    durationInMinutes: 11
+    publishedAtDate: 636616070020000000
+    publisdedDate:
+      year: 2018
+      month: 5
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Character Locomotion - Unite Europe 2015
+    url: https://www.youtube.com/watch?v=eVAMOYVSszI
+    channelName: Unity
+    description: 'Jakob Hunsballe (Unity Technologies) shows how you can use built-in
+      features of Unity to steer humanoid characters using a small set of animation
+      clips.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V62k/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/eVAMOYVSszI/sddefault.jpg
+    - https://i.ytimg.com/vi/eVAMOYVSszI/mqdefault.jpg
+    - https://i.ytimg.com/vi/eVAMOYVSszI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/eVAMOYVSszI/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unite Europe 2015
+    - Animation
+    - Mechanim
+    - Character Animation (Field Of Study)
+    - Video Game Development (Industry)
+    viewCount: 6174
+    likeCount: 51
+    dislikeCount: 13
+    commentCount: 7
+    durationInMinutes: 28
+    publishedAtDate: 635736017480000000
+    publisdedDate:
+      year: 2015
+      month: 7
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Character animation setup tutorial - Live Training Nov. 11, 2015
+    url: https://www.youtube.com/watch?v=wf6vtCgLk6w
+    channelName: Unity
+    description: 'View this lesson in context at: https://unity3d.com/learn/tutorials/modules/intermediate/live-training-archive/character-animation-setup
+
+
+      In
+      this session, we will look at the basic steps needed to import and setup a
+      rigged character with Unity''s Animator system.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/wf6vtCgLk6w/sddefault.jpg
+    - https://i.ytimg.com/vi/wf6vtCgLk6w/mqdefault.jpg
+    - https://i.ytimg.com/vi/wf6vtCgLk6w/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wf6vtCgLk6w/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - gamedev
+    - game dev
+    - game development
+    - animation
+    - avatar
+    - mecanim
+    - introduction
+    - animator
+    - blacksmith
+    - unity chan
+    - state machine
+    - behaviour
+    viewCount: 187289
+    likeCount: 2295
+    dislikeCount: 56
+    commentCount: 89
+    durationInMinutes: 88
+    publishedAtDate: 635860609120000000
+    publisdedDate:
+      year: 2015
+      month: 12
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Coroutines in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=5L9ksCs6MbE
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/coroutines
+
+
+      A
+      coroutine is a method that is executed in pieces. Using special "yield" statements
+      you can achieve complex behaviour in a very efficient manner. In this video
+      you will learn how to use coroutines to achieve motion without the use of the
+      Update method.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/5L9ksCs6MbE/sddefault.jpg
+    - https://i.ytimg.com/vi/5L9ksCs6MbE/mqdefault.jpg
+    - https://i.ytimg.com/vi/5L9ksCs6MbE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5L9ksCs6MbE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - unity C# intermediate
+    - unity intermediate
+    - unity advanced
+    viewCount: 47712
+    likeCount: 785
+    dislikeCount: 12
+    commentCount: 40
+    durationInMinutes: 4
+    publishedAtDate: 637003820730000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Blending gameplay and storytelling with Timeline: 2019 Improvements -
+      Unity at GDC 2019'
+    url: https://www.youtube.com/watch?v=SP3LvN-Q4Rw
+    channelName: Unity
+    description: "Discover how you can use the latest Timeline features \u2013 such
+      as Markers and Signals, nested Control tracks, and root motion offsets \u2013
+      to produce compelling interactive experiences. \n\nSpeaker: Ciro Continisio
+      (Technical Evangelist, Unity Technologies)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/SP3LvN-Q4Rw/sddefault.jpg
+    - https://i.ytimg.com/vi/SP3LvN-Q4Rw/mqdefault.jpg
+    - https://i.ytimg.com/vi/SP3LvN-Q4Rw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/SP3LvN-Q4Rw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Timeline
+    - GDC
+    viewCount: 14442
+    likeCount: 264
+    dislikeCount: 8
+    commentCount: 22
+    durationInMinutes: 24
+    publishedAtDate: 636911136030000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Blend Trees - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=HeHvlEYpRbM
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://unity3d.com/learn/tutorials/modules/beginner/animation/blend-trees
+
+      Blend
+      Trees allow you to mix a combination of multiple animations together to get
+      custom results. In this video you will learn about blends trees and how to
+      create them in your games.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V68X/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/HeHvlEYpRbM/sddefault.jpg
+    - https://i.ytimg.com/vi/HeHvlEYpRbM/mqdefault.jpg
+    - https://i.ytimg.com/vi/HeHvlEYpRbM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HeHvlEYpRbM/hqdefault.jpg
+    tags: []
+    viewCount: 162503
+    likeCount: 930
+    dislikeCount: 44
+    commentCount: 68
+    durationInMinutes: 8
+    publishedAtDate: 635269920470000000
+    publisdedDate:
+      year: 2014
+      month: 2
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: "Behind the Scenes on \u201CBaymax Dreams\u201D (Made with Unity for Disney
+      Television Animation)"
+    url: https://www.youtube.com/watch?v=DpuUnNLZf5k
+    channelName: Unity
+    description: "Disney Television Animation and Unity have collaborated to create
+      \u201CBaymax Dreams,\u201D three innovative episodic animated shorts that are
+      inspired by Emmy-Nominated \u201CBig Hero 6 The Series.\u201D Take a sneak
+      peek behind the scenes to see how Disney Television Animation is working with
+      Unity to push the limits of animation using real-time, non-linear production
+      workflows. \u201CBaymax Dreams\u201D is directed by Simon J. Smith with Disney
+      Television Animation\u2019s creative oversight and a crew of 15 \u201CMade
+      with Unity\u201D team members over 6 months using Unity 2018.2. \u201CBaymax
+      Dreams\u201D will premiere on DisneyNOW and Disney Channel\u2019s YouTube channel
+      beginning Sept. 15.\n\nhttps://unity.com/solutions/film"
+    thumbUrls:
+    - https://i.ytimg.com/vi/DpuUnNLZf5k/sddefault.jpg
+    - https://i.ytimg.com/vi/DpuUnNLZf5k/mqdefault.jpg
+    - https://i.ytimg.com/vi/DpuUnNLZf5k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DpuUnNLZf5k/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 41942
+    likeCount: 706
+    dislikeCount: 19
+    commentCount: 33
+    durationInMinutes: 2
+    publishedAtDate: 636694494100000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: "Behind the Scenes on \u201CBaymax Dreams\u201D \u2014 Extended (Made
+      with Unity for Disney Television Animation)"
+    url: https://www.youtube.com/watch?v=9qjp7i7zjSY
+    channelName: Unity
+    description: "Disney Television Animation and Unity have collaborated to create
+      \u201CBaymax Dreams,\u201D three innovative episodic animated shorts that are
+      inspired by Emmy-Nominated \u201CBig Hero 6 The Series.\u201D Take a sneak
+      peek behind the scenes to see how Disney Television Animation is working with
+      Unity to push the limits of animation using real-time, non-linear production
+      workflows. \u201CBaymax Dreams\u201D is directed by Simon J. Smith with Disney
+      Television Animation\u2019s creative oversight and a crew of 15 \u201CMade
+      with Unity\u201D team members over 6 months using Unity 2018.2. \u201CBaymax
+      Dreams\u201D will premiere on DisneyNOW and Disney Channel\u2019s YouTube channel
+      beginning Sept. 15.\n\nLearn More: https://unity.com/madewith\nFacebook: https://www.facebook.com/unity3d\nTwitter:
+      https://twitter.com/unity3d"
+    thumbUrls:
+    - https://i.ytimg.com/vi/9qjp7i7zjSY/sddefault.jpg
+    - https://i.ytimg.com/vi/9qjp7i7zjSY/mqdefault.jpg
+    - https://i.ytimg.com/vi/9qjp7i7zjSY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9qjp7i7zjSY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 14473
+    likeCount: 440
+    dislikeCount: 12
+    commentCount: 23
+    durationInMinutes: 3
+    publishedAtDate: 636721927810000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: AudioMixer Snapshots - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=2nYyws0qJOM
+    channelName: Unity
+    description: 'Watch on the official Unity learn pages here -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/5-pre-order-beta/audiomixer-snapshots
+
+
+      In
+      Unity it''s possible to store and recall the state of an AudioMixer including
+      volumes and effect settings using Snapshots. Snapshots can be recalled via
+      script using the TransitionTo or the TransitionToSnapshots functions.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V65g/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/2nYyws0qJOM/sddefault.jpg
+    - https://i.ytimg.com/vi/2nYyws0qJOM/mqdefault.jpg
+    - https://i.ytimg.com/vi/2nYyws0qJOM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2nYyws0qJOM/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - snapshot
+    - snapshots
+    - transitionto
+    - transitiontosnapshots
+    - Tutorial (Media Genre)
+    - Official
+    viewCount: 17727
+    likeCount: 157
+    dislikeCount: 6
+    commentCount: 8
+    durationInMinutes: 12
+    publishedAtDate: 635500133070000000
+    publisdedDate:
+      year: 2014
+      month: 10
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: AssetDatabase.Refresh() refresher - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=S2P9n5U9xVw
+    channelName: Unity
+    description: "The AssetDatabase has been rewritten. The more you know about how
+      this API works, the stronger your code will be. This information can guide
+      your decision-making for your own Asset Management strategies. For example,
+      you do not need to reimport assets when you jump between platforms. In this
+      session, you'll gain a deeper understanding of importing modified assets and
+      tracking dependencies to improve your workflow and iteration time significantly.\n\nSpeaker:
+      Javier Abud Chavez \u2013 Unity\n\nSlides available here: https://www.slideshare.net/unity3d/refresh-what-you-know-about-assetdatabaserefresh-unite-copenhagen-2019"
+    thumbUrls:
+    - https://i.ytimg.com/vi/S2P9n5U9xVw/sddefault.jpg
+    - https://i.ytimg.com/vi/S2P9n5U9xVw/mqdefault.jpg
+    - https://i.ytimg.com/vi/S2P9n5U9xVw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/S2P9n5U9xVw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 4504
+    likeCount: 56
+    dislikeCount: 0
+    commentCount: 3
+    durationInMinutes: 49
+    publishedAtDate: 637060824050000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Animator Sub-state machine hierarchies - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=lpekqN4_4xg
+    channelName: Unity
+    description: 'Watch on the Learn pages here -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/5-pre-order-beta/sub-state-machines
+
+
+      New
+      to Unity 5 - Animator Sub-state machine hierarchies.
+
+
+      Learn how to organise
+      your animator controllers using state machine hierarchies.
+
+
+      Help us
+      caption & translate this video!
+
+
+      http://amara.org/v/V65Z/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/lpekqN4_4xg/sddefault.jpg
+    - https://i.ytimg.com/vi/lpekqN4_4xg/mqdefault.jpg
+    - https://i.ytimg.com/vi/lpekqN4_4xg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lpekqN4_4xg/hqdefault.jpg
+    tags: []
+    viewCount: 67282
+    likeCount: 553
+    dislikeCount: 24
+    commentCount: 45
+    durationInMinutes: 8
+    publishedAtDate: 635500133080000000
+    publisdedDate:
+      year: 2014
+      month: 10
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Animator Scripting - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=s7EIp-OqVyk
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://unity3d.com/learn/tutorials/modules/beginner/animation/animator-scripting
+
+      Scripting
+      is what allows us to really bring a model''s animations to life. In this video
+      you will learn how to utilize the animator class in code to control awesome
+      animations.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V68R/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/s7EIp-OqVyk/sddefault.jpg
+    - https://i.ytimg.com/vi/s7EIp-OqVyk/mqdefault.jpg
+    - https://i.ytimg.com/vi/s7EIp-OqVyk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/s7EIp-OqVyk/hqdefault.jpg
+    tags: []
+    viewCount: 260459
+    likeCount: 1408
+    dislikeCount: 118
+    commentCount: 135
+    durationInMinutes: 7
+    publishedAtDate: 635269921210000000
+    publisdedDate:
+      year: 2014
+      month: 2
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Animator Controller Layers - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=fi4O1i8a2Ro
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://unity3d.com/learn/tutorials/modules/beginner/animation/animator-controller-layers
+
+      Animator
+      Controller Layers allow animators to run multiple animations at the same time.
+      These can be useful for simplifying your animation structure while adding more
+      power. In this video you will learn how to create and use animator controller
+      layers.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V68U/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/fi4O1i8a2Ro/sddefault.jpg
+    - https://i.ytimg.com/vi/fi4O1i8a2Ro/mqdefault.jpg
+    - https://i.ytimg.com/vi/fi4O1i8a2Ro/maxresdefault.jpg
+    - https://i.ytimg.com/vi/fi4O1i8a2Ro/hqdefault.jpg
+    tags: []
+    viewCount: 81057
+    likeCount: 359
+    dislikeCount: 104
+    commentCount: 21
+    durationInMinutes: 3
+    publishedAtDate: 635269920880000000
+    publisdedDate:
+      year: 2014
+      month: 2
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Animation Properties - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=bKD1_vj-KdE
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://unity3d.com/learn/tutorials/modules/beginner/animation/animation-properties
+
+      Animations
+      have a bunch of properties that can affect how they work when applied to models.
+      In this video we will go through the various properties and talk about what
+      they do.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V68W/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/bKD1_vj-KdE/sddefault.jpg
+    - https://i.ytimg.com/vi/bKD1_vj-KdE/mqdefault.jpg
+    - https://i.ytimg.com/vi/bKD1_vj-KdE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/bKD1_vj-KdE/hqdefault.jpg
+    tags: []
+    viewCount: 35755
+    likeCount: 73
+    dislikeCount: 21
+    commentCount: 14
+    durationInMinutes: 5
+    publishedAtDate: 635269920520000000
+    publisdedDate:
+      year: 2014
+      month: 2
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Animation Curves and Events - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=8VG2aK2AGSk
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here - http://unity3d.com/learn/tutorials/modules/beginner/animation/animation-curves-events
+
+      Curves
+      and events give us a fine level of detail and control during the execution
+      of an animation. In this video you will learn how to utilize curves and events
+      to create unique and powerful effects in your games.
+
+
+      Help us caption
+      & translate this video!
+
+
+      http://amara.org/v/V68Q/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/8VG2aK2AGSk/sddefault.jpg
+    - https://i.ytimg.com/vi/8VG2aK2AGSk/mqdefault.jpg
+    - https://i.ytimg.com/vi/8VG2aK2AGSk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8VG2aK2AGSk/hqdefault.jpg
+    tags: []
+    viewCount: 57991
+    likeCount: 196
+    dislikeCount: 19
+    commentCount: 15
+    durationInMinutes: 4
+    publishedAtDate: 635269921270000000
+    publisdedDate:
+      year: 2014
+      month: 2
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Adventure Game Unity Tutorial - Phase 6 of 6 - Game State
+    url: https://www.youtube.com/watch?v=aq8Myv1fxBU
+    channelName: Unity
+    description: 'For Download, Slides, Code and more - Watch this video in context
+      on the Unity Learn pages here -
+
+      http://unity3d.com/learn/tutorials/
+
+
+      Phase
+      6 teaches you how to create a system to load scenes while preserving game state
+      using  the Scene Manager, ScriptableObjects as temporary runtime data storage,
+      delegates and lambda expressions.
+
+
+      Originally shot at Unite LA 2016
+      Training day, the Adventure Game tutorial will teach you how to make a point
+      and click adventure game. It is aimed at intermediate learners.
+
+
+      Trainers
+      -
+
+      Adam Buckner (@theantranch)
+
+      James Bouckley'
+    thumbUrls:
+    - https://i.ytimg.com/vi/aq8Myv1fxBU/sddefault.jpg
+    - https://i.ytimg.com/vi/aq8Myv1fxBU/mqdefault.jpg
+    - https://i.ytimg.com/vi/aq8Myv1fxBU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/aq8Myv1fxBU/hqdefault.jpg
+    tags:
+    - unity3d
+    - tutorial
+    - training
+    - adventure game
+    - point and click
+    - inventory
+    - character
+    - click to move
+    - unity
+    viewCount: 40270
+    likeCount: 313
+    dislikeCount: 12
+    commentCount: 47
+    durationInMinutes: 55
+    publishedAtDate: 636179604250000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Adventure Game Unity Tutorial - Phase 1b of 6 - The Player (Continued)
+    url: https://www.youtube.com/watch?v=zsOcALVNl0s
+    channelName: Unity
+    description: 'For Download, Slides, Code and more - Watch this video in context
+      on the Unity Learn pages here -
+
+      http://unity3d.com/learn/tutorials/projects/adventure-game-tutorial/player-continued
+
+
+      Phase
+      1 teaches you how to build a click to move animated character using the EventSystem,
+      NavMesh, Animator and Prefabs.
+
+
+      Originally shot at Unite LA 2016 Training
+      day, the Adventure Game tutorial will teach you how to make a point and click
+      adventure game. It is aimed at intermediate learners.
+
+
+      Trainers -
+
+      Adam
+      Buckner (@theantranch)
+
+      James Bouckley'
+    thumbUrls:
+    - https://i.ytimg.com/vi/zsOcALVNl0s/sddefault.jpg
+    - https://i.ytimg.com/vi/zsOcALVNl0s/mqdefault.jpg
+    - https://i.ytimg.com/vi/zsOcALVNl0s/maxresdefault.jpg
+    - https://i.ytimg.com/vi/zsOcALVNl0s/hqdefault.jpg
+    tags:
+    - unity3d
+    - tutorial
+    - training
+    - adventure game
+    - point and click
+    - inventory
+    - character
+    - click to move
+    - unity
+    viewCount: 46910
+    likeCount: 267
+    dislikeCount: 22
+    commentCount: 95
+    durationInMinutes: 63
+    publishedAtDate: 636179633630000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Adventure Game Unity Tutorial - Phase 1a of 6 - The Player
+    url: https://www.youtube.com/watch?v=Vi8S2PgMvds
+    channelName: Unity
+    description: 'For Download, Slides, Code and more - Watch this video in context
+      on the Unity Learn pages here -
+
+      http://unity3d.com/learn/tutorials/projects/adventure-game-tutorial/player
+
+
+      Phase
+      1 teaches you how to build a click to move animated character using the EventSystem,
+      NavMesh, Animator and Prefabs.
+
+
+      Originally shot at Unite LA 2016 Training
+      day, the Adventure Game tutorial will teach you how to make a point and click
+      adventure game. It is aimed at intermediate learners.
+
+
+      Trainers -
+
+      Adam
+      Buckner (@theantranch)
+
+      James Bouckley'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Vi8S2PgMvds/sddefault.jpg
+    - https://i.ytimg.com/vi/Vi8S2PgMvds/mqdefault.jpg
+    - https://i.ytimg.com/vi/Vi8S2PgMvds/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Vi8S2PgMvds/hqdefault.jpg
+    tags:
+    - unity3d
+    - tutorial
+    - training
+    - adventure game
+    - point and click
+    - inventory
+    - character
+    - click to move
+    - unity
+    viewCount: 192350
+    likeCount: 1642
+    dislikeCount: 37
+    commentCount: 125
+    durationInMinutes: 54
+    publishedAtDate: 636179604280000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 21
+    YouTubeDataAPI_Cooked: 1

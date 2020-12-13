@@ -11,12 +11,13 @@ namespace com.rvkm.unitygames.YouTubeSearch
     public class YoutubeVideo
     {
         public string title, url;
-        [HideInInspector]
+        //[HideInInspector]
         public string channelName, description;
         [HideInInspector]
         public string[] thumbUrls;
+       // [HideInInspector]
         public string[] tags;
-        //[HideInInspector]
+        [HideInInspector]
         public int viewCount, likeCount, dislikeCount, commentCount;
         //[HideInInspector]
         public int durationInMinutes;

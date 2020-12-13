@@ -12,6 +12,3139 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: XR_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: XR
+  allVideos:
+  - title: 'You look better as an alien cat: Multiuser MR with Unity & Magic Leap
+      - Unity at GDC 2019'
+    url: https://www.youtube.com/watch?v=cK1KA2CNQn8
+    channelName: Unity
+    description: 'Hear how the Weta Workshop and Magic Leap teams quickly put together
+      a competitive local multiuser mixed-reality (MR) experience on the ML-One,
+      leveraging Unity''s spatial mapping and powerful cross-platform AR support.
+
+
+      Speaker:
+      Thomas Hall (Senior Programmer, Magic Leap)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/cK1KA2CNQn8/sddefault.jpg
+    - https://i.ytimg.com/vi/cK1KA2CNQn8/mqdefault.jpg
+    - https://i.ytimg.com/vi/cK1KA2CNQn8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cK1KA2CNQn8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - GDC
+    - Weta Workshop
+    - Magic Leap
+    - MR
+    - ML
+    - AR
+    viewCount: 2218
+    likeCount: 27
+    dislikeCount: 0
+    commentCount: 8
+    durationInMinutes: 13
+    publishedAtDate: 636906816050000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: XR reinvents the documentary with portals and photogrammetry - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=OTLt8_zbdPg
+    channelName: Unity
+    description: "Low-cost tetherless headsets have revolutionized virtual reality
+      (VR). Discover the potential of Unity to reinvent the documentary format, merging
+      360\xBA filmmaking with 3D photogrammetry and volumetric capture. The team
+      from Surround Vision will demonstrate how their recent projects use interactive
+      augmented reality (AR) portals in Unity with inside-out tracking to allow audiences
+      to step through a story. Their latest, award-winning app, \"Clean A\\R,\" showcases
+      this journalistic approach, visualizing air pollution using real-time air quality
+      data.\n\nSpeakers:\nDan Stankowski - Surround Vision\nRichard Nockles - Sky
+      VR\n\nLean more about Unity for 360 Video: https://on.unity.com/31FU7f9"
+    thumbUrls:
+    - https://i.ytimg.com/vi/OTLt8_zbdPg/sddefault.jpg
+    - https://i.ytimg.com/vi/OTLt8_zbdPg/mqdefault.jpg
+    - https://i.ytimg.com/vi/OTLt8_zbdPg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/OTLt8_zbdPg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - VR
+    - XR
+    viewCount: 1806
+    likeCount: 54
+    dislikeCount: 2
+    commentCount: 4
+    durationInMinutes: 19
+    publishedAtDate: 637074762010000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: 'XR graphics: Delivering the best AR/VR experiences - Unite Copenhagen'
+    url: https://www.youtube.com/watch?v=dvOZ7IL2iOI
+    channelName: Unity
+    description: "Virtual reality (VR) and augmented reality (AR) are powerful tools
+      for storytelling, but poor execution can negatively impact consumer reactions
+      and engagement. This video guides you through the latest Unity tech and best
+      practices for creating stunning high-end VR and mobile AR visuals.\n\nSpeaker:\nDan
+      Miller \u2013 Unity\n\nSlides available here: https://www.slideshare.net/unity3d/xr-graphics-in-unity-delivering-the-best-arvr-experiences-unite-copenhagen-2019"
+    thumbUrls:
+    - https://i.ytimg.com/vi/dvOZ7IL2iOI/sddefault.jpg
+    - https://i.ytimg.com/vi/dvOZ7IL2iOI/mqdefault.jpg
+    - https://i.ytimg.com/vi/dvOZ7IL2iOI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/dvOZ7IL2iOI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ar
+    - augmented reality
+    - vr
+    - virtual reality
+    viewCount: 5152
+    likeCount: 85
+    dislikeCount: 1
+    commentCount: 2
+    durationInMinutes: 32
+    publishedAtDate: 637056612050000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: "XR graphics in Unity: Maximizing your AR/VR experience\u2019s potential
+      - SIGGRAPH 2019"
+    url: https://www.youtube.com/watch?v=fvYURJq334c
+    channelName: Unity
+    description: 'Virtual and augmented reality are powerful tools for storytelling,
+      but poor execution can negatively impact consumer reactions and engagement.
+      This video guides you through the latest Unity tech and best practices for
+      creating stunning high-end VR and mobile AR visuals.
+
+
+      Make your content
+      truly immersive: https://on.unity.com/2HSEryh
+
+
+      Speaker: Dan Miller,
+      Evangelist (Unity Technologies)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/fvYURJq334c/sddefault.jpg
+    - https://i.ytimg.com/vi/fvYURJq334c/mqdefault.jpg
+    - https://i.ytimg.com/vi/fvYURJq334c/maxresdefault.jpg
+    - https://i.ytimg.com/vi/fvYURJq334c/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Virtual reality
+    - VR
+    - AR
+    - augmented reality
+    viewCount: 5811
+    likeCount: 183
+    dislikeCount: 4
+    commentCount: 7
+    durationInMinutes: 27
+    publishedAtDate: 637039204720000000
+    publisdedDate:
+      year: 2019
+      month: 9
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: XR and real-time 3D in automotive digital marketing strategies | Visionaries
+      777 - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=WJpeWHGXyms
+    channelName: Unity
+    description: "Augmented reality (AR), virtual reality (VR), and mixed reality
+      (MR) \u2013 collectively known as XR \u2013 are making inroads in the automotive
+      industry. Join this session led by Visionaries 777, which works with major
+      auto brands like INFINITI, to learn about the range of immersive experiences
+      you can build with Unity to create a better customer experience that results
+      in more engagement and sales.\n\nSpeakers:\nDavid Casta\xF1eda - Visionaries
+      777\nFrantz Lasorne - Visionaries 777\n\nSlides available here: https://www.slideshare.net/unity3d/xr-and-realtime-3d-in-automotive-digital-marketing-strategies-visionaries-777-unite-copenhagen-2019"
+    thumbUrls:
+    - https://i.ytimg.com/vi/WJpeWHGXyms/sddefault.jpg
+    - https://i.ytimg.com/vi/WJpeWHGXyms/mqdefault.jpg
+    - https://i.ytimg.com/vi/WJpeWHGXyms/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WJpeWHGXyms/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1638
+    likeCount: 24
+    dislikeCount: 1
+    commentCount: 0
+    durationInMinutes: 32
+    publishedAtDate: 637070328060000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: "What\u2019s new in Unity\u2019s AR Foundation | Unite Now 2020"
+    url: https://www.youtube.com/watch?v=jBRxY2KnrUs
+    channelName: Unity
+    description: "Dive into the latest updates in AR Foundation, Unity\u2019s multiplatform
+      AR development framework for creating AR experiences that blend seamlessly
+      into the real world.\n\nLearn more about AR Foundation: https://on.unity.com/2EPmthf\n\nSpeakers:\nDan
+      Miller, XR Evangelist, Unity\nTodd Stinson, Senior Software Engineer, XR, Unity\n\nAsk
+      your questions here: https://on.unity.com/3kg0BvT\nDid you find this video
+      useful? Room for improvement? Let us know: https://on.unity.com/2PrEFj9\nCheck
+      out the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/33ttWNg"
+    thumbUrls:
+    - https://i.ytimg.com/vi/jBRxY2KnrUs/sddefault.jpg
+    - https://i.ytimg.com/vi/jBRxY2KnrUs/mqdefault.jpg
+    - https://i.ytimg.com/vi/jBRxY2KnrUs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/jBRxY2KnrUs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ar foundation
+    - ar development
+    - ar development in unity
+    viewCount: 15972
+    likeCount: 375
+    dislikeCount: 3
+    commentCount: 13
+    durationInMinutes: 44
+    publishedAtDate: 637329589630000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - XR in Pop Culture
+    url: https://www.youtube.com/watch?v=rhgG39tN7XA
+    channelName: Unity
+    description: "Can mainstream society embrace VR when it's so often used in dystopias?
+      Here's a look back at how VR and AR have been represented in TV, film, literature,
+      and other media -- from the most famous works to ones you've never heard of.
+      Let our staff inspire (and amuse) you by discussing how accurate some early
+      predictions were and, most importantly, how XR in pop culture may be shaping
+      our collective perception of its potential -- whether it's Star Trek, Silicon
+      Valley, or Ready Player One. Know your roots!\n\nDioselin Gonzalez - Unity
+      Technologies \nNatalie Grant - Unity Technologies"
+    thumbUrls:
+    - https://i.ytimg.com/vi/rhgG39tN7XA/sddefault.jpg
+    - https://i.ytimg.com/vi/rhgG39tN7XA/mqdefault.jpg
+    - https://i.ytimg.com/vi/rhgG39tN7XA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/rhgG39tN7XA/hqdefault.jpg
+    tags:
+    - XR
+    - AR
+    - VR
+    - MR
+    - Vision 2017
+    - Vision'17
+    - Vision Summit
+    - Pop Culture
+    - Film
+    - TV
+    - Literature
+    viewCount: 1021
+    likeCount: 12
+    dislikeCount: 5
+    commentCount: 2
+    durationInMinutes: 25
+    publishedAtDate: 636306817490000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - XR Graphics in Unity: Maximizing Your Game''s Potential'
+    url: https://www.youtube.com/watch?v=ibFcq_iQLeE
+    channelName: Unity
+    description: "Graphics are an important part of the VR experience (who knew?!).
+      The Unity xR Graphics team has been working on a performant and reliable rendering
+      infrastructure, so developers can deliver a smooth and complete experience
+      to their users. Here, htey discuss some new rendering features and their benefits,
+      and best practices on using these new features.\n\nSpeakers:\nEduardo Chaves
+      - Unity Technologies \nRob Srinivasiah - Unity Technologies\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ibFcq_iQLeE/sddefault.jpg
+    - https://i.ytimg.com/vi/ibFcq_iQLeE/mqdefault.jpg
+    - https://i.ytimg.com/vi/ibFcq_iQLeE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ibFcq_iQLeE/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 2851
+    likeCount: 43
+    dislikeCount: 1
+    commentCount: 2
+    durationInMinutes: 21
+    publishedAtDate: 636306837310000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - XR for Kids
+    url: https://www.youtube.com/watch?v=abUuYBapJ1A
+    channelName: Unity
+    description: "2017 is predicted to be the bellwether year for more mainstream
+      integration of XR and Toys. This panel covers trends from revitalizing popular
+      brands for the new future, to consumer electronics products adding XR components,
+      to brand new startups with brand new ways of creating gameplay.\n\nSpeakers:
+      \nNick Beliaeff - Spin Master Studios \nSteve Fulton - Mattel \nJohn Keefe
+      - Swapbots \nGordon Schenk - Vuforia, a PTC Company\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/abUuYBapJ1A/sddefault.jpg
+    - https://i.ytimg.com/vi/abUuYBapJ1A/mqdefault.jpg
+    - https://i.ytimg.com/vi/abUuYBapJ1A/maxresdefault.jpg
+    - https://i.ytimg.com/vi/abUuYBapJ1A/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - unity
+    - ar
+    - vr
+    viewCount: 505
+    likeCount: 1
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 32
+    publishedAtDate: 636306805710000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - XR Around the World Snapshot
+    url: https://www.youtube.com/watch?v=HlK7_Tv100Y
+    channelName: Unity
+    description: "Hear what XR development communities are like in Colombia, Europe,
+      and China.\n\nSpeakers:\nEddie Lou - Sandman Studios \nDaniel Rojas Roa - 3GO
+      Video \nKinga Smith - Reverse Engineering Studios Inc."
+    thumbUrls:
+    - https://i.ytimg.com/vi/HlK7_Tv100Y/sddefault.jpg
+    - https://i.ytimg.com/vi/HlK7_Tv100Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/HlK7_Tv100Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HlK7_Tv100Y/hqdefault.jpg
+    tags:
+    - VR
+    - Virtual Reality
+    - XR
+    - AR
+    - Augmented Reality
+    - Unity
+    - Unity Technologies
+    - Vision Summit
+    - Unity3D
+    viewCount: 928
+    likeCount: 7
+    dislikeCount: 1
+    commentCount: 0
+    durationInMinutes: 31
+    publishedAtDate: 636306842430000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Unity + Octane: The Path to Holographic Cinematic Rendering'
+    url: https://www.youtube.com/watch?v=n9oILsWlW1U
+    channelName: Unity
+    description: 'Jules Urbach (OTOY) provides an overview of how the upcoming Octane
+      and Unity integration can drive digital light field workflow across VR, XR
+      and beyond.
+
+
+      Speaker:
+
+      Jules Urbach - OTOY, Inc.
+
+
+      bit.ly/visionsummit17'
+    thumbUrls:
+    - https://i.ytimg.com/vi/n9oILsWlW1U/sddefault.jpg
+    - https://i.ytimg.com/vi/n9oILsWlW1U/mqdefault.jpg
+    - https://i.ytimg.com/vi/n9oILsWlW1U/maxresdefault.jpg
+    - https://i.ytimg.com/vi/n9oILsWlW1U/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 21353
+    likeCount: 233
+    dislikeCount: 7
+    commentCount: 18
+    durationInMinutes: 28
+    publishedAtDate: 636306822890000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Social Impact and VR
+    url: https://www.youtube.com/watch?v=c66gXK6DOJQ
+    channelName: Unity
+    description: "Nonny De La Pe\xF1a discusses various social VR experiments and
+      projects she has worked on and how the users react to extreme situations.\n\nNonny
+      De La Pe\xF1a - Emblematic Group"
+    thumbUrls:
+    - https://i.ytimg.com/vi/c66gXK6DOJQ/sddefault.jpg
+    - https://i.ytimg.com/vi/c66gXK6DOJQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/c66gXK6DOJQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/c66gXK6DOJQ/hqdefault.jpg
+    tags:
+    - Vr
+    - Social Experiment
+    - Unity
+    - Vision Summit
+    - Vision 2017
+    - Vision'17
+    - XR
+    viewCount: 431
+    likeCount: 4
+    dislikeCount: 2
+    commentCount: 2
+    durationInMinutes: 30
+    publishedAtDate: 636306764380000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Red Bull Air Race MR: How to Deploy Unity VR skills for
+      HoloLens Development'
+    url: https://www.youtube.com/watch?v=ekCchaw1IJY
+    channelName: Unity
+    description: 'REWIND''s CEO Sol Rogers explains how the team managed to forge
+      a world-first immersive experience for the Red Bull Air Race using the new
+      design principles of Mixed Reality and working with the HoloLens. Sol discusses
+      the unique properties of Unity which facilitated the swift development of the
+      MR experience.
+
+
+      Sol Rogers  - REWIND'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ekCchaw1IJY/sddefault.jpg
+    - https://i.ytimg.com/vi/ekCchaw1IJY/mqdefault.jpg
+    - https://i.ytimg.com/vi/ekCchaw1IJY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ekCchaw1IJY/hqdefault.jpg
+    tags:
+    - VR
+    - AR
+    - Redbull
+    - HoloLense
+    - Microsoft
+    - MR
+    - XR
+    - Sol Rogers
+    - Vision Summit
+    - Vision 2017
+    - Vision 17
+    - red bull
+    viewCount: 1839
+    likeCount: 9
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 30
+    publishedAtDate: 636306764420000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - New from Daydream: Optimizations for Humans and Programs'
+    url: https://www.youtube.com/watch?v=2xbeB44NgTQ
+    channelName: Unity
+    description: 'The Daydream team at Google strives to help VR and AR developers
+      work more efficiently, while making the apps they create more performant. In
+      this session, we''ll introduce new developer tools to reduce iteration time,
+      share samples and plugins that make it easier to build VR apps, fast, and demo
+      new rendering solutions to get the most out of Daydream-ready devices.
+
+
+      Dushan
+      Leska - Google'
+    thumbUrls:
+    - https://i.ytimg.com/vi/2xbeB44NgTQ/sddefault.jpg
+    - https://i.ytimg.com/vi/2xbeB44NgTQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/2xbeB44NgTQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2xbeB44NgTQ/hqdefault.jpg
+    tags:
+    - Google
+    - Daydream
+    - Google Daydream
+    - VR
+    - Unity
+    - Vision Summit
+    - Vision 2017
+    - Vision'17
+    - XR
+    viewCount: 752
+    likeCount: 10
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 31
+    publishedAtDate: 636306764450000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Narrative Design for XR
+    url: https://www.youtube.com/watch?v=RpTuSCgc9uI
+    channelName: Unity
+    description: "Speakers: \nDanny Cannizzaro - Tender Claws \nEmilie Joly - apelab
+      \nAmy Stewart - Construct Studio\n\nhttp://bit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/RpTuSCgc9uI/sddefault.jpg
+    - https://i.ytimg.com/vi/RpTuSCgc9uI/mqdefault.jpg
+    - https://i.ytimg.com/vi/RpTuSCgc9uI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/RpTuSCgc9uI/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - ar
+    - vr
+    - unity
+    - xr
+    viewCount: 2764
+    likeCount: 29
+    dislikeCount: 0
+    commentCount: 5
+    durationInMinutes: 28
+    publishedAtDate: 636308356470000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Massive Mixed Reality - Leveraging Large 3D Models with
+      Mobile XR
+    url: https://www.youtube.com/watch?v=OsgcuZkCQv0
+    channelName: Unity
+    description: 'Many companies have existing 3D assets and want to leverage those
+      CAD/CAM, editorial and other 3D models also in interactive immersive scenarios.
+      But rendering those complex models in real-time poses an interesting challenge
+      with mobile VR/AR/MR development and devices like HoloLens which have limited
+      computing power. How can those insanely large polygonal models be optimized
+      to fit into the rendering budget of a mobile device? In this session Rene Schulte
+      will answer that question and provides best practices. He and his team is working
+      with the HoloLens since 2015 with many clients that faced similar challenges.
+      Rene distilled 3 key approaches and will demonstrate them also with Mixed Reality
+      live demos on-stage.
+
+
+      Rene Schulte - Valorem'
+    thumbUrls:
+    - https://i.ytimg.com/vi/OsgcuZkCQv0/sddefault.jpg
+    - https://i.ytimg.com/vi/OsgcuZkCQv0/mqdefault.jpg
+    - https://i.ytimg.com/vi/OsgcuZkCQv0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/OsgcuZkCQv0/hqdefault.jpg
+    tags:
+    - VR
+    - XR
+    - MR
+    - AR
+    - Unity
+    - Unity Technologies
+    - Vision'17
+    - Vision Summit
+    - Vision 2017
+    viewCount: 894
+    likeCount: 8
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 27
+    publishedAtDate: 636306818390000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Artists and the Role of Art in an XR World
+    url: https://www.youtube.com/watch?v=1_V29n_aq78
+    channelName: Unity
+    description: "Speakers:\nShem Nguyen - Breachgate \nKate Parsons - FLOAT \nEstella
+      Tse \nBen Vance - FLOAT\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/1_V29n_aq78/sddefault.jpg
+    - https://i.ytimg.com/vi/1_V29n_aq78/mqdefault.jpg
+    - https://i.ytimg.com/vi/1_V29n_aq78/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1_V29n_aq78/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 2316
+    likeCount: 30
+    dislikeCount: 1
+    commentCount: 5
+    durationInMinutes: 30
+    publishedAtDate: 636306818890000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Artificial Intelligence and XR
+    url: https://www.youtube.com/watch?v=-q1kppyU5Jw
+    channelName: Unity
+    description: "Nicolas Meuleau (Unity) gives an overview of AI in XR, the available
+      technical options, and a quick look at what Unity is doing in terms of AI.
+      Boo Aguilar (Snowcrash) then explores experience design and how to mix cognitive
+      technologies and AI with VR, beyond games. \n\nSpeakers:\nBoo Aguilar - FLAGCX/Snowcrash
+      \nNicolas Meuleau - Unity Technologies \nAdam Roth - Snowcrash\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/-q1kppyU5Jw/sddefault.jpg
+    - https://i.ytimg.com/vi/-q1kppyU5Jw/mqdefault.jpg
+    - https://i.ytimg.com/vi/-q1kppyU5Jw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-q1kppyU5Jw/hqdefault.jpg
+    tags:
+    - Vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 2513
+    likeCount: 37
+    dislikeCount: 5
+    commentCount: 10
+    durationInMinutes: 46
+    publishedAtDate: 636306808040000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Using Augmented Reality to enhance Lyft rider experience - Unite LA 2018
+      Keynote
+    url: https://www.youtube.com/watch?v=hio-3R61k3I
+    channelName: Unity
+    description: "See how Lyft has partnered with REWIND to explore the use of augmented
+      reality in order to enhance rider experiences. \n\nWatch the full Unite Los
+      Angeles 2018 keynote: https://youtu.be/alZ6wmwvck0\n\nSpeakers:\nTimoni West
+      (Director, XR research, Unity Labs)\nEthan Eyler (Head of Brand, Lyft)\nRick
+      Davis (General Manager, REWIND)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/hio-3R61k3I/sddefault.jpg
+    - https://i.ytimg.com/vi/hio-3R61k3I/mqdefault.jpg
+    - https://i.ytimg.com/vi/hio-3R61k3I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hio-3R61k3I/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1476
+    likeCount: 12
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 5
+    publishedAtDate: 636773432220000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity XR platform has a new architecture - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=Stqk1GxlSK0
+    channelName: Unity
+    description: "Unity developed a new architecture that improves the support for
+      existing and future augmented reality (AR) and virtual reality (VR) platforms.
+      Learn about the technology under the hood, the consequent benefits, and improvements
+      to the platform, and how it impacts your workflows in creating AR/VR experiences.\n\nSpeakers:\nMike
+      Durand - Unity\nMatt Fuad - Unity \n\nSlides available here: https://www.slideshare.net/unity3d/unity-xr-platform-has-a-new-architecture-unite-copenhagen-2019-208459844\n\nLearn
+      more about XR: https://on.unity.com/2PejMZK"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Stqk1GxlSK0/sddefault.jpg
+    - https://i.ytimg.com/vi/Stqk1GxlSK0/mqdefault.jpg
+    - https://i.ytimg.com/vi/Stqk1GxlSK0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Stqk1GxlSK0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - XR
+    viewCount: 4202
+    likeCount: 43
+    dislikeCount: 4
+    commentCount: 1
+    durationInMinutes: 20
+    publishedAtDate: 637074822460000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC 2017 Keynote - EditorVR, XR Foundation Toolkit, Artist in Residence
+      [4/6]
+    url: https://www.youtube.com/watch?v=5v0QNOEVjFs
+    channelName: Unity
+    description: The fourth segment of the Unity GDC 2017 Keynote has focus on Editor
+      VR, the XR Foundation Tookit and the new Artist in Residence program.
+    thumbUrls:
+    - https://i.ytimg.com/vi/5v0QNOEVjFs/sddefault.jpg
+    - https://i.ytimg.com/vi/5v0QNOEVjFs/mqdefault.jpg
+    - https://i.ytimg.com/vi/5v0QNOEVjFs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5v0QNOEVjFs/hqdefault.jpg
+    tags: []
+    viewCount: 4455
+    likeCount: 44
+    dislikeCount: 4
+    commentCount: 3
+    durationInMinutes: 5
+    publishedAtDate: 636241571050000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity for AEC: Bringing retail stores to life with XR'
+    url: https://www.youtube.com/watch?v=EnQ_gS2PUcU
+    channelName: Unity
+    description: 'Watch Studio 216 bring 2D blueprints to life in immersive AR environments.
+      This enabled Microsoft the ability to easily collaborate and train retail employees
+      within a virtual environment while also scaling out the physical spaces to
+      be built.
+
+
+      Unity for AEC: https://unity.com/solutions/aec
+
+
+      Help
+      us caption & translate this video!
+
+
+      https://amara.org/v/nzmG/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/EnQ_gS2PUcU/sddefault.jpg
+    - https://i.ytimg.com/vi/EnQ_gS2PUcU/mqdefault.jpg
+    - https://i.ytimg.com/vi/EnQ_gS2PUcU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/EnQ_gS2PUcU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - AEC
+    - Architecture
+    - Engineering
+    - Construction
+    - AR
+    - Augmented reality
+    viewCount: 5730
+    likeCount: 120
+    dislikeCount: 3
+    commentCount: 8
+    durationInMinutes: 1
+    publishedAtDate: 636879506850000000
+    publisdedDate:
+      year: 2019
+      month: 3
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity Creator Highlight: Zero Days by Scatter'
+    url: https://www.youtube.com/watch?v=3CqjiYxhp5w
+    channelName: Unity
+    description: "Zero Days, a Made With Unity VR creation was launched last year
+      at Sundance with critical acclaim.  \nDo you have an amazing VR, AR, or MR
+      creation? New Frontier now has an open call for VR creators to submit to the
+      New Frontier VR Showcase at the Sundance Film Festival. Check out the video
+      and be inspired!\n\nhttp://bit.ly/2sRluT4"
+    thumbUrls:
+    - https://i.ytimg.com/vi/3CqjiYxhp5w/sddefault.jpg
+    - https://i.ytimg.com/vi/3CqjiYxhp5w/mqdefault.jpg
+    - https://i.ytimg.com/vi/3CqjiYxhp5w/maxresdefault.jpg
+    - https://i.ytimg.com/vi/3CqjiYxhp5w/hqdefault.jpg
+    tags: []
+    viewCount: 5706
+    likeCount: 71
+    dislikeCount: 5
+    commentCount: 1
+    durationInMinutes: 0
+    publishedAtDate: 636358475990000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - XR Happy Hour and  demos
+    url: https://www.youtube.com/watch?v=GHb5sjE7YZw
+    channelName: Unity
+    description: March 19, 5:00pm (San Francisco) - For Unity at GDC, Unity held
+      a Happy Hour dedicated to AR/VR developers. People were invited to grab a drink
+      and a bite to eat as they hear from Tony Parisi, our Head of AR/VR Ads Strategy,
+      and fellow developers about the future of XR.
+    thumbUrls:
+    - https://i.ytimg.com/vi/GHb5sjE7YZw/sddefault.jpg
+    - https://i.ytimg.com/vi/GHb5sjE7YZw/mqdefault.jpg
+    - https://i.ytimg.com/vi/GHb5sjE7YZw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GHb5sjE7YZw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1959
+    likeCount: 16
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 60
+    publishedAtDate: 636577166850000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Hardware vs. software: UX loops, 1936 to now'
+    url: https://www.youtube.com/watch?v=d-W_ox5lG1Y
+    channelName: Unity
+    description: "March 19, 1:00pm PT - A brief, but deep, dive into the history
+      of computer/gaming hardware and software. Learn about nascent inputs: How did
+      early MIT students play Space Wars!? How did the invention of the D-pad change
+      everything? Why did Apple finally allow for more button mappings on the mouse?
+      After the overview (and a bit of gossip), we\u2019ll talk about how best to
+      design the future of spatial computing, taking the best of what our predecessors
+      have learned, and avoiding their mistakes.\n\nSpeaker:\nTimoni West, Director,
+      XR Research at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/d-W_ox5lG1Y/sddefault.jpg
+    - https://i.ytimg.com/vi/d-W_ox5lG1Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/d-W_ox5lG1Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/d-W_ox5lG1Y/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3083
+    likeCount: 101
+    dislikeCount: 5
+    commentCount: 10
+    durationInMinutes: 44
+    publishedAtDate: 636577148380000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2017 - What's new from Daydream and Tango
+    url: https://www.youtube.com/watch?v=fIgjCEnSGvI
+    channelName: Unity
+    description: 'The Daydream team at Google is working hard to help VR and AR developers
+      build awesome apps easily. In this session, we''ll show some of the tools to
+      reduce iteration time, show new technologies for understanding the world, and
+      share our insights of how to best build Daydream and Tango applications.
+
+
+      For
+      more information on Unite Europe and future Unite events visit this page. https://unite.unity.com/
+
+
+      Jared
+      Finder - Google'
+    thumbUrls:
+    - https://i.ytimg.com/vi/fIgjCEnSGvI/sddefault.jpg
+    - https://i.ytimg.com/vi/fIgjCEnSGvI/mqdefault.jpg
+    - https://i.ytimg.com/vi/fIgjCEnSGvI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/fIgjCEnSGvI/hqdefault.jpg
+    tags:
+    - Unite Europe 2017
+    - unity
+    - unity3d
+    - gamedev
+    - indiedev
+    - game engine
+    - google daydream
+    - daydream
+    - google tango
+    - project tango
+    - tango
+    - ar
+    - vr
+    - xr
+    - virtual reality
+    - augmented reality
+    - mixed reality
+    viewCount: 1632
+    likeCount: 14
+    dislikeCount: 8
+    commentCount: 6
+    durationInMinutes: 35
+    publishedAtDate: 636353432590000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2017 - VR and AR applications in car development
+    url: https://www.youtube.com/watch?v=djCzSKdUbMc
+    channelName: Unity
+    description: "Virtual Engineering Lab (VEL) at Volkswagen AG builds tailor-made
+      VR/AR solutions for engineers, designers and stylists involved in the process
+      of car development. In this talk, they share insight into the car development
+      process and how they push Unity, VR HMDs and HoloLens to the limit in order
+      to replace or augment physical mock-ups of car prototypes (e.g. clay models)
+      with virtual ones. \n\nFor more information on Unite Europe and future Unite
+      events visit this page. https://unite.unity.com/\n\nPrzemyslaw Korzeniowski
+      - Volkswagen AG / Imperial College London \nOliver Schnabel - Volkswagen AG"
+    thumbUrls:
+    - https://i.ytimg.com/vi/djCzSKdUbMc/sddefault.jpg
+    - https://i.ytimg.com/vi/djCzSKdUbMc/mqdefault.jpg
+    - https://i.ytimg.com/vi/djCzSKdUbMc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/djCzSKdUbMc/hqdefault.jpg
+    tags:
+    - Unite Europe 2017
+    - unity
+    - unity3d
+    - gamedev
+    - indiedev
+    - game engine
+    - volkswagen
+    - imperial college london
+    - vr
+    - ar
+    - virtual reality
+    - augmented reality
+    viewCount: 7399
+    likeCount: 53
+    dislikeCount: 2
+    commentCount: 1
+    durationInMinutes: 32
+    publishedAtDate: 636353400710000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2017 - Seize the opportunity in mobile and VR/AR
+    url: https://www.youtube.com/watch?v=xGGRUYwC6AA
+    channelName: Unity
+    description: "The panel shares new data around mobile, VR and AR regarding ROI,
+      genre retention and monetization, as well as player behaviors you can leverage.
+      They offer up guidance on how you can use these insights to maximize your success
+      in the mobile world of today, as well as the growing landscape of AR and VR
+      of tomorrow.\n\nFor more information on Unite Europe and future Unite events
+      visit this page. https://unite.unity.com/\n\nJohn Cheng - Unity Technologies
+      \nGuzman Diaz - Index Ventures \nEtienne Tardieu - Ubisoft \nJoost van Dreunen
+      - SuperData Research\""
+    thumbUrls:
+    - https://i.ytimg.com/vi/xGGRUYwC6AA/sddefault.jpg
+    - https://i.ytimg.com/vi/xGGRUYwC6AA/mqdefault.jpg
+    - https://i.ytimg.com/vi/xGGRUYwC6AA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xGGRUYwC6AA/hqdefault.jpg
+    tags:
+    - Unite Europe 2017
+    - unity
+    - unity3d
+    - gamedev
+    - indiedev
+    - game engine
+    - ar
+    - vr
+    - augmented reality
+    - virtual reality
+    - mobile VR
+    - mobile AR
+    viewCount: 1540
+    likeCount: 9
+    dislikeCount: 3
+    commentCount: 1
+    durationInMinutes: 33
+    publishedAtDate: 636353438950000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite Europe 2017 - Real maps in MR: a location-based game in 20 mins'
+    url: https://www.youtube.com/watch?v=houwMdHj-v8
+    channelName: Unity
+    description: 'Learn how to set up a location-based game with AR components in
+      20 minutes. Mapbox brings global map data, buildings, satellite imagery, and
+      elevation to Unity in a highly flexible SDK, so you can quickly set up maps,
+      search and get directions for your next real-world game, AR application, or
+      VR simulation.
+
+
+      For more information on Unite Europe and future Unite
+      events visit this page. https://unite.unity.com/
+
+
+      David Rhodes - Mapbox'
+    thumbUrls:
+    - https://i.ytimg.com/vi/houwMdHj-v8/sddefault.jpg
+    - https://i.ytimg.com/vi/houwMdHj-v8/mqdefault.jpg
+    - https://i.ytimg.com/vi/houwMdHj-v8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/houwMdHj-v8/hqdefault.jpg
+    tags:
+    - Unite Europe 2017
+    - unity
+    - unity3d
+    - gamedev
+    - indiedev
+    - game engine
+    - mapbox
+    - mr
+    - mixed reality
+    - location-based
+    viewCount: 39035
+    likeCount: 432
+    dislikeCount: 21
+    commentCount: 34
+    durationInMinutes: 30
+    publishedAtDate: 636359433450000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2017 - Mobile immersive computing today and beyond
+    url: https://www.youtube.com/watch?v=CNlhsj0T5CM
+    channelName: Unity
+    description: 'The Daydream team at Google has worked with hundreds of developers
+      across the immersive computing spectrum to help them bring AR & VR experiences
+      to Tango & Daydream, and a wealth of questions remain around the future of
+      the space. In this talk we''ll share examples of what''s working and some ways
+      developers have found to tackle challenges particular to VR & AR.
+
+
+      For
+      more information on Unite Europe and future Unite events visit this page. https://unite.unity.com/
+
+
+      Lulu
+      LaMer - Google'
+    thumbUrls:
+    - https://i.ytimg.com/vi/CNlhsj0T5CM/sddefault.jpg
+    - https://i.ytimg.com/vi/CNlhsj0T5CM/mqdefault.jpg
+    - https://i.ytimg.com/vi/CNlhsj0T5CM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/CNlhsj0T5CM/hqdefault.jpg
+    tags:
+    - Unite Europe 2017
+    - unity
+    - unity3d
+    - gamedev
+    - indiedev
+    - game engine
+    - google
+    - google daydream
+    - daydream
+    - tango
+    - google tango
+    - project tango
+    - ar
+    - vr
+    - augmented reality
+    - virtual reality
+    viewCount: 1875
+    likeCount: 13
+    dislikeCount: 5
+    commentCount: 0
+    durationInMinutes: 25
+    publishedAtDate: 636353442210000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2016 - Real World HoloLens Mixed Reality Development with
+      Unity Be Part of the Future
+    url: https://www.youtube.com/watch?v=JbsmKVSSLM8
+    channelName: Unity
+    description: 'With the fast developments of powerful Augmented, Mixed and Virtual
+      reality devices like HoloLens science fiction movie technology is becoming
+      reality for consumers. In this session, Rene Schulte (IdentityMine) talks about
+      the challenges that AR and VR pose and why 3D is an essential part of this
+      experience. Comprehensible demos show how every developer can develop outstanding
+      HoloLens solutions with Unity and be part of this computing revolution. This
+      session helps you to understand how to setup your Unity environment, what skills
+      you need to create compelling HoloLens applications and what are the best practices
+      to move forward quickly. Starting with a simple "MR Hello World" demo, we use
+      this to understand all of the pieces required to run your app. Last, but not
+      least, we demonstrate some of the applications that Rene and his team have
+      been working on in the past few months, to give the viewers a sense of what
+      can be accomplished with the right skill targeting one of the most anticipated
+      devices in a while. This session presents the challenges we faced while building
+      HoloLens apps and how we solved them. Additionally, best practices and recommendations
+      to avoid pit falls are discussed.
+
+
+      Help us caption & translate this
+      video!
+
+
+      http://amara.org/v/V60E/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/JbsmKVSSLM8/sddefault.jpg
+    - https://i.ytimg.com/vi/JbsmKVSSLM8/mqdefault.jpg
+    - https://i.ytimg.com/vi/JbsmKVSSLM8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/JbsmKVSSLM8/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unite Europe 2016
+    viewCount: 48271
+    likeCount: 338
+    dislikeCount: 15
+    commentCount: 29
+    durationInMinutes: 55
+    publishedAtDate: 636033516810000000
+    publisdedDate:
+      year: 2016
+      month: 7
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2016 - Innovative VR and AR Unity Apps for BMW
+    url: https://www.youtube.com/watch?v=AYb42Y1cfVk
+    channelName: Unity
+    description: "The Effekt-Etage is specialized in high-end 3D visualizations in
+      the field of Consulting, CGI and Interactive. For our biggest client BMW, we
+      are creating CGI, Configurator content, Animations and Apps, including innovative
+      and multiple award winning Augmented Reality and Virtual Reality Apps, based
+      on Unity technology. In this presentation Bj\xF6rn Kowalski (Effekt-Etage GmbH)
+      and Daniel Blo\xDFfeld (Effekt-Etage GmbH) are focusing on two major Unity-based
+      Apps we created for the BMW Group in the last year: BMW 7 Series Augmented
+      Reality App and the BMW i Samsung Virtual Drive. Our BMW Individual 7 Series
+      Augmented Reality App enables you to generate a fascinating blend of reality
+      and imagination, which allows you to express your personal style. Configure
+      your car interactively and admire it realistically in original size wherever
+      you want to. You can freely move around your vehicle, experiencing the subtleties
+      within the colors of the paint and admiring details of the new 7 Series Individual
+      in original size. The BMW i Samsung Virtual Drive Experience connects the world
+      of the Smart Home with the world of Smart Mobility into an overall experience
+      of Smart Living and the Internet of Things. The Samsung and BMW i VR App contains
+      a virtual product presentation and emotional BMW i test drive, combining live
+      action material and full-CGI-images into an interactive 360-degree stereoscopic
+      app. It utilizes Samsung's flagship phone's abilities as well as their Gear
+      VR set and gives them visual excellence through a never seen before mobile
+      VR experience. Furthermore it allows you to freely configure your car before
+      your starting your test drive.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/V6Zj/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/AYb42Y1cfVk/sddefault.jpg
+    - https://i.ytimg.com/vi/AYb42Y1cfVk/mqdefault.jpg
+    - https://i.ytimg.com/vi/AYb42Y1cfVk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/AYb42Y1cfVk/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unite Europe 2016
+    viewCount: 3692
+    likeCount: 28
+    dislikeCount: 2
+    commentCount: 3
+    durationInMinutes: 27
+    publishedAtDate: 636033454940000000
+    publisdedDate:
+      year: 2016
+      month: 7
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - The Secret To Creating Great XR Experiences
+    url: https://www.youtube.com/watch?v=zdUOev5JAP4
+    channelName: Unity
+    description: 'Gain insight from the team lead for human-computer interfaces at
+      Audi Production. Topics include how Audi is using XR to develop, build and
+      sell its cars, the five human desires you need to consider when developing
+      for XR, and why optimizing CAD data with PiXYZ is crucial for XR experiences
+      made with Unity.
+
+
+      Speakers:
+
+      Jens Angerer (AUDI)
+
+
+      https://unite.unity.com/2018/berlin/autotech'
+    thumbUrls:
+    - https://i.ytimg.com/vi/zdUOev5JAP4/sddefault.jpg
+    - https://i.ytimg.com/vi/zdUOev5JAP4/mqdefault.jpg
+    - https://i.ytimg.com/vi/zdUOev5JAP4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/zdUOev5JAP4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - AUDI
+    - Automotive
+    - XR
+    - PiXYZ
+    - Event
+    viewCount: 867
+    likeCount: 9
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 47
+    publishedAtDate: 636673464020000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Interactive XR Visual Effects
+    url: https://www.youtube.com/watch?v=k3hnLiT98qo
+    channelName: Unity
+    description: "Find out how XR binds together its' ancestors fields like user
+      experience design, interaction design, architecture, psychology and game design.
+      And how to use specific AI and computer graphics technologies (like compute
+      shaders) to design VR specific physical simulations, interactions, materials
+      and visual effects. \n\nSpeakers:\nVladimir Storm (Cyber Death)\n\nhttps://unite.unity.com/2018/berlin/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/k3hnLiT98qo/sddefault.jpg
+    - https://i.ytimg.com/vi/k3hnLiT98qo/mqdefault.jpg
+    - https://i.ytimg.com/vi/k3hnLiT98qo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/k3hnLiT98qo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2648
+    likeCount: 50
+    dislikeCount: 11
+    commentCount: 6
+    durationInMinutes: 33
+    publishedAtDate: 636688206010000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Getting Started with Handheld AR
+    url: https://www.youtube.com/watch?v=MqA0XhfKIE0
+    channelName: Unity
+    description: "Slides: https://www.slideshare.net/unity3d/getting-started-with-handheld-ar\nUnity
+      XR Evangelist, Dan Miller, shows how to use our new handheld AR template and
+      Multiplatform AR SDK to build an AR app across ARCore and ARKit devices. Get
+      best practices and tips to help you feel confident enough to start creating
+      your own handheld AR apps. \n \nSpeakers:\nDan Miller  (Unity Technologies)\n\nhttps://unite.unity.com/2018/berlin/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/MqA0XhfKIE0/sddefault.jpg
+    - https://i.ytimg.com/vi/MqA0XhfKIE0/mqdefault.jpg
+    - https://i.ytimg.com/vi/MqA0XhfKIE0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MqA0XhfKIE0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 9531
+    likeCount: 125
+    dislikeCount: 3
+    commentCount: 11
+    durationInMinutes: 38
+    publishedAtDate: 636685614010000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Developing Industrial Mixed Reality Experiences with
+      Microsoft HoloLens
+    url: https://www.youtube.com/watch?v=565Ggt-e97s
+    channelName: Unity
+    description: 'Take a look at how Mixed Reality is turning science-fiction movie
+      technology into reality, and how it''s changing how users interact with computers
+      in todays workplace. This talk walks through some of the industrial and automotive
+      Microsoft HoloLens projects, and you''ll learn some best practices to help
+      you avoid pitfalls and provide inspriation for your next XR projects.
+
+
+      Speakers:
+
+      Rene
+      Schulte (Valorem)
+
+
+      https://unite.unity.com/2018/berlin/autotech'
+    thumbUrls:
+    - https://i.ytimg.com/vi/565Ggt-e97s/sddefault.jpg
+    - https://i.ytimg.com/vi/565Ggt-e97s/mqdefault.jpg
+    - https://i.ytimg.com/vi/565Ggt-e97s/maxresdefault.jpg
+    - https://i.ytimg.com/vi/565Ggt-e97s/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Mixed Reality
+    - HoloLens
+    - Microsoft
+    - Event
+    - Automotive
+    viewCount: 3119
+    likeCount: 42
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 44
+    publishedAtDate: 636673464020000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Bringing the Indoor Mapping WRLD to Unity
+    url: https://www.youtube.com/watch?v=7INT40a0Jys
+    channelName: Unity
+    description: 'Learn how to quickly create simulations, location-based apps, mobile
+      games, and high-quality spatial AR and VR experiences. Find out more about
+      the WRLD platform, which provides a streaming 3D global model based on a real-world
+      coordinate system. With 3D indoor maps now available in the WRLD Unity SDK,
+      you can create innovative Digital Twin and location-based experiences for buildings
+      and their environments, with AR and VR extensions available.
+
+
+      Speakers:
+
+      Faizaan
+      Ghauri (CEO, WRLD)
+
+      Oliver Norton (CEO, WRLD)
+
+
+      https://unite.unity.com/2018/berlin/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/7INT40a0Jys/sddefault.jpg
+    - https://i.ytimg.com/vi/7INT40a0Jys/mqdefault.jpg
+    - https://i.ytimg.com/vi/7INT40a0Jys/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7INT40a0Jys/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 6207
+    likeCount: 47
+    dislikeCount: 2
+    commentCount: 0
+    durationInMinutes: 30
+    publishedAtDate: 636688206010000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin Live - Day 2 - Xbox One X with Phillip Profitt, Microsoft
+      & Andrew Dennison, Unity
+    url: https://www.youtube.com/watch?v=6nHP2dPRCZk
+    channelName: Unity
+    description: "Join Unite Austin Live hosts Will Goldstone and Sarah Stumbo as
+      they speak to Phillip Profitt (Microsoft) and Andrew Dennison (Unity) about
+      the Xbox One X and how to get started developing for the platform. \n\nFind
+      out more: https://blogs.unity3d.com/2017/08/14/unity-for-xbox-one-x/\n\nHosts:\nWill
+      Goldstone - Product Manager, Unity\nSarah Stumbo - XR Evangelist, Unity\n\nGuest:\nPhillip
+      Profitt - Developer Account Manager, Microsoft\nAndrew Dennison - Lead Xbox
+      Developer, Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/6nHP2dPRCZk/sddefault.jpg
+    - https://i.ytimg.com/vi/6nHP2dPRCZk/mqdefault.jpg
+    - https://i.ytimg.com/vi/6nHP2dPRCZk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/6nHP2dPRCZk/hqdefault.jpg
+    tags: []
+    viewCount: 782
+    likeCount: 10
+    dislikeCount: 0
+    commentCount: 3
+    durationInMinutes: 11
+    publishedAtDate: 636433629210000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin Live - Day 2 - Windows Mixed Reality with Chris White, Microsoft
+    url: https://www.youtube.com/watch?v=nBEOZATwdto
+    channelName: Unity
+    description: 'Join Unite Austin Live hosts Will Goldstone and Sarah Stumbo as
+      they speak to Chris White (Microsoft) about developing for Windows Mixed Reality.
+
+
+      https://developer.microsoft.com/en-us/windows/mixed-reality
+
+
+      Hosts:
+
+      Will
+      Goldstone - Product Manager, Unity
+
+      Sarah Stumbo - XR Evangelist, Unity
+
+
+      Guest:
+
+      Chris
+      White - Principal Program Manager, Microsoft'
+    thumbUrls:
+    - https://i.ytimg.com/vi/nBEOZATwdto/sddefault.jpg
+    - https://i.ytimg.com/vi/nBEOZATwdto/mqdefault.jpg
+    - https://i.ytimg.com/vi/nBEOZATwdto/maxresdefault.jpg
+    - https://i.ytimg.com/vi/nBEOZATwdto/hqdefault.jpg
+    tags: []
+    viewCount: 246
+    likeCount: 4
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 9
+    publishedAtDate: 636432560500000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin Live - Day 2 - Vuforia, Microsoft, Google, MWU Showcase,
+      and more
+    url: https://www.youtube.com/watch?v=W-0Yxk7cfic
+    channelName: Unity
+    description: "Unite Austin Live is Unity's first ever community live show streamed
+      directly from our studio booth in the expo hall at Unite Austin 2017. See the
+      full line-up below.\n------------------------\nDay 2 | OCT 5\n------------------------\nHosts:\nWill
+      Goldstone - Product Manager, Unity\nTW: @willgoldstone\n&\nSarah Stumbo - XR
+      Evangelist, Unity\nTW: @sarahstumbo\n\nGuest Lineup:\n\n* MWU Showcase Spotlight:
+      Cadillac Virtual Showroom by All Things Media\nRob Spierenburg (CEO) \u2013
+      All Things Media\n\n* Vuforia\nJay Wright (CEO) \u2013 PTC, Vuforia\n\n* Developing
+      for the Xbox One X\nPhillip Profitt (Developer Account Manager) \u2013 Microsoft
+      \nAndrew Dennison (Lead Xbox Developer) \u2013 Unity\n\n* Google Blocks\nIan
+      MacGillivray (Technical Lead) \u2013 Google\n\n* Antigraviator by Cybernetic
+      Walrus\nMike Coeck (Co-Founder and Managing Director) \u2013 Cybernetic Walrus\n\n*
+      Unity Connect \u2013 Projects 2.0 and more\nMark Popplemeier (Product Manager)
+      \u2013 Unity\n\n* MWU Showcase Spotlight: Super Lucky\u2019s Tale by Playful
+      Corp\nDavid Calkins (Head of Marketing and Communications) \u2013 Playful Corp\n\n*
+      Insights into Actions powered by Unity Analytics\nMark Choi (Head of Developer
+      Analytics) \u2013 Unity \nMarc Tanenbaum (Analytics Product Manager)  \u2013
+      Unity \n\n* Windows Mixed Reality\nChris White (Principal Program Manager)
+      \u2013 Microsoft\n\n* Coming to a City Near You: Global Evangelism\nCarl Callewaert
+      (Director of Evangelism) \u2013 Unity\nAshley Alicea (Evangelism Coordinator)
+      \u2013 Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/W-0Yxk7cfic/sddefault.jpg
+    - https://i.ytimg.com/vi/W-0Yxk7cfic/mqdefault.jpg
+    - https://i.ytimg.com/vi/W-0Yxk7cfic/maxresdefault.jpg
+    - https://i.ytimg.com/vi/W-0Yxk7cfic/hqdefault.jpg
+    tags: []
+    viewCount: 8841
+    likeCount: 177
+    dislikeCount: 6
+    commentCount: 3
+    durationInMinutes: 134
+    publishedAtDate: 636428464230000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin Live - Day 2 - Vuforia with Jay Wright, Vuforia
+    url: https://www.youtube.com/watch?v=t1udvOqFG44
+    channelName: Unity
+    description: "Join Unite Austin Live hosts Will Goldstone and Sarah Stumbo as
+      they speak to Jay Wright (Vuforia) about the latest updates to Vuforia like
+      model targets, ground plane detection and more. Vuforia is now natively integrated
+      with Unity 2017.2. \n\nGet started with Vuforia today: https://unity3d.com/partners/vuforia\n\nHosts:\nWill
+      Goldstone - Product Manager, Unity\nSarah Stumbo - XR Evangelist, Unity\n\nGuest:\nJay
+      Wright - CEO, Vuforia"
+    thumbUrls:
+    - https://i.ytimg.com/vi/t1udvOqFG44/sddefault.jpg
+    - https://i.ytimg.com/vi/t1udvOqFG44/mqdefault.jpg
+    - https://i.ytimg.com/vi/t1udvOqFG44/maxresdefault.jpg
+    - https://i.ytimg.com/vi/t1udvOqFG44/hqdefault.jpg
+    tags: []
+    viewCount: 574
+    likeCount: 7
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 10
+    publishedAtDate: 636433629650000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin Live - Day 2 - Unity Connect with Mark Popplemeier, Unity
+    url: https://www.youtube.com/watch?v=TvbGupU2Jlw
+    channelName: Unity
+    description: "Join Unite Austin Live hosts Will Goldstone and Sarah Stumbo as
+      they speak to Mark Popplemeier about the latest updates to Unity Connect. \n\nSigh
+      up today: https://connect.unity.com/\n\nHosts:\nWill Goldstone - Product Manager,
+      Unity\nSarah Stumbo - XR Evangelist, Unity\n\nGuest:\nMark Popplemeier - Product
+      Manager, Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/TvbGupU2Jlw/sddefault.jpg
+    - https://i.ytimg.com/vi/TvbGupU2Jlw/mqdefault.jpg
+    - https://i.ytimg.com/vi/TvbGupU2Jlw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TvbGupU2Jlw/hqdefault.jpg
+    tags: []
+    viewCount: 116
+    likeCount: 1
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 9
+    publishedAtDate: 636433629220000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin Live - Day 2 - Unity Analytics with Mark Choi & Marc Tanenbaum,
+      Unity
+    url: https://www.youtube.com/watch?v=JMzOhGFLnyw
+    channelName: Unity
+    description: 'Join Unite Austin Live hosts Will Goldstone and Sarah Stumbo as
+      they speak to Mark Choi and Marc Tanenbaum about turning insights into actions
+      for your game powered by Unity Analytics.
+
+
+      Hosts:
+
+      Will Goldstone
+      - Product Manager, Unity
+
+      Sarah Stumbo - XR Evangelist, Unity
+
+
+      Guest:
+
+      Mark
+      Choi - Head of Developer Analytics, Unity
+
+      Marc Tanenbaum - Analytics
+      Product Manager, Unity'
+    thumbUrls:
+    - https://i.ytimg.com/vi/JMzOhGFLnyw/sddefault.jpg
+    - https://i.ytimg.com/vi/JMzOhGFLnyw/mqdefault.jpg
+    - https://i.ytimg.com/vi/JMzOhGFLnyw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/JMzOhGFLnyw/hqdefault.jpg
+    tags: []
+    viewCount: 135
+    likeCount: 1
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 9
+    publishedAtDate: 636433629230000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin Live - Day 2 - Super Lucky's Tale with David Calkins, Playful
+      Corp
+    url: https://www.youtube.com/watch?v=7KFu3bDPjAA
+    channelName: Unity
+    description: 'Join Unite Austin Live hosts Will Goldstone and Sarah Stumbo as
+      they speak to David Calkins (Playful Corp) about the upcoming "playground platformer",
+      Super Lucky''s Tale.
+
+
+      http://www.playfulcorp.com/
+
+
+      Hosts:
+
+      Will
+      Goldstone - Product Manager, Unity
+
+      Sarah Stumbo - XR Evangelist, Unity
+
+
+      Guest:
+
+      David
+      Calkins - Head of Marketing & Communications, Playful Corp'
+    thumbUrls:
+    - https://i.ytimg.com/vi/7KFu3bDPjAA/sddefault.jpg
+    - https://i.ytimg.com/vi/7KFu3bDPjAA/mqdefault.jpg
+    - https://i.ytimg.com/vi/7KFu3bDPjAA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7KFu3bDPjAA/hqdefault.jpg
+    tags: []
+    viewCount: 1545
+    likeCount: 17
+    dislikeCount: 3
+    commentCount: 2
+    durationInMinutes: 12
+    publishedAtDate: 636433629240000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin Live - Day 2 - Google Blocks with Ian MacGillivray, Google
+    url: https://www.youtube.com/watch?v=wuC2frJbNro
+    channelName: Unity
+    description: "Join Unite Austin Live hosts Will Goldstone and Sarah Stumbo as
+      they speak to Ian MacGillivray (Google) about Blocks, the free app for HTC
+      Vive and Oculus Rift that lets developers easily create 3D objects. \n\nFind
+      out more: vr.google.com/blocks\n\nHosts:\nWill Goldstone - Product Manager,
+      Unity\nSarah Stumbo - XR Evangelist, Unity\n\nGuest:\nIan MacGillivray - Technical
+      Lead, Google Blocks"
+    thumbUrls:
+    - https://i.ytimg.com/vi/wuC2frJbNro/sddefault.jpg
+    - https://i.ytimg.com/vi/wuC2frJbNro/mqdefault.jpg
+    - https://i.ytimg.com/vi/wuC2frJbNro/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wuC2frJbNro/hqdefault.jpg
+    tags: []
+    viewCount: 2449
+    likeCount: 37
+    dislikeCount: 6
+    commentCount: 2
+    durationInMinutes: 10
+    publishedAtDate: 636447700150000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin Live - Day 2 - Global Evangelism Events with Carl Callewaert
+      & Ashley Alicea, Unity
+    url: https://www.youtube.com/watch?v=vkwyZ4VK-7Y
+    channelName: Unity
+    description: 'Join Unite Austin Live hosts Will Goldstone and Sarah Stumbo as
+      they speak to Carl Callewaert (Unity) and Ashley Alicea (Unity) about Global
+      Evangelism events and how to find one near you.
+
+
+      Coming to a city near
+      you: https://unity3d.com/events
+
+
+      Hosts:
+
+      Will Goldstone - Product
+      Manager, Unity
+
+      Sarah Stumbo - XR Evangelist, Unity
+
+
+      Guests:
+
+      Carl
+      Callewaert - Director of Evangelism, Unity
+
+      Ashley Alicea - Evangelism
+      Coordinator, Unity'
+    thumbUrls:
+    - https://i.ytimg.com/vi/vkwyZ4VK-7Y/sddefault.jpg
+    - https://i.ytimg.com/vi/vkwyZ4VK-7Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/vkwyZ4VK-7Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/vkwyZ4VK-7Y/hqdefault.jpg
+    tags: []
+    viewCount: 156
+    likeCount: 4
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 8
+    publishedAtDate: 636432560220000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin Live - Day 2 - DreamWorks Voltron VR Chronicles with Jaime
+      Bencia, Digital Domain
+    url: https://www.youtube.com/watch?v=TAT4_bKi_LM
+    channelName: Unity
+    description: "Join Unite Austin Live hosts Will Goldstone and Sarah Stumbo as
+      they speak to Jaime Bencia (Digial Domain) about the Netflix-series-inspired
+      Voltron VR Chronicles. \n\nHosts:\nWill Goldstone - Product Manager, Unity\nSarah
+      Stumbo - XR Evangelist, Unity\n\nGuest:\nJaime Bencia - Senior Creative Director,
+      Digital Domain"
+    thumbUrls:
+    - https://i.ytimg.com/vi/TAT4_bKi_LM/sddefault.jpg
+    - https://i.ytimg.com/vi/TAT4_bKi_LM/mqdefault.jpg
+    - https://i.ytimg.com/vi/TAT4_bKi_LM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TAT4_bKi_LM/hqdefault.jpg
+    tags: []
+    viewCount: 1027
+    likeCount: 11
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 8
+    publishedAtDate: 636433629230000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin Live - Day 2 - Cadillac Virtual Showroom with Rob Spierenburg,
+      All Things Media
+    url: https://www.youtube.com/watch?v=P8pcR9Zu_qI
+    channelName: Unity
+    description: "Join Unite Austin Live hosts Will Goldstone and Sarah Stumbo as
+      they speak to Rob Spierenburg (All Things Media) about the Cadillac Virtual
+      Showroom. \n\nHosts:\nWill Goldstone - Product Manager, Unity\nSarah Stumbo
+      - XR Evangelist, Unity\n\nGuest:\nRob Spierenburg - CEO, All Things Media"
+    thumbUrls:
+    - https://i.ytimg.com/vi/P8pcR9Zu_qI/sddefault.jpg
+    - https://i.ytimg.com/vi/P8pcR9Zu_qI/mqdefault.jpg
+    - https://i.ytimg.com/vi/P8pcR9Zu_qI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/P8pcR9Zu_qI/hqdefault.jpg
+    tags:
+    - cadillac
+    - vr
+    viewCount: 527
+    likeCount: 7
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 11
+    publishedAtDate: 636433629200000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin Live - Day 2 - Antigraviator with Mike Coeck, Cybernetic
+      Walrus
+    url: https://www.youtube.com/watch?v=F4iGSOQs-uM
+    channelName: Unity
+    description: 'Join Unite Austin Live hosts Will Goldstone and Sarah Stumbo as
+      they speak to Mike Coeck (Cybernetic Walrus) about the futuristic racer, Antigraviator.
+
+
+      http://www.antigraviator.com/
+
+
+      Hosts:
+
+      Will
+      Goldstone - Product Manager, Unity
+
+      Sarah Stumbo - XR Evangelist, Unity
+
+
+      Guest:
+
+      Mike
+      Coeck - Co-founder and Managing Director, Cybernetic Walrus'
+    thumbUrls:
+    - https://i.ytimg.com/vi/F4iGSOQs-uM/sddefault.jpg
+    - https://i.ytimg.com/vi/F4iGSOQs-uM/mqdefault.jpg
+    - https://i.ytimg.com/vi/F4iGSOQs-uM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/F4iGSOQs-uM/hqdefault.jpg
+    tags: []
+    viewCount: 193
+    likeCount: 4
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 10
+    publishedAtDate: 636433629210000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 Keynote - XR Demo [4/7]
+    url: https://www.youtube.com/watch?v=MS76jSK7h-E
+    channelName: Unity
+    description: "Unity XR Technical Product Manager, Brad Weiers and Unity XR Evangelist
+      and Producer Made With Unity, Sarah Stumbo brought us updates on XR. \n\nTo
+      get started with AR, see our solution page: https://unity3d.com/solutions/mobile-ar"
+    thumbUrls:
+    - https://i.ytimg.com/vi/MS76jSK7h-E/sddefault.jpg
+    - https://i.ytimg.com/vi/MS76jSK7h-E/mqdefault.jpg
+    - https://i.ytimg.com/vi/MS76jSK7h-E/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MS76jSK7h-E/hqdefault.jpg
+    tags:
+    - AR
+    - XR
+    - VR
+    - Unity
+    - Unty 3D
+    - ARKit
+    - ARCore
+    viewCount: 1187
+    likeCount: 12
+    dislikeCount: 2
+    commentCount: 1
+    durationInMinutes: 10
+    publishedAtDate: 636435311920000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 - XR Graphics Overview and Best Practices
+    url: https://www.youtube.com/watch?v=datOOos-944
+    channelName: Unity
+    description: "Unity Technologies employees Scott Bassett and Rob Srinivasiah
+      dive into the current start of XR Graphics, Single-Pass Rendering Techniques
+      and best practices for your XR projects.\n\nScott Bassett (XR Graphics Lead,
+      Unity Technologies), \nRob Srinivasiah (Senior XR Graphics Engineer, Unity 
+      Technologies)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/datOOos-944/sddefault.jpg
+    - https://i.ytimg.com/vi/datOOos-944/mqdefault.jpg
+    - https://i.ytimg.com/vi/datOOos-944/maxresdefault.jpg
+    - https://i.ytimg.com/vi/datOOos-944/hqdefault.jpg
+    tags:
+    - AR
+    - VR
+    - XR
+    - Unity
+    - Unity3D
+    - Game Development
+    - Game Dev
+    - Unite
+    viewCount: 2239
+    likeCount: 21
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 41
+    publishedAtDate: 636453396060000000
+    publisdedDate:
+      year: 2017
+      month: 11
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 - Usability Reasoning For XR Interaction
+    url: https://www.youtube.com/watch?v=s6gI_CMQAmE
+    channelName: Unity
+    description: 'This talk aims to give anyone involved in XR development and design
+      a simple set of questions and strategies derived from these principles that
+      they can use to help design thoughtful tools and interactions.
+
+
+      Stella
+      Cannefax (Software Developer In Test, Unity Technologies)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/s6gI_CMQAmE/sddefault.jpg
+    - https://i.ytimg.com/vi/s6gI_CMQAmE/mqdefault.jpg
+    - https://i.ytimg.com/vi/s6gI_CMQAmE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/s6gI_CMQAmE/hqdefault.jpg
+    tags:
+    - VR
+    - XR
+    - AR
+    - Game Development
+    - Unity
+    - Unity3D
+    - Unite
+    - Game Dev
+    viewCount: 557
+    likeCount: 4
+    dislikeCount: 2
+    commentCount: 0
+    durationInMinutes: 22
+    publishedAtDate: 636453396040000000
+    publisdedDate:
+      year: 2017
+      month: 11
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 - Next-gen VR Avatar Control in Unity
+    url: https://www.youtube.com/watch?v=6OweYW32fek
+    channelName: Unity
+    description: 'Learn about what body tracking, eye tracking, facial tracking solutions
+      are currently available, and how to best to make use of it -- what makes the
+      largest impact, and ways to fallback gracefully when less hardware is available.
+
+
+      AR
+      Schleicher (Senior Software Engineer, Trion Worlds)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/6OweYW32fek/sddefault.jpg
+    - https://i.ytimg.com/vi/6OweYW32fek/mqdefault.jpg
+    - https://i.ytimg.com/vi/6OweYW32fek/maxresdefault.jpg
+    - https://i.ytimg.com/vi/6OweYW32fek/hqdefault.jpg
+    tags:
+    - AR
+    - XR
+    - Game Development
+    - Game Dev
+    - Unity
+    - Unity3D
+    viewCount: 2031
+    likeCount: 27
+    dislikeCount: 2
+    commentCount: 6
+    durationInMinutes: 27
+    publishedAtDate: 636453396000000000
+    publisdedDate:
+      year: 2017
+      month: 11
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 - Disruptive Virtual Cinematography on a Budget
+    url: https://www.youtube.com/watch?v=TsE5SCF95rc
+    channelName: Unity
+    description: "Learn how to perform real-time capture and compositing without
+      a big budget. Some of the features in Unity 2017, such as Cinemachine, the
+      Post Processing 2.0 Stack and XR Toolkit, make the process easier than ever
+      before. \n\nTarrnie Williams (CEO and Co-Founder, Blueprint Reality Inc.)   
+      \nBen Sheftel (CTO and Co-Founder, Blueprint Reality Inc. )"
+    thumbUrls:
+    - https://i.ytimg.com/vi/TsE5SCF95rc/sddefault.jpg
+    - https://i.ytimg.com/vi/TsE5SCF95rc/mqdefault.jpg
+    - https://i.ytimg.com/vi/TsE5SCF95rc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TsE5SCF95rc/hqdefault.jpg
+    tags: []
+    viewCount: 1425
+    likeCount: 23
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 48
+    publishedAtDate: 636447427740000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 - The 3D Content Pipeline Powering Wayfair's AR & VR Apps
+    url: https://www.youtube.com/watch?v=JuyP-U2i9uw
+    channelName: Unity
+    description: Discover how Wayfair applies its e-commerce savvy engineering chops
+      to produce its library of 3D game ready models of furniture. Shrenik Sadalgi
+      (Wayfair) provides an overview of the model pipeline involving 3DS Max, Unity
+      Asset Bundles, web technologies, and scripting that powers Wayfair's AR & VR
+      apps.
+    thumbUrls:
+    - https://i.ytimg.com/vi/JuyP-U2i9uw/sddefault.jpg
+    - https://i.ytimg.com/vi/JuyP-U2i9uw/mqdefault.jpg
+    - https://i.ytimg.com/vi/JuyP-U2i9uw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/JuyP-U2i9uw/hqdefault.jpg
+    tags:
+    - Unite 16
+    - Unite LA
+    - Wayfair
+    - AR
+    - VR
+    - 3D models
+    viewCount: 2078
+    likeCount: 22
+    dislikeCount: 3
+    commentCount: 1
+    durationInMinutes: 29
+    publishedAtDate: 636162205760000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 - Building a Vuforia App for HoloLens
+    url: https://www.youtube.com/watch?v=EoG_CbWCWhw
+    channelName: Unity
+    description: The leading AR platform Vuforia supports smartphones, tablets and
+      digital eyewear, including VR viewers and optical see-through devices. Speaker
+      David Beard (Vuforia) provides a technical tutorial on how to build a Vuforia
+      app for HoloLens.
+    thumbUrls:
+    - https://i.ytimg.com/vi/EoG_CbWCWhw/sddefault.jpg
+    - https://i.ytimg.com/vi/EoG_CbWCWhw/mqdefault.jpg
+    - https://i.ytimg.com/vi/EoG_CbWCWhw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/EoG_CbWCWhw/hqdefault.jpg
+    tags:
+    - Vuforia
+    - AR
+    - HoloLens
+    - Unite 2016 Los Angeles
+    viewCount: 12958
+    likeCount: 84
+    dislikeCount: 0
+    commentCount: 3
+    durationInMinutes: 38
+    publishedAtDate: 636162174460000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2015 - Creating Mixed Reality Apps with Vuforia 5
+    url: https://www.youtube.com/watch?v=RdDAjgfj_Yw
+    channelName: Unity
+    description: "Qualcomm Vuforia\u2122, the mobile vision platform that enables
+      apps to see and connect the physical world with digital experiences, recently
+      introduced support for digital eyewear including VR viewers and optical see-through
+      devices. Get a firsthand look at the Vuforia 5 SDK and learn how to create
+      mixed reality apps that combine AR and VR. This session will provide a technical
+      overview of Vuforia 5 in Unity and also cover developer workflows and best
+      practices.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/V61D/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/RdDAjgfj_Yw/sddefault.jpg
+    - https://i.ytimg.com/vi/RdDAjgfj_Yw/mqdefault.jpg
+    - https://i.ytimg.com/vi/RdDAjgfj_Yw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/RdDAjgfj_Yw/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Video Game (Industry)
+    - Video Game Development
+    - Unite 2015 Boston
+    - Vuforia
+    - Virtual Reality (Media Genre)
+    - Augmented Reality (Media Genre)
+    viewCount: 16157
+    likeCount: 106
+    dislikeCount: 2
+    commentCount: 8
+    durationInMinutes: 27
+    publishedAtDate: 635817336270000000
+    publisdedDate:
+      year: 2015
+      month: 10
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite 2015 - AR & VR Development: Sharpening the Tip of the Spear'
+    url: https://www.youtube.com/watch?v=MXJyRcF3tos
+    channelName: Unity
+    description: 'Successfully adding AR or VR to your studio''s arsenal is expensive,
+      and requires significant R&D burn. Programmers & Designers must act as "early
+      adopters" of this new tech to keep ahead of the curve, and accurately convey
+      emerging feature requirements to clients or other developers. The standard
+      for developing AR/VR experiences is rapidly evolving as developers pioneer
+      new interaction methods & gameplay mechanics. This session will explore best
+      practices for AR & VR as we stride in to the future, and how studios can position
+      their teams ahead of the development curve.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V61c/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/MXJyRcF3tos/sddefault.jpg
+    - https://i.ytimg.com/vi/MXJyRcF3tos/mqdefault.jpg
+    - https://i.ytimg.com/vi/MXJyRcF3tos/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MXJyRcF3tos/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Video Game (Industry)
+    - Video Game Development
+    - Unite 2015 Boston
+    - Virtual Reality (Media Genre)
+    - Augmented Reality (Media Genre)
+    viewCount: 3746
+    likeCount: 45
+    dislikeCount: 2
+    commentCount: 13
+    durationInMinutes: 65
+    publishedAtDate: 635797665030000000
+    publisdedDate:
+      year: 2015
+      month: 10
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2015 - 5 Must Know Design Strategies for Better VR Games
+    url: https://www.youtube.com/watch?v=22-GbTpeOCw
+    channelName: Unity
+    description: 'With today''s new Virtual Reality Headsets and AR Smart Glasses,
+      we finally reach the intersection of movie like immersion and the interaction
+      possibilities of games. The talk presents the 5 most common mistakes VR/AR
+      developers make discovered in XEODesign''s year of VR research. Then they then
+      present practical VR design strategies to overcome them.
+
+
+      Help us caption
+      & translate this video!
+
+
+      http://amara.org/v/V61W/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/22-GbTpeOCw/sddefault.jpg
+    - https://i.ytimg.com/vi/22-GbTpeOCw/mqdefault.jpg
+    - https://i.ytimg.com/vi/22-GbTpeOCw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/22-GbTpeOCw/hqdefault.jpg
+    tags:
+    - Virtual Reality (Media Genre)
+    - Unity (Software)
+    - Video Game (Industry)
+    - Video Game Development
+    - Unite 2015 Boston
+    viewCount: 3959
+    likeCount: 44
+    dislikeCount: 4
+    commentCount: 5
+    durationInMinutes: 61
+    publishedAtDate: 635808827810000000
+    publisdedDate:
+      year: 2015
+      month: 10
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: 'The future of XR authoring: Unity Labs - Unite LA'
+    url: https://www.youtube.com/watch?v=OYS05QnmSMM
+    channelName: Unity
+    description: 'Meet the Unity Labs Authoring Tools Group, whose motto is "Reality
+      is our build target," and whose goal is to enable developers to create apps
+      that live in and react to the real world. They''ll explain their approach to
+      mixed reality (MR) development, talk about how the Project MARS Unity extension
+      handles various data and simulations in the Editor, and also how they integrate
+      with technology providers. Finally, you can learn how the team is defining
+      and handling privacy and permissions for spatial computing.
+
+
+      Speakers:
+      Andrew Maneri (Senior Software Engineer), Charles Migos (Advanced UX), Kyle
+      Vaidyanathan (Authoring Tools Group), and Timoni West (Director, XR Research)
+      - Unity Technologies
+
+
+      Learn more: https://unity3d.com/unity/features/multiplatform/vr-ar
+
+
+      Help
+      us caption & translate this video!
+
+
+      https://amara.org/v/oLFu/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/OYS05QnmSMM/sddefault.jpg
+    - https://i.ytimg.com/vi/OYS05QnmSMM/mqdefault.jpg
+    - https://i.ytimg.com/vi/OYS05QnmSMM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/OYS05QnmSMM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 7081
+    likeCount: 115
+    dislikeCount: 5
+    commentCount: 4
+    durationInMinutes: 44
+    publishedAtDate: 636794748030000000
+    publisdedDate:
+      year: 2018
+      month: 12
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Take your first steps in XR | Unite Now 2020
+    url: https://www.youtube.com/watch?v=uItQp55ary8
+    channelName: Unity
+    description: "Ready to get started in the world of XR? Sit in with members of
+      the Unity Education team as they walk you through the wide-ranging capabilities
+      of the new XR Interaction Toolkit and the new VR Creator Kit.\n\nSpeakers:
+      \nDan Miller - AR / VR Evangelist (Unity)\nJacek Mackiewicz - Content Team
+      QA (Unity)\n\nAsk your questions here: https://on.unity.com/2WvNA6r\nDid you
+      find this video useful? Room for improvement? Let us know: https://on.unity.com/2L40XFv\nCheck
+      out the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/2Z4cKvC"
+    thumbUrls:
+    - https://i.ytimg.com/vi/uItQp55ary8/sddefault.jpg
+    - https://i.ytimg.com/vi/uItQp55ary8/mqdefault.jpg
+    - https://i.ytimg.com/vi/uItQp55ary8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/uItQp55ary8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - XR
+    viewCount: 6178
+    likeCount: 144
+    dislikeCount: 4
+    commentCount: 20
+    durationInMinutes: 39
+    publishedAtDate: 637257192050000000
+    publisdedDate:
+      year: 2020
+      month: 5
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2018 - Creating XR Stories
+    url: https://www.youtube.com/watch?v=p62cMnxKz18
+    channelName: Unity
+    description: "Learn about different tools and resources within Unity that can
+      be combined to create stories and applications for XR. There will be an overview
+      of Timeline, spatialized audio, 360 video and how to trigger events in Unity
+      to tell your story. \n\nSpeaker:\nDan Miller (AR / VR Evangelist, Unity Technologies)\n\nhttps://unity3d.com/siggraph2018"
+    thumbUrls:
+    - https://i.ytimg.com/vi/p62cMnxKz18/sddefault.jpg
+    - https://i.ytimg.com/vi/p62cMnxKz18/mqdefault.jpg
+    - https://i.ytimg.com/vi/p62cMnxKz18/maxresdefault.jpg
+    - https://i.ytimg.com/vi/p62cMnxKz18/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1707
+    likeCount: 29
+    dislikeCount: 2
+    commentCount: 2
+    durationInMinutes: 46
+    publishedAtDate: 636735132070000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2018 - Creating Tools for Spatial Computing
+    url: https://www.youtube.com/watch?v=Kt14RwBZyF4
+    channelName: Unity
+    description: "Unity\u2019s Director of XR Research, Timoni West, discusses how
+      computers make sense of the world today,\_ how humans will communicate with
+      computers in new ways, and and how Unity Labs\u2019 latest project, MARS, will
+      help developers build the apps for the future.\_\n\nSpeaker:\nTimoni West (Director
+      of XR Research, Unity Technologies)\n\nhttps://unity3d.com/siggraph2018"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Kt14RwBZyF4/sddefault.jpg
+    - https://i.ytimg.com/vi/Kt14RwBZyF4/mqdefault.jpg
+    - https://i.ytimg.com/vi/Kt14RwBZyF4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Kt14RwBZyF4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 9633
+    likeCount: 198
+    dislikeCount: 5
+    commentCount: 14
+    durationInMinutes: 70
+    publishedAtDate: 636736860040000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2017 - XR for Creative, Brand, and Design
+    url: https://www.youtube.com/watch?v=VRoYamuIajo
+    channelName: Unity
+    description: 'Tony Parisi, Global Head of VR/AR Strategy at Unity Technologies,
+      dives into VR and AR for the creative industry and how these mediums are the
+      most powerful storytelling medium we''ve ever seen.
+
+
+      For more information
+      on Unity - http://bit.ly/2vOtBEa'
+    thumbUrls:
+    - https://i.ytimg.com/vi/VRoYamuIajo/sddefault.jpg
+    - https://i.ytimg.com/vi/VRoYamuIajo/mqdefault.jpg
+    - https://i.ytimg.com/vi/VRoYamuIajo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/VRoYamuIajo/hqdefault.jpg
+    tags:
+    - Unity
+    - Siggraph
+    - Unity3D
+    - Xr
+    - AR
+    - MR
+    - Brand
+    - Design
+    - Creative
+    - Advertising
+    - Storytelling
+    - Siggraph2017
+    - Siggraph 2017
+    viewCount: 2066
+    likeCount: 23
+    dislikeCount: 4
+    commentCount: 4
+    durationInMinutes: 51
+    publishedAtDate: 636379309390000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2017 - XR Development in Unity
+    url: https://www.youtube.com/watch?v=T_CQa_SZTt4
+    channelName: Unity
+    description: 'Sara Stumbo, XR Evangelist at Unity Technologies, drives you through
+      an overview of XR in Unity. She will discuss the platforms supported, run you
+      through multiple editor demos and discuss tools for artists who are interested
+      in XR.
+
+
+      For more information on Unity - http://bit.ly/2vOtBEa'
+    thumbUrls:
+    - https://i.ytimg.com/vi/T_CQa_SZTt4/sddefault.jpg
+    - https://i.ytimg.com/vi/T_CQa_SZTt4/mqdefault.jpg
+    - https://i.ytimg.com/vi/T_CQa_SZTt4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/T_CQa_SZTt4/hqdefault.jpg
+    tags:
+    - ARkit
+    - Apple
+    - VR
+    - AR
+    - MR
+    - XR
+    - Unity
+    - Siggraph
+    - Artists
+    - Oculus
+    viewCount: 8672
+    likeCount: 107
+    dislikeCount: 3
+    commentCount: 7
+    durationInMinutes: 44
+    publishedAtDate: 636379310100000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Propelling AEC to new heights by collaborating across platforms using
+      XR - Unite LA
+    url: https://www.youtube.com/watch?v=gCpBXkHt8r4
+    channelName: Unity
+    description: "In this session, you'll learn how Studio 216 used Unity to create
+      sales & marketing real-time visualizations in mixed reality. You will see a
+      variety of client examples that doesn't just show stunning visualizations,
+      but how their clients collaborated in order to iterate their designs across
+      platforms. \n\nSpeaker:\nBharat Ahluwalia (Studio 216)\n \n Projects showcased\nMicrosoft
+      retail flagship store - \n https://www.youtube.com/watch?v=xefYrNytsPY&t=0s&list=PLdffXjtp6RqcH0xxK2qJ1CgzbakBwGYpG&index=15\n\nCommerical
+      Real Estate \n https://www.youtube.com/channel/UCRhgnqav_vrpxOalymOEU4A\nhttps://www.youtube.com/watch?time_continue=89&v=bbd4ME4Vpo8\nhttps://www.youtube.com/watch?v=krh76PdOrVc"
+    thumbUrls:
+    - https://i.ytimg.com/vi/gCpBXkHt8r4/sddefault.jpg
+    - https://i.ytimg.com/vi/gCpBXkHt8r4/mqdefault.jpg
+    - https://i.ytimg.com/vi/gCpBXkHt8r4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gCpBXkHt8r4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Event
+    - AEC
+    viewCount: 2938
+    likeCount: 26
+    dislikeCount: 2
+    commentCount: 2
+    durationInMinutes: 47
+    publishedAtDate: 636776640020000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: Introduction to Mixed and Augmented Reality Studio (MARS) - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=kJtUwrUh4xs
+    channelName: Unity
+    description: 'Sitting on top of the AR Foundation Framework, MARS allows you
+      to quickly prototype, test, and build rich, deeply interactive apps that truly
+      augment reality. Watch for a deeper dive on the keynote announcement about
+      MARS, including an overview of the product, how it interacts with AR Foundation,
+      and Unity''s product roadmap.
+
+
+      Speakers:
+
+      Andrew Maneri - Unity
+
+      Charles
+      Migos - Unity
+
+      Timoni West - Unity
+
+
+      Build AR applications that
+      intelligently react to, and live in, the real world with MARS: https://on.unity.com/2nZERLW
+
+
+      Slides
+      available here:https://www.slideshare.net/unity3d/mixed-and-augmented-reality-studio-mars-what-you-need-to-know-unite-copenhagen-2019'
+    thumbUrls:
+    - https://i.ytimg.com/vi/kJtUwrUh4xs/sddefault.jpg
+    - https://i.ytimg.com/vi/kJtUwrUh4xs/mqdefault.jpg
+    - https://i.ytimg.com/vi/kJtUwrUh4xs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/kJtUwrUh4xs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - mixed reality
+    - augmented reality
+    - ar
+    viewCount: 8966
+    likeCount: 105
+    dislikeCount: 5
+    commentCount: 10
+    durationInMinutes: 45
+    publishedAtDate: 637056612110000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: How brands can use XR to engage customers - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=quD-o9S7Kjc
+    channelName: Unity
+    description: 
+    thumbUrls:
+    - https://i.ytimg.com/vi/quD-o9S7Kjc/sddefault.jpg
+    - https://i.ytimg.com/vi/quD-o9S7Kjc/mqdefault.jpg
+    - https://i.ytimg.com/vi/quD-o9S7Kjc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/quD-o9S7Kjc/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1122
+    likeCount: 25
+    dislikeCount: 2
+    commentCount: 0
+    durationInMinutes: 46
+    publishedAtDate: 637070328180000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting Started With 360 Video - VR Interaction [5/08] Live 2018/03/01
+    url: https://www.youtube.com/watch?v=65Mq6xiW8m8
+    channelName: Unity
+    description: 'Download the project for free: https://ole.unity.com/get360video
+
+
+      In
+      this live 360 video tutorial session Unity''s own XR Producer Sarah Stumbo
+      will show you how to get started creating 360 Video experiences using the new
+      tools in Unity, including a brand new template project including a 360 video
+      skybox, 360 video interaction tools, 360 video buttons and hotspots and mobile
+      360 video tools which you can download to get started with 360 video.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/65Mq6xiW8m8/sddefault.jpg
+    - https://i.ytimg.com/vi/65Mq6xiW8m8/mqdefault.jpg
+    - https://i.ytimg.com/vi/65Mq6xiW8m8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/65Mq6xiW8m8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - 360
+    - 360 video mobile
+    - how to make 360 videos
+    - 360 video playback
+    - 360 video
+    - how to use 360 video
+    - get started with 360 video
+    - 360 video tutorial
+    - 360 video vr
+    - 360 video vive
+    - 360 video daydream
+    - 360 video unity
+    - play back video in unity
+    - video in unity
+    - video in vr
+    - vr video
+    - daydream video
+    - vive video
+    - oculus video
+    - unity video tutorial
+    - tutorial 360 video
+    viewCount: 13974
+    likeCount: 79
+    dislikeCount: 5
+    commentCount: 7
+    durationInMinutes: 12
+    publishedAtDate: 636586351290000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting Started With 360 Video - Video Render Texture [2/08] Live 2018/03/01
+    url: https://www.youtube.com/watch?v=hmCxXFY-JHs
+    channelName: Unity
+    description: 'Download the project for free: https://ole.unity.com/get360video
+
+
+      In
+      this live 360 video tutorial session Unity''s own XR Producer Sarah Stumbo
+      will show you how to get started creating 360 Video experiences using the new
+      tools in Unity, including a brand new template project including a 360 video
+      skybox, 360 video interaction tools, 360 video buttons and hotspots and mobile
+      360 video tools which you can download to get started with 360 video.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/hmCxXFY-JHs/sddefault.jpg
+    - https://i.ytimg.com/vi/hmCxXFY-JHs/mqdefault.jpg
+    - https://i.ytimg.com/vi/hmCxXFY-JHs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hmCxXFY-JHs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - 360
+    - 360 video mobile
+    - how to make 360 videos
+    - 360 video playback
+    - 360 video
+    - how to use 360 video
+    - get started with 360 video
+    - 360 video tutorial
+    - 360 video vr
+    - 360 video vive
+    - 360 video daydream
+    - 360 video unity
+    - play back video in unity
+    - video in unity
+    - video in vr
+    - vr video
+    - daydream video
+    - vive video
+    - oculus video
+    - unity video tutorial
+    - tutorial 360 video
+    viewCount: 19453
+    likeCount: 151
+    dislikeCount: 3
+    commentCount: 9
+    durationInMinutes: 11
+    publishedAtDate: 636586351290000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting Started With 360 Video - Oculus or Vive Interaction [6/08] Live
+      2018/03/01
+    url: https://www.youtube.com/watch?v=t7kA2q0EpmE
+    channelName: Unity
+    description: 'Download the project for free: https://ole.unity.com/get360video
+
+
+      In
+      this live 360 video tutorial session Unity''s own XR Producer Sarah Stumbo
+      will show you how to get started creating 360 Video experiences using the new
+      tools in Unity, including a brand new template project including a 360 video
+      skybox, 360 video interaction tools, 360 video buttons and hotspots and mobile
+      360 video tools which you can download to get started with 360 video.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/t7kA2q0EpmE/sddefault.jpg
+    - https://i.ytimg.com/vi/t7kA2q0EpmE/mqdefault.jpg
+    - https://i.ytimg.com/vi/t7kA2q0EpmE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/t7kA2q0EpmE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - 360
+    - 360 video mobile
+    - how to make 360 videos
+    - 360 video playback
+    - 360 video
+    - how to use 360 video
+    - get started with 360 video
+    - 360 video tutorial
+    - 360 video vr
+    - 360 video vive
+    - 360 video daydream
+    - 360 video unity
+    - play back video in unity
+    - video in unity
+    - video in vr
+    - vr video
+    - daydream video
+    - vive video
+    - oculus video
+    - unity video tutorial
+    - tutorial 360 video
+    viewCount: 5134
+    likeCount: 27
+    dislikeCount: 3
+    commentCount: 3
+    durationInMinutes: 12
+    publishedAtDate: 636586351290000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting Started With 360 Video - Mobile VR Input [8/08] Live 2018/03/01
+    url: https://www.youtube.com/watch?v=xuTHFTyWsq0
+    channelName: Unity
+    description: 'Download the project for free: https://ole.unity.com/get360video
+
+
+      In
+      this live 360 video tutorial session Unity''s own XR Producer Sarah Stumbo
+      will show you how to get started creating 360 Video experiences using the new
+      tools in Unity, including a brand new template project including a 360 video
+      skybox, 360 video interaction tools, 360 video buttons and hotspots and mobile
+      360 video tools which you can download to get started with 360 video.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/xuTHFTyWsq0/sddefault.jpg
+    - https://i.ytimg.com/vi/xuTHFTyWsq0/mqdefault.jpg
+    - https://i.ytimg.com/vi/xuTHFTyWsq0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xuTHFTyWsq0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - 360
+    - 360 video mobile
+    - how to make 360 videos
+    - 360 video playback
+    - 360 video
+    - how to use 360 video
+    - get started with 360 video
+    - 360 video tutorial
+    - 360 video vr
+    - 360 video vive
+    - 360 video daydream
+    - 360 video unity
+    - play back video in unity
+    - video in unity
+    - video in vr
+    - vr video
+    - daydream video
+    - vive video
+    - oculus video
+    - unity video tutorial
+    - tutorial 360 video
+    viewCount: 4535
+    likeCount: 21
+    dislikeCount: 0
+    commentCount: 5
+    durationInMinutes: 4
+    publishedAtDate: 636586351290000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting Started With 360 Video - Menu Manager Script [4/08] Live 2018/03/01
+    url: https://www.youtube.com/watch?v=U9MGy3LlJpY
+    channelName: Unity
+    description: 'Download the project for free: https://ole.unity.com/get360video
+
+
+      In
+      this live 360 video tutorial session Unity''s own XR Producer Sarah Stumbo
+      will show you how to get started creating 360 Video experiences using the new
+      tools in Unity, including a brand new template project including a 360 video
+      skybox, 360 video interaction tools, 360 video buttons and hotspots and mobile
+      360 video tools which you can download to get started with 360 video.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/U9MGy3LlJpY/sddefault.jpg
+    - https://i.ytimg.com/vi/U9MGy3LlJpY/mqdefault.jpg
+    - https://i.ytimg.com/vi/U9MGy3LlJpY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/U9MGy3LlJpY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - 360
+    - 360 video mobile
+    - how to make 360 videos
+    - 360 video playback
+    - 360 video
+    - how to use 360 video
+    - get started with 360 video
+    - 360 video tutorial
+    - 360 video vr
+    - 360 video vive
+    - 360 video daydream
+    - 360 video unity
+    - play back video in unity
+    - video in unity
+    - video in vr
+    - vr video
+    - daydream video
+    - vive video
+    - oculus video
+    - unity video tutorial
+    - tutorial 360 video
+    viewCount: 6738
+    likeCount: 38
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 12
+    publishedAtDate: 636586351290000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting Started With 360 Video - Introduction [1/08] Live 2018/03/01
+    url: https://www.youtube.com/watch?v=UroMw97Wk6Y
+    channelName: Unity
+    description: 'Download the project for free: https://ole.unity.com/get360video
+
+
+      In
+      this live 360 video tutorial session Unity''s own XR Producer Sarah Stumbo
+      will show you how to get started creating 360 Video experiences using the new
+      tools in Unity, including a brand new template project including a 360 video
+      skybox, 360 video interaction tools, 360 video buttons and hotspots and mobile
+      360 video tools which you can download to get started with 360 video.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/UroMw97Wk6Y/sddefault.jpg
+    - https://i.ytimg.com/vi/UroMw97Wk6Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/UroMw97Wk6Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/UroMw97Wk6Y/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - 360
+    - 360 video mobile
+    - how to make 360 videos
+    - 360 video playback
+    - 360 video
+    - how to use 360 video
+    - get started with 360 video
+    - 360 video tutorial
+    - 360 video vr
+    - 360 video vive
+    - 360 video daydream
+    - 360 video unity
+    - play back video in unity
+    - video in unity
+    - video in vr
+    - vr video
+    - daydream video
+    - vive video
+    - oculus video
+    - unity video tutorial
+    - tutorial 360 video
+    viewCount: 19796
+    likeCount: 190
+    dislikeCount: 6
+    commentCount: 14
+    durationInMinutes: 8
+    publishedAtDate: 636586351290000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting Started With 360 Video - Creating Hotspots [7/08] Live 2018/03/01
+    url: https://www.youtube.com/watch?v=NF1kydXPbLw
+    channelName: Unity
+    description: 'Download the project for free: https://ole.unity.com/get360video
+
+
+      In
+      this live 360 video tutorial session Unity''s own XR Producer Sarah Stumbo
+      will show you how to get started creating 360 Video experiences using the new
+      tools in Unity, including a brand new template project including a 360 video
+      skybox, 360 video interaction tools, 360 video buttons and hotspots and mobile
+      360 video tools which you can download to get started with 360 video.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/NF1kydXPbLw/sddefault.jpg
+    - https://i.ytimg.com/vi/NF1kydXPbLw/mqdefault.jpg
+    - https://i.ytimg.com/vi/NF1kydXPbLw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/NF1kydXPbLw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - 360
+    - 360 video mobile
+    - how to make 360 videos
+    - 360 video playback
+    - 360 video
+    - how to use 360 video
+    - get started with 360 video
+    - 360 video tutorial
+    - 360 video vr
+    - 360 video vive
+    - 360 video daydream
+    - 360 video unity
+    - play back video in unity
+    - video in unity
+    - video in vr
+    - vr video
+    - daydream video
+    - vive video
+    - oculus video
+    - unity video tutorial
+    - tutorial 360 video
+    viewCount: 10106
+    likeCount: 74
+    dislikeCount: 4
+    commentCount: 10
+    durationInMinutes: 11
+    publishedAtDate: 636586351290000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting Started With 360 Video - 360 Video Skybox [3/08] Live 2018/03/01
+    url: https://www.youtube.com/watch?v=nf2Jb6tk1GY
+    channelName: Unity
+    description: 'Download the project for free: https://ole.unity.com/get360video
+
+
+      In
+      this live 360 video tutorial session Unity''s own XR Producer Sarah Stumbo
+      will show you how to get started creating 360 Video experiences using the new
+      tools in Unity, including a brand new template project including a 360 video
+      skybox, 360 video interaction tools, 360 video buttons and hotspots and mobile
+      360 video tools which you can download to get started with 360 video.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/nf2Jb6tk1GY/sddefault.jpg
+    - https://i.ytimg.com/vi/nf2Jb6tk1GY/mqdefault.jpg
+    - https://i.ytimg.com/vi/nf2Jb6tk1GY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/nf2Jb6tk1GY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - 360
+    - 360 video mobile
+    - how to make 360 videos
+    - 360 video playback
+    - 360 video
+    - how to use 360 video
+    - get started with 360 video
+    - 360 video tutorial
+    - 360 video vr
+    - 360 video vive
+    - 360 video daydream
+    - 360 video unity
+    - play back video in unity
+    - video in unity
+    - video in vr
+    - vr video
+    - daydream video
+    - vive video
+    - oculus video
+    - unity video tutorial
+    - tutorial 360 video
+    viewCount: 14083
+    likeCount: 67
+    dislikeCount: 3
+    commentCount: 7
+    durationInMinutes: 9
+    publishedAtDate: 636586351290000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Get off to a great start with handheld AR - Unite LA
+    url: https://www.youtube.com/watch?v=rgVm0J3_qGY
+    channelName: Unity
+    description: 'Are you an aspiring handheld AR app developer but not quite sure
+      where to begin? Learn how to use our new handheld AR template and multiplatform
+      AR SDK to build an app across ARCore and ARKit devices. Get best practices
+      and tips that will boost your confidence so you can start creating handheld
+      AR apps on your own.
+
+
+      Speaker: Dan Miller (Unity XR Evangelist)
+
+
+      Learn
+      more: https://unity3d.com/unity/features/multiplatform/vr-ar
+
+
+      Help us
+      caption & translate this video!
+
+
+      https://amara.org/v/oLFy/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/rgVm0J3_qGY/sddefault.jpg
+    - https://i.ytimg.com/vi/rgVm0J3_qGY/mqdefault.jpg
+    - https://i.ytimg.com/vi/rgVm0J3_qGY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/rgVm0J3_qGY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 11928
+    likeCount: 187
+    dislikeCount: 2
+    commentCount: 5
+    durationInMinutes: 44
+    publishedAtDate: 636794748120000000
+    publisdedDate:
+      year: 2018
+      month: 12
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: From interactive to automatic CAD data prep - Unite LA | AutoTech Summit
+    url: https://www.youtube.com/watch?v=Tw14ohxF-8I
+    channelName: Unity
+    description: "PiXYZ CAD data-prep experts will show you how to use PiXYZ products
+      to convert, optimize and conform 3D models coming from the CAD industrial world
+      to Unity, taking into consideration the challenges and effort behind each part
+      of the CAD asset transformation pipeline for XR applications. \n\nSpeakers:\nAxel
+      Jacquet (PiXYZ Software)\nGeoffrey Subileau (PiXYZ Software)\n\nLearn more
+      about Unity for Automotive: https://unity.com/solutions/automotive-transportation\n\nHelp
+      us caption & translate this video!\n\nhttps://amara.org/v/oLGO/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Tw14ohxF-8I/sddefault.jpg
+    - https://i.ytimg.com/vi/Tw14ohxF-8I/mqdefault.jpg
+    - https://i.ytimg.com/vi/Tw14ohxF-8I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Tw14ohxF-8I/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Event
+    - Automotive
+    viewCount: 2196
+    likeCount: 25
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 28
+    publishedAtDate: 636791220070000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Educators building the future: lessons from the front lines | Unite Now
+      2020'
+    url: https://www.youtube.com/watch?v=N4LR7Su-qeQ
+    channelName: Unity
+    description: "What\u2019s coming up for the next generation of students? In this
+      video, you'll hear from leading innovators in education \u2013 across higher
+      ed, non-profit, and YouTube \u2013 on how they\u2019re equipping students with
+      valuable game and XR development skills to prepare for the future.\n\nSpeaker:\nAndrew
+      Connell - Freelance Simulation Engineer and XR Engineer\nDrew Davidson - Director,
+      Carnegie Mellon University Entertainment and Technology Center\n\nAsk your
+      questions here: https://on.unity.com/2ySW6o6\n\nDid you find this video useful?
+      Room for improvement? Let us know: https://on.unity.com/2XozdCl\n\nCheck out
+      the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/3cm6EJZ"
+    thumbUrls:
+    - https://i.ytimg.com/vi/N4LR7Su-qeQ/sddefault.jpg
+    - https://i.ytimg.com/vi/N4LR7Su-qeQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/N4LR7Su-qeQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/N4LR7Su-qeQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2968
+    likeCount: 0
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 22
+    publishedAtDate: 637279579430000000
+    publisdedDate:
+      year: 2020
+      month: 6
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Cutting-edge AR and VR games made with Unity - GDC 2019
+    url: https://www.youtube.com/watch?v=zNMlglRyRSo
+    channelName: Unity
+    description: "Get inspired by these inventive AR and VR games by creative Unity
+      developers. \n\nFind out why over 60% of all XR content is created with Unity.
+      https://on.unity.com/2JrnNbZ\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oIgD/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/zNMlglRyRSo/sddefault.jpg
+    - https://i.ytimg.com/vi/zNMlglRyRSo/mqdefault.jpg
+    - https://i.ytimg.com/vi/zNMlglRyRSo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/zNMlglRyRSo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ar
+    - vr
+    viewCount: 17117
+    likeCount: 293
+    dislikeCount: 11
+    commentCount: 14
+    durationInMinutes: 0
+    publishedAtDate: 636888174870000000
+    publisdedDate:
+      year: 2019
+      month: 3
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating VR and MR experiences using Varjo VR-1 and XR-1 - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=mfCe-VmuGNU
+    channelName: Unity
+    description: 'The developers of Varjo VR-1 learned a lot about human eye resolution
+      and the demands it puts on virtual reality (VR) content. In this video, you''ll
+      explore what next-generation VR can mean for your VR experiences. You''ll hear
+      about what matters the most when it comes to visual quality, the possible caveats,
+      and the role performance requirements play in this equation.
+
+
+      Speaker:
+      Mikko Strandborg - Varjo
+
+
+      Slides available here: https://www.slideshare.net/unity3d/creating-nextgen-vr-and-mr-experiences-using-varjo-vr1-and-xr1-unite-copenhagen-2019
+
+
+      More
+      about VR: https://on.unity.com/33X2jsW'
+    thumbUrls:
+    - https://i.ytimg.com/vi/mfCe-VmuGNU/sddefault.jpg
+    - https://i.ytimg.com/vi/mfCe-VmuGNU/mqdefault.jpg
+    - https://i.ytimg.com/vi/mfCe-VmuGNU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/mfCe-VmuGNU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - VR
+    viewCount: 2410
+    likeCount: 25
+    dislikeCount: 0
+    commentCount: 5
+    durationInMinutes: 31
+    publishedAtDate: 637074824970000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Art asset creation and implementation tips for max performance on XR and
+      mobile - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=225-NeJ5x5o
+    channelName: Unity
+    description: 'Mobile and XR development require optimized art assets to hit frame
+      rate, compile to smaller build sizes, play well with version control, and simplify
+      the iterative process. In this session, Elliott discusses various best practices
+      when creating art assets for import into Unity. You will also learn about key
+      import settings and other performance boosting tips within the Unity Editor.
+
+
+      Speaker:
+
+      Elliott
+      Mitchell - Vermont Digital Arts'
+    thumbUrls:
+    - https://i.ytimg.com/vi/225-NeJ5x5o/sddefault.jpg
+    - https://i.ytimg.com/vi/225-NeJ5x5o/mqdefault.jpg
+    - https://i.ytimg.com/vi/225-NeJ5x5o/maxresdefault.jpg
+    - https://i.ytimg.com/vi/225-NeJ5x5o/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1626
+    likeCount: 34
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 26
+    publishedAtDate: 637083288010000000
+    publisdedDate:
+      year: 2019
+      month: 11
+      day: 2
+    YouTubeDataAPI_Cooked: 1

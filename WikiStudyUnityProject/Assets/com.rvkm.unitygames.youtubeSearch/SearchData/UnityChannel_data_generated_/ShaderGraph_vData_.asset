@@ -1,0 +1,1318 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
+  m_Name: ShaderGraph_vData_
+  m_EditorClassIdentifier: 
+  searchName: UnityChannel
+  belongedCategory: ShaderGraph
+  allVideos:
+  - title: What's new in Shader Graph - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=L6mU2rkT5To
+    channelName: Unity
+    description: 'Learn about the state of Shader Graph. This presentation will outline
+      the new features and recommended workflows that enable you to easily author
+      shaders by building them visually and see the results in real-time.
+
+
+      Speaker:
+
+      Ciro
+      Continisio - Unity
+
+
+      Slides available here: https://www.slideshare.net/unity3d/whats-new-in-shader-graph-ready-for-production-unite-copenhagen-2019
+
+      More
+      about Shader Graph: https://on.unity.com/2oGJLhj'
+    thumbUrls:
+    - https://i.ytimg.com/vi/L6mU2rkT5To/sddefault.jpg
+    - https://i.ytimg.com/vi/L6mU2rkT5To/mqdefault.jpg
+    - https://i.ytimg.com/vi/L6mU2rkT5To/maxresdefault.jpg
+    - https://i.ytimg.com/vi/L6mU2rkT5To/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 6695
+    likeCount: 122
+    dislikeCount: 0
+    commentCount: 9
+    durationInMinutes: 36
+    publishedAtDate: 637054938010000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Shader Graph Introduction
+    url: https://www.youtube.com/watch?v=NsWNRLD-FEI
+    channelName: Unity
+    description: "March 21, 10:45am (San Francisco) - Andy Touch demonstrates how
+      you can easily create shaders using the graph framework. Shader Graph enables
+      you to build your shaders visually. Instead of writing code, you create and
+      connect nodes in a graph network. \n\nSpeaker:\nAndy Touch, Global Content
+      Evangelist at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/NsWNRLD-FEI/mqdefault.jpg
+    - https://i.ytimg.com/vi/NsWNRLD-FEI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 75809
+    likeCount: 1111
+    dislikeCount: 23
+    commentCount: 74
+    durationInMinutes: 65
+    publishedAtDate: 636578813520000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - High definition render pipeline, shader graph, GPU-based
+      progressive lightmapper
+    url: https://www.youtube.com/watch?v=nOpx2xuMSFY
+    channelName: Unity
+    description: "March 19, 2018 (San Francisco) - Lucas Meijer (Technical Director)
+      and Natalya Tatarchuk (Director of Graphics) dive into how Book of the Dead
+      was created, using High Definition Render Pipeline (HD RP) and shader graph,
+      photogrammetry, and more. They show a Book of the Dead demo level running at
+      30fps on the PlayStation 4 Pro console. Additionally, Natalya and Lucas show
+      off Unity's GPU-based progressive lightmapper. \n\nTo learn more about upcoming
+      graphical improvements: https://blogs.unity3d.com/2018/03/20/unity-unveils-2018-roadmap-at-gdc/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/nOpx2xuMSFY/sddefault.jpg
+    - https://i.ytimg.com/vi/nOpx2xuMSFY/mqdefault.jpg
+    - https://i.ytimg.com/vi/nOpx2xuMSFY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/nOpx2xuMSFY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 47846
+    likeCount: 805
+    dislikeCount: 11
+    commentCount: 42
+    durationInMinutes: 26
+    publishedAtDate: 636583243260000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity 2019.1 released: Burst Compiler, Lightweight Render Pipeline, Shader
+      Graph and more'
+    url: https://www.youtube.com/watch?v=SJplDRtV1Oo
+    channelName: Unity
+    description: "*Introducing Unity 2019.1*\nLearn more in our blog post: https://on.unity.com/2UYdQaD\n\nThe
+      first TECH Stream release of the year \u2013 Unity 2019.1 \u2013 is now available.
+      It includes many new production-ready features such as the Burst Compiler,
+      the Lightweight Render Pipeline (LWRP), and Shader Graph. Also, there are numerous
+      innovations for animators, mobile developers, and graphics experts, and multiple
+      updates that streamline project workflows and simplify Editor tasks.\n\nTry
+      Unity 2019.1 now: https://ole.unity.com/tryunity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/SJplDRtV1Oo/sddefault.jpg
+    - https://i.ytimg.com/vi/SJplDRtV1Oo/mqdefault.jpg
+    - https://i.ytimg.com/vi/SJplDRtV1Oo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/SJplDRtV1Oo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2019
+    - unity 2019.1
+    - unity 2019.1 released
+    - unity 2019.1 release date
+    - unity 2019.1 showcase
+    - unity graphics
+    - unity 2019.1 graphics
+    - unity hdrp
+    - unity dots
+    - unity heretic
+    - unity megacity
+    - unity mega city
+    - unity released
+    - unity performance
+    - unity
+    - unity game dev
+    - making games with unity
+    - unity game development
+    - unity make a game
+    - make a game
+    - unity reel
+    - unity 3d
+    - 2019.1
+    viewCount: 248058
+    likeCount: 6972
+    dislikeCount: 92
+    commentCount: 531
+    durationInMinutes: 3
+    publishedAtDate: 636910348020000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Using Shader Graph to Create Shaders Without Code
+    url: https://www.youtube.com/watch?v=0Qz1FwyveUo
+    channelName: Unity
+    description: 'Learn about how the new Shader Graph makes it easy to build shaders
+      without having to hand-write code simply by connecting nodes in a graph network.
+
+
+      Speakers:
+
+      Andy
+      Touch (Unity Technologies)
+
+
+      https://unite.unity.com/2018/berlin'
+    thumbUrls:
+    - https://i.ytimg.com/vi/0Qz1FwyveUo/sddefault.jpg
+    - https://i.ytimg.com/vi/0Qz1FwyveUo/mqdefault.jpg
+    - https://i.ytimg.com/vi/0Qz1FwyveUo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0Qz1FwyveUo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Shader Graph
+    - Shader
+    - Shaders
+    - Graph Network
+    - Materials
+    viewCount: 17450
+    likeCount: 372
+    dislikeCount: 4
+    commentCount: 8
+    durationInMinutes: 46
+    publishedAtDate: 636691608000000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Triplanar Effect in Unity URP (Shader Graph Tutorial)
+    url: https://www.youtube.com/watch?v=eZqd68YaY2U
+    channelName: Unity
+    description: 'In this video, we''ll take a look at how you can simulate a triplanar
+      effect in the Universal Render Pipeline using Shader Graph.
+
+
+      Get the
+      Boat Attack Demo here!
+
+      https://on.unity.com/3fIw3QV
+
+
+      Learn more
+      about Universal Render Pipeline here!
+
+      https://on.unity.com/38WY7NH
+
+
+      Get
+      more information on Shader Graph here!
+
+      https://on.unity.com/3fwXyg7'
+    thumbUrls:
+    - https://i.ytimg.com/vi/eZqd68YaY2U/sddefault.jpg
+    - https://i.ytimg.com/vi/eZqd68YaY2U/mqdefault.jpg
+    - https://i.ytimg.com/vi/eZqd68YaY2U/maxresdefault.jpg
+    - https://i.ytimg.com/vi/eZqd68YaY2U/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Unity game development
+    - unity shader graph
+    - unity shader graph tutorial
+    - unity shader graph tutorials
+    - shader graph
+    - shader graph unity
+    - unity shader triplanar
+    - unity triplanar
+    - unity shader graph urp
+    - unity urp
+    - unity urp tutorial
+    - unity tutorial
+    - unity game
+    - unity dev
+    - unity indiedev
+    - unity gamedev
+    - unity universal render pipeline
+    - unity srp
+    viewCount: 25980
+    likeCount: 912
+    dislikeCount: 18
+    commentCount: 58
+    durationInMinutes: 8
+    publishedAtDate: 637304468430000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: Simulating Wind in URP (Shader Graph Tutorial)
+    url: https://www.youtube.com/watch?v=ZsoqrHHtg4I
+    channelName: Unity
+    description: "In this video, we\u2019re going to show you how you can use Shader
+      Graph to simulate wind interacting with vegetation in your scene. \n\nCheck
+      out the Boat Attack Repository here!\nhttps://on.unity.com/3jeA8yg\n\nFor more
+      information about the Universal Render Pipeline click here!\nhttps://on.unity.com/2ZD1ma0\n\nLearn
+      more about Shader Graph here!\nhttps://on.unity.com/3h3Hanw"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZsoqrHHtg4I/sddefault.jpg
+    - https://i.ytimg.com/vi/ZsoqrHHtg4I/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZsoqrHHtg4I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZsoqrHHtg4I/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Unity game development
+    - unity gamedev
+    - unity game dev
+    - unity urp
+    - unity universal render pipeline
+    - universal render pipeline unity
+    - universal render pipeline
+    - unity urp tutorial
+    - unity grass
+    - unity vegetation
+    - unity urp vegetation
+    - creating vegetation in unity
+    - unity vegetations
+    - unity vegetation tutorial
+    - unity universal rp tutorial
+    viewCount: 21547
+    likeCount: 929
+    dislikeCount: 20
+    commentCount: 53
+    durationInMinutes: 6
+    publishedAtDate: 637306194210000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Shader Graph Tutorial - Shader Graph Example Project [8/8] Live 2018/3/07
+    url: https://www.youtube.com/watch?v=wqmKZHD1f0g
+    channelName: Unity
+    description: unity shader graph, shader, shader graph, how to use unity shader
+      graph, shader graph tutorial, shader graph 2018, shader graph unity free, unity
+      shader tutorial, unity shadergraph, shadergraph, 2018.1, 2018, live session,
+      shadergraph tutorial, light weight pipeline, lightweight srp, srp, scriptable
+      render pipeline
+    thumbUrls:
+    - https://i.ytimg.com/vi/wqmKZHD1f0g/sddefault.jpg
+    - https://i.ytimg.com/vi/wqmKZHD1f0g/mqdefault.jpg
+    - https://i.ytimg.com/vi/wqmKZHD1f0g/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wqmKZHD1f0g/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - shader
+    - shader graph
+    - how to use unity shader graph
+    - shader graph tutorial
+    - shader graph 2018
+    - shader graph unity free
+    - unity shader tutorial
+    - unity shadergraph
+    - shadergraph
+    - 2018.1
+    - 2018
+    - live session
+    - shadergraph tutorial
+    - light weight pipeline
+    - lightweight srp
+    - srp
+    - scriptable render pipeline
+    - fresnel shader
+    - rim light
+    - dissolve shader
+    viewCount: 11860
+    likeCount: 196
+    dislikeCount: 3
+    commentCount: 14
+    durationInMinutes: 4
+    publishedAtDate: 636575437050000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Shader Graph Tutorial - Introduction [1/8] Live 2018/3/07
+    url: https://www.youtube.com/watch?v=V5XFrIhLpGQ
+    channelName: Unity
+    description: 'You can get access today to Shader Graph by downloading the Unity
+      beta: https://ole.unity.com/beta
+
+
+      In this live session guest presenter
+      and Unity Evangelist Andy Touch will walk us through how to use Unity 2018.1
+      Shader Graph to create compelling visual effects using Unity''s new Shader
+      Graph feature. This Shader Graph tutorial enables you to build your shaders
+      visually. Instead of hand writing code you create and connect nodes in a graph
+      network.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/V5XFrIhLpGQ/sddefault.jpg
+    - https://i.ytimg.com/vi/V5XFrIhLpGQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/V5XFrIhLpGQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/V5XFrIhLpGQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - shader
+    - shader graph
+    - how to use unity shader graph
+    - shader graph tutorial
+    - shader graph 2018
+    - shader graph unity free
+    - unity shader tutorial
+    - unity shadergraph
+    - shadergraph
+    - 2018.1
+    - 2018
+    - live session
+    - shadergraph tutorial
+    - light weight pipeline
+    - lightweight srp
+    - srp
+    - scriptable render pipeline
+    viewCount: 42016
+    likeCount: 307
+    dislikeCount: 13
+    commentCount: 45
+    durationInMinutes: 3
+    publishedAtDate: 636575437050000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Shader Graph Tutorial - Installing ShaderGraph with Package Manager [2/8]
+      Live
+    url: https://www.youtube.com/watch?v=CDbt6u4S2NE
+    channelName: Unity
+    description: 'You can get access today to Shader Graph by downloading the Unity
+      beta: https://ole.unity.com/beta
+
+
+      In this live session guest presenter
+      and Unity Evangelist Andy Touch will walk us through how to use Unity 2018.1
+      Shader Graph to create compelling visual effects using Unity''s new Shader
+      Graph feature. This Shader Graph tutorial enables you to build your shaders
+      visually. Instead of hand writing code you create and connect nodes in a graph
+      network.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/CDbt6u4S2NE/sddefault.jpg
+    - https://i.ytimg.com/vi/CDbt6u4S2NE/mqdefault.jpg
+    - https://i.ytimg.com/vi/CDbt6u4S2NE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/CDbt6u4S2NE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - shader
+    - shader graph
+    - how to use unity shader graph
+    - shader graph tutorial
+    - shader graph 2018
+    - shader graph unity free
+    - unity shader tutorial
+    - unity shadergraph
+    - shadergraph
+    - 2018.1
+    - 2018
+    - live session
+    - shadergraph tutorial
+    - light weight pipeline
+    - lightweight srp
+    - srp
+    - scriptable render pipeline
+    viewCount: 38696
+    likeCount: 168
+    dislikeCount: 27
+    commentCount: 17
+    durationInMinutes: 3
+    publishedAtDate: 636575437050000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Shader Graph Tutorial - Dissolving In View Space [7/8] Live 2018/3/07
+    url: https://www.youtube.com/watch?v=TayHOX5M4EI
+    channelName: Unity
+    description: unity shader graph, shader, shader graph, how to use unity shader
+      graph, shader graph tutorial, shader graph 2018, shader graph unity free, unity
+      shader tutorial, unity shadergraph, shadergraph, 2018.1, 2018, live session,
+      shadergraph tutorial, light weight pipeline, lightweight srp, srp, scriptable
+      render pipeline
+    thumbUrls:
+    - https://i.ytimg.com/vi/TayHOX5M4EI/sddefault.jpg
+    - https://i.ytimg.com/vi/TayHOX5M4EI/mqdefault.jpg
+    - https://i.ytimg.com/vi/TayHOX5M4EI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TayHOX5M4EI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - shader
+    - shader graph
+    - how to use unity shader graph
+    - shader graph tutorial
+    - shader graph 2018
+    - shader graph unity free
+    - unity shader tutorial
+    - unity shadergraph
+    - shadergraph
+    - 2018.1
+    - 2018
+    - live session
+    - shadergraph tutorial
+    - light weight pipeline
+    - lightweight srp
+    - srp
+    - scriptable render pipeline
+    - fresnel shader
+    - rim light
+    - dissolve shader
+    - view space
+    - world space
+    viewCount: 12971
+    likeCount: 95
+    dislikeCount: 4
+    commentCount: 8
+    durationInMinutes: 3
+    publishedAtDate: 636575437060000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Shader Graph Tutorial - Creating a Shader Graph [3/8] Live 2018/3/07
+    url: https://www.youtube.com/watch?v=ZuK33DQk-O4
+    channelName: Unity
+    description: 'You can get access today to Shader Graph by downloading the Unity
+      beta: https://ole.unity.com/beta
+
+
+      In this live session guest presenter
+      and Unity Evangelist Andy Touch will walk us through how to use Unity 2018.1
+      Shader Graph to create compelling visual effects using Unity''s new Shader
+      Graph feature. This Shader Graph tutorial enables you to build your shaders
+      visually. Instead of hand writing code you create and connect nodes in a graph
+      network.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZuK33DQk-O4/sddefault.jpg
+    - https://i.ytimg.com/vi/ZuK33DQk-O4/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZuK33DQk-O4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZuK33DQk-O4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - shader
+    - shader graph
+    - how to use unity shader graph
+    - shader graph tutorial
+    - shader graph 2018
+    - shader graph unity free
+    - unity shader tutorial
+    - unity shadergraph
+    - shadergraph
+    - 2018.1
+    - 2018
+    - live session
+    - shadergraph tutorial
+    - light weight pipeline
+    - lightweight srp
+    - srp
+    - scriptable render pipeline
+    - fresnel shader
+    - rim light
+    - dissolve shader
+    viewCount: 29112
+    likeCount: 98
+    dislikeCount: 9
+    commentCount: 12
+    durationInMinutes: 6
+    publishedAtDate: 636575437050000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Shader Graph Tutorial - Creating A Dissolve Shader With Noise [6/8] Live
+      2018/3/07
+    url: https://www.youtube.com/watch?v=BcdXkQ3oq7o
+    channelName: Unity
+    description: unity shader graph, shader, shader graph, how to use unity shader
+      graph, shader graph tutorial, shader graph 2018, shader graph unity free, unity
+      shader tutorial, unity shadergraph, shadergraph, 2018.1, 2018, live session,
+      shadergraph tutorial, light weight pipeline, lightweight srp, srp, scriptable
+      render pipeline
+    thumbUrls:
+    - https://i.ytimg.com/vi/BcdXkQ3oq7o/sddefault.jpg
+    - https://i.ytimg.com/vi/BcdXkQ3oq7o/mqdefault.jpg
+    - https://i.ytimg.com/vi/BcdXkQ3oq7o/maxresdefault.jpg
+    - https://i.ytimg.com/vi/BcdXkQ3oq7o/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - shader
+    - shader graph
+    - how to use unity shader graph
+    - shader graph tutorial
+    - shader graph 2018
+    - shader graph unity free
+    - unity shader tutorial
+    - unity shadergraph
+    - shadergraph
+    - 2018.1
+    - 2018
+    - live session
+    - shadergraph tutorial
+    - light weight pipeline
+    - lightweight srp
+    - srp
+    - scriptable render pipeline
+    - fresnel shader
+    - rim light
+    - dissolve shader
+    viewCount: 22536
+    likeCount: 145
+    dislikeCount: 4
+    commentCount: 10
+    durationInMinutes: 6
+    publishedAtDate: 636575437050000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Shader Graph Tutorial - Creating a Colored Glow Shader [4/8] Live 2018/3/07
+    url: https://www.youtube.com/watch?v=qTYOWRWuBQg
+    channelName: Unity
+    description: unity shader graph, shader, shader graph, how to use unity shader
+      graph, shader graph tutorial, shader graph 2018, shader graph unity free, unity
+      shader tutorial, unity shadergraph, shadergraph, 2018.1, 2018, live session,
+      shadergraph tutorial, light weight pipeline, lightweight srp, srp, scriptable
+      render pipeline
+    thumbUrls:
+    - https://i.ytimg.com/vi/qTYOWRWuBQg/sddefault.jpg
+    - https://i.ytimg.com/vi/qTYOWRWuBQg/mqdefault.jpg
+    - https://i.ytimg.com/vi/qTYOWRWuBQg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/qTYOWRWuBQg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - shader
+    - shader graph
+    - how to use unity shader graph
+    - shader graph tutorial
+    - shader graph 2018
+    - shader graph unity free
+    - unity shader tutorial
+    - unity shadergraph
+    - shadergraph
+    - 2018.1
+    - 2018
+    - live session
+    - shadergraph tutorial
+    - light weight pipeline
+    - lightweight srp
+    - srp
+    - scriptable render pipeline
+    - fresnel shader
+    - rim light
+    - dissolve shader
+    viewCount: 39381
+    likeCount: 139
+    dislikeCount: 24
+    commentCount: 13
+    durationInMinutes: 5
+    publishedAtDate: 636575437050000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Shader Graph Tutorial - Adding Albedo Texture [5/8] Live 2018/3/07
+    url: https://www.youtube.com/watch?v=d7Vd5oXEJtU
+    channelName: Unity
+    description: unity shader graph, shader, shader graph, how to use unity shader
+      graph, shader graph tutorial, shader graph 2018, shader graph unity free, unity
+      shader tutorial, unity shadergraph, shadergraph, 2018.1, 2018, live session,
+      shadergraph tutorial, light weight pipeline, lightweight srp, srp, scriptable
+      render pipeline
+    thumbUrls:
+    - https://i.ytimg.com/vi/d7Vd5oXEJtU/sddefault.jpg
+    - https://i.ytimg.com/vi/d7Vd5oXEJtU/mqdefault.jpg
+    - https://i.ytimg.com/vi/d7Vd5oXEJtU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/d7Vd5oXEJtU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - shader
+    - shader graph
+    - how to use unity shader graph
+    - shader graph tutorial
+    - shader graph 2018
+    - shader graph unity free
+    - unity shader tutorial
+    - unity shadergraph
+    - shadergraph
+    - 2018.1
+    - 2018
+    - live session
+    - shadergraph tutorial
+    - light weight pipeline
+    - lightweight srp
+    - srp
+    - scriptable render pipeline
+    - fresnel shader
+    - rim light
+    - dissolve shader
+    - albedo
+    - texture
+    - albedo texture
+    viewCount: 23378
+    likeCount: 125
+    dislikeCount: 8
+    commentCount: 3
+    durationInMinutes: 6
+    publishedAtDate: 636575437050000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Making Portals with Shader Graph in Unity! (Tutorial)
+    url: https://www.youtube.com/watch?v=TkzASwVgnj8
+    channelName: Unity
+    description: 'Learn how to create a portal effect in Unity''s Lightweight Render
+      Pipeline and Shader Graph.
+
+      Download the free sample project here: https://ole.unity.com/lightweightportals'
+    thumbUrls:
+    - https://i.ytimg.com/vi/TkzASwVgnj8/sddefault.jpg
+    - https://i.ytimg.com/vi/TkzASwVgnj8/mqdefault.jpg
+    - https://i.ytimg.com/vi/TkzASwVgnj8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TkzASwVgnj8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity portal tutorial
+    - unity portals
+    - unity portal
+    - unity portal effect
+    - unity teleport
+    - unity teleport effect
+    - unity teleporting
+    - unity teleport tutorial
+    - unity tteleports
+    - unity portals tutorial
+    - unity easy
+    - unity tutorial
+    - unity 2019
+    - game dev
+    - game engine
+    - unity shader graph
+    - unity shader tutorial
+    - unity teleport to another scene
+    - shader graph
+    - tutorial
+    viewCount: 60205
+    likeCount: 2123
+    dislikeCount: 38
+    commentCount: 150
+    durationInMinutes: 3
+    publishedAtDate: 636970734310000000
+    publisdedDate:
+      year: 2019
+      month: 6
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Making a Vertex Displacement Shader in Unity 2018.3! | Shader Graph
+    url: https://www.youtube.com/watch?v=vh85pzT959M
+    channelName: Unity
+    description: "Download the demo project here: https://ole.unity.com/sgvertex\n\nTo
+      learn more about Unity, check out some of our available courses on our Learn
+      website: https://ole.unity.com/unitycourses\n\nTo check out some other cool
+      effects, feel free to also browse the Unity Asset Store: https://ole.unity.com/MeshEffects\n\nIf
+      you prefer a written article version, you can find that here: https://ole.unity.com/sgvertexarticle\n\nIn
+      this video, we will provide a method for creating an interactive vertex displacement
+      effect using Unity's Shader Graph tool, together with the Lightweight Render
+      Pipeline (LWRP). \n\nA Shader Graph enables you to build your shaders visually.
+      Instead of hand writing code you create and connect nodes in a graph network.
+      \n\nThe Lightweight Render Pipeline (LWRP) is a prebuilt Scriptable Render
+      Pipeline, made by Unity. The technology offers graphics that are scalable to
+      mobile platforms, and you can also use it for higher-end consoles and PCs.
+      You\u2019re able to achieve quick rendering at a high quality without needing
+      compute shader technology. LWRP uses simplified, physically based Lighting
+      and Materials.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/na3a/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/vh85pzT959M/sddefault.jpg
+    - https://i.ytimg.com/vi/vh85pzT959M/mqdefault.jpg
+    - https://i.ytimg.com/vi/vh85pzT959M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/vh85pzT959M/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - unity shader graph tutorial
+    - unity shader graph displacement
+    - unity vertex displacement
+    - unity shader graph vertex
+    - unity vertex shader graph
+    - unity 2019 shader graph
+    - unity shader graph basics
+    - unity shader graph beginner's guide
+    - unity beginner tips
+    - unity beginner guide
+    - unity displacement
+    - unity shader
+    - lightweight render pipeline
+    - unity lwrp
+    - unity lightweight
+    - shader
+    - 3D
+    viewCount: 82062
+    likeCount: 1615
+    dislikeCount: 33
+    commentCount: 96
+    durationInMinutes: 8
+    publishedAtDate: 636856095320000000
+    publisdedDate:
+      year: 2019
+      month: 2
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: Making a Toon Shader with Unity! (Shader Graph tutorial)
+    url: https://www.youtube.com/watch?v=_jTXd3x6gOY
+    channelName: Unity
+    description: 'In this video, we''re using Shader Graph in Unity to make a toon
+      shader with toon ramp, and specular effect.
+
+
+      Check out MinionsArt here:
+      https://ole.unity.com/MinionsArt
+
+      Download the project: https://ole.unity.com/ToonShadingProject'
+    thumbUrls:
+    - https://i.ytimg.com/vi/_jTXd3x6gOY/sddefault.jpg
+    - https://i.ytimg.com/vi/_jTXd3x6gOY/mqdefault.jpg
+    - https://i.ytimg.com/vi/_jTXd3x6gOY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/_jTXd3x6gOY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - unity. tutorial
+    - unity shader graph tutorial
+    - unity toon
+    - unity cartoon
+    - unity cartoons
+    - unity toon shader
+    - unity cartoon shader
+    - unity shader graph toon
+    - unity unlit shader
+    - unity unlit
+    - unity 2019.1
+    - unity 2019
+    - unity beta
+    - unity
+    - unity 2019.3
+    - unity 2019.2
+    - unity tutorial
+    - unity tutorials
+    - unity shader graph tutorial 2019
+    viewCount: 72174
+    likeCount: 1685
+    dislikeCount: 115
+    commentCount: 102
+    durationInMinutes: 6
+    publishedAtDate: 637044542110000000
+    publisdedDate:
+      year: 2019
+      month: 9
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: Making a flag wave with Shader Graph | Unite Now 2020
+    url: https://www.youtube.com/watch?v=pzo4mitkY8k
+    channelName: Unity
+    description: 'In this video, learn how to create a shader to make a flag wave
+      utilizing the Time, Sine, and UV nodes to give the flag a wave effect.
+
+
+      Speaker:
+
+      Andrew
+      Jevsevar
+
+
+      Did you find this video useful? Room for improvement? Let
+      us know: https://on.unity.com/2W0uLZr
+
+
+      Check out the Unite Now page
+      to be among the first to watch upcoming sessions: https://on.unity.com/2ZTQ6Vy'
+    thumbUrls:
+    - https://i.ytimg.com/vi/pzo4mitkY8k/sddefault.jpg
+    - https://i.ytimg.com/vi/pzo4mitkY8k/mqdefault.jpg
+    - https://i.ytimg.com/vi/pzo4mitkY8k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pzo4mitkY8k/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 7217
+    likeCount: 176
+    dislikeCount: 5
+    commentCount: 38
+    durationInMinutes: 52
+    publishedAtDate: 637298726650000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Learn stylized shading with Shader Graph - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=DOLE4nrK97g
+    channelName: Unity
+    description: "Learn how to write a custom lighting shader for a stylized look
+      that can easily be shared across multiple assets. \n\nSpeaker:\nCiro Continisio
+      - Unity\n\nMore about Shader Graph: https://on.unity.com/2oDQCbi\n\nSlides
+      available here: https://www.slideshare.net/unity3d/learn-how-to-do-stylized-shading-with-shader-graph-unite-copenhagen-2019"
+    thumbUrls:
+    - https://i.ytimg.com/vi/DOLE4nrK97g/sddefault.jpg
+    - https://i.ytimg.com/vi/DOLE4nrK97g/mqdefault.jpg
+    - https://i.ytimg.com/vi/DOLE4nrK97g/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DOLE4nrK97g/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - computer graphics
+    viewCount: 24883
+    likeCount: 626
+    dislikeCount: 4
+    commentCount: 21
+    durationInMinutes: 48
+    publishedAtDate: 637054938010000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: HDRP Shader Graph support in 2018.3
+    url: https://www.youtube.com/watch?v=1hgs1zGhiME
+    channelName: Unity
+    description: 'Get this example project and learn more about the new Shader Graph
+      shading tools: https://on.unity.com/2CjqvLl
+
+      In Unity 2018.3, Shader
+      Graph introduces a new Master Node for the High Definition Render Pipeline
+      (HDRP). This new Master Node makes many HDRP advanced shading features, like
+      iridescence, translucency, and subsurface scattering, accessible in Shader
+      Graph!'
+    thumbUrls:
+    - https://i.ytimg.com/vi/1hgs1zGhiME/sddefault.jpg
+    - https://i.ytimg.com/vi/1hgs1zGhiME/mqdefault.jpg
+    - https://i.ytimg.com/vi/1hgs1zGhiME/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1hgs1zGhiME/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 27509
+    likeCount: 278
+    dislikeCount: 29
+    commentCount: 25
+    durationInMinutes: 0
+    publishedAtDate: 636808477100000000
+    publisdedDate:
+      year: 2018
+      month: 12
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: Distortion Shader in Unity 2019 with Shader Graph! (Tutorial)
+    url: https://www.youtube.com/watch?v=atPTr29vXUk
+    channelName: Unity
+    description: "In this video, we are creating a Distortion Shader using Shader
+      Graph in Unity 2019! \n\nDownload the project here: https://ole.unity.com/DistortionShaderProject\n\nShader
+      Graph in Unity 2019 lets you easily create shaders by building them visually
+      and see the results in real time. You create and connect nodes in a network
+      graph instead of having to write code.\n\nYou can do things like:\n\n- Procedurally
+      alter your surface appearance\n- Warp and animate UVs\n- Modify the look of
+      your objects using familiar image adjustment operations\n- Change your object\u2019s
+      surface based on information about it, such as its world location, normals,
+      distance from camera, etc.\n- Quickly tweak a shader\u2019s visuals in the
+      context of a scene using the Material Inspector.\n- Share node networks between
+      multiple graphs and users by creating subgraphs"
+    thumbUrls:
+    - https://i.ytimg.com/vi/atPTr29vXUk/sddefault.jpg
+    - https://i.ytimg.com/vi/atPTr29vXUk/mqdefault.jpg
+    - https://i.ytimg.com/vi/atPTr29vXUk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/atPTr29vXUk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2019
+    - unity shader graph
+    - unity distortion shader
+    - unity distortion shader tutorial
+    - unity 2019 shader graph
+    - unity 2019 distortion shader
+    - unity 2019 tutorial shader
+    - unity shader graph tutorial
+    - unity shader graph toon
+    - unity shader graph outline
+    - unity shader graph distortion
+    - unity distortion effect
+    - unity effect
+    - unity effects
+    - unity hwo to
+    - making a game in unity
+    - make a game unity
+    viewCount: 45557
+    likeCount: 902
+    dislikeCount: 25
+    commentCount: 51
+    durationInMinutes: 5
+    publishedAtDate: 637047000010000000
+    publisdedDate:
+      year: 2019
+      month: 9
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating your own shaders with Shader Graph - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=hfeAUmXJtN8
+    channelName: Unity
+    description: "Production-ready in 2019.1 release, Shader Graph is a node-based
+      visual interface for building shaders. In this talk, Technical Evangelist Liz
+      Mercuri introduces the tool and walks you through creating a simple shader
+      from scratch. \n\nSpeaker: Liz Mercuri (Technical Evangelist, Unity Technologies)\n\nResources
+      to help you get started: \nShader Graph Sample Library \nhttps://on.unity.com/2OZL3Ns\nDocumentation\nhttps://on.unity.com/2Dbc4Jk\nCreate
+      Custom Nodes\nhttps://on.unity.com/2IozoXq\nWhat\u2019s New (2018.3)\nhttps://on.unity.com/2uZxXqg"
+    thumbUrls:
+    - https://i.ytimg.com/vi/hfeAUmXJtN8/sddefault.jpg
+    - https://i.ytimg.com/vi/hfeAUmXJtN8/mqdefault.jpg
+    - https://i.ytimg.com/vi/hfeAUmXJtN8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hfeAUmXJtN8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 15545
+    likeCount: 212
+    dislikeCount: 10
+    commentCount: 9
+    durationInMinutes: 31
+    publishedAtDate: 636905952030000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating Customizations with Shader Graph in Unity! (Tutorial)
+    url: https://www.youtube.com/watch?v=zlg3lP7F9Rg
+    channelName: Unity
+    description: 'In this video, we''re going to take a look at how we can use Shader
+      Graph with the Universal Render Pipeline, URP for short, to create customizations,
+      custom liveries and skins for our vehicles!
+
+
+      Learn more about Shader
+      Graph here!
+
+      https://on.unity.com/39UeURR
+
+
+      Download the Boat Attack
+      demo!
+
+      https://on.unity.com/39SF7QM'
+    thumbUrls:
+    - https://i.ytimg.com/vi/zlg3lP7F9Rg/sddefault.jpg
+    - https://i.ytimg.com/vi/zlg3lP7F9Rg/mqdefault.jpg
+    - https://i.ytimg.com/vi/zlg3lP7F9Rg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/zlg3lP7F9Rg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity urp
+    - unity universal render pipeline
+    - unity universal render pipeline tutorial
+    - unity urp tutorial
+    - unity gamedev
+    - unity indiedev
+    - unity urp tutorials
+    - unity masking in urp
+    - unity mask in urp
+    - unity mask
+    - unity3d
+    - unity game development
+    - unity universal render
+    - unity urp setup
+    - unity urp skin
+    - unity skins
+    - unity create skins
+    - unity game skins
+    - unity liveries
+    - unity customization
+    viewCount: 16288
+    likeCount: 849
+    dislikeCount: 4
+    commentCount: 62
+    durationInMinutes: 4
+    publishedAtDate: 637321887410000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Best practices for Shader Graph - Unite LA
+    url: https://www.youtube.com/watch?v=Y6WfgFI5H90
+    channelName: Unity
+    description: 'Shader Graph lets you create beautiful shaders visually, with a
+      node-based workflow. This talk covers what happens under the hood, shares tips
+      to avoid common pitfalls, and highlights what to look for as Shader Graph readies
+      for prime-time release in the near future. More information: https://on.unity.com/2QLV5Fg
+
+
+      Speaker:
+
+      Charles
+      Sanglimsuwan (Unity Technologies)
+
+
+      Slides:
+
+      https://www.slideshare.net/unity3d/best-practices-for-shader-graph
+
+
+      Help
+      us caption & translate this video!
+
+
+      https://amara.org/v/oLFs/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Y6WfgFI5H90/sddefault.jpg
+    - https://i.ytimg.com/vi/Y6WfgFI5H90/mqdefault.jpg
+    - https://i.ytimg.com/vi/Y6WfgFI5H90/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Y6WfgFI5H90/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 32979
+    likeCount: 631
+    dislikeCount: 13
+    commentCount: 25
+    durationInMinutes: 45
+    publishedAtDate: 636800681540000000
+    publisdedDate:
+      year: 2018
+      month: 12
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Adding Juice with Shader Graph in Unity 2019! (Tutorial)
+    url: https://www.youtube.com/watch?v=tO1E3eDVi8Y
+    channelName: Unity
+    description: 'In this video we will look at creating an interactive shader effects
+      which allows us to both shake and dissolve a mesh. We''ll also review some
+      best practices for authoring shaders using sub-graphs on Universal Render Pipeline
+      in Unity 2019.2. Download the source and follow along here: https://ole.unity.com/interactiveshaders
+
+
+
+      For
+      an in depth look at this subject, check out Ciro Continisio''s talks from Unite
+      Copenhagen 2019:
+
+
+      What''s new in Shader Graph - Unite Copenhagen
+
+      https://www.youtube.com/watch?v=L6mU2rkT5To
+
+
+      Find
+      more great Shader Graph tutorials here on Unity''s official learning platform:
+      https://learn.unity.com/project/make-a-flag-move-with-shadergraph.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/tO1E3eDVi8Y/sddefault.jpg
+    - https://i.ytimg.com/vi/tO1E3eDVi8Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/tO1E3eDVi8Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/tO1E3eDVi8Y/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - unity shader graph tutorial
+    - unity shaders
+    - unity basic shaders
+    - unity shader basics
+    - unity shader tutorial
+    - unity shader graph 2019
+    - unity 2019 shader graph
+    - shader graph unity
+    - shader graph unity 2019
+    - unity 2019.3 shader graph
+    - unity make shaders
+    - learn unity
+    - learn unity shaders
+    - unity learn
+    - learn unity free
+    - gamedev
+    - indiedev
+    - unity 2019 tutorial
+    viewCount: 29884
+    likeCount: 647
+    dislikeCount: 31
+    commentCount: 33
+    durationInMinutes: 6
+    publishedAtDate: 637101468050000000
+    publisdedDate:
+      year: 2019
+      month: 11
+      day: 23
+    YouTubeDataAPI_Cooked: 1

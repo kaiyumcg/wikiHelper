@@ -1,0 +1,1845 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
+  m_Name: Shaders_vData_
+  m_EditorClassIdentifier: 
+  searchName: UnityChannel
+  belongedCategory: Shaders
+  allVideos:
+  - title: Writing Your First Shader In Unity - The Vertex Function [4/8] Live 2017/6/21
+    url: https://www.youtube.com/watch?v=Zxrt0YWevFA
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/vertex-function
+
+
+
+      In
+      this live training session we will learn the fundamentals of authoring shaders
+      for Unity and you will learn how to write your very first shader. In this episode
+      we will explain the purpose of the vertex function in an Unlit shader.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Zxrt0YWevFA/sddefault.jpg
+    - https://i.ytimg.com/vi/Zxrt0YWevFA/mqdefault.jpg
+    - https://i.ytimg.com/vi/Zxrt0YWevFA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Zxrt0YWevFA/hqdefault.jpg
+    tags:
+    - unity3d
+    - tutorial
+    - live training
+    - shader
+    - graphics
+    - rendering
+    - vertex
+    - fragment
+    - pass
+    - subshader
+    - unity
+    - shader tutorial
+    viewCount: 23085
+    likeCount: 198
+    dislikeCount: 4
+    commentCount: 4
+    durationInMinutes: 7
+    publishedAtDate: 636342125300000000
+    publisdedDate:
+      year: 2017
+      month: 6
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Writing Your First Shader In Unity - The Fragment Function and Color Tint
+      [5/8] Live 2017/6/21
+    url: https://www.youtube.com/watch?v=IEK2YrmmAog
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/fragment-function-and-color-tint
+
+
+      In
+      this live training session we will learn the fundamentals of authoring shaders
+      for Unity and you will learn how to write your very first shader. In this episode
+      we will explain the purpose of the fragment function in an Unlit shader and
+      add a property to tint the color of our object.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/IEK2YrmmAog/sddefault.jpg
+    - https://i.ytimg.com/vi/IEK2YrmmAog/mqdefault.jpg
+    - https://i.ytimg.com/vi/IEK2YrmmAog/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IEK2YrmmAog/hqdefault.jpg
+    tags:
+    - unity3d
+    - tutorial
+    - live training
+    - shader
+    - graphics
+    - rendering
+    - vertex
+    - fragment
+    - pass
+    - subshader
+    - unity
+    - shader tutorial
+    viewCount: 21099
+    likeCount: 166
+    dislikeCount: 2
+    commentCount: 3
+    durationInMinutes: 6
+    publishedAtDate: 636342125290000000
+    publisdedDate:
+      year: 2017
+      month: 6
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Writing Your First Shader In Unity - Session Introduction [1/8] Live 2017/6/21
+    url: https://www.youtube.com/watch?v=zCkC5e_Pkz4
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/session-introduction
+
+
+      In
+      this live training session we will learn the fundamentals of authoring shaders
+      for Unity and you will learn how to write your very first shader. No prior
+      knowledge of authoring shaders is required. In this first episode we will introduce
+      our project and goals.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/zCkC5e_Pkz4/sddefault.jpg
+    - https://i.ytimg.com/vi/zCkC5e_Pkz4/mqdefault.jpg
+    - https://i.ytimg.com/vi/zCkC5e_Pkz4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/zCkC5e_Pkz4/hqdefault.jpg
+    tags:
+    - unity3d
+    - tutorial
+    - live training
+    - shader
+    - graphics
+    - rendering
+    - vertex
+    - fragment
+    - pass
+    - subshader
+    - unity
+    - shader tutorial
+    viewCount: 90110
+    likeCount: 664
+    dislikeCount: 38
+    commentCount: 28
+    durationInMinutes: 1
+    publishedAtDate: 636342125310000000
+    publisdedDate:
+      year: 2017
+      month: 6
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Writing Your First Shader In Unity - Rendering In Unity [2/8] Live 2017/6/21
+    url: https://www.youtube.com/watch?v=ZNvEM76Zi-c
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/rendering-unity
+
+
+      In
+      this live training session we will learn the fundamentals of authoring shaders
+      for Unity and you will learn how to write your very first shader. In this episode
+      we will give a brief overview of the rendering process in Unity.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZNvEM76Zi-c/sddefault.jpg
+    - https://i.ytimg.com/vi/ZNvEM76Zi-c/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZNvEM76Zi-c/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZNvEM76Zi-c/hqdefault.jpg
+    tags:
+    - unity3d
+    - tutorial
+    - live training
+    - shader
+    - graphics
+    - rendering
+    - vertex
+    - fragment
+    - pass
+    - subshader
+    - unity
+    - shader tutorial
+    viewCount: 54314
+    likeCount: 413
+    dislikeCount: 12
+    commentCount: 13
+    durationInMinutes: 9
+    publishedAtDate: 636342125300000000
+    publisdedDate:
+      year: 2017
+      month: 6
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Writing Your First Shader In Unity - Questions and Answers [8/8] Live
+      2017/6/21
+    url: https://www.youtube.com/watch?v=1mWrX0YRtRM
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/questions-and-answers-0
+
+
+      In
+      this live training session we will learn the fundamentals of authoring shaders
+      for Unity and you will learn how to write your very first shader. In this episode
+      we will answer questions from the live stream chat.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/1mWrX0YRtRM/sddefault.jpg
+    - https://i.ytimg.com/vi/1mWrX0YRtRM/mqdefault.jpg
+    - https://i.ytimg.com/vi/1mWrX0YRtRM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1mWrX0YRtRM/hqdefault.jpg
+    tags:
+    - unity3d
+    - tutorial
+    - live training
+    - shader
+    - graphics
+    - rendering
+    - vertex
+    - fragment
+    - pass
+    - subshader
+    - unity
+    - shader tutorial
+    viewCount: 9577
+    likeCount: 134
+    dislikeCount: 2
+    commentCount: 15
+    durationInMinutes: 2
+    publishedAtDate: 636342125280000000
+    publisdedDate:
+      year: 2017
+      month: 6
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Writing Your First Shader In Unity - Displacing Vertices and Clipping
+      Pixels [7/8] Live 2017/6/21
+    url: https://www.youtube.com/watch?v=csyrUnGA7ZU
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/displacing-vertices-and-clipping-pixels
+
+
+      In
+      this live training session we will learn the fundamentals of authoring shaders
+      for Unity and you will learn how to write your very first shader. In this episode
+      we will learn how to discard certain pixels in the vertex function for a cutout
+      effect and move our vertices in the vertex function to create rippling displacement
+      effects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/csyrUnGA7ZU/sddefault.jpg
+    - https://i.ytimg.com/vi/csyrUnGA7ZU/mqdefault.jpg
+    - https://i.ytimg.com/vi/csyrUnGA7ZU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/csyrUnGA7ZU/hqdefault.jpg
+    tags:
+    - unity3d
+    - tutorial
+    - live training
+    - shader
+    - graphics
+    - rendering
+    - vertex
+    - fragment
+    - pass
+    - subshader
+    - unity
+    - shader tutorial
+    viewCount: 24328
+    likeCount: 324
+    dislikeCount: 2
+    commentCount: 32
+    durationInMinutes: 11
+    publishedAtDate: 636342125290000000
+    publisdedDate:
+      year: 2017
+      month: 6
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Writing Your First Shader In Unity - Anatomy Of An Unlit Shader [3/8]
+      Live 2017/6/21
+    url: https://www.youtube.com/watch?v=Tr9PLpj7Kzc
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/anatomy-unlit-shader
+
+
+      In
+      this live training session we will learn the fundamentals of authoring shaders
+      for Unity and you will learn how to write your very first shader. In this episode
+      we will learn the basic structure of an unlit shader and how it works.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Tr9PLpj7Kzc/sddefault.jpg
+    - https://i.ytimg.com/vi/Tr9PLpj7Kzc/mqdefault.jpg
+    - https://i.ytimg.com/vi/Tr9PLpj7Kzc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Tr9PLpj7Kzc/hqdefault.jpg
+    tags:
+    - unity3d
+    - tutorial
+    - live training
+    - shader
+    - graphics
+    - rendering
+    - vertex
+    - fragment
+    - pass
+    - subshader
+    - unity
+    - shader tutorial
+    viewCount: 34051
+    likeCount: 298
+    dislikeCount: 8
+    commentCount: 11
+    durationInMinutes: 8
+    publishedAtDate: 636342125300000000
+    publisdedDate:
+      year: 2017
+      month: 6
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: What's new in Shader Graph - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=L6mU2rkT5To
+    channelName: Unity
+    description: 'Learn about the state of Shader Graph. This presentation will outline
+      the new features and recommended workflows that enable you to easily author
+      shaders by building them visually and see the results in real-time.
+
+
+      Speaker:
+
+      Ciro
+      Continisio - Unity
+
+
+      Slides available here: https://www.slideshare.net/unity3d/whats-new-in-shader-graph-ready-for-production-unite-copenhagen-2019
+
+      More
+      about Shader Graph: https://on.unity.com/2oGJLhj'
+    thumbUrls:
+    - https://i.ytimg.com/vi/L6mU2rkT5To/sddefault.jpg
+    - https://i.ytimg.com/vi/L6mU2rkT5To/mqdefault.jpg
+    - https://i.ytimg.com/vi/L6mU2rkT5To/maxresdefault.jpg
+    - https://i.ytimg.com/vi/L6mU2rkT5To/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 6695
+    likeCount: 122
+    dislikeCount: 0
+    commentCount: 9
+    durationInMinutes: 36
+    publishedAtDate: 637054938010000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Shader Graph Introduction
+    url: https://www.youtube.com/watch?v=NsWNRLD-FEI
+    channelName: Unity
+    description: "March 21, 10:45am (San Francisco) - Andy Touch demonstrates how
+      you can easily create shaders using the graph framework. Shader Graph enables
+      you to build your shaders visually. Instead of writing code, you create and
+      connect nodes in a graph network. \n\nSpeaker:\nAndy Touch, Global Content
+      Evangelist at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/NsWNRLD-FEI/mqdefault.jpg
+    - https://i.ytimg.com/vi/NsWNRLD-FEI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 75809
+    likeCount: 1111
+    dislikeCount: 23
+    commentCount: 74
+    durationInMinutes: 65
+    publishedAtDate: 636578813520000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - High definition render pipeline, shader graph, GPU-based
+      progressive lightmapper
+    url: https://www.youtube.com/watch?v=nOpx2xuMSFY
+    channelName: Unity
+    description: "March 19, 2018 (San Francisco) - Lucas Meijer (Technical Director)
+      and Natalya Tatarchuk (Director of Graphics) dive into how Book of the Dead
+      was created, using High Definition Render Pipeline (HD RP) and shader graph,
+      photogrammetry, and more. They show a Book of the Dead demo level running at
+      30fps on the PlayStation 4 Pro console. Additionally, Natalya and Lucas show
+      off Unity's GPU-based progressive lightmapper. \n\nTo learn more about upcoming
+      graphical improvements: https://blogs.unity3d.com/2018/03/20/unity-unveils-2018-roadmap-at-gdc/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/nOpx2xuMSFY/sddefault.jpg
+    - https://i.ytimg.com/vi/nOpx2xuMSFY/mqdefault.jpg
+    - https://i.ytimg.com/vi/nOpx2xuMSFY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/nOpx2xuMSFY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 47846
+    likeCount: 805
+    dislikeCount: 11
+    commentCount: 42
+    durationInMinutes: 26
+    publishedAtDate: 636583243260000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 5 Graphics - The Standard Shader - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=fD_ho_ofY6A
+    channelName: Unity
+    description: 'An overview of the new Physically-based ''Standard Shader''.
+
+
+      Watch
+      this tutorial in context on the official Learn site -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/5-pre-order-beta/standard-shader
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/HLm7/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/fD_ho_ofY6A/sddefault.jpg
+    - https://i.ytimg.com/vi/fD_ho_ofY6A/mqdefault.jpg
+    - https://i.ytimg.com/vi/fD_ho_ofY6A/maxresdefault.jpg
+    - https://i.ytimg.com/vi/fD_ho_ofY6A/hqdefault.jpg
+    tags:
+    - PBS
+    - Shader
+    - shading
+    - PBR
+    - Physically Based shading
+    - Standard Shader
+    - ubershader
+    - Unity
+    - Unity3d
+    - software
+    - Unity 5
+    - tutorial
+    viewCount: 214664
+    likeCount: 1982
+    dislikeCount: 46
+    commentCount: 82
+    durationInMinutes: 13
+    publishedAtDate: 635618732810000000
+    publisdedDate:
+      year: 2015
+      month: 3
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2016 - A Crash Course to Writing Custom Unity Shaders!
+    url: https://www.youtube.com/watch?v=3penhrrKCYg
+    channelName: Unity
+    description: 'Shader programming has always been seen as a scary and intimidating
+      dark magic; learning it can feel like tumbling down a never-ending rabbit hole.
+      Fear not! Andy Touch (Unity Technologies) gives a hand''s-on, in-Editor, crash-course
+      guide on how to write your own custom shaders in the Unity Game Engine, to
+      achieve interesting effects, unique visuals and show how powerful, flexible
+      and easy they can be to create! This talk is aimed at those who are familiar
+      with the Unity Engine, but haven''t properly begun to learn this topic.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6Zq/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/3penhrrKCYg/sddefault.jpg
+    - https://i.ytimg.com/vi/3penhrrKCYg/mqdefault.jpg
+    - https://i.ytimg.com/vi/3penhrrKCYg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/3penhrrKCYg/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unite Europe 2016
+    viewCount: 89898
+    likeCount: 1824
+    dislikeCount: 47
+    commentCount: 108
+    durationInMinutes: 58
+    publishedAtDate: 636027496870000000
+    publisdedDate:
+      year: 2016
+      month: 6
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Using Shader Graph to Create Shaders Without Code
+    url: https://www.youtube.com/watch?v=0Qz1FwyveUo
+    channelName: Unity
+    description: 'Learn about how the new Shader Graph makes it easy to build shaders
+      without having to hand-write code simply by connecting nodes in a graph network.
+
+
+      Speakers:
+
+      Andy
+      Touch (Unity Technologies)
+
+
+      https://unite.unity.com/2018/berlin'
+    thumbUrls:
+    - https://i.ytimg.com/vi/0Qz1FwyveUo/sddefault.jpg
+    - https://i.ytimg.com/vi/0Qz1FwyveUo/mqdefault.jpg
+    - https://i.ytimg.com/vi/0Qz1FwyveUo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0Qz1FwyveUo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Shader Graph
+    - Shader
+    - Shaders
+    - Graph Network
+    - Materials
+    viewCount: 17450
+    likeCount: 372
+    dislikeCount: 4
+    commentCount: 8
+    durationInMinutes: 46
+    publishedAtDate: 636691608000000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite Austin 2017 - The Asset Store: Accelerate your Development & Earn
+      Income'
+    url: https://www.youtube.com/watch?v=YXm60mYQCdI
+    channelName: Unity
+    description: "The Asset Store is your #1 partner. Used by thousands of indie
+      developers as well as large studios, the tools the store has available will
+      help you get your projects delivered faster, with fewer problems, than doing
+      it yourself. Learn how the Asset Store makes programming, world building, and
+      shader customization easy. Learn how you can sell content and tools you create
+      on the Asset Store for additional income to finance your projects. \n\nAndrew
+      Slater (Lead Asset Store Merchandiser, Unity Technologies)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/YXm60mYQCdI/sddefault.jpg
+    - https://i.ytimg.com/vi/YXm60mYQCdI/mqdefault.jpg
+    - https://i.ytimg.com/vi/YXm60mYQCdI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/YXm60mYQCdI/hqdefault.jpg
+    tags: []
+    viewCount: 5903
+    likeCount: 73
+    dislikeCount: 3
+    commentCount: 6
+    durationInMinutes: 23
+    publishedAtDate: 636462828060000000
+    publisdedDate:
+      year: 2017
+      month: 11
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite Austin 2017 - OctaneRender for Unity: Real-time Cinematic Raytracing'
+    url: https://www.youtube.com/watch?v=XumHObY8lJc
+    channelName: Unity
+    description: "Join OTOY Co-Founder and CEO Jules Urbach as he walks through all
+      the latest features of Octane for Unity 2017.2 and beyond. Jules will do a
+      deep dive on key new features such as GPU light mapping and game mode support,
+      and provide insight into exciting future additions like Open Shader Language
+      and light field baking and streaming. \n\nOctaneRender for Unity is now available
+      in paid tiers that unlock access to multiple GPUs and Octane's rich ecosystem
+      of plugins to software like C4D, Houdini, and Nuke. OctaneRender Cloud is also
+      now available for users looking to harness the power of cloud rendering directly
+      from Unity. \n\nTake advantage of this unique moment to get a glimpse of the
+      future, and learn more about what you can do today! \n\nhttps://unity.otoy.com/\n\nJules
+      Urbach (Co-Founder and CEO, OTOY, Inc.)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/XumHObY8lJc/sddefault.jpg
+    - https://i.ytimg.com/vi/XumHObY8lJc/mqdefault.jpg
+    - https://i.ytimg.com/vi/XumHObY8lJc/hqdefault.jpg
+    tags: []
+    viewCount: 23758
+    likeCount: 310
+    dislikeCount: 6
+    commentCount: 16
+    durationInMinutes: 33
+    publishedAtDate: 636447427320000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite 2016 - The Quest to do Nothing: Automating Tools Development'
+    url: https://www.youtube.com/watch?v=DWY9jN9_TTI
+    channelName: Unity
+    description: This talk focuses on one Technical Artist's quest to automate himself
+      out of a job. From a more extendable version of the Standard Shader to a robust
+      and future-proof asset processor, the team at Schell Games has built tools
+      that are used across several simultaneous projects, ranging from Mobile to
+      VR. Joseph Pasek - Schell Games
+    thumbUrls:
+    - https://i.ytimg.com/vi/DWY9jN9_TTI/sddefault.jpg
+    - https://i.ytimg.com/vi/DWY9jN9_TTI/mqdefault.jpg
+    - https://i.ytimg.com/vi/DWY9jN9_TTI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DWY9jN9_TTI/hqdefault.jpg
+    tags:
+    - Technical Artist
+    - Game Development
+    - Unity (Software)
+    - Game Development Tools
+    - Unite 16
+    - Unite LA
+    - Unite 2016 Los Angeles
+    viewCount: 2329
+    likeCount: 44
+    dislikeCount: 5
+    commentCount: 6
+    durationInMinutes: 20
+    publishedAtDate: 636162236650000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 - Shader Forge
+    url: https://www.youtube.com/watch?v=WMHpBpjWUlY
+    channelName: Unity
+    description: 'Joachim Holmer (Neat Corporation) talks about his award winning
+      Unity plugin, Shader Forge, which allows artists with no coding expertise to
+      create beautiful shaders. More about Shader Forge: https://www.assetstore.unity3d.com/en/#!/content/14147
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V662/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/WMHpBpjWUlY/sddefault.jpg
+    - https://i.ytimg.com/vi/WMHpBpjWUlY/mqdefault.jpg
+    - https://i.ytimg.com/vi/WMHpBpjWUlY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WMHpBpjWUlY/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Shader Forge
+    - Computer Graphics (Field Of Study)
+    - Asset Store
+    - Unite 2014 Seattle
+    viewCount: 68210
+    likeCount: 430
+    dislikeCount: 9
+    commentCount: 43
+    durationInMinutes: 51
+    publishedAtDate: 635447453110000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: The benefits of running simulations in the cloud - Unite Copenhagen 2019
+    url: https://www.youtube.com/watch?v=JWbXDpPErkE
+    channelName: Unity
+    description: 'This session from Unite Copenhagen, presented in partnership with
+      Google Cloud, focuses on the advantages of using cloud services for running
+      simulations and other machine-learning training-related jobs that call for
+      huge workloads. Many companies that are involved in simulation push the compute
+      workload onto their on-premise infrastructure but this requires tremendous
+      resources. Heavy-duty cloud resources are a powerful, scalable and on-demand
+      alternative. Cloud provides an a-la-carte solution where compute workloads
+      are profiled and deployed into an optimal specialized hardware solution that
+      is tailored for the workload. It also provides a unique opportunity for the
+      most innovative companies to step up their game.
+
+
+      Speakers: Moe Sy -
+      Google, Steven Kehrli - Unity
+
+
+      Slides available here: https://www.slideshare.net/unity3d/the-benefits-of-running-simulations-in-the-cloud-vs-onpremise-unite-copenhagen-2019-185010710'
+    thumbUrls:
+    - https://i.ytimg.com/vi/JWbXDpPErkE/sddefault.jpg
+    - https://i.ytimg.com/vi/JWbXDpPErkE/mqdefault.jpg
+    - https://i.ytimg.com/vi/JWbXDpPErkE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/JWbXDpPErkE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Simulations
+    - Cloud
+    - Unite Copenhagen
+    viewCount: 510
+    likeCount: 4
+    dislikeCount: 3
+    commentCount: 2
+    durationInMinutes: 18
+    publishedAtDate: 637068708020000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Siggraph 2018 - Create Stunning Visuals: A New Workflow for Artists'
+    url: https://www.youtube.com/watch?v=ebMTrUoB2VU
+    channelName: Unity
+    description: "Get practical tips you can use now on FBX Exporter, Shader Graph,
+      and Post Processing Effects, and find out how to keep the learning going\u2014for
+      yourself or your school, studio, or enterprise.\n\nSpeaker:\nLiz Mercuri (Technical
+      Evangelist, Unity Technologies)\n\nhttps://unity3d.com/siggraph2018"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ebMTrUoB2VU/sddefault.jpg
+    - https://i.ytimg.com/vi/ebMTrUoB2VU/mqdefault.jpg
+    - https://i.ytimg.com/vi/ebMTrUoB2VU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ebMTrUoB2VU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 9262
+    likeCount: 228
+    dislikeCount: 13
+    commentCount: 35
+    durationInMinutes: 38
+    publishedAtDate: 636735132030000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Shader Graph Tutorial - Shader Graph Example Project [8/8] Live 2018/3/07
+    url: https://www.youtube.com/watch?v=wqmKZHD1f0g
+    channelName: Unity
+    description: unity shader graph, shader, shader graph, how to use unity shader
+      graph, shader graph tutorial, shader graph 2018, shader graph unity free, unity
+      shader tutorial, unity shadergraph, shadergraph, 2018.1, 2018, live session,
+      shadergraph tutorial, light weight pipeline, lightweight srp, srp, scriptable
+      render pipeline
+    thumbUrls:
+    - https://i.ytimg.com/vi/wqmKZHD1f0g/sddefault.jpg
+    - https://i.ytimg.com/vi/wqmKZHD1f0g/mqdefault.jpg
+    - https://i.ytimg.com/vi/wqmKZHD1f0g/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wqmKZHD1f0g/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - shader
+    - shader graph
+    - how to use unity shader graph
+    - shader graph tutorial
+    - shader graph 2018
+    - shader graph unity free
+    - unity shader tutorial
+    - unity shadergraph
+    - shadergraph
+    - 2018.1
+    - 2018
+    - live session
+    - shadergraph tutorial
+    - light weight pipeline
+    - lightweight srp
+    - srp
+    - scriptable render pipeline
+    - fresnel shader
+    - rim light
+    - dissolve shader
+    viewCount: 11860
+    likeCount: 196
+    dislikeCount: 3
+    commentCount: 14
+    durationInMinutes: 4
+    publishedAtDate: 636575437050000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Shader Graph Tutorial - Dissolving In View Space [7/8] Live 2018/3/07
+    url: https://www.youtube.com/watch?v=TayHOX5M4EI
+    channelName: Unity
+    description: unity shader graph, shader, shader graph, how to use unity shader
+      graph, shader graph tutorial, shader graph 2018, shader graph unity free, unity
+      shader tutorial, unity shadergraph, shadergraph, 2018.1, 2018, live session,
+      shadergraph tutorial, light weight pipeline, lightweight srp, srp, scriptable
+      render pipeline
+    thumbUrls:
+    - https://i.ytimg.com/vi/TayHOX5M4EI/sddefault.jpg
+    - https://i.ytimg.com/vi/TayHOX5M4EI/mqdefault.jpg
+    - https://i.ytimg.com/vi/TayHOX5M4EI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TayHOX5M4EI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - shader
+    - shader graph
+    - how to use unity shader graph
+    - shader graph tutorial
+    - shader graph 2018
+    - shader graph unity free
+    - unity shader tutorial
+    - unity shadergraph
+    - shadergraph
+    - 2018.1
+    - 2018
+    - live session
+    - shadergraph tutorial
+    - light weight pipeline
+    - lightweight srp
+    - srp
+    - scriptable render pipeline
+    - fresnel shader
+    - rim light
+    - dissolve shader
+    - view space
+    - world space
+    viewCount: 12971
+    likeCount: 95
+    dislikeCount: 4
+    commentCount: 8
+    durationInMinutes: 3
+    publishedAtDate: 636575437060000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Shader Graph Tutorial - Creating A Dissolve Shader With Noise [6/8] Live
+      2018/3/07
+    url: https://www.youtube.com/watch?v=BcdXkQ3oq7o
+    channelName: Unity
+    description: unity shader graph, shader, shader graph, how to use unity shader
+      graph, shader graph tutorial, shader graph 2018, shader graph unity free, unity
+      shader tutorial, unity shadergraph, shadergraph, 2018.1, 2018, live session,
+      shadergraph tutorial, light weight pipeline, lightweight srp, srp, scriptable
+      render pipeline
+    thumbUrls:
+    - https://i.ytimg.com/vi/BcdXkQ3oq7o/sddefault.jpg
+    - https://i.ytimg.com/vi/BcdXkQ3oq7o/mqdefault.jpg
+    - https://i.ytimg.com/vi/BcdXkQ3oq7o/maxresdefault.jpg
+    - https://i.ytimg.com/vi/BcdXkQ3oq7o/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - shader
+    - shader graph
+    - how to use unity shader graph
+    - shader graph tutorial
+    - shader graph 2018
+    - shader graph unity free
+    - unity shader tutorial
+    - unity shadergraph
+    - shadergraph
+    - 2018.1
+    - 2018
+    - live session
+    - shadergraph tutorial
+    - light weight pipeline
+    - lightweight srp
+    - srp
+    - scriptable render pipeline
+    - fresnel shader
+    - rim light
+    - dissolve shader
+    viewCount: 22536
+    likeCount: 145
+    dislikeCount: 4
+    commentCount: 10
+    durationInMinutes: 6
+    publishedAtDate: 636575437050000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Shader Graph Tutorial - Creating a Colored Glow Shader [4/8] Live 2018/3/07
+    url: https://www.youtube.com/watch?v=qTYOWRWuBQg
+    channelName: Unity
+    description: unity shader graph, shader, shader graph, how to use unity shader
+      graph, shader graph tutorial, shader graph 2018, shader graph unity free, unity
+      shader tutorial, unity shadergraph, shadergraph, 2018.1, 2018, live session,
+      shadergraph tutorial, light weight pipeline, lightweight srp, srp, scriptable
+      render pipeline
+    thumbUrls:
+    - https://i.ytimg.com/vi/qTYOWRWuBQg/sddefault.jpg
+    - https://i.ytimg.com/vi/qTYOWRWuBQg/mqdefault.jpg
+    - https://i.ytimg.com/vi/qTYOWRWuBQg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/qTYOWRWuBQg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - shader
+    - shader graph
+    - how to use unity shader graph
+    - shader graph tutorial
+    - shader graph 2018
+    - shader graph unity free
+    - unity shader tutorial
+    - unity shadergraph
+    - shadergraph
+    - 2018.1
+    - 2018
+    - live session
+    - shadergraph tutorial
+    - light weight pipeline
+    - lightweight srp
+    - srp
+    - scriptable render pipeline
+    - fresnel shader
+    - rim light
+    - dissolve shader
+    viewCount: 39381
+    likeCount: 139
+    dislikeCount: 24
+    commentCount: 13
+    durationInMinutes: 5
+    publishedAtDate: 636575437050000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Shader Graph Tutorial - Adding Albedo Texture [5/8] Live 2018/3/07
+    url: https://www.youtube.com/watch?v=d7Vd5oXEJtU
+    channelName: Unity
+    description: unity shader graph, shader, shader graph, how to use unity shader
+      graph, shader graph tutorial, shader graph 2018, shader graph unity free, unity
+      shader tutorial, unity shadergraph, shadergraph, 2018.1, 2018, live session,
+      shadergraph tutorial, light weight pipeline, lightweight srp, srp, scriptable
+      render pipeline
+    thumbUrls:
+    - https://i.ytimg.com/vi/d7Vd5oXEJtU/sddefault.jpg
+    - https://i.ytimg.com/vi/d7Vd5oXEJtU/mqdefault.jpg
+    - https://i.ytimg.com/vi/d7Vd5oXEJtU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/d7Vd5oXEJtU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - shader
+    - shader graph
+    - how to use unity shader graph
+    - shader graph tutorial
+    - shader graph 2018
+    - shader graph unity free
+    - unity shader tutorial
+    - unity shadergraph
+    - shadergraph
+    - 2018.1
+    - 2018
+    - live session
+    - shadergraph tutorial
+    - light weight pipeline
+    - lightweight srp
+    - srp
+    - scriptable render pipeline
+    - fresnel shader
+    - rim light
+    - dissolve shader
+    - albedo
+    - texture
+    - albedo texture
+    viewCount: 23378
+    likeCount: 125
+    dislikeCount: 8
+    commentCount: 3
+    durationInMinutes: 6
+    publishedAtDate: 636575437050000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Noise and Textures in Shader Graph! | 2D Shader Basics
+    url: https://www.youtube.com/watch?v=p8H8ZdL_7eA
+    channelName: Unity
+    description: "In this video we\u2019re going to look at some of the more complex
+      procedures we can perform in Shader Graph and how we can use noise and textures
+      to perform and influence different operations within our shaders.\n\nCheck
+      out the other 2D Shader Basics Videos in this Playlist!\nhttps://on.unity.com/2YmhRWQ\n\nClick
+      here if you want to download the Lost Crypt Assets!\nhttps://on.unity.com/32dMMFT\n\nYou
+      can find more information about Shader Graph here!\nhttps://on.unity.com/32gYsYu"
+    thumbUrls:
+    - https://i.ytimg.com/vi/p8H8ZdL_7eA/sddefault.jpg
+    - https://i.ytimg.com/vi/p8H8ZdL_7eA/mqdefault.jpg
+    - https://i.ytimg.com/vi/p8H8ZdL_7eA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/p8H8ZdL_7eA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2019
+    - unity shader graph
+    - unity distortion shader
+    - unity distortion shader tutorial
+    - unity 2019 shader graph
+    - unity shader graph tutorial
+    - unity shader graph toon
+    - unity shader graph outline
+    - unity shader graph distortion
+    - unity distortion effect
+    - unity effect
+    - unity effects
+    - unity hwo to
+    - making a game in unity
+    - make a game unity
+    - shadergraph
+    viewCount: 14897
+    likeCount: 618
+    dislikeCount: 5
+    commentCount: 30
+    durationInMinutes: 8
+    publishedAtDate: 637336494040000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Making Portals with Shader Graph in Unity! (Tutorial)
+    url: https://www.youtube.com/watch?v=TkzASwVgnj8
+    channelName: Unity
+    description: 'Learn how to create a portal effect in Unity''s Lightweight Render
+      Pipeline and Shader Graph.
+
+      Download the free sample project here: https://ole.unity.com/lightweightportals'
+    thumbUrls:
+    - https://i.ytimg.com/vi/TkzASwVgnj8/sddefault.jpg
+    - https://i.ytimg.com/vi/TkzASwVgnj8/mqdefault.jpg
+    - https://i.ytimg.com/vi/TkzASwVgnj8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TkzASwVgnj8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity portal tutorial
+    - unity portals
+    - unity portal
+    - unity portal effect
+    - unity teleport
+    - unity teleport effect
+    - unity teleporting
+    - unity teleport tutorial
+    - unity tteleports
+    - unity portals tutorial
+    - unity easy
+    - unity tutorial
+    - unity 2019
+    - game dev
+    - game engine
+    - unity shader graph
+    - unity shader tutorial
+    - unity teleport to another scene
+    - shader graph
+    - tutorial
+    viewCount: 60205
+    likeCount: 2123
+    dislikeCount: 38
+    commentCount: 150
+    durationInMinutes: 3
+    publishedAtDate: 636970734310000000
+    publisdedDate:
+      year: 2019
+      month: 6
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Making a Water Shader in Unity with URP! (Tutorial)
+    url: https://www.youtube.com/watch?v=gRq-IdShxpU
+    channelName: Unity
+    description: "In this video, we'll take a look at how we can use the Shader Graph
+      feature in Universal Render Pipeline, or URP for short, with Unity to create
+      a water shader! The water shader can be simple or complex, and include the
+      features you desire. Let your imagination get wild in this tutorial, or simply
+      follow step-by-step to get about the same results! \n\nDid you know that there
+      is a fuller and more complex water shader in the Boat Attack demo used in this
+      video? Check out this link to find out more! \U0001F447\nhttps://on.unity.com/2O2GbYl\n\nLearn
+      more about Universal Render Pipeline here! \U0001F447\nhttps://on.unity.com/2BOctDN"
+    thumbUrls:
+    - https://i.ytimg.com/vi/gRq-IdShxpU/sddefault.jpg
+    - https://i.ytimg.com/vi/gRq-IdShxpU/mqdefault.jpg
+    - https://i.ytimg.com/vi/gRq-IdShxpU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gRq-IdShxpU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity tutorial
+    - unity tutorials
+    - unity water
+    - unity water tutorial
+    - unity water shader
+    - unity tutorial water
+    - unity how to make water
+    - unity realistic water
+    - unity low poly water
+    - unity stylized water
+    - unity graphics
+    - unity urp
+    - urp
+    - universal render
+    - gamedev
+    - game dev
+    - unity game development
+    - unity 3d water
+    - unity water shader graph
+    - unity shader graph
+    - unity shader graph water
+    - unity waters
+    viewCount: 96822
+    likeCount: 3460
+    dislikeCount: 66
+    commentCount: 273
+    durationInMinutes: 9
+    publishedAtDate: 637297670160000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Making a Vertex Displacement Shader in Unity 2018.3! | Shader Graph
+    url: https://www.youtube.com/watch?v=vh85pzT959M
+    channelName: Unity
+    description: "Download the demo project here: https://ole.unity.com/sgvertex\n\nTo
+      learn more about Unity, check out some of our available courses on our Learn
+      website: https://ole.unity.com/unitycourses\n\nTo check out some other cool
+      effects, feel free to also browse the Unity Asset Store: https://ole.unity.com/MeshEffects\n\nIf
+      you prefer a written article version, you can find that here: https://ole.unity.com/sgvertexarticle\n\nIn
+      this video, we will provide a method for creating an interactive vertex displacement
+      effect using Unity's Shader Graph tool, together with the Lightweight Render
+      Pipeline (LWRP). \n\nA Shader Graph enables you to build your shaders visually.
+      Instead of hand writing code you create and connect nodes in a graph network.
+      \n\nThe Lightweight Render Pipeline (LWRP) is a prebuilt Scriptable Render
+      Pipeline, made by Unity. The technology offers graphics that are scalable to
+      mobile platforms, and you can also use it for higher-end consoles and PCs.
+      You\u2019re able to achieve quick rendering at a high quality without needing
+      compute shader technology. LWRP uses simplified, physically based Lighting
+      and Materials.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/na3a/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/vh85pzT959M/sddefault.jpg
+    - https://i.ytimg.com/vi/vh85pzT959M/mqdefault.jpg
+    - https://i.ytimg.com/vi/vh85pzT959M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/vh85pzT959M/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - unity shader graph tutorial
+    - unity shader graph displacement
+    - unity vertex displacement
+    - unity shader graph vertex
+    - unity vertex shader graph
+    - unity 2019 shader graph
+    - unity shader graph basics
+    - unity shader graph beginner's guide
+    - unity beginner tips
+    - unity beginner guide
+    - unity displacement
+    - unity shader
+    - lightweight render pipeline
+    - unity lwrp
+    - unity lightweight
+    - shader
+    - 3D
+    viewCount: 82062
+    likeCount: 1615
+    dislikeCount: 33
+    commentCount: 96
+    durationInMinutes: 8
+    publishedAtDate: 636856095320000000
+    publisdedDate:
+      year: 2019
+      month: 2
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: Making a Toon Shader with Unity! (Shader Graph tutorial)
+    url: https://www.youtube.com/watch?v=_jTXd3x6gOY
+    channelName: Unity
+    description: 'In this video, we''re using Shader Graph in Unity to make a toon
+      shader with toon ramp, and specular effect.
+
+
+      Check out MinionsArt here:
+      https://ole.unity.com/MinionsArt
+
+      Download the project: https://ole.unity.com/ToonShadingProject'
+    thumbUrls:
+    - https://i.ytimg.com/vi/_jTXd3x6gOY/sddefault.jpg
+    - https://i.ytimg.com/vi/_jTXd3x6gOY/mqdefault.jpg
+    - https://i.ytimg.com/vi/_jTXd3x6gOY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/_jTXd3x6gOY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - unity. tutorial
+    - unity shader graph tutorial
+    - unity toon
+    - unity cartoon
+    - unity cartoons
+    - unity toon shader
+    - unity cartoon shader
+    - unity shader graph toon
+    - unity unlit shader
+    - unity unlit
+    - unity 2019.1
+    - unity 2019
+    - unity beta
+    - unity
+    - unity 2019.3
+    - unity 2019.2
+    - unity tutorial
+    - unity tutorials
+    - unity shader graph tutorial 2019
+    viewCount: 72174
+    likeCount: 1685
+    dislikeCount: 115
+    commentCount: 102
+    durationInMinutes: 6
+    publishedAtDate: 637044542110000000
+    publisdedDate:
+      year: 2019
+      month: 9
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: Making a flag wave with Shader Graph | Unite Now 2020
+    url: https://www.youtube.com/watch?v=pzo4mitkY8k
+    channelName: Unity
+    description: 'In this video, learn how to create a shader to make a flag wave
+      utilizing the Time, Sine, and UV nodes to give the flag a wave effect.
+
+
+      Speaker:
+
+      Andrew
+      Jevsevar
+
+
+      Did you find this video useful? Room for improvement? Let
+      us know: https://on.unity.com/2W0uLZr
+
+
+      Check out the Unite Now page
+      to be among the first to watch upcoming sessions: https://on.unity.com/2ZTQ6Vy'
+    thumbUrls:
+    - https://i.ytimg.com/vi/pzo4mitkY8k/sddefault.jpg
+    - https://i.ytimg.com/vi/pzo4mitkY8k/mqdefault.jpg
+    - https://i.ytimg.com/vi/pzo4mitkY8k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pzo4mitkY8k/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 7217
+    likeCount: 176
+    dislikeCount: 5
+    commentCount: 38
+    durationInMinutes: 52
+    publishedAtDate: 637298726650000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Made with Unity Asset Store - P.A.M.E.L.A, Wulverblade and Waggle Words
+    url: https://www.youtube.com/watch?v=FugfcaDVmiI
+    channelName: Unity
+    description: "At Unite 2015, we had a chance to talk to Adam Simonar (NVYVE Studios),
+      Evan Doody (Darkwind Media) and Elliott Mitchell (Vermont Digital Arts) about
+      their upcoming games and favorite Asset Store tools. \nAssets mentioned: Chromatica
+      Studio (http://bit.ly/1lof7Tb), Koreographer (http://bit.ly/1XPsXPu), \nCircular
+      Gravity Force, (http://bit.ly/1R5hvuS), Alloy Physical Shader Framework (http://bit.ly/1lof9dM),
+      Node Canvas (http://bit.ly/1XPsXPt), uSequencer (http://bit.ly/1XPsVr5), Pro
+      Builder Advanced (http://bit.ly/1XPsVr4), Amplify Color (http://bit.ly/1R5hy9V).\n\nHelp
+      us caption & translate this video!\n\nhttp://amara.org/v/V60q/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/FugfcaDVmiI/sddefault.jpg
+    - https://i.ytimg.com/vi/FugfcaDVmiI/mqdefault.jpg
+    - https://i.ytimg.com/vi/FugfcaDVmiI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/FugfcaDVmiI/hqdefault.jpg
+    tags:
+    - P.A.M.E.L.A.
+    - Unity (Software)
+    - Unite 201
+    - Unity Asset Store
+    - Asset Store
+    viewCount: 38663
+    likeCount: 529
+    dislikeCount: 17
+    commentCount: 13
+    durationInMinutes: 4
+    publishedAtDate: 635858983780000000
+    publisdedDate:
+      year: 2015
+      month: 12
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Improved Artist Workflow in Unity 2018.1
+    url: https://www.youtube.com/watch?v=qVlONuQdrj4
+    channelName: Unity
+    description: 'Cinemachine Storyboard, Shader Graph, Autodesk FBX integration
+
+
+      Coming
+      with Unity 2018.1
+
+      Join our Beta Program - www.Unity3d.com/beta'
+    thumbUrls:
+    - https://i.ytimg.com/vi/qVlONuQdrj4/sddefault.jpg
+    - https://i.ytimg.com/vi/qVlONuQdrj4/mqdefault.jpg
+    - https://i.ytimg.com/vi/qVlONuQdrj4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/qVlONuQdrj4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 24799
+    likeCount: 415
+    dislikeCount: 16
+    commentCount: 34
+    durationInMinutes: 1
+    publishedAtDate: 636571824300000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Implementing an Ability System | Prototype Series
+    url: https://www.youtube.com/watch?v=Jv9jGyIWelU
+    channelName: Unity
+    description: "Welcome to the Prototype Series - a group of videos that focuses
+      on the creation of playable prototypes, showcasing how multiple features of
+      Unity can be used to achieve game mechanics that can be used in real-world
+      scenarios!\n\nIs there some game mechanic that you would like us to try and
+      prototype? Let us know in the comment section! \n\nDownload project\nhttps://on.unity.com/2YmvHI3\n\nLonger
+      training session\nhttps://on.unity.com/3fA9n4D\n\nToon Shader Tutorial (Shader
+      Graph)\nhttps://on.unity.com/3cKl0Eo\n\nDOTween plugin\nhttps://on.unity.com/30Gk5CH"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Jv9jGyIWelU/sddefault.jpg
+    - https://i.ytimg.com/vi/Jv9jGyIWelU/mqdefault.jpg
+    - https://i.ytimg.com/vi/Jv9jGyIWelU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Jv9jGyIWelU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity prototype
+    - unity prototype game
+    - unity game
+    - unity gameplay
+    - unity game development
+    - unity game basics
+    - unity game mechanics
+    - unity mechanic
+    - unity full demo
+    viewCount: 99293
+    likeCount: 3601
+    dislikeCount: 59
+    commentCount: 167
+    durationInMinutes: 7
+    publishedAtDate: 637281144100000000
+    publisdedDate:
+      year: 2020
+      month: 6
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Distortion Shader in Unity 2019 with Shader Graph! (Tutorial)
+    url: https://www.youtube.com/watch?v=atPTr29vXUk
+    channelName: Unity
+    description: "In this video, we are creating a Distortion Shader using Shader
+      Graph in Unity 2019! \n\nDownload the project here: https://ole.unity.com/DistortionShaderProject\n\nShader
+      Graph in Unity 2019 lets you easily create shaders by building them visually
+      and see the results in real time. You create and connect nodes in a network
+      graph instead of having to write code.\n\nYou can do things like:\n\n- Procedurally
+      alter your surface appearance\n- Warp and animate UVs\n- Modify the look of
+      your objects using familiar image adjustment operations\n- Change your object\u2019s
+      surface based on information about it, such as its world location, normals,
+      distance from camera, etc.\n- Quickly tweak a shader\u2019s visuals in the
+      context of a scene using the Material Inspector.\n- Share node networks between
+      multiple graphs and users by creating subgraphs"
+    thumbUrls:
+    - https://i.ytimg.com/vi/atPTr29vXUk/sddefault.jpg
+    - https://i.ytimg.com/vi/atPTr29vXUk/mqdefault.jpg
+    - https://i.ytimg.com/vi/atPTr29vXUk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/atPTr29vXUk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2019
+    - unity shader graph
+    - unity distortion shader
+    - unity distortion shader tutorial
+    - unity 2019 shader graph
+    - unity 2019 distortion shader
+    - unity 2019 tutorial shader
+    - unity shader graph tutorial
+    - unity shader graph toon
+    - unity shader graph outline
+    - unity shader graph distortion
+    - unity distortion effect
+    - unity effect
+    - unity effects
+    - unity hwo to
+    - making a game in unity
+    - make a game unity
+    viewCount: 45557
+    likeCount: 902
+    dislikeCount: 25
+    commentCount: 51
+    durationInMinutes: 5
+    publishedAtDate: 637047000010000000
+    publisdedDate:
+      year: 2019
+      month: 9
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating your own shaders with Shader Graph - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=hfeAUmXJtN8
+    channelName: Unity
+    description: "Production-ready in 2019.1 release, Shader Graph is a node-based
+      visual interface for building shaders. In this talk, Technical Evangelist Liz
+      Mercuri introduces the tool and walks you through creating a simple shader
+      from scratch. \n\nSpeaker: Liz Mercuri (Technical Evangelist, Unity Technologies)\n\nResources
+      to help you get started: \nShader Graph Sample Library \nhttps://on.unity.com/2OZL3Ns\nDocumentation\nhttps://on.unity.com/2Dbc4Jk\nCreate
+      Custom Nodes\nhttps://on.unity.com/2IozoXq\nWhat\u2019s New (2018.3)\nhttps://on.unity.com/2uZxXqg"
+    thumbUrls:
+    - https://i.ytimg.com/vi/hfeAUmXJtN8/sddefault.jpg
+    - https://i.ytimg.com/vi/hfeAUmXJtN8/mqdefault.jpg
+    - https://i.ytimg.com/vi/hfeAUmXJtN8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hfeAUmXJtN8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 15545
+    likeCount: 212
+    dislikeCount: 10
+    commentCount: 9
+    durationInMinutes: 31
+    publishedAtDate: 636905952030000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating Water with Shader Graph in Unity! | 2D Shader Basics (Tutorial)
+    url: https://www.youtube.com/watch?v=eD7LmXShYcs
+    channelName: Unity
+    description: "In this video, we are demonstrating how you can create a stylized
+      water shader in Shader Graph by using a combination of scrolling UV and noise
+      patterns. We are also using 2D lights to make our water respond to the lighting.\n\n\n\U0001F7E2
+      Click here to see the entire 2D Shader Basics Playlist:\nhttps://on.unity.com/36Ln4Nd\n\n\U0001F534
+      You can download the Assets we used for free here:\nhttps://on.unity.com/3iyzf1M\n\n\U0001F7E0
+      Learn more about Shader Graph here:\nhttps://on.unity.com/30ADqUS\n\n\U0001F7E1
+      For more information about 2D Lights click here:\nhttps://on.unity.com/33wfi7B\n\nUnity
+      Version used 2019.4"
+    thumbUrls:
+    - https://i.ytimg.com/vi/eD7LmXShYcs/sddefault.jpg
+    - https://i.ytimg.com/vi/eD7LmXShYcs/mqdefault.jpg
+    - https://i.ytimg.com/vi/eD7LmXShYcs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/eD7LmXShYcs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2019
+    - unity shader graph
+    - unity 2019 shader graph
+    - unity shader graph tutorial
+    - unity shader graph toon
+    - unity shader graph outline
+    - unity effect
+    - unity effects
+    - unity hwo to
+    - making a game in unity
+    - make a game unity
+    - shadergraph
+    - water in shadergraph
+    - water shader unity
+    - water in unity
+    - 2d water
+    - 2d water shader
+    - water shader graph
+    - unity water shader tutorial
+    - how to water unity
+    viewCount: 22371
+    likeCount: 977
+    dislikeCount: 10
+    commentCount: 72
+    durationInMinutes: 7
+    publishedAtDate: 637376094020000000
+    publisdedDate:
+      year: 2020
+      month: 10
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Best practices for Shader Graph - Unite LA
+    url: https://www.youtube.com/watch?v=Y6WfgFI5H90
+    channelName: Unity
+    description: 'Shader Graph lets you create beautiful shaders visually, with a
+      node-based workflow. This talk covers what happens under the hood, shares tips
+      to avoid common pitfalls, and highlights what to look for as Shader Graph readies
+      for prime-time release in the near future. More information: https://on.unity.com/2QLV5Fg
+
+
+      Speaker:
+
+      Charles
+      Sanglimsuwan (Unity Technologies)
+
+
+      Slides:
+
+      https://www.slideshare.net/unity3d/best-practices-for-shader-graph
+
+
+      Help
+      us caption & translate this video!
+
+
+      https://amara.org/v/oLFs/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Y6WfgFI5H90/sddefault.jpg
+    - https://i.ytimg.com/vi/Y6WfgFI5H90/mqdefault.jpg
+    - https://i.ytimg.com/vi/Y6WfgFI5H90/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Y6WfgFI5H90/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 32979
+    likeCount: 631
+    dislikeCount: 13
+    commentCount: 25
+    durationInMinutes: 45
+    publishedAtDate: 636800681540000000
+    publisdedDate:
+      year: 2018
+      month: 12
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Art & Design Pack Demo - Uber Standard Shader Real Time Snow Effect [2/5]
+      Live 2017/10/25
+    url: https://www.youtube.com/watch?v=MCEd68w6fHI
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/unity-artists/uber-standard-shader-real-time-snow-effect
+
+
+      In
+      this live training session with Matt Schell we take a look at how to create
+      great looking scenes using the assets from the Art & Design Essentials Pack
+      including: Uber Standard Shader Ultra, Octave3D and Fog Volume 3. Art & Design
+      Essentials is one of the free asset packs you can select when you subscribe
+      to Unity Plus. In this episode we''ll look at how to create a real time snow
+      effect with Uber Standard Shader Ultra.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/MCEd68w6fHI/sddefault.jpg
+    - https://i.ytimg.com/vi/MCEd68w6fHI/mqdefault.jpg
+    - https://i.ytimg.com/vi/MCEd68w6fHI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MCEd68w6fHI/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - art
+    - art design essentials
+    - essentials pack
+    - uber standard shader
+    - octave3d
+    - octave
+    - fog volume 3
+    - snow shader
+    - volumetric fog
+    - prefab placer
+    - level editing
+    viewCount: 4224
+    likeCount: 35
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 12
+    publishedAtDate: 636450044120000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Art & Design Pack Demo - Questions and Answers [5/5] Live 2017/10/25
+    url: https://www.youtube.com/watch?v=gtzsCASo1JE
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/
+
+
+      In
+      this live training session with Matt Schell we take a look at how to create
+      great looking scenes using the assets from the Art & Design Essentials Pack
+      including: Uber Standard Shader Ultra, Octave3D and Fog Volume 3. Art & Design
+      Essentials is one of the free asset packs you can select when you subscribe
+      to Unity Plus. In this episode we''ll answer questions from the Twitch live
+      chat.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/gtzsCASo1JE/sddefault.jpg
+    - https://i.ytimg.com/vi/gtzsCASo1JE/mqdefault.jpg
+    - https://i.ytimg.com/vi/gtzsCASo1JE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gtzsCASo1JE/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - art
+    - art design essentials
+    - essentials pack
+    - uber standard shader
+    - octave3d
+    - octave
+    - fog volume 3
+    - snow shader
+    - volumetric fog
+    - prefab placer
+    - level editing
+    viewCount: 526
+    likeCount: 9
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 8
+    publishedAtDate: 636450044110000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Art & Design Pack Demo - Introduction and Goals [1/5] Live 2017/10/25
+    url: https://www.youtube.com/watch?v=puPxSoQDXiM
+    channelName: Unity
+    description: 'Art & Design Pack Demo - Introduction and Goals [1/5] Live 2017/10/25
+
+
+      Watch
+      this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/unity-artists/introduction-art-design-essentials
+
+
+      In
+      this live training session with Matt Schell we take a look at how to create
+      great looking scenes using the assets from the Art & Design Essentials Pack
+      including: Uber Standard Shader Ultra, Octave3D and Fog Volume 3. Art & Design
+      Essentials is one of the free asset packs you can select when you subscribe
+      to Unity Plus. In this episode we''ll introduce the session and explain our
+      goals.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/puPxSoQDXiM/sddefault.jpg
+    - https://i.ytimg.com/vi/puPxSoQDXiM/mqdefault.jpg
+    - https://i.ytimg.com/vi/puPxSoQDXiM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/puPxSoQDXiM/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - art
+    - art design essentials
+    - essentials pack
+    - uber standard shader
+    - octave3d
+    - octave
+    - fog volume 3
+    - snow shader
+    - volumetric fog
+    - prefab placer
+    - level editing
+    viewCount: 5573
+    likeCount: 52
+    dislikeCount: 6
+    commentCount: 1
+    durationInMinutes: 7
+    publishedAtDate: 636450044110000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Adding Juice with Shader Graph in Unity 2019! (Tutorial)
+    url: https://www.youtube.com/watch?v=tO1E3eDVi8Y
+    channelName: Unity
+    description: 'In this video we will look at creating an interactive shader effects
+      which allows us to both shake and dissolve a mesh. We''ll also review some
+      best practices for authoring shaders using sub-graphs on Universal Render Pipeline
+      in Unity 2019.2. Download the source and follow along here: https://ole.unity.com/interactiveshaders
+
+
+
+      For
+      an in depth look at this subject, check out Ciro Continisio''s talks from Unite
+      Copenhagen 2019:
+
+
+      What''s new in Shader Graph - Unite Copenhagen
+
+      https://www.youtube.com/watch?v=L6mU2rkT5To
+
+
+      Find
+      more great Shader Graph tutorials here on Unity''s official learning platform:
+      https://learn.unity.com/project/make-a-flag-move-with-shadergraph.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/tO1E3eDVi8Y/sddefault.jpg
+    - https://i.ytimg.com/vi/tO1E3eDVi8Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/tO1E3eDVi8Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/tO1E3eDVi8Y/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity shader graph
+    - unity shader graph tutorial
+    - unity shaders
+    - unity basic shaders
+    - unity shader basics
+    - unity shader tutorial
+    - unity shader graph 2019
+    - unity 2019 shader graph
+    - shader graph unity
+    - shader graph unity 2019
+    - unity 2019.3 shader graph
+    - unity make shaders
+    - learn unity
+    - learn unity shaders
+    - unity learn
+    - learn unity free
+    - gamedev
+    - indiedev
+    - unity 2019 tutorial
+    viewCount: 29884
+    likeCount: 647
+    dislikeCount: 31
+    commentCount: 33
+    durationInMinutes: 6
+    publishedAtDate: 637101468050000000
+    publisdedDate:
+      year: 2019
+      month: 11
+      day: 23
+    YouTubeDataAPI_Cooked: 1

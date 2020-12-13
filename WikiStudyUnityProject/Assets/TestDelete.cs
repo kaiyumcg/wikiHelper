@@ -6,11 +6,16 @@ using UnityEngine;
 
 public class TestDelete : MonoBehaviour
 {
-    [SerializeField] string inputStr;
-    public float totalMins;
-    [SerializeField] bool success;
-    [SerializeField] string urlTest = "https://www.youtube.com/watch?v=yqCHiZrgKzs&amp;t=1622s";
-
+    //[SerializeField] string inputStr;
+    // public float totalMins;
+    // [SerializeField] bool success;
+    // [SerializeField] string urlTest = "https://www.youtube.com/watch?v=yqCHiZrgKzs&amp;t=1622s";
+    //[SerializeField] string inputStr, patternToDelete, outputStr;
+    //[SerializeField] string inputStr, compStr;
+    //[SerializeField] bool contains;
+    [Multiline]
+    [SerializeField] string inputStr, wordComp;
+    [SerializeField] bool isWord;
     // Start is called before the first frame update
     void Start()
     {
@@ -92,10 +97,61 @@ public class TestDelete : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("start!");
-            totalMins = GetDurationInMinute(inputStr, ref success);
+            //totalMins = GetDurationInMinute(inputStr, ref success);
+            isWord = IsSeperateWord(inputStr, wordComp);
 
-            string videoID = Utility.GetVideoId(urlTest);
-            Debug.Log("video ID: " + videoID);
+            //string videoID = Utility.GetVideoId(urlTest);
+           // Debug.Log("video ID: " + videoID);
+        }
+    }
+
+    bool IsSeperateWord(string str, string word)
+    {
+        if (string.IsNullOrEmpty(word) || word.Length == 0)
+        {
+            return false;
+        }
+        else
+        {
+            int startID = -1;
+            startID = str.IndexOf(word, 0);
+            Debug.Log("start ID: " + startID);
+            if (startID < 0)
+            {
+                return false;
+            }
+            else
+            {
+                int endID = -1;
+                endID = startID + word.Length - 1;
+                Debug.Log("start id: " + startID + " and end id: " + endID);
+
+                char c1 = str[startID];
+                char c2 = str[endID];
+                Debug.Log("char in start: " + c1 + " and in end: " + c2);
+                startID--;
+                endID++;
+
+                bool whiteSpaceAtStartCondition = false, whiteSpaceAtEndCondition = false;
+                if (startID >= 0)
+                {
+                    whiteSpaceAtStartCondition = str[startID] == ' ';
+                }
+                else
+                {
+                    whiteSpaceAtStartCondition = true;
+                }
+
+                if (endID < str.Length)
+                {
+                    whiteSpaceAtEndCondition = str[endID] == ' ';
+                }
+                else
+                {
+                    whiteSpaceAtEndCondition = true;
+                }
+                return whiteSpaceAtStartCondition && whiteSpaceAtEndCondition;
+            }
         }
     }
 }

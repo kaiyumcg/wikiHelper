@@ -1,1 +1,0 @@
-Test Tool,CD/CI,DevOps,Unit Test,Integration Test,TDD,Testing,QA

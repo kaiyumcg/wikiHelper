@@ -1,0 +1,6 @@
+^ VR,daydream,oculus,htc,^ Vive,^ vive
+"Virtual Reality"
+
+[^ MR-]
+[^ XR-]
+[^ AR-]

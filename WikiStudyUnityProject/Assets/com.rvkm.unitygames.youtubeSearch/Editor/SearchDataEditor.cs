@@ -14,9 +14,6 @@ using Mochineko.SimpleReorderableList;
 
 namespace com.rvkm.unitygames.YouTubeSearch
 {
-    /// <summary>
-    /// TODO: horizontal box indent, fold/expand item group, implement unimplemented methods, indent buttons
-    /// </summary>
     [CustomEditor(typeof(SearchDataYoutube))]
     public class SearchDataEditor : KaiyumScriptableObjectEditor
     {
@@ -53,31 +50,63 @@ namespace com.rvkm.unitygames.YouTubeSearch
             InitScript();
         }
 
+        void PrintSeperator()
+        {
+            string st = "";
+            for(int i = 0; i < Screen.width;i++)
+            {
+                st += "-";
+            }
+            GUILayout.Label(st);
+        }
+
         public override void OnUpdateScriptableObject()
         {
             anyButtonClicked = false;
             if (BusyControl.GetBusyFlagAndContinuePrintingRelatedIMGUIIfAny(this)) { return; }
 
             serializedObject.Update();
-
-            EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.dataGenerationTestMode)), true);
-            if (data.dataGenerationTestMode)
+            data.showGenerationSetting = GUILayout.Toggle(data.showGenerationSetting, "Show Generation Setting? ");
+            
+            //EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.showGenerationSetting)), true);
+            if (data.showGenerationSetting)
             {
-                EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.dataGenerationCountForTestMode)), true);
+                EditorGUI.indentLevel += 1;
+                EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.dataGenerationTestMode)), true);
+                if (data.dataGenerationTestMode)
+                {
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.dataGenerationCountForTestMode)), true);
+                }
+                EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.forceUpdateForGeneration)), true);
+                EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.SearchName)), true);
+                EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.APIKEY)), true);
+                PrintAssetFiles.ShowArrayWithBrowseOption<TextAsset>(serializedObject.FindProperty(nameof(data.InputHtmlFiles)), data);
+                EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.InputUrls)), true);
+                PrintAssetFiles.ShowDataWithBrowseOption<YoutubeVideoData>(serializedObject.FindProperty(nameof(data.videoData)), data);
+                PrintAssetFiles.ShowDataWithBrowseOption<YoutubeVideoTags>(serializedObject.FindProperty(nameof(data.tagData)), data);
+                int mins = 0;
+                if (data.videoData != null && data.videoData.allVideos != null)
+                {
+                    foreach (var v in data.videoData.allVideos)
+                    {
+                        if (v == null) { continue; }
+                        mins += v.durationInMinutes;
+                    }
+                }
+                float hours = (float)mins / 60f;
+
+                EditorGUILayout.LabelField("Total hours: " + (int)hours);
+                GUILayout.Space(10);
+                PrintYouTubeDataGenerationSettings.Print(ref data, this, serializedObject);
+                PrintSeperator();
+                GUILayout.Space(30);
+                EditorGUI.indentLevel -= 1;
             }
 
-            EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.forceUpdateForGeneration)), true);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.SearchName)), true);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.APIKEY)), true);
-            PrintAssetFiles.ShowArrayWithBrowseOption<TextAsset>(serializedObject.FindProperty(nameof(data.InputHtmlFiles)), data);
-            EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.InputUrls)), true);
-            PrintAssetFiles.ShowDataWithBrowseOption<YoutubeVideoData>(serializedObject.FindProperty(nameof(data.videoData)), data);
-            PrintAssetFiles.ShowDataWithBrowseOption<YoutubeVideoTags>(serializedObject.FindProperty(nameof(data.tagData)), data);
+            GUILayout.Space(10);
             PrintCategorySettings.Print(ref data, this, serializedObject);
-            GUILayout.Space(30);
+            GUILayout.Space(10);
             PrintTagSettings.Print(ref data, ref anyButtonClicked, this, serializedObject);
-            PrintYouTubeDataGenerationSettings.Print(ref data, this, serializedObject);
-
             EditorUtility.SetDirty(data);
             if (data.videoData != null)
             {

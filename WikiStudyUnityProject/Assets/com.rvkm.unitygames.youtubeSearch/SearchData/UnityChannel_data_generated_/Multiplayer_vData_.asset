@@ -12,6 +12,306 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: Multiplayer_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: Multiplayer
+  allVideos:
+  - title: "Merry Fragmas 3.0 \u2013 Multiplayer FPS  [3/3]  Live 2016/12/22"
+    url: https://www.youtube.com/watch?v=T7nT1FJbzJ0
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/multiplayer-networking/merry-fragmas-30-lobby-player-data-and-deathmatch
+
+
+      Asset
+      Store Link: http://bit.ly/2i6c1pf
+
+
+      Merry Fragmas everyone! Mike Geig
+      is back and bringing the holiday fear! In this multi-day session we will be
+      building a Networked Multiplayer First Person Shooter game from the ground
+      up. The content will range from beginner to intermediate as we look at scripting
+      and features specific to multiplayer networking. Even if you''ve watched the
+      previous Merry Fragmas episodes, you''ll want to come back for these as we
+      are revisiting previous topics and looking at new / alternate methods of implementing
+      them. Additionally, we''ll explore more on the concept of a lobby, networked
+      animations, gameplay logic, and UI / polish. Let the slay bells ring!'
+    thumbUrls:
+    - https://i.ytimg.com/vi/T7nT1FJbzJ0/sddefault.jpg
+    - https://i.ytimg.com/vi/T7nT1FJbzJ0/mqdefault.jpg
+    - https://i.ytimg.com/vi/T7nT1FJbzJ0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/T7nT1FJbzJ0/hqdefault.jpg
+    tags:
+    - Unity
+    - unity3d
+    - tutorial
+    - game development
+    - multiplayer
+    - unet
+    - networking
+    - online
+    - fps
+    - first person shooter
+    - deathmatch
+    - arena
+    viewCount: 14388
+    likeCount: 150
+    dislikeCount: 3
+    commentCount: 45
+    durationInMinutes: 101
+    publishedAtDate: 636180729660000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: "Merry Fragmas 3.0 \u2013 Multiplayer FPS  [2/3]  Live 2016/12/21"
+    url: https://www.youtube.com/watch?v=XwD6bX2ZMKo
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/multiplayer-networking/ui-graphics-and-animations
+
+
+      Asset
+      Store Link: http://bit.ly/2i6c1pf
+
+
+      Merry Fragmas everyone! Mike Geig
+      is back and bringing the holiday fear! In this multi-day session we will be
+      building a Networked Multiplayer First Person Shooter game from the ground
+      up. The content will range from beginner to intermediate as we look at scripting
+      and features specific to multiplayer networking. Even if you''ve watched the
+      previous Merry Fragmas episodes, you''ll want to come back for these as we
+      are revisiting previous topics and looking at new / alternate methods of implementing
+      them. Additionally, we''ll explore more on the concept of a lobby, networked
+      animations, gameplay logic, and UI / polish. Let the slay bells ring!'
+    thumbUrls:
+    - https://i.ytimg.com/vi/XwD6bX2ZMKo/sddefault.jpg
+    - https://i.ytimg.com/vi/XwD6bX2ZMKo/mqdefault.jpg
+    - https://i.ytimg.com/vi/XwD6bX2ZMKo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/XwD6bX2ZMKo/hqdefault.jpg
+    tags:
+    - Unity
+    - unity3d
+    - tutorial
+    - game development
+    - multiplayer
+    - unet
+    - networking
+    - online
+    - fps
+    - first person shooter
+    - deathmatch
+    - arena
+    viewCount: 12933
+    likeCount: 149
+    dislikeCount: 2
+    commentCount: 33
+    durationInMinutes: 89
+    publishedAtDate: 636179756780000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: "Merry Fragmas 3.0 \u2013 Multiplayer FPS  [1/3]  Live 2016/12/20"
+    url: https://www.youtube.com/watch?v=Z3f0CYArn34
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/multiplayer-networking/multiplaer-fps-foundation
+
+
+      Asset
+      Store List: http://bit.ly/2i6c1pf
+
+
+      Merry Fragmas everyone! Mike Geig
+      is back and bringing the holiday fear! In this multi-day session we will be
+      building a Networked Multiplayer First Person Shooter game from the ground
+      up. The content will range from beginner to intermediate as we look at scripting
+      and features specific to multiplayer networking. Even if you''ve watched the
+      previous Merry Fragmas episodes, you''ll want to come back for these as we
+      are revisiting previous topics and looking at new / alternate methods of implementing
+      them. Additionally, we''ll explore more on the concept of a lobby, networked
+      animations, gameplay logic, and UI / polish. Let the slay bells ring!'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Z3f0CYArn34/sddefault.jpg
+    - https://i.ytimg.com/vi/Z3f0CYArn34/mqdefault.jpg
+    - https://i.ytimg.com/vi/Z3f0CYArn34/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Z3f0CYArn34/hqdefault.jpg
+    tags:
+    - Unity
+    - unity3d
+    - tutorial
+    - game development
+    - multiplayer
+    - unet
+    - networking
+    - online
+    - fps
+    - first person shooter
+    - deathmatch
+    - arena
+    viewCount: 35539
+    likeCount: 410
+    dislikeCount: 2
+    commentCount: 78
+    durationInMinutes: 83
+    publishedAtDate: 636179747430000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Live Training 18th December 2014 - Merry Fragmas: Multiplayer FPS, Part
+      3'
+    url: https://www.youtube.com/watch?v=lbuo63Nx-NE
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/modules/intermediate/live-training-archive/merry-fragmas-multiplayer-fps-3
+
+
+      Merry
+      Fragmas everyone! During this live training series, we will be building a multiplayer
+      First Person Shooter game. We will be focusing on the animation, physics, networking
+      (with Photon), and other tricks that make FPS games what they are. Content
+      will range from beginner to intermediate+ (depending on what you consider difficult).
+      We will be looking at a lot of scripting and a few pro features (though you
+      should still be able to complete the training without pro). I have no idea
+      how many days this will span, so I am scheduling it for 3. Please note that
+      I do not know how many days will be required to complete this series and what
+      is scheduled is just a guess. With that being said, let us crush our foes with
+      holiday spirit! -Tutor: Mike Geig
+
+
+      If you have any comments, suggestions
+      or requests, put them up on our official forum thread:
+
+      http://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V64z/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/lbuo63Nx-NE/sddefault.jpg
+    - https://i.ytimg.com/vi/lbuo63Nx-NE/mqdefault.jpg
+    - https://i.ytimg.com/vi/lbuo63Nx-NE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lbuo63Nx-NE/hqdefault.jpg
+    tags: []
+    viewCount: 9498
+    likeCount: 105
+    dislikeCount: 2
+    commentCount: 14
+    durationInMinutes: 68
+    publishedAtDate: 635545819430000000
+    publisdedDate:
+      year: 2014
+      month: 12
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Live Training 17th December 2014 - Merry Fragmas: Multiplayer FPS, Part
+      2'
+    url: https://www.youtube.com/watch?v=utObeGBZ77g
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/modules/intermediate/live-training-archive/merry-fragmas-multiplayer-fps-2
+
+
+      Merry
+      Fragmas everyone! During this live training series, we will be building a multiplayer
+      First Person Shooter game. We will be focusing on the animation, physics, networking
+      (with Photon), and other tricks that make FPS games what they are. Content
+      will range from beginner to intermediate+ (depending on what you consider difficult).
+      We will be looking at a lot of scripting and a few pro features (though you
+      should still be able to complete the training without pro). I have no idea
+      how many days this will span, so I am scheduling it for 3. Please note that
+      I do not know how many days will be required to complete this series and what
+      is scheduled is just a guess. With that being said, let us crush our foes with
+      holiday spirit! -Tutor: Mike Geig
+
+
+      If you have any comments, suggestions
+      or requests, put them up on our official forum thread:
+
+      http://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V65B/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/utObeGBZ77g/sddefault.jpg
+    - https://i.ytimg.com/vi/utObeGBZ77g/mqdefault.jpg
+    - https://i.ytimg.com/vi/utObeGBZ77g/maxresdefault.jpg
+    - https://i.ytimg.com/vi/utObeGBZ77g/hqdefault.jpg
+    tags: []
+    viewCount: 13696
+    likeCount: 152
+    dislikeCount: 4
+    commentCount: 35
+    durationInMinutes: 93
+    publishedAtDate: 635544917480000000
+    publisdedDate:
+      year: 2014
+      month: 12
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Live Training 16th December 2014 - Merry Fragmas: Multiplayer FPS, Part
+      1'
+    url: https://www.youtube.com/watch?v=NCtgbNP3AOA
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/modules/intermediate/live-training-archive/merry-fragmas-multiplayer-fps
+
+
+      Merry
+      Fragmas everyone! During this live training series, we will be building a multiplayer
+      First Person Shooter game. We will be focusing on the animation, physics, networking
+      (with Photon), and other tricks that make FPS games what they are. Content
+      will range from beginner to intermediate+ (depending on what you consider difficult).
+      We will be looking at a lot of scripting and a few pro features (though you
+      should still be able to complete the training without pro). I have no idea
+      how many days this will span, so I am scheduling it for 3. Please note that
+      I do not know how many days will be required to complete this series and what
+      is scheduled is just a guess. With that being said, let us crush our foes with
+      holiday spirit! -Tutor: Mike Geig
+
+
+      If you have any comments, suggestions
+      or requests, put them up on our official forum thread:
+
+      http://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V65C/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/NCtgbNP3AOA/sddefault.jpg
+    - https://i.ytimg.com/vi/NCtgbNP3AOA/mqdefault.jpg
+    - https://i.ytimg.com/vi/NCtgbNP3AOA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/NCtgbNP3AOA/hqdefault.jpg
+    tags: []
+    viewCount: 24923
+    likeCount: 319
+    dislikeCount: 7
+    commentCount: 87
+    durationInMinutes: 78
+    publishedAtDate: 635544086650000000
+    publisdedDate:
+      year: 2014
+      month: 12
+      day: 17
+    YouTubeDataAPI_Cooked: 1

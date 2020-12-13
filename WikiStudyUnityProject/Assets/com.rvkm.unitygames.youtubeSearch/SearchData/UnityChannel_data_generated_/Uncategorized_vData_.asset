@@ -12,6 +12,1377 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: Uncategorized_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: Uncategorized
+  allVideos:
+  - title: Working at Unity
+    url: https://www.youtube.com/watch?v=7jUTQivX95g
+    channelName: Unity
+    description: Learn all about the life & work at Unity. We're hiring! Check out
+      https://careers.unity.com/
+    thumbUrls:
+    - https://i.ytimg.com/vi/7jUTQivX95g/sddefault.jpg
+    - https://i.ytimg.com/vi/7jUTQivX95g/mqdefault.jpg
+    - https://i.ytimg.com/vi/7jUTQivX95g/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7jUTQivX95g/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Working in game development
+    - careers at Unity
+    - working at Unity
+    - Unity Technologies
+    - game engine jobs
+    - Game Engine (Software Genre)
+    - Technology (Industry)
+    - unity jobs
+    viewCount: 42810
+    likeCount: 792
+    dislikeCount: 20
+    commentCount: 76
+    durationInMinutes: 2
+    publishedAtDate: 635750766040000000
+    publisdedDate:
+      year: 2015
+      month: 8
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Red Bull Air Race MR: How to Deploy Unity VR skills for
+      HoloLens Development'
+    url: https://www.youtube.com/watch?v=ekCchaw1IJY
+    channelName: Unity
+    description: 'REWIND''s CEO Sol Rogers explains how the team managed to forge
+      a world-first immersive experience for the Red Bull Air Race using the new
+      design principles of Mixed Reality and working with the HoloLens. Sol discusses
+      the unique properties of Unity which facilitated the swift development of the
+      MR experience.
+
+
+      Sol Rogers  - REWIND'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ekCchaw1IJY/sddefault.jpg
+    - https://i.ytimg.com/vi/ekCchaw1IJY/mqdefault.jpg
+    - https://i.ytimg.com/vi/ekCchaw1IJY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ekCchaw1IJY/hqdefault.jpg
+    tags:
+    - VR
+    - AR
+    - Redbull
+    - HoloLense
+    - Microsoft
+    - MR
+    - XR
+    - Sol Rogers
+    - Vision Summit
+    - Vision 2017
+    - Vision 17
+    - red bull
+    viewCount: 1839
+    likeCount: 9
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 30
+    publishedAtDate: 636306764420000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Mobile Immersive Computing: Today and Beyond'
+    url: https://www.youtube.com/watch?v=0mYiM1dHquU
+    channelName: Unity
+    description: "These are the early days of immersive computing, and the Daydream
+      team at Google is excited by what\u2019s on the horizon. Lulu LaMer (Google)
+      shares the lessons they've learned from working with hundreds of Daydream and
+      Tango developers building VR and AR, helping you create innovative, accessible
+      experiences that will help build the future of mobile immersive computing.\n\nSpeaker:\nLulu
+      LaMer - Google\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/0mYiM1dHquU/sddefault.jpg
+    - https://i.ytimg.com/vi/0mYiM1dHquU/mqdefault.jpg
+    - https://i.ytimg.com/vi/0mYiM1dHquU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0mYiM1dHquU/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - ar
+    - vr
+    - unity
+    viewCount: 737
+    likeCount: 6
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 31
+    publishedAtDate: 636306769910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Behind the VR/AR Hype: Actionable Advice Derived from Data'
+    url: https://www.youtube.com/watch?v=Z9AORntkS2s
+    channelName: Unity
+    description: "Speakers:\nJohn Cheng - Unity Technologies \nTipatat Chennavasin
+      - The Venture Reality Fund \nStephanie Llamas - SuperData Research \nJacob
+      Mullins - Shasta Ventures\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Z9AORntkS2s/sddefault.jpg
+    - https://i.ytimg.com/vi/Z9AORntkS2s/mqdefault.jpg
+    - https://i.ytimg.com/vi/Z9AORntkS2s/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Z9AORntkS2s/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - ar
+    - vr
+    - unity
+    viewCount: 575
+    likeCount: 4
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 36
+    publishedAtDate: 636306769910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Universal GameDev Challenge Finalists
+    url: https://www.youtube.com/watch?v=TOYOYnlVxgQ
+    channelName: Unity
+    description: "The Universal GameDev Challenge tasked Unity developers to design
+      a game for one of Universal\u2019s beloved brands: Back to the Future, Jaws,
+      Battlestar Galactica, Voltron Legendary Defender, or Turok.\n\nWe've selected
+      the 6 finalists to move forward with their creative ideas. More information:
+      https://on.unity.com/UniversalFinalists"
+    thumbUrls:
+    - https://i.ytimg.com/vi/TOYOYnlVxgQ/sddefault.jpg
+    - https://i.ytimg.com/vi/TOYOYnlVxgQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/TOYOYnlVxgQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TOYOYnlVxgQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - nbc Universal
+    - Universal
+    - Gamesareunityversal
+    viewCount: 10285
+    likeCount: 247
+    dislikeCount: 34
+    commentCount: 19
+    durationInMinutes: 1
+    publishedAtDate: 636634156400000000
+    publisdedDate:
+      year: 2018
+      month: 6
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Universal GameDev Challenge - VIP Mentorship
+    url: https://www.youtube.com/watch?v=Jg9TCt2CFkQ
+    channelName: Unity
+    description: "The 6 finalists of the Universal GameDev Challenge were invited
+      to the Universal Studios backlot for an exclusive VIP Mentorship program. See
+      what these Unity developers got to experience and learn as they continue to
+      work on their games for these beloved brands: Back to the Future, Battlestar
+      Galactica, Voltron Legendary Defender, and Turok.\n\n \n\nFollow their journey
+      at unity3d.com/universal"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Jg9TCt2CFkQ/sddefault.jpg
+    - https://i.ytimg.com/vi/Jg9TCt2CFkQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/Jg9TCt2CFkQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Jg9TCt2CFkQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Universal
+    - GameDev
+    - challenge
+    - back to the future
+    - turok
+    - battlestar galactica
+    - Voltron
+    - Microsoft
+    - Intel
+    - developers
+    viewCount: 2309
+    likeCount: 65
+    dislikeCount: 3
+    commentCount: 5
+    durationInMinutes: 1
+    publishedAtDate: 636759409170000000
+    publisdedDate:
+      year: 2018
+      month: 10
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity's Beta program
+    url: https://www.youtube.com/watch?v=ES7ASwuOAZU
+    channelName: Unity
+    description: 'Unity''s beta users are the heart of our community and helping
+      us improve the quality of our software. In this interview, you will learn more
+      about what the Beta program means for us and what our beta users think.
+
+
+      More
+      info about our beta program: https://on.unity.com/2Qoa46X
+
+      More info
+      about Unity 2020.1 beta: https://on.unity.com/2QnFDOi'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ES7ASwuOAZU/sddefault.jpg
+    - https://i.ytimg.com/vi/ES7ASwuOAZU/mqdefault.jpg
+    - https://i.ytimg.com/vi/ES7ASwuOAZU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ES7ASwuOAZU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 4263
+    likeCount: 76
+    dislikeCount: 3
+    commentCount: 19
+    durationInMinutes: 4
+    publishedAtDate: 637200845710000000
+    publisdedDate:
+      year: 2020
+      month: 3
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity release cycle in 2020
+    url: https://www.youtube.com/watch?v=4euInWvcmRg
+    channelName: Unity
+    description: 'Starting in 2020, we will deliver two TECH stream releases per
+      year, followed by the LTS release early the following year. The reason for
+      this change is that more and more Unity features are moving into continuously
+      updated packages. We also want to provide more stability with longer beta periods
+      for each release.
+
+
+      Learn more: https://on.unity.com/2RBVolS'
+    thumbUrls:
+    - https://i.ytimg.com/vi/4euInWvcmRg/sddefault.jpg
+    - https://i.ytimg.com/vi/4euInWvcmRg/mqdefault.jpg
+    - https://i.ytimg.com/vi/4euInWvcmRg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4euInWvcmRg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Unity Tech stream
+    - Unity 2020
+    - Unity 2020.1
+    - Unity 2020.2
+    viewCount: 14492
+    likeCount: 462
+    dislikeCount: 24
+    commentCount: 49
+    durationInMinutes: 1
+    publishedAtDate: 637160009080000000
+    publisdedDate:
+      year: 2020
+      month: 1
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity Learn Premium: Master real time 3D development'
+    url: https://www.youtube.com/watch?v=7Fl3BHsLBF8
+    channelName: Unity
+    description: 'Level up your skills with exclusive access to Unity experts, live
+      sessions, an up-to-date content library, and learning paths for in-demand skill
+      sets across industries.
+
+
+      Learn more about Unity Learn Premium: https://on.unity.com/31MNOb2'
+    thumbUrls:
+    - https://i.ytimg.com/vi/7Fl3BHsLBF8/sddefault.jpg
+    - https://i.ytimg.com/vi/7Fl3BHsLBF8/mqdefault.jpg
+    - https://i.ytimg.com/vi/7Fl3BHsLBF8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7Fl3BHsLBF8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 11983
+    likeCount: 253
+    dislikeCount: 17
+    commentCount: 17
+    durationInMinutes: 1
+    publishedAtDate: 636972662780000000
+    publisdedDate:
+      year: 2019
+      month: 6
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Labs
+    url: https://www.youtube.com/watch?v=cnEwzJV3RUQ
+    channelName: Unity
+    description: 'Unity Labs is where we do experimental projects, research, and
+      explorations into the future of game design, VR, AR and development. Check
+      out https://labs.unity.com/ for more updates from the team.
+
+
+      Help us
+      caption & translate this video!
+
+
+      http://amara.org/v/V605/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/cnEwzJV3RUQ/sddefault.jpg
+    - https://i.ytimg.com/vi/cnEwzJV3RUQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/cnEwzJV3RUQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cnEwzJV3RUQ/hqdefault.jpg
+    tags:
+    - unity
+    - labs
+    - Unity (software)
+    - Virtual Reality
+    - Unity Technologies
+    viewCount: 20071
+    likeCount: 560
+    dislikeCount: 27
+    commentCount: 42
+    durationInMinutes: 2
+    publishedAtDate: 635993786540000000
+    publisdedDate:
+      year: 2016
+      month: 5
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity for everyone | Unity
+    url: https://www.youtube.com/watch?v=MuD7eLyfPMg
+    channelName: Unity
+    description: "We believe the world is a better place with more creators in it
+      and we\u2019re here to build the Unity platform that serves you. \n\nStart
+      bringing your vision to life today: unity.com\n\nHelp us caption & translate
+      this video!\n\nhttps://amara.org/v/oIgG/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/MuD7eLyfPMg/sddefault.jpg
+    - https://i.ytimg.com/vi/MuD7eLyfPMg/mqdefault.jpg
+    - https://i.ytimg.com/vi/MuD7eLyfPMg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MuD7eLyfPMg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 169574
+    likeCount: 2754
+    dislikeCount: 80
+    commentCount: 242
+    durationInMinutes: 0
+    publishedAtDate: 636888243100000000
+    publisdedDate:
+      year: 2019
+      month: 3
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity and Shotgun: New template coming 2019'
+    url: https://www.youtube.com/watch?v=sfEnVdX8y04
+    channelName: Unity
+    description: 'We revealed a deeper collaboration between Unity and Autodesk.
+      As part of this, we announced a new Shotgun Software, an Autodesk company,
+      integration template coming early next year, which will empower creators in
+      media and entertainment with better production management workflows
+
+
+      Learn
+      more: https://unity3d.com/partners/autodesk'
+    thumbUrls:
+    - https://i.ytimg.com/vi/sfEnVdX8y04/sddefault.jpg
+    - https://i.ytimg.com/vi/sfEnVdX8y04/mqdefault.jpg
+    - https://i.ytimg.com/vi/sfEnVdX8y04/maxresdefault.jpg
+    - https://i.ytimg.com/vi/sfEnVdX8y04/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 17422
+    likeCount: 267
+    dislikeCount: 8
+    commentCount: 36
+    durationInMinutes: 3
+    publishedAtDate: 636778413640000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Accelerator Pack Demo
+    url: https://www.youtube.com/watch?v=AEgo-BfINDc
+    channelName: Unity
+    description: 'Fast track your development with top-selling productivity assets,
+      free for a limited time with Unity Plus.
+
+
+      Learn more about the Unity
+      Accelerator Pack: https://store.unity.com/offer/unity-accelerator-pack'
+    thumbUrls:
+    - https://i.ytimg.com/vi/AEgo-BfINDc/sddefault.jpg
+    - https://i.ytimg.com/vi/AEgo-BfINDc/mqdefault.jpg
+    - https://i.ytimg.com/vi/AEgo-BfINDc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/AEgo-BfINDc/hqdefault.jpg
+    tags:
+    - Unity
+    - Game Dev
+    - Game
+    - Development
+    - Asset Store
+    - Assets
+    - Programming
+    viewCount: 36650
+    likeCount: 284
+    dislikeCount: 65
+    commentCount: 68
+    durationInMinutes: 4
+    publishedAtDate: 636245305260000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 5 - Free Personal Edition, even better Pro Edition
+    url: https://www.youtube.com/watch?v=WAM_uWTg3pk
+    channelName: Unity
+    description: 'Unity Technologies CEO John Riccitiello is here to deliver a special
+      message about the future of Unity.
+
+
+      To find out more visit us at http://unity3d.com
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V642/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/WAM_uWTg3pk/sddefault.jpg
+    - https://i.ytimg.com/vi/WAM_uWTg3pk/mqdefault.jpg
+    - https://i.ytimg.com/vi/WAM_uWTg3pk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WAM_uWTg3pk/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - technology
+    - game development
+    - Unity (Software)
+    viewCount: 41922
+    likeCount: 903
+    dislikeCount: 11
+    commentCount: 217
+    durationInMinutes: 1
+    publishedAtDate: 635610402740000000
+    publisdedDate:
+      year: 2015
+      month: 3
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 3.5 Feature Overview
+    url: https://www.youtube.com/watch?v=HsoNvtiiUHI
+    channelName: Unity
+    description: 'A short video with just some of the exciting new features in Unity
+      3.5.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6dD/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/HsoNvtiiUHI/sddefault.jpg
+    - https://i.ytimg.com/vi/HsoNvtiiUHI/mqdefault.jpg
+    - https://i.ytimg.com/vi/HsoNvtiiUHI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HsoNvtiiUHI/hqdefault.jpg
+    tags:
+    - 3.5
+    - culling
+    - feature
+    - light
+    - mesh
+    - nav
+    - occlusion
+    - preview
+    - probes
+    - unity
+    viewCount: 10053
+    likeCount: 72
+    dislikeCount: 3
+    commentCount: 4
+    durationInMinutes: 1
+    publishedAtDate: 634732207470000000
+    publisdedDate:
+      year: 2012
+      month: 5
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Shape the world | Unity
+    url: https://www.youtube.com/watch?v=1Gj9X9EQrBQ
+    channelName: Unity
+    description: The world is a better place with more creators in it.
+    thumbUrls:
+    - https://i.ytimg.com/vi/1Gj9X9EQrBQ/sddefault.jpg
+    - https://i.ytimg.com/vi/1Gj9X9EQrBQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/1Gj9X9EQrBQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1Gj9X9EQrBQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 55189
+    likeCount: 2303
+    dislikeCount: 37
+    commentCount: 137
+    durationInMinutes: 1
+    publishedAtDate: 637057418700000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Pushing the boundaries at Unity Hack Week XII
+    url: https://www.youtube.com/watch?v=vAlMWGLaU4Q
+    channelName: Unity
+    description: Catch a glimpse of what happens when Unity gathers all of the engineering
+      talent at one same place for a week of exploration, risk-taking and pushing
+      boundaries.
+    thumbUrls:
+    - https://i.ytimg.com/vi/vAlMWGLaU4Q/sddefault.jpg
+    - https://i.ytimg.com/vi/vAlMWGLaU4Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/vAlMWGLaU4Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/vAlMWGLaU4Q/hqdefault.jpg
+    tags:
+    - unity
+    viewCount: 12125
+    likeCount: 284
+    dislikeCount: 14
+    commentCount: 44
+    durationInMinutes: 2
+    publishedAtDate: 636324641850000000
+    publisdedDate:
+      year: 2017
+      month: 6
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: ProBuilder Simple Texturing with AutoUVs
+    url: https://www.youtube.com/watch?v=bigj13SU1rs
+    channelName: Unity
+    description: 
+    thumbUrls:
+    - https://i.ytimg.com/vi/bigj13SU1rs/sddefault.jpg
+    - https://i.ytimg.com/vi/bigj13SU1rs/mqdefault.jpg
+    - https://i.ytimg.com/vi/bigj13SU1rs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/bigj13SU1rs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 38239
+    likeCount: 414
+    dislikeCount: 5
+    commentCount: 17
+    durationInMinutes: 9
+    publishedAtDate: 636561620510000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: ProBuilder Greyboxing an Interior FPS Level
+    url: https://www.youtube.com/watch?v=dYBOBgfcTgY
+    channelName: Unity
+    description: 
+    thumbUrls:
+    - https://i.ytimg.com/vi/dYBOBgfcTgY/sddefault.jpg
+    - https://i.ytimg.com/vi/dYBOBgfcTgY/mqdefault.jpg
+    - https://i.ytimg.com/vi/dYBOBgfcTgY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/dYBOBgfcTgY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 90889
+    likeCount: 1193
+    dislikeCount: 22
+    commentCount: 99
+    durationInMinutes: 34
+    publishedAtDate: 636561620270000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: ProBuilder Advanced Texturing with Manual UVs
+    url: https://www.youtube.com/watch?v=d3_2h4cN4cY
+    channelName: Unity
+    description: 
+    thumbUrls:
+    - https://i.ytimg.com/vi/d3_2h4cN4cY/sddefault.jpg
+    - https://i.ytimg.com/vi/d3_2h4cN4cY/mqdefault.jpg
+    - https://i.ytimg.com/vi/d3_2h4cN4cY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/d3_2h4cN4cY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 41656
+    likeCount: 448
+    dislikeCount: 12
+    commentCount: 24
+    durationInMinutes: 12
+    publishedAtDate: 636561620720000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Ninja Camp VI
+    url: https://www.youtube.com/watch?v=ImHA9iKNqJA
+    channelName: Unity
+    description: 'Our developers talk about the how and why of Unity''s ''Ninja Camp''
+      at Ninja Camp VI. Find out more at unity3d.com slash ninjacamp
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6cw/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ImHA9iKNqJA/sddefault.jpg
+    - https://i.ytimg.com/vi/ImHA9iKNqJA/mqdefault.jpg
+    - https://i.ytimg.com/vi/ImHA9iKNqJA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ImHA9iKNqJA/hqdefault.jpg
+    tags:
+    - ninja camp
+    - hack
+    - week
+    - unity
+    - development
+    - work
+    - jobs
+    viewCount: 1642
+    likeCount: 28
+    dislikeCount: 1
+    commentCount: 9
+    durationInMinutes: 6
+    publishedAtDate: 634746403740000000
+    publisdedDate:
+      year: 2012
+      month: 6
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Neon Challenge Community Reel
+    url: https://www.youtube.com/watch?v=1U5nEgidQjY
+    channelName: Unity
+    description: 'In just 45 days, we saw over 460 teams from 60+ countries around
+      the globe submitted their project to the Neon Challenge. With the help of the
+      Unity 2017 and the Asset Store, we challenged our community to create a real-time
+      environment inspired by Neon, a project by Veselin Efremov.
+
+
+      For more
+      information: https://on.unity.com/NeonChallengeBlog
+
+      To see all submissions:
+      http://bit.ly/NeonChallenge'
+    thumbUrls:
+    - https://i.ytimg.com/vi/1U5nEgidQjY/sddefault.jpg
+    - https://i.ytimg.com/vi/1U5nEgidQjY/mqdefault.jpg
+    - https://i.ytimg.com/vi/1U5nEgidQjY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1U5nEgidQjY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Game Art
+    - Environment Art
+    - Real Time
+    - Real-Time
+    - Contest
+    viewCount: 22620
+    likeCount: 827
+    dislikeCount: 5
+    commentCount: 45
+    durationInMinutes: 2
+    publishedAtDate: 636566627980000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Neon Challenge Announcement
+    url: https://www.youtube.com/watch?v=ZK9PI2mhuxQ
+    channelName: Unity
+    description: 'With $20,000 USD on the line, what futuristic real-time environment
+      scene will you create using the power of Unity and the Asset Store?
+
+
+      Take
+      the Neon Challenge: http://bit.ly/NeonChallenge'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZK9PI2mhuxQ/sddefault.jpg
+    - https://i.ytimg.com/vi/ZK9PI2mhuxQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZK9PI2mhuxQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZK9PI2mhuxQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 33850
+    likeCount: 500
+    dislikeCount: 10
+    commentCount: 72
+    durationInMinutes: 0
+    publishedAtDate: 636477705770000000
+    publisdedDate:
+      year: 2017
+      month: 12
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Mike Bithell at Nordic Game 2014: Making Games Small and Big in Unity'
+    url: https://www.youtube.com/watch?v=h136fhC1HIA
+    channelName: Unity
+    description: 'Mike Bithell talks Thomas Was Alone, his own programming shortcomings
+      and how he gets away with them.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V67J/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/h136fhC1HIA/sddefault.jpg
+    - https://i.ytimg.com/vi/h136fhC1HIA/mqdefault.jpg
+    - https://i.ytimg.com/vi/h136fhC1HIA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/h136fhC1HIA/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Thomas Was Alone (Award-Winning Work)
+    - Nordic Game
+    viewCount: 9839
+    likeCount: 218
+    dislikeCount: 7
+    commentCount: 14
+    durationInMinutes: 44
+    publishedAtDate: 635430370300000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Life at Unity Montreal
+    url: https://www.youtube.com/watch?v=frWd8FnwK7U
+    channelName: Unity
+    description: "Curious about Unity\u2019s enterprise culture in Montreal? Let
+      a few members of our big family give you a peek!\n\nOpen positions in Montreal:
+      https://careers.unity.com/location/montreal"
+    thumbUrls:
+    - https://i.ytimg.com/vi/frWd8FnwK7U/sddefault.jpg
+    - https://i.ytimg.com/vi/frWd8FnwK7U/mqdefault.jpg
+    - https://i.ytimg.com/vi/frWd8FnwK7U/maxresdefault.jpg
+    - https://i.ytimg.com/vi/frWd8FnwK7U/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 11355
+    likeCount: 227
+    dislikeCount: 19
+    commentCount: 16
+    durationInMinutes: 3
+    publishedAtDate: 636645345810000000
+    publisdedDate:
+      year: 2018
+      month: 6
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Learn how to use Unity with Learn Premium & Create with Code Live
+    url: https://www.youtube.com/watch?v=IKXY7uTB_Fs
+    channelName: Unity
+    description: 'To support our community during the current COVID-19 crisis, we
+      are providing 3 months of complementary access to Unity Learn Premium. We have
+      also launched Create with Code Live, a live 7-week virtual course for students,
+      teachers, and anyone else interested in using this extra time at home to learn
+      to code! Join us starting on Monday, March 23.
+
+
+      Sign in to Learn Premium
+      to access: https://ole.unity.com/LearnPremium
+
+      Check out Create with
+      Code Live: https://ole.unity.com/CreateWithCodeLive'
+    thumbUrls:
+    - https://i.ytimg.com/vi/IKXY7uTB_Fs/sddefault.jpg
+    - https://i.ytimg.com/vi/IKXY7uTB_Fs/mqdefault.jpg
+    - https://i.ytimg.com/vi/IKXY7uTB_Fs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IKXY7uTB_Fs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity learn
+    - learn unity
+    - learn unity free
+    - unity learning
+    - unity how to learn
+    - how to learn unity
+    - get better at unity
+    - learn unity to make games
+    - make games with unity
+    - how to make games in unity
+    - unity learn premium
+    - unity create with code
+    - unity3d
+    - make games in unity
+    - how to make a game in unity
+    - unity create with code live
+    - coronavirus
+    - covid 19
+    - unity announcement
+    - create with code
+    - unity
+    viewCount: 22646
+    likeCount: 971
+    dislikeCount: 32
+    commentCount: 57
+    durationInMinutes: 2
+    publishedAtDate: 637206049550000000
+    publisdedDate:
+      year: 2020
+      month: 3
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Introducing Snaps by the Asset Store
+    url: https://www.youtube.com/watch?v=UGBOU2IqrBU
+    channelName: Unity
+    description: 'Our asset library makes it a snap to bring your project to life.
+      From prototyping to production, Snaps asset packs make it quick and easy. Learn
+      more: https://unity.com/snaps'
+    thumbUrls:
+    - https://i.ytimg.com/vi/UGBOU2IqrBU/sddefault.jpg
+    - https://i.ytimg.com/vi/UGBOU2IqrBU/mqdefault.jpg
+    - https://i.ytimg.com/vi/UGBOU2IqrBU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/UGBOU2IqrBU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 16148
+    likeCount: 430
+    dislikeCount: 30
+    commentCount: 42
+    durationInMinutes: 2
+    publishedAtDate: 637015958950000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: In Development - Unity Splash Screen tools
+    url: https://www.youtube.com/watch?v=5SJ562A7V-E
+    channelName: Unity
+    description: 'A quick preview of the Splash Screen tools coming to Unity 5.5.
+      For more information and to provide feedback, please visit the Unity blog -
+
+      http://blogs.unity3d.com/2016/07/22/in-development-unity-splash-screen-tools/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6ZH/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/5SJ562A7V-E/sddefault.jpg
+    - https://i.ytimg.com/vi/5SJ562A7V-E/mqdefault.jpg
+    - https://i.ytimg.com/vi/5SJ562A7V-E/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5SJ562A7V-E/hqdefault.jpg
+    tags:
+    - unity
+    - splash screen
+    - 5.5
+    viewCount: 126459
+    likeCount: 2056
+    dislikeCount: 51
+    commentCount: 289
+    durationInMinutes: 3
+    publishedAtDate: 636048252860000000
+    publisdedDate:
+      year: 2016
+      month: 7
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Ice Bucket Challenge
+    url: https://www.youtube.com/watch?v=LfZJIS1BimU
+    channelName: Unity
+    description: 'Unity''s CEO David Helgason taking the Ice Bucket Challenge. Check
+      out http://www.alsa.org/ !
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V66w/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/LfZJIS1BimU/sddefault.jpg
+    - https://i.ytimg.com/vi/LfZJIS1BimU/mqdefault.jpg
+    - https://i.ytimg.com/vi/LfZJIS1BimU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/LfZJIS1BimU/hqdefault.jpg
+    tags:
+    - Ice Bucket Challenge
+    - IB Challenge
+    - IBC
+    - David Helgason
+    - Unity
+    - Unity3D
+    - Unity (Software)
+    viewCount: 7990
+    likeCount: 273
+    dislikeCount: 15
+    commentCount: 24
+    durationInMinutes: 2
+    publishedAtDate: 635441820530000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: How to use Play Mode tint - Unity Tips
+    url: https://www.youtube.com/watch?v=5WdzDOyBFpI
+    channelName: Unity
+    description: 'When in playmode, Unity doesn''t save changes to instances of game
+      objects in your scene. So you always need to switch off play to keep editing
+      - remind yourself to do this by tinting your editor on play.
+
+
+      Help us
+      caption & translate this video!
+
+
+      http://amara.org/v/V63y/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/5WdzDOyBFpI/sddefault.jpg
+    - https://i.ytimg.com/vi/5WdzDOyBFpI/mqdefault.jpg
+    - https://i.ytimg.com/vi/5WdzDOyBFpI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5WdzDOyBFpI/hqdefault.jpg
+    tags:
+    - unity
+    - unitytips
+    - play
+    - play mode
+    - game dev
+    - tint
+    - ux
+    viewCount: 13854
+    likeCount: 140
+    dislikeCount: 3
+    commentCount: 10
+    durationInMinutes: 0
+    publishedAtDate: 635666357220000000
+    publisdedDate:
+      year: 2015
+      month: 5
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: How to Snap objects - Unity Tips
+    url: https://www.youtube.com/watch?v=t_xxsCcM60k
+    channelName: Unity
+    description: 'Snap objects when moving, rotating or scaling by holding CTRL (PC)
+      or CMD (Mac). Also use V to snap Vertices together. Change settings for snapping
+      by choosing Edit - Snap Settings.
+
+
+      Help us caption & translate this
+      video!
+
+
+      http://amara.org/v/V63x/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/t_xxsCcM60k/sddefault.jpg
+    - https://i.ytimg.com/vi/t_xxsCcM60k/mqdefault.jpg
+    - https://i.ytimg.com/vi/t_xxsCcM60k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/t_xxsCcM60k/hqdefault.jpg
+    tags:
+    - snap
+    - snapping
+    - level design
+    - moving
+    - game objects
+    - unity
+    - unitytips
+    viewCount: 79567
+    likeCount: 491
+    dislikeCount: 31
+    commentCount: 24
+    durationInMinutes: 0
+    publishedAtDate: 635666357220000000
+    publisdedDate:
+      year: 2015
+      month: 5
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: How to access the Asset Store from the Project - Unity Tips
+    url: https://www.youtube.com/watch?v=o48ktaRDFYA
+    channelName: Unity
+    description: 'Need to find Assets fast? just use the Standard search field in
+      the Project view, and switch the location from Assets to Asset Store to reveal
+      appropriate content.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V64A/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/o48ktaRDFYA/sddefault.jpg
+    - https://i.ytimg.com/vi/o48ktaRDFYA/mqdefault.jpg
+    - https://i.ytimg.com/vi/o48ktaRDFYA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/o48ktaRDFYA/hqdefault.jpg
+    tags:
+    - unity
+    - unitytips
+    - asset store
+    - game development
+    viewCount: 11594
+    likeCount: 103
+    dislikeCount: 2
+    commentCount: 5
+    durationInMinutes: 0
+    publishedAtDate: 635666357220000000
+    publisdedDate:
+      year: 2015
+      month: 5
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Firebase - OATS Crowdfund Campaign
+    url: https://www.youtube.com/watch?v=O0583AdfxS4
+    channelName: Unity
+    description: 'Help FUND the next FIREBASE at https://fuel.oatsstudios.com
+
+
+      Neill
+      Blomkamp and his team at OATS have started work on the next installment of
+      Firebase, which leverages Unity as part of the workflow, and is entirely funded
+      by fans. Contribute to their fundraising campaign (http://fuel.oatsstudios.com)
+      so that they can make the next installment of Firebase happen!'
+    thumbUrls:
+    - https://i.ytimg.com/vi/O0583AdfxS4/sddefault.jpg
+    - https://i.ytimg.com/vi/O0583AdfxS4/mqdefault.jpg
+    - https://i.ytimg.com/vi/O0583AdfxS4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/O0583AdfxS4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 16357
+    likeCount: 583
+    dislikeCount: 17
+    commentCount: 43
+    durationInMinutes: 3
+    publishedAtDate: 636590709090000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: "Diary #5: R\xE9publique Ships on Unity 5"
+    url: https://www.youtube.com/watch?v=WBQdN5E_E_Y
+    channelName: Unity
+    description: "We document our push to launch, and how we optimized and (fingers
+      crossed) shipped a fantastic game. \nExplore all diaries including blogs &
+      podcasts at\nhttp://unity3d.com/journey-to-unity5-republique\n\nHelp us caption
+      & translate this video!\n\nhttp://amara.org/v/V646/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/WBQdN5E_E_Y/sddefault.jpg
+    - https://i.ytimg.com/vi/WBQdN5E_E_Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/WBQdN5E_E_Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WBQdN5E_E_Y/hqdefault.jpg
+    tags: []
+    viewCount: 10605
+    likeCount: 103
+    dislikeCount: 3
+    commentCount: 6
+    durationInMinutes: 4
+    publishedAtDate: 635606786780000000
+    publisdedDate:
+      year: 2015
+      month: 2
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: "Diary #2: R\xE9publique Migrates From Unity 4"
+    url: https://www.youtube.com/watch?v=55S9JrUJ39s
+    channelName: Unity
+    description: "How we moved our project from Unity 4 to Unity 5 in the midst of
+      a chaotic, 20-person project, starting with our initial investigation. \nExplore
+      all diaries including blogs & podcasts at\nhttp://unity3d.com/journey-to-unity5-republique\n\nHelp
+      us caption & translate this video!\n\nhttp://amara.org/v/V648/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/55S9JrUJ39s/sddefault.jpg
+    - https://i.ytimg.com/vi/55S9JrUJ39s/mqdefault.jpg
+    - https://i.ytimg.com/vi/55S9JrUJ39s/maxresdefault.jpg
+    - https://i.ytimg.com/vi/55S9JrUJ39s/hqdefault.jpg
+    tags: []
+    viewCount: 7241
+    likeCount: 37
+    dislikeCount: 0
+    commentCount: 4
+    durationInMinutes: 3
+    publishedAtDate: 635606785880000000
+    publisdedDate:
+      year: 2015
+      month: 2
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: "Diary #1: R\xE9publique enters the Next Gen"
+    url: https://www.youtube.com/watch?v=ttepJXAq4OE
+    channelName: Unity
+    description: "Why we are using Unity 5 to take R\xE9publique to PC.\nExplore
+      all diaries including blogs & podcasts at\nhttp://unity3d.com/journey-to-unity5-republique\n\nHelp
+      us caption & translate this video!\n\nhttp://amara.org/v/V649/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ttepJXAq4OE/sddefault.jpg
+    - https://i.ytimg.com/vi/ttepJXAq4OE/mqdefault.jpg
+    - https://i.ytimg.com/vi/ttepJXAq4OE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ttepJXAq4OE/hqdefault.jpg
+    tags: []
+    viewCount: 16550
+    likeCount: 73
+    dislikeCount: 4
+    commentCount: 3
+    durationInMinutes: 3
+    publishedAtDate: 635606785500000000
+    publisdedDate:
+      year: 2015
+      month: 2
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Creator Series: Why Do You Create?'
+    url: https://www.youtube.com/watch?v=mwnWCyuG-Xc
+    channelName: Unity
+    description: 'The Unity creator series is a series of short videos that showcase
+      and explore our creators and celebrate creation as a lifestyle.
+
+
+      www.unity3d.com'
+    thumbUrls:
+    - https://i.ytimg.com/vi/mwnWCyuG-Xc/sddefault.jpg
+    - https://i.ytimg.com/vi/mwnWCyuG-Xc/mqdefault.jpg
+    - https://i.ytimg.com/vi/mwnWCyuG-Xc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/mwnWCyuG-Xc/hqdefault.jpg
+    tags:
+    - unity
+    - games
+    - dev
+    - game
+    - creator
+    viewCount: 6180
+    likeCount: 168
+    dislikeCount: 22
+    commentCount: 13
+    durationInMinutes: 0
+    publishedAtDate: 636362813360000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Creator Series: When Is It Finished?'
+    url: https://www.youtube.com/watch?v=T_jktUl54Bs
+    channelName: Unity
+    description: 'The Unity creator series is a series of short videos that showcase
+      and explore our creators and celebrate creation as a lifestyle.
+
+
+      www.unity3d.com'
+    thumbUrls:
+    - https://i.ytimg.com/vi/T_jktUl54Bs/sddefault.jpg
+    - https://i.ytimg.com/vi/T_jktUl54Bs/mqdefault.jpg
+    - https://i.ytimg.com/vi/T_jktUl54Bs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/T_jktUl54Bs/hqdefault.jpg
+    tags:
+    - unity
+    - creator
+    - game
+    - dev
+    - games
+    - video
+    viewCount: 6566
+    likeCount: 200
+    dislikeCount: 14
+    commentCount: 19
+    durationInMinutes: 0
+    publishedAtDate: 636377689370000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Creator Series: When Did It Start?'
+    url: https://www.youtube.com/watch?v=zG2fqxJtZLQ
+    channelName: Unity
+    description: 'The Unity creator series is a series of short videos that showcase
+      and explore our creators and celebrate creation as a lifestyle.
+
+
+      www.unity3d.com'
+    thumbUrls:
+    - https://i.ytimg.com/vi/zG2fqxJtZLQ/sddefault.jpg
+    - https://i.ytimg.com/vi/zG2fqxJtZLQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/zG2fqxJtZLQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/zG2fqxJtZLQ/hqdefault.jpg
+    tags:
+    - unity
+    - creator
+    - game
+    - dev
+    - games
+    - video
+    viewCount: 6296
+    likeCount: 143
+    dislikeCount: 22
+    commentCount: 17
+    durationInMinutes: 0
+    publishedAtDate: 636362814470000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: "Capture your audience\u2019s imagination with immersive experiences"
+    url: https://www.youtube.com/watch?v=0dQqUQ1sBso
+    channelName: Unity
+    description: "Cutting-edge real-time 3D technology creates immersive experiences
+      that reach and captivate your audiences.\n\nCapture your audience\u2019s imagination:
+      \nhttps://on.unity.com/2Kbi8Xb"
+    thumbUrls:
+    - https://i.ytimg.com/vi/0dQqUQ1sBso/sddefault.jpg
+    - https://i.ytimg.com/vi/0dQqUQ1sBso/mqdefault.jpg
+    - https://i.ytimg.com/vi/0dQqUQ1sBso/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0dQqUQ1sBso/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - XR
+    - AR
+    - VR
+    viewCount: 5543
+    likeCount: 175
+    dislikeCount: 17
+    commentCount: 12
+    durationInMinutes: 1
+    publishedAtDate: 636965780610000000
+    publisdedDate:
+      year: 2019
+      month: 6
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: Building Trailblazers with the Unity Asset Store
+    url: https://www.youtube.com/watch?v=xJcCAxxBbeg
+    channelName: Unity
+    description: 'Get a behind-the-scenes look at how the colorful blazing racer
+      Trailblazers was created using powerful assets from the Unity Asset Store.
+      From implementing controller support with InControl to implementing spline
+      solutions with Curvy Splines, you''ll learn how the Asset Store can help save
+      you precious so you can focus on what you care about most.
+
+
+      Find powerful
+      assets to help you produce your next project on the Asset Store: https://www.assetstore.unity3d.com/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/xJcCAxxBbeg/sddefault.jpg
+    - https://i.ytimg.com/vi/xJcCAxxBbeg/mqdefault.jpg
+    - https://i.ytimg.com/vi/xJcCAxxBbeg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xJcCAxxBbeg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Asset Store
+    - Trailblazers
+    viewCount: 1038
+    likeCount: 30
+    dislikeCount: 0
+    commentCount: 3
+    durationInMinutes: 1
+    publishedAtDate: 636777700640000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 14
+    YouTubeDataAPI_Cooked: 1

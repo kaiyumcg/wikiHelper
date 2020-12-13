@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 731d7ca5cab79ed47be8ba4cd387da8c, type: 3}
+  m_Name: Submission
+  m_EditorClassIdentifier: 
+  categoryName: Submission
+  showUI: 1
+  StrOpShow: 1
+  IntOpShow: 0
+  DurationAndDateOpShow: 0
+  OutputOptionShow: 1
+  titleOp:
+    use: 1
+    defAssets:
+    - {fileID: 4900000, guid: b8708c3d4e4745941a2d8582e3274fe0, type: 3}
+  descriptionOp:
+    use: 1
+    defAssets:
+    - {fileID: 4900000, guid: b8708c3d4e4745941a2d8582e3274fe0, type: 3}
+  tagOp:
+    use: 0
+    defAssets:
+    - {fileID: 4900000, guid: b8708c3d4e4745941a2d8582e3274fe0, type: 3}
+  viewCountOp:
+    use: 0
+    comparison: 0
+    mode: 0
+    betweenMode: 0
+    target: 0
+    targetMin: 0
+    targetMax: 0
+  likeCountOp:
+    use: 0
+    comparison: 0
+    mode: 0
+    betweenMode: 0
+    target: 0
+    targetMin: 0
+    targetMax: 0
+  dislikeCountOp:
+    use: 0
+    comparison: 0
+    mode: 0
+    betweenMode: 0
+    target: 0
+    targetMin: 0
+    targetMax: 0
+  commentCountOp:
+    use: 0
+    comparison: 0
+    mode: 0
+    betweenMode: 0
+    target: 0
+    targetMin: 0
+    targetMax: 0
+  durationOp:
+    use: 0
+    comparison: 0
+    mode: 0
+    betweenMode: 0
+    target: 0
+    targetMin: 0
+    targetMax: 0
+  pubDateOp:
+    use: 0
+    target: 0
+    startDate:
+      year: 0
+      month: 0
+      day: 0
+    endDate:
+      year: 0
+      month: 0
+      day: 0
+    scale: 0
+    mode: 0
+  videoData: {fileID: 11400000, guid: 09eb7e66cd6ec5444aaeb173d82c1572, type: 2}
+  totalMinutes: 3437
+  totalVideoCount: 296
+  averageVideoDuration: 11
+  medianVideoDuration: 5
+  frequentVideoDuration: 1
+  sortMode: 0
+  AscendingOrder: 0
+  htmlPrintOptions:
+    publishedYearInHtml: 1
+    durationInHtml: 1
+    showThumbnailInHtml: 0
+    viewCountInHtml: 1
+    likeCountInHtml: 1
+    dislikeCountInHtml: 1
+    commentCountInHtml: 1

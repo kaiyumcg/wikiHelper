@@ -11,7 +11,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
     public class StringAndCaseDesc
     {
         public string str;
-        public bool caseSensitive, matchExactPhraseOrSentence;
+        public bool caseSensitive, matchExactPhraseOrSentence,useDeepSearch;
     }
 
     [System.Serializable]
@@ -28,36 +28,21 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 for (int i = 0; i < strList.Length; i++)
                 {
                     if (strList[i] == null || string.IsNullOrEmpty(strList[i].str)) { continue; }
-                    if (strList[i].matchExactPhraseOrSentence)
+                    bool isIt = str.IsRelatableWith(strList[i].str, strList[i].caseSensitive,
+                        strList[i].matchExactPhraseOrSentence, strList[i].useDeepSearch);
+                    if (isIt)
                     {
-                        if (strList[i].caseSensitive)
-                        {
-                            if (strList[i].str == str) { relatable = true; break; }
-                        }
-                        else
-                        {
-                            if (string.Equals(strList[i].str, str, StringComparison.OrdinalIgnoreCase)) { relatable = true; break; }
-                        }
-                    }
-                    else
-                    {
-                        if (strList[i].caseSensitive)
-                        {
-                            if (str.Contains(strList[i].str)) { relatable = true; break; }
-                        }
-                        else
-                        {
-                            if (str.Contains_IgnoreCase(strList[i].str)) { relatable = true; break; }
-                        }
+                        relatable = true;
+                        break;
                     }
                 }
             }
             return relatable;
         }
 
-        public bool IsPassed(string str)
+        public bool IsPassed(string str, ref bool blacklistFailure, ref bool whitelistFailure)
         {
-            if (!use || defAssets == null || defAssets.Length == 0) { return true; }
+            if (defAssets == null || defAssets.Length == 0) { return true; }
             bool passed = false;
             if (string.IsNullOrEmpty(str) == false)
             {
@@ -67,10 +52,10 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     if (a == null) { continue; }
                     strSoup += a.text + Environment.NewLine;
                 }
-                StringAndCaseDesc[] blacklist = null, whitelist = null;
-                Utility.GetBlackWhitelist(strSoup, ref blacklist, ref whitelist);
+                StringAndCaseDesc[] blacklist = null, whitelist = null, blacklist2 = null, whitelist2 = null;
+                Utility.GetBlackWhitelist(strSoup, ref blacklist, ref whitelist, ref blacklist2, ref whitelist2);
 
-                
+                //order of execution is important!
                 if (whitelist != null && whitelist.Length > 0)
                 {
                     if (IsRelatableWithAnyInList(str, whitelist))
@@ -84,6 +69,28 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     if (IsRelatableWithAnyInList(str, blacklist))
                     {
                         passed = false;
+                        blacklistFailure = true;
+                    }
+                }
+
+                if (passed)
+                {
+                    if (whitelist2 != null && whitelist2.Length > 0)
+                    {
+                        if (!IsRelatableWithAnyInList(str, whitelist2))
+                        {
+                            passed = false;
+                            whitelistFailure = true;
+                        }
+                    }
+                }
+
+                if (blacklist2 != null && blacklist2.Length > 0)
+                {
+                    if (IsRelatableWithAnyInList(str, blacklist2))
+                    {
+                        passed = false;
+                        blacklistFailure = true;
                     }
                 }
             }
@@ -92,16 +99,16 @@ namespace com.rvkm.unitygames.YouTubeSearch
         }
 
 
-        public bool IsPassed(string[] strs)
+        public bool IsPassed(string[] strs, ref bool failedDueToFoundBlacklist, ref bool failedDueToNotFoundInWhitelist)
         {
-            if (!use || defAssets == null || defAssets.Length == 0) { return true; }
+            if (defAssets == null || defAssets.Length == 0) { return true; }
             bool isPassed = false;
             if (strs != null && strs.Length > 0)
             {
                 foreach (var str in strs)
                 {
                     if (string.IsNullOrEmpty(str)) { continue; }
-                    if (IsPassed(str)) 
+                    if (IsPassed(str, ref failedDueToFoundBlacklist, ref failedDueToNotFoundInWhitelist)) 
                     {
                         isPassed = true;
                         break;
@@ -128,7 +135,6 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
         public bool IsPassed(int Value)
         {
-            if (!use) { return true; }
             bool passed = false;
 
             if (mode == IntSearchCompMode.SingleTarget)
@@ -166,7 +172,6 @@ namespace com.rvkm.unitygames.YouTubeSearch
         
         public bool IsPassed(long dateTick)
         {
-            if (!use) { return true; }
             bool passed = false;
             if (dateTick > 0)
             {

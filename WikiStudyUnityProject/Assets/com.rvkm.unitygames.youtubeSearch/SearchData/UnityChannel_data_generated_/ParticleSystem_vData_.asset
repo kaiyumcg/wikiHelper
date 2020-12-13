@@ -12,6 +12,1657 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: ParticleSystem_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: ParticleSystem
+  allVideos:
+  - title: Visual Effects With Particle Systems - Particle Question and Answer [8/8]
+      Live 2017/1/23
+    url: https://www.youtube.com/watch?v=2T64IMDfOnA
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/particle-question-and-answers
+
+      In
+      this Live Training Session, we will look at creating visual effects for games
+      using Particle Systems. The techniques we will learn include using trail effects,
+      adding noise to Particle Systems and creating particles which shed light on
+      the scene. We will be using content from the Unity Particle Pack which is available
+      as a free download from the Unity Asset Store.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/2T64IMDfOnA/sddefault.jpg
+    - https://i.ytimg.com/vi/2T64IMDfOnA/mqdefault.jpg
+    - https://i.ytimg.com/vi/2T64IMDfOnA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2T64IMDfOnA/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - particles
+    - particle system
+    - fire
+    - sparks
+    - game development
+    - gamedev
+    - live training
+    - noise
+    - emitter
+    - particle trail
+    - particle noise
+    - particle texture
+    - flame texture
+    viewCount: 9967
+    likeCount: 95
+    dislikeCount: 3
+    commentCount: 10
+    durationInMinutes: 21
+    publishedAtDate: 636211583560000000
+    publisdedDate:
+      year: 2017
+      month: 1
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Visual Effects With Particle Systems - Particle Emission and Color [3/8]
+      Live 2017/1/23 -
+    url: https://www.youtube.com/watch?v=WmZmMdjQ0j0
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/particle-emission-and-color
+
+
+      In
+      this Live Training Session, we will look at creating visual effects for games
+      using Particle Systems. The techniques we will learn include using trail effects,
+      adding noise to Particle Systems and creating particles which shed light on
+      the scene. We will be using content from the Unity Particle Pack which is available
+      as a free download from the Unity Asset Store.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/WmZmMdjQ0j0/sddefault.jpg
+    - https://i.ytimg.com/vi/WmZmMdjQ0j0/mqdefault.jpg
+    - https://i.ytimg.com/vi/WmZmMdjQ0j0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WmZmMdjQ0j0/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - particles
+    - particle system
+    - fire
+    - sparks
+    - game development
+    - gamedev
+    - live training
+    - noise
+    - emitter
+    - particle trail
+    - particle noise
+    - particle texture
+    viewCount: 14918
+    likeCount: 84
+    dislikeCount: 4
+    commentCount: 4
+    durationInMinutes: 12
+    publishedAtDate: 636215934220000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Visual Effects With Particle Systems - Overview and Goals [1/8] Live 2017/1/23
+      -
+    url: https://www.youtube.com/watch?v=_cAf5jMqZyM
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/introduction-and-goals
+
+      In
+      this Live Training Session, we will look at creating visual effects for games
+      using Particle Systems. The techniques we will learn include using trail effects,
+      adding noise to Particle Systems and creating particles which shed light on
+      the scene. We will be using content from the Unity Particle Pack which is available
+      as a free download from the Unity Asset Store.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/_cAf5jMqZyM/sddefault.jpg
+    - https://i.ytimg.com/vi/_cAf5jMqZyM/mqdefault.jpg
+    - https://i.ytimg.com/vi/_cAf5jMqZyM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/_cAf5jMqZyM/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - particles
+    - particle system
+    - fire
+    - sparks
+    - game development
+    - gamedev
+    - live training
+    - noise
+    - emitter
+    - particle trail
+    - particle noise
+    - particle texture
+    viewCount: 44018
+    likeCount: 395
+    dislikeCount: 10
+    commentCount: 20
+    durationInMinutes: 9
+    publishedAtDate: 636215934230000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Visual Effects With Particle Systems - Flame Particles Overview [2/8]
+      Live 2017/1/23 -
+    url: https://www.youtube.com/watch?v=AIDBOaAhigo
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/flame-particles-overview
+
+      In
+      this Live Training Session, we will look at creating visual effects for games
+      using Particle Systems. The techniques we will learn include using trail effects,
+      adding noise to Particle Systems and creating particles which shed light on
+      the scene. We will be using content from the Unity Particle Pack which is available
+      as a free download from the Unity Asset Store.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/AIDBOaAhigo/sddefault.jpg
+    - https://i.ytimg.com/vi/AIDBOaAhigo/mqdefault.jpg
+    - https://i.ytimg.com/vi/AIDBOaAhigo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/AIDBOaAhigo/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - particles
+    - particle system
+    - fire
+    - sparks
+    - game development
+    - gamedev
+    - live training
+    - noise
+    - emitter
+    - particle trail
+    - particle noise
+    - particle texture
+    viewCount: 20917
+    likeCount: 156
+    dislikeCount: 7
+    commentCount: 6
+    durationInMinutes: 5
+    publishedAtDate: 636215934230000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Visual Effects With Particle Systems - Adding Movement To Particles w/
+      Noise [4/8] Live 2017/1/23 -
+    url: https://www.youtube.com/watch?v=bVU6OmyUBFw
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/adding-movement-particles-noise
+
+      In
+      this Live Training Session, we will look at creating visual effects for games
+      using Particle Systems. The techniques we will learn include using trail effects,
+      adding noise to Particle Systems and creating particles which shed light on
+      the scene. We will be using content from the Unity Particle Pack which is available
+      as a free download from the Unity Asset Store.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/bVU6OmyUBFw/sddefault.jpg
+    - https://i.ytimg.com/vi/bVU6OmyUBFw/mqdefault.jpg
+    - https://i.ytimg.com/vi/bVU6OmyUBFw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/bVU6OmyUBFw/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - particles
+    - particle system
+    - fire
+    - sparks
+    - game development
+    - gamedev
+    - live training
+    - noise
+    - emitter
+    - particle trail
+    - particle noise
+    - particle texture
+    viewCount: 14715
+    likeCount: 88
+    dislikeCount: 4
+    commentCount: 5
+    durationInMinutes: 16
+    publishedAtDate: 636215934220000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Visual Effects With Particle Systems -  Creating The Ember Particles [5/8]
+      Live 2017/1/23 -
+    url: https://www.youtube.com/watch?v=-Fhq_iKujpE
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/creating-ember-particles
+
+
+      In
+      this Live Training Session, we will look at creating visual effects for games
+      using Particle Systems. The techniques we will learn include using trail effects,
+      adding noise to Particle Systems and creating particles which shed light on
+      the scene. We will be using content from the Unity Particle Pack which is available
+      as a free download from the Unity Asset Store.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/-Fhq_iKujpE/sddefault.jpg
+    - https://i.ytimg.com/vi/-Fhq_iKujpE/mqdefault.jpg
+    - https://i.ytimg.com/vi/-Fhq_iKujpE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-Fhq_iKujpE/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - particles
+    - particle system
+    - fire
+    - sparks
+    - game development
+    - gamedev
+    - live training
+    - noise
+    - emitter
+    - particle trail
+    - particle noise
+    - particle texture
+    viewCount: 11097
+    likeCount: 88
+    dislikeCount: 3
+    commentCount: 3
+    durationInMinutes: 11
+    publishedAtDate: 636215934210000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Visual Effects With Particle Systems -  Creating Sparks With Particle
+      Trails [7/8] Live 2017/1/23
+    url: https://www.youtube.com/watch?v=yhXGAb7ku8M
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/creating-sparks-particle-trails
+
+
+      In
+      this Live Training Session, we will look at creating visual effects for games
+      using Particle Systems. The techniques we will learn include using trail effects,
+      adding noise to Particle Systems and creating particles which shed light on
+      the scene. We will be using content from the Unity Particle Pack which is available
+      as a free download from the Unity Asset Store.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/yhXGAb7ku8M/sddefault.jpg
+    - https://i.ytimg.com/vi/yhXGAb7ku8M/mqdefault.jpg
+    - https://i.ytimg.com/vi/yhXGAb7ku8M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/yhXGAb7ku8M/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - particles
+    - particle system
+    - fire
+    - sparks
+    - game development
+    - gamedev
+    - live training
+    - noise
+    - emitter
+    - particle trail
+    - particle noise
+    - particle texture
+    - flame texture
+    viewCount: 13909
+    likeCount: 97
+    dislikeCount: 2
+    commentCount: 4
+    durationInMinutes: 11
+    publishedAtDate: 636211583550000000
+    publisdedDate:
+      year: 2017
+      month: 1
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Visual Effects With Particle Systems -  Adding Lighting To Particles [6/8]
+      Live 2017/1/23
+    url: https://www.youtube.com/watch?v=6g0msIWyOI8
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/graphics/adding-lighting-particles
+
+
+      In
+      this Live Training Session, we will look at creating visual effects for games
+      using Particle Systems. The techniques we will learn include using trail effects,
+      adding noise to Particle Systems and creating particles which shed light on
+      the scene. We will be using content from the Unity Particle Pack which is available
+      as a free download from the Unity Asset Store.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/6g0msIWyOI8/sddefault.jpg
+    - https://i.ytimg.com/vi/6g0msIWyOI8/mqdefault.jpg
+    - https://i.ytimg.com/vi/6g0msIWyOI8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/6g0msIWyOI8/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - particles
+    - particle system
+    - fire
+    - sparks
+    - game development
+    - gamedev
+    - live training
+    - noise
+    - emitter
+    - particle trail
+    - particle noise
+    - particle texture
+    - flame texture
+    viewCount: 23451
+    likeCount: 160
+    dislikeCount: 5
+    commentCount: 8
+    durationInMinutes: 10
+    publishedAtDate: 636211583550000000
+    publisdedDate:
+      year: 2017
+      month: 1
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Visual Effect Graph - Realtime visual effects In Unity 2018.3
+    url: https://www.youtube.com/watch?v=SUZzJcBIK80
+    channelName: Unity
+    description: "Learn more: https://ole.unity.com/vfxgraphoverview\nGetting started
+      blog post: https://blogs.unity3d.com/2018/11/27/creating-explosive-visuals-with-the-visual-effect-graph/\n\nUnity
+      2018.3's VFX Graph gives creators greater flexibility and power in their visual
+      effects. Inspired by leading tools for film visual effects software to provide
+      node-based effects, and adapted features for Real-Time Visual Effects. Visual
+      Effects Graph allows the creation of GPU simulated particle systems powered
+      by computer shaders allowing you to create complex simulations with millions
+      of particles, all in real-time. It\u2019s available in preview as part of Unity
+      2018.3."
+    thumbUrls:
+    - https://i.ytimg.com/vi/SUZzJcBIK80/sddefault.jpg
+    - https://i.ytimg.com/vi/SUZzJcBIK80/mqdefault.jpg
+    - https://i.ytimg.com/vi/SUZzJcBIK80/maxresdefault.jpg
+    - https://i.ytimg.com/vi/SUZzJcBIK80/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - sidefx houdini
+    - houdini
+    - sidefx
+    - particles
+    - gpu particles
+    - gpu particles unity
+    - compute
+    - compute shader
+    - unity particle optimization
+    - particle swarm
+    - particle system
+    - after effects
+    - blender
+    - unity
+    - tutorial
+    - unity 3d
+    - vfx
+    - vfx graph
+    - visual effects graph
+    - realtime visual effects
+    - vfx in unity
+    - visual effects unity
+    - visual effects
+    - particle simulation
+    - particle simulation gpu
+    viewCount: 188494
+    likeCount: 3106
+    dislikeCount: 39
+    commentCount: 118
+    durationInMinutes: 4
+    publishedAtDate: 636759986700000000
+    publisdedDate:
+      year: 2018
+      month: 10
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Particle Pack
+    url: https://www.youtube.com/watch?v=mAHIKxu7pnw
+    channelName: Unity
+    description: 'Explore the newest version of our popular particle pack. FREE to
+      download from here: https://on.unity.com/2PEZXbl
+
+
+      A collection of sample
+      particle assets to use in your projects. Learn how to achieve certain effects
+      using the Unity Particle System component and modules. You''ll find fire, explosions,
+      ice, dissolves and other awesome effects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/mAHIKxu7pnw/sddefault.jpg
+    - https://i.ytimg.com/vi/mAHIKxu7pnw/mqdefault.jpg
+    - https://i.ytimg.com/vi/mAHIKxu7pnw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/mAHIKxu7pnw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - particles
+    viewCount: 94917
+    likeCount: 2623
+    dislikeCount: 18
+    commentCount: 165
+    durationInMinutes: 1
+    publishedAtDate: 636716815620000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 4.2 - Particle Collision callbacks
+    url: https://www.youtube.com/watch?v=mafqOj3bwgs
+    channelName: Unity
+    description: 'New in Unity 4.2, Particle Collision callbacks, allowing you to
+      detect individual particle collisions in code. In this example we''re using
+      collisions of the raindrop particles to add force to a hinged lid and to put
+      out a fire by suppressing the output of its own particle system.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6bB/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/mafqOj3bwgs/sddefault.jpg
+    - https://i.ytimg.com/vi/mafqOj3bwgs/mqdefault.jpg
+    - https://i.ytimg.com/vi/mafqOj3bwgs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/mafqOj3bwgs/hqdefault.jpg
+    tags:
+    - particle callbacks
+    - particle collision
+    - unity
+    - unity3d
+    - unity4
+    - 4.2
+    - Unity (Software)
+    viewCount: 55598
+    likeCount: 570
+    dislikeCount: 4
+    commentCount: 78
+    durationInMinutes: 0
+    publishedAtDate: 635101256610000000
+    publisdedDate:
+      year: 2013
+      month: 7
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Spaceship VFX Graph Breakdown!
+    url: https://www.youtube.com/watch?v=fPQq_dpxKS0
+    channelName: Unity
+    description: 'The node-base effects in Visual Effects Graph enable you to create
+      amazing VFX in real-time! In this demo project, there are plenty of examples
+      showing the variety of effects you can achieve with this tool!
+
+
+      https://ole.unity.com/unityspaceship
+
+
+      Visual
+      Effect Graph empowers you to author next-generation visual effects through
+      its node-based behaviors and GPU-based compute power.
+
+
+
+      https://unity.com/visual-effect-graph
+
+
+      https://blogs.unity3d.com/2019/08/19/now-available-the-spaceship-demo-project-using-vfx-graph-and-high-definition-render-pipeline/
+
+
+      https://blogs.unity3d.com/2019/03/06/visual-effect-graph-samples/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/fPQq_dpxKS0/sddefault.jpg
+    - https://i.ytimg.com/vi/fPQq_dpxKS0/mqdefault.jpg
+    - https://i.ytimg.com/vi/fPQq_dpxKS0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/fPQq_dpxKS0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2019
+    - unity engine vfx
+    - vfx graph unity
+    - vfx graphics
+    - vfx graph tutorial
+    - vfx graph unity tutorial
+    - vfx graphic design
+    - vfx graphic smoke
+    - vfx graph explosion
+    - unity vfx graph demo
+    - vfx graph in unity
+    - vfx
+    - game vfx
+    viewCount: 15993
+    likeCount: 494
+    dislikeCount: 10
+    commentCount: 33
+    durationInMinutes: 6
+    publishedAtDate: 637077204060000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Pixel Perfect Lights and Particles in Unity! (Tutorial)
+    url: https://www.youtube.com/watch?v=2qeNu2QApAM
+    channelName: Unity
+    description: "In this video, we are going to demonstrate how you can use the
+      Universal Render Pipelines 2D Renderer and 2D Lights to create Pixel Perfect
+      Lights and Particles.\n\nDownload the assets from this project here!\nhttps://on.unity.com/3mVQptT\n\nLearn
+      more about the Universal Render Pipeline here!\nhttps://on.unity.com/33boIFD\n\nRead
+      more about our 2D Lights here!\nhttps://on.unity.com/339Rdna \n\nAnd finally,
+      here you can find more Information about the 2D Renderer!\nhttps://on.unity.com/3457WqH
+      \n\nUnity Version used 2019.4"
+    thumbUrls:
+    - https://i.ytimg.com/vi/2qeNu2QApAM/sddefault.jpg
+    - https://i.ytimg.com/vi/2qeNu2QApAM/mqdefault.jpg
+    - https://i.ytimg.com/vi/2qeNu2QApAM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2qeNu2QApAM/hqdefault.jpg
+    tags:
+    - Unity
+    - unity3d
+    - unity technologies
+    - unity tutorial
+    - unity game development
+    - game dev
+    - pixel perfect rendering
+    - rendering in unity
+    - pixel perfect unity
+    - pixel art unity
+    - pixel perfect lights in unity
+    - unity 2d game develop
+    - unity2d
+    - 2d game dev
+    - unity 2d lights
+    - lighting in 2d game unity
+    - pixel perfect particles
+    - particles unity
+    - particles 2d
+    - 2d renderer
+    - 2d lights
+    - 2d lights in unity
+    - 2d renderer in unity
+    - pixel perfect camera
+    viewCount: 37192
+    likeCount: 1689
+    dislikeCount: 11
+    commentCount: 105
+    durationInMinutes: 8
+    publishedAtDate: 637369173010000000
+    publisdedDate:
+      year: 2020
+      month: 9
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Multi Layered Effects with Visual Effect Graph in Unity! (Tutorial)
+    url: https://www.youtube.com/watch?v=UybzSIUlzC0
+    channelName: Unity
+    description: 'The VFX Graph allows us to create stunning and performant visual
+      effects in Unity with a simple to use visual tool. In this video, we''re taking
+      a closer look at the Visual Effect Graph in Unity 2019.3, and will be exploring
+      fundamental ideas and concepts to help you get started designing visual effects
+      in Unity!
+
+
+      Learn more about the Visual Effect Graph here!
+
+      https://on.unity.com/33CcSok'
+    thumbUrls:
+    - https://i.ytimg.com/vi/UybzSIUlzC0/sddefault.jpg
+    - https://i.ytimg.com/vi/UybzSIUlzC0/mqdefault.jpg
+    - https://i.ytimg.com/vi/UybzSIUlzC0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/UybzSIUlzC0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity vfx
+    - unity vfx graph
+    - unity visual effects
+    - unity visual effect
+    - unity visual effects graph
+    - unity vfx graph tutorial
+    - unity vfx tutorial
+    - unity vfx tutorials
+    - unity how to create visual effects
+    - unity game development
+    - unity 3d vfx
+    - unity space
+    - unity vfx layer
+    - unity layer
+    - unity 2019.3
+    - unity 2020
+    - gamedev
+    - unity make games
+    - unity tutorial
+    - unity visual effect graph
+    - visual effect
+    viewCount: 26787
+    likeCount: 879
+    dislikeCount: 20
+    commentCount: 60
+    durationInMinutes: 8
+    publishedAtDate: 637324466080000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Making Timed Visual Effects in Unity 2019! (Tutorial)
+    url: https://www.youtube.com/watch?v=eWVJpHnU0SY
+    channelName: Unity
+    description: 'In this video we will learn how to control visual effects from
+      Unity''s Spaceship demo using Timeline. Click here to download the demo project:
+      https://ole.unity.com/unityspaceship'
+    thumbUrls:
+    - https://i.ytimg.com/vi/eWVJpHnU0SY/sddefault.jpg
+    - https://i.ytimg.com/vi/eWVJpHnU0SY/mqdefault.jpg
+    - https://i.ytimg.com/vi/eWVJpHnU0SY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/eWVJpHnU0SY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity vfx
+    - unity vfx timeline
+    - unity visual effect
+    - unity visual effect tutorial
+    - learn unity
+    - unity visuals
+    - unity graphics
+    - unity fire
+    - unity fire effect
+    - unity galaxy
+    - unity planet
+    - unity vfx graph
+    - unity vfx graph tutorial
+    - unity 2019
+    - unity easy
+    - unity making visual effects
+    - unity vfx graph 2019
+    - unity 2019 tutorial
+    - unity 2019 beginner
+    - unity 2019 demo
+    - unity spaceship demo
+    - spaceship
+    viewCount: 23629
+    likeCount: 615
+    dislikeCount: 8
+    commentCount: 19
+    durationInMinutes: 5
+    publishedAtDate: 637089372080000000
+    publisdedDate:
+      year: 2019
+      month: 11
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Making an RPG Game in Unity with the Asset Store!
+    url: https://www.youtube.com/watch?v=_6vfzZqnpSE
+    channelName: Unity
+    description: "How do you make an RPG Game in Unity? Well look no further, because
+      in this video we create an RPG Battle scene using assets from the Unity Asset
+      Store including player and enemy models, UI, particle effects, sky and background
+      scenery. \n\nHere you can see how we quickly bring together multiple asset
+      packages to add some art to our battle code quickly and easily and get our
+      game looking good without having an artist on our team.\n\nHere are the assets
+      we used in the video:\n\nPriestess character: https://ole.unity.com/Priestess\nFog
+      Volume 3: https://ole.unity.com/FogVolume3\nHeroic Fantasty Creatures Pack:
+      https://ole.unity.com/HeroicFantasyCreatures\nNature Manufacture: https://ole.unity.com/NatureManufacture\nRPG
+      & MMO UI: https://ole.unity.com/RPG-UI\nReal Effects Pack 3: https://ole.unity.com/RealEffectsPack"
+    thumbUrls:
+    - https://i.ytimg.com/vi/_6vfzZqnpSE/sddefault.jpg
+    - https://i.ytimg.com/vi/_6vfzZqnpSE/mqdefault.jpg
+    - https://i.ytimg.com/vi/_6vfzZqnpSE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/_6vfzZqnpSE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity make a game
+    - how to make games in unity
+    - how to make game in unity
+    - how to make games with unity
+    - unity devlog
+    - unity game devlog
+    - unity dev log
+    - unity rpg game tutorial
+    - unity rpg game
+    - unity make an rpg
+    - make rpg game
+    - unity
+    - unity 2020
+    - unity 2019
+    - unity asset store
+    - unity top assets
+    - unity great assets
+    - unity assets
+    - unity rpg tutorial
+    viewCount: 40589
+    likeCount: 780
+    dislikeCount: 126
+    commentCount: 52
+    durationInMinutes: 5
+    publishedAtDate: 637111616850000000
+    publisdedDate:
+      year: 2019
+      month: 12
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Hex Grid Movement with Tilemap in Unity! (Tutorial)
+    url: https://www.youtube.com/watch?v=bcPqdCSGCls
+    channelName: Unity
+    description: "In this video learn how to get started with Hexagonal shaped Tilemaps.
+      Hex grid movement is popular in many types of strategy games. Here we've provided
+      a set of free hex tile sprites and a C# script to allow you to get started
+      moving around on the hex grid. As a bonus we've also included a hex based fog
+      of war effect which is cleared as the player moves around the map.\n\nDownload
+      the free example project here to try it out for yourself: https://learn.unity.com/tutorial/working-with-hexagonal-and-isometric-tile-shapes?tab=materials\n\nContinue
+      learning about Tilemaps on Unity's official learning platform: https://on.unity.com/2PfhWX1
+      \n\nContinue learning about hexagonal and isometric tile shapes with this tutorial:
+      https://on.unity.com/2rUNk59"
+    thumbUrls:
+    - https://i.ytimg.com/vi/bcPqdCSGCls/sddefault.jpg
+    - https://i.ytimg.com/vi/bcPqdCSGCls/mqdefault.jpg
+    - https://i.ytimg.com/vi/bcPqdCSGCls/maxresdefault.jpg
+    - https://i.ytimg.com/vi/bcPqdCSGCls/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2019.3
+    - unity 3d
+    - unity
+    - unity game engine
+    - unity hex grid tutorial
+    - unity hex grid
+    - unity 2d hex grid
+    - hex grid unity
+    - unity hex grid movement
+    - unity 2d
+    - unity topdown
+    - unity3d
+    - asset
+    - hex
+    - tilemap
+    - tilemap unity
+    - fog of war
+    - sprite
+    - hex sprite
+    - free assets
+    viewCount: 57442
+    likeCount: 1223
+    dislikeCount: 23
+    commentCount: 55
+    durationInMinutes: 6
+    publishedAtDate: 637107516110000000
+    publisdedDate:
+      year: 2019
+      month: 11
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Controlling Particles Via Script - Random Particle Colors [6/11] Live
+      2017/2/8
+    url: https://www.youtube.com/watch?v=x_5kjuMLeJQ
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/random-particle-colors
+
+
+      In
+      this live training session you will learn how to control particle systems at
+      runtime via script, how to use collision messages from particles to drive gameplay
+      and how to render decal style effects using particles.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/x_5kjuMLeJQ/sddefault.jpg
+    - https://i.ytimg.com/vi/x_5kjuMLeJQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/x_5kjuMLeJQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/x_5kjuMLeJQ/hqdefault.jpg
+    tags:
+    - particles
+    - decals
+    - emit
+    - emission
+    - tutorial
+    - unity
+    - unity3d
+    - live training
+    - particle scripting
+    - splatter
+    - splatoon
+    - particle collision
+    - onparticlecollision
+    viewCount: 14140
+    likeCount: 104
+    dislikeCount: 1
+    commentCount: 10
+    durationInMinutes: 5
+    publishedAtDate: 636227114030000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Controlling Particles Via Script - Questions and Answers [11/11] Live
+      2017/2/8
+    url: https://www.youtube.com/watch?v=KIA7sndsHJ0
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/questions-and-answers?playlist=17117
+
+
+      In
+      this live training session you will learn how to control particle systems at
+      runtime via script, how to use collision messages from particles to drive gameplay
+      and how to render decal style effects using particles.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/KIA7sndsHJ0/sddefault.jpg
+    - https://i.ytimg.com/vi/KIA7sndsHJ0/mqdefault.jpg
+    - https://i.ytimg.com/vi/KIA7sndsHJ0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/KIA7sndsHJ0/hqdefault.jpg
+    tags:
+    - particles
+    - decals
+    - emit
+    - emission
+    - tutorial
+    - unity
+    - unity3d
+    - live training
+    - particle scripting
+    - splatter
+    - splatoon
+    - particle collision
+    - onparticlecollision
+    viewCount: 5761
+    likeCount: 68
+    dislikeCount: 0
+    commentCount: 34
+    durationInMinutes: 6
+    publishedAtDate: 636227114010000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Controlling Particles Via Script - Particle Launcher Script [4/11] Live
+      2017/2/8
+    url: https://www.youtube.com/watch?v=qOXD7oRXBKQ
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/particlelauncher-script
+
+
+      In
+      this live training session you will learn how to control particle systems at
+      runtime via script, how to use collision messages from particles to drive gameplay
+      and how to render decal style effects using particles.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/qOXD7oRXBKQ/sddefault.jpg
+    - https://i.ytimg.com/vi/qOXD7oRXBKQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/qOXD7oRXBKQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/qOXD7oRXBKQ/hqdefault.jpg
+    tags:
+    - particles
+    - decals
+    - emit
+    - emission
+    - tutorial
+    - unity
+    - unity3d
+    - live training
+    - particle scripting
+    - splatter
+    - splatoon
+    - particle collision
+    - onparticlecollision
+    viewCount: 44968
+    likeCount: 341
+    dislikeCount: 10
+    commentCount: 26
+    durationInMinutes: 7
+    publishedAtDate: 636227114040000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Controlling Particles Via Script - Particle Launcher [2/11] Live 2017/2/8
+    url: https://www.youtube.com/watch?v=lXTwdk1kGlM
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/particle-launcher
+
+
+      In
+      this live training session you will learn how to control particle systems at
+      runtime via script, how to use collision messages from particles to drive gameplay
+      and how to render decal style effects using particles.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/lXTwdk1kGlM/sddefault.jpg
+    - https://i.ytimg.com/vi/lXTwdk1kGlM/mqdefault.jpg
+    - https://i.ytimg.com/vi/lXTwdk1kGlM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lXTwdk1kGlM/hqdefault.jpg
+    tags:
+    - particles
+    - decals
+    - emit
+    - emission
+    - tutorial
+    - unity
+    - unity3d
+    - live training
+    - particle scripting
+    - splatter
+    - splatoon
+    - particle collision
+    - onparticlecollision
+    viewCount: 22078
+    likeCount: 148
+    dislikeCount: 6
+    commentCount: 13
+    durationInMinutes: 7
+    publishedAtDate: 636227114050000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Controlling Particles Via Script - Particle Collisions and Scripting [5/11]
+      Live 2017/2/8
+    url: https://www.youtube.com/watch?v=C3pf9XUsEtM
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/particle-collisions-and-scripting
+
+
+      In
+      this live training session you will learn how to control particle systems at
+      runtime via script, how to use collision messages from particles to drive gameplay
+      and how to render decal style effects using particles.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/C3pf9XUsEtM/sddefault.jpg
+    - https://i.ytimg.com/vi/C3pf9XUsEtM/mqdefault.jpg
+    - https://i.ytimg.com/vi/C3pf9XUsEtM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/C3pf9XUsEtM/hqdefault.jpg
+    tags:
+    - particles
+    - decals
+    - emit
+    - emission
+    - tutorial
+    - unity
+    - unity3d
+    - live training
+    - particle scripting
+    - splatter
+    - splatoon
+    - particle collision
+    - onparticlecollision
+    viewCount: 22072
+    likeCount: 182
+    dislikeCount: 2
+    commentCount: 27
+    durationInMinutes: 6
+    publishedAtDate: 636227114040000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Controlling Particles Via Script - Particle Collisions [3/11] Live 2017/2/8
+    url: https://www.youtube.com/watch?v=t5NAdKMykF0
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/particle-collision
+
+
+      In
+      this live training session you will learn how to control particle systems at
+      runtime via script, how to use collision messages from particles to drive gameplay
+      and how to render decal style effects using particles.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/t5NAdKMykF0/sddefault.jpg
+    - https://i.ytimg.com/vi/t5NAdKMykF0/mqdefault.jpg
+    - https://i.ytimg.com/vi/t5NAdKMykF0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/t5NAdKMykF0/hqdefault.jpg
+    tags:
+    - particles
+    - decals
+    - emit
+    - emission
+    - tutorial
+    - unity
+    - unity3d
+    - live training
+    - particle scripting
+    - splatter
+    - splatoon
+    - particle collision
+    - onparticlecollision
+    viewCount: 26750
+    likeCount: 146
+    dislikeCount: 10
+    commentCount: 6
+    durationInMinutes: 4
+    publishedAtDate: 636227114040000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Controlling Particles Via Script - Introduction and Session Goals [1/11]
+      Live 2017/2/8
+    url: https://www.youtube.com/watch?v=JRa2g3vgzBo
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/introduction-and-session-goals
+
+
+      In
+      this live training session you will learn how to control particle systems at
+      runtime via script, how to use collision messages from particles to drive gameplay
+      and how to render decal style effects using particles.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/JRa2g3vgzBo/sddefault.jpg
+    - https://i.ytimg.com/vi/JRa2g3vgzBo/mqdefault.jpg
+    - https://i.ytimg.com/vi/JRa2g3vgzBo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/JRa2g3vgzBo/hqdefault.jpg
+    tags:
+    - particles
+    - decals
+    - emit
+    - emission
+    - tutorial
+    - unity
+    - unity3d
+    - live training
+    - particle scripting
+    - splatter
+    - splatoon
+    - particle collision
+    - onparticlecollision
+    viewCount: 43191
+    likeCount: 516
+    dislikeCount: 9
+    commentCount: 43
+    durationInMinutes: 5
+    publishedAtDate: 636227114050000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Controlling Particles Via Script - Droplet Decals [10/11] Live 2017/2/8
+    url: https://www.youtube.com/watch?v=DXNM_KBHFtE
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/droplet-decals
+
+
+      In
+      this live training session you will learn how to control particle systems at
+      runtime via script, how to use collision messages from particles to drive gameplay
+      and how to render decal style effects using particles.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/DXNM_KBHFtE/sddefault.jpg
+    - https://i.ytimg.com/vi/DXNM_KBHFtE/mqdefault.jpg
+    - https://i.ytimg.com/vi/DXNM_KBHFtE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DXNM_KBHFtE/hqdefault.jpg
+    tags:
+    - particles
+    - decals
+    - emit
+    - emission
+    - tutorial
+    - unity
+    - unity3d
+    - live training
+    - particle scripting
+    - splatter
+    - splatoon
+    - particle collision
+    - onparticlecollision
+    viewCount: 7380
+    likeCount: 93
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 5
+    publishedAtDate: 636227114020000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Controlling Particles Via Script - Displaying Particles Via Script [9/11]
+      Live 2017/2/8
+    url: https://www.youtube.com/watch?v=cQYaQRnepHM
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/display-particles-script
+
+
+      In
+      this live training session you will learn how to control particle systems at
+      runtime via script, how to use collision messages from particles to drive gameplay
+      and how to render decal style effects using particles.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/cQYaQRnepHM/sddefault.jpg
+    - https://i.ytimg.com/vi/cQYaQRnepHM/mqdefault.jpg
+    - https://i.ytimg.com/vi/cQYaQRnepHM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cQYaQRnepHM/hqdefault.jpg
+    tags:
+    - particles
+    - decals
+    - emit
+    - emission
+    - tutorial
+    - unity
+    - unity3d
+    - live training
+    - particle scripting
+    - splatter
+    - splatoon
+    - particle collision
+    - onparticlecollision
+    viewCount: 9643
+    likeCount: 78
+    dislikeCount: 0
+    commentCount: 11
+    durationInMinutes: 9
+    publishedAtDate: 636227114020000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Controlling Particles Via Script - Collecting Particle Information For
+      Display [8/11] Live 2017/2/8
+    url: https://www.youtube.com/watch?v=JZ6KDDA6I4Q
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/collecting-particle-information-display
+
+
+      In
+      this live training session you will learn how to control particle systems at
+      runtime via script, how to use collision messages from particles to drive gameplay
+      and how to render decal style effects using particles.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/JZ6KDDA6I4Q/sddefault.jpg
+    - https://i.ytimg.com/vi/JZ6KDDA6I4Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/JZ6KDDA6I4Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/JZ6KDDA6I4Q/hqdefault.jpg
+    tags:
+    - particles
+    - decals
+    - emit
+    - emission
+    - tutorial
+    - unity
+    - unity3d
+    - live training
+    - particle scripting
+    - splatter
+    - splatoon
+    - particle collision
+    - onparticlecollision
+    viewCount: 11853
+    likeCount: 72
+    dislikeCount: 1
+    commentCount: 2
+    durationInMinutes: 10
+    publishedAtDate: 636227114020000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Art & Design Pack Demo - Volumetric Fog with Fog Volume 3 [4/5] Live 2017/10/25
+    url: https://www.youtube.com/watch?v=RSoDy-v2B0Q
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/unity-artists/placing-prefabs-octave3d
+
+
+      In
+      this live training session with Matt Schell we take a look at how to create
+      great looking scenes using the assets from the Art & Design Essentials Pack
+      including: Uber Standard Shader Ultra, Octave3D and Fog Volume 3. Art & Design
+      Essentials is one of the free asset packs you can select when you subscribe
+      to Unity Plus. In this episode we will look at creating the volumetric fog
+      effects with Fog Volume 3.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/RSoDy-v2B0Q/sddefault.jpg
+    - https://i.ytimg.com/vi/RSoDy-v2B0Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/RSoDy-v2B0Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/RSoDy-v2B0Q/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - art
+    - art design essentials
+    - essentials pack
+    - uber standard shader
+    - octave3d
+    - octave
+    - fog volume 3
+    - snow shader
+    - volumetric fog
+    - prefab placer
+    - level editing
+    viewCount: 2206
+    likeCount: 17
+    dislikeCount: 3
+    commentCount: 2
+    durationInMinutes: 8
+    publishedAtDate: 636450044110000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Amplify Shader Editor: Adding Visual Polish - Questions and Answers [6/6]
+      Live 2017/5/10'
+    url: https://www.youtube.com/watch?v=y5LNmwDU6wY
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/asset-store/questions-and-answers-1
+
+
+      In
+      this live training session we will explore how to add visual polish and flair
+      to your game by creating custom shaders using Amplify Shader Editor. Amplify
+      Shader Editor is a node based shader creation tool which allows for the creation
+      of high quality visual effects using a graphical UI. In this episode we will
+      answer questions from people present in the Twitch chat during the live session.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/y5LNmwDU6wY/sddefault.jpg
+    - https://i.ytimg.com/vi/y5LNmwDU6wY/mqdefault.jpg
+    - https://i.ytimg.com/vi/y5LNmwDU6wY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/y5LNmwDU6wY/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - shader
+    - transparent
+    - refraction
+    - see through
+    - custom shader
+    - amplify
+    - amplify shader editor
+    - shaders
+    viewCount: 4479
+    likeCount: 37
+    dislikeCount: 7
+    commentCount: 7
+    durationInMinutes: 7
+    publishedAtDate: 636305594790000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Amplify Shader Editor: Adding Visual Polish - Introduction and Goals
+      [1/6] Live 2017/5/10'
+    url: https://www.youtube.com/watch?v=uDpnq97_t2k
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/asset-store/introduction-and-goals
+
+
+      In
+      this live training session we will explore how to add visual polish and flair
+      to your game by creating custom shaders using Amplify Shader Editor. Amplify
+      Shader Editor is a node based shader creation tool which allows for the creation
+      of high quality visual effects using a graphical UI. In this first episode
+      we will demo the project and lay out our goals.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/uDpnq97_t2k/sddefault.jpg
+    - https://i.ytimg.com/vi/uDpnq97_t2k/mqdefault.jpg
+    - https://i.ytimg.com/vi/uDpnq97_t2k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/uDpnq97_t2k/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - shader
+    - transparent
+    - refraction
+    - see through
+    - custom shader
+    - amplify
+    - amplify shader editor
+    - shaders
+    viewCount: 22311
+    likeCount: 134
+    dislikeCount: 57
+    commentCount: 37
+    durationInMinutes: 5
+    publishedAtDate: 636305594810000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Amplify Shader Editor: Adding Visual Polish - Creating A Transparent
+      Shader [3/6] Live 2017/5/10'
+    url: https://www.youtube.com/watch?v=640KTb3H6zQ
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/asset-store/creating-transparent-shader
+
+
+      In
+      this live training session we will explore how to add visual polish and flair
+      to your game by creating custom shaders using Amplify Shader Editor. Amplify
+      Shader Editor is a node based shader creation tool which allows for the creation
+      of high quality visual effects using a graphical UI. In this episode we will
+      create a new, transparent shader in Amplify Shader Editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/640KTb3H6zQ/sddefault.jpg
+    - https://i.ytimg.com/vi/640KTb3H6zQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/640KTb3H6zQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/640KTb3H6zQ/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - shader
+    - transparent
+    - refraction
+    - see through
+    - custom shader
+    - amplify
+    - amplify shader editor
+    - shaders
+    viewCount: 18297
+    likeCount: 86
+    dislikeCount: 10
+    commentCount: 8
+    durationInMinutes: 11
+    publishedAtDate: 636305594800000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Amplify Shader Editor: Adding Visual Polish - Adding Pixel Displacement
+      [4/6] Live 2017/5/10'
+    url: https://www.youtube.com/watch?v=CPHeqhMJiPA
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/asset-store/adding-pixel-displacement
+
+
+      In
+      this live training session we will explore how to add visual polish and flair
+      to your game by creating custom shaders using Amplify Shader Editor. Amplify
+      Shader Editor is a node based shader creation tool which allows for the creation
+      of high quality visual effects using a graphical UI. In this episode we will
+      learn how to distort the pixels in our shader to create a refraction style
+      effect.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/CPHeqhMJiPA/sddefault.jpg
+    - https://i.ytimg.com/vi/CPHeqhMJiPA/mqdefault.jpg
+    - https://i.ytimg.com/vi/CPHeqhMJiPA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/CPHeqhMJiPA/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - shader
+    - transparent
+    - refraction
+    - see through
+    - custom shader
+    - amplify
+    - amplify shader editor
+    - shaders
+    viewCount: 10626
+    likeCount: 51
+    dislikeCount: 9
+    commentCount: 20
+    durationInMinutes: 6
+    publishedAtDate: 636305594800000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Amplify Shader Editor: Adding Visual Polish - Adding Moving Ripples [5/6]
+      Live 2017/5/10'
+    url: https://www.youtube.com/watch?v=4uNstTSd1U8
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/asset-store/adding-moving-ripples
+
+
+      In
+      this live training session we will explore how to add visual polish and flair
+      to your game by creating custom shaders using Amplify Shader Editor. Amplify
+      Shader Editor is a node based shader creation tool which allows for the creation
+      of high quality visual effects using a graphical UI. In this episode we will
+      add moving ripples to complete our effect.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/4uNstTSd1U8/sddefault.jpg
+    - https://i.ytimg.com/vi/4uNstTSd1U8/mqdefault.jpg
+    - https://i.ytimg.com/vi/4uNstTSd1U8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4uNstTSd1U8/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - shader
+    - transparent
+    - refraction
+    - see through
+    - custom shader
+    - amplify
+    - amplify shader editor
+    - shaders
+    viewCount: 8509
+    likeCount: 50
+    dislikeCount: 11
+    commentCount: 2
+    durationInMinutes: 11
+    publishedAtDate: 636305594800000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Amplify Shader Editor: Adding Visual Polish  - Shaders and Materials
+      [2/6] Live 2017/5/10'
+    url: https://www.youtube.com/watch?v=ZDaeNnfaYbw
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/asset-store/shaders-materials-and-shader-demo
+
+
+      In
+      this live training session we will explore how to add visual polish and flair
+      to your game by creating custom shaders using Amplify Shader Editor. Amplify
+      Shader Editor is a node based shader creation tool which allows for the creation
+      of high quality visual effects using a graphical UI. In this episode we introduce
+      some basic definitions and concepts and look closely at the shader we will
+      create.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZDaeNnfaYbw/sddefault.jpg
+    - https://i.ytimg.com/vi/ZDaeNnfaYbw/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZDaeNnfaYbw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZDaeNnfaYbw/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - shader
+    - transparent
+    - refraction
+    - see through
+    - custom shader
+    - amplify
+    - amplify shader editor
+    - shaders
+    viewCount: 13010
+    likeCount: 67
+    dislikeCount: 10
+    commentCount: 4
+    durationInMinutes: 8
+    publishedAtDate: 636305594800000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Achieve Crisp Pixel Art with Unity 2018.2! -  Pixel Perfect
+    url: https://www.youtube.com/watch?v=CU4YjSZNTnY
+    channelName: Unity
+    description: "You can check out more about Pixel Perfect here:\nhttp://bit.ly/2dpixelperfect\n\nIn
+      this video, we are going to take a quick look at the 2D Pixel Perfect feature
+      introduced with Unity 2018.2. Pixel Perfect allows you to utilize the Pixel
+      Perfect Camera component to achieve sharper pixels for your 2D pixelated games!
+      \n\nTry the Pixel Perfect Preview package to stay true to your pixel art vision.
+      The Pixel Perfect Camera component will help you get perfect, crisp pixels
+      \u2013 regardless of the screen size \u2013 by making all the calculations
+      automatically for you.\n\nYour sprites will even benefit from the feature when
+      they are in motion or rotating, always keeping a sharp pixelation, without
+      having to add interpolation to smoothen the edges as illustrated below."
+    thumbUrls:
+    - https://i.ytimg.com/vi/CU4YjSZNTnY/sddefault.jpg
+    - https://i.ytimg.com/vi/CU4YjSZNTnY/mqdefault.jpg
+    - https://i.ytimg.com/vi/CU4YjSZNTnY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/CU4YjSZNTnY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity 2018
+    - unity 2018.2
+    - pixel perfect
+    - unity pixel perfect
+    - unity pixel
+    - unity perfect
+    - pixel
+    - perfect
+    - unity 2d
+    - unity2d
+    - unity 2d pixel perfect
+    - 2d pixel perfect
+    - 2d
+    - pixels
+    - gamedev
+    - indiedev
+    - unity 2018 pixel perfect
+    - unity 2018.2 pixel perfect
+    - unity pixel art
+    - unity pixel game
+    - pixel art
+    - pixel unit
+    - pixel unity
+    - pixel perfect unity
+    - unity3d
+    - unity tutorial
+    - basics
+    - beginner
+    - friendly
+    - easy
+    viewCount: 142996
+    likeCount: 2364
+    dislikeCount: 64
+    commentCount: 128
+    durationInMinutes: 2
+    publishedAtDate: 636712512590000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 30
+    YouTubeDataAPI_Cooked: 1

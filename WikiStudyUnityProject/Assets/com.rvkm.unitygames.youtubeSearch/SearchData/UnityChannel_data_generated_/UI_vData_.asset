@@ -12,6 +12,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: UI_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: UI
+  allVideos:
+  - title: 'Hover Racer Live 15/21 Cycle 11: Displaying The Ship UI'
+    url: https://www.youtube.com/watch?v=g9NqzrKoeD8
+    channelName: Unity
+    description: 'Grab the assets to follow along here:
+
+      https://ole.unity.com/hoverracerlive
+
+
+      And
+      check out more Online Evangelism live events here:
+
+      https://connect.unity.com/events'
+    thumbUrls:
+    - https://i.ytimg.com/vi/g9NqzrKoeD8/sddefault.jpg
+    - https://i.ytimg.com/vi/g9NqzrKoeD8/mqdefault.jpg
+    - https://i.ytimg.com/vi/g9NqzrKoeD8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/g9NqzrKoeD8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - timeline
+    - cinemachine
+    - reflection
+    - reflection probe
+    - post processing v2
+    - post processing stack
+    - textmesh pro
+    - racing
+    - racing game
+    - hover car
+    - hover
+    - hover racer
+    - antigraviator
+    - laps
+    - lap times
+    - ui
+    - cut scene
+    - race start
+    - training day
+    - unite austin
+    - mike geig
+    - andy touch
+    - volumes
+    - post processing volume
+    - cybernetic walrus
+    viewCount: 2425
+    likeCount: 32
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 9
+    publishedAtDate: 636543486010000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 16
+    YouTubeDataAPI_Cooked: 1

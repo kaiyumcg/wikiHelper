@@ -1,0 +1,15 @@
+vfx
+decal
+"volumetric fog"
+fog
+"Image effects"
+"visual effects"
+"Post Process"
+"chromatic aberration"
+"blur"
+"depth of field"
+"color grading"
+"Pixel Perfect"
+"Post-Processing"
+"shuriken"
+particle

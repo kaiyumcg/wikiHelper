@@ -12,6 +12,104 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: Procedurally_Generated_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: Procedurally Generated
+  allVideos:
+  - title: 'Unite Nordic 2013 Talk: Thomas Lund on Space Hulk'
+    url: https://www.youtube.com/watch?v=V0nkH86nZX8
+    channelName: Unity
+    description: 'Full talk from Unite Nordic conference. Thumas Lund (Full Control):
+      Space Hulk - turning an iconic board game into a computer game.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6ai/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/V0nkH86nZX8/sddefault.jpg
+    - https://i.ytimg.com/vi/V0nkH86nZX8/mqdefault.jpg
+    - https://i.ytimg.com/vi/V0nkH86nZX8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/V0nkH86nZX8/hqdefault.jpg
+    tags: []
+    viewCount: 2725
+    likeCount: 36
+    dislikeCount: 1
+    commentCount: 4
+    durationInMinutes: 37
+    publishedAtDate: 635084693580000000
+    publisdedDate:
+      year: 2013
+      month: 7
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2015 - A coder's guide to spline-based procedural geometry
+    url: https://www.youtube.com/watch?v=o9RK6O2kOKo
+    channelName: Unity
+    description: 'Procedural mesh generation is a popular approach for creating content
+      thanks to its flexibility and scalability - but how do you actually do it in
+      code? This talk will blast you through what you need to know in order to create
+      procedural spline-based geometry. Slides: http://bit.ly/unite15_procgeo
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V62M/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/o9RK6O2kOKo/sddefault.jpg
+    - https://i.ytimg.com/vi/o9RK6O2kOKo/mqdefault.jpg
+    - https://i.ytimg.com/vi/o9RK6O2kOKo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/o9RK6O2kOKo/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Video Game (Industry)
+    - Video Game Development
+    - Unite 2015 Boston
+    - Geometry (Field Of Study)
+    viewCount: 140699
+    likeCount: 2461
+    dislikeCount: 22
+    commentCount: 127
+    durationInMinutes: 59
+    publishedAtDate: 635810347420000000
+    publisdedDate:
+      year: 2015
+      month: 10
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Procedurally generated content in Sir, You Are Being Hunted: a Unite
+      Nordic 2013 presentation'
+    url: https://www.youtube.com/watch?v=GYYuhuarTA0
+    channelName: Unity
+    description: 'Tom Betts and James Carey from Big Robot about procedural generation
+      technology in Sir, You Are Being Hunted.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V6as/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/GYYuhuarTA0/sddefault.jpg
+    - https://i.ytimg.com/vi/GYYuhuarTA0/mqdefault.jpg
+    - https://i.ytimg.com/vi/GYYuhuarTA0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GYYuhuarTA0/hqdefault.jpg
+    tags:
+    - Unity (technology)
+    - UniteNordic
+    - Big Robot
+    viewCount: 21010
+    likeCount: 312
+    dislikeCount: 3
+    commentCount: 28
+    durationInMinutes: 57
+    publishedAtDate: 635082858100000000
+    publisdedDate:
+      year: 2013
+      month: 7
+      day: 1
+    YouTubeDataAPI_Cooked: 1

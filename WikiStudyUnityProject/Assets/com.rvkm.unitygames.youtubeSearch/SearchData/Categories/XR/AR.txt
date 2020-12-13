@@ -1,0 +1,9 @@
+^ AR
+Vuforia
+Augmented Reality
+Augmented
+
+[^ VR-]
+[^ MR-]
+[^ XR-]
+["Mixed"-]

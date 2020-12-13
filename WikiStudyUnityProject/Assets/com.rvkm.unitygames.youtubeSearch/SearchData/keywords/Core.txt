@@ -1,3 +1,0 @@
-C#,C++,collectable,collectible,coroutine,async,multithreading,multi-thread,CPU,IL2CPP,Nested Prefab,script,data driven design
-Runtime,Nested Prefab,streaming asset,scriptable objects,serialization,playerprefs,scriptableobject,serialize
-Serialization,serialization,prefab,Prefab

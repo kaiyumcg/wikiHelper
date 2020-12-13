@@ -50,68 +50,6 @@ MonoBehaviour:
       month: 11
       day: 29
     YouTubeDataAPI_Cooked: 1
-  - title: Unity Live at GDC - Zoink (Flipping Death, Fe) and Developing in 2.5D
-      with Unity
-    url: https://www.youtube.com/watch?v=8E3IAnm-xw8
-    channelName: Unity
-    description: "To find out more about Zoink's games Fe and Flipping Death: http://www.zoinkgames.com/\n\nGuest:\nKlaus
-      Lyngeled - Creative Director at Zoink\n\nHosts: \nWill Goldstone - Product
-      Manager at Unity \nLiz Mercuri - Technical Evangelist at Unity"
-    thumbUrls:
-    - https://i.ytimg.com/vi/8E3IAnm-xw8/sddefault.jpg
-    - https://i.ytimg.com/vi/8E3IAnm-xw8/mqdefault.jpg
-    - https://i.ytimg.com/vi/8E3IAnm-xw8/maxresdefault.jpg
-    - https://i.ytimg.com/vi/8E3IAnm-xw8/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    viewCount: 442
-    likeCount: 13
-    dislikeCount: 0
-    commentCount: 1
-    durationInMinutes: 9
-    publishedAtDate: 636583299270000000
-    publisdedDate:
-      year: 2018
-      month: 4
-      day: 3
-    YouTubeDataAPI_Cooked: 1
-  - title: 'Unity Hangout 4: 2D!'
-    url: https://www.youtube.com/watch?v=CFT_abC4oq4
-    channelName: Unity
-    description: 'Unity Developer Hangout 4: 2D!
-
-
-      Help us caption & translate
-      this video!
-
-
-      http://amara.org/v/V69B/'
-    thumbUrls:
-    - https://i.ytimg.com/vi/CFT_abC4oq4/sddefault.jpg
-    - https://i.ytimg.com/vi/CFT_abC4oq4/mqdefault.jpg
-    - https://i.ytimg.com/vi/CFT_abC4oq4/maxresdefault.jpg
-    - https://i.ytimg.com/vi/CFT_abC4oq4/hqdefault.jpg
-    tags:
-    - '#hangoutsonair'
-    - Hangouts On Air
-    - '#hoa'
-    viewCount: 0
-    likeCount: 102
-    dislikeCount: 5
-    commentCount: 1
-    durationInMinutes: 51
-    publishedAtDate: 635182491350000000
-    publisdedDate:
-      year: 2013
-      month: 10
-      day: 24
-    YouTubeDataAPI_Cooked: 1
   - title: 'Unity Authorized Course: 2D Mobile Game Development'
     url: https://www.youtube.com/watch?v=3d4V1N3CET8
     channelName: Unity
@@ -477,38 +415,6 @@ MonoBehaviour:
       day: 23
     YouTubeDataAPI_Cooked: 1
   - title: Unity 2D Challenge
-    url: https://www.youtube.com/watch?v=WJsVU2gcGLo
-    channelName: Unity
-    description: "Create a small piece of content using Unity\u2019s 2D tools. It
-      can be anything from pixel-perfect retro-style art to a snippet of hand-drawn
-      platforming gameplay. Anything goes, as long as it\u2019s 2D. Win cash & Unite
-      tickets! More info: https://on.unity.com/2PLqh7m\n\nHelp us caption & translate
-      this video!\n\nhttps://amara.org/v/oLFk/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/WJsVU2gcGLo/sddefault.jpg
-    - https://i.ytimg.com/vi/WJsVU2gcGLo/mqdefault.jpg
-    - https://i.ytimg.com/vi/WJsVU2gcGLo/maxresdefault.jpg
-    - https://i.ytimg.com/vi/WJsVU2gcGLo/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    viewCount: 19955
-    likeCount: 576
-    dislikeCount: 18
-    commentCount: 51
-    durationInMinutes: 0
-    publishedAtDate: 636797134340000000
-    publisdedDate:
-      year: 2018
-      month: 12
-      day: 6
-    YouTubeDataAPI_Cooked: 1
-  - title: Unity 2D Challenge
     url: https://www.youtube.com/watch?v=Cvmmn5SoWTE
     channelName: Unity
     description: 'Show the world what you can do with 2D! Use the new 2D features
@@ -607,481 +513,6 @@ MonoBehaviour:
       year: 2013
       month: 12
       day: 16
-    YouTubeDataAPI_Cooked: 1
-  - title: Unite Europe 2017 - What's new for 2D in Unity?
-    url: https://www.youtube.com/watch?v=HK4dRRXtwuU
-    channelName: Unity
-    description: 'At Unite Europe, our 2D team walked through some highlights of
-      their latest Unity tools and features. The team goes over what''s been released,
-      what''s coming soon and what they are working towards in the future.
-
-
-      For
-      more information on Unite Europe and future Unite events visit this page. https://unite.unity.com/
-
-
-      Rus
-      Scammell - Unity Technologies'
-    thumbUrls:
-    - https://i.ytimg.com/vi/HK4dRRXtwuU/sddefault.jpg
-    - https://i.ytimg.com/vi/HK4dRRXtwuU/mqdefault.jpg
-    - https://i.ytimg.com/vi/HK4dRRXtwuU/maxresdefault.jpg
-    - https://i.ytimg.com/vi/HK4dRRXtwuU/hqdefault.jpg
-    tags:
-    - unite europe 2017
-    - unity
-    - unity3d
-    - indie
-    - 2d
-    - gamedev
-    viewCount: 19519
-    likeCount: 307
-    dislikeCount: 4
-    commentCount: 29
-    durationInMinutes: 27
-    publishedAtDate: 636353442670000000
-    publisdedDate:
-      year: 2017
-      month: 7
-      day: 11
-    YouTubeDataAPI_Cooked: 1
-  - title: 'Unite Europe 2016 - 2D Skeletal Animation for Unity: Anima2D'
-    url: https://www.youtube.com/watch?v=IQ8ZbZoXCcg
-    channelName: Unity
-    description: '**ANIMA2D IS NO LONGER IN DEVELOPMENT**
-
-      2D Animation is
-      the current supported 2D skeletal animation: https://on.unity.com/3eu6piJ
-
-
-      Sergi
-      Valls (Mandarina Games) shows how his tool, Anima2D, helps you animate your
-      2D characters and objects through skeletal animation in a quick and very flexible
-      way. Especially relevant for 2D mobile game developers! More about Anima2D:
-      https://www.assetstore.unity3d.com/en/#!/content/45879
-
-
-      Help us caption
-      & translate this video!
-
-
-      http://amara.org/v/V60M/'
-    thumbUrls:
-    - https://i.ytimg.com/vi/IQ8ZbZoXCcg/sddefault.jpg
-    - https://i.ytimg.com/vi/IQ8ZbZoXCcg/mqdefault.jpg
-    - https://i.ytimg.com/vi/IQ8ZbZoXCcg/maxresdefault.jpg
-    - https://i.ytimg.com/vi/IQ8ZbZoXCcg/hqdefault.jpg
-    tags:
-    - Unity (Software)
-    - Unite Europe 2016
-    viewCount: 70489
-    likeCount: 905
-    dislikeCount: 17
-    commentCount: 53
-    durationInMinutes: 24
-    publishedAtDate: 636033570360000000
-    publisdedDate:
-      year: 2016
-      month: 7
-      day: 5
-    YouTubeDataAPI_Cooked: 1
-  - title: Unite Austin Live - Day 1 - New 2D Tools in 2017.2 with Rus Scammell,
-      Unity
-    url: https://www.youtube.com/watch?v=aFSRqdJzTUw
-    channelName: Unity
-    description: "Join Unite Austin Live hosts Will Goldstone and Lucas Meijer as
-      they speak to Unity's Rus Scammell about the new 2D tools in Unity 2017.2. 
-      \n\nHosts:\nWill Goldstone - Product Manager, Unity\nLucas Meijer - Technical
-      Director, Unity\n\nGuest:\nRus Scammell - Product Manager - 2D, Unity\n\nLearn
-      more about Unity for 2D: https://unity3d.com/solutions/2d"
-    thumbUrls:
-    - https://i.ytimg.com/vi/aFSRqdJzTUw/sddefault.jpg
-    - https://i.ytimg.com/vi/aFSRqdJzTUw/mqdefault.jpg
-    - https://i.ytimg.com/vi/aFSRqdJzTUw/maxresdefault.jpg
-    - https://i.ytimg.com/vi/aFSRqdJzTUw/hqdefault.jpg
-    tags: []
-    viewCount: 430
-    likeCount: 7
-    dislikeCount: 2
-    commentCount: 1
-    durationInMinutes: 11
-    publishedAtDate: 636432561690000000
-    publisdedDate:
-      year: 2017
-      month: 10
-      day: 10
-    YouTubeDataAPI_Cooked: 1
-  - title: Unite Austin 2017 Keynote - 2D Demo [3/7]
-    url: https://www.youtube.com/watch?v=GkGlROLv1nE
-    channelName: Unity
-    description: "Product Manager Rus Scammell and Head of Cinematics Adam Myhill
-      demonstrate Unity's latest 2D tools. \n\nStart creating today: https://unity3d.com/solutions/2d"
-    thumbUrls:
-    - https://i.ytimg.com/vi/GkGlROLv1nE/sddefault.jpg
-    - https://i.ytimg.com/vi/GkGlROLv1nE/mqdefault.jpg
-    - https://i.ytimg.com/vi/GkGlROLv1nE/maxresdefault.jpg
-    - https://i.ytimg.com/vi/GkGlROLv1nE/hqdefault.jpg
-    tags:
-    - Unity
-    - 2D
-    - Game Development
-    - Games
-    - Unite
-    viewCount: 1547
-    likeCount: 31
-    dislikeCount: 1
-    commentCount: 7
-    durationInMinutes: 11
-    publishedAtDate: 636435312200000000
-    publisdedDate:
-      year: 2017
-      month: 10
-      day: 13
-    YouTubeDataAPI_Cooked: 1
-  - title: Unite Austin 2017 - Cinemachine for Games and Interactive 2D, 1st/3rd
-      Person, and Beyond
-    url: https://www.youtube.com/watch?v=jH4LY-SS6oM
-    channelName: Unity
-    description: "\"Get a peak of the new POV camera, 2D features, camera mixer and
-      collision systems plus improvements and examples of free-look orbit, linking
-      cameras to animations, state machine setups with trigger volumes and more. 
-      See how code-free, instant iteration cameras can elevate your project. \n\nAdam
-      Myhill (Head of Cinematics, Unity Technologies)\""
-    thumbUrls:
-    - https://i.ytimg.com/vi/jH4LY-SS6oM/sddefault.jpg
-    - https://i.ytimg.com/vi/jH4LY-SS6oM/mqdefault.jpg
-    - https://i.ytimg.com/vi/jH4LY-SS6oM/maxresdefault.jpg
-    - https://i.ytimg.com/vi/jH4LY-SS6oM/hqdefault.jpg
-    tags: []
-    viewCount: 5993
-    likeCount: 105
-    dislikeCount: 1
-    commentCount: 2
-    durationInMinutes: 63
-    publishedAtDate: 636447429050000000
-    publisdedDate:
-      year: 2017
-      month: 10
-      day: 27
-    YouTubeDataAPI_Cooked: 1
-  - title: Unite Austin 2017 - 2D World Building in Unity
-    url: https://www.youtube.com/watch?v=RkaEh--qUAY
-    channelName: Unity
-    description: 'Explore new layout tools and see how these tools address common
-      concerns in 2D game development workflows.
-
-
-      Rus Scammell (Product Manager,
-      2D, Unity Technologies)'
-    thumbUrls:
-    - https://i.ytimg.com/vi/RkaEh--qUAY/sddefault.jpg
-    - https://i.ytimg.com/vi/RkaEh--qUAY/mqdefault.jpg
-    - https://i.ytimg.com/vi/RkaEh--qUAY/maxresdefault.jpg
-    - https://i.ytimg.com/vi/RkaEh--qUAY/hqdefault.jpg
-    tags: []
-    viewCount: 36533
-    likeCount: 665
-    dislikeCount: 12
-    commentCount: 37
-    durationInMinutes: 32
-    publishedAtDate: 636447429270000000
-    publisdedDate:
-      year: 2017
-      month: 10
-      day: 27
-    YouTubeDataAPI_Cooked: 1
-  - title: Unite 2016 - Building Sprite Sheets at Runtime (Top Eleven, Nordeus)
-    url: https://www.youtube.com/watch?v=IXH46xdSUEE
-    channelName: Unity
-    description: Using Sprite Sheets brings huge gain of performance of anything
-      rendered in 2D. In this talk, Dusan Stevanovic (Nordeus) shows how to make
-      all the necessary tools to have your own run-time created Sprite Sheets.
-    thumbUrls:
-    - https://i.ytimg.com/vi/IXH46xdSUEE/sddefault.jpg
-    - https://i.ytimg.com/vi/IXH46xdSUEE/mqdefault.jpg
-    - https://i.ytimg.com/vi/IXH46xdSUEE/maxresdefault.jpg
-    - https://i.ytimg.com/vi/IXH46xdSUEE/hqdefault.jpg
-    tags:
-    - 2D Game Development
-    - Unity (Software)
-    - Unity 2D
-    - Sprite Sheets
-    - Unite 2016 Los Angeles
-    - Unite 16
-    - Unite La
-    - Top Eleven
-    viewCount: 2414
-    likeCount: 39
-    dislikeCount: 5
-    commentCount: 2
-    durationInMinutes: 16
-    publishedAtDate: 636162236660000000
-    publisdedDate:
-      year: 2016
-      month: 12
-      day: 1
-    YouTubeDataAPI_Cooked: 1
-  - title: Unite 2015 Boston 2D Games Reel
-    url: https://www.youtube.com/watch?v=J8PkLolrgwo
-    channelName: Unity
-    description: 'There are some truly amazing 2D games across a huge variety of
-      art styles being made with Unity right now! Check out more games Made with
-      Unity at http://madewith.unity.com.
-
-
-      Help us caption & translate this
-      video!
-
-
-      http://amara.org/v/V619/'
-    thumbUrls:
-    - https://i.ytimg.com/vi/J8PkLolrgwo/sddefault.jpg
-    - https://i.ytimg.com/vi/J8PkLolrgwo/mqdefault.jpg
-    - https://i.ytimg.com/vi/J8PkLolrgwo/maxresdefault.jpg
-    - https://i.ytimg.com/vi/J8PkLolrgwo/hqdefault.jpg
-    tags:
-    - Unity (Software)
-    - Video Game (Industry)
-    - Video Game Development (Industry)
-    viewCount: 71663
-    likeCount: 775
-    dislikeCount: 6
-    commentCount: 25
-    durationInMinutes: 2
-    publishedAtDate: 635790764840000000
-    publisdedDate:
-      year: 2015
-      month: 9
-      day: 28
-    YouTubeDataAPI_Cooked: 1
-  - title: Unite 2015 - Physics and features in 2D and 3D
-    url: https://www.youtube.com/watch?v=kJxVCiFn3mA
-    channelName: Unity
-    description: 'We present current and upcoming features for the 2D and 3D physics
-      systems. Also covered are best practices for common cases, performance, joints
-      and ragdolls.
-
-      Resources:
-
-      - Presentation slides
-
-      http://www.slideshare.net/MortenSkaaning/unite-boston-2015-physics
-
-      -
-      Joint and ragdoll stability
-
-      http://docs.unity3d.com/Manual/RagdollStability.html
-
-      -
-      Upgrade guide from Unity 4
-
-      http://docs.unity3d.com/Manual/UpgradeGuide5-Physics.html
-
-
-      Help
-      us caption & translate this video!
-
-
-      http://amara.org/v/V61J/'
-    thumbUrls:
-    - https://i.ytimg.com/vi/kJxVCiFn3mA/sddefault.jpg
-    - https://i.ytimg.com/vi/kJxVCiFn3mA/mqdefault.jpg
-    - https://i.ytimg.com/vi/kJxVCiFn3mA/maxresdefault.jpg
-    - https://i.ytimg.com/vi/kJxVCiFn3mA/hqdefault.jpg
-    tags:
-    - Unity (Software)
-    - Video Game (Industry)
-    - Video Game Development
-    - Unite 2015 Boston
-    - 2D Computer Graphics
-    - 3D Computer Graphics
-    viewCount: 11012
-    likeCount: 111
-    dislikeCount: 1
-    commentCount: 15
-    durationInMinutes: 60
-    publishedAtDate: 635805325560000000
-    publisdedDate:
-      year: 2015
-      month: 10
-      day: 15
-    YouTubeDataAPI_Cooked: 1
-  - title: Unite 2015 - Building 2D Worlds with new 2D features in Unity
-    url: https://www.youtube.com/watch?v=muRhea-JaIM
-    channelName: Unity
-    description: 'Andy Touch (Unity Technologies) demos building 2D worlds with upcoming
-      Unity 2D features like Tile Map and SmartSprite. More info: https://bitbucket.org/Unity-Technologies/2ddemos/wiki/Home/
-
-
-      Help
-      us caption & translate this video!
-
-
-      http://amara.org/v/V62Q/'
-    thumbUrls:
-    - https://i.ytimg.com/vi/muRhea-JaIM/sddefault.jpg
-    - https://i.ytimg.com/vi/muRhea-JaIM/mqdefault.jpg
-    - https://i.ytimg.com/vi/muRhea-JaIM/maxresdefault.jpg
-    - https://i.ytimg.com/vi/muRhea-JaIM/hqdefault.jpg
-    tags:
-    - Unity (Software)
-    - Video Game (Industry)
-    - Video Game Development
-    - Unite 2015 Boston
-    - 2D Computer Graphics
-    - 2D
-    - Unity 2D
-    - Unity 5.3
-    viewCount: 154651
-    likeCount: 1734
-    dislikeCount: 22
-    commentCount: 173
-    durationInMinutes: 56
-    publishedAtDate: 635797654270000000
-    publisdedDate:
-      year: 2015
-      month: 10
-      day: 6
-    YouTubeDataAPI_Cooked: 1
-  - title: Unite 2014 - 2D Best Practices In Unity
-    url: https://www.youtube.com/watch?v=HM17mAmLd7k
-    channelName: Unity
-    description: 'Veli-Pekka Kokkonen takes a look at the most common issues people
-      have making 2D games in Unity and some clever ways to overcome them.
-
-
-      Help
-      us caption & translate this video!
-
-
-      http://amara.org/v/V66m/'
-    thumbUrls:
-    - https://i.ytimg.com/vi/HM17mAmLd7k/sddefault.jpg
-    - https://i.ytimg.com/vi/HM17mAmLd7k/mqdefault.jpg
-    - https://i.ytimg.com/vi/HM17mAmLd7k/maxresdefault.jpg
-    - https://i.ytimg.com/vi/HM17mAmLd7k/hqdefault.jpg
-    tags:
-    - Unity (Software)
-    - Unity 2D
-    - Unity
-    - Unite 2014 Seattle
-    viewCount: 174104
-    likeCount: 1575
-    dislikeCount: 26
-    commentCount: 106
-    durationInMinutes: 45
-    publishedAtDate: 635446734810000000
-    publisdedDate:
-      year: 2014
-      month: 8
-      day: 26
-    YouTubeDataAPI_Cooked: 1
-  - title: Unite 2013 - New 2D Workflows
-    url: https://www.youtube.com/watch?v=B1F6fi04qw8
-    channelName: Unity
-    description: 'Tomas Jakubauskas and Juha Kiili explain the new 2D system (rendering,
-      physics, workflow) in Unity 4.3.
-
-
-      Help us caption & translate this video!
-
-
-      http://amara.org/v/V6aI/'
-    thumbUrls:
-    - https://i.ytimg.com/vi/B1F6fi04qw8/sddefault.jpg
-    - https://i.ytimg.com/vi/B1F6fi04qw8/mqdefault.jpg
-    - https://i.ytimg.com/vi/B1F6fi04qw8/maxresdefault.jpg
-    - https://i.ytimg.com/vi/B1F6fi04qw8/hqdefault.jpg
-    tags:
-    - Unity (Software)
-    - Software (Industry)
-    - Video Game Development (Conference Subject)
-    - 2D
-    - Unity 4.3
-    - Workflow
-    - 2D Physics
-    - Unite Vancouver 2013
-    viewCount: 86961
-    likeCount: 576
-    dislikeCount: 6
-    commentCount: 71
-    durationInMinutes: 26
-    publishedAtDate: 635140744770000000
-    publisdedDate:
-      year: 2013
-      month: 9
-      day: 6
-    YouTubeDataAPI_Cooked: 1
-  - title: 'Unite 2013 - Feedback and Q&A: The Future of 2D and GUI in Unity'
-    url: https://www.youtube.com/watch?v=bzcVSAEGGRs
-    channelName: Unity
-    description: 'Questions and answers session with Michael Lyashenko and Tomas
-      Jakubauskas from Unite 2013 in Vancouver.
-
-
-      Help us caption & translate
-      this video!
-
-
-      http://amara.org/v/V694/'
-    thumbUrls:
-    - https://i.ytimg.com/vi/bzcVSAEGGRs/sddefault.jpg
-    - https://i.ytimg.com/vi/bzcVSAEGGRs/mqdefault.jpg
-    - https://i.ytimg.com/vi/bzcVSAEGGRs/maxresdefault.jpg
-    - https://i.ytimg.com/vi/bzcVSAEGGRs/hqdefault.jpg
-    tags:
-    - Unity (Software)
-    - Graphical User Interface (Computing Platform)
-    - Unite Vancouver 2013
-    - 2D
-    - Video Game Development (Conference Subject)
-    - Unity 4.3
-    - Q&A
-    viewCount: 2721
-    likeCount: 26
-    dislikeCount: 0
-    commentCount: 6
-    durationInMinutes: 47
-    publishedAtDate: 635191875590000000
-    publisdedDate:
-      year: 2013
-      month: 11
-      day: 4
-    YouTubeDataAPI_Cooked: 1
-  - title: Unite 2013 - Boosting graphics performance in 2D games
-    url: https://www.youtube.com/watch?v=fHFsQHvzfwo
-    channelName: Unity
-    description: 'Erik Graham, CTO of THREAKS, on why so many 2D games suffer from
-      serious graphics performance issues, especially on mobile devices.
-
-
-      Help
-      us caption & translate this video!
-
-
-      http://amara.org/v/V69k/'
-    thumbUrls:
-    - https://i.ytimg.com/vi/fHFsQHvzfwo/sddefault.jpg
-    - https://i.ytimg.com/vi/fHFsQHvzfwo/mqdefault.jpg
-    - https://i.ytimg.com/vi/fHFsQHvzfwo/maxresdefault.jpg
-    - https://i.ytimg.com/vi/fHFsQHvzfwo/hqdefault.jpg
-    tags:
-    - Graphics (Field Of Study)
-    - 2D Computer Graphics
-    - 2d
-    - Unity 4.3
-    - Unite Vancouer 2013
-    - Unity (Software)
-    viewCount: 69465
-    likeCount: 450
-    dislikeCount: 12
-    commentCount: 19
-    durationInMinutes: 55
-    publishedAtDate: 635140748880000000
-    publisdedDate:
-      year: 2013
-      month: 9
-      day: 6
     YouTubeDataAPI_Cooked: 1
   - title: 'Tiny Bubbles: a Unity for 2D games case study'
     url: https://www.youtube.com/watch?v=T7FOYxm6FKo
@@ -1306,198 +737,6 @@ MonoBehaviour:
       month: 3
       day: 10
     YouTubeDataAPI_Cooked: 1
-  - title: 'Tails of Iron: How Odd Bug used 2D lights to create mood | Unite Now
-      2020'
-    url: https://www.youtube.com/watch?v=0iKhPM-wrpQ
-    channelName: Unity
-    description: "Martin Reimann, environment artist and art director at Odd Bug
-      Studio, discusses his development process for crafting a scene in their game,
-      Tails of Iron. You learn how Unity's new 2D light system and their own tools
-      combined to create the sublime environments in the Tails of Iron world.\n\nSpeaker:\nMartin
-      Reimann, Environment Artist and Art Director (Odd Bug Studio)\n\n\U0001F449
-      Learn more about Unity's 2D features: https://on.unity.com/2TTRl4r\n\n\U0001F4FA
-      Dive into Unite Now year-round to join us for live sessions or watch sessions
-      on-demand: https://on.unity.com/3dXFk7j\n\U0001F4DD Did you find this video
-      useful? Room for improvement? Complete this survey to let us know: https://on.unity.com/3mkDX5G"
-    thumbUrls:
-    - https://i.ytimg.com/vi/0iKhPM-wrpQ/sddefault.jpg
-    - https://i.ytimg.com/vi/0iKhPM-wrpQ/mqdefault.jpg
-    - https://i.ytimg.com/vi/0iKhPM-wrpQ/maxresdefault.jpg
-    - https://i.ytimg.com/vi/0iKhPM-wrpQ/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    viewCount: 10668
-    likeCount: 781
-    dislikeCount: 7
-    commentCount: 71
-    durationInMinutes: 11
-    publishedAtDate: 637402005830000000
-    publisdedDate:
-      year: 2020
-      month: 11
-      day: 5
-    YouTubeDataAPI_Cooked: 1
-  - title: Sprite Shape Scripting API & Profiles in Unity 2018! - Sprite Shape Demo
-      (Part 3/3)
-    url: https://www.youtube.com/watch?v=LglxmUmWB7c
-    channelName: Unity
-    description: 'Find out more about Sprite Shape: http://ole.unity.com/spriteshape
-
-
-      SpriteShape
-      is a sprite layout or world building tool that provides the ability to tile
-      sprites along the path of a shape based on given angle ranges. Additionally
-      the shape can be filled with a tiling texture.
-
-
-      The main feature of
-      the SpriteShape is the powerful combination of a bezier spline path with the
-      ability to tile Sprites adaptively or continuously while automatically switching
-      Sprites assigned to given angles.'
-    thumbUrls:
-    - https://i.ytimg.com/vi/LglxmUmWB7c/sddefault.jpg
-    - https://i.ytimg.com/vi/LglxmUmWB7c/mqdefault.jpg
-    - https://i.ytimg.com/vi/LglxmUmWB7c/maxresdefault.jpg
-    - https://i.ytimg.com/vi/LglxmUmWB7c/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - unity sprite shape
-    - unity 2018 sprite shape
-    - unity 2018
-    - sprite shape
-    - sprite
-    - shape
-    - unity 3d
-    - unity 2018.2
-    - new features
-    - gamedev
-    - indiedev
-    - unity 2018 sprite
-    - unity 2018 shape
-    - Sprite Shape
-    - unity spline
-    - unity splines
-    - unity 2d splines
-    - unity 2d shapes
-    - unity 2d sprites
-    - unity 2d sprite shape
-    - unity 2d tutorial
-    - unity tutorial
-    - for beginners
-    - beginner friendly
-    - basics
-    - easy
-    - scripting api
-    viewCount: 19042
-    likeCount: 351
-    dislikeCount: 5
-    commentCount: 16
-    durationInMinutes: 9
-    publishedAtDate: 636731347580000000
-    publisdedDate:
-      year: 2018
-      month: 9
-      day: 21
-    YouTubeDataAPI_Cooked: 1
-  - title: Sprite rigging workflows in 2D animation - Unite LA
-    url: https://www.youtube.com/watch?v=5mFPnZpmxGA
-    channelName: Unity
-    description: 'Discover the new Sprite Rigging workflows for creating 2D animation
-      in Unity. In this video, we explore the tools and components that come together
-      to create a tight iteration loop for bringing your 2D characters and worlds
-      to life.
-
-
-      Speaker:
-
-      Rus Scammell (Unity Technologies)
-
-
-      Help
-      us caption & translate this video!
-
-
-      https://amara.org/v/oLFn/'
-    thumbUrls:
-    - https://i.ytimg.com/vi/5mFPnZpmxGA/sddefault.jpg
-    - https://i.ytimg.com/vi/5mFPnZpmxGA/mqdefault.jpg
-    - https://i.ytimg.com/vi/5mFPnZpmxGA/maxresdefault.jpg
-    - https://i.ytimg.com/vi/5mFPnZpmxGA/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    viewCount: 3836
-    likeCount: 60
-    dislikeCount: 1
-    commentCount: 8
-    durationInMinutes: 38
-    publishedAtDate: 636788700000000000
-    publisdedDate:
-      year: 2018
-      month: 11
-      day: 26
-    YouTubeDataAPI_Cooked: 1
-  - title: Sprite Renderer - Official Unity Tutorial
-    url: https://www.youtube.com/watch?v=VfAYSWpf7gg
-    channelName: Unity
-    description: 'Watch this video in context on Unity''s learning pages here -
-
-      http://unity3d.com/learn/tutorials/modules/beginner/2d/sprite-renderer
-
-
-      The
-      Sprite Renderer is used to render sprite-type images in either a 2D or 3D scene.
-
-
-      Help
-      us caption & translate this video!
-
-
-      http://amara.org/v/V67n/'
-    thumbUrls:
-    - https://i.ytimg.com/vi/VfAYSWpf7gg/sddefault.jpg
-    - https://i.ytimg.com/vi/VfAYSWpf7gg/mqdefault.jpg
-    - https://i.ytimg.com/vi/VfAYSWpf7gg/maxresdefault.jpg
-    - https://i.ytimg.com/vi/VfAYSWpf7gg/hqdefault.jpg
-    tags:
-    - Unity
-    - Unity2d
-    - Unity3d
-    - 2d
-    - Sprite
-    - Sprite Renderer
-    - Rendering
-    - Tutorial (Industry)
-    - Unity (Software)
-    - Official
-    viewCount: 65699
-    likeCount: 195
-    dislikeCount: 17
-    commentCount: 16
-    durationInMinutes: 3
-    publishedAtDate: 635337891290000000
-    publisdedDate:
-      year: 2014
-      month: 4
-      day: 22
-    YouTubeDataAPI_Cooked: 1
   - title: Spring Joint 2D - Unity Official Tutorials
     url: https://www.youtube.com/watch?v=zvHB1fsRadQ
     channelName: Unity
@@ -1636,41 +875,6 @@ MonoBehaviour:
       month: 3
       day: 6
     YouTubeDataAPI_Cooked: 1
-  - title: 'Power to the artists: the evolution of 2D game tools | Unite Now 2020'
-    url: https://www.youtube.com/watch?v=-wms7mDShag
-    channelName: Unity
-    description: "Explore how Unity\u2019s 2D toolset has evolved to include a host
-      of powerful graphics features such as dynamic lighting, materials, shaders,
-      and post-processing. Learn how these tools combine to unlock many significant
-      artistic and workflow outcomes for 2D games.\n\nSpeaker: Rus Scammell (Technical
-      Product Manager, 2D)\n\nAsk your questions here: https://on.unity.com/3c3BuI9\nDid
-      you find this video useful? Room for improvement? Let us know: https://on.unity.com/3c9hOT9\nCheck
-      out the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/3b7Oz1J"
-    thumbUrls:
-    - https://i.ytimg.com/vi/-wms7mDShag/sddefault.jpg
-    - https://i.ytimg.com/vi/-wms7mDShag/mqdefault.jpg
-    - https://i.ytimg.com/vi/-wms7mDShag/maxresdefault.jpg
-    - https://i.ytimg.com/vi/-wms7mDShag/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - 2d games
-    viewCount: 4763
-    likeCount: 104
-    dislikeCount: 4
-    commentCount: 3
-    durationInMinutes: 14
-    publishedAtDate: 637253826330000000
-    publisdedDate:
-      year: 2020
-      month: 5
-      day: 18
-    YouTubeDataAPI_Cooked: 1
   - title: 'Phased: Unity for 2D games case study'
     url: https://www.youtube.com/watch?v=eyYMx8bDtH4
     channelName: Unity
@@ -1700,685 +904,6 @@ MonoBehaviour:
       year: 2018
       month: 5
       day: 11
-    YouTubeDataAPI_Cooked: 1
-  - title: Old school 2D gameplay in VR
-    url: https://www.youtube.com/watch?v=-9ti6XNSGwk
-    channelName: Unity
-    description: Ana Ribeiro, Founder, Project Manager, and Lead Developer at Pixel
-      Ripped, talks about how Unity helped her tackle the challenges associated with
-      developing a hybrid 2D and VR game.
-    thumbUrls:
-    - https://i.ytimg.com/vi/-9ti6XNSGwk/sddefault.jpg
-    - https://i.ytimg.com/vi/-9ti6XNSGwk/mqdefault.jpg
-    - https://i.ytimg.com/vi/-9ti6XNSGwk/maxresdefault.jpg
-    - https://i.ytimg.com/vi/-9ti6XNSGwk/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    viewCount: 2472
-    likeCount: 38
-    dislikeCount: 4
-    commentCount: 4
-    durationInMinutes: 1
-    publishedAtDate: 636616445740000000
-    publisdedDate:
-      year: 2018
-      month: 5
-      day: 11
-    YouTubeDataAPI_Cooked: 1
-  - title: Noise and Textures in Shader Graph! | 2D Shader Basics
-    url: https://www.youtube.com/watch?v=p8H8ZdL_7eA
-    channelName: Unity
-    description: "In this video we\u2019re going to look at some of the more complex
-      procedures we can perform in Shader Graph and how we can use noise and textures
-      to perform and influence different operations within our shaders.\n\nCheck
-      out the other 2D Shader Basics Videos in this Playlist!\nhttps://on.unity.com/2YmhRWQ\n\nClick
-      here if you want to download the Lost Crypt Assets!\nhttps://on.unity.com/32dMMFT\n\nYou
-      can find more information about Shader Graph here!\nhttps://on.unity.com/32gYsYu"
-    thumbUrls:
-    - https://i.ytimg.com/vi/p8H8ZdL_7eA/sddefault.jpg
-    - https://i.ytimg.com/vi/p8H8ZdL_7eA/mqdefault.jpg
-    - https://i.ytimg.com/vi/p8H8ZdL_7eA/maxresdefault.jpg
-    - https://i.ytimg.com/vi/p8H8ZdL_7eA/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - unity 2019
-    - unity shader graph
-    - unity distortion shader
-    - unity distortion shader tutorial
-    - unity 2019 shader graph
-    - unity shader graph tutorial
-    - unity shader graph toon
-    - unity shader graph outline
-    - unity shader graph distortion
-    - unity distortion effect
-    - unity effect
-    - unity effects
-    - unity hwo to
-    - making a game in unity
-    - make a game unity
-    - shadergraph
-    viewCount: 14897
-    likeCount: 618
-    dislikeCount: 5
-    commentCount: 30
-    durationInMinutes: 8
-    publishedAtDate: 637336494040000000
-    publisdedDate:
-      year: 2020
-      month: 8
-      day: 21
-    YouTubeDataAPI_Cooked: 1
-  - title: New sprite rigging and lighting for 2D - Unity at GDC 2019
-    url: https://www.youtube.com/watch?v=0xnYbhqRDkM
-    channelName: Unity
-    description: "Watch to learn about the new unified Sprite Rigging workflows,
-      and get a sneak peek of the 2D Lighting system that is under development. \n\nSpeakers:\nAndy
-      Touch (Evangelist, Unity Technologies)\nRus Scammell (Product Manager 2D, Unity
-      Technologies)\n\nUnity for 2D Preview Packages: https://on.unity.com/2v4oxdo"
-    thumbUrls:
-    - https://i.ytimg.com/vi/0xnYbhqRDkM/sddefault.jpg
-    - https://i.ytimg.com/vi/0xnYbhqRDkM/mqdefault.jpg
-    - https://i.ytimg.com/vi/0xnYbhqRDkM/maxresdefault.jpg
-    - https://i.ytimg.com/vi/0xnYbhqRDkM/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - 2d development
-    - Sprite rigging
-    - 2D lighting
-    viewCount: 64828
-    likeCount: 1381
-    dislikeCount: 15
-    commentCount: 99
-    durationInMinutes: 25
-    publishedAtDate: 636912864000000000
-    publisdedDate:
-      year: 2019
-      month: 4
-      day: 19
-    YouTubeDataAPI_Cooked: 1
-  - title: 'New Prefab Workflows 4/4: 2D Level Design With Tilemap and Nested Prefabs
-      Unity Online User Group'
-    url: https://www.youtube.com/watch?v=vTzjz-vhQII
-    channelName: Unity
-    description: 'Learn more and try the preview build: https://ole.unity.com/newprefabs
-
-
-      Improved
-      workflow
-
-
-      The new Prefab workflows, which are now available as previews,
-      allow you to split up scenes and Prefabs on a granular level. This gives you
-      greater flexibility, increases your productivity and enables you to work confidently
-      without worrying about making time-consuming errors.
-
-
-      The improvements
-      are based on surveys with more than 150 enterprise customers, numerous interviews,
-      several usability tests and two game jams. The long-term goal has been not
-      only to implement support for nesting, but to rethink the core Prefab workflows
-      so different team members can simultaneously edit Prefabs confidently and efficiently.
-
-
-
-
-      Nesting
-
-
-      Previously,
-      users were forced to choose between creating large monolithic Prefabs, like
-      buildings, or more granular ones, like pieces of furniture, but they couldn''t
-      do both.
-
-
-      Now with support for nested Prefabs, a large building can
-      be made up of many smaller room Prefabs, which in turn can be made up of multiple
-      pieces of furniture Prefabs, and so on.
-
-
-      This makes it easier for teams
-      of all sizes to:
-
-
-      Split up Prefabs into multiple entities for greater
-      efficiency
-
-      Reuse any content, from small to large
-
-      Work on different
-      parts of content simultaneously
-
-      Learn more
-
-      Prefab Variants
-
-      Flexible
-      properties increase efficiency
-
-      As a default, a Prefab Variant inherits
-      the objects and properties of the Prefab it is a variant of, but at the same
-      time, you have the possibility to override those properties. This is similar
-      to the concept of inheritance in object-oriented programming.
-
-
-      For example,
-      if you had multiple door Prefabs, you could choose to make some of them a different
-      color, while allowing the rest to inherit the existing Prefab color property.
-      Any change made to the original door Prefab will affect the variants of it
-      as well, except those properties which have been overridden.
-
-
-
-      Prefab
-      Mode
-
-      Avoid time-consuming mistakes
-
-      A cornerstone of the new workflows,
-      Prefab Mode enables you to edit in isolation. While this means that you will
-      have to approach Prefab editing in a slightly different way, you can feel secure
-      that any errors made will not have negative consequences.'
-    thumbUrls:
-    - https://i.ytimg.com/vi/vTzjz-vhQII/sddefault.jpg
-    - https://i.ytimg.com/vi/vTzjz-vhQII/mqdefault.jpg
-    - https://i.ytimg.com/vi/vTzjz-vhQII/maxresdefault.jpg
-    - https://i.ytimg.com/vi/vTzjz-vhQII/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - prefab
-    - prefabs
-    - nested prefabs
-    - nested
-    - prefab variant
-    - prefab variant example
-    - unity for beginners
-    - unity basics
-    - unity 2018 basics
-    - unity 2018 tutorial for beginners
-    - unity prefab variant tutorail
-    - unity prefab variants tutorial
-    - unity tutorials for beginners
-    - unity beginner tutorials
-    - unity beginnners
-    - unity 2018 basics beginner
-    - unity 2018 basics tutorials
-    - unity 2018 variants
-    - variant prefab
-    viewCount: 9339
-    likeCount: 211
-    dislikeCount: 3
-    commentCount: 15
-    durationInMinutes: 8
-    publishedAtDate: 636664165530000000
-    publisdedDate:
-      year: 2018
-      month: 7
-      day: 5
-    YouTubeDataAPI_Cooked: 1
-  - title: 'New Prefab Workflows 3/4: 2D Level Design With Tilemap and Nested Prefabs
-      Unity Online User Group'
-    url: https://www.youtube.com/watch?v=cgVp9Pm1Nmc
-    channelName: Unity
-    description: 'Learn more and try the preview build: https://ole.unity.com/newprefabs
-
-
-      Improved
-      workflow
-
-
-      The new Prefab workflows, which are now available as previews,
-      allow you to split up scenes and Prefabs on a granular level. This gives you
-      greater flexibility, increases your productivity and enables you to work confidently
-      without worrying about making time-consuming errors.
-
-
-      The improvements
-      are based on surveys with more than 150 enterprise customers, numerous interviews,
-      several usability tests and two game jams. The long-term goal has been not
-      only to implement support for nesting, but to rethink the core Prefab workflows
-      so different team members can simultaneously edit Prefabs confidently and efficiently.
-
-
-
-
-      Nesting
-
-
-      Previously,
-      users were forced to choose between creating large monolithic Prefabs, like
-      buildings, or more granular ones, like pieces of furniture, but they couldn''t
-      do both.
-
-
-      Now with support for nested Prefabs, a large building can
-      be made up of many smaller room Prefabs, which in turn can be made up of multiple
-      pieces of furniture Prefabs, and so on.
-
-
-      This makes it easier for teams
-      of all sizes to:
-
-
-      Split up Prefabs into multiple entities for greater
-      efficiency
-
-      Reuse any content, from small to large
-
-      Work on different
-      parts of content simultaneously
-
-      Learn more
-
-      Prefab Variants
-
-      Flexible
-      properties increase efficiency
-
-      As a default, a Prefab Variant inherits
-      the objects and properties of the Prefab it is a variant of, but at the same
-      time, you have the possibility to override those properties. This is similar
-      to the concept of inheritance in object-oriented programming.
-
-
-      For example,
-      if you had multiple door Prefabs, you could choose to make some of them a different
-      color, while allowing the rest to inherit the existing Prefab color property.
-      Any change made to the original door Prefab will affect the variants of it
-      as well, except those properties which have been overridden.
-
-
-
-      Prefab
-      Mode
-
-      Avoid time-consuming mistakes
-
-      A cornerstone of the new workflows,
-      Prefab Mode enables you to edit in isolation. While this means that you will
-      have to approach Prefab editing in a slightly different way, you can feel secure
-      that any errors made will not have negative consequences.'
-    thumbUrls:
-    - https://i.ytimg.com/vi/cgVp9Pm1Nmc/sddefault.jpg
-    - https://i.ytimg.com/vi/cgVp9Pm1Nmc/mqdefault.jpg
-    - https://i.ytimg.com/vi/cgVp9Pm1Nmc/maxresdefault.jpg
-    - https://i.ytimg.com/vi/cgVp9Pm1Nmc/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - prefab
-    - prefabs
-    - nested prefabs
-    - unity override
-    - unity 2018 basics
-    - unity 2018 prefab mode
-    - unity prefab mode
-    - mode
-    - prefab mode
-    - prefab mode tutorial
-    - prefab mode unity
-    - prefab mode in unity
-    - prefab mode 2018
-    - prefabs in unity
-    - prefabs in unity 2018
-    - prefabs for beginners
-    - basics
-    - basic
-    - for
-    - beginners
-    - beginner
-    - easy
-    - how to
-    - howto
-    - unity3d
-    - unity3d tutorial
-    - unity prefabs
-    - asset
-    - assets
-    - u3d
-    viewCount: 9743
-    likeCount: 104
-    dislikeCount: 4
-    commentCount: 5
-    durationInMinutes: 4
-    publishedAtDate: 636664165530000000
-    publisdedDate:
-      year: 2018
-      month: 7
-      day: 5
-    YouTubeDataAPI_Cooked: 1
-  - title: 'New Prefab Workflows 2/4: 2D Level Design With Tilemap and Nested Prefabs
-      Unity Online User Group'
-    url: https://www.youtube.com/watch?v=NXghnxDe8zM
-    channelName: Unity
-    description: 'Learn more and try the preview build: https://ole.unity.com/newprefabs
-
-
-      Improved
-      workflow
-
-
-      The new Prefab workflows, which are now available as previews,
-      allow you to split up scenes and Prefabs on a granular level. This gives you
-      greater flexibility, increases your productivity and enables you to work confidently
-      without worrying about making time-consuming errors.
-
-
-      The improvements
-      are based on surveys with more than 150 enterprise customers, numerous interviews,
-      several usability tests and two game jams. The long-term goal has been not
-      only to implement support for nesting, but to rethink the core Prefab workflows
-      so different team members can simultaneously edit Prefabs confidently and efficiently.
-
-
-
-
-      Nesting
-
-
-      Previously,
-      users were forced to choose between creating large monolithic Prefabs, like
-      buildings, or more granular ones, like pieces of furniture, but they couldn''t
-      do both.
-
-
-      Now with support for nested Prefabs, a large building can
-      be made up of many smaller room Prefabs, which in turn can be made up of multiple
-      pieces of furniture Prefabs, and so on.
-
-
-      This makes it easier for teams
-      of all sizes to:
-
-
-      Split up Prefabs into multiple entities for greater
-      efficiency
-
-      Reuse any content, from small to large
-
-      Work on different
-      parts of content simultaneously
-
-      Learn more
-
-      Prefab Variants
-
-      Flexible
-      properties increase efficiency
-
-      As a default, a Prefab Variant inherits
-      the objects and properties of the Prefab it is a variant of, but at the same
-      time, you have the possibility to override those properties. This is similar
-      to the concept of inheritance in object-oriented programming.
-
-
-      For example,
-      if you had multiple door Prefabs, you could choose to make some of them a different
-      color, while allowing the rest to inherit the existing Prefab color property.
-      Any change made to the original door Prefab will affect the variants of it
-      as well, except those properties which have been overridden.
-
-
-
-      Prefab
-      Mode
-
-      Avoid time-consuming mistakes
-
-      A cornerstone of the new workflows,
-      Prefab Mode enables you to edit in isolation. While this means that you will
-      have to approach Prefab editing in a slightly different way, you can feel secure
-      that any errors made will not have negative consequences.'
-    thumbUrls:
-    - https://i.ytimg.com/vi/NXghnxDe8zM/sddefault.jpg
-    - https://i.ytimg.com/vi/NXghnxDe8zM/mqdefault.jpg
-    - https://i.ytimg.com/vi/NXghnxDe8zM/maxresdefault.jpg
-    - https://i.ytimg.com/vi/NXghnxDe8zM/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - prefab
-    - prefabs
-    - nested prefabs
-    - nested
-    - prefab variant
-    - variant
-    - override
-    - 2d level design
-    - 2d level design unity
-    - unity 2d prefab
-    - 2d enemy
-    - tilemap
-    - level generation
-    - procedural 2d level
-    - 2d platformer
-    - procedural platformer
-    - improved prefab workflows
-    - new prefab workflows
-    - unity nested prefabs
-    - learn
-    - game
-    - development
-    - develop
-    - games
-    - basic
-    - basics
-    - 2018.2
-    - 2018.3
-    - easy
-    - how to
-    - how
-    - to
-    - howto
-    - tutorials
-    viewCount: 16556
-    likeCount: 171
-    dislikeCount: 5
-    commentCount: 12
-    durationInMinutes: 6
-    publishedAtDate: 636664165530000000
-    publisdedDate:
-      year: 2018
-      month: 7
-      day: 5
-    YouTubeDataAPI_Cooked: 1
-  - title: 'New Prefab Workflows 1/4: 2D Level Design With Tilemap and Nested Prefabs'
-    url: https://www.youtube.com/watch?v=mFIAGVydVu4
-    channelName: Unity
-    description: 'Learn more and try the preview build: https://ole.unity.com/newprefabs
-
-
-      Improved
-      workflow
-
-
-      The new Prefab workflows, which are now available as previews,
-      allow you to split up scenes and Prefabs on a granular level. This gives you
-      greater flexibility, increases your productivity and enables you to work confidently
-      without worrying about making time-consuming errors.
-
-
-      The improvements
-      are based on surveys with more than 150 enterprise customers, numerous interviews,
-      several usability tests and two game jams. The long-term goal has been not
-      only to implement support for nesting, but to rethink the core Prefab workflows
-      so different team members can simultaneously edit Prefabs confidently and efficiently.
-
-
-
-
-      Nesting
-
-
-      Previously,
-      users were forced to choose between creating large monolithic Prefabs, like
-      buildings, or more granular ones, like pieces of furniture, but they couldn''t
-      do both.
-
-
-      Now with support for nested Prefabs, a large building can
-      be made up of many smaller room Prefabs, which in turn can be made up of multiple
-      pieces of furniture Prefabs, and so on.
-
-
-      This makes it easier for teams
-      of all sizes to:
-
-
-      Split up Prefabs into multiple entities for greater
-      efficiency
-
-      Reuse any content, from small to large
-
-      Work on different
-      parts of content simultaneously
-
-      Learn more
-
-      Prefab Variants
-
-      Flexible
-      properties increase efficiency
-
-      As a default, a Prefab Variant inherits
-      the objects and properties of the Prefab it is a variant of, but at the same
-      time, you have the possibility to override those properties. This is similar
-      to the concept of inheritance in object-oriented programming.
-
-
-      For example,
-      if you had multiple door Prefabs, you could choose to make some of them a different
-      color, while allowing the rest to inherit the existing Prefab color property.
-      Any change made to the original door Prefab will affect the variants of it
-      as well, except those properties which have been overridden.
-
-
-
-      Prefab
-      Mode
-
-      Avoid time-consuming mistakes
-
-      A cornerstone of the new workflows,
-      Prefab Mode enables you to edit in isolation. While this means that you will
-      have to approach Prefab editing in a slightly different way, you can feel secure
-      that any errors made will not have negative consequences.'
-    thumbUrls:
-    - https://i.ytimg.com/vi/mFIAGVydVu4/sddefault.jpg
-    - https://i.ytimg.com/vi/mFIAGVydVu4/mqdefault.jpg
-    - https://i.ytimg.com/vi/mFIAGVydVu4/maxresdefault.jpg
-    - https://i.ytimg.com/vi/mFIAGVydVu4/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Dev
-    - Game Engine
-    - prefab
-    - prefabs
-    - nested prefabs
-    - nested
-    - prefab variant
-    - variant
-    - override
-    - 2d level design
-    - unity 2d nested prefabs
-    - unity
-    - prefab variants
-    - unity 2018
-    - unity 2018 for beginners
-    - unity basics 2018
-    - unity basics
-    - unity 2018 basics
-    - unity beginners 2018
-    - unity nested prefabs 2018
-    - unity nested prefabs beginners
-    - unity nested prefabs basics
-    - unity improved prefab workflows
-    - improved
-    - workflows
-    - unity3d
-    - unity 3d
-    - 3d
-    - 2018
-    viewCount: 48930
-    likeCount: 639
-    dislikeCount: 13
-    commentCount: 44
-    durationInMinutes: 4
-    publishedAtDate: 636664165530000000
-    publisdedDate:
-      year: 2018
-      month: 7
-      day: 5
-    YouTubeDataAPI_Cooked: 1
-  - title: New 2D graphics features - Unite Copenhagen
-    url: https://www.youtube.com/watch?v=7OF-iBCHp0c
-    channelName: Unity
-    description: "Unity is introducing a wide range of new 2D graphics features in
-      2019: 2D Lights, 2D Shader Graph and 2D Shadows. In this session, Andy walks
-      through, in-editor, how to visually improve a 2D level using all of these new
-      tools and show how they all work together.\n\nSpeaker: Andy Touch \u2013\_Unity
-      Technologies"
-    thumbUrls:
-    - https://i.ytimg.com/vi/7OF-iBCHp0c/sddefault.jpg
-    - https://i.ytimg.com/vi/7OF-iBCHp0c/mqdefault.jpg
-    - https://i.ytimg.com/vi/7OF-iBCHp0c/maxresdefault.jpg
-    - https://i.ytimg.com/vi/7OF-iBCHp0c/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - 2d
-    - graphics
-    viewCount: 31585
-    likeCount: 744
-    dislikeCount: 7
-    commentCount: 52
-    durationInMinutes: 45
-    publishedAtDate: 637066908010000000
-    publisdedDate:
-      year: 2019
-      month: 10
-      day: 14
     YouTubeDataAPI_Cooked: 1
   - title: Making a 2D Game in Unity in 2 Days! | Preparing for Global Game Jam
     url: https://www.youtube.com/watch?v=ahpn5e7SGWI
@@ -2559,39 +1084,6 @@ MonoBehaviour:
       month: 10
       day: 31
     YouTubeDataAPI_Cooked: 1
-  - title: 'Lost Crypt: Explore Unity''s new 2D features'
-    url: https://www.youtube.com/watch?v=vRPW3H4X9PE
-    channelName: Unity
-    description: "Webinar recording: Global evangelist Andy Touch explains how we
-      used 2D lights, shaders, and post-processing in our new 2D sample project Lost
-      Crypt. \nGet the project & learn more about our suite of 2D tools: https://on.unity.com/374m7Mn\nMore
-      about the art of Lost Crypt: https://on.unity.com/2H2kswg \n\n01:55 Topics\n04:06
-      Project Overview\n07:55 Universal Render Pipeline\n11:23 2D Lights Types\n34:02
-      2D Shader Graph\n44:35 Post-Processing"
-    thumbUrls:
-    - https://i.ytimg.com/vi/vRPW3H4X9PE/sddefault.jpg
-    - https://i.ytimg.com/vi/vRPW3H4X9PE/mqdefault.jpg
-    - https://i.ytimg.com/vi/vRPW3H4X9PE/maxresdefault.jpg
-    - https://i.ytimg.com/vi/vRPW3H4X9PE/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    viewCount: 42276
-    likeCount: 805
-    dislikeCount: 13
-    commentCount: 53
-    durationInMinutes: 58
-    publishedAtDate: 637166238470000000
-    publisdedDate:
-      year: 2020
-      month: 2
-      day: 6
-    YouTubeDataAPI_Cooked: 1
   - title: Lost Crypt available now - The evolution of 2D tools (Interview)
     url: https://www.youtube.com/watch?v=X4HqvJpZTOo
     channelName: Unity
@@ -2634,64 +1126,6 @@ MonoBehaviour:
       year: 2019
       month: 12
       day: 18
-    YouTubeDataAPI_Cooked: 1
-  - title: "Lost Crypt \u2013 New 2D Sample Project for Unity! (Overview)"
-    url: https://www.youtube.com/watch?v=nUkh7CKqGb8
-    channelName: Unity
-    description: 'We created Lost Crypt using the complete suite of 2D tools. This
-      lively scene features animation, light effects, organic terrain, shaders, and
-      post-processing, all made natively in 2D. It shows how teams and projects of
-      all sizes, targeting any platform, can now get more engaging and beautiful
-      results faster.
-
-
-      Download the project here:
-
-      https://ole.unity.com/lostcrypt
-
-
-      Official
-      blog post:
-
-      https://on.unity.com/2R18KYD'
-    thumbUrls:
-    - https://i.ytimg.com/vi/nUkh7CKqGb8/sddefault.jpg
-    - https://i.ytimg.com/vi/nUkh7CKqGb8/mqdefault.jpg
-    - https://i.ytimg.com/vi/nUkh7CKqGb8/maxresdefault.jpg
-    - https://i.ytimg.com/vi/nUkh7CKqGb8/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - Unity 2d
-    - unity 2d lightning
-    - unity 2d shadows
-    - unity 2d tilemap
-    - unity 2d 2019.3
-    - unity 2d shader graph
-    - unity 2d sprite shape
-    - unity 2d terrain
-    - unity 2d organic terrain
-    - unity 2d IK
-    - unity 2d normal map
-    - unity 2d animation
-    - unity tutorial 2d
-    - unity game development
-    - 2d games how to make
-    viewCount: 162478
-    likeCount: 6402
-    dislikeCount: 27
-    commentCount: 148
-    durationInMinutes: 2
-    publishedAtDate: 637125660150000000
-    publisdedDate:
-      year: 2019
-      month: 12
-      day: 21
     YouTubeDataAPI_Cooked: 1
   - title: 'Live Training: Top Down 2D Games'
     url: https://www.youtube.com/watch?v=uv2QSvuwIDs
@@ -2910,6 +1344,102 @@ MonoBehaviour:
       year: 2014
       month: 6
       day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Live Training 3rd October 2016 - Creating Basic Editor Tools
+    url: https://www.youtube.com/watch?v=L24GKk1qQD4
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/creating-basic-editor-tools
+
+
+      In
+      this live training session we will look at creating basic editor tools. Editor
+      scripting allows you to customize your workflow in the Unity Editor. We''ll
+      create a watch folder that sets Textures to Sprite type, a scriptable wizard
+      to select by tag and a scriptable wizard to create Game Objects and set their
+      variables automatically.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/L24GKk1qQD4/sddefault.jpg
+    - https://i.ytimg.com/vi/L24GKk1qQD4/mqdefault.jpg
+    - https://i.ytimg.com/vi/L24GKk1qQD4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/L24GKk1qQD4/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - editor scripting
+    - editor tool
+    - scriptable wizard
+    - watch folder
+    - intro to editor scripting
+    viewCount: 37596
+    likeCount: 433
+    dislikeCount: 4
+    commentCount: 31
+    durationInMinutes: 52
+    publishedAtDate: 636112220970000000
+    publisdedDate:
+      year: 2016
+      month: 10
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Live Training 29th December 2014 - Couch Wars: Local Multiplayer with
+      Controller Support'
+    url: https://www.youtube.com/watch?v=X3bgSNycSHo
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/local-multiplayer-with-controllers
+
+
+      Recap
+      of the live training session in which we convert the 2D Platformer project
+      to two player coop with controller support. Get the original project here:
+
+      http://u3d.as/content/unity-technologies/2d-platformer/5m5
+
+
+      If
+      you have any comments, suggestions or requests, put them up on our official
+      forum thread:
+
+      http://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V64y/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/X3bgSNycSHo/sddefault.jpg
+    - https://i.ytimg.com/vi/X3bgSNycSHo/mqdefault.jpg
+    - https://i.ytimg.com/vi/X3bgSNycSHo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/X3bgSNycSHo/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - coop game
+    - Multiplayer Video Game (Website Category)
+    - Tutorial (Media Genre)
+    - unity3d
+    - live training
+    - 2d platformer
+    - 2d game
+    - xbox controller
+    - unity controller
+    - Game Controller (Computer Peripheral Class)
+    - Games
+    viewCount: 37311
+    likeCount: 295
+    dislikeCount: 10
+    commentCount: 29
+    durationInMinutes: 44
+    publishedAtDate: 635555940820000000
+    publisdedDate:
+      year: 2014
+      month: 12
+      day: 31
     YouTubeDataAPI_Cooked: 1
   - title: Live Training 28th May 2014 - Introduction to Unity from a 2D perspective
     url: https://www.youtube.com/watch?v=AZyDg2qEEbM
@@ -3334,133 +1864,6 @@ MonoBehaviour:
       year: 2014
       month: 5
       day: 16
-    YouTubeDataAPI_Cooked: 1
-  - title: Hex Grid Movement with Tilemap in Unity! (Tutorial)
-    url: https://www.youtube.com/watch?v=bcPqdCSGCls
-    channelName: Unity
-    description: "In this video learn how to get started with Hexagonal shaped Tilemaps.
-      Hex grid movement is popular in many types of strategy games. Here we've provided
-      a set of free hex tile sprites and a C# script to allow you to get started
-      moving around on the hex grid. As a bonus we've also included a hex based fog
-      of war effect which is cleared as the player moves around the map.\n\nDownload
-      the free example project here to try it out for yourself: https://learn.unity.com/tutorial/working-with-hexagonal-and-isometric-tile-shapes?tab=materials\n\nContinue
-      learning about Tilemaps on Unity's official learning platform: https://on.unity.com/2PfhWX1
-      \n\nContinue learning about hexagonal and isometric tile shapes with this tutorial:
-      https://on.unity.com/2rUNk59"
-    thumbUrls:
-    - https://i.ytimg.com/vi/bcPqdCSGCls/sddefault.jpg
-    - https://i.ytimg.com/vi/bcPqdCSGCls/mqdefault.jpg
-    - https://i.ytimg.com/vi/bcPqdCSGCls/maxresdefault.jpg
-    - https://i.ytimg.com/vi/bcPqdCSGCls/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - unity 2019.3
-    - unity 3d
-    - unity
-    - unity game engine
-    - unity hex grid tutorial
-    - unity hex grid
-    - unity 2d hex grid
-    - hex grid unity
-    - unity hex grid movement
-    - unity 2d
-    - unity topdown
-    - unity3d
-    - asset
-    - hex
-    - tilemap
-    - tilemap unity
-    - fog of war
-    - sprite
-    - hex sprite
-    - free assets
-    viewCount: 57442
-    likeCount: 1223
-    dislikeCount: 23
-    commentCount: 55
-    durationInMinutes: 6
-    publishedAtDate: 637107516110000000
-    publisdedDate:
-      year: 2019
-      month: 11
-      day: 30
-    YouTubeDataAPI_Cooked: 1
-  - title: Getting Started with Sprite Shape in Unity 2018! - Sprite Shape Demo (Part
-      1/3)
-    url: https://www.youtube.com/watch?v=wumwrMori1Y
-    channelName: Unity
-    description: 'Get started with Sprite Shape: https://on.unity.com/SpriteShapeBlog
-
-      Find
-      out more about Sprite Shape: http://ole.unity.com/spriteshape
-
-
-      SpriteShape
-      is a sprite layout or world building tool that provides the ability to tile
-      sprites along the path of a shape based on given angle ranges. Additionally
-      the shape can be filled with a tiling texture.
-
-
-      The main feature of
-      the SpriteShape is the powerful combination of a bezier spline path with the
-      ability to tile Sprites adaptively or continuously while automatically switching
-      Sprites assigned to given angles.'
-    thumbUrls:
-    - https://i.ytimg.com/vi/wumwrMori1Y/sddefault.jpg
-    - https://i.ytimg.com/vi/wumwrMori1Y/mqdefault.jpg
-    - https://i.ytimg.com/vi/wumwrMori1Y/maxresdefault.jpg
-    - https://i.ytimg.com/vi/wumwrMori1Y/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - unity sprite shape
-    - unity 2018 sprite shape
-    - unity 2018
-    - sprite shape
-    - sprite
-    - shape
-    - unity 3d
-    - unity 2018.2
-    - new features
-    - gamedev
-    - indiedev
-    - unity 2018 sprite
-    - unity 2018 shape
-    - Sprite Shape
-    - unity spline
-    - unity splines
-    - unity 2d splines
-    - unity 2d shapes
-    - unity 2d sprites
-    - unity 2d sprite shape
-    - unity 2d sprite
-    - unity 2d tutorial
-    - unity tutorial
-    - for beginners
-    - beginner friendly
-    - basics
-    - easy
-    viewCount: 77192
-    likeCount: 983
-    dislikeCount: 11
-    commentCount: 63
-    durationInMinutes: 7
-    publishedAtDate: 636730635800000000
-    publisdedDate:
-      year: 2018
-      month: 9
-      day: 20
     YouTubeDataAPI_Cooked: 1
   - title: Getting Started With 2D Game Kits - Using The Inventory System [7/8] Live
       2018/2/21
@@ -3917,98 +2320,357 @@ MonoBehaviour:
       month: 3
       day: 2
     YouTubeDataAPI_Cooked: 1
-  - title: Game Connection Paris - Swing Swing Submarine on Modern 2D Techniques
-    url: https://www.youtube.com/watch?v=bUGbXThraVM
+  - title: Flappy Bird Style - The Bird Script [3/10] Live 2016/12/19
+    url: https://www.youtube.com/watch?v=Sz6hj2uq86U
     channelName: Unity
-    description: 'Benoit Fouletier and Guillaume Martin, programmers at Swing Swing
-      Submarine, show some techniques for creating graphically ambitious 2D teams
-      in Unity with a small team.
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/2d-game-creation/bird-script
 
 
-      Help us caption & translate this video!
-
-
-      http://amara.org/v/V65N/'
+      In
+      this beginner-friendly live training, we will look at creating a simple 2D
+      Flappy Bird style game. We will cover best practices for infinite or endless
+      games, basic object pooling and creating cartoon physics effects.'
     thumbUrls:
-    - https://i.ytimg.com/vi/bUGbXThraVM/sddefault.jpg
-    - https://i.ytimg.com/vi/bUGbXThraVM/mqdefault.jpg
-    - https://i.ytimg.com/vi/bUGbXThraVM/maxresdefault.jpg
-    - https://i.ytimg.com/vi/bUGbXThraVM/hqdefault.jpg
+    - https://i.ytimg.com/vi/Sz6hj2uq86U/sddefault.jpg
+    - https://i.ytimg.com/vi/Sz6hj2uq86U/mqdefault.jpg
+    - https://i.ytimg.com/vi/Sz6hj2uq86U/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Sz6hj2uq86U/hqdefault.jpg
     tags:
-    - Game Connection (Conference Series)
-    - Unity (Software)
-    - Swing Swing Submarine
-    - 2D Game Development
-    - Unity2d
-    viewCount: 4314
-    likeCount: 89
-    dislikeCount: 1
-    commentCount: 4
-    durationInMinutes: 48
-    publishedAtDate: 635525524080000000
+    - unity
+    - unity3d
+    - flappy bird
+    - tutorial
+    - live training
+    - beginner unity
+    - beginner
+    - flappy
+    - bird
+    - 2d
+    - 2d game
+    - side scroller
+    - endless runner
+    - endless
+    - infinite
+    - object pooling
+    - object pool
+    viewCount: 48878
+    likeCount: 293
+    dislikeCount: 5
+    commentCount: 60
+    durationInMinutes: 11
+    publishedAtDate: 636181276550000000
     publisdedDate:
-      year: 2014
-      month: 11
-      day: 25
+      year: 2016
+      month: 12
+      day: 23
     YouTubeDataAPI_Cooked: 1
-  - title: 'forma.8: Unity for 2D games case study'
-    url: https://www.youtube.com/watch?v=18xpAo57SzU
+  - title: Flappy Bird Style - Scrolling Repeating Background UI [7/10] Live 2016/12/19
+    url: https://www.youtube.com/watch?v=AyNhGthBFdg
     channelName: Unity
-    description: 'Mauro Fanelli, co-founder of Mixed Bag studios, talks about how
-      2D tools in Unity enabled them to realize their vision. Read the full story:
-      https://unity3d.com/solutions/2d-game-development-case-stories/forma.8'
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/2d-game-creation/scrolling-repeating-backgrounds
+
+
+      In
+      this beginner-friendly live training, we will look at creating a simple 2D
+      Flappy Bird style game. We will cover best practices for infinite or endless
+      games, basic object pooling and creating cartoon physics effects.'
     thumbUrls:
-    - https://i.ytimg.com/vi/18xpAo57SzU/sddefault.jpg
-    - https://i.ytimg.com/vi/18xpAo57SzU/mqdefault.jpg
-    - https://i.ytimg.com/vi/18xpAo57SzU/maxresdefault.jpg
-    - https://i.ytimg.com/vi/18xpAo57SzU/hqdefault.jpg
+    - https://i.ytimg.com/vi/AyNhGthBFdg/sddefault.jpg
+    - https://i.ytimg.com/vi/AyNhGthBFdg/mqdefault.jpg
+    - https://i.ytimg.com/vi/AyNhGthBFdg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/AyNhGthBFdg/hqdefault.jpg
     tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    viewCount: 3672
-    likeCount: 21
-    dislikeCount: 1
-    commentCount: 4
-    durationInMinutes: 1
-    publishedAtDate: 636534485680000000
+    - unity
+    - unity3d
+    - flappy bird
+    - tutorial
+    - live training
+    - beginner unity
+    - beginner
+    - flappy
+    - bird
+    - 2d
+    - 2d game
+    - side scroller
+    - endless runner
+    - endless
+    - infinite
+    - object pooling
+    - object pool
+    viewCount: 52663
+    likeCount: 352
+    dislikeCount: 15
+    commentCount: 92
+    durationInMinutes: 20
+    publishedAtDate: 636181276540000000
     publisdedDate:
-      year: 2018
-      month: 2
-      day: 5
+      year: 2016
+      month: 12
+      day: 23
     YouTubeDataAPI_Cooked: 1
-  - title: 'Flipping Death: Unity for 2D games case study'
-    url: https://www.youtube.com/watch?v=mpm-JRSOq_M
+  - title: Flappy Bird Style - Score and Game Over UI [5/10] Live 2016/12/19
+    url: https://www.youtube.com/watch?v=NegDFzLGT7U
     channelName: Unity
-    description: Rasmus Jarl, a developer at Zoink Games, talks about the unique
-      blend of 2D and 3D graphics in Flipping Death.
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/2d-game-creation/score-and-gameover-ui-setup
+
+
+      In
+      this beginner friendly live training we will look at creating a simple 2D Flappy
+      Bird style game. We''ll cover best practices for infinite or endless games,
+      basic object pooling and creating cartoon physics effects.'
     thumbUrls:
-    - https://i.ytimg.com/vi/mpm-JRSOq_M/sddefault.jpg
-    - https://i.ytimg.com/vi/mpm-JRSOq_M/mqdefault.jpg
-    - https://i.ytimg.com/vi/mpm-JRSOq_M/maxresdefault.jpg
-    - https://i.ytimg.com/vi/mpm-JRSOq_M/hqdefault.jpg
+    - https://i.ytimg.com/vi/NegDFzLGT7U/sddefault.jpg
+    - https://i.ytimg.com/vi/NegDFzLGT7U/mqdefault.jpg
+    - https://i.ytimg.com/vi/NegDFzLGT7U/maxresdefault.jpg
+    - https://i.ytimg.com/vi/NegDFzLGT7U/hqdefault.jpg
     tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    viewCount: 1147
-    likeCount: 15
-    dislikeCount: 1
-    commentCount: 0
-    durationInMinutes: 1
-    publishedAtDate: 636616456650000000
+    - unity
+    - unity3d
+    - flappy bird
+    - tutorial
+    - live training
+    - beginner unity
+    - beginner
+    - flappy
+    - bird
+    - 2d
+    - 2d game
+    - side scroller
+    - endless runner
+    - endless
+    - infinite
+    - object pooling
+    - object pool
+    viewCount: 41921
+    likeCount: 257
+    dislikeCount: 14
+    commentCount: 6
+    durationInMinutes: 7
+    publishedAtDate: 636181276540000000
     publisdedDate:
-      year: 2018
-      month: 5
-      day: 11
+      year: 2016
+      month: 12
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: Flappy Bird Style - Recycling Obstacles With Object Pooling [9/10] Live
+      2016/12/19
+    url: https://www.youtube.com/watch?v=hn5LD17n1wc
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/2d-game-creation/recycling-obstacles-object-pooling
+
+
+      In
+      this beginner-friendly live training, we will look at creating a simple 2D
+      Flappy Bird style game. We will cover best practices for infinite or endless
+      games, basic object pooling and creating cartoon physics effects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/hn5LD17n1wc/sddefault.jpg
+    - https://i.ytimg.com/vi/hn5LD17n1wc/mqdefault.jpg
+    - https://i.ytimg.com/vi/hn5LD17n1wc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hn5LD17n1wc/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - flappy bird
+    - tutorial
+    - live training
+    - beginner unity
+    - beginner
+    - flappy
+    - bird
+    - 2d
+    - 2d game
+    - side scroller
+    - endless runner
+    - endless
+    - infinite
+    - object pooling
+    - object pool
+    viewCount: 66196
+    likeCount: 465
+    dislikeCount: 3
+    commentCount: 65
+    durationInMinutes: 17
+    publishedAtDate: 636181276530000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: Flappy Bird Style - Questions and Answers [10/10] Live 2016/12/19
+    url: https://www.youtube.com/watch?v=BmSJ-w8ZVxc
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/2d-game-creation/questions-and-answers
+
+
+      In
+      this beginner-friendly live training, we will look at creating a simple 2D
+      Flappy Bird style game. We will cover best practices for infinite or endless
+      games, basic object pooling and creating cartoon physics effects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/BmSJ-w8ZVxc/sddefault.jpg
+    - https://i.ytimg.com/vi/BmSJ-w8ZVxc/mqdefault.jpg
+    - https://i.ytimg.com/vi/BmSJ-w8ZVxc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/BmSJ-w8ZVxc/hqdefault.jpg
+    tags: []
+    viewCount: 18548
+    likeCount: 165
+    dislikeCount: 0
+    commentCount: 39
+    durationInMinutes: 6
+    publishedAtDate: 636181276530000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: Flappy Bird Style - Project Goals [1/10] Live 2016/12/19
+    url: https://www.youtube.com/watch?v=WWn4i5u2pWY
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/2d-game-creation/project-goals
+
+
+      In
+      this beginner-friendly live training, we will look at creating a simple 2D
+      Flappy Bird style game. We will cover best practices for infinite or endless
+      games, basic object pooling and creating cartoon physics effects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/WWn4i5u2pWY/sddefault.jpg
+    - https://i.ytimg.com/vi/WWn4i5u2pWY/mqdefault.jpg
+    - https://i.ytimg.com/vi/WWn4i5u2pWY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WWn4i5u2pWY/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - flappy bird
+    - tutorial
+    - live training
+    - beginner unity
+    - beginner
+    - flappy
+    - bird
+    - 2d
+    - 2d game
+    - side scroller
+    - endless runner
+    - endless
+    - infinite
+    - object pooling
+    - object pool
+    viewCount: 70599
+    likeCount: 471
+    dislikeCount: 9
+    commentCount: 37
+    durationInMinutes: 6
+    publishedAtDate: 636181276550000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: Flappy Bird Style - Animating The Bird [4/10] Live 2016/12/19
+    url: https://www.youtube.com/watch?v=HLosu_cy6Ok
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/2d-game-creation/animating-bird
+
+
+      In
+      this beginner friendly live training we will look at creating a simple 2D Flappy
+      Bird style game. We''ll cover best practices for infinite or endless games,
+      basic object pooling and creating cartoon physics effects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/HLosu_cy6Ok/sddefault.jpg
+    - https://i.ytimg.com/vi/HLosu_cy6Ok/mqdefault.jpg
+    - https://i.ytimg.com/vi/HLosu_cy6Ok/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HLosu_cy6Ok/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - flappy bird
+    - tutorial
+    - live training
+    - beginner unity
+    - beginner
+    - flappy
+    - bird
+    - 2d
+    - 2d game
+    - side scroller
+    - endless runner
+    - endless
+    - infinite
+    - object pooling
+    - object pool
+    viewCount: 46062
+    likeCount: 323
+    dislikeCount: 8
+    commentCount: 46
+    durationInMinutes: 13
+    publishedAtDate: 636181276550000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: Flappy Bird Style - Adding The Game Controller [6/10] Live 2016/12/19
+    url: https://www.youtube.com/watch?v=pbFFjgCVaHY
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/2d-game-creation/adding-game-controller
+
+
+      In
+      this beginner-friendly live training, we will look at creating a simple 2D
+      Flappy Bird style game. We will cover best practices for infinite or endless
+      games, basic object pooling and creating cartoon physics effects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/pbFFjgCVaHY/sddefault.jpg
+    - https://i.ytimg.com/vi/pbFFjgCVaHY/mqdefault.jpg
+    - https://i.ytimg.com/vi/pbFFjgCVaHY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pbFFjgCVaHY/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - flappy bird
+    - tutorial
+    - live training
+    - beginner unity
+    - beginner
+    - flappy
+    - bird
+    - 2d
+    - 2d game
+    - side scroller
+    - endless runner
+    - endless
+    - infinite
+    - object pooling
+    - object pool
+    viewCount: 37157
+    likeCount: 235
+    dislikeCount: 4
+    commentCount: 58
+    durationInMinutes: 10
+    publishedAtDate: 636181276540000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 23
     YouTubeDataAPI_Cooked: 1
   - title: Flappy Bird Style - Adding Sprites [2/10] Live 2016/12/19
     url: https://www.youtube.com/watch?v=Z0mNwITrCnQ
@@ -4056,72 +2718,51 @@ MonoBehaviour:
       month: 12
       day: 23
     YouTubeDataAPI_Cooked: 1
-  - title: Editing Sprites and Shapes in Unity 2018! - Sprite Shape Demo (Part 2/3)
-    url: https://www.youtube.com/watch?v=IaC_cHz2RZg
+  - title: Flappy Bird Style - Adding Column Obstacles [8/10] Live 2016/12/19
+    url: https://www.youtube.com/watch?v=UbPrBZM3xfU
     channelName: Unity
-    description: 'Find out more about Sprite Shape: http://ole.unity.com/spriteshape
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://www.unity3d.com/learn/tutorials/topics/2d-game-creation/adding-column-obstacles
 
 
-      SpriteShape
-      is a sprite layout or world building tool that provides the ability to tile
-      sprites along the path of a shape based on given angle ranges. Additionally
-      the shape can be filled with a tiling texture.
-
-
-      The main feature of
-      the SpriteShape is the powerful combination of a bezier spline path with the
-      ability to tile Sprites adaptively or continuously while automatically switching
-      Sprites assigned to given angles.'
+      In
+      this beginner-friendly live training, we will look at creating a simple 2D
+      Flappy Bird style game. We will cover best practices for infinite or endless
+      games, basic object pooling and creating cartoon physics effects.'
     thumbUrls:
-    - https://i.ytimg.com/vi/IaC_cHz2RZg/sddefault.jpg
-    - https://i.ytimg.com/vi/IaC_cHz2RZg/mqdefault.jpg
-    - https://i.ytimg.com/vi/IaC_cHz2RZg/maxresdefault.jpg
-    - https://i.ytimg.com/vi/IaC_cHz2RZg/hqdefault.jpg
+    - https://i.ytimg.com/vi/UbPrBZM3xfU/sddefault.jpg
+    - https://i.ytimg.com/vi/UbPrBZM3xfU/mqdefault.jpg
+    - https://i.ytimg.com/vi/UbPrBZM3xfU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/UbPrBZM3xfU/hqdefault.jpg
     tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - unity sprite shape
-    - unity 2018 sprite shape
-    - unity 2018
-    - sprite shape
-    - sprite
-    - shape
-    - unity 3d
-    - unity 2018.2
-    - new features
-    - gamedev
-    - indiedev
-    - unity 2018 sprite
-    - unity 2018 shape
-    - Sprite Shape
-    - unity spline
-    - unity splines
-    - unity 2d splines
-    - unity 2d shapes
-    - unity 2d sprites
-    - unity 2d sprite shape
-    - unity 2d sprite
-    - unity 2d tutorial
-    - unity tutorial
-    - for beginners
-    - beginner friendly
-    - basics
-    - easy
-    viewCount: 23886
-    likeCount: 294
-    dislikeCount: 3
-    commentCount: 15
-    durationInMinutes: 6
-    publishedAtDate: 636731348060000000
+    - unity
+    - unity3d
+    - flappy bird
+    - tutorial
+    - live training
+    - beginner unity
+    - beginner
+    - flappy
+    - bird
+    - 2d
+    - 2d game
+    - side scroller
+    - endless runner
+    - endless
+    - infinite
+    - object pooling
+    - object pool
+    viewCount: 33027
+    likeCount: 191
+    dislikeCount: 1
+    commentCount: 43
+    durationInMinutes: 11
+    publishedAtDate: 636181276540000000
     publisdedDate:
-      year: 2018
-      month: 9
-      day: 21
+      year: 2016
+      month: 12
+      day: 23
     YouTubeDataAPI_Cooked: 1
   - title: Distance Joint 2D - Official Unity Tutorial
     url: https://www.youtube.com/watch?v=wpd2W3bIwx4
@@ -4459,91 +3100,6 @@ MonoBehaviour:
       month: 6
       day: 9
     YouTubeDataAPI_Cooked: 1
-  - title: Dazzling 2D games made with Unity - Unite Copenhagen
-    url: https://www.youtube.com/watch?v=CYlKtQSDmh0
-    channelName: Unity
-    description: 'Find out more about building 2D games with Unity: https://on.unity.com/2IiBirQ
-
-      #madewithunity'
-    thumbUrls:
-    - https://i.ytimg.com/vi/CYlKtQSDmh0/sddefault.jpg
-    - https://i.ytimg.com/vi/CYlKtQSDmh0/mqdefault.jpg
-    - https://i.ytimg.com/vi/CYlKtQSDmh0/maxresdefault.jpg
-    - https://i.ytimg.com/vi/CYlKtQSDmh0/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    viewCount: 24348
-    likeCount: 542
-    dislikeCount: 2
-    commentCount: 23
-    durationInMinutes: 1
-    publishedAtDate: 637118640020000000
-    publisdedDate:
-      year: 2019
-      month: 12
-      day: 13
-    YouTubeDataAPI_Cooked: 1
-  - title: Creating Water with Shader Graph in Unity! | 2D Shader Basics (Tutorial)
-    url: https://www.youtube.com/watch?v=eD7LmXShYcs
-    channelName: Unity
-    description: "In this video, we are demonstrating how you can create a stylized
-      water shader in Shader Graph by using a combination of scrolling UV and noise
-      patterns. We are also using 2D lights to make our water respond to the lighting.\n\n\n\U0001F7E2
-      Click here to see the entire 2D Shader Basics Playlist:\nhttps://on.unity.com/36Ln4Nd\n\n\U0001F534
-      You can download the Assets we used for free here:\nhttps://on.unity.com/3iyzf1M\n\n\U0001F7E0
-      Learn more about Shader Graph here:\nhttps://on.unity.com/30ADqUS\n\n\U0001F7E1
-      For more information about 2D Lights click here:\nhttps://on.unity.com/33wfi7B\n\nUnity
-      Version used 2019.4"
-    thumbUrls:
-    - https://i.ytimg.com/vi/eD7LmXShYcs/sddefault.jpg
-    - https://i.ytimg.com/vi/eD7LmXShYcs/mqdefault.jpg
-    - https://i.ytimg.com/vi/eD7LmXShYcs/maxresdefault.jpg
-    - https://i.ytimg.com/vi/eD7LmXShYcs/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - unity 2019
-    - unity shader graph
-    - unity 2019 shader graph
-    - unity shader graph tutorial
-    - unity shader graph toon
-    - unity shader graph outline
-    - unity effect
-    - unity effects
-    - unity hwo to
-    - making a game in unity
-    - make a game unity
-    - shadergraph
-    - water in shadergraph
-    - water shader unity
-    - water in unity
-    - 2d water
-    - 2d water shader
-    - water shader graph
-    - unity water shader tutorial
-    - how to water unity
-    viewCount: 22371
-    likeCount: 977
-    dislikeCount: 10
-    commentCount: 72
-    durationInMinutes: 7
-    publishedAtDate: 637376094020000000
-    publisdedDate:
-      year: 2020
-      month: 10
-      day: 6
-    YouTubeDataAPI_Cooked: 1
   - title: Creating 2D Player Movement for Isometric Games with Unity 2018.3! (Tutorial)
     url: https://www.youtube.com/watch?v=tywt9tOubEY
     channelName: Unity
@@ -4616,1048 +3172,6 @@ MonoBehaviour:
       year: 2019
       month: 3
       day: 26
-    YouTubeDataAPI_Cooked: 1
-  - title: Creating 2D Materials in Unity with URP! | 2D Shader Basics
-    url: https://www.youtube.com/watch?v=9ZY9tnxlOEs
-    channelName: Unity
-    description: "This video series is going to teach you various parts of 2D Shaders
-      in Unity, using the Universal Render Pipeline, or URP for short! In this video,
-      we're going to take a look at the basics of creating and rendering 2D Materials
-      in Unity. \n\nSee this playlist for all episodes of 2D Shader Basics!\nhttps://on.unity.com/3dUrLow
-      \n\nFind out more about Shader Graph Basics and the different Shader types!\nhttps://on.unity.com/3dYjpw4
-      \n\nLearn more about writing your own Shaders!\nhttps://on.unity.com/3dVgOCW"
-    thumbUrls:
-    - https://i.ytimg.com/vi/9ZY9tnxlOEs/sddefault.jpg
-    - https://i.ytimg.com/vi/9ZY9tnxlOEs/mqdefault.jpg
-    - https://i.ytimg.com/vi/9ZY9tnxlOEs/maxresdefault.jpg
-    - https://i.ytimg.com/vi/9ZY9tnxlOEs/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - unity 2d
-    - unity2d
-    - unity 2d tutorial
-    - unity 2d game
-    - unity making 2d game
-    - unity 2d game tutorial
-    - unity rendering
-    - unity 2d rendering
-    - unity quad rendering
-    - unity rendering 2d quad
-    - unity 2d shader graph
-    - unity shader graph
-    - shade
-    - unity shader 2d
-    - unity 2d shader rendering
-    - unity lost crypt
-    - unity demo
-    - unity 2019.3
-    - unity 2020 tutorial
-    - unity tutorial 2020
-    - unity tutorials
-    - learn unity
-    - game
-    viewCount: 39624
-    likeCount: 1164
-    dislikeCount: 35
-    commentCount: 51
-    durationInMinutes: 8
-    publishedAtDate: 637275122330000000
-    publisdedDate:
-      year: 2020
-      month: 6
-      day: 11
-    YouTubeDataAPI_Cooked: 1
-  - title: Creating 2D Magic Spells | Prototype Series
-    url: https://www.youtube.com/watch?v=Z_FaqmP5Wm0
-    channelName: Unity
-    description: "In this episode of the Prototype Series - we try to take Unity's
-      latest 2D demo and implement new magical game mechanics to it! \u2728 \u2604\uFE0F
-      \n\n\u2B50 Download the project here: https://on.unity.com/2GfTPqP\n\u2B50
-      Check out our longer training session! https://on.unity.com/3ieU81R\n\u2B50
-      You can find the original Lost Crypt demo here: https://on.unity.com/33g9jUn"
-    thumbUrls:
-    - https://i.ytimg.com/vi/Z_FaqmP5Wm0/sddefault.jpg
-    - https://i.ytimg.com/vi/Z_FaqmP5Wm0/mqdefault.jpg
-    - https://i.ytimg.com/vi/Z_FaqmP5Wm0/maxresdefault.jpg
-    - https://i.ytimg.com/vi/Z_FaqmP5Wm0/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - unity
-    - unity 2d
-    - making 2d games
-    - unity 2d movement
-    - unity 2d animation
-    - unity 2d shooting
-    - unity 2d games
-    - unity 2d light
-    - unity 2d platformer
-    - unity 2d tutorial
-    - gamedev 2d
-    - 2d indie
-    - unity 2d animation rigging
-    - unity 2020
-    - unity 2020 2d
-    - how to make 2d game
-    - prototype 2d
-    - prototying 2d game
-    - prototype series 2d
-    - 2d game
-    - 2d unity character
-    - 2d unity tutorial
-    - game development
-    viewCount: 35940
-    likeCount: 1665
-    dislikeCount: 4
-    commentCount: 65
-    durationInMinutes: 4
-    publishedAtDate: 637371792100000000
-    publisdedDate:
-      year: 2020
-      month: 10
-      day: 1
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 13b - Build and End
-    url: https://www.youtube.com/watch?v=odDMF87XIxQ
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFY/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/odDMF87XIxQ/sddefault.jpg
-    - https://i.ytimg.com/vi/odDMF87XIxQ/mqdefault.jpg
-    - https://i.ytimg.com/vi/odDMF87XIxQ/maxresdefault.jpg
-    - https://i.ytimg.com/vi/odDMF87XIxQ/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 9625
-    likeCount: 157
-    dislikeCount: 2
-    commentCount: 22
-    durationInMinutes: 10
-    publishedAtDate: 636857665260000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 13a   Polish and Deployment
-    url: https://www.youtube.com/watch?v=Pd9FivIJNRY
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFZ/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/Pd9FivIJNRY/sddefault.jpg
-    - https://i.ytimg.com/vi/Pd9FivIJNRY/mqdefault.jpg
-    - https://i.ytimg.com/vi/Pd9FivIJNRY/maxresdefault.jpg
-    - https://i.ytimg.com/vi/Pd9FivIJNRY/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 5629
-    likeCount: 71
-    dislikeCount: 0
-    commentCount: 2
-    durationInMinutes: 11
-    publishedAtDate: 636857665260000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 12 - Mixing Gameplay Audio
-    url: https://www.youtube.com/watch?v=1TSqkC3N3YE
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFU/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/1TSqkC3N3YE/sddefault.jpg
-    - https://i.ytimg.com/vi/1TSqkC3N3YE/mqdefault.jpg
-    - https://i.ytimg.com/vi/1TSqkC3N3YE/maxresdefault.jpg
-    - https://i.ytimg.com/vi/1TSqkC3N3YE/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 5028
-    likeCount: 78
-    dislikeCount: 0
-    commentCount: 2
-    durationInMinutes: 14
-    publishedAtDate: 636857665260000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 11 - Displaying the Game UI
-    url: https://www.youtube.com/watch?v=oVodfu_kbDo
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFN/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/oVodfu_kbDo/sddefault.jpg
-    - https://i.ytimg.com/vi/oVodfu_kbDo/mqdefault.jpg
-    - https://i.ytimg.com/vi/oVodfu_kbDo/maxresdefault.jpg
-    - https://i.ytimg.com/vi/oVodfu_kbDo/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 6894
-    likeCount: 98
-    dislikeCount: 0
-    commentCount: 3
-    durationInMinutes: 14
-    publishedAtDate: 636857665260000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 10 - Winning and Losing
-    url: https://www.youtube.com/watch?v=4lgT3CnGLMg
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFO/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/4lgT3CnGLMg/sddefault.jpg
-    - https://i.ytimg.com/vi/4lgT3CnGLMg/mqdefault.jpg
-    - https://i.ytimg.com/vi/4lgT3CnGLMg/maxresdefault.jpg
-    - https://i.ytimg.com/vi/4lgT3CnGLMg/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 6002
-    likeCount: 81
-    dislikeCount: 2
-    commentCount: 6
-    durationInMinutes: 12
-    publishedAtDate: 636857665250000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 09b - Adding Camera Shake
-    url: https://www.youtube.com/watch?v=9WhZ1svdC3Q
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFP/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/9WhZ1svdC3Q/sddefault.jpg
-    - https://i.ytimg.com/vi/9WhZ1svdC3Q/mqdefault.jpg
-    - https://i.ytimg.com/vi/9WhZ1svdC3Q/maxresdefault.jpg
-    - https://i.ytimg.com/vi/9WhZ1svdC3Q/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 14590
-    likeCount: 198
-    dislikeCount: 4
-    commentCount: 16
-    durationInMinutes: 9
-    publishedAtDate: 636857665260000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 09a - Adding Post Processing
-    url: https://www.youtube.com/watch?v=yXCSunSDxT4
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFQ/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/yXCSunSDxT4/sddefault.jpg
-    - https://i.ytimg.com/vi/yXCSunSDxT4/mqdefault.jpg
-    - https://i.ytimg.com/vi/yXCSunSDxT4/maxresdefault.jpg
-    - https://i.ytimg.com/vi/yXCSunSDxT4/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 27353
-    likeCount: 517
-    dislikeCount: 9
-    commentCount: 26
-    durationInMinutes: 13
-    publishedAtDate: 636857665260000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 08 - Painting Prefabs
-    url: https://www.youtube.com/watch?v=KxWfNWgB_g0
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFR/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/KxWfNWgB_g0/sddefault.jpg
-    - https://i.ytimg.com/vi/KxWfNWgB_g0/mqdefault.jpg
-    - https://i.ytimg.com/vi/KxWfNWgB_g0/maxresdefault.jpg
-    - https://i.ytimg.com/vi/KxWfNWgB_g0/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 8447
-    likeCount: 113
-    dislikeCount: 4
-    commentCount: 18
-    durationInMinutes: 9
-    publishedAtDate: 636857665260000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 07 - Animating the Player
-    url: https://www.youtube.com/watch?v=3U6wnm7ijmA
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFS/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/3U6wnm7ijmA/sddefault.jpg
-    - https://i.ytimg.com/vi/3U6wnm7ijmA/mqdefault.jpg
-    - https://i.ytimg.com/vi/3U6wnm7ijmA/maxresdefault.jpg
-    - https://i.ytimg.com/vi/3U6wnm7ijmA/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 10500
-    likeCount: 140
-    dislikeCount: 2
-    commentCount: 23
-    durationInMinutes: 19
-    publishedAtDate: 636857665260000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 06b - Adding More Lights
-    url: https://www.youtube.com/watch?v=MbhVNOoLXjU
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFT/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/MbhVNOoLXjU/sddefault.jpg
-    - https://i.ytimg.com/vi/MbhVNOoLXjU/mqdefault.jpg
-    - https://i.ytimg.com/vi/MbhVNOoLXjU/maxresdefault.jpg
-    - https://i.ytimg.com/vi/MbhVNOoLXjU/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 8910
-    likeCount: 112
-    dislikeCount: 1
-    commentCount: 6
-    durationInMinutes: 7
-    publishedAtDate: 636857665250000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 06a - Adding Lights
-    url: https://www.youtube.com/watch?v=NIdwtDzmd7k
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFV/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/NIdwtDzmd7k/sddefault.jpg
-    - https://i.ytimg.com/vi/NIdwtDzmd7k/mqdefault.jpg
-    - https://i.ytimg.com/vi/NIdwtDzmd7k/maxresdefault.jpg
-    - https://i.ytimg.com/vi/NIdwtDzmd7k/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 22569
-    likeCount: 304
-    dislikeCount: 6
-    commentCount: 15
-    durationInMinutes: 10
-    publishedAtDate: 636857665250000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 05b - Creating the Camera Rig
-    url: https://www.youtube.com/watch?v=iTX1FA9TXyY
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFW/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/iTX1FA9TXyY/sddefault.jpg
-    - https://i.ytimg.com/vi/iTX1FA9TXyY/mqdefault.jpg
-    - https://i.ytimg.com/vi/iTX1FA9TXyY/maxresdefault.jpg
-    - https://i.ytimg.com/vi/iTX1FA9TXyY/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 8592
-    likeCount: 100
-    dislikeCount: 0
-    commentCount: 14
-    durationInMinutes: 10
-    publishedAtDate: 636857665250000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 05a - Creating the Camera Rig
-    url: https://www.youtube.com/watch?v=QBj_mlENWlE
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFX/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/QBj_mlENWlE/sddefault.jpg
-    - https://i.ytimg.com/vi/QBj_mlENWlE/mqdefault.jpg
-    - https://i.ytimg.com/vi/QBj_mlENWlE/maxresdefault.jpg
-    - https://i.ytimg.com/vi/QBj_mlENWlE/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 11277
-    likeCount: 143
-    dislikeCount: 1
-    commentCount: 8
-    durationInMinutes: 14
-    publishedAtDate: 636857665260000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 04b - Building the Player, Adding Scripts
-    url: https://www.youtube.com/watch?v=83xn7QYpS_s
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLF0/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/83xn7QYpS_s/sddefault.jpg
-    - https://i.ytimg.com/vi/83xn7QYpS_s/mqdefault.jpg
-    - https://i.ytimg.com/vi/83xn7QYpS_s/maxresdefault.jpg
-    - https://i.ytimg.com/vi/83xn7QYpS_s/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 19260
-    likeCount: 279
-    dislikeCount: 7
-    commentCount: 29
-    durationInMinutes: 22
-    publishedAtDate: 636857665260000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 04a - Building the Player
-    url: https://www.youtube.com/watch?v=s7vSUk6gN3o
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLF1/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/s7vSUk6gN3o/sddefault.jpg
-    - https://i.ytimg.com/vi/s7vSUk6gN3o/mqdefault.jpg
-    - https://i.ytimg.com/vi/s7vSUk6gN3o/maxresdefault.jpg
-    - https://i.ytimg.com/vi/s7vSUk6gN3o/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 17171
-    likeCount: 206
-    dislikeCount: 0
-    commentCount: 4
-    durationInMinutes: 8
-    publishedAtDate: 636857665250000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 02 - Creating Tilemaps
-    url: https://www.youtube.com/watch?v=YB4G5n970IY
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLF4/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/YB4G5n970IY/sddefault.jpg
-    - https://i.ytimg.com/vi/YB4G5n970IY/mqdefault.jpg
-    - https://i.ytimg.com/vi/YB4G5n970IY/maxresdefault.jpg
-    - https://i.ytimg.com/vi/YB4G5n970IY/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 50590
-    likeCount: 550
-    dislikeCount: 10
-    commentCount: 37
-    durationInMinutes: 8
-    publishedAtDate: 636853410000000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 9
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 01 - Getting Started
-    url: https://www.youtube.com/watch?v=qXLQ6C3qJvg
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLF3/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/qXLQ6C3qJvg/sddefault.jpg
-    - https://i.ytimg.com/vi/qXLQ6C3qJvg/mqdefault.jpg
-    - https://i.ytimg.com/vi/qXLQ6C3qJvg/maxresdefault.jpg
-    - https://i.ytimg.com/vi/qXLQ6C3qJvg/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 54753
-    likeCount: 661
-    dislikeCount: 10
-    commentCount: 32
-    durationInMinutes: 7
-    publishedAtDate: 636853410040000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 9
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer - Cycle 0 - Intro
-    url: https://www.youtube.com/watch?v=j29NgzV8Dw4
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLF5/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/j29NgzV8Dw4/sddefault.jpg
-    - https://i.ytimg.com/vi/j29NgzV8Dw4/mqdefault.jpg
-    - https://i.ytimg.com/vi/j29NgzV8Dw4/maxresdefault.jpg
-    - https://i.ytimg.com/vi/j29NgzV8Dw4/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 63984
-    likeCount: 960
-    dislikeCount: 27
-    commentCount: 38
-    durationInMinutes: 7
-    publishedAtDate: 636853410000000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 9
-    YouTubeDataAPI_Cooked: 1
-  - title: Create A 2D Platformer  - Cycle 03 - Constructing the Level
-    url: https://www.youtube.com/watch?v=jj1km9Nd4bU
-    channelName: Unity
-    description: "Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8\n\nLearn
-      how to make a 2D platformer game in Unity by following along with recording
-      of a live training from Unite Berlin. The project is tested with Unity 2018.31f1.
-      You\u2019ll explore powerful new tools and workflows using real game assets
-      provided by Pixel Reign Studios. If exploring dungeons for treasure and avoiding
-      spike traps of death sounds fun, or you\u2019re just hungry to learn, then
-      this workshop is for you.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLF2/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/jj1km9Nd4bU/sddefault.jpg
-    - https://i.ytimg.com/vi/jj1km9Nd4bU/mqdefault.jpg
-    - https://i.ytimg.com/vi/jj1km9Nd4bU/maxresdefault.jpg
-    - https://i.ytimg.com/vi/jj1km9Nd4bU/hqdefault.jpg
-    tags:
-    - unity 2019.1
-    - unity 2019
-    - unity tilemap
-    - unity tilemaps
-    - tilemap unity
-    - unity 2019 animation
-    - unity animation
-    - unity animations
-    - unity animate character
-    - unity physics
-    - unity 2018.3 physics
-    - unity 2019 physics
-    - unity physics 2019
-    - unity tutorial
-    - unity tutorials
-    - unity free tutorial
-    - unity platformer
-    - unity mobile game free
-    - unity mobile game tutorial
-    - unity make a game
-    - unity make a mobile game
-    - unity 2d
-    viewCount: 30208
-    likeCount: 375
-    dislikeCount: 6
-    commentCount: 22
-    durationInMinutes: 12
-    publishedAtDate: 636857665250000000
-    publisdedDate:
-      year: 2019
-      month: 2
-      day: 14
     YouTubeDataAPI_Cooked: 1
   - title: Collider 2D - Official Unity Tutorial
     url: https://www.youtube.com/watch?v=YQ7Umjp6R10
@@ -5734,40 +3248,6 @@ MonoBehaviour:
       year: 2018
       month: 5
       day: 11
-    YouTubeDataAPI_Cooked: 1
-  - title: Bringing 2D characters to life with sprite rigging - Unite Copenhagen
-    url: https://www.youtube.com/watch?v=vap04-Py9QM
-    channelName: Unity
-    description: "When animating characters and elements in your game, it is important
-      to know the benefits and drawbacks for each technique. In this video, you will
-      get an updated overview of Unity 2D's rigging so you can choose the right solution
-      for your specific use case.\n\nSpeaker:\nArturo Nu\xF1ez - Unity\n\nSlides
-      available here: https://www.slideshare.net/unity3d/bringing-2d-characters-to-life-with-sprite-rigging-unite-copenhagen-2019"
-    thumbUrls:
-    - https://i.ytimg.com/vi/vap04-Py9QM/sddefault.jpg
-    - https://i.ytimg.com/vi/vap04-Py9QM/mqdefault.jpg
-    - https://i.ytimg.com/vi/vap04-Py9QM/maxresdefault.jpg
-    - https://i.ytimg.com/vi/vap04-Py9QM/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - 2D
-    - Sprite rigging
-    viewCount: 36445
-    likeCount: 892
-    dislikeCount: 14
-    commentCount: 41
-    durationInMinutes: 42
-    publishedAtDate: 637066908100000000
-    publisdedDate:
-      year: 2019
-      month: 10
-      day: 14
     YouTubeDataAPI_Cooked: 1
   - title: 'Beginner 2D UFO Game 9 of 9: Building the game  - Unity Official Tutorials'
     url: https://www.youtube.com/watch?v=gyM4GjvqKi4
@@ -5996,65 +3476,6 @@ MonoBehaviour:
       month: 1
       day: 22
     YouTubeDataAPI_Cooked: 1
-  - title: 'Beginner 2D UFO Game 5 of 9: Following the Player with the Camera - Unity
-      Official Tutorials'
-    url: https://www.youtube.com/watch?v=5oo_4sXjoKk
-    channelName: Unity
-    description: 'Watch this tutorial on the official Unity Learn pages here: http://unity3d.com/learn/tutorials/projects/2d-ufo-tutorial/following-player-camera?playlist=25844
-
-
-      Questions?
-      Ask in the forum thread here: http://forum.unity3d.com/threads/2d-ufo-tutorial-q-a.381263/#post-2478145
-
-
-      In
-      this assignment we''ll enable the camera to follow the player around the play
-      field by writing a simple C# script.
-
-
-      Help us caption & translate this
-      video!
-
-
-      http://amara.org/v/V60h/'
-    thumbUrls:
-    - https://i.ytimg.com/vi/5oo_4sXjoKk/sddefault.jpg
-    - https://i.ytimg.com/vi/5oo_4sXjoKk/mqdefault.jpg
-    - https://i.ytimg.com/vi/5oo_4sXjoKk/maxresdefault.jpg
-    - https://i.ytimg.com/vi/5oo_4sXjoKk/hqdefault.jpg
-    tags:
-    - beginner unity tutorial
-    - beginner
-    - unity
-    - tutorial
-    - basic
-    - unity3d
-    - unity 2d
-    - 2d
-    - sprite
-    - 2d physics
-    - intro to unity
-    - 2d ufo game
-    - ufo game
-    - unity software
-    - how to make a game
-    - make video game
-    - video game tutorial
-    - c# tutorial
-    - 2d camera
-    - camera
-    - camera follow 2d
-    viewCount: 86632
-    likeCount: 591
-    dislikeCount: 11
-    commentCount: 68
-    durationInMinutes: 7
-    publishedAtDate: 635890920660000000
-    publisdedDate:
-      year: 2016
-      month: 1
-      day: 22
-    YouTubeDataAPI_Cooked: 1
   - title: 'Beginner 2D UFO Game 4 of 9: Adding Collision - Unity Official Tutorials'
     url: https://www.youtube.com/watch?v=vfspzIbev0E
     channelName: Unity
@@ -6257,107 +3678,6 @@ MonoBehaviour:
       month: 1
       day: 22
     YouTubeDataAPI_Cooked: 1
-  - title: Basic Operations in Shadergraph | 2D Shader Basics
-    url: https://www.youtube.com/watch?v=gJMeSkolnw4
-    channelName: Unity
-    description: "In this video, we are going to show you some basic operations in
-      Shadergraph that can help you create your own custom materials for your URP
-      projects. \n\nWatch the first part here:\nhttps://youtu.be/9ZY9tnxlOEs\n\nDownload
-      the Lost Crypt project from the Asset Store here!\nhttps://on.unity.com/2Y7hI9O\n\nFor
-      more information about Shadergraph click here!\nhttps://on.unity.com/3iRbVgz\n\nRead
-      more about the Universal Render Pipeline here!\nhttps://on.unity.com/2PVYIGR"
-    thumbUrls:
-    - https://i.ytimg.com/vi/gJMeSkolnw4/sddefault.jpg
-    - https://i.ytimg.com/vi/gJMeSkolnw4/mqdefault.jpg
-    - https://i.ytimg.com/vi/gJMeSkolnw4/maxresdefault.jpg
-    - https://i.ytimg.com/vi/gJMeSkolnw4/hqdefault.jpg
-    tags:
-    - URP
-    - Universal Render Pipeline
-    - Unity Game Dev
-    - Shader Graph
-    - Shadergraph
-    - Game dev
-    - 2D
-    - Unity 3D
-    - Unity Tutorial
-    - Shader graph tutorial
-    - Unity3d
-    - Game Dev
-    - unity 2d
-    - unity2d
-    - unity 2d tutorial
-    - unity 2d game
-    - unity making 2d game
-    - unity rendering
-    - unity 2d rendering
-    - unity shader graph
-    - unity shader 2d
-    - unity 2d shader rendering
-    - unity lost crypt
-    - unity 2019.3
-    - unity 2020 tutorial
-    - unity tutorial 2020
-    - unity tutorials
-    - learn unity
-    - custom shader unity
-    - custom shader graph
-    viewCount: 20156
-    likeCount: 851
-    dislikeCount: 16
-    commentCount: 40
-    durationInMinutes: 7
-    publishedAtDate: 637333020200000000
-    publisdedDate:
-      year: 2020
-      month: 8
-      day: 17
-    YouTubeDataAPI_Cooked: 1
-  - title: Basic 2D Dungeon Generation
-    url: https://www.youtube.com/watch?v=wnoLaui3uO4
-    channelName: Unity
-    description: 'Scripts and more info here: http://www.unity3d.com/learn/tutorials/modules/intermedia/live-training-archive/2d-dungeon-generation
-
-
-      In
-      this live training session we''ll look at simple 2D top-down dungeon generation. 
-      We''ll write a script to spawn a number of rooms and then connect them with
-      hallways. We''ll do this using assets and scripts from the 2D Roguelike Project
-      (available on the Asset Store here: https://www.assetstore.unity3d.com/en/#!/content/29825)
-
-
-      Help
-      us caption & translate this video!
-
-
-      http://amara.org/v/V612/'
-    thumbUrls:
-    - https://i.ytimg.com/vi/wnoLaui3uO4/sddefault.jpg
-    - https://i.ytimg.com/vi/wnoLaui3uO4/mqdefault.jpg
-    - https://i.ytimg.com/vi/wnoLaui3uO4/maxresdefault.jpg
-    - https://i.ytimg.com/vi/wnoLaui3uO4/hqdefault.jpg
-    tags:
-    - Unity (Software)
-    - unity
-    - roguelike
-    - tutorial
-    - procedural generation
-    - random level
-    - 2d level
-    - Roguelike (Video Game Genre)
-    - Video Game (Industry)
-    - Dungeon Crawl (Video Game Genre)
-    viewCount: 104711
-    likeCount: 1104
-    dislikeCount: 18
-    commentCount: 84
-    durationInMinutes: 71
-    publishedAtDate: 635797848780000000
-    publisdedDate:
-      year: 2015
-      month: 10
-      day: 7
-    YouTubeDataAPI_Cooked: 1
   - title: Authoring 2D Levels with Isometric Tilemap in Unity 2018.3! (Tutorial)
     url: https://www.youtube.com/watch?v=544zgvKnbKc
     channelName: Unity
@@ -6430,71 +3750,6 @@ MonoBehaviour:
       year: 2019
       month: 3
       day: 25
-    YouTubeDataAPI_Cooked: 1
-  - title: Advantages of 2D Tilemaps for mobile games - Unite LA
-    url: https://www.youtube.com/watch?v=rKlvgkDHWfQ
-    channelName: Unity
-    description: "Learn the advantages of using 2D Tilemaps for creating mobile games.
-      This video covers what Tilemaps are and when to use them, provides an overview
-      of the workflow, includes best practices for working with textures, and tips
-      to optimize performance. \n\nSpeaker:\nSophia Clarke (Unity Technologies)\n\nSlides:\nhttps://www.slideshare.net/unity3d/advantages-of-2d-tilemaps-for-mobile-games"
-    thumbUrls:
-    - https://i.ytimg.com/vi/rKlvgkDHWfQ/sddefault.jpg
-    - https://i.ytimg.com/vi/rKlvgkDHWfQ/mqdefault.jpg
-    - https://i.ytimg.com/vi/rKlvgkDHWfQ/maxresdefault.jpg
-    - https://i.ytimg.com/vi/rKlvgkDHWfQ/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    viewCount: 6052
-    likeCount: 145
-    dislikeCount: 2
-    commentCount: 2
-    durationInMinutes: 36
-    publishedAtDate: 636785993690000000
-    publisdedDate:
-      year: 2018
-      month: 11
-      day: 23
-    YouTubeDataAPI_Cooked: 1
-  - title: 2D world-building, animation & graphics features - Unite LA
-    url: https://www.youtube.com/watch?v=kWGM9mNeUZg
-    channelName: Unity
-    description: "This video explores organic world-building with Sprite Shape as
-      well as improvements to Tilemap for grid-based layouts. This includes a demo
-      of Phase 2 of our 2D Sprite Rigging tools for 2D animation and enhancements
-      to 2D graphics, including the Pixel Perfect Camera. There's also a sneak peek
-      into the future of 2D at Unity.\nSlides: https://www.slideshare.net/unity3d/new-2d-worldbuilding-animation-graphics-features-in-unity\n\nSpeakers:\nAlessia
-      Nigretti (Unity Technologies) \nRus Scammell (Unity Technologies)\n\nHelp us
-      caption & translate this video!\n\nhttps://amara.org/v/oLFo/"
-    thumbUrls:
-    - https://i.ytimg.com/vi/kWGM9mNeUZg/sddefault.jpg
-    - https://i.ytimg.com/vi/kWGM9mNeUZg/mqdefault.jpg
-    - https://i.ytimg.com/vi/kWGM9mNeUZg/maxresdefault.jpg
-    - https://i.ytimg.com/vi/kWGM9mNeUZg/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    viewCount: 7434
-    likeCount: 175
-    dislikeCount: 3
-    commentCount: 10
-    durationInMinutes: 38
-    publishedAtDate: 636788700040000000
-    publisdedDate:
-      year: 2018
-      month: 11
-      day: 26
     YouTubeDataAPI_Cooked: 1
   - title: 2D World building w/ Tilemap & Cinemachine for 2D - Using Rule Tiles [5/8]
       Live 2017/22/08
@@ -6902,104 +4157,6 @@ MonoBehaviour:
       year: 2017
       month: 11
       day: 30
-    YouTubeDataAPI_Cooked: 1
-  - title: 2D World building w/ Tilemap & Cinemachine for 2D - Confined Follow Camera
-      [4/8] Live 2017/22/08
-    url: https://www.youtube.com/watch?v=M7v1TGQnJ7I
-    channelName: Unity
-    description: 'Watch this video in context on the official Unity learn pages
-
-      http://www.unity3d.com/learn/tutorials/topics/2d-game-creation/confined-follow-camera-cinemachine-2d
-
-
-      In
-      this live session we will explore worldbuilding in 2D using Tilemap and 2D
-      Cinemachine. Tilemap makes it fast and easy to create and iterate level design
-      cycles right in Unity, so artists and designers can rapidly prototype when
-      building 2D game worlds. We will look at how you can paint levels using the
-      new tile and brush tools which allow you to define rules for how tiles behave
-      when placed, creating platforms with dynamic edges, animated tiles, random
-      tiles, and more. Cinemachine, is a dynamic, procedural camera system which
-      it easy to automate composition and tracking to enhance gameplay. Cinemachine
-      is now available for 2D games. In this segment we will look at adding a 2D
-      Cinemachine camera and how to confine it to the area of our background, while
-      following the character.'
-    thumbUrls:
-    - https://i.ytimg.com/vi/M7v1TGQnJ7I/sddefault.jpg
-    - https://i.ytimg.com/vi/M7v1TGQnJ7I/mqdefault.jpg
-    - https://i.ytimg.com/vi/M7v1TGQnJ7I/maxresdefault.jpg
-    - https://i.ytimg.com/vi/M7v1TGQnJ7I/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - tilemap
-    - 2d
-    - tile map
-    - tile
-    - 2d tile
-    - brush
-    - prefab brush
-    - rule tile
-    - animated tile
-    - random tile
-    - tilemapper
-    - 2d tools
-    - 2d extra
-    - grid
-    viewCount: 35799
-    likeCount: 453
-    dislikeCount: 0
-    commentCount: 36
-    durationInMinutes: 9
-    publishedAtDate: 636476038960000000
-    publisdedDate:
-      year: 2017
-      month: 11
-      day: 30
-    YouTubeDataAPI_Cooked: 1
-  - title: 2D Tips - Lightning round | Unite Now 2020 (Updated audio)
-    url: https://www.youtube.com/watch?v=DCAH1rlwAr4
-    channelName: Unity
-    description: "Get ready for a fast round of productivity tips and performance
-      tricks for 2D projects. We show you how to get the most out of our 2D tools
-      and ensure your project takes advantage of the latest best practices. \n\n00:00
-      \u2013 02:47  Getting started with a 2D project\n02:48 \u2013 10:55  Worldbuilding
-      \u2013 tips and tools for level design\n10:56 \u2013 14:41  Characters and
-      animation \n14:42 \u2013 17:51  Pixel art\n17:52 \u2013 21:21  Grouping and
-      atlasing \n\nSpeakers:\nRus Scammell, Technical Product Manager, 2D (Unity)\nEduardo
-      Oriz, Product Marketing Manager, 2D, Core Tech (Unity) \n\n\U0001F449 Get started
-      developing in 2D with Unity: https://on.unity.com/3kI9I7u\n\n\U0001F4FA Dive
-      into Unite Now year-round to join us for live sessions or watch sessions on-demand:
-      https://on.unity.com/3pGYiVu\n\n\U0001F4DD Did you find this video useful?
-      Room for improvement? Complete this survey to let us know: https://on.unity.com/35OqPiP"
-    thumbUrls:
-    - https://i.ytimg.com/vi/DCAH1rlwAr4/sddefault.jpg
-    - https://i.ytimg.com/vi/DCAH1rlwAr4/mqdefault.jpg
-    - https://i.ytimg.com/vi/DCAH1rlwAr4/maxresdefault.jpg
-    - https://i.ytimg.com/vi/DCAH1rlwAr4/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    viewCount: 2347
-    likeCount: 108
-    dislikeCount: 1
-    commentCount: 5
-    durationInMinutes: 21
-    publishedAtDate: 637414125010000000
-    publisdedDate:
-      year: 2020
-      month: 11
-      day: 19
     YouTubeDataAPI_Cooked: 1
   - title: '2D Roguelike 9 of 14 : Player Script'
     url: https://www.youtube.com/watch?v=zyX3hxtblKY
@@ -8725,113 +5882,6 @@ MonoBehaviour:
     dislikeCount: 1
     commentCount: 0
     durationInMinutes: 3
-    publishedAtDate: 636462733460000000
-    publisdedDate:
-      year: 2017
-      month: 11
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: 2D Essentials Pack Demo - 2D Lighting with 2DDL Pro [5/8] Live 2017/11/08
-    url: https://www.youtube.com/watch?v=MTttOCIViKw
-    channelName: Unity
-    description: 'Watch this video in context on the official Unity learn pages
-
-      http://www.unity3d.com/learn/tutorials/topics/2d-game-creation/2d-lighting-2ddl-pro
-
-
-      In
-      this live training session with Mike Geig we take a look at how to create a
-      2D platformer game using the assets from the 2D Essentials Pack including:
-      Corgi Engine, DoozyUI, DOTween Pro, and 2DDL Pro. 2D Essentials is one of the
-      free asset packs you can select when you subscribe to Unity Plus. In this episode
-      we''ll use 2DDL Pro to add some 2D lights to our scene.'
-    thumbUrls:
-    - https://i.ytimg.com/vi/MTttOCIViKw/sddefault.jpg
-    - https://i.ytimg.com/vi/MTttOCIViKw/mqdefault.jpg
-    - https://i.ytimg.com/vi/MTttOCIViKw/maxresdefault.jpg
-    - https://i.ytimg.com/vi/MTttOCIViKw/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - unity
-    - unity tutorial
-    - unity live training
-    - 2d
-    - game development
-    - corgi engine
-    - doozui ui
-    - DoTween
-    - 2d lighting 2ddl
-    - platformer
-    - game kit
-    - platform
-    - 2d light
-    - sprite
-    - tilemap
-    viewCount: 4142
-    likeCount: 37
-    dislikeCount: 2
-    commentCount: 3
-    durationInMinutes: 7
-    publishedAtDate: 636462733460000000
-    publisdedDate:
-      year: 2017
-      month: 11
-      day: 14
-    YouTubeDataAPI_Cooked: 1
-  - title: 2D Essentials Pack Demo - 2D Follow Camera w/ Cinemachine [3/8] Live 2017/11/08
-    url: https://www.youtube.com/watch?v=VOm7vvc5p1k
-    channelName: Unity
-    description: 'Watch this video in context on the official Unity learn pages
-
-      http://www.unity3d.com/learn/tutorials/topics/2d-game-creation/2d-follow-camera-w-cinemachine
-
-
-      In
-      this live training session with Mike Geig we take a look at how to create a
-      2D platformer game using the assets from the 2D Essentials Pack including:
-      Corgi Engine, DoozyUI, DOTween Pro, and 2DDL Pro. 2D Essentials is one of the
-      free asset packs you can select when you subscribe to Unity Plus. In this episode
-      we''ll use Cinemachine to create a camera that can follow our player with a
-      dead zone, and without moving out of bounds that we define.'
-    thumbUrls:
-    - https://i.ytimg.com/vi/VOm7vvc5p1k/sddefault.jpg
-    - https://i.ytimg.com/vi/VOm7vvc5p1k/mqdefault.jpg
-    - https://i.ytimg.com/vi/VOm7vvc5p1k/maxresdefault.jpg
-    - https://i.ytimg.com/vi/VOm7vvc5p1k/hqdefault.jpg
-    tags:
-    - Unity3d
-    - Unity
-    - Unity Technologies
-    - Games
-    - Game Development
-    - Game Dev
-    - Game Engine
-    - unity
-    - unity tutorial
-    - unity live training
-    - 2d
-    - game development
-    - corgi engine
-    - doozui ui
-    - DoTween
-    - 2d lighting 2ddl
-    - platformer
-    - game kit
-    - platform
-    - 2d light
-    - sprite
-    - tilemap
-    viewCount: 4563
-    likeCount: 39
-    dislikeCount: 2
-    commentCount: 10
-    durationInMinutes: 6
     publishedAtDate: 636462733460000000
     publisdedDate:
       year: 2017

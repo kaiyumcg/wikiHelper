@@ -1,0 +1,5417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
+  m_Name: GDC_Videos_vData_
+  m_EditorClassIdentifier: 
+  searchName: UnityChannel
+  belongedCategory: GDC_Videos
+  allVideos:
+  - title: 'You look better as an alien cat: Multiuser MR with Unity & Magic Leap
+      - Unity at GDC 2019'
+    url: https://www.youtube.com/watch?v=cK1KA2CNQn8
+    channelName: Unity
+    description: 'Hear how the Weta Workshop and Magic Leap teams quickly put together
+      a competitive local multiuser mixed-reality (MR) experience on the ML-One,
+      leveraging Unity''s spatial mapping and powerful cross-platform AR support.
+
+
+      Speaker:
+      Thomas Hall (Senior Programmer, Magic Leap)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/cK1KA2CNQn8/sddefault.jpg
+    - https://i.ytimg.com/vi/cK1KA2CNQn8/mqdefault.jpg
+    - https://i.ytimg.com/vi/cK1KA2CNQn8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cK1KA2CNQn8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - GDC
+    - Weta Workshop
+    - Magic Leap
+    - MR
+    - ML
+    - AR
+    viewCount: 2218
+    likeCount: 27
+    dislikeCount: 0
+    commentCount: 8
+    durationInMinutes: 13
+    publishedAtDate: 636906816050000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: Visual Studio tips & tricks to boost your productivity - Unity at GDC
+      2019
+    url: https://www.youtube.com/watch?v=MBWc4oRBwiE
+    channelName: Unity
+    description: "Visual Studio tips & tricks that will empower you to write better,
+      more robust and consistent code. \n\nSpeaker: John Miller (Program, Manager,
+      Microsoft Corporation)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/MBWc4oRBwiE/sddefault.jpg
+    - https://i.ytimg.com/vi/MBWc4oRBwiE/mqdefault.jpg
+    - https://i.ytimg.com/vi/MBWc4oRBwiE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MBWc4oRBwiE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Microsoft Visual Studio
+    - Tips
+    - Code
+    - visual studio 2019
+    - vs2019
+    - unity tips
+    - game stack
+    - unity scripting
+    - tips and tricks
+    - unity tricks
+    - visual studio tips
+    - visual studio tricks
+    viewCount: 14441
+    likeCount: 361
+    dislikeCount: 17
+    commentCount: 34
+    durationInMinutes: 14
+    publishedAtDate: 636909854330000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Using Vivox's voice and text chat to deliver the best multiplayer experience
+      - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=EmWJvp3bozA
+    channelName: Unity
+    description: "Vivox's voice and chat technology powers popular titles from PUBG
+      to League of Legends. Learn how to implement voice/chat in your game to enable
+      massive scale, cross-play, and immersive player experiences. \n\nSpeaker: Dave
+      Verratti (Vivox)\n\nDiscover the cloud-enabled tools, engine agnostic services,
+      and infrastructure needed to build, scale, and operate today\u2019s most successful
+      games: https://on.unity.com/2KHlAKh"
+    thumbUrls:
+    - https://i.ytimg.com/vi/EmWJvp3bozA/sddefault.jpg
+    - https://i.ytimg.com/vi/EmWJvp3bozA/mqdefault.jpg
+    - https://i.ytimg.com/vi/EmWJvp3bozA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/EmWJvp3bozA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - vivox
+    - GDC
+    - Game Developers Conference
+    - voice and chat technology
+    - multiplayer games
+    - pubg
+    - league of legends
+    - player experience
+    viewCount: 7107
+    likeCount: 76
+    dislikeCount: 4
+    commentCount: 9
+    durationInMinutes: 19
+    publishedAtDate: 636911136010000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Unleash your game cameras with Cinemachine - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=MK4eHJK6-6E
+    channelName: Unity
+    description: "Learn how Cinemachine, the most advanced virtual-camera system
+      available, can help you do amazing things in any genre, including 3rd-person
+      AAAs, 2D games, and cinematic cutscenes. \n\nSpeaker: Adam Myhill (Unity Technologies)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/MK4eHJK6-6E/sddefault.jpg
+    - https://i.ytimg.com/vi/MK4eHJK6-6E/mqdefault.jpg
+    - https://i.ytimg.com/vi/MK4eHJK6-6E/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MK4eHJK6-6E/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - GDC
+    - Cinemachine
+    - AAA
+    viewCount: 18963
+    likeCount: 372
+    dislikeCount: 4
+    commentCount: 20
+    durationInMinutes: 23
+    publishedAtDate: 636911136030000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC Day 3 - Machine Learning Agents
+    url: https://www.youtube.com/watch?v=7-_WVkl-QOo
+    channelName: Unity
+    description: "To find out more about Unity Machine Learning Agents, visit: https://unity3d.com/machine-learning\n\nGuest:
+      \nJeff Shih - Senior Product Manager of Machine Learning at Unity\n\nHosts:\nWill
+      Goldstone - Product Manager at Unity\nLiz Mercuri - Technical Evangelist at
+      Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/7-_WVkl-QOo/sddefault.jpg
+    - https://i.ytimg.com/vi/7-_WVkl-QOo/mqdefault.jpg
+    - https://i.ytimg.com/vi/7-_WVkl-QOo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7-_WVkl-QOo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1196
+    likeCount: 21
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 7
+    publishedAtDate: 636583309950000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - Zoink (Flipping Death, Fe) and Developing in 2.5D
+      with Unity
+    url: https://www.youtube.com/watch?v=8E3IAnm-xw8
+    channelName: Unity
+    description: "To find out more about Zoink's games Fe and Flipping Death: http://www.zoinkgames.com/\n\nGuest:\nKlaus
+      Lyngeled - Creative Director at Zoink\n\nHosts: \nWill Goldstone - Product
+      Manager at Unity \nLiz Mercuri - Technical Evangelist at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/8E3IAnm-xw8/sddefault.jpg
+    - https://i.ytimg.com/vi/8E3IAnm-xw8/mqdefault.jpg
+    - https://i.ytimg.com/vi/8E3IAnm-xw8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8E3IAnm-xw8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 442
+    likeCount: 13
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 9
+    publishedAtDate: 636583299270000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - Windows Mixed Reality
+    url: https://www.youtube.com/watch?v=NcY0yO7g3xQ
+    channelName: Unity
+    description: "To find out more about Windows Mixed Reality: https://unity3d.com/partners/microsoft/mixed-reality\n\nGuest:\nJaime
+      Rodriguez - Principal Program Manager at Microsoft\n\nHosts: \nWill Goldstone
+      - Product Manager at Unity \nLiz Mercuri - Technical Evangelist at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/NcY0yO7g3xQ/sddefault.jpg
+    - https://i.ytimg.com/vi/NcY0yO7g3xQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/NcY0yO7g3xQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/NcY0yO7g3xQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 438
+    likeCount: 9
+    dislikeCount: 1
+    commentCount: 0
+    durationInMinutes: 10
+    publishedAtDate: 636583296990000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - Vuforia
+    url: https://www.youtube.com/watch?v=VgF_w1Qhnb4
+    channelName: Unity
+    description: "To find out more about Vuforia: https://unity3d.com/partners/vuforia\n\nGuest:\nJJ
+      Lechleiter - Sr. Director PDM, Vuforia at PTC\n\nHosts: \nWill Goldstone -
+      Product Manager at Unity \nLiz Mercuri - Technical Evangelist at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/VgF_w1Qhnb4/sddefault.jpg
+    - https://i.ytimg.com/vi/VgF_w1Qhnb4/mqdefault.jpg
+    - https://i.ytimg.com/vi/VgF_w1Qhnb4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/VgF_w1Qhnb4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 392
+    likeCount: 9
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 10
+    publishedAtDate: 636583302130000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - Universal GameDev Challenge
+    url: https://www.youtube.com/watch?v=jRV5io0-AvI
+    channelName: Unity
+    description: "To find out more about Universal GameDev Challenge: https://connect.unity.com/challenges/universal\n\nGuest:\nChris
+      Heatherly - Exec. VP of Games and Digital Platforms at NBCUniversal\n\nHosts:
+      \nWill Goldstone - Product Manager at Unity \nLiz Mercuri - Technical Evangelist
+      at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/jRV5io0-AvI/sddefault.jpg
+    - https://i.ytimg.com/vi/jRV5io0-AvI/mqdefault.jpg
+    - https://i.ytimg.com/vi/jRV5io0-AvI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/jRV5io0-AvI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2773
+    likeCount: 33
+    dislikeCount: 2
+    commentCount: 8
+    durationInMinutes: 9
+    publishedAtDate: 636583304920000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - Unity Education
+    url: https://www.youtube.com/watch?v=xer4PSNkYi4
+    channelName: Unity
+    description: 'To find out more about Unity Education, visit: https://store.unity.com/education
+
+      https://unity3d.com/learn
+
+      https://certification.unity.com/
+
+      https://connect.unity.com/events?_ga=2.127184137.528969808.1522690045-1204440503.1480551978
+
+
+      Guest:
+
+      Jessica
+      Lindl - Global Head of Education at Unity
+
+
+      Hosts:
+
+      Will Goldstone
+      - Product Manager at Unity
+
+      Liz Mercuri - Technical Evangelist at Unity'
+    thumbUrls:
+    - https://i.ytimg.com/vi/xer4PSNkYi4/sddefault.jpg
+    - https://i.ytimg.com/vi/xer4PSNkYi4/mqdefault.jpg
+    - https://i.ytimg.com/vi/xer4PSNkYi4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xer4PSNkYi4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1209
+    likeCount: 19
+    dislikeCount: 3
+    commentCount: 4
+    durationInMinutes: 9
+    publishedAtDate: 636583313000000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - Unity Connect and Challenges
+    url: https://www.youtube.com/watch?v=HUrzDP7Ffa0
+    channelName: Unity
+    description: 'To find out more about Unity Connect and upcoming challenges, visit:
+      https://connect.unity.com/challenges
+
+
+      Guests:
+
+      Nathan Ventura
+      - PMM of Unity Connect and Asset Store at Unity
+
+      Maciej Szczesnik  -
+      Independent Game Designer and winner of the Neon Challenge
+
+
+      Hosts:
+
+      Liz
+      Mercuri - Technical Evangelist at Unity
+
+      Will Goldstone - Product Manager
+      at Unity'
+    thumbUrls:
+    - https://i.ytimg.com/vi/HUrzDP7Ffa0/sddefault.jpg
+    - https://i.ytimg.com/vi/HUrzDP7Ffa0/mqdefault.jpg
+    - https://i.ytimg.com/vi/HUrzDP7Ffa0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HUrzDP7Ffa0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 499
+    likeCount: 4
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 9
+    publishedAtDate: 636583295620000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - Unity and Visual Studio
+    url: https://www.youtube.com/watch?v=50rtYwmTD_I
+    channelName: Unity
+    description: "To find out more about Visual Studio and Unity: https://blogs.unity3d.com/2018/01/05/discontinuing-support-for-monodevelop-unity-starting-in-unity-2018-1/\n\nGuest:\nMiguel
+      de Icaza - Distinguished Engineer at Microsoft\n\nHosts: \nWill Goldstone -
+      Product Manager at Unity \nLiz Mercuri - Technical Evangelist at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/50rtYwmTD_I/sddefault.jpg
+    - https://i.ytimg.com/vi/50rtYwmTD_I/mqdefault.jpg
+    - https://i.ytimg.com/vi/50rtYwmTD_I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/50rtYwmTD_I/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 886
+    likeCount: 12
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 9
+    publishedAtDate: 636583303920000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - Unity and Augmented Reality
+    url: https://www.youtube.com/watch?v=M6dXwLMteG4
+    channelName: Unity
+    description: 'To find out more about Unity and Augmented Reality: https://unity3d.com/solutions/mobile-ar
+
+
+      Guests:
+
+      Brad
+      Weiers - AR/VR Technical Product Manager at Unity
+
+      Brittany Tomlinson
+      - Senior PMM of AR/VR and 360 Video at Unity
+
+
+      Hosts
+
+      Liz Mercuri
+      - Technical Evangelist at Unity
+
+      Will Goldstone - Product Manager at
+      Unity'
+    thumbUrls:
+    - https://i.ytimg.com/vi/M6dXwLMteG4/sddefault.jpg
+    - https://i.ytimg.com/vi/M6dXwLMteG4/mqdefault.jpg
+    - https://i.ytimg.com/vi/M6dXwLMteG4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/M6dXwLMteG4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 668
+    likeCount: 5
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 7
+    publishedAtDate: 636583293860000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - Oculus Start Program
+    url: https://www.youtube.com/watch?v=XfQiKQ21s68
+    channelName: Unity
+    description: 'To find out more about the Oculus Start Program, visit: https://developer.oculus.com/oculus-start/
+
+
+      Guest:
+
+      Kasey
+      Galang - Head of Developer Ecosystem at Oculus VR
+
+
+      Hosts
+
+      Liz
+      Mercuri - Technical Evangelist at Unity
+
+      Will Goldstone - Product Manager
+      at Unity'
+    thumbUrls:
+    - https://i.ytimg.com/vi/XfQiKQ21s68/sddefault.jpg
+    - https://i.ytimg.com/vi/XfQiKQ21s68/mqdefault.jpg
+    - https://i.ytimg.com/vi/XfQiKQ21s68/maxresdefault.jpg
+    - https://i.ytimg.com/vi/XfQiKQ21s68/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 779
+    likeCount: 13
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 6
+    publishedAtDate: 636583282590000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - Mixer
+    url: https://www.youtube.com/watch?v=ZzDqmrUzsI0
+    channelName: Unity
+    description: 'To find out more about Microsoft''s livestreaming service Mixer,
+      visit: https://mixer.com/
+
+
+      Guest:
+
+      Gersh Payzer
+
+      Software
+      Engineer Lead, Mixer (Xbox) at Microsoft'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZzDqmrUzsI0/sddefault.jpg
+    - https://i.ytimg.com/vi/ZzDqmrUzsI0/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZzDqmrUzsI0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZzDqmrUzsI0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 458
+    likeCount: 2
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 9
+    publishedAtDate: 636583310860000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - March 22, 2018
+    url: https://www.youtube.com/watch?v=qh7aQVlEaUs
+    channelName: Unity
+    description: "Unity Live at GDC - March 21, 2018\n\nHosts:\nWill Goldstone (Product
+      Manager, Unity)\nLiz Mercuri (Technical Evangelist, Unity)\n\nLineup:\n\nUnity
+      Machine Learning \n(Jeff Shih, Senior Product Manager Machine Learning, Unity)\n\nUnity
+      Education \n(Jessica Lindl, Global Head of Education, Unity)\n\nDeveloping
+      They Suspect Nothing for Oculus Go\n(Jonathan Davies, Narrative Designer, Coatsink)\n\nIn
+      the Valley of Gods\n(Sean Vanaman, Co-founder & \nChris Remo, Game Designer/Composer,
+      Campo Santo)\n\nUnity SDK for Mixer \n(Gersh Payzer, Software Engineer Lead,
+      Mixer)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/qh7aQVlEaUs/mqdefault.jpg
+    - https://i.ytimg.com/vi/qh7aQVlEaUs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 8075
+    likeCount: 138
+    dislikeCount: 7
+    commentCount: 5
+    durationInMinutes: 65
+    publishedAtDate: 636573566560000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - March 21, 2018
+    url: https://www.youtube.com/watch?v=Mb2ArhfmsDQ
+    channelName: Unity
+    description: "Unity Live at GDC - March 21, 2018\n\nHosts:\nWill Goldstone (Product
+      Manager, Unity)\nLiz Mercuri (Technical Evangelist, Unity)\n\nLineup:\n\nUniversal
+      Game Dev Challenge\n(Chris Heatherly, Executive Vice President, Games and Digital
+      Platforms, NBCUniversal)\n\nD.R.O.N.E.\n(Peter R\xF6\xDFl, Lead Game Designer
+      & \nTomasz Stobierski, Lead Graphics Programmer, Five Studios Interactive)\n\nVuforia\n(JJ
+      Lechleiter, Sr. Director Product Management, Vuforia at PTC)\n\nVisual Studio\n(Miguel
+      de Icaza, Distinguished Engineer, Microsoft)\n\nZoink Developing in 2.5D With
+      Unity\n(Klaus Lyngeled, Creative Director, Zoink)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Mb2ArhfmsDQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/Mb2ArhfmsDQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 8412
+    likeCount: 123
+    dislikeCount: 6
+    commentCount: 9
+    durationInMinutes: 52
+    publishedAtDate: 636572699400000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - March 20, 2018
+    url: https://www.youtube.com/watch?v=FyizftCOdvs
+    channelName: Unity
+    description: "Unity Live at GDC - March 20, 2018\n\nHosts:\nWill Goldstone (Product
+      Manager, Unity)\nLiz Mercuri (Technical Evangelist, Unity)\n\nLineup:\nOculus
+      Start Program\n(Kasey Galang, Head of Developer Ecosystem, Oculus VR)\nOffice
+      Hours sign up: https://vrdc.oculusdeveloperevents.com/#/authenticate\nFind
+      out more:\nhttps://developer.oculus.com/oculus-start/\n\nMagic Leap\n(Rio Caraeff,
+      Chief Content Officer, Magic Leap)\n\nUnity and Augmented Reality\n(Brad Weiers,
+      AR/VR Technical Product Manager, Unity &\nBrittany Tomlinson, Senior PMM AR
+      and 360 Video, Unity)\n\nPorting Unity Experiences to Windows Mixed Reality
+      \n(Jaime Rodriguez, Principal Program Manager, Microsoft)\n\nUnity Connect
+      challenges\n(Nathan Ventura, Product Marketing Manager, Unity & \nMaciej Szcze\u015Bnik,
+      Independent Game Designer)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/FyizftCOdvs/sddefault.jpg
+    - https://i.ytimg.com/vi/FyizftCOdvs/mqdefault.jpg
+    - https://i.ytimg.com/vi/FyizftCOdvs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/FyizftCOdvs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 6984
+    likeCount: 80
+    dislikeCount: 7
+    commentCount: 8
+    durationInMinutes: 44
+    publishedAtDate: 636572002440000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - Magic Leap
+    url: https://www.youtube.com/watch?v=lyj0h86KJPo
+    channelName: Unity
+    description: "To find out more about Magic Leap and Unity, check out our landing
+      page: https://unity3d.com/partners/magicleap\nRegister now: creator.magicleap.com\n\nGuest:\nRio
+      Caraeff (Chief Content Officer at Magic Leap) \n\nHosts\nLiz Mercuri - Technical
+      Evangelist at Unity\nWill Goldstone - Product Manager at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/lyj0h86KJPo/sddefault.jpg
+    - https://i.ytimg.com/vi/lyj0h86KJPo/mqdefault.jpg
+    - https://i.ytimg.com/vi/lyj0h86KJPo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lyj0h86KJPo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1598
+    likeCount: 13
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 9
+    publishedAtDate: 636583280900000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - In the Valley of Gods by Campo Santo
+    url: https://www.youtube.com/watch?v=zlpm2X2Mb2g
+    channelName: Unity
+    description: 'To find out more about In the Valley of Gods, visit: https://unity.com/madewith/in-the-valley-of-gods
+
+
+      Guests:
+
+      Chris
+      Remo - Game Designer/Composer at Campo Santo
+
+      Sean Vanaman - Co-founder
+      at Campo Santo
+
+
+      Hosts:
+
+      Will Goldstone - Product Manager at Unity
+
+      Liz
+      Mercuri - Technical Evangelists at Unity'
+    thumbUrls:
+    - https://i.ytimg.com/vi/zlpm2X2Mb2g/sddefault.jpg
+    - https://i.ytimg.com/vi/zlpm2X2Mb2g/mqdefault.jpg
+    - https://i.ytimg.com/vi/zlpm2X2Mb2g/maxresdefault.jpg
+    - https://i.ytimg.com/vi/zlpm2X2Mb2g/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3185
+    likeCount: 47
+    dislikeCount: 24
+    commentCount: 7
+    durationInMinutes: 18
+    publishedAtDate: 636583308720000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - D.R.O.N.E. by Five Studios Interactive
+    url: https://www.youtube.com/watch?v=uSwJCURPrIU
+    channelName: Unity
+    description: "To find out more about DRONE: https://unity.com/madewith/drone\n\nGuest:\nPeter
+      R\xF6\xDFl - Lead Game Designer/Technical Artist at Five Studios Interactive\nTomasz
+      Stobierski  - Lead Graphics Programmer at Five Studios Interactive\n\nHosts:
+      \nWill Goldstone - Product Manager at Unity \nLiz Mercuri - Technical Evangelist
+      at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/uSwJCURPrIU/sddefault.jpg
+    - https://i.ytimg.com/vi/uSwJCURPrIU/mqdefault.jpg
+    - https://i.ytimg.com/vi/uSwJCURPrIU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/uSwJCURPrIU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 516
+    likeCount: 19
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 10
+    publishedAtDate: 636583301020000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - Coatsink on developing They Suspect Nothing for Oculus
+      Go
+    url: https://www.youtube.com/watch?v=WgCkrPWnkpE
+    channelName: Unity
+    description: 'To find out more about developing They Suspect Nothing on Oculus
+      Go, check out this blog: https://developer.oculus.com/blog/piece-by-piece-assembling-they-suspect-nothing/
+
+
+      Guest:
+
+      Jonathan
+      Davies - Narrative Designer at Coatsink
+
+
+      Hosts:
+
+      Will Goldstone
+      - Product Manager at Unity
+
+      Liz Mercuri - Technical Evangelist at Unity'
+    thumbUrls:
+    - https://i.ytimg.com/vi/WgCkrPWnkpE/sddefault.jpg
+    - https://i.ytimg.com/vi/WgCkrPWnkpE/mqdefault.jpg
+    - https://i.ytimg.com/vi/WgCkrPWnkpE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WgCkrPWnkpE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2745
+    likeCount: 24
+    dislikeCount: 3
+    commentCount: 1
+    durationInMinutes: 8
+    publishedAtDate: 636583306550000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC Reel 2012
+    url: https://www.youtube.com/watch?v=0ZxToZPy6fU
+    channelName: Unity
+    description: 'A showcase of awesome game content made with Unity, as shown at
+      Game Developers Conference 2012.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6dC/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/0ZxToZPy6fU/sddefault.jpg
+    - https://i.ytimg.com/vi/0ZxToZPy6fU/mqdefault.jpg
+    - https://i.ytimg.com/vi/0ZxToZPy6fU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0ZxToZPy6fU/hqdefault.jpg
+    tags:
+    - android
+    - ios
+    - mac
+    - made
+    - pc
+    - ps3
+    - showreel
+    - unity
+    - web
+    - with
+    - xbox
+    viewCount: 12781
+    likeCount: 107
+    dislikeCount: 7
+    commentCount: 12
+    durationInMinutes: 2
+    publishedAtDate: 634732207480000000
+    publisdedDate:
+      year: 2012
+      month: 5
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC demo - Adam - Part I
+    url: https://www.youtube.com/watch?v=44M7JsKqwow
+    channelName: Unity
+    description: "This is the first part of our real-time rendered short film \u201CAdam\u201D,
+      created with the Unity engine by Unity\u2019s Demo team. The full length short
+      will be shown at Unite Europe 2016 in Amsterdam. \nIt runs at 1440p on a GTX980
+      standard edition.\nhttp://unity3d.com/pages/adam?utm_source=youtube&utm_medium=social&utm_campaign=demos-showcase-2016-03-15-Global-AdamPartOne\n\nAdam
+      demo - the full short film: https://youtu.be/GXI0l3yqBrA\n\nHelp us caption
+      & translate this video!\n\nhttp://amara.org/v/V607/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/44M7JsKqwow/sddefault.jpg
+    - https://i.ytimg.com/vi/44M7JsKqwow/mqdefault.jpg
+    - https://i.ytimg.com/vi/44M7JsKqwow/maxresdefault.jpg
+    - https://i.ytimg.com/vi/44M7JsKqwow/hqdefault.jpg
+    tags:
+    - adam demo
+    - unity demo
+    - real time
+    - rendering
+    - short film
+    - unity (software)
+    viewCount: 901947
+    likeCount: 13791
+    dislikeCount: 114
+    commentCount: 1425
+    durationInMinutes: 2
+    publishedAtDate: 635936771230000000
+    publisdedDate:
+      year: 2016
+      month: 3
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC 2017 Keynote - Unity 5.6 [2/6]
+    url: https://www.youtube.com/watch?v=4a8iPIO-5OE
+    channelName: Unity
+    description: Second part of the Unity GDC 2017 Keynote with Lucas Meijer, featuring
+      a demo of the Progressive Lightmapper, Vulkan, Metal, the new Navmesh and guest
+      starring two Power Rangers!
+    thumbUrls:
+    - https://i.ytimg.com/vi/4a8iPIO-5OE/sddefault.jpg
+    - https://i.ytimg.com/vi/4a8iPIO-5OE/mqdefault.jpg
+    - https://i.ytimg.com/vi/4a8iPIO-5OE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4a8iPIO-5OE/hqdefault.jpg
+    tags: []
+    viewCount: 23109
+    likeCount: 150
+    dislikeCount: 4
+    commentCount: 15
+    durationInMinutes: 23
+    publishedAtDate: 636241570560000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC 2017 Keynote - Unity 2017, Future of Graphics, Empowering Artists 
+      [5/6]
+    url: https://www.youtube.com/watch?v=zP34keGIkuI
+    channelName: Unity
+    description: Watch Joachim Ante talk about the new scriptable render pipeline,
+      improved efficiency and much more in the fifth part of the Unity GDC 2017 Keynote.
+    thumbUrls:
+    - https://i.ytimg.com/vi/zP34keGIkuI/sddefault.jpg
+    - https://i.ytimg.com/vi/zP34keGIkuI/mqdefault.jpg
+    - https://i.ytimg.com/vi/zP34keGIkuI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/zP34keGIkuI/hqdefault.jpg
+    tags: []
+    viewCount: 8064
+    likeCount: 77
+    dislikeCount: 1
+    commentCount: 15
+    durationInMinutes: 26
+    publishedAtDate: 636241571310000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC 2017 Keynote - Timeline and Cinemachine Demo, Baobab Studios,
+      David Helgason [6/6]
+    url: https://www.youtube.com/watch?v=Z38WBMqjMJU
+    channelName: Unity
+    description: The final part of the Unity GDC 2017 Keynote has a great demo of
+      Cinemachine and Timeline using assets from the beautiful Ghost of a Tale, followed
+      by VR movie makers Baobab Studios and David Helgason.
+    thumbUrls:
+    - https://i.ytimg.com/vi/Z38WBMqjMJU/sddefault.jpg
+    - https://i.ytimg.com/vi/Z38WBMqjMJU/mqdefault.jpg
+    - https://i.ytimg.com/vi/Z38WBMqjMJU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Z38WBMqjMJU/hqdefault.jpg
+    tags: []
+    viewCount: 38975
+    likeCount: 362
+    dislikeCount: 6
+    commentCount: 30
+    durationInMinutes: 19
+    publishedAtDate: 636241571540000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC 2017 Keynote - Next Games, Colossal Order, Owlchemy Success
+      Stories [3/6]
+    url: https://www.youtube.com/watch?v=aD3YTs77wWE
+    channelName: Unity
+    description: Listen to the succes stories of developers such as Next Games, Colossal
+      Order and Owlchemy in the third part of the Unity GDC 2017 Keynote.
+    thumbUrls:
+    - https://i.ytimg.com/vi/aD3YTs77wWE/sddefault.jpg
+    - https://i.ytimg.com/vi/aD3YTs77wWE/mqdefault.jpg
+    - https://i.ytimg.com/vi/aD3YTs77wWE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/aD3YTs77wWE/hqdefault.jpg
+    tags: []
+    viewCount: 3391
+    likeCount: 28
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 23
+    publishedAtDate: 636241570860000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC 2017 Keynote - Intro with John Riccitiello, Space Ape, Unity
+      5 Highlights [1/6]
+    url: https://www.youtube.com/watch?v=j7lzMBNrhE4
+    channelName: Unity
+    description: Watch the Unity GDC 2017 Keynote with an intro from John Riccitiello
+      and some highlights from Unity 5.6.
+    thumbUrls:
+    - https://i.ytimg.com/vi/j7lzMBNrhE4/sddefault.jpg
+    - https://i.ytimg.com/vi/j7lzMBNrhE4/mqdefault.jpg
+    - https://i.ytimg.com/vi/j7lzMBNrhE4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/j7lzMBNrhE4/hqdefault.jpg
+    tags: []
+    viewCount: 16195
+    likeCount: 123
+    dislikeCount: 8
+    commentCount: 9
+    durationInMinutes: 15
+    publishedAtDate: 636241569700000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC 2017 Keynote - EditorVR, XR Foundation Toolkit, Artist in Residence
+      [4/6]
+    url: https://www.youtube.com/watch?v=5v0QNOEVjFs
+    channelName: Unity
+    description: The fourth segment of the Unity GDC 2017 Keynote has focus on Editor
+      VR, the XR Foundation Tookit and the new Artist in Residence program.
+    thumbUrls:
+    - https://i.ytimg.com/vi/5v0QNOEVjFs/sddefault.jpg
+    - https://i.ytimg.com/vi/5v0QNOEVjFs/mqdefault.jpg
+    - https://i.ytimg.com/vi/5v0QNOEVjFs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5v0QNOEVjFs/hqdefault.jpg
+    tags: []
+    viewCount: 4455
+    likeCount: 44
+    dislikeCount: 4
+    commentCount: 3
+    durationInMinutes: 5
+    publishedAtDate: 636241571050000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC 2017 Keynote
+    url: https://www.youtube.com/watch?v=YHweZ8dhOJA
+    channelName: Unity
+    description: "At GDC17 we kicked off the week with our special live keynote in
+      San Francisco, California. We go over our plans for the upcoming Unity 5.6
+      release, and share our vision for the future of Unity 2017. \n\nUnity 2017
+      is the start of a new era that drives the future of game development. Best
+      in class creators are choosing Unity to create their content as a tool of choice
+      for games, VR/AR and cinematic experiences alike."
+    thumbUrls:
+    - https://i.ytimg.com/vi/YHweZ8dhOJA/sddefault.jpg
+    - https://i.ytimg.com/vi/YHweZ8dhOJA/mqdefault.jpg
+    - https://i.ytimg.com/vi/YHweZ8dhOJA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/YHweZ8dhOJA/hqdefault.jpg
+    tags:
+    - GDC
+    - Game Developers Conference
+    - GDC17
+    - Game Developers Conference 17
+    - Power Rangers
+    - Power Rangers Legacy Wars
+    - Game Development
+    - Unity
+    - Unity 3D
+    - Keynote
+    - Graphics
+    - Mobile
+    - ARM
+    - ARM Mobile
+    - Vulkan
+    - Metal
+    - iOS
+    - Natalya Tatarchuk
+    - john riccitiello
+    - VR
+    - Development
+    - nWay
+    - MadeWithUnity
+    - Made With Unity
+    - Facebook Gameroom
+    - Xaomi
+    - Progressive Lightmapper
+    - AI
+    - NavMesh
+    - Space Ape
+    - Game Dev
+    - EditorVR
+    - Owlchemy
+    viewCount: 177946
+    likeCount: 1280
+    dislikeCount: 69
+    commentCount: 102
+    durationInMinutes: 115
+    publishedAtDate: 636239286620000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC 2016 Keynote
+    url: https://www.youtube.com/watch?v=eN3PsU_iA80
+    channelName: Unity
+    description: "We\u2019ll kick-start our GDC on Tuesday March 15 at 9:00AM PST
+      with a special live event from San Francisco.\n\nWe\u2019ll be sharing new
+      updates, showing inspirational demos and inviting special guests on stage \u2013
+      and you\u2019re most welcome to join! More details on the event will follow
+      on our social media channels, so please stay tuned!"
+    thumbUrls:
+    - https://i.ytimg.com/vi/eN3PsU_iA80/sddefault.jpg
+    - https://i.ytimg.com/vi/eN3PsU_iA80/mqdefault.jpg
+    - https://i.ytimg.com/vi/eN3PsU_iA80/maxresdefault.jpg
+    - https://i.ytimg.com/vi/eN3PsU_iA80/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - GDC 2016
+    - Game development
+    viewCount: 93505
+    likeCount: 1195
+    dislikeCount: 33
+    commentCount: 120
+    durationInMinutes: 110
+    publishedAtDate: 635936840950000000
+    publisdedDate:
+      year: 2016
+      month: 3
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC 2016 Game Showreel
+    url: https://www.youtube.com/watch?v=8lWpnvNxs8k
+    channelName: Unity
+    description: 'Some of our favorite creations made with Unity as shown at GDC
+      2016. More about games made with Unity: http://madewith.unity.com
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V606/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/8lWpnvNxs8k/sddefault.jpg
+    - https://i.ytimg.com/vi/8lWpnvNxs8k/mqdefault.jpg
+    - https://i.ytimg.com/vi/8lWpnvNxs8k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8lWpnvNxs8k/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    viewCount: 267478
+    likeCount: 2803
+    dislikeCount: 40
+    commentCount: 187
+    durationInMinutes: 3
+    publishedAtDate: 635937436220000000
+    publisdedDate:
+      year: 2016
+      month: 3
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC 2014 Game Showreel
+    url: https://www.youtube.com/watch?v=lXfOqY0JMng
+    channelName: Unity
+    description: 'A showcase of some of the latest and greatest Unity authored titles,
+      as shown at Game Developers Conference 2014 in San Francisco. Learn more about
+      Unity: http://unity3d.com/5
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V67s/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/lXfOqY0JMng/sddefault.jpg
+    - https://i.ytimg.com/vi/lXfOqY0JMng/mqdefault.jpg
+    - https://i.ytimg.com/vi/lXfOqY0JMng/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lXfOqY0JMng/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Video Game (Industry)
+    - Video Game Development (Industry)
+    - Game
+    - Game Developers Conference (Conference Series)
+    viewCount: 107848
+    likeCount: 951
+    dislikeCount: 11
+    commentCount: 87
+    durationInMinutes: 2
+    publishedAtDate: 635307804080000000
+    publisdedDate:
+      year: 2014
+      month: 3
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity GDC '13 Showreel
+    url: https://www.youtube.com/watch?v=rYBaZyqiYZo
+    channelName: Unity
+    description: 'A trailer of exciting Unity authored games that showcased at GDC
+      2013.
+
+
+      Games Featured -
+
+      Bad Piggies by Rovio
+
+      Wasteland
+      2 by InXile Entertainment
+
+      The Drowning by Scattered Entertainment /
+      Dena
+
+      The Room by Fireproof games
+
+      Lovers in a Dangerous Spacetime
+      by Asteroid Base
+
+      Guns of Icarus Online by Muse Games
+
+      Death Inc
+      by Ambient studios
+
+      Ballistic by Aquiris / Rumble Entertainment
+
+      Legends
+      of Aetherus by Threegates
+
+      The Swindle by Size Five Studios
+
+      Slender
+      : The Arrival by Parsec Productions & Blue Isle studios
+
+      Dead Trigger
+      2 by Madfinger games
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6bv/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/rYBaZyqiYZo/sddefault.jpg
+    - https://i.ytimg.com/vi/rYBaZyqiYZo/mqdefault.jpg
+    - https://i.ytimg.com/vi/rYBaZyqiYZo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/rYBaZyqiYZo/hqdefault.jpg
+    tags:
+    - games
+    - made with unity
+    - videogames
+    viewCount: 70926
+    likeCount: 421
+    dislikeCount: 4
+    commentCount: 60
+    durationInMinutes: 1
+    publishedAtDate: 635010554450000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Character Animation GDC 2012 Feature Preview
+    url: https://www.youtube.com/watch?v=6klcDu8usJU
+    channelName: Unity
+    description: 'A first look at the forthcoming character animation system for
+      Unity, as demonstrated at Game Developer''s Conference 2012.
+
+
+      Help us
+      caption & translate this video!
+
+
+      http://amara.org/v/V6cz/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/6klcDu8usJU/sddefault.jpg
+    - https://i.ytimg.com/vi/6klcDu8usJU/mqdefault.jpg
+    - https://i.ytimg.com/vi/6klcDu8usJU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/6klcDu8usJU/hqdefault.jpg
+    tags:
+    - animation
+    - character
+    - control
+    - ik
+    - input
+    - kinematic
+    - ragdoll
+    - rigging
+    - skeleton
+    viewCount: 104093
+    likeCount: 334
+    dislikeCount: 17
+    commentCount: 36
+    durationInMinutes: 2
+    publishedAtDate: 634732211210000000
+    publisdedDate:
+      year: 2012
+      month: 5
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC Keynote 2019
+    url: https://www.youtube.com/watch?v=YlcX-O7fRic
+    channelName: Unity
+    description: "At GDC, we're celebrating all creators. Tune in to our GDC keynote
+      for an evening centered around our latest technologies, exciting announcements,
+      the future of Unity, and what's in store for us in 2019 and beyond.\n\n00:21:20
+      - Keynote Begins\n00:37:33 - Call of Duty: Mobile\n00:43:36 - Game Foundation\n00:47:17
+      - Lightweight Render Pipeline / Megalith\n00:54:19 - Disney\u2019s Sorcerer\u2019s
+      Arena / Shader Graph\n01:00:12 - AR Foundation\n01:07:23 - Adaptive Performance\n01:11:36
+      - System Shock 3\n01:18:49 - Oddworld Soulstorm\n01:23:56 - DOTS, Megacity,
+      Physics\n01:42:00 - Real-time Ray Tracing\n01:53:36 - The Heretic\n\nThank
+      you to NVIDIA for providing the PCs used in our booth and during the Unity
+      at GDC keynote.\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLFB/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/YlcX-O7fRic/mqdefault.jpg
+    - https://i.ytimg.com/vi/YlcX-O7fRic/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 150928
+    likeCount: 2205
+    dislikeCount: 102
+    commentCount: 170
+    durationInMinutes: 147
+    publishedAtDate: 636885794240000000
+    publisdedDate:
+      year: 2019
+      month: 3
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC Keynote - Unity for small projects: Running lighter and
+      faster Unity experiences'
+    url: https://www.youtube.com/watch?v=TvP5XtaAffI
+    channelName: Unity
+    description: "March 19, 2018 (San Francisco) - Unity is everywhere you want to
+      be. Ralph Hauwert (Head of Platforms) shares details on the new core runtime
+      which allows developers to create experiences that can run natively on lightweight
+      devices or even on the web. It is a brand-new, highly modularized architecture
+      and a new set of specifically designed components that you can create using
+      the Unity Editor. \n\nTo find out more: https://blogs.unity3d.com/2018/03/20/unity-unveils-2018-roadmap-at-gdc/#small"
+    thumbUrls:
+    - https://i.ytimg.com/vi/TvP5XtaAffI/sddefault.jpg
+    - https://i.ytimg.com/vi/TvP5XtaAffI/mqdefault.jpg
+    - https://i.ytimg.com/vi/TvP5XtaAffI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TvP5XtaAffI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 4139
+    likeCount: 52
+    dislikeCount: 3
+    commentCount: 7
+    durationInMinutes: 13
+    publishedAtDate: 636583258960000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC keynote - Unity 2018 (nested prefabs & more) w. Brett Bibby
+      (VP of Engineering)
+    url: https://www.youtube.com/watch?v=jMug1OUWHQ8
+    channelName: Unity
+    description: 'March 19, 2018 (San Francisco) - For more information on what''s
+      in store for Unity 2018: https://blogs.unity3d.com/2018/03/20/unity-unveils-2018-roadmap-at-gdc/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/jMug1OUWHQ8/sddefault.jpg
+    - https://i.ytimg.com/vi/jMug1OUWHQ8/mqdefault.jpg
+    - https://i.ytimg.com/vi/jMug1OUWHQ8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/jMug1OUWHQ8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3405
+    likeCount: 53
+    dislikeCount: 9
+    commentCount: 6
+    durationInMinutes: 7
+    publishedAtDate: 636583227070000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC keynote - The future of Unity (Entity Component System &
+      Performance) w. Joachim Ante
+    url: https://www.youtube.com/watch?v=3Mq9EH8RT_U
+    channelName: Unity
+    description: 'March 19, 2018 (San Francisco) - Hear about the future of Unity
+      and the evolution of the core engine from Co-founder and Chief Technology Officer
+      Joachim Ante. To find more about ECS and Performance by default, check out
+      our blog: https://blogs.unity3d.com/2018/03/20/unity-unveils-2018-roadmap-at-gdc/#performance'
+    thumbUrls:
+    - https://i.ytimg.com/vi/3Mq9EH8RT_U/sddefault.jpg
+    - https://i.ytimg.com/vi/3Mq9EH8RT_U/mqdefault.jpg
+    - https://i.ytimg.com/vi/3Mq9EH8RT_U/maxresdefault.jpg
+    - https://i.ytimg.com/vi/3Mq9EH8RT_U/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 9388
+    likeCount: 168
+    dislikeCount: 6
+    commentCount: 20
+    durationInMinutes: 9
+    publishedAtDate: 636583254610000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC keynote - Opening remarks w. CEO John Riccitiello & Made
+      with Unity with Isabelle Riva
+    url: https://www.youtube.com/watch?v=MGEleGvhYIs
+    channelName: Unity
+    description: 'March 19, 2018 (San Francisco) - For more info on the Universal
+      GameDev challenge and Will Wright''s Proxi challenge: https://connect.unity.com/challenges
+
+
+      http://madewith.unity.com/
+
+      https://unity3d.com/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/MGEleGvhYIs/sddefault.jpg
+    - https://i.ytimg.com/vi/MGEleGvhYIs/mqdefault.jpg
+    - https://i.ytimg.com/vi/MGEleGvhYIs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MGEleGvhYIs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3706
+    likeCount: 53
+    dislikeCount: 9
+    commentCount: 4
+    durationInMinutes: 13
+    publishedAtDate: 636583225150000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC keynote - Next level rendering and graphics & Book of the
+      Dead by Unity's Demo Team
+    url: https://www.youtube.com/watch?v=CLNfuQ9bCaw
+    channelName: Unity
+    description: 'March 19, 2018 (San Francisco) - Natalya Tatarchuk (Director of
+      Graphics) shares Unity''s plans for next level rendering and improvements to
+      graphics and artist workflows. Silvia Rasheva (Producer, Demo Team) shares
+      background on Unity''s Demo Team and their latest creation, Book of the Dead.
+
+
+      To
+      find out more about next level rendering and upcoming graphical improvements,
+      check out: https://blogs.unity3d.com/2018/03/20/unity-unveils-2018-roadmap-at-gdc/
+
+
+      To
+      see more from the Demo Team: https://unity3d.com/unity/demos'
+    thumbUrls:
+    - https://i.ytimg.com/vi/CLNfuQ9bCaw/sddefault.jpg
+    - https://i.ytimg.com/vi/CLNfuQ9bCaw/mqdefault.jpg
+    - https://i.ytimg.com/vi/CLNfuQ9bCaw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/CLNfuQ9bCaw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 6341
+    likeCount: 86
+    dislikeCount: 4
+    commentCount: 6
+    durationInMinutes: 13
+    publishedAtDate: 636583234630000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC Keynote - March 19, 2018
+    url: https://www.youtube.com/watch?v=cmRSkHl-Gv0
+    channelName: Unity
+    description: 'Our annual GDC keynote will take place on March 19th at 6:30PM
+      (Pacific Time). Building on the foundation of the 2017 cycle, which introduced
+      powerful artist tools that give teams of artists and engineers the power to
+      do more together, the keynote will be the first deep dive into Unity 2018.
+      We are thrilled to share with you our latest innovations covering graphics,
+      performance, artist tools and more!
+
+
+      The keynote will be hosted by Lucas
+      Meijer (Technical Director) and will feature John Riccitiello (CEO), Brett
+      Bibby (VP of Engineering),Natasha Tatarchuk (Director of Global Graphics),
+      Joachim Ante (CTO) and Yibing Jiang (Technical Art Supervisor).
+
+
+      **Thank
+      you to Nvidia for providing the PCs that powered the Unity at GDC keynote,
+      gaming lounge and VR demos during GDC week.**'
+    thumbUrls:
+    - https://i.ytimg.com/vi/cmRSkHl-Gv0/mqdefault.jpg
+    - https://i.ytimg.com/vi/cmRSkHl-Gv0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 108318
+    likeCount: 1215
+    dislikeCount: 53
+    commentCount: 84
+    durationInMinutes: 108
+    publishedAtDate: 636571352880000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC keynote - Machine Learning & Unity ML-Agents update with
+      Danny Lange (VP of AI and ML)
+    url: https://www.youtube.com/watch?v=Q0zcMDW3BqE
+    channelName: Unity
+    description: 'March 19, 2018 (San Francisco) - For more information on Machine
+      Learning with Unity: https://unity3d.com/machine-learning'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Q0zcMDW3BqE/sddefault.jpg
+    - https://i.ytimg.com/vi/Q0zcMDW3BqE/mqdefault.jpg
+    - https://i.ytimg.com/vi/Q0zcMDW3BqE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Q0zcMDW3BqE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3279
+    likeCount: 47
+    dislikeCount: 6
+    commentCount: 1
+    durationInMinutes: 10
+    publishedAtDate: 636583225910000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC keynote - Light weight render pipeline and Cinemachine Storyboard
+      demos
+    url: https://www.youtube.com/watch?v=wmNlSMCNkEM
+    channelName: Unity
+    description: "March 19, 2018 (San Francisco) - Adam Myhill (Head of Cinematics)
+      & Mike Wuetherick (Producer, Made with Unity) dive deep into Unity's 2018 artist
+      features like Cinemachine Story board and the Light Weight Render Pipeline
+      (LW RP) with a few live demonstrations. \n\nTo find out more about the LW RP:
+      https://blogs.unity3d.com/2018/02/21/the-lightweight-render-pipeline-optimizing-real-time-performance/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/wmNlSMCNkEM/sddefault.jpg
+    - https://i.ytimg.com/vi/wmNlSMCNkEM/mqdefault.jpg
+    - https://i.ytimg.com/vi/wmNlSMCNkEM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wmNlSMCNkEM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 10219
+    likeCount: 115
+    dislikeCount: 0
+    commentCount: 4
+    durationInMinutes: 9
+    publishedAtDate: 636583249790000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC 2019 Keynote Highlights
+    url: https://www.youtube.com/watch?v=ZJLYyV5akbs
+    channelName: Unity
+    description: "We kicked off GDC 2019 in the best way possible \u2013 with a keynote
+      filled with major announcements, jaw-dropping demos, and appearances from some
+      of the industry\u2019s most storied franchises. Watch to get the highlights.\n\nMore
+      from the Unity at GDC keynote: https://on.unity.com/2U0ZhCD\n\nHelp us caption
+      & translate this video!\n\nhttps://amara.org/v/oIfx/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZJLYyV5akbs/sddefault.jpg
+    - https://i.ytimg.com/vi/ZJLYyV5akbs/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZJLYyV5akbs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZJLYyV5akbs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - GDC
+    - Game Developers Conference
+    viewCount: 27425
+    likeCount: 447
+    dislikeCount: 11
+    commentCount: 24
+    durationInMinutes: 2
+    publishedAtDate: 636888355550000000
+    publisdedDate:
+      year: 2019
+      month: 3
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - XR Happy Hour and  demos
+    url: https://www.youtube.com/watch?v=GHb5sjE7YZw
+    channelName: Unity
+    description: March 19, 5:00pm (San Francisco) - For Unity at GDC, Unity held
+      a Happy Hour dedicated to AR/VR developers. People were invited to grab a drink
+      and a bite to eat as they hear from Tony Parisi, our Head of AR/VR Ads Strategy,
+      and fellow developers about the future of XR.
+    thumbUrls:
+    - https://i.ytimg.com/vi/GHb5sjE7YZw/sddefault.jpg
+    - https://i.ytimg.com/vi/GHb5sjE7YZw/mqdefault.jpg
+    - https://i.ytimg.com/vi/GHb5sjE7YZw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GHb5sjE7YZw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1959
+    likeCount: 16
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 60
+    publishedAtDate: 636577166850000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Unity Training Workshop preview: Stunning visuals - A
+      workflow for artists'
+    url: https://www.youtube.com/watch?v=R5f9h-57Q8Y
+    channelName: Unity
+    description: "March 21, 2:30pm (San Francisco) - Level up your art team's skills
+      with an in-person Unity Training Workshop. Live training is one of the most
+      effective ways to develop talent and increase efficiency, and you can now get
+      Unity Training Workshops delivered on-site at your office. \n\nOne of our Master
+      Trainers previews the Artist Workflow Workshop, shares the Workshops roadmap,
+      and answer squestions about how to schedule training for your company. You'll
+      also get a sneak peek at the new \"Migrating to the Latest Version of Unity\"
+      Workshop.\n\nSpeaker:\nMichael Warburton, Master Trainer at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/R5f9h-57Q8Y/sddefault.jpg
+    - https://i.ytimg.com/vi/R5f9h-57Q8Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/R5f9h-57Q8Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/R5f9h-57Q8Y/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 4627
+    likeCount: 53
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 29
+    publishedAtDate: 636578808770000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Unity Training Workshop preview: Planning for top performance'
+    url: https://www.youtube.com/watch?v=4F1hkdLnMlc
+    channelName: Unity
+    description: 'March 22, 2:45pm (San Francisco) -  Optimization can make or break
+      a product. Level up your team''s optimization skills with an in-person Unity
+      Training Workshop. Live training is one of the most effective ways to develop
+      talent and increase efficiency, and you can now get Unity Training Workshops
+      delivered on-site at your office. In this session, one of our Master Trainers
+      will preview the Optimization Workshop, share our Workshops roadmap, and answer
+      questions about how to schedule training for your company. You''ll also get
+      a sneak peek at the new "Migrating to the Latest Version of Unity" workshop.
+
+
+      Speaker:
+
+      Joshua
+      Kinney, Master Trainer at Unity'
+    thumbUrls:
+    - https://i.ytimg.com/vi/4F1hkdLnMlc/sddefault.jpg
+    - https://i.ytimg.com/vi/4F1hkdLnMlc/mqdefault.jpg
+    - https://i.ytimg.com/vi/4F1hkdLnMlc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4F1hkdLnMlc/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 927
+    likeCount: 14
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 23
+    publishedAtDate: 636579681310000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Unity Party and Women in Gaming happy hour highlights
+    url: https://www.youtube.com/watch?v=2qaL535JAzY
+    channelName: Unity
+    description: Dev hard. Play hard.
+    thumbUrls:
+    - https://i.ytimg.com/vi/2qaL535JAzY/sddefault.jpg
+    - https://i.ytimg.com/vi/2qaL535JAzY/mqdefault.jpg
+    - https://i.ytimg.com/vi/2qaL535JAzY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2qaL535JAzY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2897
+    likeCount: 42
+    dislikeCount: 69
+    commentCount: 7
+    durationInMinutes: 0
+    publishedAtDate: 636573837620000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Unity Mix and Unity Lounge highlights
+    url: https://www.youtube.com/watch?v=BDJbWINabtI
+    channelName: Unity
+    description: 'Step in. Geek out.
+
+
+      unity3d.com/gdc-2018'
+    thumbUrls:
+    - https://i.ytimg.com/vi/BDJbWINabtI/mqdefault.jpg
+    - https://i.ytimg.com/vi/BDJbWINabtI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1265
+    likeCount: 17
+    dislikeCount: 6
+    commentCount: 2
+    durationInMinutes: 0
+    publishedAtDate: 636573545270000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Unity Machine Learning: ML-Agents 0.3'
+    url: https://www.youtube.com/watch?v=YsEDv13W1RI
+    channelName: Unity
+    description: "March 21, 1:00pm - Hear Danny Lange share his thoughts on the most
+      exciting advances that AI will bring over the next 12 months. Learn about the
+      new features (Imitation Learning and Multi-Agent Reinforcement Learning) from
+      the latest Machine Learning Agents (ML-Agents) release. ML-Agents is an open
+      source AI toolkit and training environment for ML practitioners, game developers
+      and researchers to train agents in realistic, complex scenarios with decreased
+      technical barriers. \n\nSpeakers:\nDanny Lange, VP of Machine Learning and
+      AI at Unity \nArthur Juliani, Lead Engineer on ML-Agents at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/YsEDv13W1RI/sddefault.jpg
+    - https://i.ytimg.com/vi/YsEDv13W1RI/mqdefault.jpg
+    - https://i.ytimg.com/vi/YsEDv13W1RI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/YsEDv13W1RI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 24765
+    likeCount: 355
+    dislikeCount: 10
+    commentCount: 25
+    durationInMinutes: 57
+    publishedAtDate: 636578806360000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Unity Certifications: Advance your career with professional
+      certifications'
+    url: https://www.youtube.com/watch?v=bVg9n_JOqik
+    channelName: Unity
+    description: "March 22, 1:00pm (San Francisco) - Whether you're just getting
+      started with game design or looking for a senior role as a programmer or technical
+      artist, Unity has professional certifications to meet your need. In this session,
+      you'll find out which certification is right for you and learn how to prepare
+      for the exam. We'll also give a sneak peek at our roadmap and let you know
+      about other certifications coming this year. \n\nSpeaker:\nSubu Sundaram, Product
+      Manager at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/bVg9n_JOqik/sddefault.jpg
+    - https://i.ytimg.com/vi/bVg9n_JOqik/mqdefault.jpg
+    - https://i.ytimg.com/vi/bVg9n_JOqik/maxresdefault.jpg
+    - https://i.ytimg.com/vi/bVg9n_JOqik/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2971
+    likeCount: 64
+    dislikeCount: 5
+    commentCount: 3
+    durationInMinutes: 36
+    publishedAtDate: 636579599440000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Unity Central and Keynote highlights
+    url: https://www.youtube.com/watch?v=lHkvFdlQPDY
+    channelName: Unity
+    description: "Unity at GDC is off to an amazing start! Here's a peek at some
+      of the exciting things that happened at our keynote and at Unity Central. 
+      \n\nunity3d.com/gdc-2018"
+    thumbUrls:
+    - https://i.ytimg.com/vi/lHkvFdlQPDY/sddefault.jpg
+    - https://i.ytimg.com/vi/lHkvFdlQPDY/mqdefault.jpg
+    - https://i.ytimg.com/vi/lHkvFdlQPDY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lHkvFdlQPDY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 4294
+    likeCount: 70
+    dislikeCount: 16
+    commentCount: 9
+    durationInMinutes: 0
+    publishedAtDate: 636572093400000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Unity 2018 Roadmap
+    url: https://www.youtube.com/watch?v=vj1bUfSVBnY
+    channelName: Unity
+    description: "March 20, 9:00am (San Francisco) - Get insight into Unity\u2019s
+      future plans, including what to expect regarding new features and functionality
+      for 2018. Please check https://unity3d.com/roadmap for the latest dates/schedules,
+      as all schedules are subject to change.\n\nSpeaker:\nAndrew Bowell - VP of
+      Product Management at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/vj1bUfSVBnY/sddefault.jpg
+    - https://i.ytimg.com/vi/vj1bUfSVBnY/mqdefault.jpg
+    - https://i.ytimg.com/vi/vj1bUfSVBnY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/vj1bUfSVBnY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 24977
+    likeCount: 393
+    dislikeCount: 11
+    commentCount: 62
+    durationInMinutes: 57
+    publishedAtDate: 636595338040000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - The future of Connected Games: Unity and Google Cloud'
+    url: https://www.youtube.com/watch?v=JW83HaFFxis
+    channelName: Unity
+    description: "March 21, 4:00pm (San Francisco) - From connected single-player
+      to real-time multiplayer, are you ready to explore the spectrum of Connected
+      Games? See how you can utilize Google and Unity to build and scale a variety
+      of games globally. \n\nSpeakers:\nMicah Baker, Product Manager, Gaming on Google
+      Cloud Platform\nBrandi House, Sr Product Manager, Connected Games, Unity\nWill
+      Lowther, Product Manager, Multiplay at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/JW83HaFFxis/mqdefault.jpg
+    - https://i.ytimg.com/vi/JW83HaFFxis/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3550
+    likeCount: 42
+    dislikeCount: 2
+    commentCount: 5
+    durationInMinutes: 46
+    publishedAtDate: 636578796110000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Substance in Unity 2018.1: Unleashing PBR materials'
+    url: https://www.youtube.com/watch?v=LEkTx9AAV2E
+    channelName: Unity
+    description: 'March 20, 6:00pm (San Francisco) - In this talk, Wes McDermmot
+      from Allegorithmic introduces the new Substance In Unity plugin. Learn what
+      a ''Substance'' is and how it can benefit your projects, discover new Substance
+      materials directly in Unity with Substance Source, and speed up texturing with
+      the all new Substance Painter Live Link.
+
+
+      Speaker:
+
+      Wes McDermott,
+      Integrations Product Manager and Substance Trainer at Allegorithimic'
+    thumbUrls:
+    - https://i.ytimg.com/vi/LEkTx9AAV2E/mqdefault.jpg
+    - https://i.ytimg.com/vi/LEkTx9AAV2E/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 21714
+    likeCount: 377
+    dislikeCount: 13
+    commentCount: 15
+    durationInMinutes: 34
+    publishedAtDate: 636578008130000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Shader Graph Introduction
+    url: https://www.youtube.com/watch?v=NsWNRLD-FEI
+    channelName: Unity
+    description: "March 21, 10:45am (San Francisco) - Andy Touch demonstrates how
+      you can easily create shaders using the graph framework. Shader Graph enables
+      you to build your shaders visually. Instead of writing code, you create and
+      connect nodes in a graph network. \n\nSpeaker:\nAndy Touch, Global Content
+      Evangelist at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/NsWNRLD-FEI/mqdefault.jpg
+    - https://i.ytimg.com/vi/NsWNRLD-FEI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 75809
+    likeCount: 1111
+    dislikeCount: 23
+    commentCount: 74
+    durationInMinutes: 65
+    publishedAtDate: 636578813520000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Rapid worldbuilding with ProBuilder
+    url: https://www.youtube.com/watch?v=7k-81UEluyg
+    channelName: Unity
+    description: "March 22, 4:00pm (San Francisco) -  We recently announced that
+      ProBuilder has become an integrated part of the Unity Editor making advanced
+      level design easier than ever before. ProBuilder creator, Gabriel Williams,
+      demonstrates how to design, prototype and play-test your levels rapidly in
+      Unity. Learn how to use ProBuilder to refine your creation by sculpting complex
+      shapes, painting custom lighting or coloring, and blending textures across
+      meshes with the Polybrush (beta) tool. \n\nSpeaker:\nGabriel Williams, Software
+      Test Engineer at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/7k-81UEluyg/sddefault.jpg
+    - https://i.ytimg.com/vi/7k-81UEluyg/mqdefault.jpg
+    - https://i.ytimg.com/vi/7k-81UEluyg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7k-81UEluyg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 31087
+    likeCount: 618
+    dislikeCount: 13
+    commentCount: 21
+    durationInMinutes: 61
+    publishedAtDate: 636579596530000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Powerful round tripping with Digital Content Creation tools
+    url: https://www.youtube.com/watch?v=-l45PUojgHk
+    channelName: Unity
+    description: "March 22, 9:30am (San Francisco) - A game-industry veteran, Mike
+      Wuetherick demonstrates one of the concrete results of our close collaboration
+      with Autodesk. See how the Unity FBX importer and exporter, and a custom Unity
+      plugin for Maya, can make your digital content creation (DCC) and interactive
+      workflow pipelines as efficient as possible. Exporting from Maya to Unity is
+      now simpler and more complete than ever before, thanks to our custom Maya exporter
+      plugin. \n\nSpeaker:\nMike Wuetherick, Made with Unity Producer at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/-l45PUojgHk/sddefault.jpg
+    - https://i.ytimg.com/vi/-l45PUojgHk/mqdefault.jpg
+    - https://i.ytimg.com/vi/-l45PUojgHk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-l45PUojgHk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2895
+    likeCount: 30
+    dislikeCount: 0
+    commentCount: 7
+    durationInMinutes: 49
+    publishedAtDate: 636579684870000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - OctaneRender for Unity: The future of real-time rendering'
+    url: https://www.youtube.com/watch?v=XkSTz7oXUQY
+    channelName: Unity
+    description: "March 22, 11:00am ( San Francisco) - OTOY Founder and CEO Jules
+      Urbach dives deep into Octane 4 and Brigade for Unity; Jules discusses current
+      and upcoming features, as well as how Unity fits into OTOY\u2019s RNDR network
+      (distributed GPUs on the blockchain) and light field workflow.\n\nSpeaker:\nJules
+      Urbach, Co-Founder and CEO at OTOY"
+    thumbUrls:
+    - https://i.ytimg.com/vi/XkSTz7oXUQY/sddefault.jpg
+    - https://i.ytimg.com/vi/XkSTz7oXUQY/mqdefault.jpg
+    - https://i.ytimg.com/vi/XkSTz7oXUQY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/XkSTz7oXUQY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 23426
+    likeCount: 289
+    dislikeCount: 11
+    commentCount: 19
+    durationInMinutes: 49
+    publishedAtDate: 636579670860000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Neon Challenge: Prototyping your dream game with the Unity
+      Asset Store'
+    url: https://www.youtube.com/watch?v=McXZu7izE8Q
+    channelName: Unity
+    description: "March 20, 2:45pm (San Francisco) - In December 2017, Unity Connect
+      launched its first real-time environment contest with over 460 participants
+      from across the globe. Hear from from Maciej Szcze\u015Bnik about how he created
+      his grand prize winning submission for the Neon Challenge using the Unity Asset
+      Store, Inhuman Kind.\n\nSpeaker: \nMaciej Szcze\u015Bnik - Winner of Neon Challenge,
+      Developer at Think Hard Games"
+    thumbUrls:
+    - https://i.ytimg.com/vi/McXZu7izE8Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/McXZu7izE8Q/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3615
+    likeCount: 79
+    dislikeCount: 4
+    commentCount: 1
+    durationInMinutes: 28
+    publishedAtDate: 636578815230000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Made With Unity Sizzle Reel
+    url: https://www.youtube.com/watch?v=QCqTn3SbfA0
+    channelName: Unity
+    description: Celebrate GDC with a peek at what the Unity community has been working
+      on.
+    thumbUrls:
+    - https://i.ytimg.com/vi/QCqTn3SbfA0/sddefault.jpg
+    - https://i.ytimg.com/vi/QCqTn3SbfA0/mqdefault.jpg
+    - https://i.ytimg.com/vi/QCqTn3SbfA0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/QCqTn3SbfA0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 42389
+    likeCount: 780
+    dislikeCount: 12
+    commentCount: 42
+    durationInMinutes: 1
+    publishedAtDate: 636571305280000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Made with Unity panel: Behind the scenes with best in
+      class'
+    url: https://www.youtube.com/watch?v=ImMzUJuD9b8
+    channelName: Unity
+    description: "March 20, 1:00pm (San Francisco) - Get a backstage pass to best-in-class
+      games in development. The creators of GTFO, In the Valley of Gods, D.R.O.N.E.,
+      and Oddworld: Soulstorm join the Made with Unity team for a revealing talk
+      about their productions, and how they are overcoming challenges during the
+      process.\n\nSpeakers:\n\nMike Wuetherick (Moderator), Made with Unity Producer
+      at Unity \nUlf Andersson, Member at 10 Chambers Collective\nJake Rodkin, Co-founder
+      at Campo Santo \nBennie Terry, Executive Producer at Oddworld Inhabitants\nPeter
+      R\xF6\xDFl, Lead Designer at Five Studios Interactive"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ImMzUJuD9b8/sddefault.jpg
+    - https://i.ytimg.com/vi/ImMzUJuD9b8/mqdefault.jpg
+    - https://i.ytimg.com/vi/ImMzUJuD9b8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ImMzUJuD9b8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1420
+    likeCount: 31
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 66
+    publishedAtDate: 636578002750000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Lunch and Learn: OTOY shares rendering best practices'
+    url: https://www.youtube.com/watch?v=lfMRsd-lf88
+    channelName: Unity
+    description: March 22, 1:00pm (San Francisco) - OTOY Founder and CEO Jules Urbach
+      presented an intimate lunch learning session discussing the future of real-time
+      path-tracing and holographic storytelling.
+    thumbUrls:
+    - https://i.ytimg.com/vi/lfMRsd-lf88/sddefault.jpg
+    - https://i.ytimg.com/vi/lfMRsd-lf88/mqdefault.jpg
+    - https://i.ytimg.com/vi/lfMRsd-lf88/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lfMRsd-lf88/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 5140
+    likeCount: 69
+    dislikeCount: 3
+    commentCount: 8
+    durationInMinutes: 50
+    publishedAtDate: 636579674040000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Job System & Entity Component System
+    url: https://www.youtube.com/watch?v=kwnb9Clh2Is
+    channelName: Unity
+    description: "March 23, 11:00 am (San Francisco) - Learn about Unity 2018.1\u2019s
+      new C# job system for game code, as well as a new (experimental) Entity Component
+      System implementation to go along with it. These new technologies make it possible
+      to write highly performant code using C#, enabling you to make games with a
+      higher frame rate and better battery life, while maintaining simplicity across
+      both small and large projects. \n\nSpeakers: \nTim Johansson - Scripting Integration
+      Developer at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/kwnb9Clh2Is/sddefault.jpg
+    - https://i.ytimg.com/vi/kwnb9Clh2Is/mqdefault.jpg
+    - https://i.ytimg.com/vi/kwnb9Clh2Is/maxresdefault.jpg
+    - https://i.ytimg.com/vi/kwnb9Clh2Is/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 42153
+    likeCount: 421
+    dislikeCount: 17
+    commentCount: 60
+    durationInMinutes: 52
+    publishedAtDate: 636580614460000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Introduction to AR using Vuforia in Unity
+    url: https://www.youtube.com/watch?v=lC382sJe3FU
+    channelName: Unity
+    description: "March 22, 2:30pm (San Francisco) - An introduction to augmented
+      reality and how to develop using Vuforia, the leading cross-platform AR engine
+      delivered with the Unity Editor. Learn how to author an AR experience in which
+      you can attach digital content to both specific objects and to general surfaces.
+      Learn about the Vuforia workflow in Unity for handheld and headworn devices,
+      as well as about Vuforia Fusion \u2013 a new capability from Vuforia that provides
+      the best AR experience on any device.\n\nSpeaker:\nVinny DaSilva, Developer
+      Evangelist st Vuforia"
+    thumbUrls:
+    - https://i.ytimg.com/vi/lC382sJe3FU/sddefault.jpg
+    - https://i.ytimg.com/vi/lC382sJe3FU/mqdefault.jpg
+    - https://i.ytimg.com/vi/lC382sJe3FU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lC382sJe3FU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 4821
+    likeCount: 67
+    dislikeCount: 3
+    commentCount: 1
+    durationInMinutes: 24
+    publishedAtDate: 636579594600000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Improving your applications with VRWorks and Ansel plugins
+    url: https://www.youtube.com/watch?v=JrEjtsp9ZpA
+    channelName: Unity
+    description: 'March 19, 4:00pm (San Francisco) - See how VRWorks technology enables
+      richer and more performant VR experiences with Unity on NVIDIA hardware. In
+      addition, we will examine Ansel and Shadowplay plugins for Unity which allow
+      users to capture and stylize screenshots and videos from Unity titles.
+
+
+      Speaker:
+
+      Bojan
+      Skaljak, Senior Developer Technologies Engineer at Nvidia
+
+
+      **Thank you
+      to Nvidia for providing the PCs that powered the Unity at GDC keynote, gaming
+      lounge and VR demos for GDC week.**'
+    thumbUrls:
+    - https://i.ytimg.com/vi/JrEjtsp9ZpA/sddefault.jpg
+    - https://i.ytimg.com/vi/JrEjtsp9ZpA/mqdefault.jpg
+    - https://i.ytimg.com/vi/JrEjtsp9ZpA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/JrEjtsp9ZpA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1750
+    likeCount: 33
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 22
+    publishedAtDate: 636577162030000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: "Unity at GDC - Immersive media in sports: Fireside chat with Intel\xAE
+      TrueVR"
+    url: https://www.youtube.com/watch?v=uZgykQdV3L0
+    channelName: Unity
+    description: "March 19, 2:00pm PT - This fireside chat with Unity's Tony Parisi, 
+      Brad Weiers and Intel\xAE True VR team Kalpana Berman and Ritesh Kale takes
+      a deep dive on how Intel took on the business challenge of immersive VR, going
+      directly to the world of sports with technical breakthroughs that bring fans
+      closer to the action than ever before. \n\nSpeakers:\nTony Parisi, Head of
+      AR/VR Ads Strategy at Unity\nBrad Weiers, AR/VR Product Manager at Unity \nKalpana
+      Berman, Product Manager - Virtual Reality at Intel Sports\nRitesh Kale, Director
+      of Engineering at Intel True VR"
+    thumbUrls:
+    - https://i.ytimg.com/vi/uZgykQdV3L0/mqdefault.jpg
+    - https://i.ytimg.com/vi/uZgykQdV3L0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 895
+    likeCount: 11
+    dislikeCount: 1
+    commentCount: 2
+    durationInMinutes: 50
+    publishedAtDate: 636577153810000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - High definition render pipeline, shader graph, GPU-based
+      progressive lightmapper
+    url: https://www.youtube.com/watch?v=nOpx2xuMSFY
+    channelName: Unity
+    description: "March 19, 2018 (San Francisco) - Lucas Meijer (Technical Director)
+      and Natalya Tatarchuk (Director of Graphics) dive into how Book of the Dead
+      was created, using High Definition Render Pipeline (HD RP) and shader graph,
+      photogrammetry, and more. They show a Book of the Dead demo level running at
+      30fps on the PlayStation 4 Pro console. Additionally, Natalya and Lucas show
+      off Unity's GPU-based progressive lightmapper. \n\nTo learn more about upcoming
+      graphical improvements: https://blogs.unity3d.com/2018/03/20/unity-unveils-2018-roadmap-at-gdc/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/nOpx2xuMSFY/sddefault.jpg
+    - https://i.ytimg.com/vi/nOpx2xuMSFY/mqdefault.jpg
+    - https://i.ytimg.com/vi/nOpx2xuMSFY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/nOpx2xuMSFY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 47846
+    likeCount: 805
+    dislikeCount: 11
+    commentCount: 42
+    durationInMinutes: 26
+    publishedAtDate: 636583243260000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Hardware vs. software: UX loops, 1936 to now'
+    url: https://www.youtube.com/watch?v=d-W_ox5lG1Y
+    channelName: Unity
+    description: "March 19, 1:00pm PT - A brief, but deep, dive into the history
+      of computer/gaming hardware and software. Learn about nascent inputs: How did
+      early MIT students play Space Wars!? How did the invention of the D-pad change
+      everything? Why did Apple finally allow for more button mappings on the mouse?
+      After the overview (and a bit of gossip), we\u2019ll talk about how best to
+      design the future of spatial computing, taking the best of what our predecessors
+      have learned, and avoiding their mistakes.\n\nSpeaker:\nTimoni West, Director,
+      XR Research at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/d-W_ox5lG1Y/sddefault.jpg
+    - https://i.ytimg.com/vi/d-W_ox5lG1Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/d-W_ox5lG1Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/d-W_ox5lG1Y/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3083
+    likeCount: 101
+    dislikeCount: 5
+    commentCount: 10
+    durationInMinutes: 44
+    publishedAtDate: 636577148380000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - First look at Unity 2018 mobile AR key features
+    url: https://www.youtube.com/watch?v=3WvgLECD73c
+    channelName: Unity
+    description: "March 19, 11:00am - Get a high-level overview of the current state
+      of mobile AR development in Unity. We will discuss and demonstrate the features
+      we are implementing in Unity 2018, which establish a foundation for multi-platform,
+      natively integrated AR apps. Learn how Unity helps you solve the challenges
+      inherent in AR development.\n\nSpeakers:\nJimmy Alamparambil, Senior Mobile
+      Engineer at Unity \nTim Mowrer, Senior Virtual Reality Engineer at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/3WvgLECD73c/sddefault.jpg
+    - https://i.ytimg.com/vi/3WvgLECD73c/mqdefault.jpg
+    - https://i.ytimg.com/vi/3WvgLECD73c/maxresdefault.jpg
+    - https://i.ytimg.com/vi/3WvgLECD73c/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 19905
+    likeCount: 216
+    dislikeCount: 8
+    commentCount: 24
+    durationInMinutes: 58
+    publishedAtDate: 636577135290000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Faster is better: New Android platform features are transforming
+      game discovery'
+    url: https://www.youtube.com/watch?v=ZHynhzrtWBQ
+    channelName: Unity
+    description: 'March 22, 7:00pm (San Francisco) - Learn how Google Play Instant
+      is transforming Android game discovery.
+
+
+
+      Speaker:
+
+      Benjamin Frenkel,
+      Product Manager at Google Play'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZHynhzrtWBQ/sddefault.jpg
+    - https://i.ytimg.com/vi/ZHynhzrtWBQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZHynhzrtWBQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZHynhzrtWBQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2104
+    likeCount: 35
+    dislikeCount: 5
+    commentCount: 2
+    durationInMinutes: 27
+    publishedAtDate: 636579663860000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Fandom Freakout: Learn about the Universal GameDev Challenge'
+    url: https://www.youtube.com/watch?v=MfqQvWgaHDA
+    channelName: Unity
+    description: "March 22, 9:30am (San Francisco) -  Evangelists from Intel, Microsoft,
+      and Universal share details on Unity\u2019s newest developer contest, the Universal
+      GameDev Challenge. Learn about their inspiration for the contest and fantastic
+      resources that will help you develop your game for Back to the Future, Jaws,
+      Battlestar Galactica, Voltron or Turok!\n\nSpeaker:\nLiz Mercuri, Technical
+      Evangelist at Unity\nAndrew Parsons, Story + Voice Team, Windows Developer
+      Product Marketing\nGary Lokum, VP of Business Development & Digital Platforms,
+      NBCUniversal\nSteve Hughes, Senior Developer Relations Engineer at Intel\nDavid
+      Fortner, Manager, Intel Game Developer Program"
+    thumbUrls:
+    - https://i.ytimg.com/vi/MfqQvWgaHDA/sddefault.jpg
+    - https://i.ytimg.com/vi/MfqQvWgaHDA/mqdefault.jpg
+    - https://i.ytimg.com/vi/MfqQvWgaHDA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MfqQvWgaHDA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 940
+    likeCount: 7
+    dislikeCount: 0
+    commentCount: 5
+    durationInMinutes: 37
+    publishedAtDate: 636579757640000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Evolving Unity
+    url: https://www.youtube.com/watch?v=aFFLEiDr3T0
+    channelName: Unity
+    description: "March 23, 9:00 am (San Francisco) -  Unity's CTO and Co-Founder,
+      Joachim Ante shares the principles behind evolving Unity from a GameObject
+      engine to be Entity Component System (ECS), and the benefits it will bring
+      to developers.\n\nSpeakers: \nJoachim Ante, CTO and Co-Founder at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/aFFLEiDr3T0/sddefault.jpg
+    - https://i.ytimg.com/vi/aFFLEiDr3T0/mqdefault.jpg
+    - https://i.ytimg.com/vi/aFFLEiDr3T0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/aFFLEiDr3T0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Entity Compontent System
+    - ECS
+    - Game Object
+    viewCount: 22933
+    likeCount: 403
+    dislikeCount: 9
+    commentCount: 37
+    durationInMinutes: 57
+    publishedAtDate: 636580594510000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - ECS for Small Things
+    url: https://www.youtube.com/watch?v=EWVU6cFdmr0
+    channelName: Unity
+    description: "March 23, 4:00 pm (San Francisco) - Learn about Unity's new solution
+      for creating smaller, faster, lighter experiences that will enable you to reach
+      everything from entry-level devices to wearables. Our advanced compression
+      techniques, combined with our Entity Component System architecture, leads to
+      fast delivery, loading, and start-up times. Gain an understanding of what Unity's
+      small solution is and what the various deployment options it makes possible.
+      Learn about how it relates to the other Unity data-oriented design efforts
+      and how we're thinking about small code going forward.\n\nSpeakers: \nVlad
+      Vukicevic, Senior Engineer, Emergent Technology at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/EWVU6cFdmr0/sddefault.jpg
+    - https://i.ytimg.com/vi/EWVU6cFdmr0/mqdefault.jpg
+    - https://i.ytimg.com/vi/EWVU6cFdmr0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/EWVU6cFdmr0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ECS
+    - Entity Component System
+    viewCount: 44805
+    likeCount: 586
+    dislikeCount: 12
+    commentCount: 50
+    durationInMinutes: 38
+    publishedAtDate: 636580592410000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - Cinemachine 2018.1 and Storyboard features
+    url: https://www.youtube.com/watch?v=pGFAsh349RM
+    channelName: Unity
+    description: "March 21, 11:30am (San Francisco) - Unity's Head of Cinematics,
+      Adam Myhill, shows off the latest for your storytelling needs \u2013 from concept
+      to final cut. See how Storyboard can revolutionize your narrative process from
+      the very beginning with 2D image animation to the very end with powerful color
+      grading workflows where you can precisely match your game to visual reference.\n\nAdam
+      also shows the latest Cinemachine features and improvements for 2018.1 including
+      procedural noise, custom blending, impulse camera shakes, lens packs and more.\n\nSpeaker:\nAdam
+      Myhill, Head of Cinematics at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/pGFAsh349RM/mqdefault.jpg
+    - https://i.ytimg.com/vi/pGFAsh349RM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 10909
+    likeCount: 161
+    dislikeCount: 2
+    commentCount: 7
+    durationInMinutes: 48
+    publishedAtDate: 636578802850000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - C# to Machine Code
+    url: https://www.youtube.com/watch?v=NF6kcNS6U80
+    channelName: Unity
+    description: "March 23, 2:30 pm (San Francisco) - Get an overview of the performance
+      initiatives underway at Unity and share a deeper look at the technology developed
+      to transform high-level C# code to efficient machine code. Dive into examples
+      and look at traditional C++ engine code and compiler output to compare with
+      our approach. Gain a better understanding of how Unity is solving the problem
+      of optimizing game code and the technology that we\u2019ve built to enable
+      our solution.\n\nSpeaker:\nAndreas Fredriksson, Principal Engineer at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/NF6kcNS6U80/sddefault.jpg
+    - https://i.ytimg.com/vi/NF6kcNS6U80/mqdefault.jpg
+    - https://i.ytimg.com/vi/NF6kcNS6U80/maxresdefault.jpg
+    - https://i.ytimg.com/vi/NF6kcNS6U80/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Machine Code
+    - C#
+    viewCount: 16676
+    likeCount: 372
+    dislikeCount: 2
+    commentCount: 24
+    durationInMinutes: 56
+    publishedAtDate: 636580585550000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Building an ARCore app: Learnings and Challenges'
+    url: https://www.youtube.com/watch?v=yS2OtBcpDLA
+    channelName: Unity
+    description: 'March 21, 2:30pm (San Francisco) - Interested in building an ARCore
+      app? Want to get performant AR and a polished end-user experience? Google shares
+      AR-specific learnings and challenges from building ARCore Unity apps, such
+      as working with planar surfaces, keeping performance fast, interacting with
+      virtual objects, and asset loading. You''ll also receive actionable tips on
+      how you can address these issues and build quality AR experiences.
+
+
+      Speaker:
+
+      Mira
+      Leung, Software Engineer at Google'
+    thumbUrls:
+    - https://i.ytimg.com/vi/yS2OtBcpDLA/mqdefault.jpg
+    - https://i.ytimg.com/vi/yS2OtBcpDLA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 15374
+    likeCount: 156
+    dislikeCount: 4
+    commentCount: 3
+    durationInMinutes: 40
+    publishedAtDate: 636578792420000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - ARKit 101: Learn how to build unique AR apps for Apple
+      devices'
+    url: https://www.youtube.com/watch?v=_Y7pM9TP_CM
+    channelName: Unity
+    description: "March 21, 9:00am (San Francisco) - With Unity\u2019s ARKit plugin,
+      developers can now take full advantage of the new ARKit 1.5 update to create
+      a new generation of AR apps. Learn about these ARKit features, how they work
+      inside Unity, and how to easily extend them to create unique AR apps.\n\nSpeaker:\nDan
+      Miller, AR/VR Evangelist at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/_Y7pM9TP_CM/sddefault.jpg
+    - https://i.ytimg.com/vi/_Y7pM9TP_CM/mqdefault.jpg
+    - https://i.ytimg.com/vi/_Y7pM9TP_CM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/_Y7pM9TP_CM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 13222
+    likeCount: 192
+    dislikeCount: 3
+    commentCount: 5
+    durationInMinutes: 43
+    publishedAtDate: 636578788640000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - ARCore 101: Hands-on ARCore Workshop'
+    url: https://www.youtube.com/watch?v=vD5cMUSBW5U
+    channelName: Unity
+    description: 'March 20, 1:00pm PT - Learn how to start building mobile AR experiences
+      in ARCore with Unity. Recorded at Unity during GDC week, this workshop provides
+      a step-by-step guide for building an ARCore game based on Google''s Codelab.
+
+
+      Note:
+      This is a session for those with some previous development experience. Please
+      make sure you have Unity 2017.3 or later installed.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/vD5cMUSBW5U/mqdefault.jpg
+    - https://i.ytimg.com/vi/vD5cMUSBW5U/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 4558
+    likeCount: 82
+    dislikeCount: 3
+    commentCount: 7
+    durationInMinutes: 134
+    publishedAtDate: 636586638780000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - AR Lighting Talks with Unity
+    url: https://www.youtube.com/watch?v=VP1BkhvcWs4
+    channelName: Unity
+    description: "March 19, 9:30am - Four members from our Unity Labs team each give
+      a lightning talk to discuss the challenges of creating AR tools and content
+      for real-world environments and share tips to overcome them.\n\nSpeakers:\nStella
+      Cannefax, Software Developer at Unity\nJono Forbes, Software Engineer at Unity\nAndrew
+      Maneri, Senior Software Engineer at Unity \nMatt Schoen, Senior Software Engineer
+      at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/VP1BkhvcWs4/mqdefault.jpg
+    - https://i.ytimg.com/vi/VP1BkhvcWs4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1819
+    likeCount: 14
+    dislikeCount: 3
+    commentCount: 5
+    durationInMinutes: 44
+    publishedAtDate: 636577128740000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - A Data Oriented Approach to Using Component Systems
+    url: https://www.youtube.com/watch?v=p65Yt20pw0g
+    channelName: Unity
+    description: "March 23, 1:00pm (San Francisco) - Mike Acton demonstrates best
+      practices for component design to achieve a high degree of parallelism, minimum
+      synchronization, and high performance. He focuses on data layout and uses common
+      examples in games (e.g. spatial queries, logic updates, large hierarchical
+      transformations \u2013 both static and dynamic). Discover new methods to examine
+      your own component system transformations in order to redesign them using data-oriented
+      principles, as well as concrete examples of data layout that you can use in
+      your own systems.\n\nSpeaker:\nMike Acton, Principal Engineer at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/p65Yt20pw0g/sddefault.jpg
+    - https://i.ytimg.com/vi/p65Yt20pw0g/mqdefault.jpg
+    - https://i.ytimg.com/vi/p65Yt20pw0g/maxresdefault.jpg
+    - https://i.ytimg.com/vi/p65Yt20pw0g/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Component System
+    - ECS
+    viewCount: 53071
+    likeCount: 818
+    dislikeCount: 18
+    commentCount: 86
+    durationInMinutes: 63
+    publishedAtDate: 636580579410000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: "Unity at GDC -  Spatial audio and immersion: VR\u2019s second sense"
+    url: https://www.youtube.com/watch?v=M-MhP2T3Adw
+    channelName: Unity
+    description: 'March 21, 1:15pm (San Francisco) - Learn how to increase the immersion
+      of your VR, AR, gaming, and YouTube experiences using the Resonance Audio SDK.
+      We''ll cover the basics to advanced capabilities like near-field rendering,
+      geometry-based reverb baking, cross-platform support, as well as how to optimize
+      your app performance without sacrificing quality on mobile and desktop platforms.
+
+
+      Speakers:
+
+      Eric
+      Mauskopf, Product Manager at Google
+
+      Ian Kelly, Software Engineer at
+      Google
+
+      Marcin Gorzel, Software Engineer at Google'
+    thumbUrls:
+    - https://i.ytimg.com/vi/M-MhP2T3Adw/mqdefault.jpg
+    - https://i.ytimg.com/vi/M-MhP2T3Adw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 8136
+    likeCount: 177
+    dislikeCount: 3
+    commentCount: 9
+    durationInMinutes: 38
+    publishedAtDate: 636578790700000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 5.0 Launch Event
+    url: https://www.youtube.com/watch?v=N8Ao5oyflik
+    channelName: Unity
+    description: 'Live streaming of our special event at GDC 2015 in San Francisco.
+      Jump to:  http://youtu.be/N8Ao5oyflik?t=55m15s to get to the start!
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V644/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/N8Ao5oyflik/sddefault.jpg
+    - https://i.ytimg.com/vi/N8Ao5oyflik/mqdefault.jpg
+    - https://i.ytimg.com/vi/N8Ao5oyflik/maxresdefault.jpg
+    - https://i.ytimg.com/vi/N8Ao5oyflik/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - unity 5
+    - launch
+    - 5.0
+    - Unity Personal Edition
+    - Free Unity
+    - Unity Pro
+    - Game Development
+    viewCount: 219117
+    likeCount: 1591
+    dislikeCount: 120
+    commentCount: 124
+    durationInMinutes: 131
+    publishedAtDate: 635610389020000000
+    publisdedDate:
+      year: 2015
+      month: 3
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 5 Highlight Reel GDC 2015
+    url: https://www.youtube.com/watch?v=Sxg_m3Qsnik
+    channelName: Unity
+    description: 'A showcase of awesome games made with Unity 5 game engine. Check
+      out http://unity3d.com/showcase for more!
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V640/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Sxg_m3Qsnik/sddefault.jpg
+    - https://i.ytimg.com/vi/Sxg_m3Qsnik/mqdefault.jpg
+    - https://i.ytimg.com/vi/Sxg_m3Qsnik/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Sxg_m3Qsnik/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Game Developers Conference (Conference Series)
+    - Video Game (Industry)
+    - Video Game Development (Industry)
+    viewCount: 352788
+    likeCount: 1653
+    dislikeCount: 39
+    commentCount: 151
+    durationInMinutes: 3
+    publishedAtDate: 635610201840000000
+    publisdedDate:
+      year: 2015
+      month: 3
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 5 Feature Preview
+    url: https://www.youtube.com/watch?v=tSfakMeW0lw
+    channelName: Unity
+    description: Unity Technologies presents a sneak peek at the forthcoming features
+      in Unity 5. Find out more at http://unity3d.com/5
+    thumbUrls:
+    - https://i.ytimg.com/vi/tSfakMeW0lw/sddefault.jpg
+    - https://i.ytimg.com/vi/tSfakMeW0lw/mqdefault.jpg
+    - https://i.ytimg.com/vi/tSfakMeW0lw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/tSfakMeW0lw/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Video Game Development (Conference Subject)
+    - GDC
+    - GDC14
+    - Game Developers Conference (Conference Series)
+    - WebGL
+    - Enlighten
+    - Audio Mixing (Film Company Role Or Service)
+    - game development
+    - unity3d
+    viewCount: 504259
+    likeCount: 5127
+    dislikeCount: 76
+    commentCount: 559
+    durationInMinutes: 4
+    publishedAtDate: 635307805190000000
+    publisdedDate:
+      year: 2014
+      month: 3
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 5 - The Blacksmith - GDC 2015
+    url: https://www.youtube.com/watch?v=pXWAsayTFTo
+    channelName: Unity
+    description: "The Blacksmith is a real-time rendered short film inspired by Old
+      Norse mythology. We developed it to try out the rendering capabilities of Unity
+      5, the newest version of the Unity game engine. Learn more at http://unity3d.com/pages/the-blacksmith.
+      Learn more about Unity 5 at http://unity3d.com/5\n\nSong: \u201CIlmarinen\u2019s
+      Lament\u201D, Composed and Performed by Theo Hakola\n\nHelp us caption & translate
+      this video!\n\nhttp://amara.org/v/V641/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/pXWAsayTFTo/sddefault.jpg
+    - https://i.ytimg.com/vi/pXWAsayTFTo/mqdefault.jpg
+    - https://i.ytimg.com/vi/pXWAsayTFTo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pXWAsayTFTo/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Game Developers Conference (Conference Series)
+    - Video Game Development (Industry)
+    - Unity 5 demo
+    - Unity 5
+    - Unity demo
+    - Unity blacksmith
+    - The Blacksmith Demo
+    viewCount: 1881671
+    likeCount: 18708
+    dislikeCount: 645
+    commentCount: 915
+    durationInMinutes: 3
+    publishedAtDate: 635610190470000000
+    publisdedDate:
+      year: 2015
+      month: 3
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 2019 Roadmap - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=qwGjneorKgs
+    channelName: Unity
+    description: 'Product Managers Arisa Scott and Will Goldstone discuss Unity''s
+      2019 road map and give you a broad overview of Unity''s 3-year vision. Watch
+      to learn about updates for the Entity Component System (ECS), graphics, artist
+      tooling, connected games and much more.
+
+
+      Speakers:
+
+      Arisa Scott
+      (Product Manager, Unity Technologies)
+
+      Will Goldstone (Product Manager,
+      Unity Technologies)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/qwGjneorKgs/sddefault.jpg
+    - https://i.ytimg.com/vi/qwGjneorKgs/mqdefault.jpg
+    - https://i.ytimg.com/vi/qwGjneorKgs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/qwGjneorKgs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity roadmap
+    - ecs
+    - graphics
+    - connected games
+    - gdc
+    - game developers conference
+    viewCount: 21954
+    likeCount: 422
+    dislikeCount: 12
+    commentCount: 55
+    durationInMinutes: 54
+    publishedAtDate: 636904224100000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2016 - Building a culture of gaming in Africa   The role
+      of pioneering studios
+    url: https://www.youtube.com/watch?v=gFJavp5aAZA
+    channelName: Unity
+    description: 'Niels Monshouwer (WeirdBeard) and Geertsje Postma (WEB.foundation)
+      talk about the uprising culture of gaming in Africa. Considering all the challenges
+      and the fast growth of mobile devices and infrastructure on a continent of
+      1billion people with great cultures and rich traditions, innovative industries
+      are ready to spawn. Leti Arts has pioneered since 2009 the gaming industry
+      which has served as a motivation to spawn a lot more in the sub Saharan region.
+      From their talk at GDC 2013 titled the Emerging Landscape of African Game development,
+      they wish to share how the growth has been since 2013 especially with skillset
+      and the various tools being used including UNITY on the continent and how the
+      gaming culture had improved and showing promise of monetization. (http://www.gdcvault.com/play/1018024/The-Emerging-Landscape-of-African)
+      Below was the description from our GDC 2013 Talk. They give an update on how
+      it has improved and share how they as Leti Arts have innovated around their
+      challenges. For African audiences, video games are only a new medium to play
+      what has already existed for centuries before. A video game developer in Africa
+      must be able to design across the cultural boundaries, and educate the player
+      in using new interactive technologies. There has been tremendous growth in
+      mobile technology and the number of mobile users, so mobile phones have become
+      the most popular gaming platform. However, political issues have affected many
+      communities on the continent, which has led to any media, such as newspapers,
+      television, and radio, being sensitive about the content they release to the
+      public. Video games are no exception to this rule, and thus game creators must
+      be careful about the themes and ideas behind their games.
+
+
+      Help us caption
+      & translate this video!
+
+
+      http://amara.org/v/V6Zk/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/gFJavp5aAZA/sddefault.jpg
+    - https://i.ytimg.com/vi/gFJavp5aAZA/mqdefault.jpg
+    - https://i.ytimg.com/vi/gFJavp5aAZA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gFJavp5aAZA/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unite Europe 2016
+    viewCount: 1779
+    likeCount: 35
+    dislikeCount: 7
+    commentCount: 9
+    durationInMinutes: 29
+    publishedAtDate: 636027355940000000
+    publisdedDate:
+      year: 2016
+      month: 6
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Understanding data-oriented design for entity component systems - Unity
+      at GDC 2019
+    url: https://www.youtube.com/watch?v=0_Byw9UMn9g
+    channelName: Unity
+    description: 'Unity''s new ECS features enable huge performance improvements
+      over traditional object-oriented ways of designing game systems, but data-oriented
+      design is a much different way of thinking. Watch to learn how to think in
+      a data-oriented way so you can take advantage of these new features.
+
+
+      Speaker:
+      Elizabeth Baumel (DOTS Software Engineer, Unity Technologies)
+
+
+      Learn
+      more about Data-oriented Technology Stack (DOTS): https://on.unity.com/2P0ERF1'
+    thumbUrls:
+    - https://i.ytimg.com/vi/0_Byw9UMn9g/sddefault.jpg
+    - https://i.ytimg.com/vi/0_Byw9UMn9g/mqdefault.jpg
+    - https://i.ytimg.com/vi/0_Byw9UMn9g/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0_Byw9UMn9g/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - game developers conference
+    - ECS
+    - DOTS
+    viewCount: 44903
+    likeCount: 1252
+    dislikeCount: 47
+    commentCount: 74
+    durationInMinutes: 15
+    publishedAtDate: 636904224010000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Tips & tricks for creating 3D assets fast in ProBuilder -  Unity at GDC
+      2019
+    url: https://www.youtube.com/watch?v=SnMrBKr6yFk
+    channelName: Unity
+    description: 'Want to create 3D assets in Unity without the hassle of import/export?
+      Have you tried ProBuilder? Attend this session to learn our favorite tips and
+      tricks for creating awesome 3D art in no time.
+
+
+      Speaker: Gabriel Williams
+      (Unity Technologies)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/SnMrBKr6yFk/sddefault.jpg
+    - https://i.ytimg.com/vi/SnMrBKr6yFk/mqdefault.jpg
+    - https://i.ytimg.com/vi/SnMrBKr6yFk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/SnMrBKr6yFk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - OTOY
+    - OctaneRender
+    - GDC
+    - 3D
+    - Assets
+    - ProBuilder
+    viewCount: 36219
+    likeCount: 762
+    dislikeCount: 16
+    commentCount: 27
+    durationInMinutes: 30
+    publishedAtDate: 636905952020000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: 'The Heretic: the complete short film, created with Unity 2019.3 - Russian
+      Dialog'
+    url: https://www.youtube.com/watch?v=ezr7ZCpGy4o
+    channelName: Unity
+    description: "The Heretic is a short film created by Unity\u2019s Demo team.
+      After debuting its first part at GDC 2019, the completed short is now available
+      to watch in its entirety. This version of the video has Russian voice over.\n\nThe
+      Unity Demo team\u2019s mission is to push the boundaries of what is visually
+      possible with Unity. With \u201DThe Heretic\u201D, the team used every aspect
+      of Unity\u2019s High Definition Rendering Pipeline, created advanced effects
+      with the VFX Graph, and undertook the challenge of creating a realistic digital
+      human.\n\nRead more: https://on.unity.com/36jOXHY\n\nWritten and directed by:
+      Veselin Efremov\n\nCheck out more of the team\u2019s work:\nBook Of The Dead:
+      https://www.youtube.com/watch?v=DDsRf...\nAdam: https://www.youtube.com/watch?v=GXI0l...\nThe
+      Blacksmith: https://www.youtube.com/watch?v=pXWAs..."
+    thumbUrls:
+    - https://i.ytimg.com/vi/ezr7ZCpGy4o/mqdefault.jpg
+    - https://i.ytimg.com/vi/ezr7ZCpGy4o/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 14980
+    likeCount: 485
+    dislikeCount: 10
+    commentCount: 50
+    durationInMinutes: 7
+    publishedAtDate: 637165673560000000
+    publisdedDate:
+      year: 2020
+      month: 2
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: 'The Heretic teaser unveiled: Featuring realistic CG human | Unity at
+      GDC 2019 Keynote'
+    url: https://www.youtube.com/watch?v=Hc9DVeQaTOQ
+    channelName: Unity
+    description: "The Heretic is a short film by Unity\u2019s award-winning Demo
+      Team, the creators of Adam and Book of the Dead. We unveiled a teaser during
+      the GDC keynote, with a full short film release coming later this year. \n\nSpeaker:
+      Silvia Rasheva (Demo Team Producer, Unity)\n\nMore about The Heretic: https://on.unity.com/2FXLuFp\nWatch
+      the teaser: https://www.youtube.com/watch?v=34K8YJOMDRY"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Hc9DVeQaTOQ/sddefault.jpg
+    - https://i.ytimg.com/vi/Hc9DVeQaTOQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/Hc9DVeQaTOQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Hc9DVeQaTOQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - gdc
+    - computer graphics
+    viewCount: 13053
+    likeCount: 197
+    dislikeCount: 3
+    commentCount: 7
+    durationInMinutes: 14
+    publishedAtDate: 636899328040000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: '''The Heretic'' first part - Unity GDC 2019 reveal'
+    url: https://www.youtube.com/watch?v=34K8YJOMDRY
+    channelName: Unity
+    description: "The complete film: https://youtu.be/iQZobAhgayA\n\nUnity\u2019s
+      award-winning Demo team, the creators of Adam and Book of the Dead, is working
+      on a new short film called The Heretic. It\u2019s a real-time cinematic running
+      at 30 fps at 1440p on a consumer-class desktop PC. \n\nFor more information
+      on The Heretic, visit: https://on.unity.com/2WbSYJQ\n\nHelp us caption & translate
+      this video!\n\nhttps://amara.org/v/oIgB/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/34K8YJOMDRY/sddefault.jpg
+    - https://i.ytimg.com/vi/34K8YJOMDRY/mqdefault.jpg
+    - https://i.ytimg.com/vi/34K8YJOMDRY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/34K8YJOMDRY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - realtime
+    - real-time
+    - short film
+    - heretic
+    - photorealism
+    - cg
+    - photoreal
+    - realistic
+    - realistic human
+    - human
+    - cg movie
+    - cg film
+    - next-gen
+    - tech demo
+    - demo
+    - 3d
+    - futuristic
+    - sci-fi
+    - robot
+    viewCount: 702293
+    likeCount: 16610
+    dislikeCount: 215
+    commentCount: 1168
+    durationInMinutes: 3
+    publishedAtDate: 636885779820000000
+    publisdedDate:
+      year: 2019
+      month: 3
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: Take a tour around Unity's GDC 2019 booth
+    url: https://www.youtube.com/watch?v=nApyBq83o3Q
+    channelName: Unity
+    description: "Evangelist Ashley Alicea shows us around the biggest Unity booth
+      ever at GDC 2019. \n\nUnity at GDC: https://unity.com/gdc-2019\n\nEverything
+      you need to create, launch and succeed with Mobile, Instant, Console/PC, and
+      AR/VR games: https://on.unity.com/2TQYiWp\n\nThank you to NVIDIA for providing
+      the PCs used in our booth and during the Unity at GDC keynote.\n\nHelp us caption
+      & translate this video!\n\nhttps://amara.org/v/oIfy/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/nApyBq83o3Q/sddefault.jpg
+    - https://i.ytimg.com/vi/nApyBq83o3Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/nApyBq83o3Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/nApyBq83o3Q/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 11364
+    likeCount: 389
+    dislikeCount: 19
+    commentCount: 29
+    durationInMinutes: 2
+    publishedAtDate: 636888257750000000
+    publisdedDate:
+      year: 2019
+      month: 3
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Tackle AR development with AR Foundation  | Unity at GDC 2019 Keynote
+    url: https://www.youtube.com/watch?v=DUUthDpiGiA
+    channelName: Unity
+    description: "AR Foundation is a framework specifically for AR creators that
+      gives you the power to build your app once and deploy to both ARKit and ARCore
+      devices. We\u2019ve added additional features to help you overcome some of
+      the common challenges for AR development such as anchoring digital objects
+      into the real world, the visual fidelity of those digital objects and more.\n\nSpeakers:
+      Dan Miller (AR/VR Evangelist, Unity) and Brittany Edmond (Senior Technical
+      Product Marketing Manager AR/VR, Unity)\n\nLearn more: https://on.unity.com/2UsAVC3"
+    thumbUrls:
+    - https://i.ytimg.com/vi/DUUthDpiGiA/sddefault.jpg
+    - https://i.ytimg.com/vi/DUUthDpiGiA/mqdefault.jpg
+    - https://i.ytimg.com/vi/DUUthDpiGiA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DUUthDpiGiA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - augmented reality
+    - AR
+    - GDC
+    viewCount: 15875
+    likeCount: 191
+    dislikeCount: 3
+    commentCount: 24
+    durationInMinutes: 7
+    publishedAtDate: 636900180770000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: Saving Time and Making Money - featuring Eastside Games
+    url: https://www.youtube.com/watch?v=VLvYEhVyYgE
+    channelName: Unity
+    description: "\u201CAll you have to do is go into the Unity Editor, click it
+      on, and you\u2019re done.\u201D - Kay Chan of Eastside Games \n\nAt GDC we
+      talked to our developers about using Unity Ads to help their enable success
+      for their Made With Unity games."
+    thumbUrls:
+    - https://i.ytimg.com/vi/VLvYEhVyYgE/sddefault.jpg
+    - https://i.ytimg.com/vi/VLvYEhVyYgE/mqdefault.jpg
+    - https://i.ytimg.com/vi/VLvYEhVyYgE/hqdefault.jpg
+    tags:
+    - unity ads
+    - unity3d
+    - ads
+    - monetization
+    viewCount: 4431
+    likeCount: 86
+    dislikeCount: 13
+    commentCount: 20
+    durationInMinutes: 1
+    publishedAtDate: 636265244560000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Reality vs illusion: What''s achievable with real-time ray tracing'
+    url: https://www.youtube.com/watch?v=IY8FJxS4Lbs
+    channelName: Unity
+    description: 'Highlighting what''s achievable with real-time ray tracing, Unity
+      has collaborated with NVIDIA and the BMW Group to showcase the 2019 BMW 8 Series
+      Coupe. Once thought impossible to achieve, performant real-time ray tracing
+      delivers photorealistic image quality and lighting for any task where visual
+      fidelity is essential, such as for design, engineering, or marketing, at a
+      fraction of the time of offline rendering solutions.
+
+
+      More about real-time
+      ray tracing: https://on.unity.com/2GatCa5'
+    thumbUrls:
+    - https://i.ytimg.com/vi/IY8FJxS4Lbs/sddefault.jpg
+    - https://i.ytimg.com/vi/IY8FJxS4Lbs/mqdefault.jpg
+    - https://i.ytimg.com/vi/IY8FJxS4Lbs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IY8FJxS4Lbs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ray tracing
+    - nvidia
+    - GDC
+    - GTC
+    viewCount: 112393
+    likeCount: 3173
+    dislikeCount: 169
+    commentCount: 262
+    durationInMinutes: 1
+    publishedAtDate: 636906024070000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Real or rendered? Real-time ray tracing | Unity at GDC 2019 Keynote
+    url: https://www.youtube.com/watch?v=xnJC0-10jF8
+    channelName: Unity
+    description: "Real or rendered \u2013 can you tell the difference between the
+      real-time car and the physical car? To highlight what is achievable with real-time
+      ray tracing, we\u2019ve collaborated with NVIDIA and the BMW Group to showcase
+      the 2019 BMW 8 Series Coupe. We are delivering production-focused real-time
+      Ray Tracing with a full Preview coming in HDRP in Fall 2019.\n\nSpeaker: Natalya
+      Tatarchuck (VP of Graphics, Unity)\n\nWatch Reality vs Illusion: Unity Real-time
+      Ray Tracing: https://on.unity.com/2I9iQm5\nFind out more about real-time ray
+      tracing: https://on.unity.com/2Uw4F0V"
+    thumbUrls:
+    - https://i.ytimg.com/vi/xnJC0-10jF8/sddefault.jpg
+    - https://i.ytimg.com/vi/xnJC0-10jF8/mqdefault.jpg
+    - https://i.ytimg.com/vi/xnJC0-10jF8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xnJC0-10jF8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ray tracing
+    - graphics
+    - automotive design
+    - real-time 3d
+    - nvidia
+    viewCount: 6893
+    likeCount: 116
+    dislikeCount: 5
+    commentCount: 15
+    durationInMinutes: 11
+    publishedAtDate: 636903360070000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Optimizing real-time performance for mobile games | Unity at GDC 2019
+      Keynote
+    url: https://www.youtube.com/watch?v=O9tzW5cXelE
+    channelName: Unity
+    description: "We\u2019re happy to say our Lightweight Render Pipeline (LWRP)
+      is now out of preview and will be ready for production use in the 2019.1 release.\n\nSpeakers:
+      Arisa Scott (Unity), Jake Biegel (Disruptive Games), Jed Melnik (Disruptive
+      Games), Kevin Somers (Glu Mobile), Lucas Meijer (Techincal Director, Unity),
+      Franz Mendonsa (Senior VFX Artist, Glu Mobile)\n\nMore about our Lightweight
+      Render Pipeline: https://on.unity.com/2K4pPzo"
+    thumbUrls:
+    - https://i.ytimg.com/vi/O9tzW5cXelE/sddefault.jpg
+    - https://i.ytimg.com/vi/O9tzW5cXelE/mqdefault.jpg
+    - https://i.ytimg.com/vi/O9tzW5cXelE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/O9tzW5cXelE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - graphics
+    - mobile game development
+    - mobile games
+    - sorcerers arena
+    - megalith
+    viewCount: 13054
+    likeCount: 220
+    dislikeCount: 15
+    commentCount: 12
+    durationInMinutes: 12
+    publishedAtDate: 636903360050000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Octane 2019 for Unity: Cinematic & holographic media on the RNDR blockchain
+      - Unity at GDC 2019'
+    url: https://www.youtube.com/watch?v=AAojnQlGgpk
+    channelName: Unity
+    description: 'Jules Urbach, OTOY''s Co-Founder and CEO, previews Octane 2019,
+      the latest release of OctaneRender and upcoming features in Unity. Watch to
+      learn more about the latest in holographic rendering and its application on
+      OTOY''s RNDR network.
+
+
+      Speaker: Jules Urbach (Co-Founder and CEO, OTOY)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/AAojnQlGgpk/sddefault.jpg
+    - https://i.ytimg.com/vi/AAojnQlGgpk/mqdefault.jpg
+    - https://i.ytimg.com/vi/AAojnQlGgpk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/AAojnQlGgpk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - octane
+    - otoy
+    - render
+    - rndr
+    - blockchain
+    - octanerender
+    - GDC
+    viewCount: 36046
+    likeCount: 670
+    dislikeCount: 16
+    commentCount: 51
+    durationInMinutes: 25
+    publishedAtDate: 636912864010000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: "O Herege: filme curta completo, criado com Unity 2019.3 - Falas em Portugu\xEAs."
+    url: https://www.youtube.com/watch?v=jeXWd-QECmE
+    channelName: Unity
+    description: "O Herege \xE9 um curta criado com a equipe de Demo da Unity. Ap\xF3s
+      lan\xE7ar a primeira parte na GDC de 2019, o curta completo est\xE1 agora dispon\xEDvel
+      para assistir na \xEDntegra. A vers\xE3o deste v\xEDdeo est\xE1 com falas em
+      Portugu\xEAs.\n\nA miss\xE3o da equipe Unity Demo \xE9 expandir os limites
+      do que \xE9 poss\xEDvel com o visual da Unity. Com \u201DO Herege\u201D, a
+      equipe usou cada aspecto do Render em Alta Defini\xE7\xE3o (HDRP) da Unity,
+      criou efeitos visuais avan\xE7ados com VFX Graph, e assumiu o desafio de criar
+      um humano digital real\xEDstico.\n\nLeia mais: https://on.unity.com/36jOXHY\n\nEscrito
+      e dirigido por: Veselin Efremov\n\nVeja mais sobre o trabalho da equipe:\n\nBook
+      Of The Dead: https://www.youtube.com/watch?v=DDsRf...\nAdam: https://www.youtube.com/watch?v=GXI0l...\nThe
+      Blacksmith: https://www.youtube.com/watch?v=pXWAs...\n\n======\n\nThe Heretic
+      is a short film created by Unity\u2019s Demo team. After debuting its first
+      part at GDC 2019, the completed short is now available to watch in its entirety.
+      This version of the video has Portuguese voice over.\n\nThe Unity Demo team\u2019s
+      mission is to push the boundaries of what is visually possible with Unity.
+      With \u201DThe Heretic\u201D, the team used every aspect of Unity\u2019s High
+      Definition Rendering Pipeline, created advanced effects with the VFX Graph,
+      and undertook the challenge of creating a realistic digital human.\n\nRead
+      more: https://on.unity.com/36jOXHY\n\nWritten and directed by: Veselin Efremov\n\nCheck
+      out more of the team\u2019s work:\nBook Of The Dead: https://www.youtube.com/watch?v=DDsRf...\nAdam:
+      https://www.youtube.com/watch?v=GXI0l...\nThe Blacksmith: https://www.youtube.com/watch?v=pXWAs..."
+    thumbUrls:
+    - https://i.ytimg.com/vi/jeXWd-QECmE/mqdefault.jpg
+    - https://i.ytimg.com/vi/jeXWd-QECmE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 7409
+    likeCount: 347
+    dislikeCount: 10
+    commentCount: 28
+    durationInMinutes: 7
+    publishedAtDate: 637165671190000000
+    publisdedDate:
+      year: 2020
+      month: 2
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Nour Creator TJ Hughes Interview [3/3]: Noodle Physics and Timeline'
+    url: https://www.youtube.com/watch?v=1PexN3VYoi8
+    channelName: Unity
+    description: "Join the next Online User Group Live for more interviews: \n\nhttps://ole.unity.com/eventsconnect\n\nIn
+      this developer interview from our Unity Online User Group we speak with TJ
+      Hughes of Terrifying Jellyfish on his food art game Nour and discuss the creative
+      decision making process that is going into it's creation. This interview was
+      filmed at GDC 2018 in San Francisco.\n\nLearn more about TJ and Nour at terrifyingjellyfish.com"
+    thumbUrls:
+    - https://i.ytimg.com/vi/1PexN3VYoi8/sddefault.jpg
+    - https://i.ytimg.com/vi/1PexN3VYoi8/mqdefault.jpg
+    - https://i.ytimg.com/vi/1PexN3VYoi8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1PexN3VYoi8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - tj1
+    - tj
+    - tj hughes
+    - unity tj
+    - unity nour
+    - nour the game
+    - nour game
+    - nour
+    - nour game unity
+    - unity3d
+    - unity 3d
+    - unity 2018.2
+    - unity 2018.1
+    - unity 2018
+    - tj game
+    - unity new games
+    - unity new game
+    - unity game interview
+    - unity interview
+    - unity interviews
+    - unity new games 2018
+    - new upcoming games
+    - unity 2018 games
+    - unity 2018 features
+    - unity new features
+    - make a game
+    - unity
+    - 2018
+    - 2018.2
+    - 2018.1
+    - game
+    - new
+    viewCount: 1458
+    likeCount: 24
+    dislikeCount: 1
+    commentCount: 2
+    durationInMinutes: 3
+    publishedAtDate: 636671070440000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Nour Creator TJ Hughes Interview [2/3]: 3rd Party Tools, Weirdness, Kickstarter'
+    url: https://www.youtube.com/watch?v=bZ7BoujCTMs
+    channelName: Unity
+    description: "Join the next Online User Group Live for more interviews: \n\nhttps://ole.unity.com/eventsconnect\n\nIn
+      this developer interview from our Unity Online User Group we speak with TJ
+      Hughes of Terrifying Jellyfish on his food art game Nour and discuss the creative
+      decision making process that is going into it's creation. This interview was
+      filmed at GDC 2018 in San Francisco.\n\nLearn more about TJ and Nour at terrifyingjellyfish.com"
+    thumbUrls:
+    - https://i.ytimg.com/vi/bZ7BoujCTMs/sddefault.jpg
+    - https://i.ytimg.com/vi/bZ7BoujCTMs/mqdefault.jpg
+    - https://i.ytimg.com/vi/bZ7BoujCTMs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/bZ7BoujCTMs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - tj1
+    - tj
+    - tj hughes
+    - unity tj
+    - unity nour
+    - nour the game
+    - nour game
+    - nour
+    - nour game unity
+    - unity3d
+    - unity 3d
+    - unity 2018.2
+    - unity 2018.1
+    - unity 2018
+    - tj game
+    - unity new games
+    - unity new game
+    - unity game interview
+    - unity interview
+    - unity interviews
+    - unity new games 2018
+    - new upcoming games
+    - unity 2018 games
+    - unity 2018 features
+    - unity new features
+    - make a game
+    - unity
+    - 2018
+    - 2018.2
+    - 2018.1
+    - game
+    - new
+    viewCount: 1672
+    likeCount: 19
+    dislikeCount: 3
+    commentCount: 0
+    durationInMinutes: 7
+    publishedAtDate: 636671070450000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Nour Creator TJ Hughes Interview [1/3]: Creative Process For His Food
+      Art Game'
+    url: https://www.youtube.com/watch?v=LMafw-bY7mU
+    channelName: Unity
+    description: "Join the next Online User Group Live for more interviews: \n\nhttps://ole.unity.com/eventsconnect\n\nIn
+      this developer interview from our Unity Online User Group we speak with TJ
+      Hughes of Terrifying Jellyfish on his food art game Nour and discuss the creative
+      decision making process that is going into it's creation. This interview was
+      filmed at GDC 2018 in San Francisco.\n\nLearn more about TJ and Nour at terrifyingjellyfish.com"
+    thumbUrls:
+    - https://i.ytimg.com/vi/LMafw-bY7mU/sddefault.jpg
+    - https://i.ytimg.com/vi/LMafw-bY7mU/mqdefault.jpg
+    - https://i.ytimg.com/vi/LMafw-bY7mU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/LMafw-bY7mU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - tj1
+    - tj
+    - tj hughes
+    - unity tj
+    - unity nour
+    - nour the game
+    - nour game
+    - nour
+    - nour game unity
+    - unity3d
+    - unity 3d
+    - unity 2018.2
+    - unity 2018.1
+    - unity 2018
+    - tj game
+    - unity new games
+    - unity new game
+    - unity game interview
+    - unity interview
+    - unity interviews
+    - unity new games 2018
+    - new upcoming games
+    - unity 2018 games
+    - unity 2018 features
+    - unity new features
+    - make a game
+    - unity
+    - 2018
+    - 2018.2
+    - 2018.1
+    - game
+    - new
+    viewCount: 7810
+    likeCount: 215
+    dislikeCount: 6
+    commentCount: 15
+    durationInMinutes: 5
+    publishedAtDate: 636671070440000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: New sprite rigging and lighting for 2D - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=0xnYbhqRDkM
+    channelName: Unity
+    description: "Watch to learn about the new unified Sprite Rigging workflows,
+      and get a sneak peek of the 2D Lighting system that is under development. \n\nSpeakers:\nAndy
+      Touch (Evangelist, Unity Technologies)\nRus Scammell (Product Manager 2D, Unity
+      Technologies)\n\nUnity for 2D Preview Packages: https://on.unity.com/2v4oxdo"
+    thumbUrls:
+    - https://i.ytimg.com/vi/0xnYbhqRDkM/sddefault.jpg
+    - https://i.ytimg.com/vi/0xnYbhqRDkM/mqdefault.jpg
+    - https://i.ytimg.com/vi/0xnYbhqRDkM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0xnYbhqRDkM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - 2d development
+    - Sprite rigging
+    - 2D lighting
+    viewCount: 64828
+    likeCount: 1381
+    dislikeCount: 15
+    commentCount: 99
+    durationInMinutes: 25
+    publishedAtDate: 636912864000000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Megacity on mobile: How we optimized it with Adaptive Performance - Unity
+      at GDC 2019'
+    url: https://www.youtube.com/watch?v=3xzNs1JkyJk
+    channelName: Unity
+    description: 'Getting the Megacity demo to run on mobile was a major challenge,
+      with 4.5M mesh renderers, 200K unique objects per building, 100K audio sources,
+      and 5K dynamic vehicles. Find out how we achieved a smooth mobile experience
+      with greatly improved battery life using the new Adaptive Performance feature,
+      developed in partnership with Samsung.
+
+
+      Speakers:
+
+      Jungwoo Kim
+      - Samsung Electronics
+
+      David Berger - Unity Technologies
+
+
+      Read
+      up on how you can use Adaptive Performance for higher fidelity and smoother
+      frame rates: https://on.unity.com/2IqPO1z'
+    thumbUrls:
+    - https://i.ytimg.com/vi/3xzNs1JkyJk/sddefault.jpg
+    - https://i.ytimg.com/vi/3xzNs1JkyJk/mqdefault.jpg
+    - https://i.ytimg.com/vi/3xzNs1JkyJk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/3xzNs1JkyJk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Adaptive performance
+    - mobile
+    - samsung
+    - mobile development
+    - mobile performance
+    - megacity
+    - battery life
+    viewCount: 15402
+    likeCount: 156
+    dislikeCount: 7
+    commentCount: 26
+    durationInMinutes: 22
+    publishedAtDate: 636904224000000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Making Data Driven Decisions - featuring HyperBeard
+    url: https://www.youtube.com/watch?v=cvVsJRb4wnI
+    channelName: Unity
+    description: "\u201COur users LOVE to see ads.\u201D - Joe Dorado of HyperBeard\n\nAt
+      GDC we talked to our developers about using Unity Ads and Analytics to help
+      their enable success for their Made With Unity games."
+    thumbUrls:
+    - https://i.ytimg.com/vi/cvVsJRb4wnI/sddefault.jpg
+    - https://i.ytimg.com/vi/cvVsJRb4wnI/mqdefault.jpg
+    - https://i.ytimg.com/vi/cvVsJRb4wnI/hqdefault.jpg
+    tags:
+    - unity analytics
+    - unity ads
+    - ads
+    - analytics
+    - monetization
+    - mobile
+    - hyperbeard
+    - kleptocats
+    - made with unity
+    viewCount: 2507
+    likeCount: 53
+    dislikeCount: 14
+    commentCount: 4
+    durationInMinutes: 0
+    publishedAtDate: 636296399480000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Leveraging DOTS-powered physics - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=yuqM-Z-NauU
+    channelName: Unity
+    description: 'Hear about the journey of taking Havok''s AAA physics engine from
+      C++ to the land of C# and the Data-Oriented Technology Stack (DOTS). Learn
+      about the architecture and features now available in Unity Physics, see it
+      in action, and learn how Unity Physics and Havok Physics can work together
+      to maximize dynamism in your games.
+
+
+      Speaker: Rory Mullane (Havok)
+
+
+      Find
+      out more about Unity and Havok Physics: https://on.unity.com/2UFvWy5'
+    thumbUrls:
+    - https://i.ytimg.com/vi/yuqM-Z-NauU/sddefault.jpg
+    - https://i.ytimg.com/vi/yuqM-Z-NauU/mqdefault.jpg
+    - https://i.ytimg.com/vi/yuqM-Z-NauU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/yuqM-Z-NauU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - dots
+    - physics
+    - havok
+    viewCount: 25531
+    likeCount: 395
+    dislikeCount: 6
+    commentCount: 24
+    durationInMinutes: 25
+    publishedAtDate: 636904224080000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Less plugins, less hassle - featuring Greg Batha
+    url: https://www.youtube.com/watch?v=imR3cUkVyYg
+    channelName: Unity
+    description: "\u201CKeeping everything in one place is really convenient... it\u2019s
+      just less plugins to have to deal with.\u201D - Greg Batha, Bit Bit Blocks
+      \n\nAt GDC we talked to our developers about using Unity Ads to help their
+      enable success for their Made With Unity games."
+    thumbUrls:
+    - https://i.ytimg.com/vi/imR3cUkVyYg/sddefault.jpg
+    - https://i.ytimg.com/vi/imR3cUkVyYg/mqdefault.jpg
+    - https://i.ytimg.com/vi/imR3cUkVyYg/hqdefault.jpg
+    tags:
+    - bit bit blocks
+    - unity ads
+    - unity analytics
+    - monetization
+    - mobile
+    - mobile ads
+    viewCount: 2007
+    likeCount: 25
+    dislikeCount: 3
+    commentCount: 1
+    durationInMinutes: 0
+    publishedAtDate: 636296402260000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Introduction to the Lightweight Render Pipeline - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=jqBtaETaNO4
+    channelName: Unity
+    description: "Learn Lightweight Render Pipeline basics, including where to get
+      it, LWRP main features, and how to set up rendering. \n\nSpeaker: Andre McGrail
+      (Technical Artist, Unity Technologies)\n\nGet more info about the Lightweight
+      Render Pipeline: https://on.unity.com/2IvOYAF"
+    thumbUrls:
+    - https://i.ytimg.com/vi/jqBtaETaNO4/sddefault.jpg
+    - https://i.ytimg.com/vi/jqBtaETaNO4/mqdefault.jpg
+    - https://i.ytimg.com/vi/jqBtaETaNO4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/jqBtaETaNO4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - graphics
+    - gdc
+    - mobile gaming
+    viewCount: 48225
+    likeCount: 659
+    dislikeCount: 24
+    commentCount: 38
+    durationInMinutes: 22
+    publishedAtDate: 636905952050000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Introducing the new prefab workflow - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=b9wfVzkubzA
+    channelName: Unity
+    description: 'Seasoned game developer and Technical Evangelist Ciro Continisio
+      explains all the major aspects of our new Prefab workflow (for example, Nesting,
+      Variants, and Prefab Isolation Edit mode). He also talks about the new UI/UX
+      elements and the reasoning behind them.
+
+
+      Speaker: Ciro Continisio (Technical
+      Evangelist, Unity Technologies)
+
+
+      More about our new Prefab workflow:
+      https://unity.com/prefabs'
+    thumbUrls:
+    - https://i.ytimg.com/vi/b9wfVzkubzA/sddefault.jpg
+    - https://i.ytimg.com/vi/b9wfVzkubzA/mqdefault.jpg
+    - https://i.ytimg.com/vi/b9wfVzkubzA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/b9wfVzkubzA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 19006
+    likeCount: 354
+    dislikeCount: 15
+    commentCount: 49
+    durationInMinutes: 27
+    publishedAtDate: 636909402390000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: Improve mobile game performance in real time with Adaptive Performance
+      | Unity at GDC 2019 Keynote
+    url: https://www.youtube.com/watch?v=pKWFNQ6us1c
+    channelName: Unity
+    description: "In conjunction with Samsung, we\u2019ve developed Adaptive Performance
+      to deliver longer play times and smoother frame rates across mobile devices.
+      With precise information about device performance and thermal trends, you can
+      make instant adjustments to ensure the most enjoyable player experiences.\n\nSpeaker:
+      Sarah Levantine\n\nLearn more about Adaptive Performance: https://on.unity.com/2FY8qnU"
+    thumbUrls:
+    - https://i.ytimg.com/vi/pKWFNQ6us1c/sddefault.jpg
+    - https://i.ytimg.com/vi/pKWFNQ6us1c/mqdefault.jpg
+    - https://i.ytimg.com/vi/pKWFNQ6us1c/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pKWFNQ6us1c/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - mobile games
+    - adaptive performance
+    - unity at gdc
+    - gdc 2019
+    viewCount: 4929
+    likeCount: 120
+    dislikeCount: 2
+    commentCount: 7
+    durationInMinutes: 4
+    publishedAtDate: 636900048060000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: How COVID-19 has affected game development | Unite Now 2020
+    url: https://www.youtube.com/watch?v=Q493cOH6QUo
+    channelName: Unity
+    description: "In this video, we will be discussing how COVID-19 has so far affected
+      the games industry, and what the various consequences have been on game developers
+      around the world. \n\nSpeaker:\nEmory Irpan\n \nAsk your questions here: https://on.unity.com/3iFdUoZ\nDid
+      you find this video useful? Room for improvement? Let us know: https://on.unity.com/2W2epPY\nCheck
+      out the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/2O9XsyJ\n\n00:00
+      Introduction\n03:22 How the pandemic has affected gaming habits\n06:29 How
+      the pandemic has affected mobile game advertising\n08:55 What\u2019s changed
+      for mobile game user acquisition\n11:31 How the pandemic has affected different
+      areas of the world\n14:01 How the pandemic has affected what players play\n17:12
+      Do \u201Cpandemic gamers\u201D behave differently?"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Q493cOH6QUo/sddefault.jpg
+    - https://i.ytimg.com/vi/Q493cOH6QUo/mqdefault.jpg
+    - https://i.ytimg.com/vi/Q493cOH6QUo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Q493cOH6QUo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity game development
+    - covid game development
+    - covid 19
+    - covid
+    - 19
+    - covid 19 game dev
+    - unity game dev
+    - how covid affected the world
+    - how covid affected game development
+    - how covid affected
+    - effects of covid
+    - corona
+    - corona game dev
+    - game dev corona
+    - gamedev
+    - indiedev
+    - corona gdc
+    - gdc
+    - game events
+    - covid events
+    - covid event
+    - unite now
+    - unite
+    - unity events
+    - game dev
+    - indie dev
+    - games events
+    - covid19
+    viewCount: 3174
+    likeCount: 85
+    dislikeCount: 3
+    commentCount: 9
+    durationInMinutes: 19
+    publishedAtDate: 637309637970000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Ground-breaking mobile games made with Unity - GDC 2019
+    url: https://www.youtube.com/watch?v=V7AV3e9bMwU
+    channelName: Unity
+    description: 'Spectacular mobile games by talented Unity developers.
+
+
+      As
+      the leading game development platform for mobile, Unity provides bleeding-edge
+      technology, monetization solutions, and live-ops services that you need to
+      ensure success.
+
+
+      Find out more about Unity''s mobile-game solution:
+      https://on.unity.com/2TMuOc9
+
+
+      Help us caption & translate this video!
+
+
+      https://amara.org/v/oIgE/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/V7AV3e9bMwU/sddefault.jpg
+    - https://i.ytimg.com/vi/V7AV3e9bMwU/mqdefault.jpg
+    - https://i.ytimg.com/vi/V7AV3e9bMwU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/V7AV3e9bMwU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 41635
+    likeCount: 764
+    dislikeCount: 52
+    commentCount: 86
+    durationInMinutes: 1
+    publishedAtDate: 636886899950000000
+    publisdedDate:
+      year: 2019
+      month: 3
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: GPU Progressive Lightmapper Sneak Peek - GDC 2018
+    url: https://www.youtube.com/watch?v=cRFwzf4BHvA
+    channelName: Unity
+    description: 'The GPU Progressive Lightmapper is a Real-time path tracer, to
+      bake lighting ~10x faster.
+
+
+      More information: https://on.unity.com/2JO6j8x'
+    thumbUrls:
+    - https://i.ytimg.com/vi/cRFwzf4BHvA/sddefault.jpg
+    - https://i.ytimg.com/vi/cRFwzf4BHvA/mqdefault.jpg
+    - https://i.ytimg.com/vi/cRFwzf4BHvA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cRFwzf4BHvA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 39644
+    likeCount: 660
+    dislikeCount: 11
+    commentCount: 59
+    durationInMinutes: 1
+    publishedAtDate: 636571824170000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting started with the Megacity demo - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=UPnLa0LMbHQ
+    channelName: Unity
+    description: "The Megacity demo is a futuristic cityscape \u2013 alive with flying
+      vehicles, scores of highly detailed game objects and unique audio sources \u2013
+      that showcases what's possible with the Data-Oriented Technology Stack (DOTS)
+      in Unity 2019.1. This is a brief introduction to the project and how we leveraged
+      Unity's \"Performance by default\" to create a massive game world full of complex
+      objects and simulations.\n\nSpeaker: Mike Geig (Evangelist, Unity Technologies)\n\nDownload
+      the Megacity demo: https://on.unity.com/2uRi0Td"
+    thumbUrls:
+    - https://i.ytimg.com/vi/UPnLa0LMbHQ/sddefault.jpg
+    - https://i.ytimg.com/vi/UPnLa0LMbHQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/UPnLa0LMbHQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/UPnLa0LMbHQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Megacity
+    - performance
+    - DOTS
+    - data-oriented
+    - unity performance
+    viewCount: 12676
+    likeCount: 213
+    dislikeCount: 2
+    commentCount: 15
+    durationInMinutes: 14
+    publishedAtDate: 636904547780000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting Started with the FPS sample - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=_rTXDmaVSgI
+    channelName: Unity
+    description: "Learn how to get started using the FPS Sample. Get an overview
+      of the project \u2013 which was designed to demonstrate product-grade implementations
+      of Unity features, including graphics and networking \u2013 in a real-time
+      multiplayer context. \n\nThe FPS Sample is intended as a source of inspiration
+      and learning for intermediate and experienced developers using Unity 2018.3
+      or Unity 2018.4 LTS releases. It\u2019s using experimental tech. Please note
+      that the project is not supported and we highly recommend upgrading to latest
+      packages if you wish to use parts of the project as a starting point for your
+      own.\n\n\nSpeaker: Andy Touch (Unity Technologies)\n\nGet started with FPS
+      Sample: https://on.unity.com/2GlRzf0"
+    thumbUrls:
+    - https://i.ytimg.com/vi/_rTXDmaVSgI/sddefault.jpg
+    - https://i.ytimg.com/vi/_rTXDmaVSgI/mqdefault.jpg
+    - https://i.ytimg.com/vi/_rTXDmaVSgI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/_rTXDmaVSgI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - fps sample
+    - sample game
+    viewCount: 14015
+    likeCount: 268
+    dislikeCount: 4
+    commentCount: 46
+    durationInMinutes: 26
+    publishedAtDate: 636909408040000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: Get Started building world-class networked games with FPS Sample - Unity
+      at GDC 2019
+    url: https://www.youtube.com/watch?v=5fEJqVvs_Xg
+    channelName: Unity
+    description: "Learn how to get started building AAA-quality, multiplayer first-person
+      shooter (FPS) games using the FPS Sample. Get an overview of the project \u2013
+      which was designed to show product-grade implementations of Unity features
+      \u2013 with a focus on networking in a real-time multiplayer context. \n\nThe
+      FPS Sample is intended as a source of inspiration and learning for intermediate
+      and experienced developers using Unity 2018.3 or Unity 2018.4 LTS releases.
+      It\u2019s using experimental tech. Please note that the project is not supported
+      and we highly recommend upgrading to latest packages if you wish to use parts
+      of the project as a starting point for your own.\n\nSpeaker: Arturo Nunez 
+      (Technical Evangelist, Unity Technologies)\n\nMore about FPS Sample: https://unity.com/fps-sample"
+    thumbUrls:
+    - https://i.ytimg.com/vi/5fEJqVvs_Xg/sddefault.jpg
+    - https://i.ytimg.com/vi/5fEJqVvs_Xg/mqdefault.jpg
+    - https://i.ytimg.com/vi/5fEJqVvs_Xg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5fEJqVvs_Xg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 14108
+    likeCount: 306
+    dislikeCount: 25
+    commentCount: 40
+    durationInMinutes: 25
+    publishedAtDate: 636909396090000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: 'GDC 2019 - Unity Educator Breakfast: Welcome and Introduction'
+    url: https://www.youtube.com/watch?v=jMszoamsoys
+    channelName: Unity
+    description: "Jessica Lindl (VP Global Education at Unity), and Roger Chandler
+      (Vice President, Visual Computing Software Enabling, Intel Corporation), introduce
+      Unity\u2019s annual GDC Educators Breakfast; focusing on how partners in education,
+      research and industry are \u201CEmpowering the Next Generation of Creators\u201D."
+    thumbUrls:
+    - https://i.ytimg.com/vi/jMszoamsoys/sddefault.jpg
+    - https://i.ytimg.com/vi/jMszoamsoys/mqdefault.jpg
+    - https://i.ytimg.com/vi/jMszoamsoys/maxresdefault.jpg
+    - https://i.ytimg.com/vi/jMszoamsoys/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1230
+    likeCount: 19
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 8
+    publishedAtDate: 636949104640000000
+    publisdedDate:
+      year: 2019
+      month: 5
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: 'GDC 2019 - Unity Educator Breakfast: Teaching High School Game Design'
+    url: https://www.youtube.com/watch?v=ZIzzq9zAh2M
+    channelName: Unity
+    description: "Meeting Students Where They\u2019re At: Teaching High School Game
+      Design.\nSpeaker: Yvie Raij (San Francisco Unified Schools, Game Design Academy
+      Teacher, Thurgood Marshall High School)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZIzzq9zAh2M/sddefault.jpg
+    - https://i.ytimg.com/vi/ZIzzq9zAh2M/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZIzzq9zAh2M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZIzzq9zAh2M/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1526
+    likeCount: 60
+    dislikeCount: 7
+    commentCount: 5
+    durationInMinutes: 11
+    publishedAtDate: 636949104640000000
+    publisdedDate:
+      year: 2019
+      month: 5
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: 'GDC 2019 - Unity Educator Breakfast: Immersive Learning at the University
+      Level'
+    url: https://www.youtube.com/watch?v=IP8jBC3nkEY
+    channelName: Unity
+    description: 'Speaker: Sara Kassis (Sonoma State University, Adjunct Professor
+      of Engineering Science, Director of Women in Tech, Faculty Fellow of Immersive
+      Learning)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/IP8jBC3nkEY/sddefault.jpg
+    - https://i.ytimg.com/vi/IP8jBC3nkEY/mqdefault.jpg
+    - https://i.ytimg.com/vi/IP8jBC3nkEY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IP8jBC3nkEY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1427
+    likeCount: 30
+    dislikeCount: 5
+    commentCount: 3
+    durationInMinutes: 11
+    publishedAtDate: 636949104630000000
+    publisdedDate:
+      year: 2019
+      month: 5
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: 'GDC 2019 - Unity Educator Breakfast: Creators not Just Consumers of Computing'
+    url: https://www.youtube.com/watch?v=cV0ex27tIA4
+    channelName: Unity
+    description: Ursula Wolz (RiverSound Solutions, Founder & CEO, Eugene Lang School
+      of Liberal Arts,  The New School, Adjunct Professor)
+    thumbUrls:
+    - https://i.ytimg.com/vi/cV0ex27tIA4/sddefault.jpg
+    - https://i.ytimg.com/vi/cV0ex27tIA4/mqdefault.jpg
+    - https://i.ytimg.com/vi/cV0ex27tIA4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cV0ex27tIA4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1669
+    likeCount: 51
+    dislikeCount: 3
+    commentCount: 3
+    durationInMinutes: 27
+    publishedAtDate: 636949104640000000
+    publisdedDate:
+      year: 2019
+      month: 5
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: 'GDC 2019 - Unity Educator Breakfast: Confessions Of A Designer-Turned-Programming
+      Instructor'
+    url: https://www.youtube.com/watch?v=vdyfSTGLRQA
+    channelName: Unity
+    description: 'Speaker: Michael John (MJ) (UC Santa Cruz, Teaching Professor
+
+      Computational
+      Media)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/vdyfSTGLRQA/sddefault.jpg
+    - https://i.ytimg.com/vi/vdyfSTGLRQA/mqdefault.jpg
+    - https://i.ytimg.com/vi/vdyfSTGLRQA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/vdyfSTGLRQA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1229
+    likeCount: 47
+    dislikeCount: 4
+    commentCount: 2
+    durationInMinutes: 11
+    publishedAtDate: 636949104640000000
+    publisdedDate:
+      year: 2019
+      month: 5
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: 'GDC 2019 - Unity Educator Breakfast:  Breaking into Creative Industries'
+    url: https://www.youtube.com/watch?v=BRIsnf9wiaw
+    channelName: Unity
+    description: 'Speakers: Alwyn Hunt & Andrew McDonald (Visual Effects and Animation
+      Professionals, The Rookies, Co-Founders)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/BRIsnf9wiaw/sddefault.jpg
+    - https://i.ytimg.com/vi/BRIsnf9wiaw/mqdefault.jpg
+    - https://i.ytimg.com/vi/BRIsnf9wiaw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/BRIsnf9wiaw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2313
+    likeCount: 74
+    dislikeCount: 3
+    commentCount: 4
+    durationInMinutes: 11
+    publishedAtDate: 636951642810000000
+    publisdedDate:
+      year: 2019
+      month: 6
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Game Foundation delivers off-the-shelf common game systems | Unity at
+      GDC 2019 Keynote
+    url: https://www.youtube.com/watch?v=JFfSumAQAdI
+    channelName: Unity
+    description: 'Learn how to reduce time spent building labor-intensive boiler-plate
+      game systems by watching this Game Foundation segment.
+
+
+      Speaker: Stephen
+      Sullivan (Director of Product Management, Unity)
+
+
+      Find out more about
+      Game Foundation: https://on.unity.com/2uKQHK0'
+    thumbUrls:
+    - https://i.ytimg.com/vi/JFfSumAQAdI/sddefault.jpg
+    - https://i.ytimg.com/vi/JFfSumAQAdI/mqdefault.jpg
+    - https://i.ytimg.com/vi/JFfSumAQAdI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/JFfSumAQAdI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - game system
+    - game foundation
+    viewCount: 5319
+    likeCount: 98
+    dislikeCount: 7
+    commentCount: 3
+    durationInMinutes: 3
+    publishedAtDate: 636900048060000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: FiveAmp and Unity Ads
+    url: https://www.youtube.com/watch?v=GvL8A-Gy3zY
+    channelName: Unity
+    description: "\u201CWe see better performance across the board from users that
+      engage with Unity Ads.\u201D - Chris Lewis of FiveAmp\n\nAt GDC we heard from
+      our developers that Unity Ads helped boost engagement with their apps."
+    thumbUrls:
+    - https://i.ytimg.com/vi/GvL8A-Gy3zY/sddefault.jpg
+    - https://i.ytimg.com/vi/GvL8A-Gy3zY/mqdefault.jpg
+    - https://i.ytimg.com/vi/GvL8A-Gy3zY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GvL8A-Gy3zY/hqdefault.jpg
+    tags:
+    - Mobile
+    - Gaming
+    - Unity Ads
+    - UnityAds
+    - Unity
+    - Ads
+    - Mobiledev
+    - FiveAmp
+    viewCount: 2815
+    likeCount: 48
+    dislikeCount: 30
+    commentCount: 21
+    durationInMinutes: 0
+    publishedAtDate: 636264541060000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: 'First look at Oddworld: Soulstorm  | Unity at GDC 2019 Keynote'
+    url: https://www.youtube.com/watch?v=VhOT9hcxO78
+    channelName: Unity
+    description: "Industry legend, Lorne Lanning, took the stage to introduce Oddworld:
+      Soulstorm. Get insight into their pipeline, from conception to completion,
+      including how they\u2019re testing the new features of HDRP to bring their
+      characters to life and how they're using Timeline and post processing V2 for
+      creating cinematics in real time.\n\nSpeakers: Lorne Lanning, Bennie Terry
+      (Executive Producer)\n\nFind out more: https://on.unity.com/2uJZVq4"
+    thumbUrls:
+    - https://i.ytimg.com/vi/VhOT9hcxO78/sddefault.jpg
+    - https://i.ytimg.com/vi/VhOT9hcxO78/mqdefault.jpg
+    - https://i.ytimg.com/vi/VhOT9hcxO78/maxresdefault.jpg
+    - https://i.ytimg.com/vi/VhOT9hcxO78/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - oddworld soulstorm
+    - lorne lanning
+    - gdc
+    - real-time cinematics
+    viewCount: 4637
+    likeCount: 81
+    dislikeCount: 4
+    commentCount: 6
+    durationInMinutes: 5
+    publishedAtDate: 636901056040000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Fast particle rendering with VFX Graph - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=oWVHc0M2RjI
+    channelName: Unity
+    description: 'The Visual Effect Graph is a new Unity tool that enables you to
+      easily create advanced and performant GPU simulations and systems. Watch to
+      learn how to use the tool''s node-based effects and adaptive features to create
+      beautiful VFX in real-time.
+
+
+      Speaker: Ashley Alicea (Evangelist, Unity
+      Technologies)
+
+
+      Find out more about the Visual Effect Graph: https://on.unity.com/2uZzahv'
+    thumbUrls:
+    - https://i.ytimg.com/vi/oWVHc0M2RjI/sddefault.jpg
+    - https://i.ytimg.com/vi/oWVHc0M2RjI/mqdefault.jpg
+    - https://i.ytimg.com/vi/oWVHc0M2RjI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/oWVHc0M2RjI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - visual effect graph
+    - vfx
+    - graphics
+    viewCount: 16322
+    likeCount: 232
+    dislikeCount: 10
+    commentCount: 20
+    durationInMinutes: 23
+    publishedAtDate: 636905952040000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Exclusive look at System Shock 3  | Unity at GDC 2019 Keynote
+    url: https://www.youtube.com/watch?v=oVkwfgjnx5k
+    channelName: Unity
+    description: "Unity\u2019s latest graphics innovations bring this world to life.
+      HDRP and its Unified Lighting Model, Volumetric Fog, Deferred Decals, and Shader
+      Graph have helped the team quickly and reliably create dark, highly atmospheric
+      environments, and add details without hurting the framerate too much.\n\nSpeakers:
+      Warren Spector (Studio Director, OtherSide Entertainment ) and Elizabeth Legros
+      (Graphics Programmer, OtherSide Entertainment), Lucas Meijer (Technical Director,
+      Unity) \n\nFind out more about System Shock 3: https://on.unity.com/2IaoN28"
+    thumbUrls:
+    - https://i.ytimg.com/vi/oVkwfgjnx5k/sddefault.jpg
+    - https://i.ytimg.com/vi/oVkwfgjnx5k/mqdefault.jpg
+    - https://i.ytimg.com/vi/oVkwfgjnx5k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/oVkwfgjnx5k/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - gdc
+    - system shock 3
+    - warren spector
+    viewCount: 28115
+    likeCount: 460
+    dislikeCount: 60
+    commentCount: 296
+    durationInMinutes: 7
+    publishedAtDate: 636901056050000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Enabling Success - featuring Taco Illuminati
+    url: https://www.youtube.com/watch?v=b9LO-wlIg8Q
+    channelName: Unity
+    description: "\u201CIt literally enabled our success.\u201D - Jake Sawyer of
+      Taco Illuminati \n\nAt GDC we talked to our developers about using Unity Ads
+      to help their enable success for their Made With Unity games."
+    thumbUrls:
+    - https://i.ytimg.com/vi/b9LO-wlIg8Q/sddefault.jpg
+    - https://i.ytimg.com/vi/b9LO-wlIg8Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/b9LO-wlIg8Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/b9LO-wlIg8Q/hqdefault.jpg
+    tags:
+    - Mobile
+    - Gaming
+    - Unity Ads
+    - Unity
+    - Ads
+    - MobileDev
+    - Looty Dungeon
+    - Taco Illuminati
+    - Jake Sawyer
+    viewCount: 15152
+    likeCount: 125
+    dislikeCount: 34
+    commentCount: 21
+    durationInMinutes: 0
+    publishedAtDate: 636258174790000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: "El Hereje: el cortometraje completo, creado con Unity 2019.3 Di\xE1logo
+      en espa\xF1ol"
+    url: https://www.youtube.com/watch?v=95ZeFEv_Nfs
+    channelName: Unity
+    description: "El Hereje es un cortometraje creado por el equipo de Unity de demostraciones.
+      Despu\xE9s de debutar su primera parte en GDC 2019, el cortometraje completo
+      est\xE1 disponible en su enteridad. Esta versi\xF3n del v\xEDdeo tiene di\xE1logo
+      en espa\xF1ol.\n\nLa misi\xF3n del equipo Unity Demo es expandir los l\xEDmited
+      de lo que es posible en el campo visual con Unity. Con El Hereje, el equipo
+      us\xF3 todos los aspectos del Canal de Reproducci\xF3n de Alta Fidelidad de
+      Unity, cre\xF3 efectos avanzados con los Gr\xE1ficos VFX y emprendi\xF3 el
+      reto de crear un humano con aspectos muy real\xEDsticos en un medio digital.\n\nEscrito
+      y dirigido por: Veselin Efremov\n\n\xC9chale un vistazo a otras creaciones
+      del equipo:\nBook Of The Dead: https://www.youtube.com/watch?v=DDsRf...\nAdam:
+      https://www.youtube.com/watch?v=GXI0l...\nThe Blacksmith: https://www.youtube.com/watch?v=pXWAs.\n\n======\n\nThe
+      Heretic is a short film created by Unity\u2019s Demo team. After debuting its
+      first part at GDC 2019, the completed short is now available to watch in its
+      entirety. This version of the video has Spanish voice over.\n\nThe Unity Demo
+      team\u2019s mission is to push the boundaries of what is visually possible
+      with Unity. With \u201DThe Heretic\u201D, the team used every aspect of Unity\u2019s
+      High Definition Rendering Pipeline, created advanced effects with the VFX Graph,
+      and undertook the challenge of creating a realistic digital human.\n\nRead
+      more: https://on.unity.com/36jOXHY\n\nWritten and directed by: Veselin Efremov\n\nCheck
+      out more of the team\u2019s work:\nBook Of The Dead: https://www.youtube.com/watch?v=DDsRf...\nAdam:
+      https://www.youtube.com/watch?v=GXI0l...\nThe Blacksmith: https://www.youtube.com/watch?v=pXWAs..."
+    thumbUrls:
+    - https://i.ytimg.com/vi/95ZeFEv_Nfs/mqdefault.jpg
+    - https://i.ytimg.com/vi/95ZeFEv_Nfs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - spanish
+    viewCount: 10705
+    likeCount: 381
+    dislikeCount: 10
+    commentCount: 34
+    durationInMinutes: 7
+    publishedAtDate: 637165688160000000
+    publisdedDate:
+      year: 2020
+      month: 2
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Discover the technology behind "The Heretic" - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=d3eKagN8R-M
+    channelName: Unity
+    description: 'Learn how to use the latest features in the High-Definition Render
+      Pipeline (HDRP), with powerful customizations enabled by the Scriptable Render
+      Pipeline (SRP), to power high-end visuals for game productions.
+
+
+      Speaker:
+      Andy Touch (Global Content Evangelist, Unity Technologies)
+
+
+      Find out
+      more about The Heretic: https://on.unity.com/2uYARM8'
+    thumbUrls:
+    - https://i.ytimg.com/vi/d3eKagN8R-M/sddefault.jpg
+    - https://i.ytimg.com/vi/d3eKagN8R-M/mqdefault.jpg
+    - https://i.ytimg.com/vi/d3eKagN8R-M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/d3eKagN8R-M/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - the heretic
+    - graphics
+    - render pipeline
+    viewCount: 27820
+    likeCount: 684
+    dislikeCount: 11
+    commentCount: 60
+    durationInMinutes: 30
+    publishedAtDate: 636905952090000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Data-Oriented Technology Stack (DOTS) and Megacity demo release | Unity
+      at GDC 2019 Keynote
+    url: https://www.youtube.com/watch?v=kUdHg6GRS24
+    channelName: Unity
+    description: 'Speakers: Lucas Meijer (Technical Director, Unity) and Joachim
+      Ante (CTO & Founder, Unity)
+
+
+      More about DOTS: https://on.unity.com/2WK3iJC
+
+      Download
+      Megacity: https://on.unity.com/2FUy78U
+
+      Join the 2019.1 beta: https://on.unity.com/2UrsRkZ'
+    thumbUrls:
+    - https://i.ytimg.com/vi/kUdHg6GRS24/sddefault.jpg
+    - https://i.ytimg.com/vi/kUdHg6GRS24/mqdefault.jpg
+    - https://i.ytimg.com/vi/kUdHg6GRS24/maxresdefault.jpg
+    - https://i.ytimg.com/vi/kUdHg6GRS24/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 22874
+    likeCount: 562
+    dislikeCount: 14
+    commentCount: 45
+    durationInMinutes: 9
+    publishedAtDate: 636899161730000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Cutting-edge AR and VR games made with Unity - GDC 2019
+    url: https://www.youtube.com/watch?v=zNMlglRyRSo
+    channelName: Unity
+    description: "Get inspired by these inventive AR and VR games by creative Unity
+      developers. \n\nFind out why over 60% of all XR content is created with Unity.
+      https://on.unity.com/2JrnNbZ\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oIgD/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/zNMlglRyRSo/sddefault.jpg
+    - https://i.ytimg.com/vi/zNMlglRyRSo/mqdefault.jpg
+    - https://i.ytimg.com/vi/zNMlglRyRSo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/zNMlglRyRSo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ar
+    - vr
+    viewCount: 17117
+    likeCount: 293
+    dislikeCount: 11
+    commentCount: 14
+    durationInMinutes: 0
+    publishedAtDate: 636888174870000000
+    publisdedDate:
+      year: 2019
+      month: 3
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating your own shaders with Shader Graph - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=hfeAUmXJtN8
+    channelName: Unity
+    description: "Production-ready in 2019.1 release, Shader Graph is a node-based
+      visual interface for building shaders. In this talk, Technical Evangelist Liz
+      Mercuri introduces the tool and walks you through creating a simple shader
+      from scratch. \n\nSpeaker: Liz Mercuri (Technical Evangelist, Unity Technologies)\n\nResources
+      to help you get started: \nShader Graph Sample Library \nhttps://on.unity.com/2OZL3Ns\nDocumentation\nhttps://on.unity.com/2Dbc4Jk\nCreate
+      Custom Nodes\nhttps://on.unity.com/2IozoXq\nWhat\u2019s New (2018.3)\nhttps://on.unity.com/2uZxXqg"
+    thumbUrls:
+    - https://i.ytimg.com/vi/hfeAUmXJtN8/sddefault.jpg
+    - https://i.ytimg.com/vi/hfeAUmXJtN8/mqdefault.jpg
+    - https://i.ytimg.com/vi/hfeAUmXJtN8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hfeAUmXJtN8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 15545
+    likeCount: 212
+    dislikeCount: 10
+    commentCount: 9
+    durationInMinutes: 31
+    publishedAtDate: 636905952030000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Create, operate, and monetize your games | Unity at GDC 2019 Keynote
+    url: https://www.youtube.com/watch?v=smROnI6BGes
+    channelName: Unity
+    description: "We believe the world is a better place with more creators in it
+      and we\u2019re here to build the Unity platform that serves you. Today we support
+      your ideas and success by providing: the technology to create, the services
+      to operate, and the platform to monetize.\n\nSpeaker: John Riccitiello (CEO,
+      Unity)\n\nKeynote highlights: https://on.unity.com/2OJ2q50"
+    thumbUrls:
+    - https://i.ytimg.com/vi/smROnI6BGes/sddefault.jpg
+    - https://i.ytimg.com/vi/smROnI6BGes/mqdefault.jpg
+    - https://i.ytimg.com/vi/smROnI6BGes/maxresdefault.jpg
+    - https://i.ytimg.com/vi/smROnI6BGes/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - gdc
+    viewCount: 2161
+    likeCount: 36
+    dislikeCount: 1
+    commentCount: 2
+    durationInMinutes: 15
+    publishedAtDate: 636899328030000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: Converting your game to DOTS - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=QbnVELXf5RQ
+    channelName: Unity
+    description: "Watch to learn what's involved in migrating existing game code
+      to the new Data-Oriented Technology Stack (DOTS), which comprises the C# Job
+      System, the Entity Component System (ECS), and the Burst Compiler. \n\nSpeaker:
+      Mike Geig (Evangelist, Unity Technologies)\n\nFind out more about DOTS: https://on.unity.com/2G9o0x2"
+    thumbUrls:
+    - https://i.ytimg.com/vi/QbnVELXf5RQ/sddefault.jpg
+    - https://i.ytimg.com/vi/QbnVELXf5RQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/QbnVELXf5RQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/QbnVELXf5RQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - dots
+    - ecs
+    viewCount: 84463
+    likeCount: 2168
+    dislikeCount: 23
+    commentCount: 169
+    durationInMinutes: 25
+    publishedAtDate: 636904224030000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Call of Duty: Mobile reveal | Unity at GDC 2019 Keynote'
+    url: https://www.youtube.com/watch?v=bYfs2RJ1TPk
+    channelName: Unity
+    description: "One of gaming\u2019s most popular franchises is going all in on
+      mobile. Chris Plummer, VP of Mobile at Activision, revealed Call of Duty: Mobile
+      in action for the first time.  Call of Duty signature multiplayer experience
+      requires great visuals as well as great performance; high frame rate, low latency.
+      Achieving this was made possible by the incredible talent at Tencent, and of
+      course, Unity. \n\nSpeaker: Chris Plummer (VP of Mobile, Activision)\n\nFind
+      out more: https://on.unity.com/2OLupRx"
+    thumbUrls:
+    - https://i.ytimg.com/vi/bYfs2RJ1TPk/sddefault.jpg
+    - https://i.ytimg.com/vi/bYfs2RJ1TPk/mqdefault.jpg
+    - https://i.ytimg.com/vi/bYfs2RJ1TPk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/bYfs2RJ1TPk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - gdc
+    - unity at gdc
+    - call of duty
+    - mobile games
+    viewCount: 21617
+    likeCount: 877
+    dislikeCount: 27
+    commentCount: 183
+    durationInMinutes: 5
+    publishedAtDate: 636901056090000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Building instant experiences with Project Tiny - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=n262yFBVcfU
+    channelName: Unity
+    description: "Ready to deliver games that don't require installation? Learn how
+      Project Tiny will let you connect with players instantly. Technical Evangelist
+      Arturo Nunez shows how to use Editor workflows and an ECS-based modular runtime
+      to produce projects with blisteringly fast load times and very small transport
+      sizes. \n\nSpeaker: Arturo Nunez (Technical Evangelist, Unity Technologies)\n\nMore
+      about Project Tiny: https://on.unity.com/2v7iVik"
+    thumbUrls:
+    - https://i.ytimg.com/vi/n262yFBVcfU/sddefault.jpg
+    - https://i.ytimg.com/vi/n262yFBVcfU/mqdefault.jpg
+    - https://i.ytimg.com/vi/n262yFBVcfU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/n262yFBVcfU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 8001
+    likeCount: 121
+    dislikeCount: 4
+    commentCount: 25
+    durationInMinutes: 26
+    publishedAtDate: 636912864080000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: Building beautiful worlds with Unity's new terrain features - Unity at
+      GDC 2019
+    url: https://www.youtube.com/watch?v=qUk2islpbLI
+    channelName: Unity
+    description: 'Designing landscapes for your games can be difficult. Unity''s
+      new Terrain system helps make that process a lot easier. Learn how to make
+      your workflow faster and easier, enabling you to design ever-more gorgeous
+      landscapes.
+
+
+      Speaker: Ashley Alicea (Unity Technologies)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/qUk2islpbLI/sddefault.jpg
+    - https://i.ytimg.com/vi/qUk2islpbLI/mqdefault.jpg
+    - https://i.ytimg.com/vi/qUk2islpbLI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/qUk2islpbLI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Terrain
+    - GDC
+    viewCount: 35611
+    likeCount: 861
+    dislikeCount: 62
+    commentCount: 151
+    durationInMinutes: 25
+    publishedAtDate: 636911136120000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Blending gameplay and storytelling with Timeline: 2019 Improvements -
+      Unity at GDC 2019'
+    url: https://www.youtube.com/watch?v=SP3LvN-Q4Rw
+    channelName: Unity
+    description: "Discover how you can use the latest Timeline features \u2013 such
+      as Markers and Signals, nested Control tracks, and root motion offsets \u2013
+      to produce compelling interactive experiences. \n\nSpeaker: Ciro Continisio
+      (Technical Evangelist, Unity Technologies)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/SP3LvN-Q4Rw/sddefault.jpg
+    - https://i.ytimg.com/vi/SP3LvN-Q4Rw/mqdefault.jpg
+    - https://i.ytimg.com/vi/SP3LvN-Q4Rw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/SP3LvN-Q4Rw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Timeline
+    - GDC
+    viewCount: 14442
+    likeCount: 264
+    dislikeCount: 8
+    commentCount: 22
+    durationInMinutes: 24
+    publishedAtDate: 636911136030000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Beat Saber live: Best practices for creating award-winning VR experiences
+      - Unity at GDC 2019'
+    url: https://www.youtube.com/watch?v=7dlnduTMc-E
+    channelName: Unity
+    description: "Have you played Beat Saber? This groundbreaking VR game has sold
+      over a million copies and won a slew of awards. Watch to hear firsthand how
+      Beat Games achieved their phenomenal success. \n\nSpeakers:\nVladimir Hrincar
+      (CTO and Indie Game Developer, Beat Games)\nMichaela Dvorak (Head of Marketing,
+      Beat Games)\nJaroslav Beck (Co-Founder, Beat Games)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/7dlnduTMc-E/sddefault.jpg
+    - https://i.ytimg.com/vi/7dlnduTMc-E/mqdefault.jpg
+    - https://i.ytimg.com/vi/7dlnduTMc-E/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7dlnduTMc-E/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - VR
+    - Beat Saber
+    - GDC
+    viewCount: 4177
+    likeCount: 72
+    dislikeCount: 18
+    commentCount: 8
+    durationInMinutes: 30
+    publishedAtDate: 636906816020000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: Announcing Unity and Havok Physics for DOTS | Unity at GDC 2019 Keynote
+    url: https://www.youtube.com/watch?v=szm8B4jbcrw
+    channelName: Unity
+    description: "We\u2019re excited to announce our partnership with Havok to build
+      a complete physics solution for DOTS-based projects in Unity. Unity Physics
+      is available as a Preview package now, and Havok Physics will be available
+      later this summer.\n\nSpeakers: Joachim Ante (CTO and Founder, Unity), Oliver
+      Strunk (Havok)\n\nFind out more: https://on.unity.com/2WKXQG6"
+    thumbUrls:
+    - https://i.ytimg.com/vi/szm8B4jbcrw/sddefault.jpg
+    - https://i.ytimg.com/vi/szm8B4jbcrw/mqdefault.jpg
+    - https://i.ytimg.com/vi/szm8B4jbcrw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/szm8B4jbcrw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - physics
+    - gdc
+    - game developers conference
+    - havok physics
+    viewCount: 10105
+    likeCount: 165
+    dislikeCount: 6
+    commentCount: 9
+    durationInMinutes: 8
+    publishedAtDate: 636903360060000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Achieving high-fidelity AR with the Lightweight Render Pipeline - Unity
+      at GDC 2019
+    url: https://www.youtube.com/watch?v=BSVWk4xm77E
+    channelName: Unity
+    description: 'We dive into latest additions to our AR Foundation package, including
+      Lightweight Render Pipeline (LWRP) support, AR Remote, and face-tracking. Dan
+      explains how to get started with AR Foundation and use some unique features
+      only available in this multi-platform AR layer.
+
+
+      Speaker: Dan Miller
+      (AR/VR Evangelist, Unity Technologies)
+
+
+      Learn more about Mobile AR:
+      https://on.unity.com/2IlcakZ'
+    thumbUrls:
+    - https://i.ytimg.com/vi/BSVWk4xm77E/sddefault.jpg
+    - https://i.ytimg.com/vi/BSVWk4xm77E/mqdefault.jpg
+    - https://i.ytimg.com/vi/BSVWk4xm77E/maxresdefault.jpg
+    - https://i.ytimg.com/vi/BSVWk4xm77E/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - GDC
+    - Mobile
+    - AR
+    - AR Foundation
+    - LWRP
+    viewCount: 10258
+    likeCount: 132
+    dislikeCount: 3
+    commentCount: 13
+    durationInMinutes: 21
+    publishedAtDate: 636905952030000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: A win-win - featuring Orbital Nine Games
+    url: https://www.youtube.com/watch?v=KKl_ig5CaWc
+    channelName: Unity
+    description: "\u201CWith Unity Ads rewarded video, it was just like a win-win.
+      I had people playing farther into the game and was making more money.\u201D
+      - Aaron Lake, Orbital Nine Games\n\nAt GDC we talked to our developers about
+      using Unity Ads to help their enable success for their Made With Unity games."
+    thumbUrls:
+    - https://i.ytimg.com/vi/KKl_ig5CaWc/sddefault.jpg
+    - https://i.ytimg.com/vi/KKl_ig5CaWc/mqdefault.jpg
+    - https://i.ytimg.com/vi/KKl_ig5CaWc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/KKl_ig5CaWc/hqdefault.jpg
+    tags:
+    - unity ads
+    - ads
+    - monetization
+    - mobile
+    viewCount: 2827
+    likeCount: 53
+    dislikeCount: 7
+    commentCount: 5
+    durationInMinutes: 0
+    publishedAtDate: 636295437880000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: A Guide to Stadia game development - Unity at GDC 2019
+    url: https://www.youtube.com/watch?v=aq-GA_oP6hw
+    channelName: Unity
+    description: "Can you build games in Unity? Then you can build games that will
+      stream from the cloud. Learn how you can create games on Stadia, including
+      many tools and workflows familiar to Unity developers. \n\nSpeaker: Zach Zarrow
+      (Google)\n\nMore about Unity support for Stadia: https://on.unity.com/2Gi2hmN"
+    thumbUrls:
+    - https://i.ytimg.com/vi/aq-GA_oP6hw/sddefault.jpg
+    - https://i.ytimg.com/vi/aq-GA_oP6hw/mqdefault.jpg
+    - https://i.ytimg.com/vi/aq-GA_oP6hw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/aq-GA_oP6hw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Google
+    - Stadia
+    - GDC
+    viewCount: 12109
+    likeCount: 198
+    dislikeCount: 8
+    commentCount: 17
+    durationInMinutes: 28
+    publishedAtDate: 636909408000000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 15
+    YouTubeDataAPI_Cooked: 1

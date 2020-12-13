@@ -1,0 +1,2360 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
+  m_Name: KeynoteVideos_vData_
+  m_EditorClassIdentifier: 
+  searchName: UnityChannel
+  belongedCategory: KeynoteVideos
+  allVideos:
+  - title: Visual Effect Graph demo - Unite LA 2018 Keynote
+    url: https://www.youtube.com/watch?v=-mSXYNff-lA
+    channelName: Unity
+    description: "In early 2018, Unity opened up the black box of rendering by introducing
+      new graphics architecture: scriptable render pipeline, HDRP and LWRP. During
+      the Unite LA 2018 keynote we unveiled a new tool: Visual Effect Graph, which
+      allows you to create stunning VFX.\n\nWatch the full Unite Los Angeles 2018
+      keynote: https://youtu.be/alZ6wmwvck0\n\nLearn More: http://unity.com/visual-effect-graph\n\nSpeakers:
+      \nArisa Scott (Graphics Product Manager, Unity)\nChad Foxglove (Technical Artist)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/-mSXYNff-lA/sddefault.jpg
+    - https://i.ytimg.com/vi/-mSXYNff-lA/mqdefault.jpg
+    - https://i.ytimg.com/vi/-mSXYNff-lA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-mSXYNff-lA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - vfx
+    - visual effects
+    - unreal
+    viewCount: 5732
+    likeCount: 121
+    dislikeCount: 3
+    commentCount: 6
+    durationInMinutes: 4
+    publishedAtDate: 636772578250000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision VR/AR Summit 2017 Keynote
+    url: https://www.youtube.com/watch?v=ODXMhaNIF5E
+    channelName: Unity
+    description: The Vision VR/AR Summit is an event for artists, engineers, programmers,
+      designers, musicians, directors, producers, hardware manufacturers and researchers.
+      The content and networking are focused on furthering the knowledge base of
+      anyone developing virtual and/or augmented reality content in Unity.
+    thumbUrls:
+    - https://i.ytimg.com/vi/ODXMhaNIF5E/mqdefault.jpg
+    - https://i.ytimg.com/vi/ODXMhaNIF5E/hqdefault.jpg
+    tags:
+    - virtual reality
+    - games
+    - video games
+    - artists
+    - technology
+    - vr
+    - ar
+    - mixed reality
+    viewCount: 73219
+    likeCount: 936
+    dislikeCount: 54
+    commentCount: 0
+    durationInMinutes: 152
+    publishedAtDate: 636292891040000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision Summit 2017 Keynote - Unity 2017: Foundations of xR, Real-time
+      CG 360 Video Demo [3/10]'
+    url: https://www.youtube.com/watch?v=yoqC7gjEQD4
+    channelName: Unity
+    description: 'Speakers:
+
+      Tony Parisi - Head of xR Strategy, Unity Technologies
+
+      Natalie
+      Grant - Sr. Product Marketing Manager for VR/AR/Film, Unity Technologies
+
+
+      https://visionsummit2017.com
+
+      https://unity3d.com'
+    thumbUrls:
+    - https://i.ytimg.com/vi/yoqC7gjEQD4/sddefault.jpg
+    - https://i.ytimg.com/vi/yoqC7gjEQD4/mqdefault.jpg
+    - https://i.ytimg.com/vi/yoqC7gjEQD4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/yoqC7gjEQD4/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - unity technologies
+    - vision
+    - vision summit
+    - vr
+    - ar
+    - xr
+    - 360 video
+    - unity 2017
+    viewCount: 9037
+    likeCount: 65
+    dislikeCount: 1
+    commentCount: 5
+    durationInMinutes: 7
+    publishedAtDate: 636299900650000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision Summit 2017 Keynote - The Void, Multiverse, Baobab Studios [8/10]
+    url: https://www.youtube.com/watch?v=sIB0_Lb9KfU
+    channelName: Unity
+    description: 'Speakers:
+
+      Cliff Plumer - CEO, The Void
+
+      Freeman Fan
+      - CEO, Multiverse
+
+      Maureen Fan - CEO, Baobab Studios
+
+
+      https://visionsummit2017.com
+
+      https://unity3d.com'
+    thumbUrls:
+    - https://i.ytimg.com/vi/sIB0_Lb9KfU/sddefault.jpg
+    - https://i.ytimg.com/vi/sIB0_Lb9KfU/mqdefault.jpg
+    - https://i.ytimg.com/vi/sIB0_Lb9KfU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/sIB0_Lb9KfU/hqdefault.jpg
+    tags:
+    - vision summit 2017
+    - vr
+    - ar
+    - xr
+    - baobab studios
+    - multiverse
+    - seeking dawn
+    - the void
+    - ghostbusters
+    viewCount: 1555
+    likeCount: 13
+    dislikeCount: 1
+    commentCount: 0
+    durationInMinutes: 18
+    publishedAtDate: 636299934510000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision Summit 2017 Keynote - Richard Dawkins on "Constrained Virtual Reality"
+      [2/10]
+    url: https://www.youtube.com/watch?v=PesoT5VbrXY
+    channelName: Unity
+    description: "Evolutionary biologist Richard Dawkins speaks on constrained virtual
+      reality: a \"technology\" that is millions of years old. \n\nhttps://visionsummit2017.com\nhttps://unity3d.com"
+    thumbUrls:
+    - https://i.ytimg.com/vi/PesoT5VbrXY/sddefault.jpg
+    - https://i.ytimg.com/vi/PesoT5VbrXY/mqdefault.jpg
+    - https://i.ytimg.com/vi/PesoT5VbrXY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/PesoT5VbrXY/hqdefault.jpg
+    tags: []
+    viewCount: 2059
+    likeCount: 44
+    dislikeCount: 3
+    commentCount: 4
+    durationInMinutes: 16
+    publishedAtDate: 636299900840000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision Summit 2017 Keynote - Nanite Fulcrum, Google Daydream & Tango,
+      Vuforia Live Demo [9/10]
+    url: https://www.youtube.com/watch?v=mUsGeNjn9Nk
+    channelName: Unity
+    description: "Speakers: \nBay Raitt - CEO, The Spiraloid Workshop Company\nNathan
+      Martz - Developer Platforms Product Manager, Google\nJay Wright - President,
+      Vuforia\n\nhttps://visionsummit2017.com\nhttps://unity3d.com"
+    thumbUrls:
+    - https://i.ytimg.com/vi/mUsGeNjn9Nk/sddefault.jpg
+    - https://i.ytimg.com/vi/mUsGeNjn9Nk/mqdefault.jpg
+    - https://i.ytimg.com/vi/mUsGeNjn9Nk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/mUsGeNjn9Nk/hqdefault.jpg
+    tags:
+    - vision summit 2017
+    - unity
+    - vuforia
+    - naninte fulcrum
+    - google daydream
+    - tango
+    - vr
+    - ar
+    - xr
+    viewCount: 3118
+    likeCount: 41
+    dislikeCount: 4
+    commentCount: 4
+    durationInMinutes: 16
+    publishedAtDate: 636299939040000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision Summit 2017 Keynote - Microsoft HoloLens, ScopeAR, Protospace Demo
+      by NASA JPL [6/10]
+    url: https://www.youtube.com/watch?v=Z6vrn6_kH5s
+    channelName: Unity
+    description: 'Speakers:
+
+      Brandon Bray - Principal Group Mgr, Microsoft
+
+      Scott
+      Montgomerie - CEO, ScopeAR
+
+      Victor Luo - NASA JPL
+
+
+
+      https://visionsummit2017.com
+
+      https://unity3d.com'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Z6vrn6_kH5s/sddefault.jpg
+    - https://i.ytimg.com/vi/Z6vrn6_kH5s/mqdefault.jpg
+    - https://i.ytimg.com/vi/Z6vrn6_kH5s/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Z6vrn6_kH5s/hqdefault.jpg
+    tags:
+    - vision summit 2017
+    - vr
+    - microsoft
+    - scopear
+    - NASA JPL
+    - NASA
+    - protospace
+    - hololens
+    - ar
+    - unity
+    viewCount: 4970
+    likeCount: 27
+    dislikeCount: 0
+    commentCount: 5
+    durationInMinutes: 16
+    publishedAtDate: 636300803140000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision Summit 2017 Keynote - Intro with Tony Parisi and John Riccitiello
+      [1/10]
+    url: https://www.youtube.com/watch?v=DemQqefp3kA
+    channelName: Unity
+    description: 'Watch the Vision VR/AR Summit 2017 Keynote with an intro from Unity
+      Global Head of xR Tony Parisi. In his address, Unity CEO John Riccitiello outlines
+      how and when VR will truly take off.
+
+
+      https://visionsummit2017.com
+
+      https://unity3d.com'
+    thumbUrls:
+    - https://i.ytimg.com/vi/DemQqefp3kA/sddefault.jpg
+    - https://i.ytimg.com/vi/DemQqefp3kA/mqdefault.jpg
+    - https://i.ytimg.com/vi/DemQqefp3kA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DemQqefp3kA/hqdefault.jpg
+    tags:
+    - virtual reality
+    - vr
+    - vision summit
+    - unity3d
+    - unity
+    - unity technologies
+    - ar
+    - xr
+    viewCount: 2394
+    likeCount: 16
+    dislikeCount: 3
+    commentCount: 4
+    durationInMinutes: 15
+    publishedAtDate: 636299941160000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision Summit 2017 Keynote - Facebook Spaces, NFL Films [5/10]
+    url: https://www.youtube.com/watch?v=Aqy8j9a34mE
+    channelName: Unity
+    description: 'Speakers:
+
+      Rachel Franklin - Head of Social VR, Facebook
+
+      Jason
+      Weber - Producer, NFL Films
+
+
+
+      https://visionsummit2017.com
+
+      https://unity3d.com'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Aqy8j9a34mE/sddefault.jpg
+    - https://i.ytimg.com/vi/Aqy8j9a34mE/mqdefault.jpg
+    - https://i.ytimg.com/vi/Aqy8j9a34mE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Aqy8j9a34mE/hqdefault.jpg
+    tags:
+    - vision summit 2017
+    - nfl films
+    - facebook spaces
+    - facebook
+    - vr
+    viewCount: 738
+    likeCount: 8
+    dislikeCount: 1
+    commentCount: 0
+    durationInMinutes: 12
+    publishedAtDate: 636300802010000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision Summit 2017 Keynote - Closing Fireside Chat with John Riccitiello
+      and Brendan Iribe [10/10]
+    url: https://www.youtube.com/watch?v=onqUCj44wBc
+    channelName: Unity
+    description: "Unity CEO John Riccitiello and special guest Oculus Co-founder
+      Brendan Iribe sit down for a fireside chat to close out the Vision VR/AR Summit
+      2017 Keynote. \n\nhttps://visionsummit2017.com\nhttps://unity3d.com"
+    thumbUrls:
+    - https://i.ytimg.com/vi/onqUCj44wBc/sddefault.jpg
+    - https://i.ytimg.com/vi/onqUCj44wBc/mqdefault.jpg
+    - https://i.ytimg.com/vi/onqUCj44wBc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/onqUCj44wBc/hqdefault.jpg
+    tags:
+    - vision summit 2017
+    - vr
+    - oculus
+    - unity
+    viewCount: 437
+    likeCount: 3
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 22
+    publishedAtDate: 636300802010000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision Summit 2017 Keynote - Audi, Red Bull Air Race Flight Deck by REWIND
+      [7/10]
+    url: https://www.youtube.com/watch?v=K6miQpKs5yc
+    channelName: Unity
+    description: 'Speakers:
+
+      Marcus Kuehne - Strategy Lead Immersive Technologies,
+      Audi AG
+
+      Chris O''Connor - Tech Director, Zerolight
+
+      Sol Rogers
+      - Founder/CEO, Rewind
+
+
+      https://visionsummit2017.com
+
+      https://unity3d.com'
+    thumbUrls:
+    - https://i.ytimg.com/vi/K6miQpKs5yc/sddefault.jpg
+    - https://i.ytimg.com/vi/K6miQpKs5yc/mqdefault.jpg
+    - https://i.ytimg.com/vi/K6miQpKs5yc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/K6miQpKs5yc/hqdefault.jpg
+    tags:
+    - audi
+    - vision summit 2017
+    - vr
+    - ar
+    - unity
+    - zerolight
+    viewCount: 1402
+    likeCount: 10
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 11
+    publishedAtDate: 636299988460000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision Summit 2017 Keynote - A Mighty Kingdom Demo ft. Timeline & Mixcast,
+      Within [4/10]
+    url: https://www.youtube.com/watch?v=u7dNEfl2INk
+    channelName: Unity
+    description: 'Speakers:
+
+      Mike Wuetherick - Unity Technologies
+
+      Sarah
+      Stumbo - Unity Technologies
+
+      Aaron Koblin - CTO, Within
+
+      Chris
+      Milk - CEO, Within
+
+
+      https://visionsummit2017.com
+
+      https://unity3d.com'
+    thumbUrls:
+    - https://i.ytimg.com/vi/u7dNEfl2INk/sddefault.jpg
+    - https://i.ytimg.com/vi/u7dNEfl2INk/mqdefault.jpg
+    - https://i.ytimg.com/vi/u7dNEfl2INk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/u7dNEfl2INk/hqdefault.jpg
+    tags:
+    - unity3d
+    - vision summit 2017
+    - vr
+    - ar
+    - xr
+    viewCount: 2489
+    likeCount: 11
+    dislikeCount: 3
+    commentCount: 4
+    durationInMinutes: 11
+    publishedAtDate: 636299908950000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Using Augmented Reality to enhance Lyft rider experience - Unite LA 2018
+      Keynote
+    url: https://www.youtube.com/watch?v=hio-3R61k3I
+    channelName: Unity
+    description: "See how Lyft has partnered with REWIND to explore the use of augmented
+      reality in order to enhance rider experiences. \n\nWatch the full Unite Los
+      Angeles 2018 keynote: https://youtu.be/alZ6wmwvck0\n\nSpeakers:\nTimoni West
+      (Director, XR research, Unity Labs)\nEthan Eyler (Head of Brand, Lyft)\nRick
+      Davis (General Manager, REWIND)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/hio-3R61k3I/sddefault.jpg
+    - https://i.ytimg.com/vi/hio-3R61k3I/mqdefault.jpg
+    - https://i.ytimg.com/vi/hio-3R61k3I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hio-3R61k3I/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1476
+    likeCount: 12
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 5
+    publishedAtDate: 636773432220000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity for Film - Unite LA 2018 Keynote (Baymax Dreams, real-time film
+      demo & Digital Monarch Media)
+    url: https://www.youtube.com/watch?v=xlNCydHwm54
+    channelName: Unity
+    description: "Find out how Disney's Baymax Dreams were created with Unity. Watch
+      as we direct and edit a \"shpooky\" animated short on stage in real time. And
+      join us in welcoming Digital Monarch Media to the Unity family.\n\nWatch the
+      full Unite Los Angeles 2018 keynote: https://youtu.be/alZ6wmwvck0\n\nFind out
+      more about Unity for Film: https://unity.com/solutions/film\n\nSpeakers: \nKaki
+      Navarre (Senior Manager, Research & Development at Disney ABC Television Group)\nLucas
+      Meijer (Technical Director, Unity)\nMark Droste (Assistant Director, Unity)\nNatalie
+      Grant (Sr. Product Manager, Film)\nJohn Riccitiello (CEO, Unity)\nWes Potter
+      (Founder, Digital Monarch Media)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/xlNCydHwm54/sddefault.jpg
+    - https://i.ytimg.com/vi/xlNCydHwm54/mqdefault.jpg
+    - https://i.ytimg.com/vi/xlNCydHwm54/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xlNCydHwm54/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 7910
+    likeCount: 134
+    dislikeCount: 5
+    commentCount: 12
+    durationInMinutes: 22
+    publishedAtDate: 636765984050000000
+    publisdedDate:
+      year: 2018
+      month: 10
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity Developer Day: New York City 2016: Keynote'
+    url: https://www.youtube.com/watch?v=8EiTxXXnSMs
+    channelName: Unity
+    description: 'For more info about this keynote & a summary of the conference,
+      please go to: https://unity3d.com/events/unity-developer-day-new-york-city-2016
+
+
+      Zack
+      Raymond, Cinematic Designer at iNK Stories, opens Unity Developer Day: New
+      York City 2016 with "The Dirty Business of Digital Cinematography."
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6Yq/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/8EiTxXXnSMs/sddefault.jpg
+    - https://i.ytimg.com/vi/8EiTxXXnSMs/mqdefault.jpg
+    - https://i.ytimg.com/vi/8EiTxXXnSMs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8EiTxXXnSMs/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Game Development
+    - Unity Developer Day
+    - Zack Raymond
+    - iNK Stories
+    - Keynote
+    - Cinematography
+    - Unity
+    - '1979 Revolution: Black Friday'
+    viewCount: 5455
+    likeCount: 47
+    dislikeCount: 28
+    commentCount: 8
+    durationInMinutes: 20
+    publishedAtDate: 636086966140000000
+    publisdedDate:
+      year: 2016
+      month: 9
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Nordic 2013 Keynote
+    url: https://www.youtube.com/watch?v=QY-e2vdPdqE
+    channelName: Unity
+    description: 'David Helgason, Lucas Meijer and Joachim Ante share the Unite Nordic
+      keynote to talk about Unity 4.2, the upcoming release, plus the reveal of our
+      mobile basic tools becoming free for everyone.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V6bb/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/QY-e2vdPdqE/sddefault.jpg
+    - https://i.ytimg.com/vi/QY-e2vdPdqE/mqdefault.jpg
+    - https://i.ytimg.com/vi/QY-e2vdPdqE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/QY-e2vdPdqE/hqdefault.jpg
+    tags:
+    - unity
+    - unite
+    - nordic
+    - 4.2
+    - tools
+    - game engine
+    - game development
+    - Unity (game Engine)
+    - free
+    - Unite Nordic 2013
+    viewCount: 34260
+    likeCount: 270
+    dislikeCount: 14
+    commentCount: 34
+    durationInMinutes: 43
+    publishedAtDate: 635048331760000000
+    publisdedDate:
+      year: 2013
+      month: 5
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Los Angeles 2018 Keynote Highlights
+    url: https://www.youtube.com/watch?v=O5F30NEJvrU
+    channelName: Unity
+    description: 'TL;DR version of our Unite Los Angeles keynote. Watch the full
+      version: https://www.youtube.com/watch?v=alZ6wmwvck0
+
+      Catch up on all
+      the news on our blog: https://blogs.unity3d.com/2018/10/24/a-peek-at-the-new-visual-effect-graph-cinecast-our-first-sample-game-and-more-from-unite-los-angeles/
+
+
+      *Thank
+      you to Nvidia for providing the killer PCs that run the keynote*'
+    thumbUrls:
+    - https://i.ytimg.com/vi/O5F30NEJvrU/sddefault.jpg
+    - https://i.ytimg.com/vi/O5F30NEJvrU/mqdefault.jpg
+    - https://i.ytimg.com/vi/O5F30NEJvrU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/O5F30NEJvrU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 7572
+    likeCount: 138
+    dislikeCount: 1
+    commentCount: 13
+    durationInMinutes: 1
+    publishedAtDate: 636767319710000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Los Angeles 2018 Keynote
+    url: https://www.youtube.com/watch?v=alZ6wmwvck0
+    channelName: Unity
+    description: 'Watch the Unite LA Keynote to see our exclusive announcements!
+      In-depth blog post, with links to more info on all the new demos, features
+      and other news: https://blogs.unity3d.com/2018/10/24/a-peek-at-the-new-visual-effect-graph-cinecast-our-first-sample-game-and-more-from-unite-los-angeles/
+
+
+      **Thank
+      you to Nvidia for providing the PCs used during the Unity keynote, automotive
+      summit and film summit at Unite LA**'
+    thumbUrls:
+    - https://i.ytimg.com/vi/alZ6wmwvck0/mqdefault.jpg
+    - https://i.ytimg.com/vi/alZ6wmwvck0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 66917
+    likeCount: 760
+    dislikeCount: 24
+    commentCount: 72
+    durationInMinutes: 114
+    publishedAtDate: 636759677710000000
+    publisdedDate:
+      year: 2018
+      month: 10
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Keynote 2015
+    url: https://www.youtube.com/watch?v=rcqK0WnUzbI
+    channelName: Unity
+    description: "Unity\u2019s flagship developer conference opening keynote. More
+      info: http://blogs.unity3d.com/2015/09/21/unite-boston-2015-keynote/\n\nHelp
+      us caption & translate this video!\n\nhttp://amara.org/v/V623/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/rcqK0WnUzbI/sddefault.jpg
+    - https://i.ytimg.com/vi/rcqK0WnUzbI/mqdefault.jpg
+    - https://i.ytimg.com/vi/rcqK0WnUzbI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/rcqK0WnUzbI/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unite 2015
+    viewCount: 24830
+    likeCount: 203
+    dislikeCount: 6
+    commentCount: 26
+    durationInMinutes: 128
+    publishedAtDate: 635784867250000000
+    publisdedDate:
+      year: 2015
+      month: 9
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2017 keynote Made with Unity sizzle reel
+    url: https://www.youtube.com/watch?v=ctNF6QlLBWo
+    channelName: Unity
+    description: 'Here''s a small snapshot of some of the incredible experiences
+      that are made with Unity. Originally shown at the beginning of the Unite Europe
+      2017 keynote.
+
+
+      For more info on Unite Europe: https://unite.unity.com/2017/europe'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ctNF6QlLBWo/sddefault.jpg
+    - https://i.ytimg.com/vi/ctNF6QlLBWo/mqdefault.jpg
+    - https://i.ytimg.com/vi/ctNF6QlLBWo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ctNF6QlLBWo/hqdefault.jpg
+    tags: []
+    viewCount: 48941
+    likeCount: 375
+    dislikeCount: 14
+    commentCount: 47
+    durationInMinutes: 1
+    publishedAtDate: 636365349270000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2017 Keynote
+    url: https://www.youtube.com/watch?v=-jZdMFPACpU
+    channelName: Unity
+    description: Join us LIVE from Amsterdam for the Unite Europe 2017 Keynote!
+    thumbUrls:
+    - https://i.ytimg.com/vi/-jZdMFPACpU/mqdefault.jpg
+    - https://i.ytimg.com/vi/-jZdMFPACpU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-jZdMFPACpU/hqdefault.jpg
+    tags:
+    - gamedev
+    - dev
+    - unity
+    - unite
+    - video games
+    - games
+    - technology
+    - engine
+    viewCount: 89956
+    likeCount: 829
+    dislikeCount: 78
+    commentCount: 77
+    durationInMinutes: 84
+    publishedAtDate: 636342036160000000
+    publisdedDate:
+      year: 2017
+      month: 6
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2016 | Opening Keynote
+    url: https://www.youtube.com/watch?v=QsQUyb7Ex8M
+    channelName: Unity
+    description: 'For more information & a summary of the keynote, please go to:
+      http://blogs.unity3d.com/2016/05/31/unite-europe-16-keynote-previews-new-services-tools/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V60Z/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/QsQUyb7Ex8M/sddefault.jpg
+    - https://i.ytimg.com/vi/QsQUyb7Ex8M/mqdefault.jpg
+    - https://i.ytimg.com/vi/QsQUyb7Ex8M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/QsQUyb7Ex8M/hqdefault.jpg
+    tags: []
+    viewCount: 25228
+    likeCount: 166
+    dislikeCount: 23
+    commentCount: 38
+    durationInMinutes: 121
+    publishedAtDate: 636003927270000000
+    publisdedDate:
+      year: 2016
+      month: 6
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2016 - Live Keynote
+    url: https://www.youtube.com/watch?v=jmTofDNJ3aI
+    channelName: Unity
+    description: 'Unite Europe 2016 keynote - live stream starts May 31st 10:00 CEST.
+      Join us! More info: https://unite.unity.com/2016/europe
+
+
+      Help us caption
+      & translate this video!
+
+
+      http://amara.org/v/V602/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/jmTofDNJ3aI/sddefault.jpg
+    - https://i.ytimg.com/vi/jmTofDNJ3aI/mqdefault.jpg
+    - https://i.ytimg.com/vi/jmTofDNJ3aI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/jmTofDNJ3aI/hqdefault.jpg
+    tags:
+    - Unity
+    - Unity 3d
+    - Unity3d
+    - Unite
+    - Event
+    - Unity (Software)
+    viewCount: 38219
+    likeCount: 391
+    dislikeCount: 51
+    commentCount: 70
+    durationInMinutes: 126
+    publishedAtDate: 636003091240000000
+    publisdedDate:
+      year: 2016
+      month: 5
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2015 KEYNOTE and GUEST KEYNOTE
+    url: https://www.youtube.com/watch?v=63UaLA790iI
+    channelName: Unity
+    description: 'Unity CEO John Riccitiello kicks off Unite Europe with a talk about
+      how Unity is helping more and more developers achieve creative fulfilment and
+      success. CTO Joachim Ante and Technical Lead Lucas Meijer will deep dive into
+      Unity 5 to reveal how to get even more efficiency and fun out of the latest
+      tech. And co-founder David Helgason will bring his trademark inspiration, insight
+      and fun to the stage.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V63j/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/63UaLA790iI/sddefault.jpg
+    - https://i.ytimg.com/vi/63UaLA790iI/mqdefault.jpg
+    - https://i.ytimg.com/vi/63UaLA790iI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/63UaLA790iI/hqdefault.jpg
+    tags: []
+    viewCount: 16048
+    likeCount: 182
+    dislikeCount: 7
+    commentCount: 17
+    durationInMinutes: 123
+    publishedAtDate: 635707588800000000
+    publisdedDate:
+      year: 2015
+      month: 6
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Copenhagen 2019 Keynote Highlights
+    url: https://www.youtube.com/watch?v=aAD1cvWcbaQ
+    channelName: Unity
+    description: 'Watch the full keynote: https://www.youtube.com/watch?v=gyqIZP_zLtU
+
+
+      Prefer
+      to read the highlights? Catch up on the blog: https://on.unity.com/2nh4RCH'
+    thumbUrls:
+    - https://i.ytimg.com/vi/aAD1cvWcbaQ/sddefault.jpg
+    - https://i.ytimg.com/vi/aAD1cvWcbaQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/aAD1cvWcbaQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/aAD1cvWcbaQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 6164
+    likeCount: 277
+    dislikeCount: 4
+    commentCount: 14
+    durationInMinutes: 2
+    publishedAtDate: 637055532000000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Copenhagen 2019 Keynote
+    url: https://www.youtube.com/watch?v=gyqIZP_zLtU
+    channelName: Unity
+    description: "Exciting updates including Data-Oriented Tech Stack (DOTS), Unity
+      Simulation, Scriptable Render Pipelines, multiplayer services, our new 2D tools,
+      and much more!\n\nPrefer to read the highlights? Check out the blog: https://on.unity.com/31JXItn\n\nThank
+      you to NVIDIA for providing RTX 2080Ti GPUs used during the Unite Copenhagen
+      keynote.\n\n\n00:00:00 Preshow and introduction\n00:30:05 Data-Oriented Technology
+      Stack (DOTS) \n00:41:53 Connected games: MADFINGER - Shadowgun War Games \n00:46:56
+      AR Updates \n00:53:09 Unity Reflect \n01:00:40 Unity Simulation \n01:07:31
+      GameTune \n01:12:28 2D graphics \n01:21:07 Universal Render Pipeline \n01:27:04
+      Multiverse - Earth from another Sun \n01:30:05 The Heretic"
+    thumbUrls:
+    - https://i.ytimg.com/vi/gyqIZP_zLtU/sddefault.jpg
+    - https://i.ytimg.com/vi/gyqIZP_zLtU/mqdefault.jpg
+    - https://i.ytimg.com/vi/gyqIZP_zLtU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gyqIZP_zLtU/hqdefault.jpg
+    tags:
+    - unity game engine
+    - unite copenhagen
+    - unity3d
+    - unity game
+    - game developer
+    - game development
+    - 3d computer graphics
+    - simulation
+    viewCount: 129331
+    likeCount: 1621
+    dislikeCount: 49
+    commentCount: 107
+    durationInMinutes: 118
+    publishedAtDate: 637048829740000000
+    publisdedDate:
+      year: 2019
+      month: 9
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin Keynote
+    url: https://www.youtube.com/watch?v=3omw9dLkrR8
+    channelName: Unity
+    description: "Join us LIVE for the Unite Berlin 2018 Keynote 6pm CEST to get
+      the latest scoop on what we\u2019ve been working on!  Also, get ready for world-exclusive
+      reveals from the creators of GTFO, Oddworld: Soulstorm, Harold Halibut, and
+      Shadowgun Legends & more!"
+    thumbUrls:
+    - https://i.ytimg.com/vi/3omw9dLkrR8/mqdefault.jpg
+    - https://i.ytimg.com/vi/3omw9dLkrR8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 93646
+    likeCount: 930
+    dislikeCount: 50
+    commentCount: 62
+    durationInMinutes: 132
+    publishedAtDate: 636650509300000000
+    publisdedDate:
+      year: 2018
+      month: 6
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite Berlin 2018: Keynote Recap'
+    url: https://www.youtube.com/watch?v=cn94iMQqnpU
+    channelName: Unity
+    description: All the key news from Unite Berlin in just 75 seconds. Head to our
+      blog for the whole thing! https://blogs.unity3d.com/2018/06/19/connected-games-facial-mocap-new-prefabs-workflow-preview-and-more-from-unite-berlin/
+    thumbUrls:
+    - https://i.ytimg.com/vi/cn94iMQqnpU/sddefault.jpg
+    - https://i.ytimg.com/vi/cn94iMQqnpU/mqdefault.jpg
+    - https://i.ytimg.com/vi/cn94iMQqnpU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cn94iMQqnpU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 17858
+    likeCount: 568
+    dislikeCount: 11
+    commentCount: 23
+    durationInMinutes: 1
+    publishedAtDate: 636655309840000000
+    publisdedDate:
+      year: 2018
+      month: 6
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin - AR Keynote Reel
+    url: https://www.youtube.com/watch?v=vhEtAAtsOG4
+    channelName: Unity
+    description: 
+    thumbUrls:
+    - https://i.ytimg.com/vi/vhEtAAtsOG4/sddefault.jpg
+    - https://i.ytimg.com/vi/vhEtAAtsOG4/mqdefault.jpg
+    - https://i.ytimg.com/vi/vhEtAAtsOG4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/vhEtAAtsOG4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Made with Unity
+    viewCount: 13461
+    likeCount: 88
+    dislikeCount: 5
+    commentCount: 4
+    durationInMinutes: 0
+    publishedAtDate: 636650524460000000
+    publisdedDate:
+      year: 2018
+      month: 6
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Australia 2014 Keynote
+    url: https://www.youtube.com/watch?v=y0cNCQjcW9M
+    channelName: Unity
+    description: 'The keynote address from Unity''s developer conference in Australia
+      in 2014. More Unity talks & downloads: http://unity3d.com/learn/resources
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V65L/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/y0cNCQjcW9M/sddefault.jpg
+    - https://i.ytimg.com/vi/y0cNCQjcW9M/mqdefault.jpg
+    - https://i.ytimg.com/vi/y0cNCQjcW9M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/y0cNCQjcW9M/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unite
+    - Video Game Development (Industry)
+    - Unity 4.6
+    - Video Game Development (Conference Subject)
+    - Unity 5
+    viewCount: 2291
+    likeCount: 38
+    dislikeCount: 29
+    commentCount: 15
+    durationInMinutes: 59
+    publishedAtDate: 635585090530000000
+    publisdedDate:
+      year: 2015
+      month: 2
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 Keynote - XR Demo [4/7]
+    url: https://www.youtube.com/watch?v=MS76jSK7h-E
+    channelName: Unity
+    description: "Unity XR Technical Product Manager, Brad Weiers and Unity XR Evangelist
+      and Producer Made With Unity, Sarah Stumbo brought us updates on XR. \n\nTo
+      get started with AR, see our solution page: https://unity3d.com/solutions/mobile-ar"
+    thumbUrls:
+    - https://i.ytimg.com/vi/MS76jSK7h-E/sddefault.jpg
+    - https://i.ytimg.com/vi/MS76jSK7h-E/mqdefault.jpg
+    - https://i.ytimg.com/vi/MS76jSK7h-E/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MS76jSK7h-E/hqdefault.jpg
+    tags:
+    - AR
+    - XR
+    - VR
+    - Unity
+    - Unty 3D
+    - ARKit
+    - ARCore
+    viewCount: 1187
+    likeCount: 12
+    dislikeCount: 2
+    commentCount: 1
+    durationInMinutes: 10
+    publishedAtDate: 636435311920000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 Keynote - The Unity Awards [7/7]
+    url: https://www.youtube.com/watch?v=9czTj4JvNqA
+    channelName: Unity
+    description: "Congratulations to the winners of the Unity Awards 2017! We are
+      so amazed by all the incredible Made with Unity creations this year.  \n\nCheck
+      out all the winners and nominees at https://awards.unity.com/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/9czTj4JvNqA/sddefault.jpg
+    - https://i.ytimg.com/vi/9czTj4JvNqA/mqdefault.jpg
+    - https://i.ytimg.com/vi/9czTj4JvNqA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9czTj4JvNqA/hqdefault.jpg
+    tags:
+    - Unity
+    - Made With UNity
+    - Unity3D
+    - Games
+    - Video Games
+    - Awards
+    viewCount: 3500
+    likeCount: 52
+    dislikeCount: 4
+    commentCount: 6
+    durationInMinutes: 5
+    publishedAtDate: 636435312430000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 Keynote - Performance Demo ft. Nordeus [6/7]
+    url: https://www.youtube.com/watch?v=0969LalB7vw
+    channelName: Unity
+    description: '"Co-founder and CTO Joachim Ante demonstrates our upcoming C# job
+      system and component system that will improve the performance of your games,
+      featuring a demo by independent developer Nordeus.
+
+
+      Sign up for the
+      Unity technical preview of the C# Job System: https://create.unity3d.com/jobsystem"'
+    thumbUrls:
+    - https://i.ytimg.com/vi/0969LalB7vw/sddefault.jpg
+    - https://i.ytimg.com/vi/0969LalB7vw/mqdefault.jpg
+    - https://i.ytimg.com/vi/0969LalB7vw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0969LalB7vw/hqdefault.jpg
+    tags:
+    - Unity
+    - Unity 3D
+    - Nordeus
+    - C#
+    - Game Development
+    - Game Dev
+    - Programming
+    viewCount: 19087
+    likeCount: 256
+    dislikeCount: 3
+    commentCount: 18
+    durationInMinutes: 16
+    publishedAtDate: 636435312630000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 Keynote - Neon Demo [2/7]
+    url: https://www.youtube.com/watch?v=3Mc5H01JYhg
+    channelName: Unity
+    description: 'Technical Director Lucas Meijer demonstrates how you can quickly
+      build a beautiful looking scene using Unity 2017.2 and assets from the Unity
+      Asset Store. Head of Cinmatics Adam Myhill joins Lucas on stage to show how
+      you can easily create cinematic scenes using Cinemachine and Timeline.
+
+
+      Read
+      more about Neon: https://blogs.unity3d.com/2017/10/04/neon/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/3Mc5H01JYhg/sddefault.jpg
+    - https://i.ytimg.com/vi/3Mc5H01JYhg/mqdefault.jpg
+    - https://i.ytimg.com/vi/3Mc5H01JYhg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/3Mc5H01JYhg/hqdefault.jpg
+    tags:
+    - Unity
+    - Unity3D
+    - Unite
+    - Game Development
+    - Film Development
+    - Camera Tools
+    viewCount: 4216
+    likeCount: 75
+    dislikeCount: 2
+    commentCount: 3
+    durationInMinutes: 23
+    publishedAtDate: 636435312580000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 Keynote - Company Update [1/7]
+    url: https://www.youtube.com/watch?v=IjW6jKTc9lE
+    channelName: Unity
+    description: "\"Unity CMO Clive Downie opens the Unite Austin 2017 keynote with
+      an update on the latest happenings with Unity. \n\nFind out more: https://unity3d.com/\""
+    thumbUrls:
+    - https://i.ytimg.com/vi/IjW6jKTc9lE/sddefault.jpg
+    - https://i.ytimg.com/vi/IjW6jKTc9lE/mqdefault.jpg
+    - https://i.ytimg.com/vi/IjW6jKTc9lE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IjW6jKTc9lE/hqdefault.jpg
+    tags:
+    - Unity
+    - Unity 3D
+    - Unite
+    - Game Development
+    - Game Dev
+    - Unite Austin
+    viewCount: 5363
+    likeCount: 90
+    dislikeCount: 7
+    commentCount: 7
+    durationInMinutes: 12
+    publishedAtDate: 636435313630000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite Austin 2017 Keynote - ADAM: The Mirror Debut and Q&A with Neill
+      Blomkamp [5/7]'
+    url: https://www.youtube.com/watch?v=Lg-62br49ms
+    channelName: Unity
+    description: "Academy Award-nominated Director Neill Blomkamp and Head of Made
+      with Unity Isabelle RIva debut ADAM: The Mirror, the full cg real-time short
+      film by Oats Studios created with Unity 2017.1. \n\nFind out more about the
+      making of ADAM: The Mirror: https://unity.com/madewith/adam"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Lg-62br49ms/sddefault.jpg
+    - https://i.ytimg.com/vi/Lg-62br49ms/mqdefault.jpg
+    - https://i.ytimg.com/vi/Lg-62br49ms/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Lg-62br49ms/hqdefault.jpg
+    tags:
+    - Neill Blomkamp
+    - ADAM
+    - Unity
+    - Unity3D
+    - Oats Studios
+    - Game Development
+    - Film Development
+    viewCount: 25754
+    likeCount: 143
+    dislikeCount: 17
+    commentCount: 9
+    durationInMinutes: 21
+    publishedAtDate: 636435286650000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 Keynote - 2D Demo [3/7]
+    url: https://www.youtube.com/watch?v=GkGlROLv1nE
+    channelName: Unity
+    description: "Product Manager Rus Scammell and Head of Cinematics Adam Myhill
+      demonstrate Unity's latest 2D tools. \n\nStart creating today: https://unity3d.com/solutions/2d"
+    thumbUrls:
+    - https://i.ytimg.com/vi/GkGlROLv1nE/sddefault.jpg
+    - https://i.ytimg.com/vi/GkGlROLv1nE/mqdefault.jpg
+    - https://i.ytimg.com/vi/GkGlROLv1nE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GkGlROLv1nE/hqdefault.jpg
+    tags:
+    - Unity
+    - 2D
+    - Game Development
+    - Games
+    - Unite
+    viewCount: 1547
+    likeCount: 31
+    dislikeCount: 1
+    commentCount: 7
+    durationInMinutes: 11
+    publishedAtDate: 636435312200000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 13
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 Keynote
+    url: https://www.youtube.com/watch?v=uEoS1mr9eqs
+    channelName: Unity
+    description: https://blogs.unity3d.com/2017/10/04/unite-austin-2017-keynote-recap/
+    thumbUrls:
+    - https://i.ytimg.com/vi/uEoS1mr9eqs/sddefault.jpg
+    - https://i.ytimg.com/vi/uEoS1mr9eqs/mqdefault.jpg
+    - https://i.ytimg.com/vi/uEoS1mr9eqs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/uEoS1mr9eqs/hqdefault.jpg
+    tags:
+    - unite
+    - austin
+    - developer
+    - unity
+    - conference
+    - keynote
+    - video games
+    - technology
+    viewCount: 61263
+    likeCount: 796
+    dislikeCount: 61
+    commentCount: 42
+    durationInMinutes: 101
+    publishedAtDate: 636426969010000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 - Massive Battle in the Spellsouls Universe
+    url: https://www.youtube.com/watch?v=GEuT5-oCu_I
+    channelName: Unity
+    description: "New and exciting technologies are coming to Unity in the form of
+      Job System, C# Compute Compiler and a new Entity-Component System. Nordeus
+      engineers provide a walkthrough of how they created the epic battle from the
+      Unite Austin keynote and explore working with these new systems first hand.\n\nSrdja
+      Stetic-Kozic (Tech Lead, Nordeus), \nTomislav Rakic (Tech Lead, Nordeus)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/GEuT5-oCu_I/sddefault.jpg
+    - https://i.ytimg.com/vi/GEuT5-oCu_I/mqdefault.jpg
+    - https://i.ytimg.com/vi/GEuT5-oCu_I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GEuT5-oCu_I/hqdefault.jpg
+    tags: []
+    viewCount: 19615
+    likeCount: 228
+    dislikeCount: 3
+    commentCount: 15
+    durationInMinutes: 28
+    publishedAtDate: 636459624000000000
+    publisdedDate:
+      year: 2017
+      month: 11
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 Keynote - Timeline Demo, OTOY Octane Renderer Demo [7/11]
+    url: https://www.youtube.com/watch?v=hQ_pCUtb_vo
+    channelName: Unity
+    description: '* Lucas Meijer (Technical Director, Unity Technologies) - Timeline
+
+      *
+      Adam Myhill (Head of Cinematics, Unity Technologies) - Timeline demo, cameras
+
+      *
+      Jules Urbach (Founder & CEO, OTOY) - OTOY Octane Renderer
+
+
+      Help us caption
+      & translate this video!
+
+
+      http://amara.org/v/02CK/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/hQ_pCUtb_vo/sddefault.jpg
+    - https://i.ytimg.com/vi/hQ_pCUtb_vo/mqdefault.jpg
+    - https://i.ytimg.com/vi/hQ_pCUtb_vo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hQ_pCUtb_vo/hqdefault.jpg
+    tags:
+    - unite 2016
+    - unite la
+    - unity timeline
+    - timeline demo
+    - otoy
+    - octane renderer
+    - otoy demo
+    - Unite 2016 LA
+    viewCount: 8714
+    likeCount: 123
+    dislikeCount: 1
+    commentCount: 15
+    durationInMinutes: 12
+    publishedAtDate: 636153443580000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 Keynote - Royal Blood (Gamevil) Demo [6/11]
+    url: https://www.youtube.com/watch?v=ou-14OOCnEI
+    channelName: Unity
+    description: 'Kyu Lee (President, Gamevil) - Royal Blood behind the scenes: Making
+      a mobile MMORPG in Unity
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/02CL/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ou-14OOCnEI/sddefault.jpg
+    - https://i.ytimg.com/vi/ou-14OOCnEI/mqdefault.jpg
+    - https://i.ytimg.com/vi/ou-14OOCnEI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ou-14OOCnEI/hqdefault.jpg
+    tags:
+    - Unite 2016
+    - Unite LA
+    - Gamevil
+    - Royal blood
+    - creature tools
+    viewCount: 6518
+    likeCount: 54
+    dislikeCount: 6
+    commentCount: 6
+    durationInMinutes: 4
+    publishedAtDate: 636153443010000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 Keynote - Project Wight (The Outsiders) Demo [8/11]
+    url: https://www.youtube.com/watch?v=ZFIGHMclHRY
+    channelName: Unity
+    description: '* Ben Cousins (CEO, The Outsiders) - Project Wight Demo
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/02CJ/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZFIGHMclHRY/sddefault.jpg
+    - https://i.ytimg.com/vi/ZFIGHMclHRY/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZFIGHMclHRY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZFIGHMclHRY/hqdefault.jpg
+    tags:
+    - The Outsiders
+    - Project Wight
+    - Unite 2016
+    - Unite LA
+    - Unite 16
+    - Ben Cousins
+    viewCount: 17933
+    likeCount: 251
+    dislikeCount: 6
+    commentCount: 13
+    durationInMinutes: 7
+    publishedAtDate: 636153443350000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 Keynote - Platform Growth [2/11]
+    url: https://www.youtube.com/watch?v=J4aE82YLkjc
+    channelName: Unity
+    description: '* John Riccitiello (CEO, Unity Technologies) - Platform growth
+
+      *
+      Leo Olebe (Director, Global Games Partnerships, Facebook) - Facebook Gameroom
+
+      *
+      Xiaomi
+
+      * Nintendo Switch
+
+      * Vuforia
+
+
+      Help us caption &
+      translate this video!
+
+
+      http://amara.org/v/0Whx/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/J4aE82YLkjc/sddefault.jpg
+    - https://i.ytimg.com/vi/J4aE82YLkjc/mqdefault.jpg
+    - https://i.ytimg.com/vi/J4aE82YLkjc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/J4aE82YLkjc/hqdefault.jpg
+    tags:
+    - unity platforms
+    - unite 16
+    - unite keynote
+    - Facebook Gameroom
+    - Xiaomi
+    - Nintendo Switch
+    - Vuforia
+    - Unite 2016 Los Angeles
+    viewCount: 3007
+    likeCount: 44
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 6
+    publishedAtDate: 636150931650000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 Keynote - Performance Optimization, C# Job System Demo  [3/11]
+    url: https://www.youtube.com/watch?v=lHoRY0Mi3kA
+    channelName: Unity
+    description: '* Joachim Ante (CTO, Unity Technologies) - Asset pipeline, build
+      pipeline & on device iteration, engine optimizations, multi-threading, new
+      transform component improvement, C# job system - fish demo
+
+
+      Help us
+      caption & translate this video!
+
+
+      http://amara.org/v/0Whw/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/lHoRY0Mi3kA/sddefault.jpg
+    - https://i.ytimg.com/vi/lHoRY0Mi3kA/mqdefault.jpg
+    - https://i.ytimg.com/vi/lHoRY0Mi3kA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lHoRY0Mi3kA/hqdefault.jpg
+    tags:
+    - Unite 2016
+    - Unite Los Angeles
+    - Unite LA
+    - fish demo
+    - C# job system
+    - multi-threading
+    - multithreading
+    - performance optimization
+    - asset pipeline
+    - build pipeline
+    - new transform component
+    - Unite 2016 Los Angeles
+    viewCount: 37362
+    likeCount: 401
+    dislikeCount: 3
+    commentCount: 52
+    durationInMinutes: 14
+    publishedAtDate: 636150945640000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite 2016 Keynote - Pantheon: Rise of the Fallen (Visionary Realms)
+      Demo [4/11]'
+    url: https://www.youtube.com/watch?v=8GufZvNnq2M
+    channelName: Unity
+    description: '* Brad McQuaid (Chief Creative Officer, Visionary Realms) & Corey
+      LeFever (Sr. Game Designer, Visionary Realms) - Pantheon: Rise of the Fallen
+      demo
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/0XB5/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/8GufZvNnq2M/sddefault.jpg
+    - https://i.ytimg.com/vi/8GufZvNnq2M/mqdefault.jpg
+    - https://i.ytimg.com/vi/8GufZvNnq2M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8GufZvNnq2M/hqdefault.jpg
+    tags:
+    - Unite 2016
+    - Unite LA
+    - Unite Los Angeles
+    - Unity MMO
+    - Visionary Realms
+    - Pantheon demo
+    - Unite 2016 Los Angeles
+    viewCount: 6023
+    likeCount: 69
+    dislikeCount: 4
+    commentCount: 22
+    durationInMinutes: 5
+    publishedAtDate: 636151043530000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 Keynote - Made with Unity, Closing Statements [11/11]
+    url: https://www.youtube.com/watch?v=9_djP-VcJto
+    channelName: Unity
+    description: '*Kat Stafford (VP of Marketing, Unity Technologies) - Made With
+      Unity
+
+      * John Riccitiello (CEO, Unity Technologies) Keynote wrap up
+
+      *Carl
+      Callewaert (Evangelist, Unity Technologies) Closing statement and Job Simulator
+      Unite LA event information
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/02GB/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/9_djP-VcJto/sddefault.jpg
+    - https://i.ytimg.com/vi/9_djP-VcJto/mqdefault.jpg
+    - https://i.ytimg.com/vi/9_djP-VcJto/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9_djP-VcJto/hqdefault.jpg
+    tags:
+    - Made With Unity
+    - Stack
+    - Battle Chef Brigade
+    - CSR 2
+    - Shadow Fight 3
+    - Rec Room
+    - Endless Space 2
+    - Mini Metro
+    - GoNNER
+    - Manifold Garden
+    - Pode
+    - SIlence
+    - P.A.M.E.L.A.
+    - Mr. Catron
+    - Family VR Music Video
+    - Derek Brown's Ghost Train
+    - Octobo
+    - Sequenced
+    - Tilt Brush
+    - Inside
+    - I Expect You to Die
+    - Super Mario Run
+    - Unity
+    - Unity Technologies
+    - MWU
+    - Unite
+    - Unite16
+    - Unite Los Angeles
+    - Unite 2016
+    viewCount: 3264
+    likeCount: 54
+    dislikeCount: 4
+    commentCount: 1
+    durationInMinutes: 8
+    publishedAtDate: 636153475480000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 Keynote - Intro, Collaborate, Connect [1/11]
+    url: https://www.youtube.com/watch?v=pUYmEI26elw
+    channelName: Unity
+    description: '* Made with Unity Highlight Reel
+
+      * John Riccitiello (CEO,
+      Unity Technologies) opening address, graphics quality update, Collaborate open
+      beta
+
+      * Elizabeth Brown (Chief People Officer, Unity Technologies) -
+      Connect open beta'
+    thumbUrls:
+    - https://i.ytimg.com/vi/pUYmEI26elw/sddefault.jpg
+    - https://i.ytimg.com/vi/pUYmEI26elw/mqdefault.jpg
+    - https://i.ytimg.com/vi/pUYmEI26elw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pUYmEI26elw/hqdefault.jpg
+    tags:
+    - unite 16
+    - unite los angeles
+    - unity keynote
+    - unite
+    - connect
+    - collaborate
+    - adam
+    - john riccitiello
+    - Unite 2016 Los Angeles
+    viewCount: 16214
+    likeCount: 212
+    dislikeCount: 5
+    commentCount: 14
+    durationInMinutes: 12
+    publishedAtDate: 636150839140000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 Keynote - Foundation of VR, Google Daydream [9/11]
+    url: https://www.youtube.com/watch?v=0ga_XbGa0ps
+    channelName: Unity
+    description: '* Tony Parisi (Head of AR/VR Strategy, Unity Technologies) - The
+      foundation of VR and AR at Unity
+
+      * Nathan Martz (Lead Product Manager
+      for Daydream Developer Program) - Google Daydream
+
+
+      Help us caption &
+      translate this video!
+
+
+      http://amara.org/v/08NR/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/0ga_XbGa0ps/sddefault.jpg
+    - https://i.ytimg.com/vi/0ga_XbGa0ps/mqdefault.jpg
+    - https://i.ytimg.com/vi/0ga_XbGa0ps/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0ga_XbGa0ps/hqdefault.jpg
+    tags: []
+    viewCount: 1966
+    likeCount: 20
+    dislikeCount: 2
+    commentCount: 6
+    durationInMinutes: 11
+    publishedAtDate: 636155579170000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 Keynote - 5.5 & Beyond, Graphics Demos, Playful Corp Demo [5/11]
+    url: https://www.youtube.com/watch?v=L2PtinXUU4Q
+    channelName: Unity
+    description: "* Filip Iliescu (Strategic Partnership Manager & R&D Developer,
+      Unity Technologies) - Metal for iOS, tvOS, and macOS, Metal instancing demo
+      \n* Lucas Meijer (Technical Director, Unity Technologies) - Artist tooling,
+      Image Sequencer demo\n* Matt Dean (QA STE - Graphics, Unity Technologies) -
+      Post Processing demo\n* Juan Martinez (Technical Artist, Playful Corp) - Progressive
+      light mapper, sneak peek of Playful's next project\n\nHelp us caption & translate
+      this video!\n\nhttp://amara.org/v/0XB4/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/L2PtinXUU4Q/sddefault.jpg
+    - https://i.ytimg.com/vi/L2PtinXUU4Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/L2PtinXUU4Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/L2PtinXUU4Q/hqdefault.jpg
+    tags:
+    - artist workflow
+    - unity
+    - unite 2016
+    - unite la
+    - unity 5.5
+    - metal
+    - post processing
+    - progressive light mapper
+    - Unite 2016 Los Angeles
+    viewCount: 12289
+    likeCount: 148
+    dislikeCount: 2
+    commentCount: 9
+    durationInMinutes: 27
+    publishedAtDate: 636151058600000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 Keynote - 360 Video and EditorVR Demos [10/11]
+    url: https://www.youtube.com/watch?v=M9hcz3DtEtg
+    channelName: Unity
+    description: '* Dioselin Gonzalez (VR Principal Engineer, Unity Technologies)
+      - 360 Video player demo
+
+      * Timoni West (Principal Designer - Labs, Unity
+      Technologies) & Amir Ebrahami (Principal Engineer - Labs, Unity Technologies)
+      - EditorVR demo
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/02CI/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/M9hcz3DtEtg/sddefault.jpg
+    - https://i.ytimg.com/vi/M9hcz3DtEtg/mqdefault.jpg
+    - https://i.ytimg.com/vi/M9hcz3DtEtg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/M9hcz3DtEtg/hqdefault.jpg
+    tags:
+    - unite 2016
+    - unite la
+    - vr
+    - labs
+    - editorvr
+    - 360 video
+    - Unite 2016 Los Angeles
+    viewCount: 27728
+    likeCount: 177
+    dislikeCount: 6
+    commentCount: 20
+    durationInMinutes: 14
+    publishedAtDate: 636153444250000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 Keynote
+    url: https://www.youtube.com/watch?v=h5iBcVYluRs
+    channelName: Unity
+    description: 'Thank you for joining us for a great Unite 16 Los Angeles. Here''s
+      all the news we announced in the opening keynote: http://bit.ly/2f93htL'
+    thumbUrls:
+    - https://i.ytimg.com/vi/h5iBcVYluRs/sddefault.jpg
+    - https://i.ytimg.com/vi/h5iBcVYluRs/mqdefault.jpg
+    - https://i.ytimg.com/vi/h5iBcVYluRs/hqdefault.jpg
+    tags:
+    - Unite 2016
+    - Unite 2016 keynote
+    - Unite LA
+    - Unity (Software)
+    - Unite keynote
+    viewCount: 98879
+    likeCount: 1078
+    dislikeCount: 29
+    commentCount: 114
+    durationInMinutes: 128
+    publishedAtDate: 636136468520000000
+    publisdedDate:
+      year: 2016
+      month: 11
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2015 Keynote - live recording
+    url: https://www.youtube.com/watch?v=usHiDE9aG0I
+    channelName: Unity
+    description: 'Jump to the start: http://www.youtube.com/watch?v=usHiDE9aG0I&t=10m04s
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V627/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/usHiDE9aG0I/sddefault.jpg
+    - https://i.ytimg.com/vi/usHiDE9aG0I/mqdefault.jpg
+    - https://i.ytimg.com/vi/usHiDE9aG0I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/usHiDE9aG0I/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unite 2015
+    - Video Game Development (Industry)
+    - Video Game Development (Conference Subject)
+    - Unity Ads
+    - Unity Cloud Build
+    - Unity Analytics
+    - Made with Unity
+    - Unity Games
+    viewCount: 25902
+    likeCount: 293
+    dislikeCount: 5
+    commentCount: 18
+    durationInMinutes: 141
+    publishedAtDate: 635784714310000000
+    publisdedDate:
+      year: 2015
+      month: 9
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 Highlight Reel
+    url: https://www.youtube.com/watch?v=7766tXOpYI0
+    channelName: Unity
+    description: 'A showcase of some of excellent Unity authored titles, released
+      and upcoming, as shown during the keynote at 2014 in Seattle. Learn more about
+      Unity: http://unity3d.com
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V66u/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/7766tXOpYI0/sddefault.jpg
+    - https://i.ytimg.com/vi/7766tXOpYI0/mqdefault.jpg
+    - https://i.ytimg.com/vi/7766tXOpYI0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7766tXOpYI0/hqdefault.jpg
+    tags: []
+    viewCount: 95761
+    likeCount: 595
+    dislikeCount: 10
+    commentCount: 39
+    durationInMinutes: 4
+    publishedAtDate: 635442741690000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 - Keynote
+    url: https://www.youtube.com/watch?v=9ZGA5NLwy4A
+    channelName: Unity
+    description: "The keynote address from Unity's premier developer conference in
+      Seattle with Unity's co-founders Dav\xED\xF0 Helgason and Joachim Ante, technical
+      director Lucas Meijer, VP Online Services Tod Hooper and lead evangelist Carl
+      Callewaert.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/V66s/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/9ZGA5NLwy4A/sddefault.jpg
+    - https://i.ytimg.com/vi/9ZGA5NLwy4A/mqdefault.jpg
+    - https://i.ytimg.com/vi/9ZGA5NLwy4A/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9ZGA5NLwy4A/hqdefault.jpg
+    tags:
+    - Unite 2014 Seattle
+    - Unity (Software)
+    - Unite 2014
+    - Video Game Development (Industry)
+    - Unity3d
+    - Unity
+    - Unity 5
+    viewCount: 24942
+    likeCount: 147
+    dislikeCount: 1
+    commentCount: 15
+    durationInMinutes: 131
+    publishedAtDate: 635446730010000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 - Keynote
+    url: https://www.youtube.com/watch?v=5RZBxGexCuk
+    channelName: Unity
+    description: "Be sure to catch all the news in the Unite 2014 keynote address
+      with co-founders Dav\xED\xF0 Helgason and Joachim Ante. We will stream the
+      keynote live from Seattle, WA, Wednesday August 20 at 9:00 am PDT / 6:00 pm
+      CET.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/V67G/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/5RZBxGexCuk/sddefault.jpg
+    - https://i.ytimg.com/vi/5RZBxGexCuk/mqdefault.jpg
+    - https://i.ytimg.com/vi/5RZBxGexCuk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5RZBxGexCuk/hqdefault.jpg
+    tags:
+    - Keynote (Type Of Public Presentation)
+    - Unity (Software)
+    viewCount: 58715
+    likeCount: 502
+    dislikeCount: 9
+    commentCount: 45
+    durationInMinutes: 144
+    publishedAtDate: 635441778070000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2013 - Keynote
+    url: https://www.youtube.com/watch?v=2-9S2fNdH6E
+    channelName: Unity
+    description: 'The keynote address from Unity''s premier 2013 developers'' conference
+      with updates on features and services like Unity Cloud (0:39:51),  Unity Games
+      (45:07), GUI (55:15), 2D (58:59), new animation features (1:16:58), Occlusion
+      Culling (1:29:00), MonoDevelop and Shader combinations (1:30:42). Host keynote
+      by Richard Garriott (1:40:13) is included. More info: http://blogs.unity3d.com/?p=12624
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6aN/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/2-9S2fNdH6E/sddefault.jpg
+    - https://i.ytimg.com/vi/2-9S2fNdH6E/mqdefault.jpg
+    - https://i.ytimg.com/vi/2-9S2fNdH6E/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2-9S2fNdH6E/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Software (Industry)
+    - Unite Vancouver 2013
+    - Unity 4.3
+    - Unity Games
+    - 2D
+    - Video Game (Industry)
+    - Unity Cloud
+    - Graphical User Interface (Computing Platform)
+    - 2D games
+    - Mecanim
+    - Computer Animation (Industry)
+    - occlusion culling
+    - Richard Garriott (Video Game Designer)
+    - MonoDevelop
+    - unity3d
+    viewCount: 59989
+    likeCount: 298
+    dislikeCount: 3
+    commentCount: 42
+    durationInMinutes: 125
+    publishedAtDate: 635139056770000000
+    publisdedDate:
+      year: 2013
+      month: 9
+      day: 4
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite 2012 : Keynote - Founders & Peter Molyneux'
+    url: https://www.youtube.com/watch?v=24AY4fJ66xA
+    channelName: Unity
+    description: 'Unite 2012. Unity founders David Helgason, Joachim Ante and Nicholas
+      Francis are joined by Peter Molyneux to give the keynote speech to the assembled
+      crowd in Amsterdam.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6cq/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/24AY4fJ66xA/sddefault.jpg
+    - https://i.ytimg.com/vi/24AY4fJ66xA/mqdefault.jpg
+    - https://i.ytimg.com/vi/24AY4fJ66xA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/24AY4fJ66xA/hqdefault.jpg
+    tags:
+    - unite
+    - unite2012
+    - unity3d
+    - molyneux
+    - keynote
+    - presentation
+    viewCount: 81791
+    likeCount: 467
+    dislikeCount: 36
+    commentCount: 132
+    durationInMinutes: 111
+    publishedAtDate: 634812683400000000
+    publisdedDate:
+      year: 2012
+      month: 8
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite '13 Keynote Live
+    url: https://www.youtube.com/watch?v=gKYrdTZc5YE
+    channelName: Unity
+    description: 'Recording of the Unite 2013 Keynote Live from Vancouver Convention
+      & Exhibition Center.  0:16:15 Keynote starts 0:56:08 Unity Cloud 1:01:22 Unity
+      Games (Publishing) 1:11:30 GUI demo 1:15:13 2D 1:33:10 Animation 1:45:00 Occlusion
+      culling and other improvements 1:56:15 Richard Garriott. More info: http://blogs.unity3d.com/?p=12624
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6a0/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/gKYrdTZc5YE/sddefault.jpg
+    - https://i.ytimg.com/vi/gKYrdTZc5YE/mqdefault.jpg
+    - https://i.ytimg.com/vi/gKYrdTZc5YE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gKYrdTZc5YE/hqdefault.jpg
+    tags:
+    - unite
+    - unity
+    - unity3d
+    - Unity (Software)
+    - keynote
+    - talk
+    - software
+    - Unite Vancouver 2013
+    viewCount: 35758
+    likeCount: 424
+    dislikeCount: 2
+    commentCount: 0
+    durationInMinutes: 142
+    publishedAtDate: 635133327480000000
+    publisdedDate:
+      year: 2013
+      month: 8
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 09   Keynote
+    url: https://www.youtube.com/watch?v=cohynEtjsvI
+    channelName: Unity
+    description: 'Unite 2009 - The Unity founders were joined by Richard Hilleman
+      from Electronic Arts to kick off the Unite ''09 opening keynote.
+
+      The
+      founders of Unity Technologies kicked off Unite ''09 by sharing some truly
+      exciting news about both the company as well as changes to our pricing/licensing
+      that are sure to bring rapid expansion of the Unity community. Following them
+      was Richard Hilleman and John Sousa from Electronic Arts and they shared their
+      vision of where the games industry is headed and how Unity is in position to
+      help developers succeed in the ever changing games space.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/cohynEtjsvI/sddefault.jpg
+    - https://i.ytimg.com/vi/cohynEtjsvI/mqdefault.jpg
+    - https://i.ytimg.com/vi/cohynEtjsvI/hqdefault.jpg
+    tags: []
+    viewCount: 2946
+    likeCount: 44
+    dislikeCount: 6
+    commentCount: 20
+    durationInMinutes: 75
+    publishedAtDate: 636221743920000000
+    publisdedDate:
+      year: 2017
+      month: 2
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Opening Keynote - Unite Europe 2015
+    url: https://www.youtube.com/watch?v=Ub2aezn3Omo
+    channelName: Unity
+    description: 'Unity CEO John Riccitiello kicks off Unite Europe with a talk about
+      how Unity is helping more and more developers achieve creative fulfilment and
+      success. CTO Joachim Ante and Technical Lead Lucas Meijer will deep dive into
+      Unity 5 to reveal how to get even more efficiency and fun out of the latest
+      tech. And co-founder David Helgason will bring his trademark inspiration, insight
+      and fun to the stage.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V638/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Ub2aezn3Omo/sddefault.jpg
+    - https://i.ytimg.com/vi/Ub2aezn3Omo/mqdefault.jpg
+    - https://i.ytimg.com/vi/Ub2aezn3Omo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Ub2aezn3Omo/hqdefault.jpg
+    tags: []
+    viewCount: 7466
+    likeCount: 67
+    dislikeCount: 1
+    commentCount: 2
+    durationInMinutes: 112
+    publishedAtDate: 635709375770000000
+    publisdedDate:
+      year: 2015
+      month: 6
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Mariina Hallikainen on Cities: Skylines - Unite Europe 2015'
+    url: https://www.youtube.com/watch?v=On5iRCYT8QQ
+    channelName: Unity
+    description: 'The CEO of Cities: Skylines developer Colossal Order Mariina Hallikainen
+      delivers the guest keynote at Unite Europe, Unity''s developer''s conference.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V63c/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/On5iRCYT8QQ/sddefault.jpg
+    - https://i.ytimg.com/vi/On5iRCYT8QQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/On5iRCYT8QQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/On5iRCYT8QQ/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - cities Skylines
+    - Paradox Interactive (Video Game Developer)
+    - Colossal Order
+    - Simulation Video Game (Video Game Genre)
+    - Video Game Development (Conference Subject)
+    - UniteEurope15
+    viewCount: 7791
+    likeCount: 133
+    dislikeCount: 2
+    commentCount: 15
+    durationInMinutes: 18
+    publishedAtDate: 635708563520000000
+    publisdedDate:
+      year: 2015
+      month: 6
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Lucas Meijer on Unity Multiplayer, VR and Unity Roadmap - Unite Europe
+      2015
+    url: https://www.youtube.com/watch?v=tUEreuxmBj0
+    channelName: Unity
+    description: 'Technical Director of Unity Technologies talks about Unity 5.1
+      during the Unite Europe 2015 keynote and announces the Unity roadmap: http://unity3d.com/unity/roadmap.
+      More about Unity Multiplayer: http://unity3d.com/services/multiplayer. Unity
+      5.1 also has native support for Oculus Rift and Gear VR: https://unity3d.com/unity/multiplatform/vr-ar
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V63a/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/tUEreuxmBj0/sddefault.jpg
+    - https://i.ytimg.com/vi/tUEreuxmBj0/mqdefault.jpg
+    - https://i.ytimg.com/vi/tUEreuxmBj0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/tUEreuxmBj0/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unity Multiplayer
+    - Unity Networking
+    - Game Engine (Software Genre)
+    - Oculus Rift (Video Game Platform)
+    - Gear VR
+    viewCount: 32959
+    likeCount: 426
+    dislikeCount: 8
+    commentCount: 24
+    durationInMinutes: 17
+    publishedAtDate: 635708562580000000
+    publisdedDate:
+      year: 2015
+      month: 6
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Introduction to Mixed and Augmented Reality Studio (MARS) - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=kJtUwrUh4xs
+    channelName: Unity
+    description: 'Sitting on top of the AR Foundation Framework, MARS allows you
+      to quickly prototype, test, and build rich, deeply interactive apps that truly
+      augment reality. Watch for a deeper dive on the keynote announcement about
+      MARS, including an overview of the product, how it interacts with AR Foundation,
+      and Unity''s product roadmap.
+
+
+      Speakers:
+
+      Andrew Maneri - Unity
+
+      Charles
+      Migos - Unity
+
+      Timoni West - Unity
+
+
+      Build AR applications that
+      intelligently react to, and live in, the real world with MARS: https://on.unity.com/2nZERLW
+
+
+      Slides
+      available here:https://www.slideshare.net/unity3d/mixed-and-augmented-reality-studio-mars-what-you-need-to-know-unite-copenhagen-2019'
+    thumbUrls:
+    - https://i.ytimg.com/vi/kJtUwrUh4xs/sddefault.jpg
+    - https://i.ytimg.com/vi/kJtUwrUh4xs/mqdefault.jpg
+    - https://i.ytimg.com/vi/kJtUwrUh4xs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/kJtUwrUh4xs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - mixed reality
+    - augmented reality
+    - ar
+    viewCount: 8966
+    likeCount: 105
+    dislikeCount: 5
+    commentCount: 10
+    durationInMinutes: 45
+    publishedAtDate: 637056612110000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: FPS Sample reveal - Unite LA 2018 Keynote
+    url: https://www.youtube.com/watch?v=CJrBUm9QZj0
+    channelName: Unity
+    description: "During the Unite LA 2018 keynote we unveiled FPS sample, an example
+      project you can open up right in the editor. FPS Sample demonstrates not just
+      what's capable when creating a fully functioning multiplayer game with Unity,
+      but also how you can go about achieving it yourself. \n\nThe FPS Sample is
+      intended as a source of inspiration and learning for intermediate and experienced
+      developers using Unity 2018.3 or Unity 2018.4 LTS releases. It\u2019s using
+      experimental tech. Please note that the project is not supported and we highly
+      recommend upgrading to latest packages if you wish to use parts of the project
+      as a starting point for your own.\n\nWatch the full Unite Los Angeles 2018
+      keynote: https://youtu.be/alZ6wmwvck0\n\nDownload FPS Sample today: https://unity.com/fps-sample\n\nSpeaker:\nPeter
+      Andreasen (Lead Programmer, Unity)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/CJrBUm9QZj0/sddefault.jpg
+    - https://i.ytimg.com/vi/CJrBUm9QZj0/mqdefault.jpg
+    - https://i.ytimg.com/vi/CJrBUm9QZj0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/CJrBUm9QZj0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 9830
+    likeCount: 343
+    dislikeCount: 5
+    commentCount: 31
+    durationInMinutes: 7
+    publishedAtDate: 636772603650000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Entity Component System (ECS) "Megacity" walkthrough - Unite LA 2018 Keynote
+    url: https://www.youtube.com/watch?v=j4rWfPyf-hk
+    channelName: Unity
+    description: "Megacity is a project built on our data-oriented design tech alongside
+      tons of optimizations we're aiming to bring to Unity in 2019. The results are
+      jaw-dropping.\n\n4.5M Mesh renderers\n200K Unique objects per building \n100K
+      Individual audio sources\n5K Dynamic vehicles\n60 FPS\n\nWOW!!!\n\nWatch the
+      full Unite Los Angeles 2018 keynote: https://youtu.be/alZ6wmwvck0\n\nLearn
+      More: https://unity3d.com/unity/features/job-system-ECS\n\nSpeakers:\nJoachim
+      Ante (Co-founder & CTO, Unity)\nMartin K\xFCmmel (Technical Art Director, Unity)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/j4rWfPyf-hk/sddefault.jpg
+    - https://i.ytimg.com/vi/j4rWfPyf-hk/mqdefault.jpg
+    - https://i.ytimg.com/vi/j4rWfPyf-hk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/j4rWfPyf-hk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 72151
+    likeCount: 1587
+    dislikeCount: 29
+    commentCount: 171
+    durationInMinutes: 12
+    publishedAtDate: 636772592380000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: CineCast live demonstration ft. missharvey and GTFO - Unite LA 2018 Keynote
+    url: https://www.youtube.com/watch?v=HcKviHut6_4
+    channelName: Unity
+    description: "Watch as Counter-Strike 5-time World Champion missharvey live casts
+      an exciting match of GTFO during the Unite LA keynote to demonstrate the power
+      of CineCast. \n\nCineCast creates cinematic movie-like footage in real-time.
+      It dynamically creates cameras which can move, track and compose multiple subjects,
+      evaluate shots, determine the most interesting scenarios and evaluate the cuts
+      between cameras while considering fundamental cinematography rules.\n\nThink
+      of the possibilities for in-game replays, cutscenes and game trailers, and
+      eSports casters. \n\nWatch the full Unite Los Angeles 2018 keynote: https://youtu.be/alZ6wmwvck0\n\nLearn
+      More: https://unity3d.com/cinecast\n\nSpeakers:\nAdam Myhill (Creative Director,
+      Made with Unity)\nSt\xE9phanie Harvey (@missharvey)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/HcKviHut6_4/sddefault.jpg
+    - https://i.ytimg.com/vi/HcKviHut6_4/mqdefault.jpg
+    - https://i.ytimg.com/vi/HcKviHut6_4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HcKviHut6_4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3923
+    likeCount: 59
+    dislikeCount: 11
+    commentCount: 11
+    durationInMinutes: 11
+    publishedAtDate: 636773424610000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Announcing the Universal Game Dev Challenge winners - Unite LA 2018 Keynote
+    url: https://www.youtube.com/watch?v=p9Rsh6IwImg
+    channelName: Unity
+    description: 'Congratulations to Gbanga for the winning entry, Voltron: Cubes
+      of Olkarion!
+
+
+      Watch the full Unite Los Angeles 2018 keynote: https://youtu.be/alZ6wmwvck0
+
+
+      Learn
+      More: https://connect.unity.com/challenges/universal
+
+
+      Speakers:
+
+      Lydia
+      White (Partner Marketing Manager, Unity)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/p9Rsh6IwImg/sddefault.jpg
+    - https://i.ytimg.com/vi/p9Rsh6IwImg/mqdefault.jpg
+    - https://i.ytimg.com/vi/p9Rsh6IwImg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/p9Rsh6IwImg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2876
+    likeCount: 86
+    dislikeCount: 10
+    commentCount: 10
+    durationInMinutes: 3
+    publishedAtDate: 636773441090000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 9
+    YouTubeDataAPI_Cooked: 1

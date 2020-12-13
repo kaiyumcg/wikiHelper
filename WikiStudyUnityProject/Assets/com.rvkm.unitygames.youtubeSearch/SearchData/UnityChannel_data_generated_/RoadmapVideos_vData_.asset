@@ -1,0 +1,820 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
+  m_Name: RoadmapVideos_vData_
+  m_EditorClassIdentifier: 
+  searchName: UnityChannel
+  belongedCategory: RoadmapVideos
+  allVideos:
+  - title: 'What to expect in 2020: Unity roadmap - Unite Copenhagen 2019'
+    url: https://www.youtube.com/watch?v=hRJUt3voDHQ
+    channelName: Unity
+    description: "Hear about Unity's roadmap for 2020 and get an overview of Unity's
+      3-year vision. Learn about upcoming developments for the Data-Oriented Technology
+      Stack (DOTS), graphics, artist tooling, connected games and much more.\n\nSpeaker:
+      Will Goldstone- Unity  \n\nView the slides from this session here: https://www.slideshare.net/unity3d/what-to-expect-in-2020-unity-roadmap-unite-copenhagen-2019\n\nSay
+      hi:\ntwitter.com/unity3d\nfacebook.com/unity3d/\nlinkedin.com/company/unity-technologies/\nhttps://www.instagram.com/unitytechnologies/\nhttps://forum.unity.com/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/hRJUt3voDHQ/sddefault.jpg
+    - https://i.ytimg.com/vi/hRJUt3voDHQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/hRJUt3voDHQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hRJUt3voDHQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity roadmap
+    - unite copenhagen
+    - 3d computer graphics
+    viewCount: 47854
+    likeCount: 954
+    dislikeCount: 14
+    commentCount: 191
+    durationInMinutes: 43
+    publishedAtDate: 637051158590000000
+    publisdedDate:
+      year: 2019
+      month: 9
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity Roadmap 2020: Live Games'
+    url: https://www.youtube.com/watch?v=w6sn8bJiZ2g
+    channelName: Unity
+    description: "This is the second installment of our 2020 roadmap, Unity 2020:
+      Live Games. \n\nWe know you'll have a lot of questions about this roadmap,
+      so we're hosting a Q&A on the Unity forum following the session. Product experts
+      from across Unity will be actively monitoring this thread from Wednesday through
+      Friday. Ask your questions here: https://on.unity.com/3dLD1UD\n\nSlides available
+      here: https://www.slideshare.net/unity3d/unity-roadmap-2020-live-games\n\nCheck
+      out the first installment of the Unity roadmap, Core Engine & Creator Tools:
+      https://youtu.be/dDjsS4NPqFU"
+    thumbUrls:
+    - https://i.ytimg.com/vi/w6sn8bJiZ2g/sddefault.jpg
+    - https://i.ytimg.com/vi/w6sn8bJiZ2g/mqdefault.jpg
+    - https://i.ytimg.com/vi/w6sn8bJiZ2g/maxresdefault.jpg
+    - https://i.ytimg.com/vi/w6sn8bJiZ2g/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity roadmap
+    viewCount: 11141
+    likeCount: 117
+    dislikeCount: 62
+    commentCount: 27
+    durationInMinutes: 16
+    publishedAtDate: 637213752120000000
+    publisdedDate:
+      year: 2020
+      month: 4
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity Roadmap 2020: Core Engine & Creator Tools'
+    url: https://www.youtube.com/watch?v=dDjsS4NPqFU
+    channelName: Unity
+    description: 'This is the first installment of our 2020 roadmap, Unity 2020:
+      Core Engine & Creator Tools.
+
+
+      Speaker: Will Goldstone, Product Design
+      Lead for Workflow.
+
+
+      We know you''ll have a lot of questions about this
+      roadmap, so we''re hosting a Q&A on the Unity forum following the session.
+      Product experts from across Unity will be actively monitoring this thread from
+      Wednesday morning through Friday. Ask your questions here:  https://on.unity.com/CreateRoadmapQA
+
+
+      Slides
+      from this talk are available here: https://www.slideshare.net/unity3d/unity-roadmap-2020-core-engine-creator-tools
+
+
+      You
+      can watch the second installment, Live Games, here: https://youtu.be/w6sn8bJiZ2g'
+    thumbUrls:
+    - https://i.ytimg.com/vi/dDjsS4NPqFU/sddefault.jpg
+    - https://i.ytimg.com/vi/dDjsS4NPqFU/mqdefault.jpg
+    - https://i.ytimg.com/vi/dDjsS4NPqFU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/dDjsS4NPqFU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity roadmap
+    - unity 2020
+    - unity 2020.1
+    - unity game engine
+    - game engine
+    viewCount: 64655
+    likeCount: 1737
+    dislikeCount: 29
+    commentCount: 213
+    durationInMinutes: 50
+    publishedAtDate: 637207704090000000
+    publisdedDate:
+      year: 2020
+      month: 3
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Roadmap - Unite Europe 2015
+    url: https://www.youtube.com/watch?v=4ugiHpo34Ok
+    channelName: Unity
+    description: 'The traditional talk on Unity''s plans for the future, with questions
+      from the audience. Unity''s Roadmap is now also online: http://unity3d.com/unity/roadmap/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V633/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/4ugiHpo34Ok/sddefault.jpg
+    - https://i.ytimg.com/vi/4ugiHpo34Ok/mqdefault.jpg
+    - https://i.ytimg.com/vi/4ugiHpo34Ok/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4ugiHpo34Ok/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unity 5
+    - Unity Roadmap
+    - Game Engine
+    - Video Game Development (Industry)
+    - Unite Europe
+    - Unite 2015
+    - Technology Roadmap
+    viewCount: 5110
+    likeCount: 60
+    dislikeCount: 4
+    commentCount: 14
+    durationInMinutes: 52
+    publishedAtDate: 635709339380000000
+    publisdedDate:
+      year: 2015
+      month: 6
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Open Projects (Launch Trailer)
+    url: https://www.youtube.com/watch?v=jrQimv_7gcc
+    channelName: Unity
+    description: "Welcome to Open Projects, an open-source initiative where we will
+      expose the game development journey as it unfolds, and welcome you to the team
+      as an active participant.\n\n\u2B50 Join the Open Projects forum! https://on.unity.com/35UzPEp\n\u2B50
+      Github repository for Project #1: https://on.unity.com/3kBcCLD\n\u2B50 Check
+      out the roadmap for Project #1! https://on.unity.com/3hMBH4F\n\nWe are looking
+      forward to seeing what you will create!  \u2764\uFE0F"
+    thumbUrls:
+    - https://i.ytimg.com/vi/jrQimv_7gcc/sddefault.jpg
+    - https://i.ytimg.com/vi/jrQimv_7gcc/mqdefault.jpg
+    - https://i.ytimg.com/vi/jrQimv_7gcc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/jrQimv_7gcc/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity open source
+    - unity open projects
+    - unity team
+    - gamedev open source
+    - gamedev open
+    - unity forums
+    - unity tutorial
+    - unity game
+    - unity 2020
+    - unity project
+    - unity open game
+    - community game
+    - game demo
+    - git
+    - github
+    - open-source
+    viewCount: 61666
+    likeCount: 4101
+    dislikeCount: 40
+    commentCount: 274
+    durationInMinutes: 2
+    publishedAtDate: 637370928200000000
+    publisdedDate:
+      year: 2020
+      month: 9
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity for film and animation: product roadmap and Q&A - Unite LA'
+    url: https://www.youtube.com/watch?v=F7svcgxiAT4
+    channelName: Unity
+    description: 'If you are or will be using Unity for film, you won''t want to
+      miss this. Hear an overview of upcoming features, enhancements, packages, templates
+      and integrations, the different types of solutions Unity offers for film and
+      animation, and a Q&A.
+
+
+      Speaker: Mathieu Muller, Sr. Technical Product
+      Manager for Film (Unity Technologies)
+
+
+      Learn more: https://unity.com/solutions/film
+
+
+      Help
+      us caption & translate this video!
+
+
+      https://amara.org/v/oLGC/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/F7svcgxiAT4/sddefault.jpg
+    - https://i.ytimg.com/vi/F7svcgxiAT4/mqdefault.jpg
+    - https://i.ytimg.com/vi/F7svcgxiAT4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/F7svcgxiAT4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 9238
+    likeCount: 134
+    dislikeCount: 1
+    commentCount: 9
+    durationInMinutes: 46
+    publishedAtDate: 636794748030000000
+    publisdedDate:
+      year: 2018
+      month: 12
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 2020.1 is now available
+    url: https://www.youtube.com/watch?v=yYjqJvd8lQI
+    channelName: Unity
+    description: "This TECH release brings performance and workflow updates to innovative
+      creators. If your project is beyond the prototyping phase, we recommend you
+      use the latest Long-Term Support (LTS) version of Unity, Unity 2019 LTS. \n\nLearn
+      more: https://on.unity.com/2ZViI2a\nWhat's new in Unity 2020.1: https://on.unity.com/2WPMfrT"
+    thumbUrls:
+    - https://i.ytimg.com/vi/yYjqJvd8lQI/sddefault.jpg
+    - https://i.ytimg.com/vi/yYjqJvd8lQI/mqdefault.jpg
+    - https://i.ytimg.com/vi/yYjqJvd8lQI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/yYjqJvd8lQI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2020
+    - unity 2020 update
+    - unity 2020.1
+    - unity 2020 trailer
+    - unity 2020 changes
+    - unity 2020 download
+    - unity engine
+    - unity news
+    - unity 2020 news
+    - unity 2020.1 release
+    - unity 2020.1 available
+    - unity 2020 visual
+    - unity 2020 2d
+    - unity 2020 release
+    - unity 2020.1 download
+    - unity 2020.1 released
+    - unity 2020.1 tutorial
+    - unity2020.1
+    - unity 2020 roadmap
+    - unity 2020 game
+    - unity 2020 beta
+    viewCount: 362112
+    likeCount: 12547
+    dislikeCount: 186
+    commentCount: 1046
+    durationInMinutes: 2
+    publishedAtDate: 637311278780000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 2019 R&D Roadmap - Unite LA
+    url: https://www.youtube.com/watch?v=o_DOrBpOvG0
+    channelName: Unity
+    description: "A walkthrough of the roadmap for future Unity features and enhancements
+      in the upcoming 2018.3 release and 2019 cycle. Get up to speed on the latest
+      developments in ECS, the improved prefabs workflows, terrain editor, VFX editor,
+      connected games, and much more. \n\nSlides: https://on.unity.com/2DoNdDq\n\nSpeakers:\nWill
+      Goldstone (Product Manager, Unity)\nStine Kj\xE6rb\xF8ll (Product  Manager,
+      Unity)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/o_DOrBpOvG0/sddefault.jpg
+    - https://i.ytimg.com/vi/o_DOrBpOvG0/mqdefault.jpg
+    - https://i.ytimg.com/vi/o_DOrBpOvG0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/o_DOrBpOvG0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 28237
+    likeCount: 499
+    dislikeCount: 13
+    commentCount: 114
+    durationInMinutes: 45
+    publishedAtDate: 636771200530000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2017 - Unity Roadmap
+    url: https://www.youtube.com/watch?v=IqD88cPHbdU
+    channelName: Unity
+    description: "Are you curious to see what the future of Unity holds? At Unite
+      Europe we walked our attendees through our roadmap for future features and
+      enhancements. \n\nFor more information on Unite Europe and future Unite events
+      visit this page. https://unite.unity.com/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/IqD88cPHbdU/sddefault.jpg
+    - https://i.ytimg.com/vi/IqD88cPHbdU/mqdefault.jpg
+    - https://i.ytimg.com/vi/IqD88cPHbdU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IqD88cPHbdU/hqdefault.jpg
+    tags:
+    - Unite Europe 2017
+    - unity
+    - unity3d
+    - gamedev
+    - indiedev
+    - game engine
+    - road map
+    viewCount: 7266
+    likeCount: 90
+    dislikeCount: 5
+    commentCount: 14
+    durationInMinutes: 66
+    publishedAtDate: 636353436010000000
+    publisdedDate:
+      year: 2017
+      month: 7
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Roadmap
+    url: https://www.youtube.com/watch?v=CWgi6hE26ig
+    channelName: Unity
+    description: "Dive into Unity's roadmap for future features and enhancements
+      in the 2018 cycle. From our Next-Level Rendering to C# Job System, Machine
+      Learning, new platforms, and much more. You\u2019ll learn when you can expect
+      new features and functionality to be released and also have the opportunity
+      to ask questions. \n\nPresentation: https://oc.unity3d.com/index.php/s/E2ZBeaovWamDRdo\n\nSpeakers:\nWill
+      Goldstone (Product Manager, Unity)\nStine Kj\xE6rb\xF8ll (Product Manager,
+      Unity)\n\nhttps://unite.unity.com/2018/berlin"
+    thumbUrls:
+    - https://i.ytimg.com/vi/CWgi6hE26ig/sddefault.jpg
+    - https://i.ytimg.com/vi/CWgi6hE26ig/mqdefault.jpg
+    - https://i.ytimg.com/vi/CWgi6hE26ig/maxresdefault.jpg
+    - https://i.ytimg.com/vi/CWgi6hE26ig/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 18636
+    likeCount: 243
+    dislikeCount: 5
+    commentCount: 51
+    durationInMinutes: 42
+    publishedAtDate: 636667470010000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - An Introduction to Lightmapping in Unity
+    url: https://www.youtube.com/watch?v=tN33YqhfVtI
+    channelName: Unity
+    description: "Slides: https://www.slideshare.net/unity3d/progressive-lightmapper-an-introduction-to-lightmapping-in-unity
+      \nGet an intro to the basics of lightmapping and the Progressive Lightmapper,
+      and learn how to address and solve the most common issues our users experience.
+      We also dig into the future roadmap for lightmapping in Unity.\n\nSpeakers:\nTobias
+      Alexander Franke (Unity Technologies)\nKuba Cupisz (Unity Technologies)\n\nhttps://unite.unity.com/2018/berlin/\n\n(Unfortunately,
+      we were unable to fix the stuttering in this video but the talk is great and
+      we wanted to share it regardless! Thank you for understanding.)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/tN33YqhfVtI/sddefault.jpg
+    - https://i.ytimg.com/vi/tN33YqhfVtI/mqdefault.jpg
+    - https://i.ytimg.com/vi/tN33YqhfVtI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/tN33YqhfVtI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 13267
+    likeCount: 260
+    dislikeCount: 2
+    commentCount: 19
+    durationInMinutes: 47
+    publishedAtDate: 636691608050000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2016 - Unity Roadmap Session
+    url: https://www.youtube.com/watch?v=ASJiFbLJt7M
+    channelName: Unity
+    description: "The traditional talk on Unity's plans for the future, with questions
+      from the audience. Keep an eye on our public roadmap for up to date info: https://unity3d.com/unity/roadmap\n\nLucas
+      Meijer - Unity Technologies \nJoachim Ante - Unity Technologies"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ASJiFbLJt7M/sddefault.jpg
+    - https://i.ytimg.com/vi/ASJiFbLJt7M/mqdefault.jpg
+    - https://i.ytimg.com/vi/ASJiFbLJt7M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ASJiFbLJt7M/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unite 2016
+    - Unite LA
+    - Unite 2016 Los Angeles
+    - Unity Roadmap
+    viewCount: 7718
+    likeCount: 123
+    dislikeCount: 1
+    commentCount: 6
+    durationInMinutes: 92
+    publishedAtDate: 636162034090000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2015 - Roadmap / Wishlist
+    url: https://www.youtube.com/watch?v=dxsy5nYImpY
+    channelName: Unity
+    description: 'The traditional talk on Unity''s plans for the future, with questions
+      from the audience. Check out our public roadmap for more details: http://unity3d.com/unity/roadmap
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V61U/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/dxsy5nYImpY/sddefault.jpg
+    - https://i.ytimg.com/vi/dxsy5nYImpY/mqdefault.jpg
+    - https://i.ytimg.com/vi/dxsy5nYImpY/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Video Game (Industry)
+    - Video Game Development
+    - Unite 2015 Boston
+    - Technology Roadmap
+    viewCount: 5474
+    likeCount: 62
+    dislikeCount: 3
+    commentCount: 12
+    durationInMinutes: 73
+    publishedAtDate: 635815555880000000
+    publisdedDate:
+      year: 2015
+      month: 10
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2015 - Roadmap
+    url: https://www.youtube.com/watch?v=TdC8nH_vH3M
+    channelName: Unity
+    description: 'The traditional talk on Unity''s plans for the future, with questions
+      from the audience. Check out our public roadmap for more details: http://unity3d.com/unity/roadmap.
+      Final edit of this video: https://www.youtube.com/watch?v=dxsy5nYImpY
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V62Z/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/TdC8nH_vH3M/sddefault.jpg
+    - https://i.ytimg.com/vi/TdC8nH_vH3M/mqdefault.jpg
+    - https://i.ytimg.com/vi/TdC8nH_vH3M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TdC8nH_vH3M/hqdefault.jpg
+    tags:
+    - Unite 2015 Boston
+    - Unity (Software)
+    viewCount: 8171
+    likeCount: 102
+    dislikeCount: 4
+    commentCount: 20
+    durationInMinutes: 73
+    publishedAtDate: 635792446050000000
+    publisdedDate:
+      year: 2015
+      month: 9
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 - The State of the Unity Community
+    url: https://www.youtube.com/watch?v=wuO1OLLpJ7M
+    channelName: Unity
+    description: 'Aurore Dimopoulos, Joe Robins and Will Goldstone discuss the state
+      of the Community, our roadmap for online tools and make your views heard as
+      to what you like and dislike about our engagement with you!
+
+
+      Help us
+      caption & translate this video!
+
+
+      http://amara.org/v/V664/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/wuO1OLLpJ7M/sddefault.jpg
+    - https://i.ytimg.com/vi/wuO1OLLpJ7M/mqdefault.jpg
+    - https://i.ytimg.com/vi/wuO1OLLpJ7M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wuO1OLLpJ7M/hqdefault.jpg
+    tags:
+    - Community (Website Category)
+    - Unity (Software)
+    - Unite 2014 Seattle
+    viewCount: 1036
+    likeCount: 8
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 59
+    publishedAtDate: 635447443100000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: 'The Journey: Ep. 3 | Open Projects'
+    url: https://www.youtube.com/watch?v=0lhLLnKitSI
+    channelName: Unity
+    description: "The journey continues! Join our EMEA Creator Advocacy team for
+      a progress update on the first Open Project. In this episode, we'll reveal
+      the title of the game (chosen by the community), see how the graphics for the
+      game are coming together, talk about new game systems in development and, finally,
+      reveal new tasks that you can take on.\n\n\u2B50 Join the Open Projects forum!
+      https://on.unity.com/35UzPEp\n\u2B50 Github repository for Project #1: https://on.unity.com/3kBcCLD\n\u2B50
+      Check out the roadmap for Project #1! https://on.unity.com/3hMBH4F\n\n00:00
+      - Pre-stream\n02:33 - Stream starts and intro to Open Projects\n09:11 - In
+      previous episodes...\n20:55 - Game design and progression\n34:10 - The Input
+      system\n45:39 - Cutscene and Dialogues\n53:28 - Custom Timeline track\n01:02:33
+      - Where are you from?\n01:05:37 - Localising the game\n01:39:04 - Community
+      contributions\n01:48:47 - Graphic updates and the big merge\n01:59:04 - Roadmap
+      and new tasks\n02:07:11 - TITLE REVEAL!!\n02:16:49 - Outro\n02:22:21 - Stream
+      ends"
+    thumbUrls:
+    - https://i.ytimg.com/vi/0lhLLnKitSI/sddefault.jpg
+    - https://i.ytimg.com/vi/0lhLLnKitSI/mqdefault.jpg
+    - https://i.ytimg.com/vi/0lhLLnKitSI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0lhLLnKitSI/hqdefault.jpg
+    tags: []
+    viewCount: 22640
+    likeCount: 684
+    dislikeCount: 16
+    commentCount: 29
+    durationInMinutes: 152
+    publishedAtDate: 637406602490000000
+    publisdedDate:
+      year: 2020
+      month: 11
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Publishing your Unity content to the Web with WebGL - Unite Europe 2015
+    url: https://www.youtube.com/watch?v=RufJDxm6Lq8
+    channelName: Unity
+    description: 'Unity engineer Jonas Echterhoff talks about the current state of
+      WebGL tools in Unity, gives tips for browser game developers and shares the
+      roadmap of his team.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V63f/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/RufJDxm6Lq8/sddefault.jpg
+    - https://i.ytimg.com/vi/RufJDxm6Lq8/mqdefault.jpg
+    - https://i.ytimg.com/vi/RufJDxm6Lq8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/RufJDxm6Lq8/hqdefault.jpg
+    tags:
+    - WebGL
+    - Browser Game (Video Game Genre)
+    - Unity (Software)
+    viewCount: 8164
+    likeCount: 77
+    dislikeCount: 3
+    commentCount: 9
+    durationInMinutes: 32
+    publishedAtDate: 635708567080000000
+    publisdedDate:
+      year: 2015
+      month: 6
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Project Tiny overview and roadmap - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=kNK_niBNkMY
+    channelName: Unity
+    description: "Project Tiny is our first implementation of the \u201Cpure\u201D
+      DOTS runtime, targeting web and mobile. It lets you create games that load
+      instantly and have a small runtime footprint. In this video, you'll learn about
+      Project Tiny, its current status, and what's coming in our future roadmap.\n\nShare
+      feedback and comments on the Project Tiny Forum: https://on.unity.com/358wv67"
+    thumbUrls:
+    - https://i.ytimg.com/vi/kNK_niBNkMY/sddefault.jpg
+    - https://i.ytimg.com/vi/kNK_niBNkMY/mqdefault.jpg
+    - https://i.ytimg.com/vi/kNK_niBNkMY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/kNK_niBNkMY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 9829
+    likeCount: 162
+    dislikeCount: 6
+    commentCount: 22
+    durationInMinutes: 45
+    publishedAtDate: 637060846910000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Product roadmap for AR Foundation - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=UkBXOff8Efo
+    channelName: Unity
+    description: 'Learn about the latest developments in AR Foundation, the Unity
+      framework purpose-built for augmented reality (AR) development that lets you
+      build your app once and deploy across mobile and wearable AR platforms. Hear
+      about the roadmap for AR Foundation and what''s in the works.
+
+
+      Speakers:
+
+      Mike
+      Durand - Unity
+
+      Matt Fuad - Unity
+
+
+      Take advantage of a unified
+      workflow: https://on.unity.com/2naSoAq
+
+
+      Slides available here: https://www.slideshare.net/unity3d/ar-foundation-framework-product-roadmap-unite-copenhagen-2019'
+    thumbUrls:
+    - https://i.ytimg.com/vi/UkBXOff8Efo/sddefault.jpg
+    - https://i.ytimg.com/vi/UkBXOff8Efo/mqdefault.jpg
+    - https://i.ytimg.com/vi/UkBXOff8Efo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/UkBXOff8Efo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - ar
+    - augmented reality
+    viewCount: 5324
+    likeCount: 106
+    dislikeCount: 0
+    commentCount: 6
+    durationInMinutes: 45
+    publishedAtDate: 637056612040000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Devlog 1: How we built the toon shading | Open Projects'
+    url: https://www.youtube.com/watch?v=GGTTHOpUQDE
+    channelName: Unity
+    description: "Open Projects are small, open-source games where the community
+      of creators is free to collaborate and contribute actively to the entire game
+      development journey. In this first devlog, we're going to discover the ideas
+      and the process behind the cartoon look we developed in the first Open Project,
+      an action-adventure game titled \"Chop Chop\".\n\n\u2B50  Join the Open Projects
+      forum! https://on.unity.com/35UzPEp\n\u2B50  Github repository for Project
+      #1: https://on.unity.com/3kBcCLD\n\u2B50  Check out the roadmap for Project
+      #1! https://on.unity.com/3hMBH4F\n\n\U0001F517 Get the demo assets used in
+      this video on the Github branch:\nhttps://github.com/UnityTechnologies/open-project-1/tree/devlogs/1-toon-shading\n(compatible
+      with Unity 2020.2b and later)\n\n0:00 - Open Project #1: \"Chop Chop\"\n1:12
+      - Developing the toon look\n6:18 - Rendering the outline\n7:39 - Next steps"
+    thumbUrls:
+    - https://i.ytimg.com/vi/GGTTHOpUQDE/sddefault.jpg
+    - https://i.ytimg.com/vi/GGTTHOpUQDE/mqdefault.jpg
+    - https://i.ytimg.com/vi/GGTTHOpUQDE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GGTTHOpUQDE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - shader graph
+    - shaders
+    - toon
+    viewCount: 19664
+    likeCount: 1064
+    dislikeCount: 8
+    commentCount: 93
+    durationInMinutes: 10
+    publishedAtDate: 637412510430000000
+    publisdedDate:
+      year: 2020
+      month: 11
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Autonomous vehicle development with Unity - Unite LA | AutoTech Summit
+    url: https://www.youtube.com/watch?v=EP_Wj09Z8H0
+    channelName: Unity
+    description: 'Jose De Oliveira, who heads up Unity''s Autonomous Vehicles Strategy,
+      reveals our roadmap to leverage the leading 3D real-time rendering engine for
+      creating a simulation and visualization framework for automotive projects.
+      In particular, he will focus on how Unity is ideal for supporting the development
+      of autonomous vehicle technologies and processes.
+
+
+      Speaker:
+
+      Jose
+      De Oliveira (Unity Technologies)
+
+
+      Learn more about Unity for Automotive:
+      https://unity.com/solutions/automotive-transportation
+
+
+      Help us caption
+      & translate this video!
+
+
+      https://amara.org/v/oLGT/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/EP_Wj09Z8H0/sddefault.jpg
+    - https://i.ytimg.com/vi/EP_Wj09Z8H0/mqdefault.jpg
+    - https://i.ytimg.com/vi/EP_Wj09Z8H0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/EP_Wj09Z8H0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Event
+    - Automotive
+    viewCount: 4772
+    likeCount: 66
+    dislikeCount: 3
+    commentCount: 2
+    durationInMinutes: 41
+    publishedAtDate: 636791220010000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 29
+    YouTubeDataAPI_Cooked: 1

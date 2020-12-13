@@ -12,6 +12,2954 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: AI_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: AI
+  allVideos:
+  - title: Your First Game Jam with LEGO | Livestream
+    url: https://www.youtube.com/watch?v=pq_hjSUbrXs
+    channelName: Unity
+    description: "Want to use the Danger Zone LEGO\xAE Microgame Add-On asset we
+      used during the Jam? Get it for free here: https://on.unity.com/3kegXEa\n\nIn
+      this live event, we will be taking you through the all new LEGO Microgame available
+      on Unity and showing you some of the fun things you can do with it.\n\nWe will
+      have special guests joining us from the Unity community and from LEGO to help
+      guide you through this fun adventure.\n\nTo get the most out of this Game Jam,
+      make sure to download all the assets required to participate alongside the
+      live event.\n\nContinue the Learning Fun with our LEGO Live Learning Series
+      here:\nhttps://on.unity.com/3m4fcLp\n\nHosts:\n\u2B50 Ashley Alicea, Unity
+      - https://twitter.com/avashly\n\u2B50 Carol Trang, Unity - https://twitter.com/AskAlicePlease\n\u2B50
+      Joyce Plokker, MinionsArt - https://twitter.com/minionsart\n\u2B50 Anders Tankred
+      Holm, LEGO - https://twitter.com/atholm\n\n================================\n\u2714\uFE0F
+      Core Set Up\nSet up Unity and the LEGO Microgame on your computer\nhttps://on.unity.com/36qwHPp\n\nIf
+      you have questions, reach out to us in the GameJam chat on Discord https://discord.com/invite/unity\n================================\n\nFAQs:\nQ:
+      Do I need any Unity or programming experience to attend?\nA: Nope! This jam
+      is for people who are new to Unity. We just ask that you arrive ready to jam
+      (see above).\n\nQ: What are the system requirements to install Unity?\nA: https://on.unity.com/3fzPkUs\n\nQ:
+      How long is the jam?\nA: We\u2019ll be jamming for about 2-2.5 hours. Of course,
+      you\u2019re free to pop in and out. We\u2019ll do our best to make sure it\u2019s
+      easy for people to just jump right back in with us!\n\nQ: Will it be recorded/published?\nA:
+      Yes! The stream will be converted to a video once it ends, so you can review
+      it at any time. If you missed it live, you can watch it at your convenience.\n\nQ:
+      What is a game jam?\nA: This game jam is unique because it\u2019s hosted online,
+      it\u2019s for beginners, we\u2019re using a game template, it\u2019s short,
+      and we (pretty much) know what we\u2019re going to show you. A \u201Ctraditional\u201D
+      game jam is an in-person event where you would typically gather with more experienced
+      programmers, game designers, artists, etc. to create a game or project from
+      scratch within a time span averaging 24\u201372 hours."
+    thumbUrls:
+    - https://i.ytimg.com/vi/pq_hjSUbrXs/sddefault.jpg
+    - https://i.ytimg.com/vi/pq_hjSUbrXs/mqdefault.jpg
+    - https://i.ytimg.com/vi/pq_hjSUbrXs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pq_hjSUbrXs/hqdefault.jpg
+    tags: []
+    viewCount: 12584
+    likeCount: 529
+    dislikeCount: 16
+    commentCount: 26
+    durationInMinutes: 148
+    publishedAtDate: 637414368470000000
+    publisdedDate:
+      year: 2020
+      month: 11
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Working Faster and Smarter with Mecanim in Unity 5 - Unite Europe 2015
+    url: https://www.youtube.com/watch?v=aI0indH8lrw
+    channelName: Unity
+    description: 'David Geoffroy (Unity Technologies)  shows you how to simplify
+      your animation logic with State Machine Behaviours and State Machine Transitions,
+      new mecanim features in Unity 5.0. As a bonus, this presentation will also
+      show a sneak peak of the upcoming graph API. talks about state machine behaviours
+      and state machine transitions.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V62m/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/aI0indH8lrw/sddefault.jpg
+    - https://i.ytimg.com/vi/aI0indH8lrw/mqdefault.jpg
+    - https://i.ytimg.com/vi/aI0indH8lrw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/aI0indH8lrw/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Mecanim
+    - Character Animation (Field Of Study)
+    - Game Animation
+    - Unity 5
+    - Unite Europe 2015
+    viewCount: 5040
+    likeCount: 48
+    dislikeCount: 19
+    commentCount: 9
+    durationInMinutes: 31
+    publishedAtDate: 635736111780000000
+    publisdedDate:
+      year: 2015
+      month: 7
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: "What's New in PhysX 3.4.2 in Unity 2018.3? \u2013 Physics Upgrade"
+    url: https://www.youtube.com/watch?v=WOdWCzC7IMk
+    channelName: Unity
+    description: "Learn more about PhysX 3.4.2 here: https://ole.unity.com/physx3-4-2\n\nThe
+      main change Unity 2018.3 brings to physics is the 3D physics engine upgrade,
+      which is upgraded to PhysX 3.4.2. We aim to improve performance and stability
+      and make it extremely easy for you to upgrade your project. \n\nWatch this
+      video to learn more about the upgrade, changes, and new features related to
+      working with physics in 2018.3.\n\nAssets used in this video: \nPool Table
+      Pack by POLYSQUID: https://assetstore.unity.com/packages/3d/props/pool-table-pack-67378\nPinball
+      Machine by Z3NDER: https://assetstore.unity.com/packages/3d/pinball-machine-78619"
+    thumbUrls:
+    - https://i.ytimg.com/vi/WOdWCzC7IMk/sddefault.jpg
+    - https://i.ytimg.com/vi/WOdWCzC7IMk/mqdefault.jpg
+    - https://i.ytimg.com/vi/WOdWCzC7IMk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/WOdWCzC7IMk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2018.3
+    - unity 2018.3 physics
+    - unity physics
+    - unity physx. unity physics upgrade
+    - unity physx update
+    - unity new physics
+    - unity 2019 physics
+    - unity 2019 graphics
+    - unity3d
+    - game engine
+    - unity graphics
+    - make a game
+    - indiedev
+    - gamedev
+    - fps
+    - sample
+    - fps sample
+    - unity fps
+    - unity 2018.3 release video
+    - 'unity 2018.3: new features and improvements'
+    - unity 2019
+    - unity news
+    - unity new
+    - unity 3d
+    - unity 2d
+    viewCount: 42556
+    likeCount: 1311
+    dislikeCount: 42
+    commentCount: 101
+    durationInMinutes: 3
+    publishedAtDate: 636832098110000000
+    publisdedDate:
+      year: 2019
+      month: 1
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity ML-Agents Environment - SoccerTwos
+    url: https://www.youtube.com/watch?v=Hg3nmYD3DjQ
+    channelName: Unity
+    description: 'Unity Machine Learning Agents environment with ML-Agents v0.3.
+      More info: https://blogs.unity3d.com/2018/03/15/ml-agents-v0-3-beta-released-imitation-learning-feedback-driven-features-and-more/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Hg3nmYD3DjQ/sddefault.jpg
+    - https://i.ytimg.com/vi/Hg3nmYD3DjQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/Hg3nmYD3DjQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Hg3nmYD3DjQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 22132
+    likeCount: 336
+    dislikeCount: 8
+    commentCount: 36
+    durationInMinutes: 0
+    publishedAtDate: 636568144220000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity ML-Agents Environment - Hallway
+    url: https://www.youtube.com/watch?v=53GyfpPQRUQ
+    channelName: Unity
+    description: 'New Machine Learning Agents environment with ML-Agents v0.3. More
+      info: https://blogs.unity3d.com/2018/03/15/ml-agents-v0-3-beta-released-imitation-learning-feedback-driven-features-and-more/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/53GyfpPQRUQ/sddefault.jpg
+    - https://i.ytimg.com/vi/53GyfpPQRUQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/53GyfpPQRUQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/53GyfpPQRUQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3753
+    likeCount: 39
+    dislikeCount: 1
+    commentCount: 0
+    durationInMinutes: 0
+    publishedAtDate: 636568139910000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity ML-Agents Environment - Bouncer
+    url: https://www.youtube.com/watch?v=Tkv-c-b1b2I
+    channelName: Unity
+    description: 'New Machine Learning Agents environment with ML-Agents v0.3. More
+      info: https://blogs.unity3d.com/2018/03/15/ml-agents-v0-3-beta-released-imitation-learning-feedback-driven-features-and-more/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Tkv-c-b1b2I/sddefault.jpg
+    - https://i.ytimg.com/vi/Tkv-c-b1b2I/mqdefault.jpg
+    - https://i.ytimg.com/vi/Tkv-c-b1b2I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Tkv-c-b1b2I/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2384
+    likeCount: 26
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 0
+    publishedAtDate: 636568138720000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity ML-Agents Environment - Banana Collectors
+    url: https://www.youtube.com/watch?v=heVMs3t9qSk
+    channelName: Unity
+    description: 'New Machine Learning Agents environment with ML-Agents v0.3. More
+      info: https://blogs.unity3d.com/2018/03/15/ml-agents-v0-3-beta-released-imitation-learning-feedback-driven-features-and-more/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/heVMs3t9qSk/sddefault.jpg
+    - https://i.ytimg.com/vi/heVMs3t9qSk/mqdefault.jpg
+    - https://i.ytimg.com/vi/heVMs3t9qSk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/heVMs3t9qSk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 4419
+    likeCount: 30
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 0
+    publishedAtDate: 636568138030000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Machine Learning Agents
+    url: https://www.youtube.com/watch?v=tmoz3ojbTn0
+    channelName: Unity
+    description: 'Unity Machine Learning Agents is our first step towards enabling
+      machine learning researchers with the most powerful training scenarios, while
+      also allowing us to give back to the gaming community by enabling them to utilize
+      the latest machine learning technologies.
+
+
+      Learn more: https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/tmoz3ojbTn0/sddefault.jpg
+    - https://i.ytimg.com/vi/tmoz3ojbTn0/mqdefault.jpg
+    - https://i.ytimg.com/vi/tmoz3ojbTn0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/tmoz3ojbTn0/hqdefault.jpg
+    tags:
+    - Unity
+    - Unity 3D
+    - Machine Learning
+    - AI
+    viewCount: 37018
+    likeCount: 304
+    dislikeCount: 8
+    commentCount: 15
+    durationInMinutes: 2
+    publishedAtDate: 636414595520000000
+    publisdedDate:
+      year: 2017
+      month: 9
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Machine Learning - Reinforcement Learning Demo
+    url: https://www.youtube.com/watch?v=fiQsmdwEGT8
+    channelName: Unity
+    description: 
+    thumbUrls:
+    - https://i.ytimg.com/vi/fiQsmdwEGT8/mqdefault.jpg
+    - https://i.ytimg.com/vi/fiQsmdwEGT8/hqdefault.jpg
+    tags: []
+    viewCount: 74614
+    likeCount: 574
+    dislikeCount: 20
+    commentCount: 74
+    durationInMinutes: 1
+    publishedAtDate: 636344460550000000
+    publisdedDate:
+      year: 2017
+      month: 6
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Machine Learning - Demo "3DBall"
+    url: https://www.youtube.com/watch?v=fq0JBaiCYNA
+    channelName: Unity
+    description: This demo showcases "Simultaneous Single-Agent" training. Where
+      multiple independent agents with independent reward functions linked to a single
+      brain.
+    thumbUrls:
+    - https://i.ytimg.com/vi/fq0JBaiCYNA/sddefault.jpg
+    - https://i.ytimg.com/vi/fq0JBaiCYNA/mqdefault.jpg
+    - https://i.ytimg.com/vi/fq0JBaiCYNA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/fq0JBaiCYNA/hqdefault.jpg
+    tags:
+    - Machine Learning
+    - Unity 3d
+    - Unity
+    - Unity Technology
+    - Single-Agent
+    - Single-Agent Training
+    - Simultaneous
+    viewCount: 64455
+    likeCount: 819
+    dislikeCount: 14
+    commentCount: 41
+    durationInMinutes: 0
+    publishedAtDate: 636414590470000000
+    publisdedDate:
+      year: 2017
+      month: 9
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC Day 3 - Machine Learning Agents
+    url: https://www.youtube.com/watch?v=7-_WVkl-QOo
+    channelName: Unity
+    description: "To find out more about Unity Machine Learning Agents, visit: https://unity3d.com/machine-learning\n\nGuest:
+      \nJeff Shih - Senior Product Manager of Machine Learning at Unity\n\nHosts:\nWill
+      Goldstone - Product Manager at Unity\nLiz Mercuri - Technical Evangelist at
+      Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/7-_WVkl-QOo/sddefault.jpg
+    - https://i.ytimg.com/vi/7-_WVkl-QOo/mqdefault.jpg
+    - https://i.ytimg.com/vi/7-_WVkl-QOo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7-_WVkl-QOo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1196
+    likeCount: 21
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 7
+    publishedAtDate: 636583309950000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity Live at GDC - March 22, 2018
+    url: https://www.youtube.com/watch?v=qh7aQVlEaUs
+    channelName: Unity
+    description: "Unity Live at GDC - March 21, 2018\n\nHosts:\nWill Goldstone (Product
+      Manager, Unity)\nLiz Mercuri (Technical Evangelist, Unity)\n\nLineup:\n\nUnity
+      Machine Learning \n(Jeff Shih, Senior Product Manager Machine Learning, Unity)\n\nUnity
+      Education \n(Jessica Lindl, Global Head of Education, Unity)\n\nDeveloping
+      They Suspect Nothing for Oculus Go\n(Jonathan Davies, Narrative Designer, Coatsink)\n\nIn
+      the Valley of Gods\n(Sean Vanaman, Co-founder & \nChris Remo, Game Designer/Composer,
+      Campo Santo)\n\nUnity SDK for Mixer \n(Gersh Payzer, Software Engineer Lead,
+      Mixer)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/qh7aQVlEaUs/mqdefault.jpg
+    - https://i.ytimg.com/vi/qh7aQVlEaUs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 8075
+    likeCount: 138
+    dislikeCount: 7
+    commentCount: 5
+    durationInMinutes: 65
+    publishedAtDate: 636573566560000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC keynote - Machine Learning & Unity ML-Agents update with
+      Danny Lange (VP of AI and ML)
+    url: https://www.youtube.com/watch?v=Q0zcMDW3BqE
+    channelName: Unity
+    description: 'March 19, 2018 (San Francisco) - For more information on Machine
+      Learning with Unity: https://unity3d.com/machine-learning'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Q0zcMDW3BqE/sddefault.jpg
+    - https://i.ytimg.com/vi/Q0zcMDW3BqE/mqdefault.jpg
+    - https://i.ytimg.com/vi/Q0zcMDW3BqE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Q0zcMDW3BqE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3279
+    likeCount: 47
+    dislikeCount: 6
+    commentCount: 1
+    durationInMinutes: 10
+    publishedAtDate: 636583225910000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unity at GDC - Unity Machine Learning: ML-Agents 0.3'
+    url: https://www.youtube.com/watch?v=YsEDv13W1RI
+    channelName: Unity
+    description: "March 21, 1:00pm - Hear Danny Lange share his thoughts on the most
+      exciting advances that AI will bring over the next 12 months. Learn about the
+      new features (Imitation Learning and Multi-Agent Reinforcement Learning) from
+      the latest Machine Learning Agents (ML-Agents) release. ML-Agents is an open
+      source AI toolkit and training environment for ML practitioners, game developers
+      and researchers to train agents in realistic, complex scenarios with decreased
+      technical barriers. \n\nSpeakers:\nDanny Lange, VP of Machine Learning and
+      AI at Unity \nArthur Juliani, Lead Engineer on ML-Agents at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/YsEDv13W1RI/sddefault.jpg
+    - https://i.ytimg.com/vi/YsEDv13W1RI/mqdefault.jpg
+    - https://i.ytimg.com/vi/YsEDv13W1RI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/YsEDv13W1RI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 24765
+    likeCount: 355
+    dislikeCount: 10
+    commentCount: 25
+    durationInMinutes: 57
+    publishedAtDate: 636578806360000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity at GDC - C# to Machine Code
+    url: https://www.youtube.com/watch?v=NF6kcNS6U80
+    channelName: Unity
+    description: "March 23, 2:30 pm (San Francisco) - Get an overview of the performance
+      initiatives underway at Unity and share a deeper look at the technology developed
+      to transform high-level C# code to efficient machine code. Dive into examples
+      and look at traditional C++ engine code and compiler output to compare with
+      our approach. Gain a better understanding of how Unity is solving the problem
+      of optimizing game code and the technology that we\u2019ve built to enable
+      our solution.\n\nSpeaker:\nAndreas Fredriksson, Principal Engineer at Unity"
+    thumbUrls:
+    - https://i.ytimg.com/vi/NF6kcNS6U80/sddefault.jpg
+    - https://i.ytimg.com/vi/NF6kcNS6U80/mqdefault.jpg
+    - https://i.ytimg.com/vi/NF6kcNS6U80/maxresdefault.jpg
+    - https://i.ytimg.com/vi/NF6kcNS6U80/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Machine Code
+    - C#
+    viewCount: 16676
+    likeCount: 372
+    dislikeCount: 2
+    commentCount: 24
+    durationInMinutes: 56
+    publishedAtDate: 636580585550000000
+    publisdedDate:
+      year: 2018
+      month: 3
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Los Angeles 2018 - Day 2 Livestream
+    url: https://www.youtube.com/watch?v=fZfPv-oxO7U
+    channelName: Unity
+    description: "For those of you joining us from home, we will be streaming selected
+      sessions live from Los Angeles!\n\nDay 2 schedule \n(Wednesday, October 24
+      - PST):\n\n\u25B6\uFE0F09:00AM: ECS: Welcome and General Overview\n\n\u25B6\uFE0F10:00AM:
+      ECS: LOD and Culling Systems That Scale\n\n\u25B6\uFE0F11:00AM: ECS: Spline-Based
+      AI Agents\n\n\u25B6\uFE0F01:00PM: ECS: Deep Dive into the Burst Compiler\n\n\u25B6\uFE0F02:00PM:
+      ECS: Graph Driven Audio in an ECS World\n\n\u25B6\uFE0F03:00PM: ECS: Building
+      a Living, Breathing World on a Shoestring Budget\n\n\u25B6\uFE0F04:00PM: ECS:
+      Using the Entity Debugger\n\n\u25B6\uFE0F05:00PM: ECS: Streaming and Serialization\n\n\u25B6\uFE0F06:00PM:
+      ECS: The Evolution of the ECS API"
+    thumbUrls:
+    - https://i.ytimg.com/vi/fZfPv-oxO7U/mqdefault.jpg
+    - https://i.ytimg.com/vi/fZfPv-oxO7U/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 23581
+    likeCount: 281
+    dislikeCount: 5
+    commentCount: 9
+    durationInMinutes: 591
+    publishedAtDate: 636760559810000000
+    publisdedDate:
+      year: 2018
+      month: 10
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Europe 2016 - Next Generation AI for Unity
+    url: https://www.youtube.com/watch?v=jse_ZleruJU
+    channelName: Unity
+    description: 'Artificial intelligence in games is back! An increasing number
+      of games from AAA titles to small indies games are realizing that the advances
+      in AI technology are opening up new opportunities for games to improve gameplay
+      and launch entirely new genres of games. In this talk, Jakob Rasmussen (Apex
+      Game Tools) shows cases emerging AI and bleeding-edge AI technologies as well
+      as shows some of the emerging tools that bridge the chasm between the design-based
+      technologies dominating the industry, and the new machine learning paradigm
+      that still escapes most game products. In this context, we provide advice on
+      how indie game developers can take advantage of the available technologies
+      to overcome some of the barriers that are particular to indie game development.
+
+
+      https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:6827
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6Zn/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/jse_ZleruJU/sddefault.jpg
+    - https://i.ytimg.com/vi/jse_ZleruJU/mqdefault.jpg
+    - https://i.ytimg.com/vi/jse_ZleruJU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/jse_ZleruJU/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unite Europe 2016
+    viewCount: 29343
+    likeCount: 485
+    dislikeCount: 9
+    commentCount: 36
+    durationInMinutes: 61
+    publishedAtDate: 636033466050000000
+    publisdedDate:
+      year: 2016
+      month: 7
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Roadmap
+    url: https://www.youtube.com/watch?v=CWgi6hE26ig
+    channelName: Unity
+    description: "Dive into Unity's roadmap for future features and enhancements
+      in the 2018 cycle. From our Next-Level Rendering to C# Job System, Machine
+      Learning, new platforms, and much more. You\u2019ll learn when you can expect
+      new features and functionality to be released and also have the opportunity
+      to ask questions. \n\nPresentation: https://oc.unity3d.com/index.php/s/E2ZBeaovWamDRdo\n\nSpeakers:\nWill
+      Goldstone (Product Manager, Unity)\nStine Kj\xE6rb\xF8ll (Product Manager,
+      Unity)\n\nhttps://unite.unity.com/2018/berlin"
+    thumbUrls:
+    - https://i.ytimg.com/vi/CWgi6hE26ig/sddefault.jpg
+    - https://i.ytimg.com/vi/CWgi6hE26ig/mqdefault.jpg
+    - https://i.ytimg.com/vi/CWgi6hE26ig/maxresdefault.jpg
+    - https://i.ytimg.com/vi/CWgi6hE26ig/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 18636
+    likeCount: 243
+    dislikeCount: 5
+    commentCount: 51
+    durationInMinutes: 42
+    publishedAtDate: 636667470010000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - ML-Agents Hands-On Lab
+    url: https://www.youtube.com/watch?v=s0M22Dh8QqY
+    channelName: Unity
+    description: "Get up-to-date on the latest methods (shipped with ML-Agents v0.4.)
+      for training Machine Learning agents. A real demo project is used to walk you
+      through setting up the environment, optimizing training methods, and evaluating
+      results. \n\nSpeakers:\nVincent-Pierre Berges (Unity Technologies)\n\nhttps://unite.unity.com/2018/berlin/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/s0M22Dh8QqY/sddefault.jpg
+    - https://i.ytimg.com/vi/s0M22Dh8QqY/mqdefault.jpg
+    - https://i.ytimg.com/vi/s0M22Dh8QqY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/s0M22Dh8QqY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2167
+    likeCount: 44
+    dislikeCount: 0
+    commentCount: 4
+    durationInMinutes: 44
+    publishedAtDate: 636700302030000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Democratize Machine Learning ML-Agents Explained
+    url: https://www.youtube.com/watch?v=nntQ3QuWyuM
+    channelName: Unity
+    description: "Unity ML-Agents is an open source toolkit that bridges the world
+      of Unity and Machine Learning.  We go over how advances in AI, such as reinforcement
+      and imitation learning, can open the door for new ways of game development.
+      \n\nSpeakers:\nVincent-Pierre Berges (Unity Technologies)\n\nhttps://unite.unity.com/2018/berlin/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/nntQ3QuWyuM/sddefault.jpg
+    - https://i.ytimg.com/vi/nntQ3QuWyuM/mqdefault.jpg
+    - https://i.ytimg.com/vi/nntQ3QuWyuM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/nntQ3QuWyuM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 5817
+    likeCount: 126
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 48
+    publishedAtDate: 636700302010000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - 3D Visual Search on the Unity Asset Store
+    url: https://www.youtube.com/watch?v=S24FdzznGxI
+    channelName: Unity
+    description: "In this session, you\u2019ll learn about an AI search engine for
+      the Unity Asset Store, which dramatically reduces the time and effort need
+      to find 3D assets. Come see how this visual search tool uses images, rather
+      than text, to instantly surface relevant content, which you can then preview
+      and use directly in your project.\n\nSpeakers:\nShai Ghelberg, Product Manager,
+      Resonai\nGalia Rosen Schwarz, VP Business Development, Resonai"
+    thumbUrls:
+    - https://i.ytimg.com/vi/S24FdzznGxI/sddefault.jpg
+    - https://i.ytimg.com/vi/S24FdzznGxI/mqdefault.jpg
+    - https://i.ytimg.com/vi/S24FdzznGxI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/S24FdzznGxI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 895
+    likeCount: 13
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 23
+    publishedAtDate: 636679566000000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 - Unity Labs Behavioral AI Research
+    url: https://www.youtube.com/watch?v=78nhJNPS0vA
+    channelName: Unity
+    description: 'Recent advances in the fields of autonomous robotics and machine
+      learning open exciting perspectives for applying AI to multiple aspects of
+      game development. This talk focuses on behavioral AI and dives into the foundations
+      of Unity''s approach and includes a demonstration of the first prototype planner
+      for general behavior in Unity.
+
+
+      Nicolas Meuleau (Director of AI Research,
+      Unity Technologies)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/78nhJNPS0vA/sddefault.jpg
+    - https://i.ytimg.com/vi/78nhJNPS0vA/mqdefault.jpg
+    - https://i.ytimg.com/vi/78nhJNPS0vA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/78nhJNPS0vA/hqdefault.jpg
+    tags: []
+    viewCount: 9612
+    likeCount: 164
+    dislikeCount: 9
+    commentCount: 31
+    durationInMinutes: 29
+    publishedAtDate: 636447429500000000
+    publisdedDate:
+      year: 2017
+      month: 10
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Austin 2017 - App Development with Unity
+    url: https://www.youtube.com/watch?v=2fVRRvtEvQU
+    channelName: Unity
+    description: "Dive into the differences in development practices between games
+      and traditional app development. Attendees will learn some of the challenges,
+      solutions, and best practices used in building ABCmouse - Early Learning Academy
+      for mobile platforms in Unity. Some of the topics covered include: usage of
+      UGUI, consuming web services, and modular software design principles.\n\nRay
+      Barrera (Director of Mobile Engineering, Age of Learning), \nPeter Trennum
+      (VP Mobile Engineering, Age of Learning)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/2fVRRvtEvQU/sddefault.jpg
+    - https://i.ytimg.com/vi/2fVRRvtEvQU/mqdefault.jpg
+    - https://i.ytimg.com/vi/2fVRRvtEvQU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2fVRRvtEvQU/hqdefault.jpg
+    tags: []
+    viewCount: 3657
+    likeCount: 30
+    dislikeCount: 5
+    commentCount: 2
+    durationInMinutes: 31
+    publishedAtDate: 636462828010000000
+    publisdedDate:
+      year: 2017
+      month: 11
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Unite 2016 - Mecanim Bonsai: Lessons from Firewatch and ReCore'
+    url: https://www.youtube.com/watch?v=8VgQ5PpTqjc
+    channelName: Unity
+    description: 'Using real-world examples from Firewatch and Recore, this talk
+      goes through what it takes to make shipping quality animation controllers in
+      Mecanim. It explains how to set up a First-Person character with full body
+      awareness and how the team at Armature set up their AI to work with a variety
+      of body types. It also shows the use of Animation Events, how to extend them
+      with ScriptableBehaviors, and how to structure a Mecanim graph that has to
+      last years.
+
+
+      William Armstrong - Unity Technologies'
+    thumbUrls:
+    - https://i.ytimg.com/vi/8VgQ5PpTqjc/sddefault.jpg
+    - https://i.ytimg.com/vi/8VgQ5PpTqjc/mqdefault.jpg
+    - https://i.ytimg.com/vi/8VgQ5PpTqjc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8VgQ5PpTqjc/hqdefault.jpg
+    tags:
+    - Unite 2016
+    - Mecanim
+    - Animation in Unity
+    - ReCore
+    - Game Development
+    - Animation
+    - Unite 2016 Los Angeles
+    viewCount: 33555
+    likeCount: 637
+    dislikeCount: 7
+    commentCount: 12
+    durationInMinutes: 33
+    publishedAtDate: 636162188620000000
+    publisdedDate:
+      year: 2016
+      month: 12
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2015 - Leveraging Unity 5.2's Advanced Animation Features
+    url: https://www.youtube.com/watch?v=HOURak6BpSo
+    channelName: Unity
+    description: "David Geoffroy shows you how to simplify your animation logic with
+      State Machine Behaviours and State Machine Transitions, new animation features
+      in Unity 5.0. \nFollowing this, Dominic Laflamme gives an overview of the new
+      Playable API in the context of character animation. This new API, available
+      in Unity 5.2, offers a powerful and flexibility way to interact and extend
+      Mecanim via scripting.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/V62Y/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/HOURak6BpSo/sddefault.jpg
+    - https://i.ytimg.com/vi/HOURak6BpSo/mqdefault.jpg
+    - https://i.ytimg.com/vi/HOURak6BpSo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HOURak6BpSo/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Video Game (Industry)
+    - Video Game Development
+    - Unite 2015 Boston
+    - Animation
+    viewCount: 15452
+    likeCount: 153
+    dislikeCount: 7
+    commentCount: 13
+    durationInMinutes: 56
+    publishedAtDate: 635802793050000000
+    publisdedDate:
+      year: 2015
+      month: 10
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 - Updates to AI in Unity 5.0
+    url: https://www.youtube.com/watch?v=bkdMIE8yoG0
+    channelName: Unity
+    description: 'Mikko Mononen and Jakob Hunsballe on new features and improvements
+      for building artificial intelligence in Unity 5 projects.
+
+
+      Help us caption
+      & translate this video!
+
+
+      http://amara.org/v/V66b/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/bkdMIE8yoG0/sddefault.jpg
+    - https://i.ytimg.com/vi/bkdMIE8yoG0/mqdefault.jpg
+    - https://i.ytimg.com/vi/bkdMIE8yoG0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/bkdMIE8yoG0/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unity
+    - Artificial Intelligence (Industry)
+    - Unite 2014 Seattle
+    viewCount: 6372
+    likeCount: 48
+    dislikeCount: 3
+    commentCount: 5
+    durationInMinutes: 62
+    publishedAtDate: 635446833330000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 - To Mecanim And Beyond
+    url: https://www.youtube.com/watch?v=7djMWP4EKTs
+    channelName: Unity
+    description: 'Pierre Paul Giroux covers advanced Mecanim features and techniques
+      and introduces upcoming Unity 5.0 features like State Machine Behaviours or
+      Direct BlendTress. This session shows how to animate anything in Unity using
+      Mecanim, from BlendShapes to 2D Sprites.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V66o/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/7djMWP4EKTs/sddefault.jpg
+    - https://i.ytimg.com/vi/7djMWP4EKTs/mqdefault.jpg
+    - https://i.ytimg.com/vi/7djMWP4EKTs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/7djMWP4EKTs/hqdefault.jpg
+    tags:
+    - animation
+    - Unity
+    - Unity (Software)
+    - Unity 5
+    - game development
+    - Unite 2014 Seattle
+    - animation in games
+    - Mecanim
+    viewCount: 14128
+    likeCount: 65
+    dislikeCount: 3
+    commentCount: 8
+    durationInMinutes: 37
+    publishedAtDate: 635446730720000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 - Practical AI in Unity
+    url: https://www.youtube.com/watch?v=hhByGZZbcOc
+    channelName: Unity
+    description: 'Emil Johansen provides a walkthrough of different implementations
+      of industry standard AI methods in a familiar Unity workflow. Examples and
+      slides: https://github.com/AngryAnt/PracticalAIinUnity
+
+
+      Help us caption
+      & translate this video!
+
+
+      http://amara.org/v/V66l/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/hhByGZZbcOc/sddefault.jpg
+    - https://i.ytimg.com/vi/hhByGZZbcOc/mqdefault.jpg
+    - https://i.ytimg.com/vi/hhByGZZbcOc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hhByGZZbcOc/hqdefault.jpg
+    tags:
+    - Artificial Intelligence (Industry)
+    - Unite 2014 Seattle
+    - Unity (Software)
+    - Unity3d
+    - Unity
+    - Artifical Intelligence in Games
+    - game development
+    viewCount: 14969
+    likeCount: 104
+    dislikeCount: 8
+    commentCount: 18
+    durationInMinutes: 59
+    publishedAtDate: 635446739610000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: "Unboxing the LEGO\xAE Microgame | Unity"
+    url: https://www.youtube.com/watch?v=18OwJ07u_bo
+    channelName: Unity
+    description: "In this video, we are showing you the basic steps you need to know
+      to get started creating, personalizing, and sharing your own version of the
+      LEGO\xAE Microgame.\n\n\u2B50\uFE0F Start creating in Unity with the LEGO Microgame:
+      \nhttps://on.unity.com/2FUbfZQ\n\n\u2B50\uFE0FRead our blog post to learn more
+      about the LEGO Microgame:\nhttps://on.unity.com/3jwgKf4\n\n\u2B50\uFE0F Check
+      out our Creative Mods for more customization Ideas for your game:\nhttps://on.unity.com/2TejOSq\n\n\u2B50\uFE0F
+      Get more details on and register for our Unity x LEGO\xAE Live Learning Series:\nhttps://on.unity.com/35sW2Yo\n\n\u2B50\uFE0FLearn
+      how you can participate in our Unity x LEGO Game Jams and Showcases by following
+      us on our social media!\n\nTwitter:  https://on.unity.com/34sCPqu\nFacebook:
+      https://on.unity.com/2HC4D31\nInstagram: https://on.unity.com/37Mhx9o\n\n\u2B50\uFE0FNew
+      to Unity and want to learn more? Click here for our guided learning journey
+      for Unity beginners:\nhttps://on.unity.com/3mdvlxL\n\nChapters:\n00:00 Intro\n00:30
+      Getting Unity\n01:26 Getting started with the Tutorials\n02:34 Make it your
+      own\n03:13 Build and Share your Game\n\nUnity version used: 2019.4"
+    thumbUrls:
+    - https://i.ytimg.com/vi/18OwJ07u_bo/sddefault.jpg
+    - https://i.ytimg.com/vi/18OwJ07u_bo/mqdefault.jpg
+    - https://i.ytimg.com/vi/18OwJ07u_bo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/18OwJ07u_bo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity technologies
+    - unity3d
+    - unity2d
+    - unity microgame
+    - unity beginner game
+    - how to make a game unity
+    - LEGO
+    - Lego unboxing
+    - unity x lego
+    - unity lego microgame
+    - game development lego
+    - lego games
+    viewCount: 28540
+    likeCount: 801
+    dislikeCount: 21
+    commentCount: 108
+    durationInMinutes: 4
+    publishedAtDate: 637393530080000000
+    publisdedDate:
+      year: 2020
+      month: 10
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: The NavMesh Agent - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=mP7ulMu5UkU
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here: http://unity3d.com/learn/tutorials/modules/beginner/navigation/navmesh-agent
+
+      The
+      navmesh agent is responsible for moving our characters around a scene and finding
+      paths in a navmesh. In this video you will learn all about the navmesh component
+      and how to use it to bring your characters to life.
+
+
+      Help us caption
+      & translate this video!
+
+
+      http://amara.org/v/V68J/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/mP7ulMu5UkU/sddefault.jpg
+    - https://i.ytimg.com/vi/mP7ulMu5UkU/mqdefault.jpg
+    - https://i.ytimg.com/vi/mP7ulMu5UkU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/mP7ulMu5UkU/hqdefault.jpg
+    tags: []
+    viewCount: 143194
+    likeCount: 653
+    dislikeCount: 26
+    commentCount: 75
+    durationInMinutes: 4
+    publishedAtDate: 635283153200000000
+    publisdedDate:
+      year: 2014
+      month: 2
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Test smarter, not harder Game Simulation & Anipang 4 | Unite Now 2020
+    url: https://www.youtube.com/watch?v=qGoEAOvhdh4
+    channelName: Unity
+    description: "Learn about Unity Game Simulation, and discover how Korean developer
+      SundayTOZ leveraged Game Simulation to replace their unwieldy in-house testing
+      solution, automating hundreds of hours of game balance testing across hundreds
+      of levels \u2013 at a fraction of the cost and complexity.\n\n\nSpeaker:\nMike
+      Carley, Senior Product Marketing Manager, Artificial Intelligence & Machine
+      Learning (Unity)\nChristina Guo, Senior Product Manager, Artificial Intelligence
+      & Machine Learning (Unity)\n\n\U0001F449 Learn more about Game Simulation:
+      https://on.unity.com/3kYkA23\n\n\U0001F4FA  Dive into Unite Now year-round
+      to join us for live sessions or watch sessions on-demand: https://on.unity.com/2I09XNA\n\n\U0001F4DD 
+      Did you find this video useful? Room for improvement? Complete this survey
+      to let us know: https://on.unity.com/387xGGx"
+    thumbUrls:
+    - https://i.ytimg.com/vi/qGoEAOvhdh4/sddefault.jpg
+    - https://i.ytimg.com/vi/qGoEAOvhdh4/mqdefault.jpg
+    - https://i.ytimg.com/vi/qGoEAOvhdh4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/qGoEAOvhdh4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2702
+    likeCount: 64
+    dislikeCount: 3
+    commentCount: 5
+    durationInMinutes: 19
+    publishedAtDate: 637402018600000000
+    publisdedDate:
+      year: 2020
+      month: 11
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Sundance Film Festival panel: Imagining work in an AI integrated future'
+    url: https://www.youtube.com/watch?v=-tk38Tk7Imw
+    channelName: Unity
+    description: "Presented by Unity and Dell at the 2018 Sundance Film Festival,
+      this panel discussed how emerging technologies may fundamentally change the
+      nature of work by enhancing human capability with immersive media, artificial
+      intelligence, and biological enhancements.\n\nPanelists included Danny Lange,
+      Unity\u2019s VP of AI and Machine Learning, Alex McDowell (Minority Report,
+      Fight Club, Founder of The World Building Institute), Gary Radburn (Director
+      of Workspace Visualization of Dell), Tony Patrick (Batman & The Signal, X\u2019ed),
+      Grace Lee (American Revolutionary), Lauren McCarthy (UCLA Design Media Arts
+      and the creator of p5.js) and Victor Hwang (VP of Entrepreneurship of the Kauffman
+      Foundation).\n\nhttps://unity3d.com/sff"
+    thumbUrls:
+    - https://i.ytimg.com/vi/-tk38Tk7Imw/sddefault.jpg
+    - https://i.ytimg.com/vi/-tk38Tk7Imw/mqdefault.jpg
+    - https://i.ytimg.com/vi/-tk38Tk7Imw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-tk38Tk7Imw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1408
+    likeCount: 22
+    dislikeCount: 6
+    commentCount: 0
+    durationInMinutes: 2
+    publishedAtDate: 636536448010000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Stealth game tutorial - 407 - Enemy AI - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=evKIf6edQ_g
+    channelName: Unity
+    description: 'Watch this video in context on the Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/projects/stealth/enemy-ai
+
+
+      Learn
+      about managing the Enemy''s Behaviour by creating a state machine in Code that
+      interacts with the player and controls Patrolling waypoints, Chasing the Player,
+      and Shooting.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6a7/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/evKIf6edQ_g/sddefault.jpg
+    - https://i.ytimg.com/vi/evKIf6edQ_g/mqdefault.jpg
+    - https://i.ytimg.com/vi/evKIf6edQ_g/maxresdefault.jpg
+    - https://i.ytimg.com/vi/evKIf6edQ_g/hqdefault.jpg
+    tags:
+    - ai
+    - nav mesh
+    - state machine
+    - unity
+    - game dev
+    viewCount: 66455
+    likeCount: 431
+    dislikeCount: 9
+    commentCount: 64
+    durationInMinutes: 17
+    publishedAtDate: 635104783450000000
+    publisdedDate:
+      year: 2013
+      month: 7
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Stealth game tutorial - 405 - Enemy Animation - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=5hj5Ag3wCoE
+    channelName: Unity
+    description: 'Watch this video in context on the Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/projects/stealth/enemy-animation
+
+
+      Learn
+      how to combine vectors from the Nav Mesh Agent with your enemy''s animator
+      to create realistic patrolling motion and player tracking for the enemy.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6ab/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/5hj5Ag3wCoE/sddefault.jpg
+    - https://i.ytimg.com/vi/5hj5Ag3wCoE/mqdefault.jpg
+    - https://i.ytimg.com/vi/5hj5Ag3wCoE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5hj5Ag3wCoE/hqdefault.jpg
+    tags:
+    - AI
+    - nav mesh
+    - unity
+    - game dev
+    - vectors
+    - cross product
+    - dot product
+    viewCount: 21359
+    likeCount: 99
+    dislikeCount: 0
+    commentCount: 9
+    durationInMinutes: 12
+    publishedAtDate: 635096964960000000
+    publisdedDate:
+      year: 2013
+      month: 7
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Stealth game tutorial - 402 - Enemy Animator Controller - Unity Official
+      Tutorials
+    url: https://www.youtube.com/watch?v=l98E9i-ayls
+    channelName: Unity
+    description: 'Watch this video in context on the Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/projects/stealth/enemy-animator-controller
+
+
+      Learn
+      how to create a 2D Blend tree driven Animator Controller for your Enemy characters.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6ay/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/l98E9i-ayls/sddefault.jpg
+    - https://i.ytimg.com/vi/l98E9i-ayls/mqdefault.jpg
+    - https://i.ytimg.com/vi/l98E9i-ayls/maxresdefault.jpg
+    - https://i.ytimg.com/vi/l98E9i-ayls/hqdefault.jpg
+    tags:
+    - mecanim
+    - animation
+    - character
+    - enemy
+    - controller
+    - animator
+    - unity
+    - unity3d
+    - Unity (Software)
+    - Tutorial (Industry)
+    viewCount: 31540
+    likeCount: 134
+    dislikeCount: 6
+    commentCount: 32
+    durationInMinutes: 14
+    publishedAtDate: 635073428280000000
+    publisdedDate:
+      year: 2013
+      month: 6
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Stealth game tutorial - 401 - Enemy Setup - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=wFXvEWjHKa4
+    channelName: Unity
+    description: 'Watch this video in context on the Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/projects/stealth/enemy-setup
+
+
+      An
+      overview of how the enemies in Stealth behave, plus learn how to set them up,
+      and bake the Nav Mesh, Unity''s built in AI pathfinding system.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6az/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/wFXvEWjHKa4/sddefault.jpg
+    - https://i.ytimg.com/vi/wFXvEWjHKa4/mqdefault.jpg
+    - https://i.ytimg.com/vi/wFXvEWjHKa4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wFXvEWjHKa4/hqdefault.jpg
+    tags:
+    - Tutorial (Industry)
+    - Unity (Software)
+    - Lesson
+    - unity3d
+    - unity
+    - ai
+    - nav mesh
+    - enemy
+    - navigation
+    viewCount: 35786
+    likeCount: 143
+    dislikeCount: 4
+    commentCount: 15
+    durationInMinutes: 7
+    publishedAtDate: 635072574980000000
+    publisdedDate:
+      year: 2013
+      month: 6
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: Siggraph 2018 - Building Environments for Autonomous Vehicle Training
+    url: https://www.youtube.com/watch?v=Rrkhn06ofBQ
+    channelName: Unity
+    description: 'One of the biggest pain points for Autonomous Vehicle Simulation
+      is generation of content: the assets that create the environments that set
+      the stage for simulation. Those simulations are extensively used for training
+      of Machine Learning models. Learn how Unity game development experience can
+      transfer to an entirely new market where there is great demand for these skills.
+
+
+      Speaker:
+
+      Jose
+      De Oliveira (Principal Software Engineer, Machine Learning, Unity Technologies)
+
+
+      https://unity3d.com/siggraph2018'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Rrkhn06ofBQ/sddefault.jpg
+    - https://i.ytimg.com/vi/Rrkhn06ofBQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/Rrkhn06ofBQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Rrkhn06ofBQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Event
+    - Automotive
+    viewCount: 1713
+    likeCount: 22
+    dislikeCount: 2
+    commentCount: 1
+    durationInMinutes: 43
+    publishedAtDate: 636736860020000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Pluggable AI With Scriptable Objects - Transitions Between States [6/10]
+      Live 2017/3/08
+    url: https://www.youtube.com/watch?v=pdtJaR-A6t4
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/topics/navigation/transitions-between-states\n\nIn
+      this session we will look at creating a finite state machine based AI system
+      which can be configured in Unity\u2019s inspector using ScriptableObjects for
+      states and actions in those states."
+    thumbUrls:
+    - https://i.ytimg.com/vi/pdtJaR-A6t4/sddefault.jpg
+    - https://i.ytimg.com/vi/pdtJaR-A6t4/mqdefault.jpg
+    - https://i.ytimg.com/vi/pdtJaR-A6t4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pdtJaR-A6t4/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - ai
+    - scriptableobject
+    - scriptable object
+    - state machine
+    - finite state machine
+    - programming
+    - scripting
+    - fsm
+    - artificially intelligence
+    - game ai
+    - enemy ai
+    viewCount: 12415
+    likeCount: 97
+    dislikeCount: 0
+    commentCount: 10
+    durationInMinutes: 11
+    publishedAtDate: 636251274310000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Pluggable AI With Scriptable Objects - Scan Decision [9/10] Live 2017/3/08
+    url: https://www.youtube.com/watch?v=gzxpBQGLagI
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/topics/navigation/scan-decision\n\nIn
+      this session we will look at creating a finite state machine based AI system
+      which can be configured in Unity\u2019s inspector using ScriptableObjects for
+      states and actions in those states."
+    thumbUrls:
+    - https://i.ytimg.com/vi/gzxpBQGLagI/sddefault.jpg
+    - https://i.ytimg.com/vi/gzxpBQGLagI/mqdefault.jpg
+    - https://i.ytimg.com/vi/gzxpBQGLagI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gzxpBQGLagI/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - ai
+    - scriptableobject
+    - scriptable object
+    - state machine
+    - finite state machine
+    - programming
+    - scripting
+    - fsm
+    - artificially intelligence
+    - game ai
+    - enemy ai
+    viewCount: 8991
+    likeCount: 80
+    dislikeCount: 3
+    commentCount: 4
+    durationInMinutes: 9
+    publishedAtDate: 636251274300000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Pluggable AI With Scriptable Objects - Questions and Answers [10/10] Live
+      2017/3/08
+    url: https://www.youtube.com/watch?v=SjY38Q7_Jm0
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/navigation/questions-and-answers\n\nIn
+      this session we will look at creating a finite state machine based AI system
+      which can be configured in Unity\u2019s inspector using ScriptableObjects for
+      states and actions in those states."
+    thumbUrls:
+    - https://i.ytimg.com/vi/SjY38Q7_Jm0/sddefault.jpg
+    - https://i.ytimg.com/vi/SjY38Q7_Jm0/mqdefault.jpg
+    - https://i.ytimg.com/vi/SjY38Q7_Jm0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/SjY38Q7_Jm0/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - ai
+    - scriptableobject
+    - scriptable object
+    - state machine
+    - finite state machine
+    - programming
+    - scripting
+    - fsm
+    - artificially intelligence
+    - game ai
+    - enemy ai
+    viewCount: 8627
+    likeCount: 104
+    dislikeCount: 1
+    commentCount: 38
+    durationInMinutes: 11
+    publishedAtDate: 636251274300000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Pluggable AI With Scriptable Objects - Patrol Action [4/10] Live 2017/3/08
+    url: https://www.youtube.com/watch?v=EjujV6WawCE
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/navigation/patrol-action\n\nIn
+      this session we will look at creating a finite state machine based AI system
+      which can be configured in Unity\u2019s inspector using ScriptableObjects for
+      states and actions in those states."
+    thumbUrls:
+    - https://i.ytimg.com/vi/EjujV6WawCE/sddefault.jpg
+    - https://i.ytimg.com/vi/EjujV6WawCE/mqdefault.jpg
+    - https://i.ytimg.com/vi/EjujV6WawCE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/EjujV6WawCE/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - ai
+    - scriptableobject
+    - scriptable object
+    - state machine
+    - finite state machine
+    - programming
+    - scripting
+    - fsm
+    - artificially intelligence
+    - game ai
+    - enemy ai
+    viewCount: 18327
+    likeCount: 124
+    dislikeCount: 0
+    commentCount: 8
+    durationInMinutes: 9
+    publishedAtDate: 636251274320000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Pluggable AI With Scriptable Objects - Intro and Goals [1/10] Live 2017/3/08
+    url: https://www.youtube.com/watch?v=cHUXh5biQMg
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/navigation/intro-and-session-goals\n\nIn
+      this session we will look at creating a finite state machine based AI system
+      which can be configured in Unity\u2019s inspector using ScriptableObjects for
+      states and actions in those states."
+    thumbUrls:
+    - https://i.ytimg.com/vi/cHUXh5biQMg/sddefault.jpg
+    - https://i.ytimg.com/vi/cHUXh5biQMg/mqdefault.jpg
+    - https://i.ytimg.com/vi/cHUXh5biQMg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cHUXh5biQMg/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - ai
+    - scriptableobject
+    - scriptable object
+    - state machine
+    - finite state machine
+    - programming
+    - scripting
+    - fsm
+    - artificially intelligence
+    - game ai
+    - enemy ai
+    viewCount: 63758
+    likeCount: 627
+    dislikeCount: 5
+    commentCount: 15
+    durationInMinutes: 4
+    publishedAtDate: 636251274320000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Pluggable AI With Scriptable Objects - Finite State AI [2/10] Live 2017/3/08
+    url: https://www.youtube.com/watch?v=C09u4WoEufc
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/navigation/finite-state-ai-delegate-pattern\n\nIn
+      this session we will look at creating a finite state machine based AI system
+      which can be configured in Unity\u2019s inspector using ScriptableObjects for
+      states and actions in those states."
+    thumbUrls:
+    - https://i.ytimg.com/vi/C09u4WoEufc/sddefault.jpg
+    - https://i.ytimg.com/vi/C09u4WoEufc/mqdefault.jpg
+    - https://i.ytimg.com/vi/C09u4WoEufc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/C09u4WoEufc/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - ai
+    - scriptableobject
+    - scriptable object
+    - state machine
+    - finite state machine
+    - programming
+    - scripting
+    - fsm
+    - artificially intelligence
+    - game ai
+    - enemy ai
+    viewCount: 44803
+    likeCount: 354
+    dislikeCount: 1
+    commentCount: 36
+    durationInMinutes: 10
+    publishedAtDate: 636251274320000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Pluggable AI With Scriptable Objects - Decisions and Looking  [5/10] Live
+      2017/3/08
+    url: https://www.youtube.com/watch?v=RTlsZPvzYrk
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/navigation/decisions-and-looking\n\nIn
+      this session we will look at creating a finite state machine based AI system
+      which can be configured in Unity\u2019s inspector using ScriptableObjects for
+      states and actions in those states."
+    thumbUrls:
+    - https://i.ytimg.com/vi/RTlsZPvzYrk/sddefault.jpg
+    - https://i.ytimg.com/vi/RTlsZPvzYrk/mqdefault.jpg
+    - https://i.ytimg.com/vi/RTlsZPvzYrk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/RTlsZPvzYrk/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - ai
+    - scriptableobject
+    - scriptable object
+    - state machine
+    - finite state machine
+    - programming
+    - scripting
+    - fsm
+    - artificially intelligence
+    - game ai
+    - enemy ai
+    viewCount: 13978
+    likeCount: 111
+    dislikeCount: 0
+    commentCount: 6
+    durationInMinutes: 9
+    publishedAtDate: 636251274310000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Pluggable AI With Scriptable Objects - Chasing Until Target Is Dead [7/10]
+      Live 2017/3/08
+    url: https://www.youtube.com/watch?v=RfWzSRiWR1w
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/\n\nIn
+      this session we will look at creating a finite state machine based AI system
+      which can be configured in Unity\u2019s inspector using ScriptableObjects for
+      states and actions in those states."
+    thumbUrls:
+    - https://i.ytimg.com/vi/RfWzSRiWR1w/sddefault.jpg
+    - https://i.ytimg.com/vi/RfWzSRiWR1w/mqdefault.jpg
+    - https://i.ytimg.com/vi/RfWzSRiWR1w/maxresdefault.jpg
+    - https://i.ytimg.com/vi/RfWzSRiWR1w/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - ai
+    - scriptableobject
+    - scriptable object
+    - state machine
+    - finite state machine
+    - programming
+    - scripting
+    - fsm
+    - artificially intelligence
+    - game ai
+    - enemy ai
+    viewCount: 9068
+    likeCount: 72
+    dislikeCount: 1
+    commentCount: 0
+    durationInMinutes: 6
+    publishedAtDate: 636251274310000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Pluggable AI With Scriptable Objects - Attack Action [8/10] Live 2017/3/08
+    url: https://www.youtube.com/watch?v=iII6y0dalMY
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/\n\nIn
+      this session we will look at creating a finite state machine based AI system
+      which can be configured in Unity\u2019s inspector using ScriptableObjects for
+      states and actions in those states."
+    thumbUrls:
+    - https://i.ytimg.com/vi/iII6y0dalMY/sddefault.jpg
+    - https://i.ytimg.com/vi/iII6y0dalMY/mqdefault.jpg
+    - https://i.ytimg.com/vi/iII6y0dalMY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/iII6y0dalMY/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - ai
+    - scriptableobject
+    - scriptable object
+    - state machine
+    - finite state machine
+    - programming
+    - scripting
+    - fsm
+    - artificially intelligence
+    - game ai
+    - enemy ai
+    viewCount: 9021
+    likeCount: 69
+    dislikeCount: 1
+    commentCount: 13
+    durationInMinutes: 8
+    publishedAtDate: 636251274310000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Pluggable AI With Scriptable Objects - Action and State Base Classes [3/10]
+      Live 2017/3/08
+    url: https://www.youtube.com/watch?v=KAtEBEvD_I8
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/navigation/actions-and-state-base-classes\n\nIn
+      this session we will look at creating a finite state machine based AI system
+      which can be configured in Unity\u2019s inspector using ScriptableObjects for
+      states and actions in those states."
+    thumbUrls:
+    - https://i.ytimg.com/vi/KAtEBEvD_I8/sddefault.jpg
+    - https://i.ytimg.com/vi/KAtEBEvD_I8/mqdefault.jpg
+    - https://i.ytimg.com/vi/KAtEBEvD_I8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/KAtEBEvD_I8/hqdefault.jpg
+    tags:
+    - unity3d
+    - unity
+    - tutorial
+    - live training
+    - ai
+    - scriptableobject
+    - scriptable object
+    - state machine
+    - finite state machine
+    - programming
+    - scripting
+    - fsm
+    - artificially intelligence
+    - game ai
+    - enemy ai
+    viewCount: 28176
+    likeCount: 197
+    dislikeCount: 5
+    commentCount: 30
+    durationInMinutes: 12
+    publishedAtDate: 636251274330000000
+    publisdedDate:
+      year: 2017
+      month: 3
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: NavMesh Obstacles - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=cHZv6aqzQd0
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here: http://unity3d.com/learn/tutorials/modules/beginner/navigation/navmesh-obstacles
+
+      Navmesh
+      obstacles provide a dynamic way to block agent pathfinding on a navmesh. These
+      items are not baked into the navmesh, and thus can move around freely while
+      getting in the way. In this video we will learn about the navmesh obstacle
+      component and how to apply it to objects in a scene.
+
+
+      Help us caption
+      & translate this video!
+
+
+      http://amara.org/v/V68H/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/cHZv6aqzQd0/sddefault.jpg
+    - https://i.ytimg.com/vi/cHZv6aqzQd0/mqdefault.jpg
+    - https://i.ytimg.com/vi/cHZv6aqzQd0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cHZv6aqzQd0/hqdefault.jpg
+    tags: []
+    viewCount: 45340
+    likeCount: 216
+    dislikeCount: 13
+    commentCount: 21
+    durationInMinutes: 2
+    publishedAtDate: 635283155560000000
+    publisdedDate:
+      year: 2014
+      month: 2
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Machine Learning Agents - Using Your Trained Brain [9/10] Live 2018/4/4
+    url: https://www.youtube.com/watch?v=FcJI6Vc1YHo
+    channelName: Unity
+    description: 'Download the project here: https://ole.unity.com/mlagentslive
+
+
+      In
+      this live session we will be joined by Arthur Juliani and Hunter Henry of the
+      Machine Learning team at Unity to who will explain how to use Unity''s machine
+      learning SDK ML-Agents. The ML-Agents SDK allows researchers and developers
+      to transform games and simulations created using the Unity Editor into environments
+      where intelligent agents can be trained using Deep Reinforcement Learning,
+      Evolutionary Strategies, or other machine learning methods through a simple
+      to use Python API. We will learn how to setup ML agents and do a basic machine
+      learning tutorial, or intro to machine learning in this session as well.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/FcJI6Vc1YHo/sddefault.jpg
+    - https://i.ytimg.com/vi/FcJI6Vc1YHo/mqdefault.jpg
+    - https://i.ytimg.com/vi/FcJI6Vc1YHo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/FcJI6Vc1YHo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - machine learning
+    - ml agents
+    - ml
+    - ml-agents
+    - how to setup machine learning unity
+    - unity machine learning
+    - machine learning in unity
+    - machine learning introduction
+    - ml agents setup
+    - ml agents intro
+    - ml agents tutorial
+    - how to machine learning
+    - ml agents introduction
+    - machine learning basics
+    - ml agents basics
+    - ml for beginners
+    - machine learning for beginners
+    - ml agents beginners
+    - machine learning tutorial for beginners
+    viewCount: 11075
+    likeCount: 54
+    dislikeCount: 1
+    commentCount: 7
+    durationInMinutes: 2
+    publishedAtDate: 636585543650000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Machine Learning Agents - Unity ML Agents Workflow [3/10] Live 2018/4/4
+    url: https://www.youtube.com/watch?v=FXFrwvV60N4
+    channelName: Unity
+    description: 'Download the project here: https://ole.unity.com/mlagentslive
+
+
+      In
+      this live session we will be joined by Arthur Juliani and Hunter Henry of the
+      Machine Learning team at Unity to who will explain how to use Unity''s machine
+      learning SDK ML-Agents. The ML-Agents SDK allows researchers and developers
+      to transform games and simulations created using the Unity Editor into environments
+      where intelligent agents can be trained using Deep Reinforcement Learning,
+      Evolutionary Strategies, or other machine learning methods through a simple
+      to use Python API. We will learn how to setup ML agents and do a basic machine
+      learning tutorial, or intro to machine learning in this session as well.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/FXFrwvV60N4/sddefault.jpg
+    - https://i.ytimg.com/vi/FXFrwvV60N4/mqdefault.jpg
+    - https://i.ytimg.com/vi/FXFrwvV60N4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/FXFrwvV60N4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - machine learning
+    - ml agents
+    - ml
+    - ml-agents
+    - how to setup machine learning unity
+    - unity machine learning
+    - machine learning in unity
+    - machine learning introduction
+    - ml agents setup
+    - ml agents intro
+    - ml agents tutorial
+    - how to machine learning
+    - ml agents introduction
+    - machine learning basics
+    - ml agents basics
+    - ml for beginners
+    - machine learning for beginners
+    - ml agents beginners
+    - machine learning tutorial for beginners
+    viewCount: 30060
+    likeCount: 173
+    dislikeCount: 5
+    commentCount: 3
+    durationInMinutes: 2
+    publishedAtDate: 636585543660000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Machine Learning Agents - Training Your Agent [8/10] Live 2018/4/4
+    url: https://www.youtube.com/watch?v=Ch2y-BSnzhk
+    channelName: Unity
+    description: 'Download the project here: https://ole.unity.com/mlagentslive
+
+
+      In
+      this live session we will be joined by Arthur Juliani and Hunter Henry of the
+      Machine Learning team at Unity to who will explain how to use Unity''s machine
+      learning SDK ML-Agents. The ML-Agents SDK allows researchers and developers
+      to transform games and simulations created using the Unity Editor into environments
+      where intelligent agents can be trained using Deep Reinforcement Learning,
+      Evolutionary Strategies, or other machine learning methods through a simple
+      to use Python API. We will learn how to setup ML agents and do a basic machine
+      learning tutorial, or intro to machine learning in this session as well.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Ch2y-BSnzhk/sddefault.jpg
+    - https://i.ytimg.com/vi/Ch2y-BSnzhk/mqdefault.jpg
+    - https://i.ytimg.com/vi/Ch2y-BSnzhk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Ch2y-BSnzhk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - machine learning
+    - ml agents
+    - ml
+    - ml-agents
+    - how to setup machine learning unity
+    - unity machine learning
+    - machine learning in unity
+    - machine learning introduction
+    - ml agents setup
+    - ml agents intro
+    - ml agents tutorial
+    - how to machine learning
+    - ml agents introduction
+    - machine learning basics
+    - ml agents basics
+    - ml for beginners
+    - machine learning for beginners
+    - ml agents beginners
+    - machine learning tutorial for beginners
+    viewCount: 13743
+    likeCount: 55
+    dislikeCount: 10
+    commentCount: 20
+    durationInMinutes: 4
+    publishedAtDate: 636585543650000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Machine Learning Agents - Reinforcement and Imitation Learning [2/10]
+      Live 2018/4/4
+    url: https://www.youtube.com/watch?v=uiutRBXfEbg
+    channelName: Unity
+    description: 'Download the project here: https://ole.unity.com/mlagentslive
+
+
+      In
+      this live session we will be joined by Arthur Juliani and Hunter Henry of the
+      Machine Learning team at Unity to who will explain how to use Unity''s machine
+      learning SDK ML-Agents. The ML-Agents SDK allows researchers and developers
+      to transform games and simulations created using the Unity Editor into environments
+      where intelligent agents can be trained using Deep Reinforcement Learning,
+      Evolutionary Strategies, or other machine learning methods through a simple
+      to use Python API. We will learn how to setup ML agents and do a basic machine
+      learning tutorial, or intro to machine learning in this session as well.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/uiutRBXfEbg/sddefault.jpg
+    - https://i.ytimg.com/vi/uiutRBXfEbg/mqdefault.jpg
+    - https://i.ytimg.com/vi/uiutRBXfEbg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/uiutRBXfEbg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - machine learning
+    - ml agents
+    - ml
+    - ml-agents
+    - how to setup machine learning unity
+    - unity machine learning
+    - machine learning in unity
+    - machine learning introduction
+    - ml agents setup
+    - ml agents intro
+    - ml agents tutorial
+    - how to machine learning
+    - ml agents introduction
+    - machine learning basics
+    - ml agents basics
+    - ml for beginners
+    - machine learning for beginners
+    - ml agents beginners
+    - machine learning tutorial for beginners
+    viewCount: 22895
+    likeCount: 138
+    dislikeCount: 5
+    commentCount: 4
+    durationInMinutes: 2
+    publishedAtDate: 636585543660000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Machine Learning Agents - Push Block Agent Components [6/10] Live 2018/4/4
+    url: https://www.youtube.com/watch?v=gb1lZWrnQhI
+    channelName: Unity
+    description: 'Download the project here: https://ole.unity.com/mlagentslive
+
+
+      In
+      this live session we will be joined by Arthur Juliani and Hunter Henry of the
+      Machine Learning team at Unity to who will explain how to use Unity''s machine
+      learning SDK ML-Agents. The ML-Agents SDK allows researchers and developers
+      to transform games and simulations created using the Unity Editor into environments
+      where intelligent agents can be trained using Deep Reinforcement Learning,
+      Evolutionary Strategies, or other machine learning methods through a simple
+      to use Python API. We will learn how to setup ML agents and do a basic machine
+      learning tutorial, or intro to machine learning in this session as well.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/gb1lZWrnQhI/sddefault.jpg
+    - https://i.ytimg.com/vi/gb1lZWrnQhI/mqdefault.jpg
+    - https://i.ytimg.com/vi/gb1lZWrnQhI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gb1lZWrnQhI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - machine learning
+    - ml agents
+    - ml
+    - ml-agents
+    - how to setup machine learning unity
+    - unity machine learning
+    - machine learning in unity
+    - machine learning introduction
+    - ml agents setup
+    - ml agents intro
+    - ml agents tutorial
+    - how to machine learning
+    - ml agents introduction
+    - machine learning basics
+    - ml agents basics
+    - ml for beginners
+    - machine learning for beginners
+    - ml agents beginners
+    - machine learning tutorial for beginners
+    viewCount: 12031
+    likeCount: 45
+    dislikeCount: 1
+    commentCount: 2
+    durationInMinutes: 3
+    publishedAtDate: 636585543650000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Machine Learning Agents - Push Agent Basic Script [7/10] Live 2018/4/4
+    url: https://www.youtube.com/watch?v=ylj5dNY9NGg
+    channelName: Unity
+    description: 'Download the project here: https://ole.unity.com/mlagentslive
+
+
+      In
+      this live session we will be joined by Arthur Juliani and Hunter Henry of the
+      Machine Learning team at Unity to who will explain how to use Unity''s machine
+      learning SDK ML-Agents. The ML-Agents SDK allows researchers and developers
+      to transform games and simulations created using the Unity Editor into environments
+      where intelligent agents can be trained using Deep Reinforcement Learning,
+      Evolutionary Strategies, or other machine learning methods through a simple
+      to use Python API. We will learn how to setup ML agents and do a basic machine
+      learning tutorial, or intro to machine learning in this session as well.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ylj5dNY9NGg/sddefault.jpg
+    - https://i.ytimg.com/vi/ylj5dNY9NGg/mqdefault.jpg
+    - https://i.ytimg.com/vi/ylj5dNY9NGg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ylj5dNY9NGg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - machine learning
+    - ml agents
+    - ml
+    - ml-agents
+    - how to setup machine learning unity
+    - unity machine learning
+    - machine learning in unity
+    - machine learning introduction
+    - ml agents setup
+    - ml agents intro
+    - ml agents tutorial
+    - how to machine learning
+    - ml agents introduction
+    - machine learning basics
+    - ml agents basics
+    - ml for beginners
+    - machine learning for beginners
+    - ml agents beginners
+    - machine learning tutorial for beginners
+    viewCount: 13089
+    likeCount: 62
+    dislikeCount: 6
+    commentCount: 5
+    durationInMinutes: 6
+    publishedAtDate: 636585543660000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Machine Learning Agents - ML Agents Push Block Example [4/10] Live 2018/4/4
+    url: https://www.youtube.com/watch?v=IgA4OHPxju8
+    channelName: Unity
+    description: 'Download the project here: https://ole.unity.com/mlagentslive
+
+
+      In
+      this live session we will be joined by Arthur Juliani and Hunter Henry of the
+      Machine Learning team at Unity to who will explain how to use Unity''s machine
+      learning SDK ML-Agents. The ML-Agents SDK allows researchers and developers
+      to transform games and simulations created using the Unity Editor into environments
+      where intelligent agents can be trained using Deep Reinforcement Learning,
+      Evolutionary Strategies, or other machine learning methods through a simple
+      to use Python API. We will learn how to setup ML agents and do a basic machine
+      learning tutorial, or intro to machine learning in this session as well.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/IgA4OHPxju8/sddefault.jpg
+    - https://i.ytimg.com/vi/IgA4OHPxju8/mqdefault.jpg
+    - https://i.ytimg.com/vi/IgA4OHPxju8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IgA4OHPxju8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - machine learning
+    - ml agents
+    - ml
+    - ml-agents
+    - how to setup machine learning unity
+    - unity machine learning
+    - machine learning in unity
+    - machine learning introduction
+    - ml agents setup
+    - ml agents intro
+    - ml agents tutorial
+    - how to machine learning
+    - ml agents introduction
+    - machine learning basics
+    - ml agents basics
+    - ml for beginners
+    - machine learning for beginners
+    - ml agents beginners
+    - machine learning tutorial for beginners
+    viewCount: 21098
+    likeCount: 98
+    dislikeCount: 6
+    commentCount: 11
+    durationInMinutes: 3
+    publishedAtDate: 636585543650000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Machine Learning Agents - ML Agent Brains [5/10] Live 2018/4/4
+    url: https://www.youtube.com/watch?v=nU-tZ90zYIU
+    channelName: Unity
+    description: 'Download the project here: https://ole.unity.com/mlagentslive
+
+
+      In
+      this live session we will be joined by Arthur Juliani and Hunter Henry of the
+      Machine Learning team at Unity to who will explain how to use Unity''s machine
+      learning SDK ML-Agents. The ML-Agents SDK allows researchers and developers
+      to transform games and simulations created using the Unity Editor into environments
+      where intelligent agents can be trained using Deep Reinforcement Learning,
+      Evolutionary Strategies, or other machine learning methods through a simple
+      to use Python API. We will learn how to setup ML agents and do a basic machine
+      learning tutorial, or intro to machine learning in this session as well.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/nU-tZ90zYIU/sddefault.jpg
+    - https://i.ytimg.com/vi/nU-tZ90zYIU/mqdefault.jpg
+    - https://i.ytimg.com/vi/nU-tZ90zYIU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/nU-tZ90zYIU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - machine learning
+    - ml agents
+    - ml
+    - ml-agents
+    - how to setup machine learning unity
+    - unity machine learning
+    - machine learning in unity
+    - machine learning introduction
+    - ml agents setup
+    - ml agents intro
+    - ml agents tutorial
+    - how to machine learning
+    - ml agents introduction
+    - machine learning basics
+    - ml agents basics
+    - ml for beginners
+    - machine learning for beginners
+    - ml agents beginners
+    - machine learning tutorial for beginners
+    viewCount: 16748
+    likeCount: 80
+    dislikeCount: 3
+    commentCount: 9
+    durationInMinutes: 4
+    publishedAtDate: 636585543650000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Machine Learning Agents - Introduction [1/10] Live 2018/4/4
+    url: https://www.youtube.com/watch?v=32wtJZ3yRfw
+    channelName: Unity
+    description: 'Download the project here: https://ole.unity.com/mlagentslive
+
+
+      In
+      this live session we will be joined by Arthur Juliani and Hunter Henry of the
+      Machine Learning team at Unity to who will explain how to use Unity''s machine
+      learning SDK ML-Agents. The ML-Agents SDK allows researchers and developers
+      to transform games and simulations created using the Unity Editor into environments
+      where intelligent agents can be trained using Deep Reinforcement Learning,
+      Evolutionary Strategies, or other machine learning methods through a simple
+      to use Python API. We will learn how to setup ML agents and do a basic machine
+      learning tutorial, or intro to machine learning in this session as well.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/32wtJZ3yRfw/sddefault.jpg
+    - https://i.ytimg.com/vi/32wtJZ3yRfw/mqdefault.jpg
+    - https://i.ytimg.com/vi/32wtJZ3yRfw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/32wtJZ3yRfw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - machine learning
+    - ml agents
+    - ml
+    - ml-agents
+    - how to setup machine learning unity
+    - unity machine learning
+    - machine learning in unity
+    - machine learning introduction
+    - ml agents setup
+    - ml agents intro
+    - ml agents tutorial
+    - how to machine learning
+    - ml agents introduction
+    - machine learning basics
+    - ml agents basics
+    - ml for beginners
+    - machine learning for beginners
+    - ml agents beginners
+    - machine learning tutorial for beginners
+    viewCount: 37009
+    likeCount: 307
+    dislikeCount: 3
+    commentCount: 9
+    durationInMinutes: 1
+    publishedAtDate: 636585543660000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Machine Learning Agents - Conclusion [10/10] Live 2018/4/4
+    url: https://www.youtube.com/watch?v=9koGUckP2cQ
+    channelName: Unity
+    description: In this live session we will be joined by Arthur Juliani and Hunter
+      Henry of the Machine Learning team at Unity to who will explain how to use
+      Unity's machine learning SDK ML-Agents. The ML-Agents SDK allows researchers
+      and developers to transform games and simulations created using the Unity Editor
+      into environments where intelligent agents can be trained using Deep Reinforcement
+      Learning, Evolutionary Strategies, or other machine learning methods through
+      a simple to use Python API. We will learn how to setup ML agents and do a basic
+      machine learning tutorial, or intro to machine learning in this session as
+      well.
+    thumbUrls:
+    - https://i.ytimg.com/vi/9koGUckP2cQ/sddefault.jpg
+    - https://i.ytimg.com/vi/9koGUckP2cQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/9koGUckP2cQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9koGUckP2cQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - machine learning
+    - ml agents
+    - ml
+    - ml-agents
+    - how to setup machine learning unity
+    - unity machine learning
+    - machine learning in unity
+    - machine learning introduction
+    - ml agents setup
+    - ml agents intro
+    - ml agents tutorial
+    - how to machine learning
+    - ml agents introduction
+    - machine learning basics
+    - ml agents basics
+    - ml for beginners
+    - machine learning for beginners
+    - ml agents beginners
+    - machine learning tutorial for beginners
+    viewCount: 9294
+    likeCount: 199
+    dislikeCount: 1
+    commentCount: 7
+    durationInMinutes: 0
+    publishedAtDate: 636585543650000000
+    publisdedDate:
+      year: 2018
+      month: 4
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Leverage Unity ML-Agents and Game Simulation | Unite Now 2020
+    url: https://www.youtube.com/watch?v=m_LxmQOS20Y
+    channelName: Unity
+    description: 'Want to know how to improve your game mechanics with machine learning
+      and large-scale simulations? Watch this video to see how to use Unity ML-Agents
+      for training embedded player bots to run game behavior.
+
+
+      Speaker:
+
+      Willis
+      Kennedy
+
+      Chris Goy
+
+
+      Ask your questions here: https://on.unity.com/3hCTRa4
+
+      Did
+      you find this video useful? Room for improvement? Let us know: https://on.unity.com/3hBK6cb
+
+      Check
+      out the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/3hMs7zY
+
+
+      Download
+      ML-Agents: https://on.unity.com/2Y9Zk0f
+
+      Sign up for the Game Simulation
+      Beta: https://on.unity.com/3dcoShs
+
+
+      00:00 Introduction
+
+      02:04
+      QR Code to links and resources
+
+      02:13 ML-Agents and Kart Microgame integration
+
+      03:04
+      ML-Agents overview and demo
+
+      15:03 The Kart Agent code
+
+      22:32 Train
+      your Agent
+
+      35:43 Use Player AI in your Game to Achieve Better Balance
+
+      41:03
+      How to use Game Simulation'
+    thumbUrls:
+    - https://i.ytimg.com/vi/m_LxmQOS20Y/sddefault.jpg
+    - https://i.ytimg.com/vi/m_LxmQOS20Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/m_LxmQOS20Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/m_LxmQOS20Y/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - machine learning
+    - game simulation
+    - unity simulation
+    - ml-agents
+    - unity machine learning
+    viewCount: 9529
+    likeCount: 175
+    dislikeCount: 10
+    commentCount: 26
+    durationInMinutes: 54
+    publishedAtDate: 637288043660000000
+    publisdedDate:
+      year: 2020
+      month: 6
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Kart Racing Game with Machine Learning in Unity! (Tutorial)
+    url: https://www.youtube.com/watch?v=i0Vt7l3XrIU
+    channelName: Unity
+    description: 'A Kart Racing Game with Machine Learning Agents, or ML Agents in
+      Unity - what does it look like? Let''s take a look!
+
+
+      In this video we
+      will learn how to implement Unity''s machine learning toolkit ML Agents into
+      Unity''s own Kart Racing Game project. We''ll use reinforcement learning to
+      train our AI agent to travel around the track autonomously by seeing with raycasts
+      and steering to avoid obstacles.
+
+
+      Download the free demo project here:
+      https://ole.unity.com/mlkartproj
+
+
+      Learn more about ML Agents: https://ole.unity.com/mlagentsrepo
+
+
+      Learn
+      more about Machine Learning at Unity: https://ole.unity.com/machinelearning'
+    thumbUrls:
+    - https://i.ytimg.com/vi/i0Vt7l3XrIU/sddefault.jpg
+    - https://i.ytimg.com/vi/i0Vt7l3XrIU/mqdefault.jpg
+    - https://i.ytimg.com/vi/i0Vt7l3XrIU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/i0Vt7l3XrIU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - machine learning
+    - unity machine learning
+    - unity ml
+    - ml
+    - unity machine learning tutorial
+    - unity agents
+    - unity agent
+    - unity machine learning agents
+    - unity karting game
+    - unity car game
+    - make a game in unity
+    - make a game with unity
+    - unity 2019 tutorial
+    - machine learning unity 2019
+    - gamedev
+    - indiedev
+    - ml agents
+    - unity ml agents
+    viewCount: 192815
+    likeCount: 4089
+    dislikeCount: 60
+    commentCount: 151
+    durationInMinutes: 5
+    publishedAtDate: 637143858440000000
+    publisdedDate:
+      year: 2020
+      month: 1
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: How to generate game character behaviors using AI and ML - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=2M3ytOo7LQQ
+    channelName: Unity
+    description: "Artificial intelligence and machine learning offer new mechanisms
+      for generating animations and behaviors for game characters. In this video,
+      we walk through the Unity Behavior Planner, Unity ML-Agents Toolkit and Unity
+      Inference Engine, three tools that leverage state-of-the-art AI algorithms
+      to help you hit the ground running on your next game. The team showcases these
+      tools with real examples. \n\nNo need to be an AI expert \u2013 this session
+      is for anyone interested in harnessing new tools to help you do more, faster.\n\nSpeakers:\nMantas
+      Puida - Unity\nVincent-Pierre Berges - Unity\nRobin Lindh Nilsson - Carry Castle\n\nSlides
+      available here: https://www.slideshare.net/unity3d/how-to-generate-game-character-behaviors-using-ai-and-ml-unite-copenhagen"
+    thumbUrls:
+    - https://i.ytimg.com/vi/2M3ytOo7LQQ/sddefault.jpg
+    - https://i.ytimg.com/vi/2M3ytOo7LQQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/2M3ytOo7LQQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2M3ytOo7LQQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 18190
+    likeCount: 505
+    dislikeCount: 7
+    commentCount: 25
+    durationInMinutes: 47
+    publishedAtDate: 637068737730000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: How hyper casuals took over the world | Unite Now 2020
+    url: https://www.youtube.com/watch?v=GsiZYA_HGnk
+    channelName: Unity
+    description: "Watch to learn about the rapid rise of hyper casuals, as well as
+      the outlook for mobile games in general.\n\nSpeakers:\nAgatha Hood, Head of
+      Global Ad Sales\nPaul H. M\xFCller, CTO and Co-Founder, Adjust\n\nGet the full
+      report: https://on.unity.com/2WlwDwf\nLearn more about Unity user acquisition:
+      https://on.unity.com/2DOrsyx\n\nAsk your questions here: https://on.unity.com/2WjQwn5\nDid
+      you find this video useful? Room for improvement? Let us know: https://on.unity.com/30cBgcZ\nCheck
+      out the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/3j6Lpk3\n\n00:00
+      Introduction\n02:10 Adjust \u2013 who we are\n03:59 What is a hyper casual
+      game?\n11:48 Learning from hyper casual strategies\n26:40 Predictions for the
+      future"
+    thumbUrls:
+    - https://i.ytimg.com/vi/GsiZYA_HGnk/sddefault.jpg
+    - https://i.ytimg.com/vi/GsiZYA_HGnk/mqdefault.jpg
+    - https://i.ytimg.com/vi/GsiZYA_HGnk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GsiZYA_HGnk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - making hyper casual games
+    - hyper casual unity
+    - unity making games
+    - unity hyper casual game
+    - unity 3d hyper casual games
+    - unity 3d hyper casual
+    - unity 2d hyper casual game
+    viewCount: 1892
+    likeCount: 38
+    dislikeCount: 6
+    commentCount: 4
+    durationInMinutes: 30
+    publishedAtDate: 637314900750000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: 'GDC 2019 - Unity Educator Breakfast: Immersive Learning at the University
+      Level'
+    url: https://www.youtube.com/watch?v=IP8jBC3nkEY
+    channelName: Unity
+    description: 'Speaker: Sara Kassis (Sonoma State University, Adjunct Professor
+      of Engineering Science, Director of Women in Tech, Faculty Fellow of Immersive
+      Learning)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/IP8jBC3nkEY/sddefault.jpg
+    - https://i.ytimg.com/vi/IP8jBC3nkEY/mqdefault.jpg
+    - https://i.ytimg.com/vi/IP8jBC3nkEY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IP8jBC3nkEY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 1427
+    likeCount: 30
+    dislikeCount: 5
+    commentCount: 3
+    durationInMinutes: 11
+    publishedAtDate: 636949104630000000
+    publisdedDate:
+      year: 2019
+      month: 5
+      day: 31
+    YouTubeDataAPI_Cooked: 1
+  - title: Game Connection Paris - Emil Johansen on Practical AI in Unity
+    url: https://www.youtube.com/watch?v=INFwX3WRIyA
+    channelName: Unity
+    description: 'Emil Johansen ("AngryAnt") talks about Behaviour Logic in Unity
+      and other related artificial intelligence topics.
+
+
+      Help us caption &
+      translate this video!
+
+
+      http://amara.org/v/V65P/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/INFwX3WRIyA/sddefault.jpg
+    - https://i.ytimg.com/vi/INFwX3WRIyA/mqdefault.jpg
+    - https://i.ytimg.com/vi/INFwX3WRIyA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/INFwX3WRIyA/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Artificial Intelligence (Industry)
+    - Game Connection
+    viewCount: 2589
+    likeCount: 30
+    dislikeCount: 1
+    commentCount: 6
+    durationInMinutes: 37
+    publishedAtDate: 635527307020000000
+    publisdedDate:
+      year: 2014
+      month: 11
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: 'ECS Track: Spline Based AI Agents - Unite LA'
+    url: https://www.youtube.com/watch?v=uK87jZmeT7Y
+    channelName: Unity
+    description: 'This session looks at the traffic simulation in the demo examining
+      the compute kernels and the code that Burst produces for them. We will also
+      cover the spline-based AI agents and how they were developed with the ECS.
+
+      Speakers:
+      Andreas Fredriksson (Unity Technologies), Lee Hammerton (Unity Technologies)'
+    thumbUrls:
+    - https://i.ytimg.com/vi/uK87jZmeT7Y/sddefault.jpg
+    - https://i.ytimg.com/vi/uK87jZmeT7Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/uK87jZmeT7Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/uK87jZmeT7Y/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3837
+    likeCount: 64
+    dislikeCount: 1
+    commentCount: 2
+    durationInMinutes: 40
+    publishedAtDate: 636784236060000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Democratize machine learning: ML-Agents explained - Unite LA'
+    url: https://www.youtube.com/watch?v=OTMlElDuN3k
+    channelName: Unity
+    description: 'Recent advances in mathematics, computation, and data are radically
+      redefining what is possible with machine learning (ML). These new techniques
+      have made ML not only more tractable, but broadened the potential uses for
+      it in game production and beyond! In this video, learn about Unity ML-Agents,
+      an open source toolkit that bridges the world of Unity and Machine Learning.
+      We''ll go over how advances in AI, such as reinforcement and imitation learning,
+      can open the door for new ways of game development.
+
+
+      Speakers: Arthur
+      Juliani (Deep Learning) and Vladimir Oster (Senior Software Engineer, Machine
+      Learning ) - Unity Technologies
+
+
+      Learn more: https://unity3d.com/machine-learning
+
+
+      Help
+      us caption & translate this video!
+
+
+      https://amara.org/v/oLGb/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/OTMlElDuN3k/sddefault.jpg
+    - https://i.ytimg.com/vi/OTMlElDuN3k/mqdefault.jpg
+    - https://i.ytimg.com/vi/OTMlElDuN3k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/OTMlElDuN3k/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 14425
+    likeCount: 227
+    dislikeCount: 4
+    commentCount: 16
+    durationInMinutes: 42
+    publishedAtDate: 636794748090000000
+    publisdedDate:
+      year: 2018
+      month: 12
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating a Game with Learning AI in Unity! (Tutorial / Machine Learning)
+    url: https://www.youtube.com/watch?v=gYwWolRFt98
+    channelName: Unity
+    description: 'Making a game and programming AI behaviour is a lot of fun. But
+      it''s even more fun, and in certain cases more efficient, where the AI can
+      learn by its own mistakes and the different player behaviours! Let''s take
+      a look at using Machine Learning to create smart AI for our Unity games.
+
+
+      Get
+      access to the Karting Microgame here: https://on.unity.com/2Xdov0q
+
+      More
+      information on the Machine Learning Agents Toolkit: https://on.unity.com/3e4AILz
+
+
+      BehaviourParameters
+      on Github: https://on.unity.com/3e5l6aM'
+    thumbUrls:
+    - https://i.ytimg.com/vi/gYwWolRFt98/sddefault.jpg
+    - https://i.ytimg.com/vi/gYwWolRFt98/mqdefault.jpg
+    - https://i.ytimg.com/vi/gYwWolRFt98/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gYwWolRFt98/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity game
+    - unity making a game
+    - unity ml
+    - unity machine learning
+    - unity smart karts
+    - unity smart kart
+    - unity microgame
+    - unity microgames
+    - unity fps microgame
+    - unity karting microgame
+    - unity kart microgame
+    - unity car game
+    - make a game with unity
+    - game
+    - learn how to make games with unity
+    - making a 3d game in unity
+    - learn unity free
+    - learn unity now
+    - how to use unity
+    - unity for beginners
+    - easy
+    - 3D
+    viewCount: 69466
+    likeCount: 1659
+    dislikeCount: 12
+    commentCount: 100
+    durationInMinutes: 13
+    publishedAtDate: 637256219610000000
+    publisdedDate:
+      year: 2020
+      month: 5
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Scripts as Behaviour Components in Unity! - Beginner Scripting Tutorial
+    url: https://www.youtube.com/watch?v=Z0Z7xc18CcA
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/scripts-as-behaviour-components
+
+
+      What
+      are Scripts in Unity? Learn about the behaviour component that is a Unity script,
+      and how to Create and Attach them to objects.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Z0Z7xc18CcA/sddefault.jpg
+    - https://i.ytimg.com/vi/Z0Z7xc18CcA/mqdefault.jpg
+    - https://i.ytimg.com/vi/Z0Z7xc18CcA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Z0Z7xc18CcA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity beginners
+    - unity for beginners
+    - unity beginners guide
+    - unity beginner tutorial
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity C# beginner friendly
+    - unity C# starting
+    - unity beginner tips
+    - unity beginner tutorial 2019
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - C#
+    viewCount: 234401
+    likeCount: 1298
+    dislikeCount: 19
+    commentCount: 51
+    durationInMinutes: 3
+    publishedAtDate: 637121258000000000
+    publisdedDate:
+      year: 2019
+      month: 12
+      day: 16
+    YouTubeDataAPI_Cooked: 1
+  - title: Behavior Trees with Behavior Designer
+    url: https://www.youtube.com/watch?v=T_of4_jRoJA
+    channelName: Unity
+    description: 'Click here to learn more: https://ole.unity.com/rpgbehaviordesigner
+
+
+      In
+      this video we continue looking at our top down RPG project. In this case, how
+      the AI was creating using Behavior Designer from the Unity Asset store.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/T_of4_jRoJA/sddefault.jpg
+    - https://i.ytimg.com/vi/T_of4_jRoJA/mqdefault.jpg
+    - https://i.ytimg.com/vi/T_of4_jRoJA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/T_of4_jRoJA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - behavior designer
+    - behavior
+    - designer
+    - behavior tree
+    - how to make game ai
+    - game ai
+    - tree
+    - video game ai
+    - chase
+    - flee
+    - enemy ai
+    - opsive
+    - asset store
+    - rpg
+    viewCount: 87693
+    likeCount: 897
+    dislikeCount: 43
+    commentCount: 86
+    durationInMinutes: 5
+    publishedAtDate: 636610829070000000
+    publisdedDate:
+      year: 2018
+      month: 5
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: AI-assisted artistry with Unity ArtEngine
+    url: https://www.youtube.com/watch?v=TNrLvTGGJZA
+    channelName: Unity
+    description: "Artomatix has joined the Unity family! Their flagship product,
+      ArtEngine, empowers artists by increasing their creative velocity across all
+      verticals \u2013 something for which we share a passion.  ArtEngine is an artist-friendly
+      3D content creation tool using Creative AI for scan-based and example-based
+      material-creation workflows to help create ultra-realistic worlds \u2013 the
+      first tool to use this approach! It removes the burden of minutiae material
+      creation work such as photoconversion to PBR materials, up-resing, deblur,
+      seam removal, unwarping, color matching, and much more, helping artists focus
+      on value-adding parts of the creative workflow.\n\nFind out more on the Unity
+      blog: \nFor more information, visit: \nhttp://bit.ly/Unity_ArtEngine"
+    thumbUrls:
+    - https://i.ytimg.com/vi/TNrLvTGGJZA/sddefault.jpg
+    - https://i.ytimg.com/vi/TNrLvTGGJZA/mqdefault.jpg
+    - https://i.ytimg.com/vi/TNrLvTGGJZA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TNrLvTGGJZA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - 3D
+    - 3Dart
+    - Photogrammetry
+    - photometry
+    - textures
+    - materials
+    - materialcreation
+    - gameart
+    - productviz
+    - archviz
+    - PBR
+    - seamremoval
+    - unwarp
+    - colormatch
+    - upres
+    - deblur
+    - creativeai
+    - AI
+    - ArtEngine
+    - Artomatix
+    - scanbased
+    - examplebased
+    - photorealism
+    - photorealistic
+    - digitalart
+    - art
+    - artist
+    - artwork
+    - machinelearning
+    - ML
+    - gameenvironment
+    - environmentartist
+    viewCount: 59597
+    likeCount: 1726
+    dislikeCount: 57
+    commentCount: 209
+    durationInMinutes: 2
+    publishedAtDate: 637194644330000000
+    publisdedDate:
+      year: 2020
+      month: 3
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: 'AI for behavior: Advanced research for intelligent decision making -
+      Unite LA'
+    url: https://www.youtube.com/watch?v=ZdN8dDa0ff4
+    channelName: Unity
+    description: "The Behavior Planner is a new AI-driven system created by Unity
+      Labs that gives a game object the ability to reason on how it should act, based
+      on predetermined choice criteria in an authoring flow that can be used for
+      NPCs, game design feedback, player tutorials and more. \nSpeakers: Amir Ebrahimi
+      (Software Developer), Nicolas Meuleau (Director of AI Research), Trevor Santarra
+      (Research Engineer - AI Labs) - Unity Technologies\n\nLearn more: https://unity3d.com/machine-learning\n\nHelp
+      us caption & translate this video!\n\nhttps://amara.org/v/oLG3/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZdN8dDa0ff4/sddefault.jpg
+    - https://i.ytimg.com/vi/ZdN8dDa0ff4/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZdN8dDa0ff4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZdN8dDa0ff4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 16424
+    likeCount: 311
+    dislikeCount: 4
+    commentCount: 17
+    durationInMinutes: 46
+    publishedAtDate: 636794750870000000
+    publisdedDate:
+      year: 2018
+      month: 12
+      day: 3
+    YouTubeDataAPI_Cooked: 1

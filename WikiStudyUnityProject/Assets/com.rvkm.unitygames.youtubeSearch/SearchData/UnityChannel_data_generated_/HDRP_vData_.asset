@@ -12,6 +12,1544 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: HDRP_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: HDRP
+  allVideos:
+  - title: Volumetric Lights in HDRP with Unity 2019.3! (Tutorial)
+    url: https://www.youtube.com/watch?v=EF5jy30ebVw
+    channelName: Unity
+    description: 'In this video, we''re gonna take a look at adding Volumetric Lights
+      to your Unity scenes, using Unity 2019.3 and HDRP! Volumetric Lighting helps
+      improve the quality of your scenes by allowing light sources to affect the
+      Volumetric Fog in the scene.
+
+
+      Download the Fontainebleau project here:
+      https://ole.unity.com/Fontainebleau
+
+      Upgrading Materials to HDRP Materials:
+      https://ole.unity.com/HDRPUpgrade'
+    thumbUrls:
+    - https://i.ytimg.com/vi/EF5jy30ebVw/sddefault.jpg
+    - https://i.ytimg.com/vi/EF5jy30ebVw/mqdefault.jpg
+    - https://i.ytimg.com/vi/EF5jy30ebVw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/EF5jy30ebVw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity volumetric light
+    - unity volumetric lights
+    - unity volumetric lighting
+    - unity vol lighting
+    - unity volumetric
+    - unity volume
+    - unity hdrp
+    - unity hdrp lighting
+    - unity global illumination
+    - unity gi
+    - unity 2019
+    - unity 2019.3
+    - unity 2019.3 hdrp
+    - unity
+    - unity hdrp tutorial
+    - unity hdrp tutorials
+    - learn unity
+    - unity hdrp for beginners
+    - unity beginner friendly
+    - unity easy
+    - learn unity easy
+    - unity3d
+    viewCount: 51544
+    likeCount: 1589
+    dislikeCount: 54
+    commentCount: 92
+    durationInMinutes: 9
+    publishedAtDate: 637180092040000000
+    publisdedDate:
+      year: 2020
+      month: 2
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Using cameras in HDRP (Tutorial)
+    url: https://www.youtube.com/watch?v=x0KIGa-6Vx4
+    channelName: Unity
+    description: 'When using HDRP, there is a set of new features to modify the look
+      and feel of the Camera view. In this tutorial, we are going to indicate those
+      specific changes and show how to use them!
+
+
+      More on HDRP Camera:
+
+      https://ole.unity.com/hdrp-camera'
+    thumbUrls:
+    - https://i.ytimg.com/vi/x0KIGa-6Vx4/sddefault.jpg
+    - https://i.ytimg.com/vi/x0KIGa-6Vx4/mqdefault.jpg
+    - https://i.ytimg.com/vi/x0KIGa-6Vx4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/x0KIGa-6Vx4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - camera unity tutorial
+    - unity camera blur
+    - unity dynamic camera
+    - unity 2019.3 hdrp
+    - unity hdrp
+    - hdrp camera
+    - hdrp depth of field
+    - hdrp 2019.3
+    - unity camera settings
+    - unity tutorial
+    - unity hdrp tutorial
+    viewCount: 13076
+    likeCount: 449
+    dislikeCount: 8
+    commentCount: 46
+    durationInMinutes: 5
+    publishedAtDate: 637233624370000000
+    publisdedDate:
+      year: 2020
+      month: 4
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Watch Live! Making a Short with HDRP from Scratch
+      in One Hour or Less!
+    url: https://www.youtube.com/watch?v=opMcm-yUCAE
+    channelName: Unity
+    description: 'The popular magic-trick-like performance returns as one of our
+      cinematics specialists proves that you can start completely from scratch (without
+      even using  a skybox!) and have a functioning linear short in record time --
+      with all the key elements like fade in/out, cuts, soundtrack, and effects.
+
+
+      Speakers:
+
+      Mathieu
+      Muller
+
+
+      https://unite.unity.com/2018/berlin/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/opMcm-yUCAE/sddefault.jpg
+    - https://i.ytimg.com/vi/opMcm-yUCAE/mqdefault.jpg
+    - https://i.ytimg.com/vi/opMcm-yUCAE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/opMcm-yUCAE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 8494
+    likeCount: 157
+    dislikeCount: 5
+    commentCount: 25
+    durationInMinutes: 62
+    publishedAtDate: 636694254010000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: The Heretic | HDRP lighting features
+    url: https://www.youtube.com/watch?v=cQvW0SdprQE
+    channelName: Unity
+    description: "The Heretic was created on stock Unity 2019.3 and takes advantage
+      of recent improvements in Unity\u2019s graphics. It was entirely lit using
+      real-time lights. In this video, we\u2019ll take a look at how these lights
+      work and how they enhance the world of The Heretic.\n\nJoin us for a live Meet
+      the Devs: Unite Now session:\nhttps://on.unity.com/3d66qrn\n\nWatch The Heretic:\nhttps://youtu.be/iQZobAhgayA"
+    thumbUrls:
+    - https://i.ytimg.com/vi/cQvW0SdprQE/sddefault.jpg
+    - https://i.ytimg.com/vi/cQvW0SdprQE/mqdefault.jpg
+    - https://i.ytimg.com/vi/cQvW0SdprQE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cQvW0SdprQE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity hdrp
+    - unity heretic
+    - unity demo
+    - unity 2019.3
+    - unity hdrp light
+    - unity volumetric
+    - unity volumetric lights
+    - unity hdrp game
+    - unity 2019.3 hdrp
+    - unity project overview
+    - unity the heretic
+    - unity adam
+    - unity book of the dead
+    - unity real time light
+    viewCount: 26508
+    likeCount: 778
+    dislikeCount: 15
+    commentCount: 57
+    durationInMinutes: 3
+    publishedAtDate: 637239672320000000
+    publisdedDate:
+      year: 2020
+      month: 5
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Simulating Wind in URP (Shader Graph Tutorial)
+    url: https://www.youtube.com/watch?v=ZsoqrHHtg4I
+    channelName: Unity
+    description: "In this video, we\u2019re going to show you how you can use Shader
+      Graph to simulate wind interacting with vegetation in your scene. \n\nCheck
+      out the Boat Attack Repository here!\nhttps://on.unity.com/3jeA8yg\n\nFor more
+      information about the Universal Render Pipeline click here!\nhttps://on.unity.com/2ZD1ma0\n\nLearn
+      more about Shader Graph here!\nhttps://on.unity.com/3h3Hanw"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ZsoqrHHtg4I/sddefault.jpg
+    - https://i.ytimg.com/vi/ZsoqrHHtg4I/mqdefault.jpg
+    - https://i.ytimg.com/vi/ZsoqrHHtg4I/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ZsoqrHHtg4I/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Unity game development
+    - unity gamedev
+    - unity game dev
+    - unity urp
+    - unity universal render pipeline
+    - universal render pipeline unity
+    - universal render pipeline
+    - unity urp tutorial
+    - unity grass
+    - unity vegetation
+    - unity urp vegetation
+    - creating vegetation in unity
+    - unity vegetations
+    - unity vegetation tutorial
+    - unity universal rp tutorial
+    viewCount: 21547
+    likeCount: 929
+    dislikeCount: 20
+    commentCount: 53
+    durationInMinutes: 6
+    publishedAtDate: 637306194210000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Setting up Environment Lighting in Unity 2019.3 with HDRP! (Tutorial)
+    url: https://www.youtube.com/watch?v=OXCB-LKCK_Y
+    channelName: Unity
+    description: "Let's take a look at how we can set up Environment Lighting in
+      Unity, using the High Definition Render Pipeline, or HDRP for short! \n\nLearn
+      more about Volumes and Volume Overrides: https://on.unity.com/2L8dHef\nLearn
+      more about Environment Lighting in HDRP: https://on.unity.com/35HWYrv"
+    thumbUrls:
+    - https://i.ytimg.com/vi/OXCB-LKCK_Y/sddefault.jpg
+    - https://i.ytimg.com/vi/OXCB-LKCK_Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/OXCB-LKCK_Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/OXCB-LKCK_Y/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity lighting tutorial
+    - unity environment lighting tutorial
+    - unity environment lighting
+    - unity environment light
+    - unity 2019.3
+    - unity hdrp
+    - unity hdrp tutorials
+    - unity hdrp tutorial
+    - unity gamedev
+    - unity indiedev
+    - make game in unity
+    - environment
+    - unity hdrp environment lighting
+    - unity tutorial hdrp
+    - unity 2019.3 hdrp
+    - unity hdrp 2019.3
+    - unity 2020 hdrp
+    - unity HDRP
+    - unity env light
+    viewCount: 45015
+    likeCount: 1293
+    dislikeCount: 29
+    commentCount: 101
+    durationInMinutes: 5
+    publishedAtDate: 637244968120000000
+    publisdedDate:
+      year: 2020
+      month: 5
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: "Reflections and Refractions in Unity! \u2013\_HDRP Tutorial"
+    url: https://www.youtube.com/watch?v=Bfdz-ErXq4w
+    channelName: Unity
+    description: "In this video, we're going to take a look at Reflections and Refractions
+      in HDRP, the High Definition Render Pipeline in Unity 2019.3! \n\nMore information
+      on HDRP Reflections: https://on.unity.com/2Ww9iqF\nMore information on HDRP
+      Refractions: https://on.unity.com/2YAHq7t"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Bfdz-ErXq4w/sddefault.jpg
+    - https://i.ytimg.com/vi/Bfdz-ErXq4w/mqdefault.jpg
+    - https://i.ytimg.com/vi/Bfdz-ErXq4w/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Bfdz-ErXq4w/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity hdrp
+    - unity high definition render pipeline
+    - unity hdrp tutorial
+    - unity hdrp tutorials
+    - unity hdrp tutorial 2020
+    - unity reflections
+    - unity refractions
+    - reflections and refractions in unity
+    - hdrp in unity
+    - making games with unity
+    - make a game
+    - unity reflections tutorial
+    - unity reflection tutorial
+    - unity tutorial reflection
+    - unity reflections and refractions
+    - hdrp tutorial
+    - hdrp
+    - unity srp
+    viewCount: 17029
+    likeCount: 599
+    dislikeCount: 20
+    commentCount: 76
+    durationInMinutes: 7
+    publishedAtDate: 637243192990000000
+    publisdedDate:
+      year: 2020
+      month: 5
+      day: 5
+    YouTubeDataAPI_Cooked: 1
+  - title: Realistic Shadows in Unity with HDRP! (Tutorial)
+    url: https://www.youtube.com/watch?v=N_TeKoMC3hg
+    channelName: Unity
+    description: "Let\u2019s take a look at how we can control shadows in the High
+      Definition Render Pipeline, to customize the shadows as we see fit for our
+      game in Unity!\n\nLearn more about shadows in HDRP: https://on.unity.com/2WPbkCo"
+    thumbUrls:
+    - https://i.ytimg.com/vi/N_TeKoMC3hg/sddefault.jpg
+    - https://i.ytimg.com/vi/N_TeKoMC3hg/mqdefault.jpg
+    - https://i.ytimg.com/vi/N_TeKoMC3hg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/N_TeKoMC3hg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Unity shadows
+    - Unity shadows tutorial
+    - Unity hdrp shadows
+    - Unity hdrp tutorials
+    - Unity learn hdrp
+    - Unity gamedev
+    - Unity indiedev
+    - Gamedev
+    - Indiedev
+    - Unity hdrp
+    - High definition render pipeline unity
+    - High definition render pipeline
+    - Gamedev unity
+    - Making a game in unity
+    - Making a game with unity
+    - Unity graphics tutorial
+    - Unity graphics
+    - Unity graphics 2020
+    - Unity graphics 2019.3
+    viewCount: 30717
+    likeCount: 767
+    dislikeCount: 24
+    commentCount: 392
+    durationInMinutes: 7
+    publishedAtDate: 637251034960000000
+    publisdedDate:
+      year: 2020
+      month: 5
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: Realistic Materials with HDRP in Unity! (Tutorial)
+    url: https://www.youtube.com/watch?v=nowjkfuJ7c8
+    channelName: Unity
+    description: 'In this video, we''re going to use Shader Graph with the High Definition
+      Render Pipeline, or HDRP in Unity, to create realistic materials with HDRP!
+
+
+      Learn
+      more here! https://on.unity.com/2CsLn5G'
+    thumbUrls:
+    - https://i.ytimg.com/vi/nowjkfuJ7c8/sddefault.jpg
+    - https://i.ytimg.com/vi/nowjkfuJ7c8/mqdefault.jpg
+    - https://i.ytimg.com/vi/nowjkfuJ7c8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/nowjkfuJ7c8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity lit shader
+    - unity shader graph
+    - unity shader graph tutorial
+    - unity graph
+    - unity shader
+    - unity shader graph tutorials
+    - unity 2020 shader graph
+    - unity 2019 shader graph
+    - unity 2019.3 shader graph
+    - unity hdrp
+    - unity hdrp shader graph
+    - hdrp unity
+    - unity2020
+    - unity2019
+    - unity gamedev
+    - unity game development
+    - making games in unity
+    - making shaders with unity
+    - unity hdrp tutorial
+    - unity 3d
+    - unity3d
+    viewCount: 17917
+    likeCount: 693
+    dislikeCount: 20
+    commentCount: 67
+    durationInMinutes: 7
+    publishedAtDate: 637330454470000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Optimizing HDRP with NVIDIA Nsight Graphics - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=l_LiE1vAFhM
+    channelName: Unity
+    description: "Unity's High Definition Render Pipeline (HDRP) makes it possible
+      for developers to unleash their application's full potential using a custom
+      renderer. With this great power, comes great responsibility; more than ever
+      you need to ensure that your application maintains optimal performance so your
+      users can have the best experience possible. Learn how to use NVIDIA Nsight
+      Graphics to profile and optimize your application to achieve peak performance.\n\nSpeaker:
+      Aurelio Reis \u2013 NVIDIA\n\nReal-time ray tracing with Unity and NVIDIA:
+      https://on.unity.com/2n23XtN\n\nSlides available here: https://www.slideshare.net/unity3d/optimizing-hdrp-with-nvidia-nsight-graphics"
+    thumbUrls:
+    - https://i.ytimg.com/vi/l_LiE1vAFhM/sddefault.jpg
+    - https://i.ytimg.com/vi/l_LiE1vAFhM/mqdefault.jpg
+    - https://i.ytimg.com/vi/l_LiE1vAFhM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/l_LiE1vAFhM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - nvidia
+    - ray tracing
+    - computer graphics
+    viewCount: 2287
+    likeCount: 31
+    dislikeCount: 2
+    commentCount: 0
+    durationInMinutes: 45
+    publishedAtDate: 637054938010000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Making a Water Shader in Unity with URP! (Tutorial)
+    url: https://www.youtube.com/watch?v=gRq-IdShxpU
+    channelName: Unity
+    description: "In this video, we'll take a look at how we can use the Shader Graph
+      feature in Universal Render Pipeline, or URP for short, with Unity to create
+      a water shader! The water shader can be simple or complex, and include the
+      features you desire. Let your imagination get wild in this tutorial, or simply
+      follow step-by-step to get about the same results! \n\nDid you know that there
+      is a fuller and more complex water shader in the Boat Attack demo used in this
+      video? Check out this link to find out more! \U0001F447\nhttps://on.unity.com/2O2GbYl\n\nLearn
+      more about Universal Render Pipeline here! \U0001F447\nhttps://on.unity.com/2BOctDN"
+    thumbUrls:
+    - https://i.ytimg.com/vi/gRq-IdShxpU/sddefault.jpg
+    - https://i.ytimg.com/vi/gRq-IdShxpU/mqdefault.jpg
+    - https://i.ytimg.com/vi/gRq-IdShxpU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gRq-IdShxpU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity tutorial
+    - unity tutorials
+    - unity water
+    - unity water tutorial
+    - unity water shader
+    - unity tutorial water
+    - unity how to make water
+    - unity realistic water
+    - unity low poly water
+    - unity stylized water
+    - unity graphics
+    - unity urp
+    - urp
+    - universal render
+    - gamedev
+    - game dev
+    - unity game development
+    - unity 3d water
+    - unity water shader graph
+    - unity shader graph
+    - unity shader graph water
+    - unity waters
+    viewCount: 96822
+    likeCount: 3460
+    dislikeCount: 66
+    commentCount: 273
+    durationInMinutes: 9
+    publishedAtDate: 637297670160000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Installing and Upgrading Project to HDRP! - Unity 2018: HDRP Overview
+      (2/3)'
+    url: https://www.youtube.com/watch?v=GyPSXDZi0NQ
+    channelName: Unity
+    description: "Find out more about HDRP: https://ole.unity.com/hdrpblog\nStep
+      by step guide: https://on.unity.com/2zpHdXJ\n\nThe High Definition Render Pipeline
+      (HDRP) is a high-fidelity Scriptable Render Pipeline built by Unity to target
+      modern (Compute Shader compatible) platforms.\n\nIn this series of video, we're
+      going to take a look at HDRP, and see how we can implement assets, upgrade
+      materials, what features we can use, and more. \n\nThe HDRP utilizes Physically-Based
+      Lighting techniques, linear lighting, HDR lighting and a configurable hybrid
+      Tile/Cluster deferred/Forward lighting architecture and gives you the tools
+      you need to create games, technical demos, animations and more to a high graphical
+      standard."
+    thumbUrls:
+    - https://i.ytimg.com/vi/GyPSXDZi0NQ/sddefault.jpg
+    - https://i.ytimg.com/vi/GyPSXDZi0NQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/GyPSXDZi0NQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/GyPSXDZi0NQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2018
+    - unity hdrp
+    - unity hdrp glass
+    - unity hdrp tutorial
+    - unity hdrp 2018
+    - unity 2018 hdrp
+    - unity srp
+    - unity graphics
+    - unity hdrp graphics
+    - unity post processing
+    - high definition render
+    - unity easy
+    - unity for beginners
+    - unity tutorials
+    - unity high definition render pipeline
+    - unity scriptable render pipeline tutorial
+    - high definition render pipeline
+    - Unity 2018 Graphics
+    - easy
+    - make a game
+    viewCount: 44406
+    likeCount: 404
+    dislikeCount: 17
+    commentCount: 57
+    durationInMinutes: 10
+    publishedAtDate: 636734100520000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Improving visual fidelity get up to speed with HDRP | Unite Now 2020
+    url: https://www.youtube.com/watch?v=n-OMP_BJJSQ
+    channelName: Unity
+    description: 'In this video, you''ll learn how to set up and use the High Definition
+      Render Pipeline (HDRP), and how its Materials, Lighting, and Volumetric workflows
+      differ from the Built-in Render Pipeline.
+
+
+      Speaker:
+
+      Andrew Jevsevar
+
+
+      Did
+      you find this video useful? Room for improvement? Let us know: https://on.unity.com/3fr8tI7
+
+
+      Check
+      out the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/32gCOp8'
+    thumbUrls:
+    - https://i.ytimg.com/vi/n-OMP_BJJSQ/sddefault.jpg
+    - https://i.ytimg.com/vi/n-OMP_BJJSQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/n-OMP_BJJSQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/n-OMP_BJJSQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity hdrp tutorial
+    - unity hdrp lighting
+    - unity srp
+    - unity hdrp materials
+    - unity hdrp assets
+    - unity 2020 hdrp
+    - unity hdrp
+    - hdrp unity
+    - unity high definition
+    - unity the heretic
+    - the heretic unity
+    viewCount: 3301
+    likeCount: 71
+    dislikeCount: 6
+    commentCount: 10
+    durationInMinutes: 48
+    publishedAtDate: 637314961070000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: How to create photorealistic representations using Unity's HDRP - Unite
+      Copenhagen
+    url: https://www.youtube.com/watch?v=8dljL33Qyw4
+    channelName: Unity
+    description: 'Explore a real-time rendered walkthrough of Unity''s London office,
+      created by Oneiros and M Moser Associates. You''ll learn how they used Unity
+      to create photorealistic representations using the High-Definition Render Pipeline
+      (HDRP) and how these experiences can be leveraged for sales and marketing to
+      win more business.
+
+
+      Speakers:
+
+      Mirko Vescio - Oneiros
+
+      Mariana
+      Anelli - M Moser Associates
+
+
+      Learn more: https://on.unity.com/2OIjlH4'
+    thumbUrls:
+    - https://i.ytimg.com/vi/8dljL33Qyw4/sddefault.jpg
+    - https://i.ytimg.com/vi/8dljL33Qyw4/mqdefault.jpg
+    - https://i.ytimg.com/vi/8dljL33Qyw4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8dljL33Qyw4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - HDRP
+    viewCount: 7147
+    likeCount: 167
+    dislikeCount: 10
+    commentCount: 13
+    durationInMinutes: 44
+    publishedAtDate: 637066889530000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: How HDRP unlocks graphics - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=wZbdW8o1Ers
+    channelName: Unity
+    description: 'The High-Definition Render Pipeline in Unity 2019.3 gives you high-fidelity
+      graphics for high-end platforms. With HDRP, you have the tools to create anything
+      from games to technical demos at the highest resolution.
+
+
+      Speaker: Kieran
+      Colenutt - Unity
+
+
+      Slides available here: https://www.slideshare.net/unity3d/how-hdrp-unlocks-graphics-unite-copenhagen-2019
+
+
+      Learn
+      more about HDRP: https://on.unity.com/2W698pB'
+    thumbUrls:
+    - https://i.ytimg.com/vi/wZbdW8o1Ers/sddefault.jpg
+    - https://i.ytimg.com/vi/wZbdW8o1Ers/mqdefault.jpg
+    - https://i.ytimg.com/vi/wZbdW8o1Ers/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wZbdW8o1Ers/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Graphics
+    viewCount: 4291
+    likeCount: 52
+    dislikeCount: 3
+    commentCount: 6
+    durationInMinutes: 25
+    publishedAtDate: 637074806750000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: High-fidelity visuals with HDRP | Unite Now 2020
+    url: https://www.youtube.com/watch?v=a1irK_lC0Hs
+    channelName: Unity
+    description: "In this video, explore the High Definition Render Pipeline and
+      learn how to manipulate its lighting tools to help create high-quality visuals.
+      \n\nSpeaker: \nAndy Jevsevar\n\nDid you find this video useful? Room for improvement?
+      Let us know: https://on.unity.com/2B4uo8I\n\nCheck out the Unite Now page to
+      be among the first to watch upcoming sessions: https://on.unity.com/3epUQb1"
+    thumbUrls:
+    - https://i.ytimg.com/vi/a1irK_lC0Hs/sddefault.jpg
+    - https://i.ytimg.com/vi/a1irK_lC0Hs/mqdefault.jpg
+    - https://i.ytimg.com/vi/a1irK_lC0Hs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/a1irK_lC0Hs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - hdrp
+    - computer graphics
+    - high definition render pipeline
+    viewCount: 5277
+    likeCount: 109
+    dislikeCount: 14
+    commentCount: 0
+    durationInMinutes: 50
+    publishedAtDate: 637284957470000000
+    publisdedDate:
+      year: 2020
+      month: 6
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: HDRP Shader Graph support in 2018.3
+    url: https://www.youtube.com/watch?v=1hgs1zGhiME
+    channelName: Unity
+    description: 'Get this example project and learn more about the new Shader Graph
+      shading tools: https://on.unity.com/2CjqvLl
+
+      In Unity 2018.3, Shader
+      Graph introduces a new Master Node for the High Definition Render Pipeline
+      (HDRP). This new Master Node makes many HDRP advanced shading features, like
+      iridescence, translucency, and subsurface scattering, accessible in Shader
+      Graph!'
+    thumbUrls:
+    - https://i.ytimg.com/vi/1hgs1zGhiME/sddefault.jpg
+    - https://i.ytimg.com/vi/1hgs1zGhiME/mqdefault.jpg
+    - https://i.ytimg.com/vi/1hgs1zGhiME/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1hgs1zGhiME/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 27509
+    likeCount: 278
+    dislikeCount: 29
+    commentCount: 25
+    durationInMinutes: 0
+    publishedAtDate: 636808477100000000
+    publisdedDate:
+      year: 2018
+      month: 12
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: HDRP in Unity 2019.1
+    url: https://www.youtube.com/watch?v=HAhlGY_kwCA
+    channelName: Unity
+    description: 'The High Definition Render Pipeline (HDRP) is a prebuilt, high-fidelity
+      Scriptable Render Pipeline designed to target modern, Compute Shader compatible,
+      platforms.  In the 2019.1 release, we have added several new features and heavily
+      improved the workflow for artists overall. Get all the details on the blog:
+      https://on.unity.com/2Pfxt8Z'
+    thumbUrls:
+    - https://i.ytimg.com/vi/HAhlGY_kwCA/sddefault.jpg
+    - https://i.ytimg.com/vi/HAhlGY_kwCA/mqdefault.jpg
+    - https://i.ytimg.com/vi/HAhlGY_kwCA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HAhlGY_kwCA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 20858
+    likeCount: 191
+    dislikeCount: 12
+    commentCount: 16
+    durationInMinutes: 0
+    publishedAtDate: 636911565420000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Harold Halibut: Realistic Graphics with HDRP - Developer Interview (Part
+      3)'
+    url: https://www.youtube.com/watch?v=xpOrbnHw9LQ
+    channelName: Unity
+    description: "Check out Harold Halibut here: https://unity.com/madewith/harold-halibut\n\nIn
+      this video, we're taking a look at Harold Halibut, and interviewing the developers
+      at Slow Bros. Harold Halibut is a handmade adventure game, in which all of
+      the assets are crafted by hand, and then scanned into Unity with photogrammetry!
+      \n\nDive into this nautic adventure as curiosity will guide you through a space
+      ship wreck on an unknown planet made up of water. When one of the lead scientists
+      still on board tries to unriddle the possibility of a relaunch young Janitor
+      Harold is around to assist her. Join Harold in his clumsy undertakings to stir
+      up the ark-like ship\u2019s stale day-to-day life and find the secrets that
+      lie behind its doors.\n\nUnderwater atmosphere, self-reflective humor and contemporary
+      adventure mechanics make up the foundation of this game created entirely out
+      of craft supplies."
+    thumbUrls:
+    - https://i.ytimg.com/vi/xpOrbnHw9LQ/sddefault.jpg
+    - https://i.ytimg.com/vi/xpOrbnHw9LQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/xpOrbnHw9LQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/xpOrbnHw9LQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - harold halibut
+    - unity harold
+    - unity halibut
+    - unity harold halibut
+    - unity 2018 hdrp
+    - unity 2018 harold halibut
+    - harold halibut gameplay
+    - unity games
+    - unity new games
+    - unity 2018
+    - unity game
+    - gamedev
+    - indiedev
+    - 3d
+    - unity photogrammetry
+    - game development
+    - games
+    - 2018
+    - indie dev
+    - Unity 2018
+    - tutorial
+    - unity 3d
+    - unity
+    - photogrammetry
+    - hd
+    - high quality
+    - hdrp
+    - graphics
+    - unity graphics
+    - unity 2018 graphics
+    viewCount: 4311
+    likeCount: 52
+    dislikeCount: 4
+    commentCount: 8
+    durationInMinutes: 13
+    publishedAtDate: 636722837420000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: Harnessing Light with URP and the GPU Lightmapper | Unite Now 2020
+    url: https://www.youtube.com/watch?v=hMnetI4-dNY
+    channelName: Unity
+    description: 'In this video, you''ll gain an understanding of how lights and
+      shadows work in the Universal Render Pipeline, as well as how to set up a scenario
+      with a mix of real-time shadows, Light Probes, and baked GI.
+
+
+      Speaker:
+
+      Ciro
+      Continisio
+
+
+      Ask your questions here: https://on.unity.com/2UmP9TE
+
+      Did
+      you find this video useful? Room for improvement? Let us know: https://on.unity.com/2Ydm26z
+
+      Check
+      out the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/30hMK0x
+
+
+      00:00
+      - Intro and agenda
+
+      01:33 - Universal Render Pipeline
+
+      02:42 -
+      Realtime lighting strategy
+
+      04:40 - Shadow quality, cascades
+
+      13:36
+      - Baked lighting strategy
+
+      18:54 - Explanation of lightmapping
+
+      22:44
+      - Filtering and Charts
+
+      28:46 - UVs
+
+      35:50 - Iterating on the right
+      settings
+
+      37:56 - Mixed lighting
+
+      43:02 - Light Probes
+
+      51:44
+      - Reflection Probes
+
+      56:25 - Wrap-up'
+    thumbUrls:
+    - https://i.ytimg.com/vi/hMnetI4-dNY/sddefault.jpg
+    - https://i.ytimg.com/vi/hMnetI4-dNY/mqdefault.jpg
+    - https://i.ytimg.com/vi/hMnetI4-dNY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/hMnetI4-dNY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 18787
+    likeCount: 595
+    dislikeCount: 6
+    commentCount: 69
+    durationInMinutes: 60
+    publishedAtDate: 637310572360000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting started with HDRP for games - Unite Copenhagen 2019
+    url: https://www.youtube.com/watch?v=-GzGpDGfeTA
+    channelName: Unity
+    description: 'Learn to assess when to use the High-Definition Render Pipeline
+      (HDRP) and how to start using it for production.
+
+
+      Speaker:
+
+      Jennifer
+      S. Roig-Deslandes - Unity
+
+
+      More about HRDP: https://on.unity.com/2nZyloq
+
+
+      Slides
+      available here: https://www.slideshare.net/unity3d/getting-started-with-highdefinition-render-pipeline-for-games-unite-copenhagen-2019'
+    thumbUrls:
+    - https://i.ytimg.com/vi/-GzGpDGfeTA/sddefault.jpg
+    - https://i.ytimg.com/vi/-GzGpDGfeTA/mqdefault.jpg
+    - https://i.ytimg.com/vi/-GzGpDGfeTA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-GzGpDGfeTA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - computer graphics
+    viewCount: 12865
+    likeCount: 199
+    dislikeCount: 12
+    commentCount: 21
+    durationInMinutes: 31
+    publishedAtDate: 637054938010000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Feature Overview of the High Definition Render Pipeline! - Unity 2018:
+      HDRP Overview (1/3)'
+    url: https://www.youtube.com/watch?v=yFeYFsYgfsM
+    channelName: Unity
+    description: "Introduction to HDRP: https://ole.unity.com/hdrpblog\nStep by step
+      guide: https://on.unity.com/2zpHdXJ\n\nThe High Definition Render Pipeline
+      (HDRP) is a high-fidelity Scriptable Render Pipeline built by Unity to target
+      modern (Compute Shader compatible) platforms.\n\nIn this series of video, we're
+      going to take a look at HDRP, and see how we can implement assets, upgrade
+      materials, what features we can use, and more. \n\nThe HDRP utilizes Physically-Based
+      Lighting techniques, linear lighting, HDR lighting and a configurable hybrid
+      Tile/Cluster deferred/Forward lighting architecture and gives you the tools
+      you need to create games, technical demos, animations and more to a high graphical
+      standard."
+    thumbUrls:
+    - https://i.ytimg.com/vi/yFeYFsYgfsM/sddefault.jpg
+    - https://i.ytimg.com/vi/yFeYFsYgfsM/mqdefault.jpg
+    - https://i.ytimg.com/vi/yFeYFsYgfsM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/yFeYFsYgfsM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2018
+    - unity hdrp
+    - unity hdrp glass
+    - unity hdrp tutorial
+    - unity hdrp 2018
+    - unity 2018 hdrp
+    - unity srp
+    - unity graphics
+    - unity hdrp graphics
+    - unity post processing
+    - high definition render
+    - unity easy
+    - unity for beginners
+    - unity tutorials
+    - unity high definition render pipeline
+    - unity scriptable render pipeline tutorial
+    - high definition render pipeline
+    - Unity 2018 Graphics
+    - easy
+    - make a game
+    viewCount: 67260
+    likeCount: 541
+    dislikeCount: 20
+    commentCount: 36
+    durationInMinutes: 7
+    publishedAtDate: 636734099440000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Custom SRP and graphics workflows | Battle Planet - Judgement Day - Unite
+      Copenhagen 2019
+    url: https://www.youtube.com/watch?v=91zUwJwkXNQ
+    channelName: Unity
+    description: 'Battle Planet - Judgement Day is a unique game in the sense that
+      it''s played entirely on a single sphere (the planet). Levels are fully procedural
+      and fully destructible. This structure created a few big challenges in terms
+      of rendering, which were solved by writing a custom Scriptable Render Pipeline
+      for the game. This session provides an overview of the game''s rendering features
+      and how they were implemented using SRP. It includes a few examples of how
+      performance issues influenced the design of the pipeline as well as a discussion
+      about shader programming and design patterns.
+
+
+      Speaker:
+
+      Henning
+      Steinbock - Threaks
+
+
+      Slides available here: https://www.slideshare.net/unity3d/custom-srp-and-graphics-workflows-unite-copenhagen-2019'
+    thumbUrls:
+    - https://i.ytimg.com/vi/91zUwJwkXNQ/sddefault.jpg
+    - https://i.ytimg.com/vi/91zUwJwkXNQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/91zUwJwkXNQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/91zUwJwkXNQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 5960
+    likeCount: 144
+    dislikeCount: 4
+    commentCount: 13
+    durationInMinutes: 40
+    publishedAtDate: 637054938010000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Custom Pass Framework in HDRP (Tutorial)
+    url: https://www.youtube.com/watch?v=vBqSSXjQvCo
+    channelName: Unity
+    description: "When using the High Definition Render Pipeline (HDRP) we can use
+      a custom pass to change materials on scene geometry, change the draw order
+      in which objects being are rendered, and read camera buffers to use in our
+      shaders. In this video, we'll take a look at how we can build a Custom Pass
+      in Unity and use it to manipulate our scene.\n\n\U0001F447 Learn more about
+      Custom Passes in this link below! \nhttps://on.unity.com/2NIidl0"
+    thumbUrls:
+    - https://i.ytimg.com/vi/vBqSSXjQvCo/sddefault.jpg
+    - https://i.ytimg.com/vi/vBqSSXjQvCo/mqdefault.jpg
+    - https://i.ytimg.com/vi/vBqSSXjQvCo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/vBqSSXjQvCo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - HDRP
+    - hdrp custom passes
+    - hdrp passes
+    viewCount: 11398
+    likeCount: 475
+    dislikeCount: 13
+    commentCount: 41
+    durationInMinutes: 5
+    publishedAtDate: 637291510460000000
+    publisdedDate:
+      year: 2020
+      month: 6
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: "Creating Realistic Materials in Unity 2019.3! \u2013 HDRP Tutorial"
+    url: https://www.youtube.com/watch?v=n9kEwGvrY78
+    channelName: Unity
+    description: "HDRP in Unity take advantage of pipeline features such as Hair,
+      Decal and Lit Shader! In this video, we'll use the Lit Shader to create realistic
+      materials with Unity 2019.3! \n\nMake sure to check out this link for more
+      on Layered Lit Shaders: https://on.unity.com/2Kz3KXb\nAnd check this out for
+      more on Photogrammetry! https://on.unity.com/2KnHlf6\n\nLet us know in the
+      comment section if you are already using HDRP, or if you plan to get started
+      now! \n\nFor more HDRP videos, make sure to follow this playlist: https://on.unity.com/2zbYohQ"
+    thumbUrls:
+    - https://i.ytimg.com/vi/n9kEwGvrY78/sddefault.jpg
+    - https://i.ytimg.com/vi/n9kEwGvrY78/mqdefault.jpg
+    - https://i.ytimg.com/vi/n9kEwGvrY78/maxresdefault.jpg
+    - https://i.ytimg.com/vi/n9kEwGvrY78/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity hdrp
+    - unity high defitionion
+    - unity high definition
+    - unity high definition render pipeline
+    - unity hight definition rp
+    - unity high quality
+    - unity graphics
+    - unity graphics tutorial
+    - unity material tutorial
+    - unity hdrp materials
+    - unity
+    - high definition render pipeline
+    - hdrp
+    - hdrp tutorial in unity
+    - hdrp tutorial unity
+    - unity hdrp tutorial
+    - unity hdrp tutorials
+    - unity hdrp tutorial material
+    - game
+    viewCount: 29402
+    likeCount: 770
+    dislikeCount: 20
+    commentCount: 136
+    durationInMinutes: 6
+    publishedAtDate: 637230996660000000
+    publisdedDate:
+      year: 2020
+      month: 4
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Creating a Realistic Glass Material using HDRP! - Unity 2018: HDRP Overview
+      (3/3)'
+    url: https://www.youtube.com/watch?v=E31H5WuA-d4
+    channelName: Unity
+    description: "Find out more about HDRP: https://ole.unity.com/hdrpblog\nStep
+      by step guide: https://on.unity.com/2zpHdXJ\n\nThe High Definition Render Pipeline
+      (HDRP) is a high-fidelity Scriptable Render Pipeline built by Unity to target
+      modern (Compute Shader compatible) platforms.\n\nIn this series of video, we're
+      going to take a look at HDRP, and see how we can implement assets, upgrade
+      materials, what features we can use, and more. \n\nThe HDRP utilizes Physically-Based
+      Lighting techniques, linear lighting, HDR lighting and a configurable hybrid
+      Tile/Cluster deferred/Forward lighting architecture and gives you the tools
+      you need to create games, technical demos, animations and more to a high graphical
+      standard."
+    thumbUrls:
+    - https://i.ytimg.com/vi/E31H5WuA-d4/sddefault.jpg
+    - https://i.ytimg.com/vi/E31H5WuA-d4/mqdefault.jpg
+    - https://i.ytimg.com/vi/E31H5WuA-d4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/E31H5WuA-d4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2018
+    - unity hdrp
+    - unity hdrp glass
+    - unity hdrp tutorial
+    - unity hdrp 2018
+    - unity 2018 hdrp
+    - unity srp
+    - unity graphics
+    - unity hdrp graphics
+    - unity post processing
+    - high definition render
+    - unity easy
+    - unity for beginners
+    - unity tutorials
+    - unity high definition render pipeline
+    - unity scriptable render pipeline tutorial
+    - high definition render pipeline
+    - Unity 2018 Graphics
+    - easy
+    - make a game
+    viewCount: 39030
+    likeCount: 651
+    dislikeCount: 18
+    commentCount: 38
+    durationInMinutes: 7
+    publishedAtDate: 636734100750000000
+    publisdedDate:
+      year: 2018
+      month: 9
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: Camera Stacking in Unity with URP! (Tutorial)
+    url: https://www.youtube.com/watch?v=OmCjPctKkjw
+    channelName: Unity
+    description: "In this video we're going to take a look at Camera Stacking with
+      the Universal Render Pipeline, in short URP, using Unity! Using Camera Stacking
+      you can layer game UI in Unity very quickly, and author high quality user experience.
+      \n\nDownload the Cockpit demo, along with other URP example projects here!
+      \nhttps://on.unity.com/3jUFeQm\n\nMore info on Universal Render Pipeline and
+      Camera Stacking here!\nhttps://on.unity.com/2X9dw8X\n\nUse Camera Stacking
+      in Unity 2020.1:\nhttps://on.unity.com/2XV51Pg"
+    thumbUrls:
+    - https://i.ytimg.com/vi/OmCjPctKkjw/sddefault.jpg
+    - https://i.ytimg.com/vi/OmCjPctKkjw/mqdefault.jpg
+    - https://i.ytimg.com/vi/OmCjPctKkjw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/OmCjPctKkjw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity tutorial
+    - unity camera stacking tutorial
+    - unity camera stacking
+    - camera stacking unity
+    - unity 2020
+    - unity urp
+    - unity universal render pipeline
+    - unity urp tutorial
+    - unity tutorial urp
+    - unity urp camera stacking
+    - unity game development
+    - unity ui tutorial
+    - unity ui
+    - unity urp ui
+    - unity3d
+    - unity 2020 tutorial
+    - unity 2020 tutorials
+    - unity game making
+    - make games in unity
+    - make game tutorial
+    viewCount: 37911
+    likeCount: 1730
+    dislikeCount: 33
+    commentCount: 146
+    durationInMinutes: 2
+    publishedAtDate: 637316654310000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: "Buried Memories: Serekh \u2013 New HDRP Asset Pack for Unity! (Overview)"
+    url: https://www.youtube.com/watch?v=5CTAVFOrbsM
+    channelName: Unity
+    description: "Learn more about Serekh here: https://ole.unity.com/SerekhBlog\nYou
+      can purchase Serekh from here: https://ole.unity.com/Serekh\n\nThe Unity Icon
+      Collective strives to democratize high-end asset production. With Buried Memories,
+      starting with Volume 1: Yggdrasil, we hope to inspire creators to extend their
+      own universe but especially to guide aspiring artists and others to observe,
+      analyze and learn from the techniques of industry veterans.\n\nVolume 2: Serekh
+      is an asset pack geared toward an action-adventure game. It gives you the chance
+      to experience being a humanoid creature with legendary strength and powerful
+      technological weapons.\n\n\u201CThe package will be enjoyable for players passionate
+      about the sci-fi genre and curious to try on the role of the monster beast
+      troublemaker.\u201D \u2013 Edvige Faini, Concept Artist\n\nSerekh invites a
+      discussion about humanity\u2019s vulnerability in the face of technology and
+      science and the extent to which we can push boundaries through enhancement
+      interventions, especially genetic manipulation. What does it mean to be human
+      in the future?"
+    thumbUrls:
+    - https://i.ytimg.com/vi/5CTAVFOrbsM/sddefault.jpg
+    - https://i.ytimg.com/vi/5CTAVFOrbsM/mqdefault.jpg
+    - https://i.ytimg.com/vi/5CTAVFOrbsM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5CTAVFOrbsM/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity icon collective
+    - unity buried memories
+    - unity the icon collective
+    - unity graphics
+    - unity demo
+    - unity project
+    - unity demos
+    - unity hdrp
+    - unity hdrp project
+    - unity 2019
+    - how to make games in unity
+    - how to make a game with unity
+    - unity make a game
+    - serekh
+    - unity serekh
+    - unity yggdrasil
+    - unity new
+    - Unity overview
+    - gamedev
+    - unity gamedev
+    - unity game dev
+    - high definition render pipeline
+    - unity
+    viewCount: 14885
+    likeCount: 504
+    dislikeCount: 40
+    commentCount: 55
+    durationInMinutes: 4
+    publishedAtDate: 636963786620000000
+    publisdedDate:
+      year: 2019
+      month: 6
+      day: 17
+    YouTubeDataAPI_Cooked: 1
+  - title: Adding Volumes to HDRP (Tutorial)
+    url: https://www.youtube.com/watch?v=vczkfjLoPf8
+    channelName: Unity
+    description: 'The High Definition Render Pipeline (HDRP) uses a Volume framework.
+      We can use Volumes to control settings such as fog, sky, lighting, post-processing,
+      or shadows. In this video, we''ll take a look at how to change the look of
+      your scene by creating these Volumes and transitioning between the effects.
+
+
+      More
+      on the Volume Framework:
+
+      https://ole.unity.com/VolumeFrameworkHDRP
+
+
+      More
+      on the Physical Light units:
+
+      https://ole.unity.com/PhysicalLightUnitysHDRP'
+    thumbUrls:
+    - https://i.ytimg.com/vi/vczkfjLoPf8/sddefault.jpg
+    - https://i.ytimg.com/vi/vczkfjLoPf8/mqdefault.jpg
+    - https://i.ytimg.com/vi/vczkfjLoPf8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/vczkfjLoPf8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - hdrp volumetric fog
+    - hdrp volumetric lights
+    - hdrp volumes
+    - hdrp volume profile
+    - unity hdrp volume
+    - unity hdrp volumetric
+    - hdrp post
+    - post processing
+    - hdrp fog
+    - hdrp light shaft
+    - hdrp post processing
+    - how to add volume hdrp
+    - add volume hdrp
+    - unity 2019.3
+    - unity hdrp 2019.3
+    viewCount: 14217
+    likeCount: 496
+    dislikeCount: 11
+    commentCount: 34
+    durationInMinutes: 7
+    publishedAtDate: 637232760330000000
+    publisdedDate:
+      year: 2020
+      month: 4
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: Achieving high fidelity graphics for games with the HDRP | Unite Now 2020
+    url: https://www.youtube.com/watch?v=yqCHiZrgKzs&amp;t=1622s
+    channelName: Unity
+    description: "In this video, you'll learn how to create AAA-quality visuals for
+      current and next-gen games. We\u2019ll also show you HDRP\u2019s key rendering
+      features and how to tune settings for anti-aliasing, lights, shadows, exposure,
+      and more.\n\nSpeaker:\nPierre Yves Donzallaz (Senior Rendering & Lighting Artist)\n\nDid
+      you find this video useful? Room for improvement? Let us know: https://on.unity.com/2YVbGJ5\n\nCheck
+      out the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/3h03IXe\n\n0:00
+      Introduction\n3:02 HDRP installation\n4:01 Graphics Settings\n7:46 Anti-aliasing\n11:07
+      Level overview\n12:51 Volume Setup\n17:06 Exposure\n29:22 Lighting Setup\n32:15
+      Light intensities\n38:36 Shadows\n44:11 Contact Shadows\n45:33 Reflections\n50:53
+      Fog\n54:35 Ambient Occlusion\n57:00 Lighting Explorer\n58:17 Light Layers\n1:00:59
+      Tone mapping\n1:02:29 White balance\n1:03:08 Bloom\n1:03:54 Depth of field\n1:07:21
+      Conclusion"
+    thumbUrls:
+    - https://i.ytimg.com/vi/yqCHiZrgKzs/sddefault.jpg
+    - https://i.ytimg.com/vi/yqCHiZrgKzs/mqdefault.jpg
+    - https://i.ytimg.com/vi/yqCHiZrgKzs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/yqCHiZrgKzs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 35146
+    likeCount: 1126
+    dislikeCount: 15
+    commentCount: 77
+    durationInMinutes: 68
+    publishedAtDate: 637274386740000000
+    publisdedDate:
+      year: 2020
+      month: 6
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: 7 Ways to Optimize your Unity Project with URP
+    url: https://www.youtube.com/watch?v=NFBr21V0zvU
+    channelName: Unity
+    description: "In this video, we\u2019re going to show you seven ways to optimize
+      your Unity project to maximize performance in Unity 2020 using the Universal
+      Render Pipeline.\n\nLearn more about URP here:\nhttps://on.unity.com/2Qi7Ntt\n\nThe
+      Asset used in this video are from our Angry Bots Demo which you can find here:\nhttps://on.unity.com/34tohY0\n\nChapters:\n0:20
+      Managing your Lighting\n3:30 Light Probes\n4:34 Reflection Probes\n5:54 Camera
+      Settings\n7:30 Pipeline Settings\n9:07 Frame Debugger\n10:12 Profiler"
+    thumbUrls:
+    - https://i.ytimg.com/vi/NFBr21V0zvU/sddefault.jpg
+    - https://i.ytimg.com/vi/NFBr21V0zvU/mqdefault.jpg
+    - https://i.ytimg.com/vi/NFBr21V0zvU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/NFBr21V0zvU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2020
+    - urp
+    - universal render pipeline
+    - performance optimization unity
+    - better performance unity
+    - unity tutorial
+    - better game performance
+    - unity 2020.1
+    - urp in 2020.1
+    - performance optimisation unity 2020
+    viewCount: 39632
+    likeCount: 1895
+    dislikeCount: 32
+    commentCount: 125
+    durationInMinutes: 11
+    publishedAtDate: 637338853090000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 24
+    YouTubeDataAPI_Cooked: 1

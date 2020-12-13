@@ -1,0 +1,784 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
+  m_Name: RP_vData_
+  m_EditorClassIdentifier: 
+  searchName: UnityChannel
+  belongedCategory: RP
+  allVideos:
+  - title: Visual Effect Graph demo - Unite LA 2018 Keynote
+    url: https://www.youtube.com/watch?v=-mSXYNff-lA
+    channelName: Unity
+    description: "In early 2018, Unity opened up the black box of rendering by introducing
+      new graphics architecture: scriptable render pipeline, HDRP and LWRP. During
+      the Unite LA 2018 keynote we unveiled a new tool: Visual Effect Graph, which
+      allows you to create stunning VFX.\n\nWatch the full Unite Los Angeles 2018
+      keynote: https://youtu.be/alZ6wmwvck0\n\nLearn More: http://unity.com/visual-effect-graph\n\nSpeakers:
+      \nArisa Scott (Graphics Product Manager, Unity)\nChad Foxglove (Technical Artist)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/-mSXYNff-lA/sddefault.jpg
+    - https://i.ytimg.com/vi/-mSXYNff-lA/mqdefault.jpg
+    - https://i.ytimg.com/vi/-mSXYNff-lA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-mSXYNff-lA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - vfx
+    - visual effects
+    - unreal
+    viewCount: 5732
+    likeCount: 121
+    dislikeCount: 3
+    commentCount: 6
+    durationInMinutes: 4
+    publishedAtDate: 636772578250000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Upgrading your existing project to Universal Render Pipeline - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=ErsXwcb3n4c
+    channelName: Unity
+    description: "The Universal Render Pipeline brings with it long-awaited accessibility
+      and performance improvements to rendering in Unity. \n\nSpeaker:\nYilmaz Kiymaz
+      - InnoGames GmbH\n\nLearn more about the Universal Render Pipeline: https://on.unity.com/2mmIawj"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ErsXwcb3n4c/sddefault.jpg
+    - https://i.ytimg.com/vi/ErsXwcb3n4c/mqdefault.jpg
+    - https://i.ytimg.com/vi/ErsXwcb3n4c/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ErsXwcb3n4c/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 20349
+    likeCount: 280
+    dislikeCount: 25
+    commentCount: 27
+    durationInMinutes: 43
+    publishedAtDate: 637054938000000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Universal Render Pipeline - Unite Copenhagen 2019
+    url: https://www.youtube.com/watch?v=Dx9Kzx2POKc
+    channelName: Unity
+    description: 'Learn how the Boat Attack demo was created using the Universal
+      Render Pipeline. These slides offer an in-depth look at the features used in
+      the demo, including Shader Graph, Custom Render Passes, Camera Callback, and
+      more.
+
+
+      Speaker:
+
+      Andre McGrail - Unity Technologies
+
+
+      Slides
+      available here: https://www.slideshare.net/unity3d/universal-render-pipeline-and-the-features-used-to-create-the-boat-attack-demo-project-unite-copenhagen-2019'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Dx9Kzx2POKc/sddefault.jpg
+    - https://i.ytimg.com/vi/Dx9Kzx2POKc/mqdefault.jpg
+    - https://i.ytimg.com/vi/Dx9Kzx2POKc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Dx9Kzx2POKc/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 12125
+    likeCount: 204
+    dislikeCount: 10
+    commentCount: 9
+    durationInMinutes: 38
+    publishedAtDate: 637082607790000000
+    publisdedDate:
+      year: 2019
+      month: 11
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Watch Live! Making a Short with HDRP from Scratch
+      in One Hour or Less!
+    url: https://www.youtube.com/watch?v=opMcm-yUCAE
+    channelName: Unity
+    description: 'The popular magic-trick-like performance returns as one of our
+      cinematics specialists proves that you can start completely from scratch (without
+      even using  a skybox!) and have a functioning linear short in record time --
+      with all the key elements like fade in/out, cuts, soundtrack, and effects.
+
+
+      Speakers:
+
+      Mathieu
+      Muller
+
+
+      https://unite.unity.com/2018/berlin/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/opMcm-yUCAE/sddefault.jpg
+    - https://i.ytimg.com/vi/opMcm-yUCAE/mqdefault.jpg
+    - https://i.ytimg.com/vi/opMcm-yUCAE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/opMcm-yUCAE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 8494
+    likeCount: 157
+    dislikeCount: 5
+    commentCount: 25
+    durationInMinutes: 62
+    publishedAtDate: 636694254010000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 9
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite Berlin 2018 - Getting Started with the Lightweight Rendering Pipeline
+    url: https://www.youtube.com/watch?v=0KA1PszNtZw
+    channelName: Unity
+    description: "Slides: https://www.slideshare.net/unity3d/getting-started-with-the-lightweight-rendering-pipeline\nGet
+      a high-level overview of the technology behind the new Scriptable Render Pipeline
+      (SRP), and learn how to set up the Lightweight Scriptable Render Pipeline in
+      the editor. This talk goes through the advantages that SRP can bring to projects
+      targeting mobile platforms, VR, and games with limited real-time lighting needs.\n\nSpeakers:\nFelipe
+      Lira (Graphics Programmer - Unity Technologies)\nAndr\xE9 McGrail (Graphics
+      Test Engineer - Unity Technologies)\n\nhttps://unite.unity.com/2018/berlin"
+    thumbUrls:
+    - https://i.ytimg.com/vi/0KA1PszNtZw/sddefault.jpg
+    - https://i.ytimg.com/vi/0KA1PszNtZw/mqdefault.jpg
+    - https://i.ytimg.com/vi/0KA1PszNtZw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0KA1PszNtZw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 11067
+    likeCount: 119
+    dislikeCount: 4
+    commentCount: 10
+    durationInMinutes: 56
+    publishedAtDate: 636691608010000000
+    publisdedDate:
+      year: 2018
+      month: 8
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Speed up your workflows in Unity 2019 LTS | Unite Now 2020
+    url: https://www.youtube.com/watch?v=6JA-wOcxmfg
+    channelName: Unity
+    description: "With Unity 2019 LTS we made improvements to existing features and
+      added several new tools to make you and your team even more productive. In
+      this session, we look at 10 features and how you can leverage them to speed
+      up your day-to-day workflows.\n\nSpeaker: \nThomas Krogh-Jacobsen, Product
+      Marketing Manager, Unity  \n\n\U0001F449 Learn more about Unity 2019 LTS: https://on.unity.com/3mhxd8R\nJohn
+      Lemon\u2019s Haunted Jaunt: 3D Beginner project: https://on.unity.com/32zSuTu\n10
+      ways to speed up your programming workflows: https://on.unity.com/35le2oW\nIncremental
+      Garbage Collection: https://on.unity.com/3ndB7Qv\nIntroduction to Profiling:
+      https://youtu.be/6JA-wOcxmfg\n\nOverview of the 10 features: \nhttps://youtu.be/6JA-wOcxmfg?t=279\nQuick
+      Search: https://www.youtube.com/watch?v=6JA-wOcxmfg&feature=youtu.be&t=281\nShortcuts
+      Manager: https://youtu.be/6JA-wOcxmfg?t=358\nPresets: https://youtu.be/6JA-wOcxmfg?t=391\nScene
+      visibility: https://youtu.be/6JA-wOcxmfg?t=454\nAsset Import Pipeline v2: https://youtu.be/6JA-wOcxmfg?t=504\nEditor
+      console improvements: https://youtu.be/6JA-wOcxmfg?t=563\nIDE support: https://youtu.be/6JA-wOcxmfg?t=585\nIncremental
+      garbage collection: https://youtu.be/6JA-wOcxmfg?t=632\nProfiling improvements:
+      https://youtu.be/6JA-wOcxmfg?t=713\nConfigurable Enter Play Mode: https://youtu.be/6JA-wOcxmfg?t=790\n\n\U0001F4FA
+      Dive into Unite Now year-round to join us for live sessions or watch sessions
+      on-demand: https://on.unity.com/3o31F8r\n\U0001F4DD Did you find this video
+      useful? Room for improvement? Complete this survey to let us know: https://on.unity.com/31qq1PI"
+    thumbUrls:
+    - https://i.ytimg.com/vi/6JA-wOcxmfg/sddefault.jpg
+    - https://i.ytimg.com/vi/6JA-wOcxmfg/mqdefault.jpg
+    - https://i.ytimg.com/vi/6JA-wOcxmfg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/6JA-wOcxmfg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 3060
+    likeCount: 88
+    dislikeCount: 5
+    commentCount: 9
+    durationInMinutes: 15
+    publishedAtDate: 637395871700000000
+    publisdedDate:
+      year: 2020
+      month: 10
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Real Time Animation: Unity for Look Development'
+    url: https://www.youtube.com/watch?v=urew479-Wlw
+    channelName: Unity
+    description: "Design any 2D or 3D look with our highly scriptable render pipeline
+      and Shader Graph. Unlock real-time rendering for every other department, and
+      enjoy increased efficiency though production.  Make dynamic changes to assets
+      that can propagate instantly at any point in production. Render 4Kk resolution
+      in milliseconds. \nLearn more: https://on.unity.com/2HiDqyt"
+    thumbUrls:
+    - https://i.ytimg.com/vi/urew479-Wlw/sddefault.jpg
+    - https://i.ytimg.com/vi/urew479-Wlw/mqdefault.jpg
+    - https://i.ytimg.com/vi/urew479-Wlw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/urew479-Wlw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 80089
+    likeCount: 2204
+    dislikeCount: 41
+    commentCount: 89
+    durationInMinutes: 2
+    publishedAtDate: 636958799270000000
+    publisdedDate:
+      year: 2019
+      month: 6
+      day: 11
+    YouTubeDataAPI_Cooked: 1
+  - title: New tools for graphic realism in automotive - Unite LA | AutoTech Summit
+    url: https://www.youtube.com/watch?v=PRRlzbAwZd4
+    channelName: Unity
+    description: "Adam Myhill, Unity's Head of Cinematics, shows you how you can
+      achieve high-end graphics in Unity for automotive applications. Learn how Unity's
+      High-Definition Render Pipeline (HDRP), Cinemachine, Timeline, and the Post-Processing
+      Stack can be used to produce stunning visuals with maximum fidelity for real-world
+      materials. \n\nSpeaker:\nAdam Myhill (Unity Technologies)\n\nLearn more about
+      Unity for Automotive: https://unity.com/solutions/automotive-transportation\n\nHelp
+      us caption & translate this video!\n\nhttps://amara.org/v/oLGU/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/PRRlzbAwZd4/sddefault.jpg
+    - https://i.ytimg.com/vi/PRRlzbAwZd4/mqdefault.jpg
+    - https://i.ytimg.com/vi/PRRlzbAwZd4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/PRRlzbAwZd4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Event
+    - Automotive
+    viewCount: 7595
+    likeCount: 175
+    dislikeCount: 4
+    commentCount: 23
+    durationInMinutes: 47
+    publishedAtDate: 636791220020000000
+    publisdedDate:
+      year: 2018
+      month: 11
+      day: 29
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Lost Crypt: Explore Unity''s new 2D features'
+    url: https://www.youtube.com/watch?v=vRPW3H4X9PE
+    channelName: Unity
+    description: "Webinar recording: Global evangelist Andy Touch explains how we
+      used 2D lights, shaders, and post-processing in our new 2D sample project Lost
+      Crypt. \nGet the project & learn more about our suite of 2D tools: https://on.unity.com/374m7Mn\nMore
+      about the art of Lost Crypt: https://on.unity.com/2H2kswg \n\n01:55 Topics\n04:06
+      Project Overview\n07:55 Universal Render Pipeline\n11:23 2D Lights Types\n34:02
+      2D Shader Graph\n44:35 Post-Processing"
+    thumbUrls:
+    - https://i.ytimg.com/vi/vRPW3H4X9PE/sddefault.jpg
+    - https://i.ytimg.com/vi/vRPW3H4X9PE/mqdefault.jpg
+    - https://i.ytimg.com/vi/vRPW3H4X9PE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/vRPW3H4X9PE/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 42276
+    likeCount: 805
+    dislikeCount: 13
+    commentCount: 53
+    durationInMinutes: 58
+    publishedAtDate: 637166238470000000
+    publisdedDate:
+      year: 2020
+      month: 2
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Introducing the FPS Sample game project for Unity
+    url: https://www.youtube.com/watch?v=jC7l8Q7Chs0
+    channelName: Unity
+    description: "We are happy to introduce our first sample game project, the FPS
+      Sample. With this project we want to show you not just what you can do in Unity,
+      but HOW you can do it. In this project, you can pick everything apart, tweak
+      and experiment, and learn how to use the new features, including how to work
+      with layered materials, post-processing, and light modes for the HD Render
+      Pipeline (HDRP).\n\nThe FPS Sample is intended as a source of inspiration and
+      learning for intermediate and experienced developers using Unity 2018.3 or
+      Unity 2018.4 LTS releases. It\u2019s using experimental tech. Please note that
+      the project is not supported and we highly recommend upgrading to latest packages
+      if you wish to use parts of the project as a starting point for your own.\n\nThe
+      FPS Sample is available today: https://unity.com/fps-sample"
+    thumbUrls:
+    - https://i.ytimg.com/vi/jC7l8Q7Chs0/sddefault.jpg
+    - https://i.ytimg.com/vi/jC7l8Q7Chs0/mqdefault.jpg
+    - https://i.ytimg.com/vi/jC7l8Q7Chs0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/jC7l8Q7Chs0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 96041
+    likeCount: 1333
+    dislikeCount: 34
+    commentCount: 107
+    durationInMinutes: 0
+    publishedAtDate: 636760155380000000
+    publisdedDate:
+      year: 2018
+      month: 10
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: How to create photorealistic representations using Unity's HDRP - Unite
+      Copenhagen
+    url: https://www.youtube.com/watch?v=8dljL33Qyw4
+    channelName: Unity
+    description: 'Explore a real-time rendered walkthrough of Unity''s London office,
+      created by Oneiros and M Moser Associates. You''ll learn how they used Unity
+      to create photorealistic representations using the High-Definition Render Pipeline
+      (HDRP) and how these experiences can be leveraged for sales and marketing to
+      win more business.
+
+
+      Speakers:
+
+      Mirko Vescio - Oneiros
+
+      Mariana
+      Anelli - M Moser Associates
+
+
+      Learn more: https://on.unity.com/2OIjlH4'
+    thumbUrls:
+    - https://i.ytimg.com/vi/8dljL33Qyw4/sddefault.jpg
+    - https://i.ytimg.com/vi/8dljL33Qyw4/mqdefault.jpg
+    - https://i.ytimg.com/vi/8dljL33Qyw4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8dljL33Qyw4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - HDRP
+    viewCount: 7147
+    likeCount: 167
+    dislikeCount: 10
+    commentCount: 13
+    durationInMinutes: 44
+    publishedAtDate: 637066889530000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: How HDRP unlocks graphics - Unite Copenhagen
+    url: https://www.youtube.com/watch?v=wZbdW8o1Ers
+    channelName: Unity
+    description: 'The High-Definition Render Pipeline in Unity 2019.3 gives you high-fidelity
+      graphics for high-end platforms. With HDRP, you have the tools to create anything
+      from games to technical demos at the highest resolution.
+
+
+      Speaker: Kieran
+      Colenutt - Unity
+
+
+      Slides available here: https://www.slideshare.net/unity3d/how-hdrp-unlocks-graphics-unite-copenhagen-2019
+
+
+      Learn
+      more about HDRP: https://on.unity.com/2W698pB'
+    thumbUrls:
+    - https://i.ytimg.com/vi/wZbdW8o1Ers/sddefault.jpg
+    - https://i.ytimg.com/vi/wZbdW8o1Ers/mqdefault.jpg
+    - https://i.ytimg.com/vi/wZbdW8o1Ers/maxresdefault.jpg
+    - https://i.ytimg.com/vi/wZbdW8o1Ers/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Graphics
+    viewCount: 4291
+    likeCount: 52
+    dislikeCount: 3
+    commentCount: 6
+    durationInMinutes: 25
+    publishedAtDate: 637074806750000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: HDRP Shader Graph support in 2018.3
+    url: https://www.youtube.com/watch?v=1hgs1zGhiME
+    channelName: Unity
+    description: 'Get this example project and learn more about the new Shader Graph
+      shading tools: https://on.unity.com/2CjqvLl
+
+      In Unity 2018.3, Shader
+      Graph introduces a new Master Node for the High Definition Render Pipeline
+      (HDRP). This new Master Node makes many HDRP advanced shading features, like
+      iridescence, translucency, and subsurface scattering, accessible in Shader
+      Graph!'
+    thumbUrls:
+    - https://i.ytimg.com/vi/1hgs1zGhiME/sddefault.jpg
+    - https://i.ytimg.com/vi/1hgs1zGhiME/mqdefault.jpg
+    - https://i.ytimg.com/vi/1hgs1zGhiME/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1hgs1zGhiME/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 27509
+    likeCount: 278
+    dislikeCount: 29
+    commentCount: 25
+    durationInMinutes: 0
+    publishedAtDate: 636808477100000000
+    publisdedDate:
+      year: 2018
+      month: 12
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: HDRP in Unity 2019.1
+    url: https://www.youtube.com/watch?v=HAhlGY_kwCA
+    channelName: Unity
+    description: 'The High Definition Render Pipeline (HDRP) is a prebuilt, high-fidelity
+      Scriptable Render Pipeline designed to target modern, Compute Shader compatible,
+      platforms.  In the 2019.1 release, we have added several new features and heavily
+      improved the workflow for artists overall. Get all the details on the blog:
+      https://on.unity.com/2Pfxt8Z'
+    thumbUrls:
+    - https://i.ytimg.com/vi/HAhlGY_kwCA/sddefault.jpg
+    - https://i.ytimg.com/vi/HAhlGY_kwCA/mqdefault.jpg
+    - https://i.ytimg.com/vi/HAhlGY_kwCA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HAhlGY_kwCA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 20858
+    likeCount: 191
+    dislikeCount: 12
+    commentCount: 16
+    durationInMinutes: 0
+    publishedAtDate: 636911565420000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'First look at Oddworld: Soulstorm  | Unity at GDC 2019 Keynote'
+    url: https://www.youtube.com/watch?v=VhOT9hcxO78
+    channelName: Unity
+    description: "Industry legend, Lorne Lanning, took the stage to introduce Oddworld:
+      Soulstorm. Get insight into their pipeline, from conception to completion,
+      including how they\u2019re testing the new features of HDRP to bring their
+      characters to life and how they're using Timeline and post processing V2 for
+      creating cinematics in real time.\n\nSpeakers: Lorne Lanning, Bennie Terry
+      (Executive Producer)\n\nFind out more: https://on.unity.com/2uJZVq4"
+    thumbUrls:
+    - https://i.ytimg.com/vi/VhOT9hcxO78/sddefault.jpg
+    - https://i.ytimg.com/vi/VhOT9hcxO78/mqdefault.jpg
+    - https://i.ytimg.com/vi/VhOT9hcxO78/maxresdefault.jpg
+    - https://i.ytimg.com/vi/VhOT9hcxO78/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - oddworld soulstorm
+    - lorne lanning
+    - gdc
+    - real-time cinematics
+    viewCount: 4637
+    likeCount: 81
+    dislikeCount: 4
+    commentCount: 6
+    durationInMinutes: 5
+    publishedAtDate: 636901056040000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Exclusive look at System Shock 3  | Unity at GDC 2019 Keynote
+    url: https://www.youtube.com/watch?v=oVkwfgjnx5k
+    channelName: Unity
+    description: "Unity\u2019s latest graphics innovations bring this world to life.
+      HDRP and its Unified Lighting Model, Volumetric Fog, Deferred Decals, and Shader
+      Graph have helped the team quickly and reliably create dark, highly atmospheric
+      environments, and add details without hurting the framerate too much.\n\nSpeakers:
+      Warren Spector (Studio Director, OtherSide Entertainment ) and Elizabeth Legros
+      (Graphics Programmer, OtherSide Entertainment), Lucas Meijer (Technical Director,
+      Unity) \n\nFind out more about System Shock 3: https://on.unity.com/2IaoN28"
+    thumbUrls:
+    - https://i.ytimg.com/vi/oVkwfgjnx5k/sddefault.jpg
+    - https://i.ytimg.com/vi/oVkwfgjnx5k/mqdefault.jpg
+    - https://i.ytimg.com/vi/oVkwfgjnx5k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/oVkwfgjnx5k/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - gdc
+    - system shock 3
+    - warren spector
+    viewCount: 28115
+    likeCount: 460
+    dislikeCount: 60
+    commentCount: 296
+    durationInMinutes: 7
+    publishedAtDate: 636901056050000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: Evolving game graphics with the Universal Render Pipeline | Unite Now
+      2020
+    url: https://www.youtube.com/watch?v=Bvl9rCVbMas
+    channelName: Unity
+    description: "Take your cross-platform game visuals to the next level. This video
+      goes in-Editor to show you how to use some of the newest and most popular graphics
+      features and tools that are sure to improve your game.\n\nSpeaker:\nAndy Touch\n\nAsk
+      your questions here: https://on.unity.com/2TFh8hh\n\nDid you find this video
+      useful? Room for improvement? Let us know: https://on.unity.com/3ddDFcI\n\nCheck
+      out the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/2zD25h5\n\nExample
+      projects:\n\nBoat Attack\nGitHub repository: https://github.com/Verasl/BoatAttack
+      \nWebinar branch: demo/webinar-unitenow\n\nUniversal Render Pipeline examples\nGitHub
+      repository: https://github.com/Unity-Technologies/UniversalRenderingExamples"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Bvl9rCVbMas/sddefault.jpg
+    - https://i.ytimg.com/vi/Bvl9rCVbMas/mqdefault.jpg
+    - https://i.ytimg.com/vi/Bvl9rCVbMas/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Bvl9rCVbMas/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 32859
+    likeCount: 695
+    dislikeCount: 13
+    commentCount: 52
+    durationInMinutes: 65
+    publishedAtDate: 637272555330000000
+    publisdedDate:
+      year: 2020
+      month: 6
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Custom SRP and graphics workflows | Battle Planet - Judgement Day - Unite
+      Copenhagen 2019
+    url: https://www.youtube.com/watch?v=91zUwJwkXNQ
+    channelName: Unity
+    description: 'Battle Planet - Judgement Day is a unique game in the sense that
+      it''s played entirely on a single sphere (the planet). Levels are fully procedural
+      and fully destructible. This structure created a few big challenges in terms
+      of rendering, which were solved by writing a custom Scriptable Render Pipeline
+      for the game. This session provides an overview of the game''s rendering features
+      and how they were implemented using SRP. It includes a few examples of how
+      performance issues influenced the design of the pipeline as well as a discussion
+      about shader programming and design patterns.
+
+
+      Speaker:
+
+      Henning
+      Steinbock - Threaks
+
+
+      Slides available here: https://www.slideshare.net/unity3d/custom-srp-and-graphics-workflows-unite-copenhagen-2019'
+    thumbUrls:
+    - https://i.ytimg.com/vi/91zUwJwkXNQ/sddefault.jpg
+    - https://i.ytimg.com/vi/91zUwJwkXNQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/91zUwJwkXNQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/91zUwJwkXNQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 5960
+    likeCount: 144
+    dislikeCount: 4
+    commentCount: 13
+    durationInMinutes: 40
+    publishedAtDate: 637054938010000000
+    publisdedDate:
+      year: 2019
+      month: 10
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Custom Pass Framework in HDRP (Tutorial)
+    url: https://www.youtube.com/watch?v=vBqSSXjQvCo
+    channelName: Unity
+    description: "When using the High Definition Render Pipeline (HDRP) we can use
+      a custom pass to change materials on scene geometry, change the draw order
+      in which objects being are rendered, and read camera buffers to use in our
+      shaders. In this video, we'll take a look at how we can build a Custom Pass
+      in Unity and use it to manipulate our scene.\n\n\U0001F447 Learn more about
+      Custom Passes in this link below! \nhttps://on.unity.com/2NIidl0"
+    thumbUrls:
+    - https://i.ytimg.com/vi/vBqSSXjQvCo/sddefault.jpg
+    - https://i.ytimg.com/vi/vBqSSXjQvCo/mqdefault.jpg
+    - https://i.ytimg.com/vi/vBqSSXjQvCo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/vBqSSXjQvCo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - HDRP
+    - hdrp custom passes
+    - hdrp passes
+    viewCount: 11398
+    likeCount: 475
+    dislikeCount: 13
+    commentCount: 41
+    durationInMinutes: 5
+    publishedAtDate: 637291510460000000
+    publisdedDate:
+      year: 2020
+      month: 6
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Basic Operations in Shadergraph | 2D Shader Basics
+    url: https://www.youtube.com/watch?v=gJMeSkolnw4
+    channelName: Unity
+    description: "In this video, we are going to show you some basic operations in
+      Shadergraph that can help you create your own custom materials for your URP
+      projects. \n\nWatch the first part here:\nhttps://youtu.be/9ZY9tnxlOEs\n\nDownload
+      the Lost Crypt project from the Asset Store here!\nhttps://on.unity.com/2Y7hI9O\n\nFor
+      more information about Shadergraph click here!\nhttps://on.unity.com/3iRbVgz\n\nRead
+      more about the Universal Render Pipeline here!\nhttps://on.unity.com/2PVYIGR"
+    thumbUrls:
+    - https://i.ytimg.com/vi/gJMeSkolnw4/sddefault.jpg
+    - https://i.ytimg.com/vi/gJMeSkolnw4/mqdefault.jpg
+    - https://i.ytimg.com/vi/gJMeSkolnw4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gJMeSkolnw4/hqdefault.jpg
+    tags:
+    - URP
+    - Universal Render Pipeline
+    - Unity Game Dev
+    - Shader Graph
+    - Shadergraph
+    - Game dev
+    - 2D
+    - Unity 3D
+    - Unity Tutorial
+    - Shader graph tutorial
+    - Unity3d
+    - Game Dev
+    - unity 2d
+    - unity2d
+    - unity 2d tutorial
+    - unity 2d game
+    - unity making 2d game
+    - unity rendering
+    - unity 2d rendering
+    - unity shader graph
+    - unity shader 2d
+    - unity 2d shader rendering
+    - unity lost crypt
+    - unity 2019.3
+    - unity 2020 tutorial
+    - unity tutorial 2020
+    - unity tutorials
+    - learn unity
+    - custom shader unity
+    - custom shader graph
+    viewCount: 20156
+    likeCount: 851
+    dislikeCount: 16
+    commentCount: 40
+    durationInMinutes: 7
+    publishedAtDate: 637333020200000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 17
+    YouTubeDataAPI_Cooked: 1

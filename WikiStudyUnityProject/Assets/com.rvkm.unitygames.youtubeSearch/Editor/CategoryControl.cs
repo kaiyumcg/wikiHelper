@@ -23,23 +23,73 @@ namespace com.rvkm.unitygames.YouTubeSearch
             categoryOperationHasCompleted = false;
             categoryOperationProgress = 0f;
 
-            if (data == null || data.videoData == null || data.videoData.allVideos == null || data.videoData.allVideos.Length == 0
-                || data.categories == null || data.categories.Length == 0)
+            if (data.useManualVideoDataForCategory)
             {
-                categoryOperationHasCompleted = true;
-                categoryOperationProgress = 0f;
+                bool isDataOk = true;
+                if (data == null || data.categoryDataForManualMode == null || data.categoryDataForManualMode.Length == 0)
+                {
+                    isDataOk = false;
+                }
+                else
+                {
+                    foreach (var d in data.categoryDataForManualMode)
+                    {
+                        if (d == null || d.videoData == null || d.videoData.allVideos == null || d.videoData.allVideos.Length == 0)
+                        {
+                            isDataOk = false;
+                            break;
+                        }
+                    }
+                }
+
+                if (isDataOk == false)
+                {
+                    categoryOperationHasCompleted = true;
+                    categoryOperationProgress = 0f;
+                    EditorUtility.DisplayDialog("Error!", "There is no valid video data to categorize!", "Ok");
+                    return;
+                }
             }
+            else
+            {
+                if (data == null || data.videoData == null || data.videoData.allVideos == null || data.videoData.allVideos.Length == 0
+                || data.categories == null || data.categories.Length == 0)
+                {
+                    categoryOperationHasCompleted = true;
+                    categoryOperationProgress = 0f;
+                }
+            }
+
+            
 
             List<YoutubeVideo> vList = new List<YoutubeVideo>();
-            foreach (var video in data.videoData.allVideos)
+
+            if (data.useManualVideoDataForCategory)
             {
-                if (video == null) { continue; }
-                var nVideo = new YoutubeVideo(video);
-                vList.Add(nVideo);
+                if (data != null && data.categoryDataForManualMode != null && data.categoryDataForManualMode.Length > 0)
+                {
+                    foreach (var d in data.categoryDataForManualMode)
+                    {
+                        if (d == null || d.videoData == null || d.videoData.allVideos == null) { continue; }
+                        foreach (var video in d.videoData.allVideos)
+                        {
+                            if (video == null) { continue; }
+                            var nVideo = new YoutubeVideo(video);
+                            vList.Add(nVideo);
+                        }
+                    }
+                }
             }
-
-
-
+            else
+            {
+                foreach (var video in data.videoData.allVideos)
+                {
+                    if (video == null) { continue; }
+                    var nVideo = new YoutubeVideo(video);
+                    vList.Add(nVideo);
+                }
+            }
+            
             Dictionary<YoutubeVideo, bool> usedFlags = new Dictionary<YoutubeVideo, bool>();
             foreach (var video in vList)
             {
@@ -48,7 +98,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
 
             for (int i = 0; i < data.categories.Length; i++)
             {
-                if (data.categories[i] == null || data.categories[i].categoryName == "Uncategorized") { continue; }
+                if (data.categories[i] == null || data.categories[i].categoryName == "_uncat_generated") { continue; }
                 if (data.categories[i].videoData != null && data.categories[i].videoData.allVideos != null && data.categories[i].videoData.allVideos.Length > 0)
                 {
                     data.categories[i].videoData.allVideos = null;
@@ -57,13 +107,14 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 List<YoutubeVideo> catVlist = new List<YoutubeVideo>();
                 foreach (var video in vList)
                 {
-                    if (data.categories[i].IsSatisfiedByVideo(video))
+                    bool isSatisfied = data.categories[i].IsSatisfiedByVideo(video);
+                    if (isSatisfied)
                     {
                         catVlist.Add(video);
                         usedFlags[video] = true;
                     }
                 }
-
+                
                 if (data.categoryProcessType == CategoryListType.Exclusive)
                 {
                     Dictionary<YoutubeVideo, bool> delList = new Dictionary<YoutubeVideo, bool>();
@@ -82,7 +133,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     }
                 }
 
-                CreateOrLoadVideoDataWithVideoList(ref data.categories[i], catVlist, data);
+                CreateOrLoadVideoDataWithVideoList(ref data.categories[i], catVlist, data, true);
             }
 
             int notUsedCount = 0;
@@ -106,7 +157,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
             foreach (var cat in data.categories)
             {
                 if (cat == null) { continue; }
-                if (cat.categoryName == "Uncategorized")
+                if (cat.categoryName == "_uncat_generated")
                 {
                     uncat = cat;
                     break;
@@ -134,18 +185,18 @@ namespace com.rvkm.unitygames.YouTubeSearch
                     string uncatDataPathRel = Path.Combine(dependencyDataDirRel, "_uncat_generated.asset");
                     uncatDataPathRel = uncatDataPathRel.Replace('\\', '/');
                     uncat = ScriptableObject.CreateInstance<YoutubeCategory>();
-                    uncat.categoryName = "Uncategorized";
+                    uncat.categoryName = "_uncat_generated";
                     AssetDatabase.CreateAsset(uncat, uncatDataPathRel);
                     AssetDatabase.SaveAssets();
                     AssetDatabase.Refresh();
                 }
-                CreateOrLoadVideoDataWithVideoList(ref uncat, notUsedVideos, data);
+                CreateOrLoadVideoDataWithVideoList(ref uncat, notUsedVideos, data, false);
                 uncat.UpdateStat();
                 List<YoutubeCategory> cList = new List<YoutubeCategory>();
                 foreach (var c in data.categories) 
                 {
                     if (c == null) { continue; }
-                    if (c.categoryName == "Uncategorized") { continue; }
+                    if (c.categoryName == "_uncat_generated") { continue; }
                     cList.Add(c);
                 }
                 cList.Add(uncat);
@@ -157,7 +208,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 for (int i = 0; i < data.categories.Length; i++)
                 {
                     if (data.categories[i] == null) { continue; }
-                    if (data.categories[i].categoryName == "Uncategorized")
+                    if (data.categories[i].categoryName == "_uncat_generated")
                     {
                         data.categories[i] = null;
                         break;
@@ -166,12 +217,17 @@ namespace com.rvkm.unitygames.YouTubeSearch
             }
             categoryOperationHasCompleted = true;
         }
-        static void CreateOrLoadVideoDataWithVideoList(ref YoutubeCategory cat, List<YoutubeVideo> catVlist, SearchDataYoutube originalData)
+        static void CreateOrLoadVideoDataWithVideoList(ref YoutubeCategory cat, List<YoutubeVideo> catVlist, SearchDataYoutube originalData, bool usePathHashForFileName)
         {
             string dirRel = UrlUtility.GetDataDirRelative(originalData.videoData);
             string catName = cat.categoryName;
             catName = catName.Replace(" ", "_");
             string assetPathRel = Path.Combine(dirRel, catName + "_vData_.asset");
+            if (usePathHashForFileName)
+            {
+                assetPathRel = Path.Combine(dirRel, catName + "_vData_" + cat.GetHashCode() + ".asset");
+            }
+            
             assetPathRel = assetPathRel.Replace('\\', '/');
             string assetPathAbs = UrlUtility.GetAbsolutePath(assetPathRel);
             if (File.Exists(assetPathAbs) == false)

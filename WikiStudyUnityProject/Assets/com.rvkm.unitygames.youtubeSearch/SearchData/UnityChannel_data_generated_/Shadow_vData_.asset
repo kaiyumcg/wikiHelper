@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
+  m_Name: Shadow_vData_
+  m_EditorClassIdentifier: 
+  searchName: UnityChannel
+  belongedCategory: Shadow
+  allVideos:
+  - title: 'Unite Europe 2016 - Lights, Cameras, Effects: Unlocking the Power of
+      the Unity Renderer'
+    url: https://www.youtube.com/watch?v=m-ZLiJmCyGU
+    channelName: Unity
+    description: 'One of Unity''s greatest strengths is the immense flexibility of
+      its renderer, giving you unparalleled access to every aspect of your drawing
+      without needing to modify the engine itself. Arthur Brussee (Tiny Cube Studio)
+      goes through a variety of techniques, through experiments with deferred decals,
+      ESM shadow maps, injecting volumetric fog, making custom area lights and more!
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V60V/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/m-ZLiJmCyGU/sddefault.jpg
+    - https://i.ytimg.com/vi/m-ZLiJmCyGU/mqdefault.jpg
+    - https://i.ytimg.com/vi/m-ZLiJmCyGU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/m-ZLiJmCyGU/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unite Europe 2016
+    viewCount: 13918
+    likeCount: 247
+    dislikeCount: 4
+    commentCount: 23
+    durationInMinutes: 36
+    publishedAtDate: 636033701280000000
+    publisdedDate:
+      year: 2016
+      month: 7
+      day: 6
+    YouTubeDataAPI_Cooked: 1

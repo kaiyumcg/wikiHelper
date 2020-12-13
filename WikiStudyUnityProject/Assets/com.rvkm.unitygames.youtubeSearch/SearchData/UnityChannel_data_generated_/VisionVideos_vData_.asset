@@ -1,0 +1,1977 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
+  m_Name: VisionVideos_vData_
+  m_EditorClassIdentifier: 
+  searchName: UnityChannel
+  belongedCategory: VisionVideos
+  allVideos:
+  - title: 'Vision Summit 2017 Speaker Highlight: Sol Rogers, REWIND'
+    url: https://www.youtube.com/watch?v=F7JTZzAFrkw
+    channelName: Unity
+    description: "See Sol Rogers and other innovators speak at Vision VR/AR Summit
+      2017 \n\nhttps://visionsummit2017.com"
+    thumbUrls:
+    - https://i.ytimg.com/vi/F7JTZzAFrkw/sddefault.jpg
+    - https://i.ytimg.com/vi/F7JTZzAFrkw/mqdefault.jpg
+    - https://i.ytimg.com/vi/F7JTZzAFrkw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/F7JTZzAFrkw/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - mr
+    - mx
+    - ar
+    viewCount: 1907
+    likeCount: 16
+    dislikeCount: 1
+    commentCount: 4
+    durationInMinutes: 0
+    publishedAtDate: 636281535850000000
+    publisdedDate:
+      year: 2017
+      month: 4
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision Summit 2017 Speaker Highlight: Richard Dawkins'
+    url: https://www.youtube.com/watch?v=71yaQ1gpkPk
+    channelName: Unity
+    description: 'See Richard Dawkins and other innovators speak at Vision VR/AR
+      Summit 2017, May 1-2
+
+
+      Get your ticket today: VisionSummit2017.com'
+    thumbUrls:
+    - https://i.ytimg.com/vi/71yaQ1gpkPk/sddefault.jpg
+    - https://i.ytimg.com/vi/71yaQ1gpkPk/mqdefault.jpg
+    - https://i.ytimg.com/vi/71yaQ1gpkPk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/71yaQ1gpkPk/hqdefault.jpg
+    tags: []
+    viewCount: 2925
+    likeCount: 100
+    dislikeCount: 72
+    commentCount: 37
+    durationInMinutes: 0
+    publishedAtDate: 636288494050000000
+    publisdedDate:
+      year: 2017
+      month: 4
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision Summit 2017 Speaker Highlight: Maureen Fan, Baobab Studios'
+    url: https://www.youtube.com/watch?v=DHFDW28N3Dg
+    channelName: Unity
+    description: 'See Maureen Fan and other innovators speak at Vision VR/AR Summit
+      2017, May 1-2
+
+
+      Get your ticket today: Visionsummit2017.com'
+    thumbUrls:
+    - https://i.ytimg.com/vi/DHFDW28N3Dg/sddefault.jpg
+    - https://i.ytimg.com/vi/DHFDW28N3Dg/mqdefault.jpg
+    - https://i.ytimg.com/vi/DHFDW28N3Dg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/DHFDW28N3Dg/hqdefault.jpg
+    tags:
+    - vision 17
+    - vision summit 2017
+    - baobab studios
+    - vr
+    viewCount: 2146
+    likeCount: 35
+    dislikeCount: 4
+    commentCount: 5
+    durationInMinutes: 0
+    publishedAtDate: 636284141660000000
+    publisdedDate:
+      year: 2017
+      month: 4
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision Summit 2017 Speaker Highlight: Chris Milk & Aaron Koblin, Within'
+    url: https://www.youtube.com/watch?v=ko12VjpvNKo
+    channelName: Unity
+    description: 'See Aaron Koblin, Chris Milk, and other innovators speak at Vision
+      VR/AR Summit 2017, May 1 - 2.
+
+
+      https://visionsummit2017.com'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ko12VjpvNKo/sddefault.jpg
+    - https://i.ytimg.com/vi/ko12VjpvNKo/mqdefault.jpg
+    - https://i.ytimg.com/vi/ko12VjpvNKo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ko12VjpvNKo/hqdefault.jpg
+    tags: []
+    viewCount: 4067
+    likeCount: 43
+    dislikeCount: 7
+    commentCount: 2
+    durationInMinutes: 0
+    publishedAtDate: 636283357950000000
+    publisdedDate:
+      year: 2017
+      month: 4
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision Summit 2017 Speaker Highlight: Bay Raitt, Spiraloid Workshop'
+    url: https://www.youtube.com/watch?v=Z-4n3ZjH9C8
+    channelName: Unity
+    description: "See Bay Raitt and other innovators speak at Vision VR/AR Summit
+      2017. \n\nhttps://visionsummit2017.com\n\nRead our Q&A with Bay Raitt: \nhttps://blogs.unity3d.com/2017/04/13/vision-summit-speaker-highlight-bay-raitt/\n\nFor
+      full speaker list, visit: https://visionsummit2017.com/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Z-4n3ZjH9C8/sddefault.jpg
+    - https://i.ytimg.com/vi/Z-4n3ZjH9C8/mqdefault.jpg
+    - https://i.ytimg.com/vi/Z-4n3ZjH9C8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Z-4n3ZjH9C8/hqdefault.jpg
+    tags:
+    - vision summit
+    - bay raitt
+    - spiraloid workshop
+    viewCount: 3861
+    likeCount: 85
+    dislikeCount: 3
+    commentCount: 4
+    durationInMinutes: 0
+    publishedAtDate: 636277271980000000
+    publisdedDate:
+      year: 2017
+      month: 4
+      day: 14
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision Summit 2017 - VR/AR Highlight Reel
+    url: https://www.youtube.com/watch?v=M6OZvfiEOQg
+    channelName: Unity
+    description: VR/AR Highlight Reel from Vision Summit 2017.
+    thumbUrls:
+    - https://i.ytimg.com/vi/M6OZvfiEOQg/sddefault.jpg
+    - https://i.ytimg.com/vi/M6OZvfiEOQg/mqdefault.jpg
+    - https://i.ytimg.com/vi/M6OZvfiEOQg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/M6OZvfiEOQg/hqdefault.jpg
+    tags: []
+    viewCount: 31889
+    likeCount: 284
+    dislikeCount: 8
+    commentCount: 22
+    durationInMinutes: 1
+    publishedAtDate: 636294304950000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - XR in Pop Culture
+    url: https://www.youtube.com/watch?v=rhgG39tN7XA
+    channelName: Unity
+    description: "Can mainstream society embrace VR when it's so often used in dystopias?
+      Here's a look back at how VR and AR have been represented in TV, film, literature,
+      and other media -- from the most famous works to ones you've never heard of.
+      Let our staff inspire (and amuse) you by discussing how accurate some early
+      predictions were and, most importantly, how XR in pop culture may be shaping
+      our collective perception of its potential -- whether it's Star Trek, Silicon
+      Valley, or Ready Player One. Know your roots!\n\nDioselin Gonzalez - Unity
+      Technologies \nNatalie Grant - Unity Technologies"
+    thumbUrls:
+    - https://i.ytimg.com/vi/rhgG39tN7XA/sddefault.jpg
+    - https://i.ytimg.com/vi/rhgG39tN7XA/mqdefault.jpg
+    - https://i.ytimg.com/vi/rhgG39tN7XA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/rhgG39tN7XA/hqdefault.jpg
+    tags:
+    - XR
+    - AR
+    - VR
+    - MR
+    - Vision 2017
+    - Vision'17
+    - Vision Summit
+    - Pop Culture
+    - Film
+    - TV
+    - Literature
+    viewCount: 1021
+    likeCount: 12
+    dislikeCount: 5
+    commentCount: 2
+    durationInMinutes: 25
+    publishedAtDate: 636306817490000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - XR Graphics in Unity: Maximizing Your Game''s Potential'
+    url: https://www.youtube.com/watch?v=ibFcq_iQLeE
+    channelName: Unity
+    description: "Graphics are an important part of the VR experience (who knew?!).
+      The Unity xR Graphics team has been working on a performant and reliable rendering
+      infrastructure, so developers can deliver a smooth and complete experience
+      to their users. Here, htey discuss some new rendering features and their benefits,
+      and best practices on using these new features.\n\nSpeakers:\nEduardo Chaves
+      - Unity Technologies \nRob Srinivasiah - Unity Technologies\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ibFcq_iQLeE/sddefault.jpg
+    - https://i.ytimg.com/vi/ibFcq_iQLeE/mqdefault.jpg
+    - https://i.ytimg.com/vi/ibFcq_iQLeE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ibFcq_iQLeE/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 2851
+    likeCount: 43
+    dislikeCount: 1
+    commentCount: 2
+    durationInMinutes: 21
+    publishedAtDate: 636306837310000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - XR for Kids
+    url: https://www.youtube.com/watch?v=abUuYBapJ1A
+    channelName: Unity
+    description: "2017 is predicted to be the bellwether year for more mainstream
+      integration of XR and Toys. This panel covers trends from revitalizing popular
+      brands for the new future, to consumer electronics products adding XR components,
+      to brand new startups with brand new ways of creating gameplay.\n\nSpeakers:
+      \nNick Beliaeff - Spin Master Studios \nSteve Fulton - Mattel \nJohn Keefe
+      - Swapbots \nGordon Schenk - Vuforia, a PTC Company\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/abUuYBapJ1A/sddefault.jpg
+    - https://i.ytimg.com/vi/abUuYBapJ1A/mqdefault.jpg
+    - https://i.ytimg.com/vi/abUuYBapJ1A/maxresdefault.jpg
+    - https://i.ytimg.com/vi/abUuYBapJ1A/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - unity
+    - ar
+    - vr
+    viewCount: 505
+    likeCount: 1
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 32
+    publishedAtDate: 636306805710000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - XR Around the World Snapshot
+    url: https://www.youtube.com/watch?v=HlK7_Tv100Y
+    channelName: Unity
+    description: "Hear what XR development communities are like in Colombia, Europe,
+      and China.\n\nSpeakers:\nEddie Lou - Sandman Studios \nDaniel Rojas Roa - 3GO
+      Video \nKinga Smith - Reverse Engineering Studios Inc."
+    thumbUrls:
+    - https://i.ytimg.com/vi/HlK7_Tv100Y/sddefault.jpg
+    - https://i.ytimg.com/vi/HlK7_Tv100Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/HlK7_Tv100Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HlK7_Tv100Y/hqdefault.jpg
+    tags:
+    - VR
+    - Virtual Reality
+    - XR
+    - AR
+    - Augmented Reality
+    - Unity
+    - Unity Technologies
+    - Vision Summit
+    - Unity3D
+    viewCount: 928
+    likeCount: 7
+    dislikeCount: 1
+    commentCount: 0
+    durationInMinutes: 31
+    publishedAtDate: 636306842430000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Where's My Business Model?
+    url: https://www.youtube.com/watch?v=kFMyak68DNc
+    channelName: Unity
+    description: "VR is a dream come true for artists and content creators but the
+      model for recouping the investment is not yet defined. Learn how Oscar-nominated
+      VR projects can drive advertising without selling out.\n\nRori DuBoff - Accenture
+      Interactive \nMaria Essig - Google \nDevi Kolli - AiSolve Limited \nDario Raciti
+      - OMD \nNanea Reeves - TRIPP \nJulie Shumaker - Unity Technologies"
+    thumbUrls:
+    - https://i.ytimg.com/vi/kFMyak68DNc/sddefault.jpg
+    - https://i.ytimg.com/vi/kFMyak68DNc/mqdefault.jpg
+    - https://i.ytimg.com/vi/kFMyak68DNc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/kFMyak68DNc/hqdefault.jpg
+    tags:
+    - VR
+    - Buisness
+    - Investment
+    - Advertising
+    - Vision Summit
+    - Vision 2017
+    - Vision 17
+    - XR
+    viewCount: 1174
+    likeCount: 12
+    dislikeCount: 7
+    commentCount: 2
+    durationInMinutes: 29
+    publishedAtDate: 636306764380000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - WebVR Panel
+    url: https://www.youtube.com/watch?v=D12BMIfJqn0
+    channelName: Unity
+    description: "This panel talks about WebVR -- VR experiences that can be distributed
+      with no friction, without downloading and installing an application, which
+      is immediately shareable and indexable with links, giving content creators
+      lots of freedom of choice with tools. \n\nSpeakers:\nAlban Denoyel - Sketchfab
+      \nSamantha Mathews - JanusVR \nTony Parisi - Unity Technologies \nAmber Roy
+      - Oculus\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/D12BMIfJqn0/sddefault.jpg
+    - https://i.ytimg.com/vi/D12BMIfJqn0/mqdefault.jpg
+    - https://i.ytimg.com/vi/D12BMIfJqn0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/D12BMIfJqn0/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 1120
+    likeCount: 23
+    dislikeCount: 0
+    commentCount: 3
+    durationInMinutes: 31
+    publishedAtDate: 636306807110000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - VR Production in Hollywood
+    url: https://www.youtube.com/watch?v=g-QOYRMd7hQ
+    channelName: Unity
+    description: "Get an inside peak at what some of the giants of Hollywood VR 
+      Production are thinking about regarding the business of VR.\n\nBen Grossman
+      - Magnopus \nSol Rogers  - REWIND \nEunice Shin - Manatt Digital"
+    thumbUrls:
+    - https://i.ytimg.com/vi/g-QOYRMd7hQ/sddefault.jpg
+    - https://i.ytimg.com/vi/g-QOYRMd7hQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/g-QOYRMd7hQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/g-QOYRMd7hQ/hqdefault.jpg
+    tags:
+    - VR
+    - Virtual Reality
+    - Unity
+    - Unity Technologies
+    - Vision Summit
+    - Vision 2017
+    viewCount: 773
+    likeCount: 11
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 32
+    publishedAtDate: 636306842430000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - VR Journalism: 360 Storytelling and the New Era of Reporting'
+    url: https://www.youtube.com/watch?v=BETAiLAGC4k
+    channelName: Unity
+    description: "How and why the journalism profession is embracing VR as a new
+      method of reporting\n\nSpeakers:\nAna Becker \nIan Hamilton - UploadVR \nRaj
+      Moorjani - ABC News \nGraham Sack - Chronotope Films\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/BETAiLAGC4k/sddefault.jpg
+    - https://i.ytimg.com/vi/BETAiLAGC4k/mqdefault.jpg
+    - https://i.ytimg.com/vi/BETAiLAGC4k/maxresdefault.jpg
+    - https://i.ytimg.com/vi/BETAiLAGC4k/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 918
+    likeCount: 11
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 30
+    publishedAtDate: 636306837400000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Vive Tracker Best Practices: How to Bring Real World Objects
+      into VR'
+    url: https://www.youtube.com/watch?v=dwbucE_Yoe8
+    channelName: Unity
+    description: "The recently introduced Vive Tracker -- which enables motion tracking
+      of objects in VR -- has already inspired a diverse range of use cases from
+      tracking baseball bats, to bringing mobile into VR, to attaching the Tracker
+      on a camera enabling the user to take photos inside VR. \n\nAs consumer VR
+      enters its second year, developers are constantly pushing the limits of understanding
+      for VR across in and out of home entertainment, and now they have an entirely
+      new way to pair physical objects with the VR environment across all of SteamVR
+      and OpenVR. This means more ways for developers to monetize their content,
+      build unique VR experiences for third parties, and even bring hardware accessories
+      into the VR ecosystem in retail. \n\nVinay Narayan (HTC Vive) highlights how
+      the Vive Tracker can be used from a hardware and software perspective to improve
+      VR experiences. The Vive Tracker enables developers to motion track objects
+      in VR without the need for other expensive products or software.\n\nSpeaker:\nVinay
+      Narayan - HTC Vive\n\nhttp://bit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/dwbucE_Yoe8/sddefault.jpg
+    - https://i.ytimg.com/vi/dwbucE_Yoe8/mqdefault.jpg
+    - https://i.ytimg.com/vi/dwbucE_Yoe8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/dwbucE_Yoe8/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 6014
+    likeCount: 43
+    dislikeCount: 3
+    commentCount: 2
+    durationInMinutes: 33
+    publishedAtDate: 636306801110000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Unity Beyond Games (Architecture, Engineering & Construction)
+    url: https://www.youtube.com/watch?v=D0djcOIiUUU
+    channelName: Unity
+    description: "Sanjay Mistry moderates this panel discussion about how Unity is
+      impacting AEC. See how Unity is being used by AEC industry professionals. The
+      panel discusses how to pvercome some of the challenges of introducing Unity
+      to the AEC workflow. \n\nSpeakers:\nWill Adams - Mortenson \nAnupam Das - \nSanjay
+      Mistry - VIMaec \nAlan Robles - Gensler\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/D0djcOIiUUU/sddefault.jpg
+    - https://i.ytimg.com/vi/D0djcOIiUUU/mqdefault.jpg
+    - https://i.ytimg.com/vi/D0djcOIiUUU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/D0djcOIiUUU/hqdefault.jpg
+    tags:
+    - Event
+    - AEC
+    viewCount: 3946
+    likeCount: 42
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 34
+    publishedAtDate: 636306820710000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Unity + Octane: The Path to Holographic Cinematic Rendering'
+    url: https://www.youtube.com/watch?v=n9oILsWlW1U
+    channelName: Unity
+    description: 'Jules Urbach (OTOY) provides an overview of how the upcoming Octane
+      and Unity integration can drive digital light field workflow across VR, XR
+      and beyond.
+
+
+      Speaker:
+
+      Jules Urbach - OTOY, Inc.
+
+
+      bit.ly/visionsummit17'
+    thumbUrls:
+    - https://i.ytimg.com/vi/n9oILsWlW1U/sddefault.jpg
+    - https://i.ytimg.com/vi/n9oILsWlW1U/mqdefault.jpg
+    - https://i.ytimg.com/vi/n9oILsWlW1U/maxresdefault.jpg
+    - https://i.ytimg.com/vi/n9oILsWlW1U/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 21353
+    likeCount: 233
+    dislikeCount: 7
+    commentCount: 18
+    durationInMinutes: 28
+    publishedAtDate: 636306822890000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - The Definitive Guide to Mixed Reality Broadcasting
+    url: https://www.youtube.com/watch?v=OeVBRTw3aBs
+    channelName: Unity
+    description: "The practice of Mixed Reality broadcasting, integrating real subjects
+      into virtual worlds, has been progressing rapidly since the launch of the current
+      generation of virtual reality technology. \n\nBlueprint Reality takes you through
+      the history and current state of the art, options for hardware and software,
+      utility and usage for a variety of industries, and shares their projections
+      for the future. \n\nSpeakers:\nBen Sheftel - Blueprint Reality Inc. \nTarrnie
+      Williams - Blueprint Reality Inc.\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/OeVBRTw3aBs/sddefault.jpg
+    - https://i.ytimg.com/vi/OeVBRTw3aBs/mqdefault.jpg
+    - https://i.ytimg.com/vi/OeVBRTw3aBs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/OeVBRTw3aBs/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 1284
+    likeCount: 14
+    dislikeCount: 1
+    commentCount: 6
+    durationInMinutes: 20
+    publishedAtDate: 636306825470000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Take Advantage of Immersive Presence in Mobile VR
+    url: https://www.youtube.com/watch?v=kHbN64BvsiY
+    channelName: Unity
+    description: "In order for virtual reality to become ubiquitous, it must deliver
+      on the promise of simulating physical presence in real or imagined worlds on
+      a mobile VR platform. In this presentation you will learn how the combination
+      of Leap Motion's cutting-edge hand tracking technology designed to render precise
+      movement of users' hands and fingers and Qualcomm Technologies' positional
+      tracking can help developers offer immersive presence in the virtual world
+      and transform that world with one's bare hands.\n\nHiren Bhinde - Qualcomm
+      \nRachel Sibley - Leap Motion"
+    thumbUrls:
+    - https://i.ytimg.com/vi/kHbN64BvsiY/sddefault.jpg
+    - https://i.ytimg.com/vi/kHbN64BvsiY/mqdefault.jpg
+    - https://i.ytimg.com/vi/kHbN64BvsiY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/kHbN64BvsiY/hqdefault.jpg
+    tags: []
+    viewCount: 556
+    likeCount: 6
+    dislikeCount: 3
+    commentCount: 0
+    durationInMinutes: 31
+    publishedAtDate: 636306818090000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Social Impact and VR
+    url: https://www.youtube.com/watch?v=c66gXK6DOJQ
+    channelName: Unity
+    description: "Nonny De La Pe\xF1a discusses various social VR experiments and
+      projects she has worked on and how the users react to extreme situations.\n\nNonny
+      De La Pe\xF1a - Emblematic Group"
+    thumbUrls:
+    - https://i.ytimg.com/vi/c66gXK6DOJQ/sddefault.jpg
+    - https://i.ytimg.com/vi/c66gXK6DOJQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/c66gXK6DOJQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/c66gXK6DOJQ/hqdefault.jpg
+    tags:
+    - Vr
+    - Social Experiment
+    - Unity
+    - Vision Summit
+    - Vision 2017
+    - Vision'17
+    - XR
+    viewCount: 431
+    likeCount: 4
+    dislikeCount: 2
+    commentCount: 2
+    durationInMinutes: 30
+    publishedAtDate: 636306764380000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - So You Want to get Into Hardware Dev
+    url: https://www.youtube.com/watch?v=4WO-1HblxKk
+    channelName: Unity
+    description: 'Peter Hollander (Talaria VR) introduces developers to the mindset
+      and resources they''ll need to start creating their own custom hardware, and
+      how to integrate their technologies into VR and AR content.
+
+
+      Holland
+      shares his progression from entering the industry as a virtual reality enthusiast
+      with no prior knowledge of electronics or programming, to inventing, creating,
+      and now bringing a commercial product to market in less than two years.
+
+
+      Speaker:
+
+      Peter
+      S. Hollander - Talaria VR
+
+
+      bit.ly/visionsummit17'
+    thumbUrls:
+    - https://i.ytimg.com/vi/4WO-1HblxKk/sddefault.jpg
+    - https://i.ytimg.com/vi/4WO-1HblxKk/mqdefault.jpg
+    - https://i.ytimg.com/vi/4WO-1HblxKk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4WO-1HblxKk/hqdefault.jpg
+    tags:
+    - vision
+    - vr
+    - ar
+    - unity
+    viewCount: 1154
+    likeCount: 29
+    dislikeCount: 3
+    commentCount: 8
+    durationInMinutes: 24
+    publishedAtDate: 636306803010000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Sex, Violence & Propaganda: Ethical, Conundrums in VR'
+    url: https://www.youtube.com/watch?v=fxhsxkYqf04
+    channelName: Unity
+    description: 'A provocative discussion designed to help industry professionals
+      & enthusiasts form personal conclusions about this unregulated medium. TDO
+      Productions & Science discusses content themes & ratings, to privacy & data
+      capture, to quantitative measurements. Do creators & distributors bear a bigger
+      moral & ethical responsibility in this, the most powerful medium ever experienced?
+
+
+      Speakers:
+
+      Gentry
+      Lane - TDO Productions & Science
+
+
+      bit.ly/visionsummit17'
+    thumbUrls:
+    - https://i.ytimg.com/vi/fxhsxkYqf04/sddefault.jpg
+    - https://i.ytimg.com/vi/fxhsxkYqf04/mqdefault.jpg
+    - https://i.ytimg.com/vi/fxhsxkYqf04/maxresdefault.jpg
+    - https://i.ytimg.com/vi/fxhsxkYqf04/hqdefault.jpg
+    tags:
+    - vision
+    - vr
+    - ar
+    - vision summit
+    - unity
+    viewCount: 803
+    likeCount: 7
+    dislikeCount: 12
+    commentCount: 0
+    durationInMinutes: 32
+    publishedAtDate: 636306769980000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Sense of Self: The Effects of Size, Sound, and Sight'
+    url: https://www.youtube.com/watch?v=BgnN7oXdbuA
+    channelName: Unity
+    description: "VR is a lens used to view brand new worlds -- but this lens works
+      both ways. This series of lightning talks focuses on using the tools of the
+      trade and turning them inward, altering perception of a user's body and identity.\n\nSally
+      Kellaway - OSSIC \nAndrew Maneri - Unity Technologies \nCarrie Shaw  - Embodied
+      Labs\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/BgnN7oXdbuA/sddefault.jpg
+    - https://i.ytimg.com/vi/BgnN7oXdbuA/mqdefault.jpg
+    - https://i.ytimg.com/vi/BgnN7oXdbuA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/BgnN7oXdbuA/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 902
+    likeCount: 11
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 44
+    publishedAtDate: 636306824010000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Samsung Innovations with Immersive Technologies
+    url: https://www.youtube.com/watch?v=V6alVUydV6A
+    channelName: Unity
+    description: "At Vision Summit 2017, we had the pleasure of Samsung joining us
+      to discuss and highlight some of the VR/AR work going on at their Samsung Research
+      and cover Samsung's role and support of WebVR.\n\nDamon Hernandez - Samsung
+      \nHenry Komsky - Samsung"
+    thumbUrls:
+    - https://i.ytimg.com/vi/V6alVUydV6A/sddefault.jpg
+    - https://i.ytimg.com/vi/V6alVUydV6A/mqdefault.jpg
+    - https://i.ytimg.com/vi/V6alVUydV6A/maxresdefault.jpg
+    - https://i.ytimg.com/vi/V6alVUydV6A/hqdefault.jpg
+    tags:
+    - VR
+    - AR
+    - XR
+    - Samsung
+    - WebVR
+    - Unity Technologies
+    - Unity
+    - Unity3D
+    - Vision 2017
+    - Vision Summit
+    - Vision'17
+    viewCount: 252
+    likeCount: 3
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 38
+    publishedAtDate: 636306817560000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Red Bull Air Race MR: How to Deploy Unity VR skills for
+      HoloLens Development'
+    url: https://www.youtube.com/watch?v=ekCchaw1IJY
+    channelName: Unity
+    description: 'REWIND''s CEO Sol Rogers explains how the team managed to forge
+      a world-first immersive experience for the Red Bull Air Race using the new
+      design principles of Mixed Reality and working with the HoloLens. Sol discusses
+      the unique properties of Unity which facilitated the swift development of the
+      MR experience.
+
+
+      Sol Rogers  - REWIND'
+    thumbUrls:
+    - https://i.ytimg.com/vi/ekCchaw1IJY/sddefault.jpg
+    - https://i.ytimg.com/vi/ekCchaw1IJY/mqdefault.jpg
+    - https://i.ytimg.com/vi/ekCchaw1IJY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ekCchaw1IJY/hqdefault.jpg
+    tags:
+    - VR
+    - AR
+    - Redbull
+    - HoloLense
+    - Microsoft
+    - MR
+    - XR
+    - Sol Rogers
+    - Vision Summit
+    - Vision 2017
+    - Vision 17
+    - red bull
+    viewCount: 1839
+    likeCount: 9
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 30
+    publishedAtDate: 636306764420000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - New from Daydream: Optimizations for Humans and Programs'
+    url: https://www.youtube.com/watch?v=2xbeB44NgTQ
+    channelName: Unity
+    description: 'The Daydream team at Google strives to help VR and AR developers
+      work more efficiently, while making the apps they create more performant. In
+      this session, we''ll introduce new developer tools to reduce iteration time,
+      share samples and plugins that make it easier to build VR apps, fast, and demo
+      new rendering solutions to get the most out of Daydream-ready devices.
+
+
+      Dushan
+      Leska - Google'
+    thumbUrls:
+    - https://i.ytimg.com/vi/2xbeB44NgTQ/sddefault.jpg
+    - https://i.ytimg.com/vi/2xbeB44NgTQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/2xbeB44NgTQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2xbeB44NgTQ/hqdefault.jpg
+    tags:
+    - Google
+    - Daydream
+    - Google Daydream
+    - VR
+    - Unity
+    - Vision Summit
+    - Vision 2017
+    - Vision'17
+    - XR
+    viewCount: 752
+    likeCount: 10
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 31
+    publishedAtDate: 636306764450000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Narrative Design for XR
+    url: https://www.youtube.com/watch?v=RpTuSCgc9uI
+    channelName: Unity
+    description: "Speakers: \nDanny Cannizzaro - Tender Claws \nEmilie Joly - apelab
+      \nAmy Stewart - Construct Studio\n\nhttp://bit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/RpTuSCgc9uI/sddefault.jpg
+    - https://i.ytimg.com/vi/RpTuSCgc9uI/mqdefault.jpg
+    - https://i.ytimg.com/vi/RpTuSCgc9uI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/RpTuSCgc9uI/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - ar
+    - vr
+    - unity
+    - xr
+    viewCount: 2764
+    likeCount: 29
+    dislikeCount: 0
+    commentCount: 5
+    durationInMinutes: 28
+    publishedAtDate: 636308356470000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Multiplayer Design in VR Gaming
+    url: https://www.youtube.com/watch?v=VH0AzIAA5zs
+    channelName: Unity
+    description: "Three developers share design lessons learned and their approach
+      to designing multiplayer game experiences for VR.\n\nSpeakers:\nVicki Ferguson
+      - Ubisoft \nNiv Fisher - One Hamsa \nJonathan Schenker - Alvios, Inc.\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/VH0AzIAA5zs/sddefault.jpg
+    - https://i.ytimg.com/vi/VH0AzIAA5zs/mqdefault.jpg
+    - https://i.ytimg.com/vi/VH0AzIAA5zs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/VH0AzIAA5zs/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 5682
+    likeCount: 64
+    dislikeCount: 1
+    commentCount: 7
+    durationInMinutes: 32
+    publishedAtDate: 636306837620000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Mobile Immersive Computing: Today and Beyond'
+    url: https://www.youtube.com/watch?v=0mYiM1dHquU
+    channelName: Unity
+    description: "These are the early days of immersive computing, and the Daydream
+      team at Google is excited by what\u2019s on the horizon. Lulu LaMer (Google)
+      shares the lessons they've learned from working with hundreds of Daydream and
+      Tango developers building VR and AR, helping you create innovative, accessible
+      experiences that will help build the future of mobile immersive computing.\n\nSpeaker:\nLulu
+      LaMer - Google\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/0mYiM1dHquU/sddefault.jpg
+    - https://i.ytimg.com/vi/0mYiM1dHquU/mqdefault.jpg
+    - https://i.ytimg.com/vi/0mYiM1dHquU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/0mYiM1dHquU/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - ar
+    - vr
+    - unity
+    viewCount: 737
+    likeCount: 6
+    dislikeCount: 1
+    commentCount: 1
+    durationInMinutes: 31
+    publishedAtDate: 636306769910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Mixed Reality: Stranger Things have Happened'
+    url: https://www.youtube.com/watch?v=FyPU2unwdm0
+    channelName: Unity
+    description: 'Katherine Harris (Microsoft) discusses HoloLens, Mixed Reality
+      and the spectrum of Physical and Digital Reality. Harris covers how to get
+      started developing for the HoloLens on the Unity game engine by going through
+      a strange demo.
+
+
+      Speaker:
+
+      Katherine Harris - Microsoft
+
+
+      bit.ly/visionsummit17'
+    thumbUrls:
+    - https://i.ytimg.com/vi/FyPU2unwdm0/sddefault.jpg
+    - https://i.ytimg.com/vi/FyPU2unwdm0/mqdefault.jpg
+    - https://i.ytimg.com/vi/FyPU2unwdm0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/FyPU2unwdm0/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - ar
+    - vr
+    - unity
+    viewCount: 912
+    likeCount: 12
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 25
+    publishedAtDate: 636306769910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Massive Mixed Reality - Leveraging Large 3D Models with
+      Mobile XR
+    url: https://www.youtube.com/watch?v=OsgcuZkCQv0
+    channelName: Unity
+    description: 'Many companies have existing 3D assets and want to leverage those
+      CAD/CAM, editorial and other 3D models also in interactive immersive scenarios.
+      But rendering those complex models in real-time poses an interesting challenge
+      with mobile VR/AR/MR development and devices like HoloLens which have limited
+      computing power. How can those insanely large polygonal models be optimized
+      to fit into the rendering budget of a mobile device? In this session Rene Schulte
+      will answer that question and provides best practices. He and his team is working
+      with the HoloLens since 2015 with many clients that faced similar challenges.
+      Rene distilled 3 key approaches and will demonstrate them also with Mixed Reality
+      live demos on-stage.
+
+
+      Rene Schulte - Valorem'
+    thumbUrls:
+    - https://i.ytimg.com/vi/OsgcuZkCQv0/sddefault.jpg
+    - https://i.ytimg.com/vi/OsgcuZkCQv0/mqdefault.jpg
+    - https://i.ytimg.com/vi/OsgcuZkCQv0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/OsgcuZkCQv0/hqdefault.jpg
+    tags:
+    - VR
+    - XR
+    - MR
+    - AR
+    - Unity
+    - Unity Technologies
+    - Vision'17
+    - Vision Summit
+    - Vision 2017
+    viewCount: 894
+    likeCount: 8
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 27
+    publishedAtDate: 636306818390000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Making Magic Across Both the Virtual and Real World at PlayStation
+    url: https://www.youtube.com/watch?v=d4ntbWK-jwc
+    channelName: Unity
+    description: "PlayStation\u2019s Magic Lab is a research group that looks to
+      the future and explores a variety of innovative entertainment experiences through
+      technology, including VR. We choose Unity for many of our prototypes, often
+      using it in novel ways. For instance, support for PlayStation VR in Unity was
+      born in Magic Lab so that we could explore different experiences and interactions
+      in virtual worlds; from standing on the surface of Mars, to controlling a virtual
+      humanoid robot on the International Space Station, to navigation techniques,
+      and most recently to exploration of believable virtual characters. As we continue
+      to expand our scope, we\u2019re looking to ways to bridge the gap between the
+      virtual and real worlds. In some cases we move completely to the real world,
+      with AI on a PlayStation flying drones to bring a real, physical side to play.\n\nSteven
+      Osman - Sony"
+    thumbUrls:
+    - https://i.ytimg.com/vi/d4ntbWK-jwc/sddefault.jpg
+    - https://i.ytimg.com/vi/d4ntbWK-jwc/mqdefault.jpg
+    - https://i.ytimg.com/vi/d4ntbWK-jwc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/d4ntbWK-jwc/hqdefault.jpg
+    tags:
+    - Playstation
+    - VR
+    - Playstation VR
+    - XR
+    - Gaming
+    - Unity
+    - Unity3D
+    - Unity 3D
+    - Unity Technologies
+    - Vision Summit
+    - Vision 2017
+    - Vision'17
+    viewCount: 1234
+    likeCount: 17
+    dislikeCount: 0
+    commentCount: 1
+    durationInMinutes: 31
+    publishedAtDate: 636306842430000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Location-based VR: Creating New Entertainment'
+    url: https://www.youtube.com/watch?v=PsLioiBeOOw
+    channelName: Unity
+    description: "Two Bit Circus is working to create the \"future of fun\". At Vision
+      Summit they took the audience through the work they have done to blend location
+      based experiences with VR. \n\n\nNancy Bennett - Two Bit Circus \nIvan Blaustein
+      - VRstudios \nEric Gradman - Two Bit Circus \nDavid Morales - X Studios"
+    thumbUrls:
+    - https://i.ytimg.com/vi/PsLioiBeOOw/sddefault.jpg
+    - https://i.ytimg.com/vi/PsLioiBeOOw/mqdefault.jpg
+    - https://i.ytimg.com/vi/PsLioiBeOOw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/PsLioiBeOOw/hqdefault.jpg
+    tags:
+    - VR
+    - Virtual Reality
+    - XR
+    - Game Development
+    - Vision Summit
+    - Vision 2017
+    - Unity
+    - Unity 3D
+    - Unity Technologies
+    viewCount: 1596
+    likeCount: 16
+    dislikeCount: 1
+    commentCount: 3
+    durationInMinutes: 31
+    publishedAtDate: 636306842430000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Lessons from Oculus: Overcoming VR Roadblocks'
+    url: https://www.youtube.com/watch?v=swA8cm8r4iw
+    channelName: Unity
+    description: "Developers have been publishing games for consumer VR devices for
+      over a year now, and the path from concept to finished product is full of remarkable
+      learnings. Chris Pruett (Oculus) discusses some of the engineering and design
+      road blocks that developers often encounter as they ramp up in VR development,
+      as well as case studies of practical ways to overcome them. \n\nSpeaker:\nChris
+      Pruett - Oculus\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/swA8cm8r4iw/sddefault.jpg
+    - https://i.ytimg.com/vi/swA8cm8r4iw/mqdefault.jpg
+    - https://i.ytimg.com/vi/swA8cm8r4iw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/swA8cm8r4iw/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 13516
+    likeCount: 185
+    dislikeCount: 5
+    commentCount: 9
+    durationInMinutes: 31
+    publishedAtDate: 636306837780000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Improving Your Applications with VRWorks and Ansel
+    url: https://www.youtube.com/watch?v=8ulYGRkwM7Q
+    channelName: Unity
+    description: 'Present VRWorks and Ansel integration into Unity. VRWorks Graphics
+      brings a new level of visual fidelity, performance, and responsiveness to virtual
+      reality through the following features: Multi Resolution Shading, Lens Matched
+      Shading, Single Pass Stereo rendering and VR SLI. Attendees will learn how
+      VRWorks features work and how they can utilize them in their Unity projects.
+      In addition, they will also learn how to use Ansel - a revolutionary tool allowing
+      users to capture screenshots like never before.
+
+
+      Bojan Skaljak - NVIDIA'
+    thumbUrls:
+    - https://i.ytimg.com/vi/8ulYGRkwM7Q/sddefault.jpg
+    - https://i.ytimg.com/vi/8ulYGRkwM7Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/8ulYGRkwM7Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/8ulYGRkwM7Q/hqdefault.jpg
+    tags:
+    - VR
+    - VRWorks
+    - Nvidia
+    - Unity
+    - Unity Technologies
+    - Unity3D
+    - Vision Summit
+    - Vision 2017
+    - Vision'17
+    viewCount: 3952
+    likeCount: 29
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 33
+    publishedAtDate: 636306842430000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - How to Publish and Share Content on Web with Sketchfab
+    url: https://www.youtube.com/watch?v=XlKclLWwNx0
+    channelName: Unity
+    description: 'Alban Denoyel (Sketchfab) showcases how you can easily publish,
+      share and embed 3D and VR content on the web using Sketchfab. It focuses on
+      bringing virtual content to a massive audience through social platforms like
+      Facebook.
+
+
+      bit.ly/visionsummit17'
+    thumbUrls:
+    - https://i.ytimg.com/vi/XlKclLWwNx0/sddefault.jpg
+    - https://i.ytimg.com/vi/XlKclLWwNx0/mqdefault.jpg
+    - https://i.ytimg.com/vi/XlKclLWwNx0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/XlKclLWwNx0/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - ar
+    - vr
+    - unity
+    viewCount: 3325
+    likeCount: 34
+    dislikeCount: 2
+    commentCount: 1
+    durationInMinutes: 19
+    publishedAtDate: 636306769910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Film Festivals and VR: Sundance Institute and the Future
+      of Interactive Media'
+    url: https://www.youtube.com/watch?v=aO_cktoSHCw
+    channelName: Unity
+    description: 'Hear from The Sundance Institute, one of the most beloved and iconic
+      groups in film, on how and why the film industry is embracing interactive entertainment
+      -- as well as the biggest challenges and how we can help overcome them.
+
+
+      Speakers:
+
+      Kamal
+      Sinclair - Sundance Institute, New Frontier Program
+
+
+      bit.ly/visionsummit17'
+    thumbUrls:
+    - https://i.ytimg.com/vi/aO_cktoSHCw/sddefault.jpg
+    - https://i.ytimg.com/vi/aO_cktoSHCw/mqdefault.jpg
+    - https://i.ytimg.com/vi/aO_cktoSHCw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/aO_cktoSHCw/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 590
+    likeCount: 4
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 29
+    publishedAtDate: 636306805950000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Docs and Devs: Combining Expertise to Improve Life-Saving
+      Medical Training With VR'
+    url: https://www.youtube.com/watch?v=UAqkf39pnvE
+    channelName: Unity
+    description: "Experiential learning is among the best ways to practice for pediatric
+      emergencies. However, hospitals are spending millions on expensive and inefficient
+      mannequin-based training that does not consistently offer an authentic experience
+      for med students and doctors, or offer convenient repeatability. \n\nHear about
+      a groundbreaking pilot program that brought together a hospital and two unique
+      VR and AI developer teams to deliver virtual reality training simulations for
+      some of the most high stakes emergencies hospitals see: pediatric trauma. \n\nLearn
+      how doctors aided in the design process to create authentic trauma room scenarios;
+      how expert content and simulation developers crafted a VR experience that would
+      have impact in a world where there is no room for error; and why Oculus believes
+      in this area of VR development.\n\nSpeakers:\nTodd Chang - Children's Hospital
+      Los Angeles / Keck School of Medicine at the University of Southern California\nTom
+      Dolby - AiSolve Ltd. \nShauna Heller - Clay Park VR \nRik Shorten - BioflightVR
+      \nParisa Zaga - Oculus/Facebook\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/UAqkf39pnvE/sddefault.jpg
+    - https://i.ytimg.com/vi/UAqkf39pnvE/mqdefault.jpg
+    - https://i.ytimg.com/vi/UAqkf39pnvE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/UAqkf39pnvE/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 2516
+    likeCount: 20
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 27
+    publishedAtDate: 636306769910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Creating the Audi VR experience
+    url: https://www.youtube.com/watch?v=ppyWKCBsipY
+    channelName: Unity
+    description: "Audi and strategic visualization partners ZeroLight discuss the
+      creation of a pioneering commercial VR experience. Topics include the market
+      opportunity and optimization of GPU resources to deliver a beautiful and truly
+      compelling experience for Audi customers worldwide.\n\nMarcus Kuehne - Audi
+      \nChris O'Connor - ZeroLight"
+    thumbUrls:
+    - https://i.ytimg.com/vi/ppyWKCBsipY/sddefault.jpg
+    - https://i.ytimg.com/vi/ppyWKCBsipY/mqdefault.jpg
+    - https://i.ytimg.com/vi/ppyWKCBsipY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/ppyWKCBsipY/hqdefault.jpg
+    tags:
+    - Audi
+    - ZeroLight
+    - VR
+    - Unity Technologies
+    - Unity
+    - Vision Summit
+    - Vision 2017
+    - Vision 17
+    - XR
+    viewCount: 13141
+    likeCount: 58
+    dislikeCount: 4
+    commentCount: 0
+    durationInMinutes: 34
+    publishedAtDate: 636306764380000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Capitol Hill and VR: Fireside Chat with the ESA'
+    url: https://www.youtube.com/watch?v=rc4FwX_zu6M
+    channelName: Unity
+    description: "Join Clive Downie of Unity Technologies and Mike Gallagher of the
+      Entertainment Software Association while they discuss Capitol Hill and the
+      presence of VR.\n\nClive Downie - Unity Technologies \nMike Gallagher - Entertainment
+      Software Association (ESA)"
+    thumbUrls:
+    - https://i.ytimg.com/vi/rc4FwX_zu6M/sddefault.jpg
+    - https://i.ytimg.com/vi/rc4FwX_zu6M/mqdefault.jpg
+    - https://i.ytimg.com/vi/rc4FwX_zu6M/maxresdefault.jpg
+    - https://i.ytimg.com/vi/rc4FwX_zu6M/hqdefault.jpg
+    tags:
+    - VR
+    - XR
+    - AR
+    - Unity Technologies
+    - Vision Summit
+    - Vision 2017
+    - Vision'17
+    viewCount: 188
+    likeCount: 3
+    dislikeCount: 1
+    commentCount: 0
+    durationInMinutes: 27
+    publishedAtDate: 636306817700000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Building Cinematic VR: Timeline and Other Techniques'
+    url: https://www.youtube.com/watch?v=g2FfjXgN9xY
+    channelName: Unity
+    description: "Sara Stumbo and Mike Wuetherick as they walk you through how they
+      build cinematic VR in Unity using Timeline and other techniques to create dynamic
+      sequences in your Unity projects.\n\nSarah Stumbo - Unity Technologies \nMike
+      Wuetherick - Unity Technologies"
+    thumbUrls:
+    - https://i.ytimg.com/vi/g2FfjXgN9xY/sddefault.jpg
+    - https://i.ytimg.com/vi/g2FfjXgN9xY/mqdefault.jpg
+    - https://i.ytimg.com/vi/g2FfjXgN9xY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/g2FfjXgN9xY/hqdefault.jpg
+    tags:
+    - Unity
+    - Cinematics
+    - Unity 3D
+    - Unity Technologies
+    - VR
+    - XR
+    - Vision Summit
+    - Vision 2017
+    - Virtual Reality
+    - Vision'17
+    viewCount: 16001
+    likeCount: 128
+    dislikeCount: 4
+    commentCount: 10
+    durationInMinutes: 47
+    publishedAtDate: 636306842430000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Building AR Apps with the Vuforia AR Starter Kit
+    url: https://www.youtube.com/watch?v=YzpjlUdF0bc
+    channelName: Unity
+    description: "David Beard (Vuforia) shows you how to get started developing AR
+      apps with Vuforia's AR Starter Kit in the Unity Asset Store. \n\nLearn how
+      to create experiences on objects, environments and spaces in the real world.
+      Beard demonstrates what's possible and how to customize the scenes in the Starter
+      Kits with your own content and app logic.\n\nSpeaker:\nDavid Beard - Vuforia\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/YzpjlUdF0bc/sddefault.jpg
+    - https://i.ytimg.com/vi/YzpjlUdF0bc/mqdefault.jpg
+    - https://i.ytimg.com/vi/YzpjlUdF0bc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/YzpjlUdF0bc/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 17141
+    likeCount: 109
+    dislikeCount: 6
+    commentCount: 6
+    durationInMinutes: 37
+    publishedAtDate: 636306769910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Big AR Talk: Three Innovators Discuss Unlocking AR''s Potential'
+    url: https://www.youtube.com/watch?v=-5vzTtUX-IE
+    channelName: Unity
+    description: "CastAR, Avegant, and Bent Image Labs all have different approaches
+      to powering the AR ecosystem. Listen to their unique perspectives on unleashing
+      AR developer creativity, the future of AR, and what makes their different approaches
+      so special. Moderated by Jay Wright, CEO of Vuforia.\n\nRay Di Carlo - Bent
+      Image Lab / youAR \nJeri Ellsworth - castAR \nDioselin Gonzalez - Unity Technologies
+      \nEdward Tang - Avegant"
+    thumbUrls:
+    - https://i.ytimg.com/vi/-5vzTtUX-IE/sddefault.jpg
+    - https://i.ytimg.com/vi/-5vzTtUX-IE/mqdefault.jpg
+    - https://i.ytimg.com/vi/-5vzTtUX-IE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-5vzTtUX-IE/hqdefault.jpg
+    tags:
+    - AR
+    - XR
+    - CastAR
+    - Bent Image Lab
+    - youAR
+    - Unity
+    - Unity Technologies
+    viewCount: 431
+    likeCount: 2
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 39
+    publishedAtDate: 636306764380000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Beyond the Screen: Using the Real World as Your AR Canvas'
+    url: https://www.youtube.com/watch?v=jkCJLq_Za0Q
+    channelName: Unity
+    description: "Take a look inside two mixed reality experiences from Nexus Studios
+      and MAP Design Lab.\n\nSpeakers:\nMelissa Painter - MAP Design Lab \nLuke Ritchie
+      - Nexus Studios\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/jkCJLq_Za0Q/sddefault.jpg
+    - https://i.ytimg.com/vi/jkCJLq_Za0Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/jkCJLq_Za0Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/jkCJLq_Za0Q/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 2889
+    likeCount: 32
+    dislikeCount: 3
+    commentCount: 3
+    durationInMinutes: 33
+    publishedAtDate: 636306837540000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Behind the VR/AR Hype: Actionable Advice Derived from Data'
+    url: https://www.youtube.com/watch?v=Z9AORntkS2s
+    channelName: Unity
+    description: "Speakers:\nJohn Cheng - Unity Technologies \nTipatat Chennavasin
+      - The Venture Reality Fund \nStephanie Llamas - SuperData Research \nJacob
+      Mullins - Shasta Ventures\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/Z9AORntkS2s/sddefault.jpg
+    - https://i.ytimg.com/vi/Z9AORntkS2s/mqdefault.jpg
+    - https://i.ytimg.com/vi/Z9AORntkS2s/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Z9AORntkS2s/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - ar
+    - vr
+    - unity
+    viewCount: 575
+    likeCount: 4
+    dislikeCount: 0
+    commentCount: 2
+    durationInMinutes: 36
+    publishedAtDate: 636306769910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Behind the Scenes of Zero Days VR
+    url: https://www.youtube.com/watch?v=pomGkpdYGq0
+    channelName: Unity
+    description: "How do you tell a story where the lead character is code? Scatter
+      guides you through their approach to volumetric film making using DepthKit,
+      and how they leverage Unity's game-engine technology to make virtual reality
+      documentaries.\n\nSpeakers:\nYasmin Elayat - Scatter \nElie Zananiri - Scatter\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/pomGkpdYGq0/sddefault.jpg
+    - https://i.ytimg.com/vi/pomGkpdYGq0/mqdefault.jpg
+    - https://i.ytimg.com/vi/pomGkpdYGq0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/pomGkpdYGq0/hqdefault.jpg
+    tags:
+    - vision
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 1242
+    likeCount: 11
+    dislikeCount: 0
+    commentCount: 0
+    durationInMinutes: 27
+    publishedAtDate: 636306769910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Artists and the Role of Art in an XR World
+    url: https://www.youtube.com/watch?v=1_V29n_aq78
+    channelName: Unity
+    description: "Speakers:\nShem Nguyen - Breachgate \nKate Parsons - FLOAT \nEstella
+      Tse \nBen Vance - FLOAT\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/1_V29n_aq78/sddefault.jpg
+    - https://i.ytimg.com/vi/1_V29n_aq78/mqdefault.jpg
+    - https://i.ytimg.com/vi/1_V29n_aq78/maxresdefault.jpg
+    - https://i.ytimg.com/vi/1_V29n_aq78/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 2316
+    likeCount: 30
+    dislikeCount: 1
+    commentCount: 5
+    durationInMinutes: 30
+    publishedAtDate: 636306818890000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Artificial Intelligence and XR
+    url: https://www.youtube.com/watch?v=-q1kppyU5Jw
+    channelName: Unity
+    description: "Nicolas Meuleau (Unity) gives an overview of AI in XR, the available
+      technical options, and a quick look at what Unity is doing in terms of AI.
+      Boo Aguilar (Snowcrash) then explores experience design and how to mix cognitive
+      technologies and AI with VR, beyond games. \n\nSpeakers:\nBoo Aguilar - FLAGCX/Snowcrash
+      \nNicolas Meuleau - Unity Technologies \nAdam Roth - Snowcrash\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/-q1kppyU5Jw/sddefault.jpg
+    - https://i.ytimg.com/vi/-q1kppyU5Jw/mqdefault.jpg
+    - https://i.ytimg.com/vi/-q1kppyU5Jw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-q1kppyU5Jw/hqdefault.jpg
+    tags:
+    - Vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 2513
+    likeCount: 37
+    dislikeCount: 5
+    commentCount: 10
+    durationInMinutes: 46
+    publishedAtDate: 636306808040000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Vision 2017 - Architects and the Future of AR Design
+    url: https://www.youtube.com/watch?v=2zBMtbB3z28
+    channelName: Unity
+    description: 'Never before in the modern history of technology has the architect,
+      the designer, been a more important part of technology''s future. Architects
+      have been curating and ideating on the development of ''place'' for centuries.
+      Gensler covers how they are leveraging AR in the coverage of AI, the Internet
+      of Things, and Cloud computing, and how to design places using game engine
+      technology.
+
+
+      Speaker:
+
+      Alan Robles - Gensler
+
+
+      bit.ly/visionsummit17'
+    thumbUrls:
+    - https://i.ytimg.com/vi/2zBMtbB3z28/sddefault.jpg
+    - https://i.ytimg.com/vi/2zBMtbB3z28/mqdefault.jpg
+    - https://i.ytimg.com/vi/2zBMtbB3z28/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2zBMtbB3z28/hqdefault.jpg
+    tags:
+    - vision summit
+    - vr
+    - ar
+    - unity
+    viewCount: 17958
+    likeCount: 173
+    dislikeCount: 9
+    commentCount: 7
+    durationInMinutes: 22
+    publishedAtDate: 636306837130000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Vision 2017 - Advertising in VR: The Money is Coming'
+    url: https://www.youtube.com/watch?v=XBWYhlZt5Fo
+    channelName: Unity
+    description: "VR is getting more eyeballs and advertisers are taking notice.
+      Learn about the evolution of ads in new platforms and how we can avoid making
+      the same early mistakes.\n\nSpeakers:\nAgatha Bochenek - Unity Technologies
+      \nJulie Shumaker - Unity Technologies\n\nbit.ly/visionsummit17"
+    thumbUrls:
+    - https://i.ytimg.com/vi/XBWYhlZt5Fo/sddefault.jpg
+    - https://i.ytimg.com/vi/XBWYhlZt5Fo/mqdefault.jpg
+    - https://i.ytimg.com/vi/XBWYhlZt5Fo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/XBWYhlZt5Fo/hqdefault.jpg
+    tags:
+    - Vision
+    - ar
+    - vr
+    - vision summit
+    - unity
+    viewCount: 4391
+    likeCount: 42
+    dislikeCount: 3
+    commentCount: 2
+    durationInMinutes: 32
+    publishedAtDate: 636306769910000000
+    publisdedDate:
+      year: 2017
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity for everyone | Unity
+    url: https://www.youtube.com/watch?v=MuD7eLyfPMg
+    channelName: Unity
+    description: "We believe the world is a better place with more creators in it
+      and we\u2019re here to build the Unity platform that serves you. \n\nStart
+      bringing your vision to life today: unity.com\n\nHelp us caption & translate
+      this video!\n\nhttps://amara.org/v/oIgG/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/MuD7eLyfPMg/sddefault.jpg
+    - https://i.ytimg.com/vi/MuD7eLyfPMg/mqdefault.jpg
+    - https://i.ytimg.com/vi/MuD7eLyfPMg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/MuD7eLyfPMg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 169574
+    likeCount: 2754
+    dislikeCount: 80
+    commentCount: 242
+    durationInMinutes: 0
+    publishedAtDate: 636888243100000000
+    publisdedDate:
+      year: 2019
+      month: 3
+      day: 22
+    YouTubeDataAPI_Cooked: 1
+  - title: "Made With Unity: Runnin\u2019"
+    url: https://www.youtube.com/watch?v=zibl4CMg7vI
+    channelName: Unity
+    description: "In this video, see how New Frontier storytellers have captured
+      their vision in VR to share with cinephiles at Sundance\u2019s exclusive annual
+      film festival.\n\nLead Artists: Reggie Watts, Kiira Benzing, Key Collaborators:
+      John Tejada, Amy O'Neal, Ani Taj, Adam Rogers \u2014 This interactive dance
+      experience takes the player on a journey of musical expression. Play along
+      with the music in an intimate neighborhood record store and be transported
+      to a retro-future dance party. Show off your moves on the dance floor alongside
+      a troupe of dancers. Cast: Reggie Watts, John Tejada, Amy O'Neal, Ani Taj,
+      Kate Berlant, Ben Schwartz.\nInterviews include: \nRyan McGee, Principal at
+      Life Orange LLC.\nDave Smiddy, Head of Product at Intel Studios.\nKiira Benzing,
+      Lead Artist\nKamal Sinclair, Director, New Frontier Lab Programs, Sundance
+      Institute"
+    thumbUrls:
+    - https://i.ytimg.com/vi/zibl4CMg7vI/sddefault.jpg
+    - https://i.ytimg.com/vi/zibl4CMg7vI/mqdefault.jpg
+    - https://i.ytimg.com/vi/zibl4CMg7vI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/zibl4CMg7vI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 9661
+    likeCount: 148
+    dislikeCount: 26
+    commentCount: 13
+    durationInMinutes: 4
+    publishedAtDate: 637142180210000000
+    publisdedDate:
+      year: 2020
+      month: 1
+      day: 10
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating AR Content with Vuforia - Vuforia Configuration [2/6] Live 2018/1/24
+    url: https://www.youtube.com/watch?v=I5qGTyBY6kA
+    channelName: Unity
+    description: 'Download the assets to follow along: http://ole.unity.com/vuforialive2018
+
+
+      In
+      this live session with online evangelist Matt Schell we will look at how to
+      get started creating augmented reality (AR) content using the Vuforia Engine,
+      now integrated directly into the Unity Editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/I5qGTyBY6kA/sddefault.jpg
+    - https://i.ytimg.com/vi/I5qGTyBY6kA/mqdefault.jpg
+    - https://i.ytimg.com/vi/I5qGTyBY6kA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/I5qGTyBY6kA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - AR
+    - XR
+    - vuforia
+    - image target
+    - marker
+    - tutorial
+    - ar basics
+    - image recognition
+    - computer vision
+    - ar button
+    - live session
+    - live training
+    - live
+    viewCount: 43546
+    likeCount: 162
+    dislikeCount: 6
+    commentCount: 16
+    durationInMinutes: 4
+    publishedAtDate: 636536305860000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating AR Content with Vuforia - Tracking and Scripting [5/6] Live 2018/1/24
+    url: https://www.youtube.com/watch?v=P5UgsDAEbdg
+    channelName: Unity
+    description: 'Download the assets to follow along: http://ole.unity.com/vuforialive2018
+
+
+      In
+      this live session with online evangelist Matt Schell we will look at how to
+      get started creating augmented reality (AR) content using the Vuforia Engine,
+      now integrated directly into the Unity Editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/P5UgsDAEbdg/sddefault.jpg
+    - https://i.ytimg.com/vi/P5UgsDAEbdg/mqdefault.jpg
+    - https://i.ytimg.com/vi/P5UgsDAEbdg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/P5UgsDAEbdg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - AR
+    - XR
+    - vuforia
+    - image target
+    - marker
+    - tutorial
+    - ar basics
+    - image recognition
+    - computer vision
+    - ar button
+    - live session
+    - live training
+    - live
+    viewCount: 25166
+    likeCount: 141
+    dislikeCount: 4
+    commentCount: 12
+    durationInMinutes: 9
+    publishedAtDate: 636536305860000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating AR Content with Vuforia - Questions and Answers [6/6] Live 2018/1/24
+    url: https://www.youtube.com/watch?v=4CS6F7nQpRI
+    channelName: Unity
+    description: 'Download the assets to follow along: http://ole.unity.com/vuforialive2018
+
+
+      In
+      this live session with online evangelist Matt Schell we will look at how to
+      get started creating augmented reality (AR) content using the Vuforia Engine,
+      now integrated directly into the Unity Editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/4CS6F7nQpRI/sddefault.jpg
+    - https://i.ytimg.com/vi/4CS6F7nQpRI/mqdefault.jpg
+    - https://i.ytimg.com/vi/4CS6F7nQpRI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/4CS6F7nQpRI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - AR
+    - XR
+    - vuforia
+    - image target
+    - marker
+    - tutorial
+    - ar basics
+    - image recognition
+    - computer vision
+    - ar button
+    - live session
+    - live training
+    - live
+    viewCount: 9369
+    likeCount: 44
+    dislikeCount: 3
+    commentCount: 5
+    durationInMinutes: 2
+    publishedAtDate: 636536305860000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating AR Content with Vuforia - Introduction [1/6] Live 2018/1/24
+    url: https://www.youtube.com/watch?v=9XikHnTiukk
+    channelName: Unity
+    description: 'Download the assets to follow along: http://ole.unity.com/vuforialive2018
+
+
+      In
+      this live session with online evangelist Matt Schell we will look at how to
+      get started creating augmented reality (AR) content using the Vuforia Engine,
+      now integrated directly into the Unity Editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/9XikHnTiukk/sddefault.jpg
+    - https://i.ytimg.com/vi/9XikHnTiukk/mqdefault.jpg
+    - https://i.ytimg.com/vi/9XikHnTiukk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9XikHnTiukk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - AR
+    - XR
+    - vuforia
+    - image target
+    - marker
+    - tutorial
+    - ar basics
+    - image recognition
+    - computer vision
+    - ar button
+    - live session
+    - live training
+    - live
+    viewCount: 79059
+    likeCount: 515
+    dislikeCount: 13
+    commentCount: 16
+    durationInMinutes: 3
+    publishedAtDate: 636536305860000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating AR Content with Vuforia - Image Targets [3/6] Live 2018/1/24
+    url: https://www.youtube.com/watch?v=Wqbg9mB84V4
+    channelName: Unity
+    description: 'Download the assets to follow along: http://ole.unity.com/vuforialive2018
+
+
+      In
+      this live session with online evangelist Matt Schell we will look at how to
+      get started creating augmented reality (AR) content using the Vuforia Engine,
+      now integrated directly into the Unity Editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Wqbg9mB84V4/sddefault.jpg
+    - https://i.ytimg.com/vi/Wqbg9mB84V4/mqdefault.jpg
+    - https://i.ytimg.com/vi/Wqbg9mB84V4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Wqbg9mB84V4/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - AR
+    - XR
+    - vuforia
+    - image target
+    - marker
+    - tutorial
+    - ar basics
+    - image recognition
+    - computer vision
+    - ar button
+    - live session
+    - live training
+    - live
+    viewCount: 42957
+    likeCount: 168
+    dislikeCount: 11
+    commentCount: 17
+    durationInMinutes: 5
+    publishedAtDate: 636536305860000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 7
+    YouTubeDataAPI_Cooked: 1
+  - title: Creating AR Content with Vuforia - AR Buttons [4/6] Live 2018/1/24
+    url: https://www.youtube.com/watch?v=S1VrS05IxyQ
+    channelName: Unity
+    description: 'Download the assets to follow along: http://ole.unity.com/vuforialive2018
+
+
+      In
+      this live session with online evangelist Matt Schell we will look at how to
+      get started creating augmented reality (AR) content using the Vuforia Engine,
+      now integrated directly into the Unity Editor.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/S1VrS05IxyQ/sddefault.jpg
+    - https://i.ytimg.com/vi/S1VrS05IxyQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/S1VrS05IxyQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/S1VrS05IxyQ/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - AR
+    - XR
+    - vuforia
+    - image target
+    - marker
+    - tutorial
+    - ar basics
+    - image recognition
+    - computer vision
+    - ar button
+    - live session
+    - live training
+    - live
+    viewCount: 37191
+    likeCount: 179
+    dislikeCount: 7
+    commentCount: 13
+    durationInMinutes: 10
+    publishedAtDate: 636536305860000000
+    publisdedDate:
+      year: 2018
+      month: 2
+      day: 7
+    YouTubeDataAPI_Cooked: 1

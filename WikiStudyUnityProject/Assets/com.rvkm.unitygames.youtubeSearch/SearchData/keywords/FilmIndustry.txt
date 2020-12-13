@@ -1,2 +1,0 @@
-film,movie,cg,CGI,Stop Motion,Sherman
-animated,Animated

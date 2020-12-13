@@ -12,6 +12,173 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: Optimization_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: Optimization
+  allVideos:
+  - title: Monetize your game while optimizing the player experience
+    url: https://www.youtube.com/watch?v=yJGJUmNPHs8
+    channelName: Unity
+    description: "Want to learn more about how to monetize your game while optimizing
+      the player experience? \n\nCheck out: unity.com/growth"
+    thumbUrls:
+    - https://i.ytimg.com/vi/yJGJUmNPHs8/sddefault.jpg
+    - https://i.ytimg.com/vi/yJGJUmNPHs8/mqdefault.jpg
+    - https://i.ytimg.com/vi/yJGJUmNPHs8/maxresdefault.jpg
+    - https://i.ytimg.com/vi/yJGJUmNPHs8/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 9567
+    likeCount: 436
+    dislikeCount: 43
+    commentCount: 39
+    durationInMinutes: 1
+    publishedAtDate: 636954300170000000
+    publisdedDate:
+      year: 2019
+      month: 6
+      day: 6
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Live Training Sep. 21st, 2015: Unity Tips and Tricks Grab Bag'
+    url: https://www.youtube.com/watch?v=qSQRZAxXlqw
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/modules/intermediate/unity-tips-and-tricks-grab-bag
+
+
+      Who
+      doesn''t like #unitytips? In this session we will look at a bunch of different
+      tips and tricks that you may not have known about. Topics include how to: Visualizing
+      in the scene view with editor extensions, modularizing assets, and using particles
+      for performance gain. We are literally cramming as much stuff into an hour
+      session as we can, so who knows how much we''ll cover! Let''s find out!
+
+      Trainer:
+      Mike Geig
+
+
+      If you have any comments, suggestions or requests, put them
+      up on our official forum thread:
+
+      http://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V61G/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/qSQRZAxXlqw/sddefault.jpg
+    - https://i.ytimg.com/vi/qSQRZAxXlqw/mqdefault.jpg
+    - https://i.ytimg.com/vi/qSQRZAxXlqw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/qSQRZAxXlqw/hqdefault.jpg
+    tags: []
+    viewCount: 24136
+    likeCount: 316
+    dislikeCount: 4
+    commentCount: 35
+    durationInMinutes: 67
+    publishedAtDate: 635816598120000000
+    publisdedDate:
+      year: 2015
+      month: 10
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Live Training June. 22, 2015: Profiler Overview for Beginners'
+    url: https://www.youtube.com/watch?v=tdGvsoASS3g
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/profiler-overview
+
+
+      In
+      this live training we explore Unity''s Profiler. The Profiler is used for analyzing
+      the performance of your games and understanding how to optimize them.
+
+
+      If
+      you have any comments, suggestions or requests, put them up on our official
+      forum thread:
+
+      http://forum.unity3d.com/threads/free-live-online-training-from-unity-technologies.204688/
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V63g/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/tdGvsoASS3g/sddefault.jpg
+    - https://i.ytimg.com/vi/tdGvsoASS3g/mqdefault.jpg
+    - https://i.ytimg.com/vi/tdGvsoASS3g/maxresdefault.jpg
+    - https://i.ytimg.com/vi/tdGvsoASS3g/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Tutorial (Media Genre)
+    - unity3d
+    - profiler
+    - performance
+    - optimization
+    - frame rate
+    - lag
+    - game
+    - game development
+    - Profiling
+    - Programming Language (Software Genre)
+    - Tips
+    viewCount: 19269
+    likeCount: 213
+    dislikeCount: 8
+    commentCount: 21
+    durationInMinutes: 52
+    publishedAtDate: 635707727490000000
+    publisdedDate:
+      year: 2015
+      month: 6
+      day: 24
+    YouTubeDataAPI_Cooked: 1
+  - title: How FuturePlay uses GameTune to test and adjust their game in real-time
+    url: https://www.youtube.com/watch?v=oYIlrYQi5KI
+    channelName: Unity
+    description: 'How do you balance between optimizing existing features and developing
+      new ones when working on game updates? Finnish gaming company Futureplay continually
+      makes updates in their games to keep players engaged and fight against churn.
+
+
+      Learn
+      more about GameTune: https://on.unity.com/2WxUwiU'
+    thumbUrls:
+    - https://i.ytimg.com/vi/oYIlrYQi5KI/sddefault.jpg
+    - https://i.ytimg.com/vi/oYIlrYQi5KI/mqdefault.jpg
+    - https://i.ytimg.com/vi/oYIlrYQi5KI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/oYIlrYQi5KI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - game testing
+    - machine learning
+    viewCount: 4853
+    likeCount: 86
+    dislikeCount: 18
+    commentCount: 0
+    durationInMinutes: 3
+    publishedAtDate: 637088552590000000
+    publisdedDate:
+      year: 2019
+      month: 11
+      day: 9
+    YouTubeDataAPI_Cooked: 1

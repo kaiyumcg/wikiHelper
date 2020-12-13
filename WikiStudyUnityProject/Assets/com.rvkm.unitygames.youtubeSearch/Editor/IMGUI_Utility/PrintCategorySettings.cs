@@ -10,13 +10,44 @@ namespace com.rvkm.unitygames.YouTubeSearch
 {
     public static class PrintCategorySettings
     {
+        static void PrintSeperator()
+        {
+            string st = "";
+            for (int i = 0; i < Screen.width; i++)
+            {
+                st += "-";
+            }
+            GUILayout.Label(st);
+        }
+
         public static void Print(ref SearchDataYoutube mainData, SearchDataEditor editor, SerializedObject serializedObject)
         {
             SearchDataYoutube data = mainData;
             data.showCategorySetting = GUILayout.Toggle(data.showCategorySetting, "Category Settings");
             if (data.showCategorySetting)
             {
+                EditorGUI.indentLevel += 1;
+                EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(data.useManualVideoDataForCategory)),
+                    new GUIContent("Manual Video Source? "));
+                if (data.useManualVideoDataForCategory)
+                {
+                    if (data.categoryDataForManualMode == null || data.categoryDataForManualMode.Length < 1)
+                    {
+                        data.categoryDataForManualMode = new YoutubeCategory[1];
+                    }
+                    EditorGUI.indentLevel += 1;
+                    PrintAssetFiles.ShowArrayWithBrowseOption<YoutubeCategory>(serializedObject.FindProperty(nameof(data.categoryDataForManualMode)), data);
+                    EditorGUI.indentLevel -= 1;
+                }
+                EditorGUI.indentLevel -= 1;
+
                 EditorGUI.indentLevel += 2;
+                
+                    //GUILayout.Toggle(data.useManualVideoDataForCategory, "Use Video Data manually for category operation?");
+                if (data.useManualVideoDataForCategory)
+                {
+                    
+                }
 
                 EditorGUI.BeginChangeCheck();
                 {
@@ -74,6 +105,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 }
                 EditorGUI.indentLevel -= 2;
             }
+            PrintSeperator();
         }
     }
 }

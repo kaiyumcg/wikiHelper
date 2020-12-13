@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
+  m_Name: BakeGIPBR_vData_
+  m_EditorClassIdentifier: 
+  searchName: UnityChannel
+  belongedCategory: BakeGIPBR
+  allVideos:
+  - title: 'Unite Berlin 2018 - Substance for Unity Plugin: Better Performance, Faster
+      PBR Workflow'
+    url: https://www.youtube.com/watch?v=lzos__g2siw
+    channelName: Unity
+    description: 'This talk goes over the PBR workflow and Substance for Unity plugin
+      improvements. Learn how Substance for Unity speeds up your texturing process
+      directly within your favorite game engine.
+
+
+      Speaker:
+
+      Vincent
+      Gault (Community Manager & Technical Artist, Allegorithmic)
+
+
+      https://unite.unity.com/2018/berlin/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/lzos__g2siw/sddefault.jpg
+    - https://i.ytimg.com/vi/lzos__g2siw/mqdefault.jpg
+    - https://i.ytimg.com/vi/lzos__g2siw/maxresdefault.jpg
+    - https://i.ytimg.com/vi/lzos__g2siw/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 2805
+    likeCount: 43
+    dislikeCount: 2
+    commentCount: 2
+    durationInMinutes: 52
+    publishedAtDate: 636670062020000000
+    publisdedDate:
+      year: 2018
+      month: 7
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 - Mastering Physically Based Shading
+    url: https://www.youtube.com/watch?v=eoXb-f_pNag
+    channelName: Unity
+    description: "Renaldas Zioma and Erland K\xF6rner of Unity and Wes McDermott
+      of Allegorithmic explain the principles behind Physically Based Shading and
+      how to use it efficiently in Unity 5. Slides: http://www.slideshare.net/RenaldasZioma/unite2014-mastering-physically-based-shading-in-unity-5\n\nHelp
+      us caption & translate this video!\n\nhttp://amara.org/v/V66t/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/eoXb-f_pNag/sddefault.jpg
+    - https://i.ytimg.com/vi/eoXb-f_pNag/mqdefault.jpg
+    - https://i.ytimg.com/vi/eoXb-f_pNag/maxresdefault.jpg
+    - https://i.ytimg.com/vi/eoXb-f_pNag/hqdefault.jpg
+    tags:
+    - Shading (Field Of Study)
+    - Computer Science (Field Of Study)
+    - Unity (Software)
+    - Video Game Development (Conference Subject)
+    - Video Game (Industry)
+    - Unite 2014 Seattle
+    viewCount: 31306
+    likeCount: 184
+    dislikeCount: 5
+    commentCount: 23
+    durationInMinutes: 62
+    publishedAtDate: 635446730010000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Unite 2014 - Best Practices For Physically Based Content Creation
+    url: https://www.youtube.com/watch?v=OeEYEUCa4tI
+    channelName: Unity
+    description: 'Anton Hand (RUST LTD.) talks about currently available approaches
+      for realizing PBR in Unity, content pipelines, texturing, data agreggation
+      processes, channel setups and how to adapt one''s workflow to accommodate them.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V66p/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/OeEYEUCa4tI/sddefault.jpg
+    - https://i.ytimg.com/vi/OeEYEUCa4tI/mqdefault.jpg
+    - https://i.ytimg.com/vi/OeEYEUCa4tI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/OeEYEUCa4tI/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Computer-generated Imagery (Film Company Role Or Service)
+    - unity 5
+    - Unity
+    - Unite 2014 Seattle
+    - Graphics (Field Of Study)
+    - Graphics Software (Software Genre)
+    viewCount: 68516
+    likeCount: 598
+    dislikeCount: 7
+    commentCount: 70
+    durationInMinutes: 43
+    publishedAtDate: 635446730730000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 26
+    YouTubeDataAPI_Cooked: 1
+  - title: Substance PBR materials workflow for real-time rendering - Unite LA |
+      AutoTech Summit
+    url: https://www.youtube.com/watch?v=aZE8YAVzXGk
+    channelName: Unity
+    description: "Dive into the Automotive selection available in Substance Source,
+      showcasing how these materials are created using either a scan-based approach
+      or full procedural workflow. \n\nSpeaker:\nJeremie Noguer (Allegorithmic)\n\nSlides:\nhttps://www.slideshare.net/unity3d/substance-pbr-materials-workflow-for-realtime-rendering-unite-la\n\nLearn
+      more about Unity for Automotive: https://unity.com/solutions/automotive-transportation\n\nHelp
+      us caption & translate this video!\n\nhttps://amara.org/v/oLGQ/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/aZE8YAVzXGk/sddefault.jpg
+    - https://i.ytimg.com/vi/aZE8YAVzXGk/mqdefault.jpg
+    - https://i.ytimg.com/vi/aZE8YAVzXGk/maxresdefault.jpg
+    - https://i.ytimg.com/vi/aZE8YAVzXGk/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Event
+    - Automotive
+    viewCount: 13074
+    likeCount: 143
+    dislikeCount: 15
+    commentCount: 7
+    durationInMinutes: 49
+    publishedAtDate: 636801974340000000
+    publisdedDate:
+      year: 2018
+      month: 12
+      day: 12
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Roll-a-Ball: 1.1 Create a new Unity project'
+    url: https://www.youtube.com/watch?v=_uO5B7bP9jo
+    channelName: Unity
+    description: "In this tutorial, you\u2019ll:\n\n- Know how to use Unity Hub to
+      create a new URP project\n- Understand how to create scenes and save them in
+      the project tab\n- Be able to create and manipulate primitives and GameObjects\n-
+      Be able to scale and transform GameObjects\n- Understand what is a skybox and
+      how it combines with directional lights to create lighting\n- Basics of materials
+      and PBR systems\n\n\nFor the full Roll-a-Ball course, go to: https://learn.unity.com/project/roll-a-ball"
+    thumbUrls:
+    - https://i.ytimg.com/vi/_uO5B7bP9jo/sddefault.jpg
+    - https://i.ytimg.com/vi/_uO5B7bP9jo/mqdefault.jpg
+    - https://i.ytimg.com/vi/_uO5B7bP9jo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/_uO5B7bP9jo/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - roll a ball
+    - beginner code
+    - programming
+    viewCount: 42015
+    likeCount: 511
+    dislikeCount: 26
+    commentCount: 62
+    durationInMinutes: 1
+    publishedAtDate: 637335614080000000
+    publisdedDate:
+      year: 2020
+      month: 8
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: 'Kinematica: democratizing Motion Matching for character animation | Unite
+      Now 2020'
+    url: https://www.youtube.com/watch?v=TlIWPS2Wzac
+    channelName: Unity
+    description: "In this session, you\u2019ll learn how to get started with Kinematica
+      and implement it within your animation pipeline. Based on Motion Matching,
+      Kinematica uses raw animation clips or motion capture data \u2013 not animation
+      graphs \u2013 to produce character poses automatically, based on your description
+      of the intended movement.\n\nSpeaker:\nMichael Buttner (Principal Architect,
+      Unity Labs)\n\nDownload demo project: https://on.unity.com/36UFEQS\nAsk your
+      questions here: https://on.unity.com/3dk304k\nDid you find this video useful?
+      Room for improvement? Let us know: https://on.unity.com/2YFwe9C\nCheck out
+      the Unite Now page to be among the first to watch upcoming sessions: https://on.unity.com/35Dx2h1"
+    thumbUrls:
+    - https://i.ytimg.com/vi/TlIWPS2Wzac/sddefault.jpg
+    - https://i.ytimg.com/vi/TlIWPS2Wzac/mqdefault.jpg
+    - https://i.ytimg.com/vi/TlIWPS2Wzac/maxresdefault.jpg
+    - https://i.ytimg.com/vi/TlIWPS2Wzac/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    viewCount: 20935
+    likeCount: 437
+    dislikeCount: 7
+    commentCount: 37
+    durationInMinutes: 58
+    publishedAtDate: 637254379730000000
+    publisdedDate:
+      year: 2020
+      month: 5
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Advanced Global Illumination in Unity 5 - Unite Europe 2015
+    url: https://www.youtube.com/watch?v=_D9MxSELOec
+    channelName: Unity
+    description: 'Kasper Storm Engelstoft (Unity Technologies), Jim Chaney (Geomerics,
+      an ARM company) and Adam Simonar (NVYVE Studios) talk about Geomerics'' GI
+      system, Enlighten. Jim explains about what goes on under the hood of Enlighten,
+      Kasper talks about the Unity integration and Adam shows the kind of results
+      you can achieve and how NVYVE uses Enlighten in their game P.A.M.E.L.A. Slides:
+      http://www.geomerics.com/wp-content/uploads/2014/03/Unite-Europe-deck-with-notes.pdf
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V630/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/_D9MxSELOec/sddefault.jpg
+    - https://i.ytimg.com/vi/_D9MxSELOec/mqdefault.jpg
+    - https://i.ytimg.com/vi/_D9MxSELOec/maxresdefault.jpg
+    - https://i.ytimg.com/vi/_D9MxSELOec/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Enlighten
+    - Geomerics
+    - Global Illumination
+    - Unity 5
+    - Lighting in Unity
+    - Advanced Lighting
+    viewCount: 25294
+    likeCount: 179
+    dislikeCount: 1
+    commentCount: 14
+    durationInMinutes: 56
+    publishedAtDate: 635712176360000000
+    publisdedDate:
+      year: 2015
+      month: 6
+      day: 29
+    YouTubeDataAPI_Cooked: 1

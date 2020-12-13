@@ -58,6 +58,10 @@ namespace com.rvkm.unitygames.YouTubeSearch
             serializedObject.Update();
             ShowCategoryData(serializedObject);
             EditorUtility.SetDirty(data);
+            if (data.videoData != null && data.videoData.allVideos != null && data.videoData.allVideos.Length > 0)
+            {
+                EditorUtility.SetDirty(data.videoData);
+            }
             serializedObject.ApplyModifiedProperties();
         }
 
@@ -72,7 +76,7 @@ namespace com.rvkm.unitygames.YouTubeSearch
                 EditorGUILayout.LabelField("Category name: " + data.categoryName);
                 //EditorGUILayout.PropertyField(catObj.FindProperty(nameof(data.categoryName)), IMGUIStatics.categoryName, true);
 
-                if (data.categoryName != "Uncategorized")
+                if (data.categoryName != "_uncat_generated")
                 {
                     data.StrOpShow = EditorGUILayout.Foldout(data.StrOpShow, "Word Operations");
                     if (data.StrOpShow)

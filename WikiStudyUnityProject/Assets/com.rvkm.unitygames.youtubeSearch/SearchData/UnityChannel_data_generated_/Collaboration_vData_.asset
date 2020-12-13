@@ -12,6 +12,1062 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
   m_Name: Collaboration_vData_
   m_EditorClassIdentifier: 
-  searchName: 
-  belongedCategory: 
-  allVideos: []
+  searchName: UnityChannel
+  belongedCategory: Collaboration
+  allVideos:
+  - title: 'Using Timeline: Custom Scripts'
+    url: https://www.youtube.com/watch?v=cmExSYI2yd0
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+      https://unity3d.com/learn/tutorials/topics/animation/using-timeline-custom-scripts
+
+
+      How
+      to control the playable director and our Timeline sequences using a custom
+      script.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/cmExSYI2yd0/sddefault.jpg
+    - https://i.ytimg.com/vi/cmExSYI2yd0/mqdefault.jpg
+    - https://i.ytimg.com/vi/cmExSYI2yd0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/cmExSYI2yd0/hqdefault.jpg
+    tags:
+    - Unity
+    - TImeline
+    - Animation
+    - Director
+    - Sequencer
+    - Tracks
+    - Custom Scripts
+    - Using Timeline
+    - unity3d
+    viewCount: 46947
+    likeCount: 450
+    dislikeCount: 27
+    commentCount: 39
+    durationInMinutes: 7
+    publishedAtDate: 636398221150000000
+    publisdedDate:
+      year: 2017
+      month: 9
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity presents 'Trash Dash' Endless Runner for Game Changer Charity
+    url: https://www.youtube.com/watch?v=u3MEdNt-f80
+    channelName: Unity
+    description: "Download the game now and try it out -\n\niOS App Store: https://itunes.apple.com/us/app/trash-dash/id1198634425?mt=8\n\nGoogle
+      Play: https://play.google.com/store/apps/details?id=com.unity.trashdash&hl=en\n\nIf
+      you're a Unity user, grab the project folder itself here to learn about how
+      we made it from the source code -\n\nAsset Store: https://assetstore.unity.com/packages/essentials/tutorial-projects/endless-runner-sample-game-87901\n\nAt
+      Unity we often develop sample games to help you learn. This time around we
+      present 'Trash Dash' - an endless runner we've shipped to the iOS App Store
+      and Google Play stores, and we're sending funds from the Ads and In-App purchases
+      in the game to our partner charity, Game Changer.\n\nTo learn more about Trash
+      Dash, download the package from the Asset store link above having created a
+      new Empty project in Unity, and then visit our Learn website to find out more.
+      This project aims to teach you about In App Purchase, Ads, and the development
+      of a services oriented mobile game -\n\nLearn:\n https://unity3d.com/learn/tutorials/topics/mobile-touch/trash-dash-code-walkthrough?playlist=17138"
+    thumbUrls:
+    - https://i.ytimg.com/vi/u3MEdNt-f80/sddefault.jpg
+    - https://i.ytimg.com/vi/u3MEdNt-f80/mqdefault.jpg
+    - https://i.ytimg.com/vi/u3MEdNt-f80/maxresdefault.jpg
+    - https://i.ytimg.com/vi/u3MEdNt-f80/hqdefault.jpg
+    tags:
+    - unity
+    - endless runner
+    - kit
+    - sample
+    - game
+    - charity
+    - game changer
+    - ads
+    - in app purchase
+    - analytics
+    viewCount: 35323
+    likeCount: 587
+    dislikeCount: 18
+    commentCount: 51
+    durationInMinutes: 1
+    publishedAtDate: 636389419300000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 21
+    YouTubeDataAPI_Cooked: 1
+  - title: Unity 2020.1 is now available
+    url: https://www.youtube.com/watch?v=yYjqJvd8lQI
+    channelName: Unity
+    description: "This TECH release brings performance and workflow updates to innovative
+      creators. If your project is beyond the prototyping phase, we recommend you
+      use the latest Long-Term Support (LTS) version of Unity, Unity 2019 LTS. \n\nLearn
+      more: https://on.unity.com/2ZViI2a\nWhat's new in Unity 2020.1: https://on.unity.com/2WPMfrT"
+    thumbUrls:
+    - https://i.ytimg.com/vi/yYjqJvd8lQI/sddefault.jpg
+    - https://i.ytimg.com/vi/yYjqJvd8lQI/mqdefault.jpg
+    - https://i.ytimg.com/vi/yYjqJvd8lQI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/yYjqJvd8lQI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity 2020
+    - unity 2020 update
+    - unity 2020.1
+    - unity 2020 trailer
+    - unity 2020 changes
+    - unity 2020 download
+    - unity engine
+    - unity news
+    - unity 2020 news
+    - unity 2020.1 release
+    - unity 2020.1 available
+    - unity 2020 visual
+    - unity 2020 2d
+    - unity 2020 release
+    - unity 2020.1 download
+    - unity 2020.1 released
+    - unity 2020.1 tutorial
+    - unity2020.1
+    - unity 2020 roadmap
+    - unity 2020 game
+    - unity 2020 beta
+    viewCount: 362112
+    likeCount: 12547
+    dislikeCount: 186
+    commentCount: 1046
+    durationInMinutes: 2
+    publishedAtDate: 637311278780000000
+    publisdedDate:
+      year: 2020
+      month: 7
+      day: 23
+    YouTubeDataAPI_Cooked: 1
+  - title: UI Scrollbar - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=JpmQuLdLct4
+    channelName: Unity
+    description: 'Watch on the official Unity learn pages here -
+
+
+      Scrollbars
+      can be used to control scroll rects to navigate content in your UIs.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V67D/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/JpmQuLdLct4/sddefault.jpg
+    - https://i.ytimg.com/vi/JpmQuLdLct4/mqdefault.jpg
+    - https://i.ytimg.com/vi/JpmQuLdLct4/maxresdefault.jpg
+    - https://i.ytimg.com/vi/JpmQuLdLct4/hqdefault.jpg
+    tags:
+    - UI
+    - user interface
+    - scroll bar
+    - scrolling
+    - drag
+    - unity3d
+    - unity
+    viewCount: 54279
+    likeCount: 168
+    dislikeCount: 139
+    commentCount: 21
+    durationInMinutes: 5
+    publishedAtDate: 635441734280000000
+    publisdedDate:
+      year: 2014
+      month: 8
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Tutorial - Setting Up Cloud Build Online
+    url: https://www.youtube.com/watch?v=hg6NRJQwXIg
+    channelName: Unity
+    description: "Walkthrough.  Getting started with Unity Cloud Build.  \n\nFor
+      instructions on creating a source control repository, see https://unity3d.com/learn/tutorials/topics/cloud-build/creating-your-first-source-control-repository\n\nFor
+      instructions on getting started through Unity 5.3.5 or greater, see https://www.youtube.com/watch?v=DlCYvFJifls\n\nHelp
+      us caption & translate this video!\n\nhttp://amara.org/v/V6ZC/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/hg6NRJQwXIg/sddefault.jpg
+    - https://i.ytimg.com/vi/hg6NRJQwXIg/mqdefault.jpg
+    - https://i.ytimg.com/vi/hg6NRJQwXIg/hqdefault.jpg
+    tags:
+    - unity
+    - cloud build
+    viewCount: 21475
+    likeCount: 138
+    dislikeCount: 8
+    commentCount: 9
+    durationInMinutes: 7
+    publishedAtDate: 636081129490000000
+    publisdedDate:
+      year: 2016
+      month: 8
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Storytellers of Tomorrow - Tyler Hurd and Adam Rogers (Gentle Manhands)
+      on Chorus
+    url: https://www.youtube.com/watch?v=2KonqBswJtY
+    channelName: Unity
+    description: "As an Official Partner of the 2018 Sundance Film Festival, Unity
+      presents Storytellers of Tomorrow, a series of interviews with award-winning
+      VR/AR creators and filmmakers who are revolutionizing digital storytelling.
+      \n\nUnity welcomes VR creator Tyler Hurd (Gentleman Hands) and producer Adam
+      Rogers (Gentle Manhands) to discuss their Sundance New Frontier selection,
+      Chorus. Set to the song \"Chorus\" by Justice, this 6-person social VR experience
+      is full of crystals, lasers, monsters, and heroines.\n\nPresented by WITHIN
+      and Annapurna.\n\nhttps://unity3d.com/sff\n\n**Previous version of this video
+      had an incorrect attribution which is now fixed**"
+    thumbUrls:
+    - https://i.ytimg.com/vi/2KonqBswJtY/sddefault.jpg
+    - https://i.ytimg.com/vi/2KonqBswJtY/mqdefault.jpg
+    - https://i.ytimg.com/vi/2KonqBswJtY/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2KonqBswJtY/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Sundance
+    - Vr
+    viewCount: 7885
+    likeCount: 76
+    dislikeCount: 8
+    commentCount: 5
+    durationInMinutes: 1
+    publishedAtDate: 636529500000000000
+    publisdedDate:
+      year: 2018
+      month: 1
+      day: 30
+    YouTubeDataAPI_Cooked: 1
+  - title: Stealth game tutorial - 108 - Laser Grids - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=vffujZ0ICqM
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/projects/stealth/laser-grids
+
+
+      How
+      to create player responsive laser grids with control switches by using models,
+      trigger colliders, lights and scripting.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V6aa/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/vffujZ0ICqM/sddefault.jpg
+    - https://i.ytimg.com/vi/vffujZ0ICqM/mqdefault.jpg
+    - https://i.ytimg.com/vi/vffujZ0ICqM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/vffujZ0ICqM/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Tutorial (Industry)
+    - laser
+    - trigger
+    - gate
+    - grid
+    viewCount: 32273
+    likeCount: 95
+    dislikeCount: 0
+    commentCount: 36
+    durationInMinutes: 19
+    publishedAtDate: 635097633350000000
+    publisdedDate:
+      year: 2013
+      month: 7
+      day: 18
+    YouTubeDataAPI_Cooked: 1
+  - title: Stealth game tutorial - 103 - Alarm Lights - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=-9s4b9XHz_Y
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/projects/stealth/alarm-lights
+
+
+      How
+      to create the alarm lights in the game, and control fading via script.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V6bt/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/-9s4b9XHz_Y/sddefault.jpg
+    - https://i.ytimg.com/vi/-9s4b9XHz_Y/mqdefault.jpg
+    - https://i.ytimg.com/vi/-9s4b9XHz_Y/maxresdefault.jpg
+    - https://i.ytimg.com/vi/-9s4b9XHz_Y/hqdefault.jpg
+    tags:
+    - tutorial
+    - beginner
+    - editor
+    - unity
+    - unity3d
+    - unity (game engine)
+    - game engine software
+    - learn
+    - how to
+    - make video games
+    - stealth
+    - metal gear solid
+    - sneak
+    viewCount: 60937
+    likeCount: 150
+    dislikeCount: 3
+    commentCount: 33
+    durationInMinutes: 7
+    publishedAtDate: 635010565010000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Runtime NavMesh Generation - Setting NavMeshAgent Destination [4/6] Live
+      2017/7/26
+    url: https://www.youtube.com/watch?v=5VTnt2Ld4Qo
+    channelName: Unity
+    description: "Watch this video in context on the official Unity learn pages -\nhttp://www.unity3d.com/learn/tutorials/topics/navigation/setting-navmeshagent-destination\n\nIn
+      this live training session we will learn how to work with Unity\u2019s Navigation
+      tools at runtime. We will explore the publicly available Components for Runtime
+      NavMesh Building and look at how we can use the provided components to create
+      characters which can navigate dynamic environments and walk on arbitrarily
+      rotated surfaces, including enemies that walk on walls. In this session we
+      will learn how to write scripts to set and control the destination of a NavMeshAgent."
+    thumbUrls:
+    - https://i.ytimg.com/vi/5VTnt2Ld4Qo/sddefault.jpg
+    - https://i.ytimg.com/vi/5VTnt2Ld4Qo/mqdefault.jpg
+    - https://i.ytimg.com/vi/5VTnt2Ld4Qo/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5VTnt2Ld4Qo/hqdefault.jpg
+    tags:
+    - Unity
+    - unity3d
+    - navigation
+    - nav mesh
+    - navmesh
+    - navmeshsurface
+    - navmeshlink
+    - navmeshagent
+    - procedural
+    - proc gen
+    - runtime navmesh
+    - procedural navigation
+    - runtime
+    - generation
+    viewCount: 9291
+    likeCount: 54
+    dislikeCount: 6
+    commentCount: 4
+    durationInMinutes: 9
+    publishedAtDate: 636373059620000000
+    publisdedDate:
+      year: 2017
+      month: 8
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: Realistic Shadows in Unity with HDRP! (Tutorial)
+    url: https://www.youtube.com/watch?v=N_TeKoMC3hg
+    channelName: Unity
+    description: "Let\u2019s take a look at how we can control shadows in the High
+      Definition Render Pipeline, to customize the shadows as we see fit for our
+      game in Unity!\n\nLearn more about shadows in HDRP: https://on.unity.com/2WPbkCo"
+    thumbUrls:
+    - https://i.ytimg.com/vi/N_TeKoMC3hg/sddefault.jpg
+    - https://i.ytimg.com/vi/N_TeKoMC3hg/mqdefault.jpg
+    - https://i.ytimg.com/vi/N_TeKoMC3hg/maxresdefault.jpg
+    - https://i.ytimg.com/vi/N_TeKoMC3hg/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - Unity shadows
+    - Unity shadows tutorial
+    - Unity hdrp shadows
+    - Unity hdrp tutorials
+    - Unity learn hdrp
+    - Unity gamedev
+    - Unity indiedev
+    - Gamedev
+    - Indiedev
+    - Unity hdrp
+    - High definition render pipeline unity
+    - High definition render pipeline
+    - Gamedev unity
+    - Making a game in unity
+    - Making a game with unity
+    - Unity graphics tutorial
+    - Unity graphics
+    - Unity graphics 2020
+    - Unity graphics 2019.3
+    viewCount: 30717
+    likeCount: 767
+    dislikeCount: 24
+    commentCount: 392
+    durationInMinutes: 7
+    publishedAtDate: 637251034960000000
+    publisdedDate:
+      year: 2020
+      month: 5
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: Physic Materials - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=SuUNnwswH94
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/physics/physic-materials
+
+
+      How
+      to use Physic Materials to control the surface friction of your dynamic game
+      objects.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6cG/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/SuUNnwswH94/sddefault.jpg
+    - https://i.ytimg.com/vi/SuUNnwswH94/mqdefault.jpg
+    - https://i.ytimg.com/vi/SuUNnwswH94/maxresdefault.jpg
+    - https://i.ytimg.com/vi/SuUNnwswH94/hqdefault.jpg
+    tags:
+    - tutorial
+    - beginner
+    - editor
+    - unity
+    - unity3d
+    - unity (game engine)
+    - game engine software
+    - learn
+    - how to
+    - make video games
+    - physic material
+    - surface
+    - friction
+    viewCount: 77621
+    likeCount: 326
+    dislikeCount: 4
+    commentCount: 16
+    durationInMinutes: 2
+    publishedAtDate: 635010461530000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Penelope Tutorial Preview
+    url: https://www.youtube.com/watch?v=RW5W-pZdIng
+    channelName: Unity
+    description: 'Penelope is a game from Unity Technologies. Penelope was developed
+      for the iPhone using the Unity engine. The tutorial will demonstrate multiple
+      control schemes which can be done using the iphone''s touch screen. The source
+      code and a tutorial document explaining how to make the game will be available
+      soon at unity3d.com
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V6dH/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/RW5W-pZdIng/mqdefault.jpg
+    - https://i.ytimg.com/vi/RW5W-pZdIng/hqdefault.jpg
+    tags:
+    - unity
+    - iphone
+    - penelope
+    viewCount: 8646
+    likeCount: 35
+    dislikeCount: 2
+    commentCount: 3
+    durationInMinutes: 4
+    publishedAtDate: 633853038670000000
+    publisdedDate:
+      year: 2009
+      month: 8
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Materials - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=IFlXvDZezBQ
+    channelName: Unity
+    description: 'Watch this video in context on Unity''s learning pages here -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/graphics/materials
+
+
+      How
+      to control the visual appearance of gameobjects by assigning materials to control
+      shaders, colours and textures on a renderer.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V6cA/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/IFlXvDZezBQ/sddefault.jpg
+    - https://i.ytimg.com/vi/IFlXvDZezBQ/mqdefault.jpg
+    - https://i.ytimg.com/vi/IFlXvDZezBQ/maxresdefault.jpg
+    - https://i.ytimg.com/vi/IFlXvDZezBQ/hqdefault.jpg
+    tags:
+    - tutorial
+    - beginner
+    - editor
+    - unity
+    - unity3d
+    - unity (game engine)
+    - game engine software
+    - learn
+    - how to
+    - make video games
+    - material
+    - colour
+    - texture
+    - shader
+    viewCount: 188690
+    likeCount: 618
+    dislikeCount: 39
+    commentCount: 30
+    durationInMinutes: 4
+    publishedAtDate: 635010480790000000
+    publisdedDate:
+      year: 2013
+      month: 4
+      day: 8
+    YouTubeDataAPI_Cooked: 1
+  - title: Live Training 29th February 2016 - Intro to Shooter Mechanics
+    url: https://www.youtube.com/watch?v=dXUs2LDlG0o
+    channelName: Unity
+    description: 'Watch this video in context on the official Unity learn pages -
+
+
+      http://www.unity3d.com/learn/tutorials/topics/scripting/intro-shooter-mechanics
+
+      In
+      this live training we''ll look at some common game mechanics in shooting games
+      including raycasting, physics projectiles and a simple health script. This
+      is the second version of this training which is updated and replaces the training
+      on 2/24/16
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V60a/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/dXUs2LDlG0o/sddefault.jpg
+    - https://i.ytimg.com/vi/dXUs2LDlG0o/mqdefault.jpg
+    - https://i.ytimg.com/vi/dXUs2LDlG0o/maxresdefault.jpg
+    - https://i.ytimg.com/vi/dXUs2LDlG0o/hqdefault.jpg
+    tags:
+    - unity
+    - unity3d
+    - tutorial
+    - shooter
+    - shooting
+    - shoot
+    - fps
+    - firstperson
+    - raycast
+    - projectile
+    - gun
+    - bullet
+    - grenade
+    - hit scan
+    - live training
+    viewCount: 32754
+    likeCount: 340
+    dislikeCount: 5
+    commentCount: 40
+    durationInMinutes: 62
+    publishedAtDate: 635924775940000000
+    publisdedDate:
+      year: 2016
+      month: 3
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: "Incremental Garbage Collection in Unity 2019 \u2013 Overview"
+    url: https://www.youtube.com/watch?v=5Fks2NArDc0
+    channelName: Unity
+    description: "Learn more about Incremental Garbage Collection: https://ole.unity.com/IncrementalGC\n\nCheck
+      out Performance Tools on the Asset Store: https://ole.unity.com/performance-tools\n\nCheck
+      out our webpage for courses: https://ole.unity.com/unitycourses\n\nThe C# language
+      uses managed memory with automated garbage collection, meaning that it uses
+      an automatic method of tracking objects in memory and releasing the memory
+      of any object which is no longer needed (See our documentation for more info).
+      \n\nThe benefit of this is that you generally don\u2019t need to manually keep
+      track of releasing any memory which you don\u2019t need anymore because the
+      garbage collector will automatically do that for you, which makes your work
+      easier and also removes a big source of potential bugs. The downside is that
+      the garbage collector takes some time to do its work, and this may happen in
+      moments when you would rather not want to spend time on this.\n\nUnity uses
+      the Boehm\u2013Demers\u2013Weiser garbage collector which is a stop-the-world
+      garbage collector, meaning that whenever it needs to perform garbage collection,
+      it will stop the running program, and only resume normal execution once it
+      has finished all its work. This can cause delays in the execution of the program
+      at somewhat arbitrary moments, which can take anywhere between less than 1
+      and several 100 milliseconds, depending on how much memory the garbage collector
+      needs to process and on the platform the program is running on. \n\nNow, obviously,
+      for real-time applications like games, this can become quite a big issue, as
+      it isn\u2019t possible to sustain a consistent frame rate as required for smooth
+      animation if the program\u2019s execution can be arbitrarily suspended by the
+      garbage collector. These interruptions are also known as GC spikes, as they
+      will show as spikes in an otherwise smooth profiler frame time graph. Usually,
+      developers try to work around this issue by writing their code to avoid creating
+      \u201Cgarbage\u201D memory while running the game, so the garbage collector
+      has less work to do \u2013 but this isn\u2019t always possible or easy.\n\nEnter
+      Incremental Garbage Collection. With Incremental GC, we still use the same
+      Boehm\u2013Demers\u2013Weiser GC, but we run it in an incremental mode, which
+      allows it to split its work into multiple slices. So instead of having a single
+      long interruption of your program\u2019s execution to allow the GC to do its
+      work, you can have multiple, much shorter interruptions. While this will not
+      make the GC faster overall, it can significantly reduce the problem of GC spikes
+      breaking the smoothness of the animation by distributing the workload over
+      multiple frames."
+    thumbUrls:
+    - https://i.ytimg.com/vi/5Fks2NArDc0/sddefault.jpg
+    - https://i.ytimg.com/vi/5Fks2NArDc0/mqdefault.jpg
+    - https://i.ytimg.com/vi/5Fks2NArDc0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/5Fks2NArDc0/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity incremental garbage collection
+    - unity incremental garbage collector
+    - incremental garbage collection
+    - incremental garbage collector
+    - unity garbage collection
+    - unity garbage collector
+    - unity performance
+    - unity 2019
+    - unity2019
+    - unity 2019.1
+    - realtime
+    - real-time
+    - unity fps sample
+    - unity fps
+    - fps sample
+    - fps sample unity
+    - unity make a game
+    - unity graphics
+    - unity easy
+    - easy
+    viewCount: 34220
+    likeCount: 855
+    dislikeCount: 11
+    commentCount: 38
+    durationInMinutes: 4
+    publishedAtDate: 636912522500000000
+    publisdedDate:
+      year: 2019
+      month: 4
+      day: 19
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting Started with the FPS Sample! - Unity 2018.3
+    url: https://www.youtube.com/watch?v=_ACMu0ElUpc
+    channelName: Unity
+    description: "Get the FPS Sample here: https://ole.unity.com/fps-sample\n\nThe
+      FPS Sample is a multiplayer first-person shooter game project made by Unity.
+      Use it to learn about the latest features in Unity, extract and use the parts
+      you need or use the full project as a starting point for your own games.\n\nIn
+      this webinar we will introduce the FPS Sample, a multiplayer First-Person Shooter
+      game project.\n\nOur lead developer will walk you through the project which
+      includes everything from source code and artwork assets to sounds effects.\n\nWe
+      will show you and demonstrate a few of the features including the new transport
+      layer used in the netcode.\n\nAt the end of this webinar you will know how
+      to get the FPS Sample up and running on your own machine, be able to identify,
+      explore and extract assets relevant to your own projects.\n\nThe FPS Sample
+      is intended as a source of inspiration and learning for intermediate and experienced
+      developers using Unity 2018.3 or Unity 2018.4 LTS releases. It\u2019s using
+      experimental tech. Please note that the project is not supported and we highly
+      recommend upgrading to latest packages if you wish to use parts of the project
+      as a starting point for your own.\n\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oLF9/"
+    thumbUrls:
+    - https://i.ytimg.com/vi/_ACMu0ElUpc/sddefault.jpg
+    - https://i.ytimg.com/vi/_ACMu0ElUpc/mqdefault.jpg
+    - https://i.ytimg.com/vi/_ACMu0ElUpc/maxresdefault.jpg
+    - https://i.ytimg.com/vi/_ACMu0ElUpc/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity fps sample
+    - unity 2018 fps sample
+    - unity 2019 fps sample
+    - unity fps sample tutorial
+    - unity fps sample getting started
+    - unity getting started with fps sample
+    - fps sample
+    - unity 2019
+    - unity 2019.1
+    - unity 2019 graphics
+    - unity 2018 graphics
+    - unity3d
+    - unity 2018.3
+    - unity graphics
+    - unity hdrp
+    - unity tech demo
+    - unity demo
+    - unity sample
+    - sample game
+    - gamedev
+    - indiedev
+    - 3D
+    - unity fps
+    viewCount: 34420
+    likeCount: 500
+    dislikeCount: 21
+    commentCount: 65
+    durationInMinutes: 64
+    publishedAtDate: 636870620970000000
+    publisdedDate:
+      year: 2019
+      month: 3
+      day: 1
+    YouTubeDataAPI_Cooked: 1
+  - title: Getting Started with Editor Scripting in Unity! | Tutorial
+    url: https://www.youtube.com/watch?v=mTjYA3gC1hA
+    channelName: Unity
+    description: "In this video, we are walking you through the basics of creating
+      Property Drawers and Editor Windows using UI Toolkit. \n\n\U0001F30F Check
+      out our Docs to learn more about UI Toolkit:\nhttps://on.unity.com/3kR2LC6\n\n\U0001F30F
+      Learn more about Editor Scripting using IMGUI here:\nhttps://on.unity.com/3oZ3oMq\n\n\U0001F30F
+      Download Unity Royale here:\nhttps://on.unity.com/3jXV9fX\n\nChapters:\n00:00
+      Intro\n00:40 UI Toolkit (formerly known as UI Elements)\n01:28 Creating a custom
+      Property Drawer\n03:40 Creating an Editor Window with UI Toolkit\n05:37 Defining
+      Structure with a UI Document\n07:45 Testing Styling with the Debugger\n08:55
+      Defining Styles using the Unity Style Sheet\n09:46 Creating a List View\n\nUnity
+      version used: 2020.1"
+    thumbUrls:
+    - https://i.ytimg.com/vi/mTjYA3gC1hA/sddefault.jpg
+    - https://i.ytimg.com/vi/mTjYA3gC1hA/mqdefault.jpg
+    - https://i.ytimg.com/vi/mTjYA3gC1hA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/mTjYA3gC1hA/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - editor scripting
+    - programming
+    - programming unity
+    - programmer tools unity
+    - custom editor unity
+    - property drawer unity
+    - editor window unity
+    - editor scripting tutorial
+    viewCount: 21901
+    likeCount: 732
+    dislikeCount: 25
+    commentCount: 79
+    durationInMinutes: 13
+    publishedAtDate: 637399458030000000
+    publisdedDate:
+      year: 2020
+      month: 11
+      day: 2
+    YouTubeDataAPI_Cooked: 1
+  - title: "Fast C# Scripting in Unity with JetBrains Rider! \u2013 Overview"
+    url: https://www.youtube.com/watch?v=2CvSoo0hlWI
+    channelName: Unity
+    description: "Check out JetBrains Rider here: https://ole.unity.com/JetBrainsRider\n\nJetBrains
+      Rider is a powerful IDE for developing Unity/C# games. Do you find yourself
+      frequently switching between the Unity editor and your C# code? In Rider you\u2019ll
+      get play-mode controls, a log viewer, the Unity explorer, and a test runner
+      right at your fingertips while working with your game code! Rider runs on Windows,
+      MacOS and Linux! \n\nRider lets you write error-proof code with 2500+ live
+      code inspections, while also having an eye on possible performance pitfalls,
+      like calling GetComponent/Find during Update or using string-based invocations.
+      Over 1000 quick-fixes and 50+ global refactorings allow you to improve your
+      code and keep it working with confidence. Shared settings allow to easily establish
+      a common code style across your team. \n\nThe integrated debugger is second
+      to none. Step through any external code as if it was yours - even Unity engine
+      code! Use dependent breakpoints, hit counts, tracing points, breakpoint conditions
+      and more to master complex execution scenarios and threading issues. \n\nAs
+      all IDEs from JetBrains, Rider comes with superior code navigation, integrated
+      version control including support for GIT LFS and Perforce, local history to
+      never lose sketched work, and database tooling."
+    thumbUrls:
+    - https://i.ytimg.com/vi/2CvSoo0hlWI/sddefault.jpg
+    - https://i.ytimg.com/vi/2CvSoo0hlWI/mqdefault.jpg
+    - https://i.ytimg.com/vi/2CvSoo0hlWI/maxresdefault.jpg
+    - https://i.ytimg.com/vi/2CvSoo0hlWI/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity jet brains
+    - unity jet brains rider
+    - unity rider
+    - unity ide
+    - unity c#
+    - unity coding
+    - unity programming
+    - unity coding tutorial
+    - unity code
+    - unity 2019.1
+    - unity 2019.2
+    - unity 2018.3
+    - unity jetbrains
+    - unity rider app
+    - unity asset
+    - unity assets
+    - 3D
+    - jetbrains
+    - unity jetbrains rider
+    - jetbrains rider
+    - jetbrains rider getting started
+    - jetbrains rider tutorial
+    - jetbrains rider unitty
+    - unity
+    - game
+    viewCount: 25705
+    likeCount: 748
+    dislikeCount: 42
+    commentCount: 228
+    durationInMinutes: 28
+    publishedAtDate: 637014743440000000
+    publisdedDate:
+      year: 2019
+      month: 8
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: C# Properties in Unity! - Intermediate Scripting Tutorial
+    url: https://www.youtube.com/watch?v=HzIqrlSbjjU
+    channelName: Unity
+    description: 'Watch this video in context on Unity Learn:
+
+      https://learn.unity.com/tutorial/creating-properties
+
+
+      Properties
+      allow you to access the member variables of a class in code that exists outside
+      of the class. Furthermore, this access has a greater level of security and
+      control then public variables could allow. In this video, you will learn how
+      to create properties in a class and use them externally.'
+    thumbUrls:
+    - https://i.ytimg.com/vi/HzIqrlSbjjU/sddefault.jpg
+    - https://i.ytimg.com/vi/HzIqrlSbjjU/mqdefault.jpg
+    - https://i.ytimg.com/vi/HzIqrlSbjjU/maxresdefault.jpg
+    - https://i.ytimg.com/vi/HzIqrlSbjjU/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity
+    - unity basics
+    - unity beginner
+    - unity for beginners
+    - unity beginner tutorials
+    - unity c# basics
+    - unity C#
+    - unity C# tutorial
+    - unity C# tutorials
+    - unity C# starting
+    - unity beginner tips
+    - uniity 2019 tutorial
+    - unity microsoft
+    - unity visual studio
+    - unity visual code
+    - unity scripting tutorials
+    - unity scripting tutorial
+    - scripting tutorial
+    - unity C# beginner tutorial
+    - unity 2019 c#
+    viewCount: 70424
+    likeCount: 869
+    dislikeCount: 17
+    commentCount: 88
+    durationInMinutes: 4
+    publishedAtDate: 636988101650000000
+    publisdedDate:
+      year: 2019
+      month: 7
+      day: 15
+    YouTubeDataAPI_Cooked: 1
+  - title: Building your Customizable Boss for the FPS Microgame in Unity! (Tutorial)
+    url: https://www.youtube.com/watch?v=eFYBYNMWibs
+    channelName: Unity
+    description: "In this video, we\u2019re going to build the Customizable Boss
+      for our FPS Microgame! We will add detection, navigation, weapons, and see
+      how we can quickly put together a unique enemy.\n\nDownload the FPS Microgame
+      here: https://ole.unity.com/FPSMicrogame\nPurchase the Customizable Boss here:
+      https://ole.unity.com/Robot\nFollow the text version of this tutorial here:
+      https://ole.unity.com/RobotTutorial\nImport and animate a custom image on the
+      TV screen of your Customizable boss: https://ole.unity.com/AddAFace"
+    thumbUrls:
+    - https://i.ytimg.com/vi/eFYBYNMWibs/sddefault.jpg
+    - https://i.ytimg.com/vi/eFYBYNMWibs/mqdefault.jpg
+    - https://i.ytimg.com/vi/eFYBYNMWibs/maxresdefault.jpg
+    - https://i.ytimg.com/vi/eFYBYNMWibs/hqdefault.jpg
+    tags:
+    - Unity3d
+    - Unity
+    - Unity Technologies
+    - Games
+    - Game Development
+    - Game Dev
+    - Game Engine
+    - unity microgame
+    - unity microgames
+    - unity fps
+    - make an fps in unity
+    - make an fps game in unity
+    - make an fps game with unity
+    - making fps game in unity
+    - unity 2019
+    - unity 2020
+    - gamedev
+    - indiedev
+    - unity2019
+    - making a game in unity
+    - making a game
+    - unity
+    - enemy boss
+    - unity enemy
+    - unity boss
+    - unity enemy boss
+    - unity enemy tutorial
+    - unity robot
+    viewCount: 23864
+    likeCount: 523
+    dislikeCount: 34
+    commentCount: 54
+    durationInMinutes: 6
+    publishedAtDate: 637188598260000000
+    publisdedDate:
+      year: 2020
+      month: 3
+      day: 3
+    YouTubeDataAPI_Cooked: 1
+  - title: AudioMixer Exposed Parameters - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=9tqi1aXlcpE
+    channelName: Unity
+    description: 'Watch on the official Unity learn pages here -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/5-pre-order-beta/exposed-audiomixer-parameters
+
+
+      In
+      Unity it''s possible to control the parameters of an AudioMixer directly by
+      exposing them to script control. Parameters that have been exposed to script
+      control can be set using the SetFloat function.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V65f/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/9tqi1aXlcpE/sddefault.jpg
+    - https://i.ytimg.com/vi/9tqi1aXlcpE/mqdefault.jpg
+    - https://i.ytimg.com/vi/9tqi1aXlcpE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/9tqi1aXlcpE/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - exposed parameter
+    - setfloat
+    - clearfloat
+    - Tutorial (Media Genre)
+    - unity3d
+    - sound
+    - audio
+    - audio sources
+    - fmod
+    viewCount: 24839
+    likeCount: 244
+    dislikeCount: 12
+    commentCount: 28
+    durationInMinutes: 5
+    publishedAtDate: 635500133080000000
+    publisdedDate:
+      year: 2014
+      month: 10
+      day: 27
+    YouTubeDataAPI_Cooked: 1
+  - title: Audio Mixer and Audio Mixer Groups - Unity Official Tutorials
+    url: https://www.youtube.com/watch?v=vOaQp2x-io0
+    channelName: Unity
+    description: 'Watch on the official Unity learn pages here -
+
+      http://unity3d.com/learn/tutorials/modules/beginner/5-pre-order-beta/audiomixer-and-audiomixer-groups
+
+
+      AudioMixers
+      allow us to control the signal flow of audio sources in a Unity project. Using
+      an AudioMixer one can change volume levels, route signals into groups and process
+      sounds with audio effects. In this lesson we''ll cover the basics of creating
+      and configuring AudioMixers including assigning audio sources to groups, routing
+      groups into one another and routing AudioMixers into other audio mixers.
+
+
+      Help
+      us caption & translate this video!
+
+
+      http://amara.org/v/V65k/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/vOaQp2x-io0/sddefault.jpg
+    - https://i.ytimg.com/vi/vOaQp2x-io0/mqdefault.jpg
+    - https://i.ytimg.com/vi/vOaQp2x-io0/maxresdefault.jpg
+    - https://i.ytimg.com/vi/vOaQp2x-io0/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - unity3d
+    - Tutorial (Media Genre)
+    - audiomixer
+    - group
+    viewCount: 73156
+    likeCount: 713
+    dislikeCount: 6
+    commentCount: 30
+    durationInMinutes: 12
+    publishedAtDate: 635500133080000000
+    publisdedDate:
+      year: 2014
+      month: 10
+      day: 27
+    YouTubeDataAPI_Cooked: 1

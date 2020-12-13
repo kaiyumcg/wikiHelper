@@ -1,0 +1,16 @@
+
+^Git-
+
+film-
+Film-
+
+Shader,compute shader,shader graph,Cluster Rendering
+HDRP,URP,LWRP,SRP
+graphics,3D Texturing,D3D12,AAA,lighting,hair,^Allegorithmic
+lightmap,baking,bake,Terrain,vegetation,material,delighting,forward rendering
+deferred rendering,de-lighting,directx,drawcall,enlighten,realistic,environment light
+Shadow,vegetation,tree,^GI,^Illumination,heightmap,lightweight,octanerender,octane
+^PBR,physically based,render,pathtracing,photogrammetry,photorealism,shading,ray-tracing
+reflection,refraction,rendertexture,speedtree,ssao,ssrr,tesselation,toon,GPU,occlusion culling
+Camera,
+rendering,command buffer,Lighting

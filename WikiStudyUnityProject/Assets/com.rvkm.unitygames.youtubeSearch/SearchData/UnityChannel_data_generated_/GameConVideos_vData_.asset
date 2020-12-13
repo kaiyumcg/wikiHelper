@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2276dc758bedce14ab31692bf321cce4, type: 3}
+  m_Name: GameConVideos_vData_
+  m_EditorClassIdentifier: 
+  searchName: UnityChannel
+  belongedCategory: GameConVideos
+  allVideos:
+  - title: Game Connection Paris - Swing Swing Submarine on Modern 2D Techniques
+    url: https://www.youtube.com/watch?v=bUGbXThraVM
+    channelName: Unity
+    description: 'Benoit Fouletier and Guillaume Martin, programmers at Swing Swing
+      Submarine, show some techniques for creating graphically ambitious 2D teams
+      in Unity with a small team.
+
+
+      Help us caption & translate this video!
+
+
+      http://amara.org/v/V65N/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/bUGbXThraVM/sddefault.jpg
+    - https://i.ytimg.com/vi/bUGbXThraVM/mqdefault.jpg
+    - https://i.ytimg.com/vi/bUGbXThraVM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/bUGbXThraVM/hqdefault.jpg
+    tags:
+    - Game Connection (Conference Series)
+    - Unity (Software)
+    - Swing Swing Submarine
+    - 2D Game Development
+    - Unity2d
+    viewCount: 4314
+    likeCount: 89
+    dislikeCount: 1
+    commentCount: 4
+    durationInMinutes: 48
+    publishedAtDate: 635525524080000000
+    publisdedDate:
+      year: 2014
+      month: 11
+      day: 25
+    YouTubeDataAPI_Cooked: 1
+  - title: Game Connection Paris - Mathieu Muller on New Unity Features Seen Through
+      the Profiler
+    url: https://www.youtube.com/watch?v=du6XW0icO5Q
+    channelName: Unity
+    description: 'Unity''s Field Engineer Mathieu Muller about Unity 4.6 and Unity
+      5 features and their impact on performance.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V65S/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/du6XW0icO5Q/sddefault.jpg
+    - https://i.ytimg.com/vi/du6XW0icO5Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/du6XW0icO5Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/du6XW0icO5Q/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Unity 5
+    - Game Connection (Conference Series)
+    - Unity 4.6
+    - Video Game Development (Conference Subject)
+    viewCount: 3323
+    likeCount: 37
+    dislikeCount: 4
+    commentCount: 5
+    durationInMinutes: 45
+    publishedAtDate: 635521189030000000
+    publisdedDate:
+      year: 2014
+      month: 11
+      day: 20
+    YouTubeDataAPI_Cooked: 1
+  - title: Game Connection Paris - Emil Johansen on Practical AI in Unity
+    url: https://www.youtube.com/watch?v=INFwX3WRIyA
+    channelName: Unity
+    description: 'Emil Johansen ("AngryAnt") talks about Behaviour Logic in Unity
+      and other related artificial intelligence topics.
+
+
+      Help us caption &
+      translate this video!
+
+
+      http://amara.org/v/V65P/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/INFwX3WRIyA/sddefault.jpg
+    - https://i.ytimg.com/vi/INFwX3WRIyA/mqdefault.jpg
+    - https://i.ytimg.com/vi/INFwX3WRIyA/maxresdefault.jpg
+    - https://i.ytimg.com/vi/INFwX3WRIyA/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Artificial Intelligence (Industry)
+    - Game Connection
+    viewCount: 2589
+    likeCount: 30
+    dislikeCount: 1
+    commentCount: 6
+    durationInMinutes: 37
+    publishedAtDate: 635527307020000000
+    publisdedDate:
+      year: 2014
+      month: 11
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Game Connection Paris - Andy Touch on Unity's New UI System
+    url: https://www.youtube.com/watch?v=_ET6kQJ22HM
+    channelName: Unity
+    description: 'Product Evangelist Andy Touch presents a hands-on guide to Unity''s
+      new UI system at Game Connection Paris 2014.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V65T/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/_ET6kQJ22HM/sddefault.jpg
+    - https://i.ytimg.com/vi/_ET6kQJ22HM/mqdefault.jpg
+    - https://i.ytimg.com/vi/_ET6kQJ22HM/maxresdefault.jpg
+    - https://i.ytimg.com/vi/_ET6kQJ22HM/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - User Interface (Speech Topic)
+    - Video Game (Industry)
+    - Unity 4.6
+    viewCount: 4732
+    likeCount: 51
+    dislikeCount: 3
+    commentCount: 6
+    durationInMinutes: 52
+    publishedAtDate: 635527306350000000
+    publisdedDate:
+      year: 2014
+      month: 11
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Game Connection - Oscar Clark on Everyplay
+    url: https://www.youtube.com/watch?v=Fnn8OLalP00
+    channelName: Unity
+    description: 'Oscar Clark (Everyplay Evangelist, Unity) on how and why you should
+      use Everyplay, from Game Connection Paris 2014.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V65O/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/Fnn8OLalP00/sddefault.jpg
+    - https://i.ytimg.com/vi/Fnn8OLalP00/mqdefault.jpg
+    - https://i.ytimg.com/vi/Fnn8OLalP00/maxresdefault.jpg
+    - https://i.ytimg.com/vi/Fnn8OLalP00/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Everyplay
+    - Game Connection (Conference Series)
+    viewCount: 1740
+    likeCount: 21
+    dislikeCount: 5
+    commentCount: 3
+    durationInMinutes: 27
+    publishedAtDate: 635527306730000000
+    publisdedDate:
+      year: 2014
+      month: 11
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Game Connection - Cedric Guiard on Animated Digital Doubles in Unity
+    url: https://www.youtube.com/watch?v=gkWr-f2-B3Q
+    channelName: Unity
+    description: 'Cedric Guiard (CEO of EISKO) explains the process of creating a
+      digital double and animating it in Unity.
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V65R/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/gkWr-f2-B3Q/sddefault.jpg
+    - https://i.ytimg.com/vi/gkWr-f2-B3Q/mqdefault.jpg
+    - https://i.ytimg.com/vi/gkWr-f2-B3Q/maxresdefault.jpg
+    - https://i.ytimg.com/vi/gkWr-f2-B3Q/hqdefault.jpg
+    tags:
+    - Unity (Software)
+    - Digital Doubles
+    - Unity 5
+    - Video Game Development (Conference Subject)
+    viewCount: 7553
+    likeCount: 67
+    dislikeCount: 8
+    commentCount: 9
+    durationInMinutes: 38
+    publishedAtDate: 635527307430000000
+    publisdedDate:
+      year: 2014
+      month: 11
+      day: 28
+    YouTubeDataAPI_Cooked: 1
+  - title: Festival of Magic GDC 2013 Pre Alpha Showcase
+    url: https://www.youtube.com/watch?v=3N3iePs-DSE
+    channelName: Unity
+    description: 'Festival of Magic GDC and Game Connection 2013 pre alpha showcase.
+      New monsters, characters, music and more!
+
+
+      Help us caption & translate
+      this video!
+
+
+      http://amara.org/v/V6bK/'
+    thumbUrls:
+    - https://i.ytimg.com/vi/3N3iePs-DSE/sddefault.jpg
+    - https://i.ytimg.com/vi/3N3iePs-DSE/mqdefault.jpg
+    - https://i.ytimg.com/vi/3N3iePs-DSE/maxresdefault.jpg
+    - https://i.ytimg.com/vi/3N3iePs-DSE/hqdefault.jpg
+    tags:
+    - festival of magic
+    - made with unity
+    - demo
+    - trailer
+    - unity3d
+    - game development
+    viewCount: 10822
+    likeCount: 107
+    dislikeCount: 6
+    commentCount: 20
+    durationInMinutes: 2
+    publishedAtDate: 635057170560000000
+    publisdedDate:
+      year: 2013
+      month: 6
+      day: 1
+    YouTubeDataAPI_Cooked: 1

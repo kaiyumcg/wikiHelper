@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace com.rvkm.unitygames.YouTubeSearch
 {
-    [CreateAssetMenu(fileName = "New Youtube Category Data", menuName = "Kaiyum/Youtube Caregory Data(V3 API powered)", order = 1)]
+    [CreateAssetMenu(fileName = "New Youtube Category Data", menuName = "Kaiyum/Youtube Caregory Data(V3 API powered)", order = 2)]
     public class YoutubeCategory : ScriptableObject
     {
         public string categoryName;
@@ -27,32 +27,35 @@ namespace com.rvkm.unitygames.YouTubeSearch
         public CategoryHtmlPrintDesc htmlPrintOptions;
         public bool IsSatisfiedByVideo(YoutubeVideo video)
         {
-            bool titlePass = false;
-            if (categoryName == "Graphics" && video.title.Contains("Film"))
-            {
-                titlePass = titleOp.IsPassed(video.title);
-            }
-            else
-            {
-                titlePass = titleOp.IsPassed(video.title);
-            }
-            //bool titlePass = titleOp.IsPassed(video.title);
-            bool descPass = descriptionOp.IsPassed(video.description);
-            bool tagsPass = tagOp.IsPassed(video.tags);
+            bool titleWhitelistFail, titleBlacklistFail, descriptionWhitelistFail,
+                descriptionBlacklistFail, tagWhitelistFail, tagBlacklistFail;
+            titleWhitelistFail = titleBlacklistFail = descriptionWhitelistFail = descriptionBlacklistFail
+                = tagWhitelistFail = tagBlacklistFail = false;
+            bool titlePass = titleOp.IsPassed(video.title, ref titleBlacklistFail, ref titleWhitelistFail);
+            bool descPass = descriptionOp.IsPassed(video.description, ref descriptionBlacklistFail, ref descriptionWhitelistFail);
+            bool tagsPass = tagOp.IsPassed(video.tags, ref tagBlacklistFail, ref tagWhitelistFail);
             bool viewCountPass = viewCountOp.IsPassed(video.viewCount);
             bool likeCountPass = likeCountOp.IsPassed(video.likeCount);
             bool dislikeCountPass = dislikeCountOp.IsPassed(video.dislikeCount);
             bool commentCountPass = commentCountOp.IsPassed(video.commentCount);
             bool durationPass = durationOp.IsPassed(video.durationInMinutes);
-            //if (video.durationInMinutes > 2)
-            //{
-            //    Debug.Log("bag valluk!");
-            //}
             bool pubDatePass = pubDateOp.IsPassed(video.publishedAtDate);
-            //Debug.Log("titlePass? " + titlePass + " and descPass? " + descPass + " and tagsPass? " + tagsPass + " and viewCountPass? " + viewCountPass +
-            //    " and likeCountPass? " + likeCountPass + " and dislikeCountPass? " + dislikeCountPass + " and commentCountPass? " + commentCountPass +
-            //    " and durationPass? " + durationPass + " and pubDatePass? " + pubDatePass);
-            return titlePass && descPass && tagsPass && viewCountPass && likeCountPass && dislikeCountPass && commentCountPass && durationPass && pubDatePass;
+            bool isAnyPass = false;
+            if (titleOp.use && titlePass) { isAnyPass = true; }
+            if (descriptionOp.use && descPass) { isAnyPass = true; }
+            if (tagOp.use && tagsPass) { isAnyPass = true; }
+            if (viewCountOp.use && viewCountPass) { isAnyPass = true; }
+            if (likeCountOp.use && likeCountPass) { isAnyPass = true; }
+            if (dislikeCountOp.use && dislikeCountPass) { isAnyPass = true; }
+            if (commentCountOp.use && commentCountPass) { isAnyPass = true; }
+            if (durationOp.use && durationPass) { isAnyPass = true; }
+            if (pubDateOp.use && pubDatePass) { isAnyPass = true; }
+            if (titleWhitelistFail || titleBlacklistFail || descriptionWhitelistFail || descriptionBlacklistFail
+                || tagWhitelistFail || tagBlacklistFail)
+            {
+                isAnyPass = false;
+            }
+            return isAnyPass;
         }
 
         public void UpdateStat()

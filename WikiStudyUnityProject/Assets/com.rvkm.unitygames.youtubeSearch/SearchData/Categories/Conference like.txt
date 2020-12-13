@@ -1,0 +1,57 @@
+^GDC
+conference
+^EEE
+Unite
+connect
+"Game Connection"
+^Siggraph
+Keynote
+Roadmap
+Vision
+jam
+hangout,"hang out"
+"Live Training",Livestream,Live
+Tutorial,Tutorials
+Challenge
+
+Trailer
+Highlights
+Course,Courses
+"Developer Profile"
+Interview
+"Showcase"
+"*now available"
+"*New Features"
+"release cycle"
+*reel
+*Feature
+^AEC,^CAD,^VR,^AR,^XR
+*shader
+^HDRP,^URP,^SRP,^RP,^LWRP,*Render,^VFX,^GPU,Directx,*Lighting,*textur
+*Timeline,*Cinemachine
+"Machine Learning"
+"ML-Agent"
+"Cloud Build"
+^2D,^UI,^*UIElement,"*TextMesh Pro"
+Particle
+^ECS,^DOTS,"Entity Component System","Data Oriented"
+Export
+"Visual Scripting",Bolt,"without programming"
+Pack
+*Film
+*Monetize
+*Award
+"*How to"
+*Diary
+*Tips
+*Creating
+Demo
+*Procedural
+"*ProBuilder"
+"*Made With"
+"*Make a"
+*Script
+*Physics
+*Design
+*Prefab
+*Audio

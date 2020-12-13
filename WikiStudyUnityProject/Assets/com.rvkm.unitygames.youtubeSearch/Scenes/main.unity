@@ -327,10 +327,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f56c3e095ed34abdc856d4e901f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputStr: PT13M55S
-  totalMins: 0
-  success: 0
-  urlTest: https://www.youtube.com/watch?v=yqCHiZrgKzs&amp;t=1622s
+  inputStr: Writing Your First Shader In Unity - The Vertex Function [4/8] Live 2017/6/21
+  wordComp: shader
+  isWord: 0
 --- !u!4 &2124332765
 Transform:
   m_ObjectHideFlags: 0
